@@ -1,61 +1,65 @@
 {
- "updated": "2026-09-30T11:16:58.670426+00:00",
+ "updated": "2026-09-30T16:54:53.525109+00:00",
  "cards": [
   {
-   "t": "Bitwise launches US spot NEAR ETF amid surging activity",
+   "t": "Bitwise NEAR ETF Launch",
    "s": "building",
    "c": "high",
    "coins": [
     "NEAR"
    ],
-   "b": "Bitwise has launched the first US spot NEAR ETF on NYSE Arca following a massive rally and a surge in cross-chain volume via NEAR Intents, bringing significant institutional access to the token.",
+   "b": "Bitwise has launched the first US spot NEAR ETF on NYSE Arca, opening up regulated traditional brokerage access and staking rewards for the token.",
    "per": {
-    "NEAR": "ETF launch and surging volume via NEAR Intents provide a major fundamental tailwind."
+    "NEAR": "Spot ETF launch and inclusion of staking rewards provides strong institutional on-ramps."
    }
   },
   {
-   "t": "Kakaopay partners with Ondo and Dinari for tokenized Korean stocks",
+   "t": "Cardano Enterprise Adoption in Brazil",
    "s": "building",
    "c": "medium",
    "coins": [
-    "ONDO"
+    "ADA"
    ],
-   "b": "Kakaopay Securities is collaborating with Dinari and Ondo Finance to explore the tokenization of Korean-listed equities, expanding real-world asset (RWA) rails for international investors.",
+   "b": "Brazil's state oil giant Petrobras is testing Cardano in research projects to trace cleaner fuel data and prevent emissions benefits from being counted twice.",
    "per": {
-    "ONDO": "Direct beneficiary of RWA expansion into international equities tokenization."
+    "ADA": "Real-world utility deployment by a major state enterprise offers solid fundamental backing."
    }
   },
   {
-   "t": "Standard Chartered initiates coverage on Ethena's ENA",
-   "s": "building",
-   "c": "medium",
-   "coins": [
-    "ENA"
-   ],
-   "b": "Standard Chartered has initiated coverage on Ethena with predictions of a major price rally, bringing fresh institutional attention to the synthetic dollar protocol.",
-   "per": {
-    "ENA": "Major bank analyst coverage can trigger a narrative shift and retail inflow."
-   }
-  },
-  {
-   "t": "Aztec relaunches zk.money privacy wallet on Ethereum",
+   "t": "Zcash Protocol Upgrades & Privacy Focus",
    "s": "building",
    "c": "medium",
    "coins": [
     "ZEC"
    ],
-   "b": "Aztec Labs has brought back its self-custodial privacy wallet zk.money on the Aztec Network, joining a broader resurgence in privacy tech alongside Zcash protocol upgrades.",
+   "b": "Developers are folding Project Tachyon into Zakura Common to target high-speed private payments, while Gemini deploys new Zakura nodes for faster blocks.",
    "per": {
-    "ZEC": "Reinvigorated focus on blockchain privacy solutions indirectly benefits privacy coins."
+    "ZEC": "Infrastructure improvements and faster node synchronization point to increasing network utility."
    }
   },
   {
-   "t": "Cboe and S&P Dow Jones open door to tokenized options",
+   "t": "Ondo & Kakaopay Tokenized Asian Equities",
    "s": "building",
    "c": "medium",
-   "coins": [],
-   "b": "An extended licensing deal between Cboe and S&P Dow Jones paves the way for tokenized derivatives, marking another step for traditional financial giants moving core infrastructure onchain.",
-   "per": {}
+   "coins": [
+    "ONDO"
+   ],
+   "b": "Kakaopay Securities is collaborating with Dinari and Ondo Finance to explore tokenizing Korean-listed equities for international investors.",
+   "per": {
+    "ONDO": "Expansion into tokenized foreign equities broadens the protocol's real-world asset reach."
+   }
+  },
+  {
+   "t": "XRPL Expands Fund Tokenization",
+   "s": "building",
+   "c": "medium",
+   "coins": [
+    "XRP"
+   ],
+   "b": "A regulated fund operator in Brazil overseeing $4 trillion is mirroring ownership of selected investment funds directly on the XRP Ledger.",
+   "per": {
+    "XRP": "Enterprise adoption for tracking traditional financial fund records strengthens the chain's institutional narrative."
+   }
   }
  ]
 }
