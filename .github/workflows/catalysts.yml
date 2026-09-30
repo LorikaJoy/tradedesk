@@ -1,0 +1,17 @@
+name: catalysts
+on:
+  schedule: [{cron: "*/30 * * * *"}]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 catalysts.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - run: |
+          git config user.name bot && git config user.email bot@users.noreply.github.com
+          git add catalysts.json && (git diff --cached --quiet || git commit -m "update catalysts" && git push)
