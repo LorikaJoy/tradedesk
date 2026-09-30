@@ -1,64 +1,76 @@
 {
- "updated": "2026-09-30T16:54:53.525109+00:00",
+ "updated": "2026-09-30T21:12:35.968746+00:00",
  "cards": [
   {
-   "t": "Bitwise NEAR ETF Launch",
-   "s": "building",
-   "c": "high",
-   "coins": [
-    "NEAR"
-   ],
-   "b": "Bitwise has launched the first US spot NEAR ETF on NYSE Arca, opening up regulated traditional brokerage access and staking rewards for the token.",
-   "per": {
-    "NEAR": "Spot ETF launch and inclusion of staking rewards provides strong institutional on-ramps."
-   }
-  },
-  {
-   "t": "Cardano Enterprise Adoption in Brazil",
+   "t": "Cardano Tapped by Petrobras for Fuel Tracking",
    "s": "building",
    "c": "medium",
    "coins": [
     "ADA"
    ],
-   "b": "Brazil's state oil giant Petrobras is testing Cardano in research projects to trace cleaner fuel data and prevent emissions benefits from being counted twice.",
+   "b": "Brazil's state-owned energy giant Petrobras is testing Cardano-based applications to track sustainable aviation fuel and diesel data, aiming to prevent double-counting of emissions benefits.",
    "per": {
-    "ADA": "Real-world utility deployment by a major state enterprise offers solid fundamental backing."
+    "ADA": "Enterprise adoption validation by a major national oil company offers strong fundamental backing."
    }
   },
   {
-   "t": "Zcash Protocol Upgrades & Privacy Focus",
+   "t": "Bitget Hackers Move Funds to Zcash Private Pool",
    "s": "building",
-   "c": "medium",
+   "c": "high",
    "coins": [
     "ZEC"
    ],
-   "b": "Developers are folding Project Tachyon into Zakura Common to target high-speed private payments, while Gemini deploys new Zakura nodes for faster blocks.",
+   "b": "The exploiters behind the massive Bitget breach have begun routing stolen funds into Zcash's privacy features following blocked swaps on other chains, driving transactional focus to privacy coins.",
    "per": {
-    "ZEC": "Infrastructure improvements and faster node synchronization point to increasing network utility."
+    "ZEC": "On-chain activity spike driven by high-profile fund laundering highlights core privacy utility."
    }
   },
   {
-   "t": "Ondo & Kakaopay Tokenized Asian Equities",
+   "t": "Bitwise Launches US Spot NEAR ETF",
+   "s": "building",
+   "c": "high",
+   "coins": [
+    "NEAR"
+   ],
+   "b": "Bitwise has rolled out the first U.S. spot NEAR ETF on NYSE Arca, capitalizing on strong recent token momentum and expanding network activity across NEAR Intents.",
+   "per": {
+    "NEAR": "Regulated ETF vehicle entry expands institutional accessibility and visibility."
+   }
+  },
+  {
+   "t": "Kakaopay Partners with Ondo and Dinari for Tokenization",
    "s": "building",
    "c": "medium",
    "coins": [
     "ONDO"
    ],
-   "b": "Kakaopay Securities is collaborating with Dinari and Ondo Finance to explore tokenizing Korean-listed equities for international investors.",
+   "b": "Kakaopay Securities is collaborating with Dinari and Ondo Finance to explore the tokenization of Korean-listed equities for international market participants.",
    "per": {
-    "ONDO": "Expansion into tokenized foreign equities broadens the protocol's real-world asset reach."
+    "ONDO": "Real-world asset tokenization narrative continues to secure major international fintech partnerships."
    }
   },
   {
-   "t": "XRPL Expands Fund Tokenization",
+   "t": "Standard Chartered Predicts USDe Scale and ENA Target",
    "s": "building",
    "c": "medium",
    "coins": [
-    "XRP"
+    "ENA"
    ],
-   "b": "A regulated fund operator in Brazil overseeing $4 trillion is mirroring ownership of selected investment funds directly on the XRP Ledger.",
+   "b": "Standard Chartered has issued an aggressive growth outlook for Ethena, projecting USDe scale to reach $40B and ENA to climb toward $2 alongside expanding token buybacks.",
    "per": {
-    "XRP": "Enterprise adoption for tracking traditional financial fund records strengthens the chain's institutional narrative."
+    "ENA": "Institutional bullish forecasts provide structural tailwinds for DeFi yield and synthetic dollar assets."
+   }
+  },
+  {
+   "t": "Base Deploys Cobalt Upgrade for Tokenized Assets",
+   "s": "building",
+   "c": "medium",
+   "coins": [
+    "ETH"
+   ],
+   "b": "Base has completed its Cobalt upgrade, introducing advanced conditional transaction tools and compliance features tailored for tokenized real-world assets and issuers.",
+   "per": {
+    "ETH": "Layer-2 structural upgrades enhance institutional readiness for native asset issuance."
    }
   }
  ]
