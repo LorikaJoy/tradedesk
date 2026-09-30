@@ -1,35 +1,65 @@
 {
- "updated": "2026-09-30T05:05:47.030039Z",
+ "updated": "2026-09-30T05:16:10.559881+00:00",
  "cards": [
   {
-   "t": "BTC in the news (19 headlines)",
+   "t": "Bitwise launches US spot NEAR ETF amid token surge",
    "s": "building",
-   "c": "low",
+   "c": "high",
    "coins": [
-    "BTC"
+    "NEAR"
    ],
-   "b": "Bitcoin rally shows signs of cooling even as a 'bull score' gauge nears its perfect score - A trend guage tracked on onchain analysis firm CryptoQuant is near i",
-   "per": {}
+   "b": "Bitwise has rolled out the first US spot NEAR ETF on NYSE Arca, providing direct brokerage access and staking rewards following a massive multi-month rally.",
+   "per": {
+    "NEAR": "Major structural tailwind from traditional financial product integration and surging volume."
+   }
   },
   {
-   "t": "ETH in the news (9 headlines)",
+   "t": "Cboe and S&P Dow Jones advance tokenized options roadmap",
    "s": "building",
-   "c": "low",
+   "c": "medium",
    "coins": [
-    "ETH"
+    "ONDO"
    ],
-   "b": "Ethereum users get another way to pay privately as zk.money returns after three years - The relaunched wallet hides payments made on the Aztec Network, while de",
-   "per": {}
+   "b": "An extended licensing agreement between Cboe and S&P Dow Jones lays the groundwork for tokenized derivatives, accelerating Wall Street's onchain migration of core index products.",
+   "per": {
+    "ONDO": "Positions institutional-grade tokenization infrastructure providers for increasing adoption."
+   }
   },
   {
-   "t": "XRP in the news (2 headlines)",
+   "t": "Aztec relaunches zk.money for private Ethereum payments",
    "s": "building",
-   "c": "low",
+   "c": "medium",
    "coins": [
-    "XRP"
+    "AZTEC"
    ],
-   "b": "Peter Brandt says Bitcoin may hit $600K by 2029, calls XRP a \u2018fool coin\u2019 - An October pullback could offer a buying opportunity before Bitcoin\u2019s next cycle peak",
-   "per": {}
+   "b": "Aztec Labs has brought back the zk.money self-custodial wallet, offering privacy-preserving stablecoin transactions via readable tags on the Aztec Network.",
+   "per": {
+    "AZTEC": "Revives privacy narrative on Ethereum L2s with direct user-facing tooling."
+   }
+  },
+  {
+   "t": "Kakaopay teams up with Ondo and Dinari for tokenized Korean equities",
+   "s": "building",
+   "c": "medium",
+   "coins": [
+    "ONDO"
+   ],
+   "b": "Kakaopay Securities is collaborating with Dinari and Ondo Finance to explore bringing tokenized Korean-listed stocks to international markets.",
+   "per": {
+    "ONDO": "Expands real-world asset tokenization footprint into Asian equity markets."
+   }
+  },
+  {
+   "t": "Coinbase secures CFTC approval for in-house derivatives clearinghouse",
+   "s": "building",
+   "c": "high",
+   "coins": [
+    "COIN"
+   ],
+   "b": "Coinbase has gained CFTC approval for its US derivatives clearinghouse, allowing the exchange to handle its entire derivatives stack and settle round-the-clock using USDC.",
+   "per": {
+    "COIN": "Strengthens institutional derivatives market positioning and integrated stablecoin utility."
+   }
   }
  ]
 }
