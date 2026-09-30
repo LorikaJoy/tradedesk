@@ -1,0 +1,35 @@
+{
+ "updated": "2026-09-30T05:05:47.030039Z",
+ "cards": [
+  {
+   "t": "BTC in the news (19 headlines)",
+   "s": "building",
+   "c": "low",
+   "coins": [
+    "BTC"
+   ],
+   "b": "Bitcoin rally shows signs of cooling even as a 'bull score' gauge nears its perfect score - A trend guage tracked on onchain analysis firm CryptoQuant is near i",
+   "per": {}
+  },
+  {
+   "t": "ETH in the news (9 headlines)",
+   "s": "building",
+   "c": "low",
+   "coins": [
+    "ETH"
+   ],
+   "b": "Ethereum users get another way to pay privately as zk.money returns after three years - The relaunched wallet hides payments made on the Aztec Network, while de",
+   "per": {}
+  },
+  {
+   "t": "XRP in the news (2 headlines)",
+   "s": "building",
+   "c": "low",
+   "coins": [
+    "XRP"
+   ],
+   "b": "Peter Brandt says Bitcoin may hit $600K by 2029, calls XRP a \u2018fool coin\u2019 - An October pullback could offer a buying opportunity before Bitcoin\u2019s next cycle peak",
+   "per": {}
+  }
+ ]
+}
