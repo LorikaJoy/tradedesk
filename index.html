@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Trade Desk</title>
+<style>
+:root{--bg:#f3f5f9;--panel:#fff;--ink:#141b2d;--mute:#6b7592;--line:#dde2ee;--up:#0f9d6a;--dn:#d6455d;--acc:#2f5bea;--warn:#c98a10;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root:not([data-theme="light"]){}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1020;--panel:#121a2e;--ink:#e4e9f7;--mute:#8592b5;--line:#22304f;--up:#2ee59d;--dn:#ff5c7a;--acc:#6f95ff;--warn:#f0b429}}
+:root[data-theme="dark"]{--bg:#0b1020;--panel:#121a2e;--ink:#e4e9f7;--mute:#8592b5;--line:#22304f;--up:#2ee59d;--dn:#ff5c7a;--acc:#6f95ff;--warn:#f0b429}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 "IBM Plex Sans",system-ui,sans-serif}
+.m{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace}
+header{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line);position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:2}
+h1{font-size:16px;margin:0}.sub{color:var(--mute);font-size:12px}
+main{display:grid;gap:12px;padding:12px;grid-template-columns:1.2fr 1fr;max-width:1200px;margin:auto}
+@media(max-width:800px){main{grid-template-columns:1fr}}
+section{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px;min-width:0}
+h2{font-size:13px;margin:0 0 8px;font-weight:600}
+.full{grid-column:1/-1}
+.card{border:1px solid var(--line);border-radius:8px;padding:10px;margin-bottom:8px}
+.card b{font-size:13px}.tags{display:flex;gap:6px;margin:6px 0;flex-wrap:wrap}
+.tag{font-size:11px;border:1px solid var(--line);border-radius:4px;padding:1px 6px;color:var(--acc)}
+.st{font-size:11px;border-radius:4px;padding:1px 6px;border:1px solid}
+.building{color:var(--up)}.fading{color:var(--dn)}.med{color:var(--warn)}
+.card p{margin:4px 0;color:var(--mute);font-size:13px}
+.wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{text-align:right;padding:6px 8px;border-bottom:1px solid var(--line);white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+th{color:var(--mute);font-weight:500;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+.up{color:var(--up)}.dn{color:var(--dn)}
+.tape{height:260px;overflow:auto}
+.row{display:flex;justify-content:space-between;gap:8px;padding:4px 2px;border-bottom:1px solid var(--line);font-size:12.5px}
+.chip{display:inline-block;padding:2px 8px;border:1px solid var(--line);border-radius:99px;font-size:12px;margin-right:6px;cursor:pointer;background:none;color:var(--ink)}
+.chip.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+button:focus-visible,th:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.note{font-size:11px;color:var(--mute);padding:4px 16px 16px;text-align:center}
+</style></head><body>
+<header><div><h1>Trade Desk</h1><div class="sub">catalyst radar · screener · liq tape</div></div><div class="m sub" id="clock"></div></header>
+<main>
+<section class="full"><h2>Catalysts</h2><div id="cards"></div></section>
+<section class="full"><h2>Screener</h2>
+<div style="margin-bottom:8px" id="filters"></div>
+<div class="wrap"><table><thead><tr id="thead"></tr></thead><tbody id="tbody" class="m"></tbody></table></div></section>
+<section><h2>Liquidation tape</h2><div class="tape m" id="tape"></div></section>
+<section><h2>Positioning (1h)</h2><div class="wrap"><table class="m"><thead><tr><th>Coin</th><th>Long %</th><th>Short %</th><th>OI $B</th><th>OI 1h</th></tr></thead><tbody id="tr"></tbody></table></div></section>
+</main>
+<div class="note">Live from Binance USDT-M futures. Catalyst cards are manual: edit the CARDS array. Not financial advice.</div>
+<script>
+const CARDS=[
+{t:"SEC openness to ZK-based KYC",s:"building",c:"medium",coins:["WLD","AZTEC"],b:"Commissioner Peirce argued KYC/AML should move from mass data collection to zero-knowledge proofs. World ID is the most liquid token-linked ZK identity product.",per:{WLD:"Largest live ZK proof-of-personhood product. Volume 2x normal, funding neutral.",AZTEC:"ZK privacy L2, fits the theme less directly. Thin perp volume."}},
+{t:"BTC ETF inflow streak",s:"building",c:"high",coins:["BTC","ETH"],b:"Spot ETF flows positive for several sessions; funding still mild, so leverage is not stretched yet.",per:{BTC:"Watch for funding above 0.03% as a crowding signal.",ETH:"Lagging BTC; ratio breakout would confirm rotation."}},
+{t:"SOL upgrade hype",s:"fading",c:"low",coins:["SOL"],b:"Headline is two days old, open interest already rolling over.",per:{SOL:"OI down while price flat: late longs exiting."}}];
+const COLS=[["sym","Symbol"],["px","Price"],["chg","24h %"],["vol","Vol $M"],["fund","Funding %"],["vx","Vol x 7d avg"]];
+let ROWS=[],AVG={},sort={k:"vol",d:-1},flt="all",MIN=2000;
+const FAPI="https://fapi.binance.com";
+const $=id=>document.getElementById(id),f=(n,d=2)=>Number(n).toLocaleString(undefined,{maximumFractionDigits:d});
+const status=t=>$("clock").textContent=t;
+async function j(p){const r=await fetch(FAPI+p);if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}
+let LIVE=CARDS,UPD="";
+function sig(sym){const r=ROWS.find(x=>x.sym==sym);if(!r)return'<span class="tag m" style="color:var(--mute)">no perp</span>';
+if(r.fund>0.03)return `<span class="tag m dn">CROWDED f ${f(r.fund,3)}%</span>`;
+if(Math.abs(r.chg)>=8)return `<span class="tag m dn">LATE ${r.chg>0?"+":""}${f(r.chg,1)}%</span>`;
+if(r.vx>=1.5)return `<span class="tag m up">EARLY vol ${f(r.vx,1)}x px ${r.chg>0?"+":""}${f(r.chg,1)}%</span>`;
+return `<span class="tag m" style="color:var(--mute)">quiet</span>`}
+function cards(){$("cards").innerHTML=(UPD?`<div class="sub" style="margin-bottom:6px">auto-updated ${UPD}</div>`:"")+LIVE.map(c=>`<div class="card"><b>${c.t}</b> <span class="st ${c.s}">${c.s}</span> <span class="st med" style="color:var(--mute)">${c.c}</span><div class="tags">${c.coins.map(x=>`<span class="tag m">${x}</span>${sig(x)}`).join("")}</div><p>${c.b}</p>${Object.entries(c.per||{}).map(([k,v])=>`<p><b class="m">${k}:</b> ${v}</p>`).join("")}</div>`).join("")}
+async function loadCat(){try{const r=await fetch("catalysts.json?t="+Date.now());if(r.ok){const d=await r.json();if(d.cards&&d.cards.length){LIVE=d.cards;UPD=new Date(d.updated).toLocaleString([], {hour12:false})}}}catch(e){}cards()}
+$("filters").innerHTML=[["all","All"],["hot","Vol > 1.5x"],["gain","Gainers"],["lose","Losers"]].map(([k,l])=>`<button class="chip ${k==flt?"on":""}" data-k="${k}">${l}</button>`).join("");
+$("filters").onclick=e=>{const k=e.target.dataset.k;if(k){flt=k;$("filters").querySelectorAll(".chip").forEach(b=>b.classList.toggle("on",b.dataset.k==k));draw()}};
+$("thead").innerHTML=COLS.map(([k,l])=>`<th tabindex="0" data-k="${k}">${l}</th>`).join("");
+$("thead").onclick=e=>{const k=e.target.dataset.k;if(!k)return;sort={k,d:sort.k==k?-sort.d:-1};draw()};
+function draw(){let r=ROWS.filter(x=>flt=="all"||(flt=="hot"&&x.vx>1.5)||(flt=="gain"&&x.chg>0)||(flt=="lose"&&x.chg<0));
+r.sort((a,b)=>(a[sort.k]>b[sort.k]?1:-1)*sort.d);
+$("tbody").innerHTML=r.map(x=>`<tr><td><b>${x.sym}</b></td><td>${f(x.px,x.px<10?4:2)}</td><td class="${x.chg>=0?"up":"dn"}">${x.chg>=0?"+":""}${f(x.chg,1)}</td><td>${f(x.vol,1)}</td><td class="${x.fund>0.02?"dn":""}">${f(x.fund,4)}</td><td class="${x.vx>1.5?"up":""}">${x.vx?f(x.vx,1)+"x":"..."}</td></tr>`).join("");cards()}
+async function loadAvg(syms){for(const s of syms){if(AVG[s]&&Date.now()-AVG[s].t<3e5)continue;try{const k=await j(`/fapi/v1/klines?symbol=${s}&interval=1d&limit=8`);const p=k.slice(0,-1).map(x=>+x[7]);AVG[s]={a:p.reduce((a,b)=>a+b,0)/p.length,t:Date.now()}}catch(e){}}}
+async function refresh(){try{
+const [tk,pi]=await Promise.all([j("/fapi/v1/ticker/24hr"),j("/fapi/v1/premiumIndex")]);
+const fm={};pi.forEach(x=>fm[x.symbol]=+x.lastFundingRate*100);
+const top=tk.filter(x=>/USDT$/.test(x.symbol)).sort((a,b)=>b.quoteVolume-a.quoteVolume).slice(0,40);
+const build=()=>{ROWS=top.map(x=>({sym:x.symbol.replace("USDT",""),px:+x.lastPrice,chg:+x.priceChangePercent,vol:x.quoteVolume/1e6,fund:fm[x.symbol]??0,vx:AVG[x.symbol]?x.quoteVolume/AVG[x.symbol].a:0}));draw()};
+build();status("live "+new Date().toLocaleTimeString([], {hour12:false}));
+loadAvg(top.map(x=>x.symbol)).then(build)}catch(e){status("offline: "+e.message)}}
+async function pos(){const S=["BTC","ETH","SOL","BNB","XRP","DOGE"];
+const o=await Promise.all(S.map(async c=>{try{const s=c+"USDT";const [ls,oi]=await Promise.all([j(`/futures/data/globalLongShortAccountRatio?symbol=${s}&period=1h&limit=1`),j(`/futures/data/openInterestHist?symbol=${s}&period=1h&limit=2`)]);const n=+oi[1].sumOpenInterestValue,p=+oi[0].sumOpenInterestValue;return `<tr><td>${c}</td><td class="up">${f(ls[0].longAccount*100,1)}</td><td class="dn">${f(ls[0].shortAccount*100,1)}</td><td>${f(n/1e9,2)}</td><td class="${n>=p?"up":"dn"}">${f((n/p-1)*100,1)}%</td></tr>`}catch(e){return ""}}));
+$("tr").innerHTML=o.join("")}
+function addLiq(sym,long,n){const d=document.createElement("div");d.className="row";if(n>1e5)d.style.fontWeight=700;
+d.innerHTML=`<span>${new Date().toLocaleTimeString([], {hour12:false})} <b>${sym}</b></span><span class="${long?"dn":"up"}">${long?"long":"short"} liq</span><span>$${f(n,0)}</span>`;
+const t=$("tape");t.prepend(d);while(t.children.length>80)t.lastChild.remove()}
+function ws(){const w=new WebSocket("wss://fstream.binance.com/ws/!forceOrder@arr");
+w.onmessage=m=>{const o=(JSON.parse(m.data)||{}).o;if(!o)return;const n=+o.ap*+o.z;if(n>=MIN)addLiq(o.s.replace("USDT",""),o.S=="SELL",n)};
+w.onclose=()=>setTimeout(ws,3000)}
+loadCat();setInterval(loadCat,300000);refresh();pos();ws();setInterval(refresh,10000);setInterval(pos,120000);
+</script></body></html>
