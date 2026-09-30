@@ -19,9 +19,17 @@ Return ONLY a JSON array of at most 6 objects: {"t":short title,"s":"building" o
 Prefer fresh, under-covered narratives with a clear link to a specific token. Skip noise and price predictions. No markdown.
 Headlines:
 """
+def pick():
+    k=os.environ["GEMINI_API_KEY"]
+    r=json.loads(get("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200&key="+k))
+    ms=[x["name"].split("/")[-1] for x in r.get("models",[]) if "generateContent" in x.get("supportedGenerationMethods",[])]
+    ms=[m for m in ms if "flash" in m and not re.search("tts|live|image|audio|transcribe|robot|omni|preview|exp|thinking|native|computer|latest",m)]
+    ver=lambda m:tuple(int(n) for n in (re.search(r"(\d+)\.(\d+)",m) or [0,0,0]).groups()) if re.search(r"(\d+)\.(\d+)",m) else (0,0)
+    ms.sort(key=lambda m:(0 if "lite" in m else 1,tuple(-n for n in ver(m))))
+    print("models:",ms[:5]);return ms[:4]
 def llm(hl):
     body=json.dumps({"contents":[{"parts":[{"text":PROMPT+"\n".join(hl)}]}],"generationConfig":{"responseMimeType":"application/json"}}).encode()
-    for m in ("gemini-2.5-flash-lite","gemini-2.5-flash"):
+    for m in pick():
         try:
             u=f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent?key="+os.environ["GEMINI_API_KEY"]
             r=json.loads(get(u,body,{"content-type":"application/json"}))
@@ -38,5 +46,5 @@ def fallback(hl):
 hl=headlines();print(len(hl),"headlines")
 try:cards=llm(hl) if os.environ.get("GEMINI_API_KEY") else fallback(hl)
 except Exception as e:print("llm fail",e);cards=fallback(hl)
-if cards:json.dump({"updated":datetime.datetime.utcnow().isoformat()+"Z","cards":cards},open("catalysts.json","w"),indent=1)
+if cards:json.dump({"updated":datetime.datetime.now(datetime.timezone.utc).isoformat(),"cards":cards},open("catalysts.json","w"),indent=1)
 print(len(cards),"cards")
