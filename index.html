@@ -40,6 +40,7 @@ button:focus-visible,th:focus-visible{outline:2px solid var(--acc);outline-offse
 <header><div><h1>Trade Desk</h1><div class="sub">catalyst radar · screener · liq tape</div></div><div class="m sub" id="clock"></div></header>
 <main>
 <section class="full"><h2>Catalysts</h2><div id="cards"></div></section>
+<section class="full"><h2>Signal log <span class="sub">A/B setups tracked from the moment they fired (long bias, saved in this browser)</span></h2><div id="slog"></div></section>
 <section class="full"><h2>Screener</h2>
 <div style="margin-bottom:8px" id="filters"></div>
 <div class="wrap"><table><thead><tr id="thead"></tr></thead><tbody id="tbody" class="m"></tbody></table></div></section>
@@ -64,7 +65,25 @@ if(r.fund>0.03)return `<span class="tag m dn">CROWDED f ${f(r.fund,3)}%</span>`;
 if(Math.abs(r.chg)>=8)return `<span class="tag m dn">LATE ${r.chg>0?"+":""}${f(r.chg,1)}%</span>`;
 if(r.vx>=1.5)return `<span class="tag m up">EARLY vol ${f(r.vx,1)}x px ${r.chg>0?"+":""}${f(r.chg,1)}%</span>`;
 return `<span class="tag m" style="color:var(--mute)">quiet</span>`}
-function cards(){$("cards").innerHTML=(UPD?`<div class="sub" style="margin-bottom:6px">auto-updated ${UPD}</div>`:"")+LIVE.map(c=>`<div class="card"><b>${c.t}</b> <span class="st ${c.s}">${c.s}</span> <span class="st med" style="color:var(--mute)">${c.c}</span><div class="tags">${c.coins.map(x=>`<span class="tag m">${x}</span>${sig(x)}`).join("")}</div><p>${c.b}</p>${Object.entries(c.per||{}).map(([k,v])=>`<p><b class="m">${k}:</b> ${v}</p>`).join("")}</div>`).join("")}
+function score(sym,c){const r=ALLR.find(x=>x.sym==sym);if(!r)return null;let s=0,w=[];
+s+={high:25,medium:15,low:5}[c.c]||5;
+if(c.s=="building")s+=10;else{s-=15;w.push("fading")}
+if(r.vx>=2){s+=25;w.push("vol "+f(r.vx,1)+"x")}else if(r.vx>=1.5){s+=18;w.push("vol "+f(r.vx,1)+"x")}else if(r.vx>=1.2)s+=8;else if(r.vx&&r.vx<.8){s-=5;w.push("low vol")}
+const a=Math.abs(r.chg);if(a<3)s+=20;else if(a<5)s+=12;else if(a>=8){s-=25;w.push("already moved "+f(r.chg,1)+"%")}
+if(r.fund>0.05){s-=30;w.push("crowded")}else if(r.fund>0.03){s-=20;w.push("crowded")}else if(r.fund>=-0.01&&r.fund<=0.02)s+=15;
+if(r.vol>=50)s+=5;else if(r.vol<5){s-=15;w.push("thin")}
+s=Math.max(0,Math.min(100,s));if(a>=8||r.fund>0.03)s=Math.min(s,40);
+return {s,g:s>=75?"A":s>=60?"B":s>=45?"C":"skip",w:w.join(", "),r}}
+function chip(x,c){const q=score(x,c);if(!q)return"";const col=q.g=="A"?"var(--up)":q.g=="B"?"var(--acc)":q.g=="C"?"var(--warn)":"var(--dn)";return `<span class="tag m" style="font-weight:700;color:${col}" title="${q.w}">${q.g} ${q.s}</span>`}
+function slogGet(){try{return JSON.parse(localStorage.getItem("sig")||"[]")}catch(e){return[]}}
+function trackSignals(){const L=slogGet(),now=Date.now();let ch=false;
+LIVE.forEach(c=>c.coins.forEach(x=>{const q=score(x,c);if(q&&(q.g=="A"||q.g=="B")&&!L.some(y=>y.sym==x&&now-y.t<864e5)){L.push({sym:x,t:now,px:q.r.px,s:q.s,g:q.g});ch=true}}));
+if(ch)try{localStorage.setItem("sig",JSON.stringify(L.slice(-100)))}catch(e){}
+const rows=L.slice().reverse().map(y=>{const r=ALLR.find(z=>z.sym==y.sym);const m=r?(r.px/y.px-1)*100:null;const h=(now-y.t)/36e5;return {y,m,h}});
+const old=rows.filter(o=>o.h>=4&&o.m!=null),win=old.filter(o=>o.m>0).length;
+const st=old.length?`${old.length} signals older than 4h: ${f(win/old.length*100,0)}% up, avg ${f(old.reduce((a,o)=>a+o.m,0)/old.length,2)}%${old.length<20?" (too few to trust, need 20+)":""}`:"No signals old enough to judge yet.";
+$("slog").innerHTML=`<div class="sub" style="margin-bottom:6px">${st}</div><div class="wrap"><table class="m"><thead><tr><th>Coin</th><th>Grade</th><th>Entry</th><th>Now</th><th>Move %</th><th>Age</th></tr></thead><tbody>`+(rows.slice(0,15).map(o=>`<tr><td>${o.y.sym}</td><td>${o.y.g} ${o.y.s}</td><td>${f(o.y.px,o.y.px<10?4:2)}</td><td>${o.m==null?"-":f(o.y.px*(1+o.m/100),o.y.px<10?4:2)}</td><td class="${o.m>=0?"up":"dn"}">${o.m==null?"-":(o.m>=0?"+":"")+f(o.m,2)}</td><td>${o.h<1?Math.round(o.h*60)+"m":f(o.h,1)+"h"}</td></tr>`).join("")||'<tr><td colspan="6">Nothing yet. Only A and B setups get logged.</td></tr>')+"</tbody></table></div>"}
+function cards(){$("cards").innerHTML=(UPD?`<div class="sub" style="margin-bottom:6px">auto-updated ${UPD}</div>`:"")+LIVE.map(c=>`<div class="card"><b>${c.t}</b> <span class="st ${c.s}">${c.s}</span> <span class="st med" style="color:var(--mute)">${c.c}</span><div class="tags">${c.coins.map(x=>`<span class="tag m">${x}</span>${sig(x)}${chip(x,c)}`).join("")}</div><p>${c.b}</p>${Object.entries(c.per||{}).map(([k,v])=>`<p><b class="m">${k}:</b> ${v}</p>`).join("")}</div>`).join("");trackSignals()}
 async function loadCat(){try{const r=await fetch("catalysts.json?t="+Date.now());if(r.ok){const d=await r.json();if(d.cards&&d.cards.length){LIVE=d.cards;UPD=new Date(d.updated).toLocaleString([], {hour12:false})}}}catch(e){}cards()}
 $("filters").innerHTML=[["all","All"],["hot","Vol > 1.5x"],["gain","Gainers"],["lose","Losers"]].map(([k,l])=>`<button class="chip ${k==flt?"on":""}" data-k="${k}">${l}</button>`).join("");
 $("filters").onclick=e=>{const k=e.target.dataset.k;if(k){flt=k;$("filters").querySelectorAll(".chip").forEach(b=>b.classList.toggle("on",b.dataset.k==k));draw()}};
@@ -87,7 +106,7 @@ $("tr").innerHTML=o.join("")}
 function addLiq(sym,long,n){const d=document.createElement("div");d.className="row";if(n>1e5)d.style.fontWeight=700;
 d.innerHTML=`<span>${new Date().toLocaleTimeString([], {hour12:false})} <b>${sym}</b></span><span class="${long?"dn":"up"}">${long?"long":"short"} liq</span><span>$${f(n,0)}</span>`;
 const t=$("tape");t.prepend(d);while(t.children.length>80)t.lastChild.remove()}
-function ws(){const w=new WebSocket("wss://fstream.binance.com/ws/!forceOrder@arr");w.onopen=()=>$("wsst").textContent="connected, waiting for liqs (min $"+MIN+")";w.onerror=()=>$("wsst").textContent="blocked or error";
+function ws(){const w=new WebSocket("wss://fstream.binance.com/market/ws/!forceOrder@arr");w.onopen=()=>$("wsst").textContent="connected, waiting for liqs (min $"+MIN+")";w.onerror=()=>$("wsst").textContent="blocked or error";
 w.onmessage=m=>{const o=(JSON.parse(m.data)||{}).o;if(!o)return;const n=+o.ap*+o.z;if(n>=MIN)addLiq(o.s.replace("USDT",""),o.S=="SELL",n)};
 w.onclose=()=>{$("wsst").textContent="disconnected, retrying";setTimeout(ws,3000)}}
 loadCat();setInterval(loadCat,300000);refresh();pos();ws();setInterval(refresh,10000);setInterval(pos,120000);
