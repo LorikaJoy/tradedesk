@@ -1,6 +1,6 @@
 name: catalysts
 on:
-  schedule: [{cron: "*/30 * * * *"}]
+  schedule: [{cron: "*/15 * * * *"}]
   workflow_dispatch:
 permissions:
   contents: write
