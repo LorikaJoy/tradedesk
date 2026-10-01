@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-01T10:30:45.091613+00:00",
+ "updated": "2026-10-01T17:06:16.492771+00:00",
  "cards": [
   {
-   "t": "Bitwise Launches First Spot NEAR ETF on NYSE Arca",
+   "t": "Bitwise Rolls Out First Spot NEAR ETF on NYSE Arca",
    "type": "etf",
    "impact": 9,
    "s": "building",
@@ -10,13 +10,13 @@
    "coins": [
     "NEAR"
    ],
-   "b": "Bitwise has officially rolled out the first spot NEAR ETF on NYSE Arca, opening direct institutional access and driving major inflows into the asset.",
+   "b": "Bitwise launched the first spot NEAR ETF on NYSE Arca, driving strong institutional inflows and crossing $52.8 million in threshold volume by day two.",
    "per": {
-    "NEAR": "Major institutional tailwind from the first spot ETF launch on NYSE Arca, driving immediate market attention and liquidity."
+    "NEAR": "Major institutional onramp via ETF launch provides a strong catalyst for spot demand."
    }
   },
   {
-   "t": "Concrete Token Hits Coinbase and OKX with Controlled Price Auctions",
+   "t": "Binance Futures to Launch USD\u24c8-Margined CTUSDT Perpetual Contract",
    "type": "listing",
    "impact": 9,
    "s": "building",
@@ -24,9 +24,39 @@
    "coins": [
     "CT"
    ],
-   "b": "Concrete (CT) is launching on Coinbase and OKX with structured price auctions, providing massive initial spot exposure and liquidity.",
+   "b": "Binance Futures announced the launch of the USD\u24c8-Margined CTUSDT perpetual contract, bringing increased leverage and liquidity to the token.",
    "per": {
-    "CT": "Tier-1 exchange availability on Coinbase and OKX creates immediate price discovery and strong volume pressure."
+    "CT": "Futures listings on Binance typically drive heightened volatility and speculative trading volume."
+   }
+  },
+  {
+   "t": "CME Group to Launch Bitcoin Cash and Uniswap Futures",
+   "type": "listing",
+   "impact": 9,
+   "s": "building",
+   "c": "medium",
+   "coins": [
+    "BCH",
+    "UNI"
+   ],
+   "b": "CME Group is expanding its regulated derivatives offerings by launching Bitcoin Cash and Uniswap futures contracts.",
+   "per": {
+    "UNI": "Regulated futures on CME open the door for more institutional capital allocation.",
+    "BCH": "Institutional product expansion enhances market legitimacy and derivatives liquidity."
+   }
+  },
+  {
+   "t": "Grayscale Sets Competitive 0.29% Hyperliquid ETF Fee",
+   "type": "etf",
+   "impact": 8,
+   "s": "building",
+   "c": "medium",
+   "coins": [
+    "HYPE"
+   ],
+   "b": "Grayscale has aggressively undercut competitors by setting a 0.29% fee for its Hyperliquid ETF, positioning the product for wider institutional capture.",
+   "per": {
+    "HYPE": "Fee positioning signals imminent product push and potential inflows for the underlying token."
    }
   }
  ]
