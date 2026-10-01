@@ -1,5 +1,5 @@
 import json,os,re,time,datetime,urllib.request,xml.etree.ElementTree as ET
-FEEDS=["https://www.coindesk.com/arc/outboundfeeds/rss/","https://cointelegraph.com/rss","https://decrypt.co/feed","https://www.theblock.co/rss.xml",
+FEEDS=["https://news.google.com/rss/search?q=Binance+OR+Coinbase+OR+Upbit+OR+Bybit+listing+token+when:1d&hl=en-US&gl=US&ceid=US:en","https://news.google.com/rss/search?q=crypto+ETF+approval+OR+launch+OR+filing+when:1d&hl=en-US&gl=US&ceid=US:en","https://www.coindesk.com/arc/outboundfeeds/rss/","https://cointelegraph.com/rss","https://decrypt.co/feed","https://www.theblock.co/rss.xml",
 "https://news.google.com/rss/search?q=SEC+OR+ETF+OR+crypto+regulation+when:1d&hl=en-US&gl=US&ceid=US:en"]
 def get(u,data=None,h=None):
     r=urllib.request.Request(u,data=data,headers=h or {"User-Agent":"Mozilla/5.0"})
@@ -13,10 +13,14 @@ def headlines():
                 if t:out.append(f"{t} - {d}")
                 if len(out)>=200:break
         except Exception as e:print("feed fail",u,e)
-    return list(dict.fromkeys(out))[:70]
-PROMPT="""You scan crypto/macro headlines for tradable catalysts on Binance USDT perps, aimed at catching a narrative BEFORE the crowd.
-Return ONLY a JSON array of at most 6 objects: {"t":short title,"s":"building" or "fading","c":"low"|"medium"|"high" confidence,"coins":[tickers like WLD],"b":1-2 sentence why it matters,"per":{ticker:one-line take}}.
-Prefer fresh, under-covered narratives with a clear link to a specific token. Skip noise and price predictions. No markdown.
+    return list(dict.fromkeys(out))[:90]
+PROMPT="""You are a STRICT crypto catalyst filter for a trader who only wants high-impact, tradable events and zero noise.
+Return ONLY a JSON array (it may be empty: []) of at most 5 objects:
+{"t":short title,"type":"listing"|"etf"|"regulation"|"unlock"|"hack"|"partnership"|"mainnet"|"treasury"|"burn"|"other","impact":integer 1-10,"s":"building"|"fading","c":"low"|"medium"|"high","coins":[tickers like WLD],"b":1-2 sentences why it moves this token,"per":{ticker:one-line take}}
+INCLUDE only events that can move a specific token's price within hours: listings on top exchanges (Binance, Coinbase, Upbit, Bybit), spot ETF approvals/launches tied to a named token, regulatory decisions naming a token, large unlocks or burns, hacks/exploits, big-company partnerships or treasury purchases naming the token, mainnet/upgrade launches with a date.
+IMPACT: 9-10 = Binance/Coinbase/Upbit listing, ETF approval or launch, major hack, large treasury buy. 7-8 = clear partnership or upgrade with a named token. Anything below 7: leave it out.
+EXCLUDE: price predictions, analyst opinions, market recaps, opinion pieces, macro talk with no token, stories older than 24h, conferences, rumors with no named source, generic BTC/ETH price commentary.
+Prefer stories covered by several headlines. If nothing qualifies return [].
 Headlines:
 """
 def pick():
@@ -44,7 +48,10 @@ def fallback(hl):
         if len(m)>=2:cards.append({"t":f"{k} in the news ({len(m)} headlines)","s":"building","c":"low","coins":[k],"b":m[0][:160],"per":{}})
     return sorted(cards,key=lambda c:-int(re.search(r"\((\d+)",c["t"]).group(1)))[:6]
 hl=headlines();print(len(hl),"headlines")
-try:cards=llm(hl) if os.environ.get("GEMINI_API_KEY") else fallback(hl)
-except Exception as e:print("llm fail",e);cards=fallback(hl)
-if cards:json.dump({"updated":datetime.datetime.now(datetime.timezone.utc).isoformat(),"cards":cards},open("catalysts.json","w"),indent=1)
-print(len(cards),"cards")
+if not os.environ.get("GEMINI_API_KEY"):
+    print("no GEMINI_API_KEY, keeping previous file");raise SystemExit
+try:cards=llm(hl)
+except Exception as e:print("llm fail, keeping previous file:",e);raise SystemExit
+cards=[c for c in cards if isinstance(c,dict) and c.get("coins") and int(c.get("impact",0))>=7][:5]
+json.dump({"updated":datetime.datetime.now(datetime.timezone.utc).isoformat(),"cards":cards},open("catalysts.json","w"),indent=1)
+print(len(cards),"high-impact cards")
