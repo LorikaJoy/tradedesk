@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-01T17:06:16.492771+00:00",
+ "updated": "2026-10-01T21:48:44.814052+00:00",
  "cards": [
   {
    "t": "Bitwise Rolls Out First Spot NEAR ETF on NYSE Arca",
@@ -10,9 +10,25 @@
    "coins": [
     "NEAR"
    ],
-   "b": "Bitwise launched the first spot NEAR ETF on NYSE Arca, driving strong institutional inflows and crossing $52.8 million in threshold volume by day two.",
+   "b": "The launch of the first spot NEAR ETF on NYSE Arca brings direct institutional capital inflows into NEAR, driving significant market momentum.",
    "per": {
-    "NEAR": "Major institutional onramp via ETF launch provides a strong catalyst for spot demand."
+    "NEAR": "Spot ETF rollout provides strong institutional demand and immediate price tailwinds."
+   }
+  },
+  {
+   "t": "CME Group Launches Bitcoin Cash and Uniswap Futures",
+   "type": "listing",
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "coins": [
+    "BCH",
+    "UNI"
+   ],
+   "b": "Regulated futures listings by CME Group expand institutional access and derivatives liquidity for Bitcoin Cash and Uniswap.",
+   "per": {
+    "UNI": "CME futures listing opens the door for institutional hedging and capital inflows.",
+    "BCH": "Derivatives expansion on CME enhances market legitimacy and trading volume."
    }
   },
   {
@@ -24,39 +40,23 @@
    "coins": [
     "CT"
    ],
-   "b": "Binance Futures announced the launch of the USD\u24c8-Margined CTUSDT perpetual contract, bringing increased leverage and liquidity to the token.",
+   "b": "Perpetual contract listings on Binance Futures significantly increase leverage availability, market visibility, and speculative volume.",
    "per": {
-    "CT": "Futures listings on Binance typically drive heightened volatility and speculative trading volume."
+    "CT": "Binance perpetual listing creates immediate volatility and high-volume trading opportunities."
    }
   },
   {
-   "t": "CME Group to Launch Bitcoin Cash and Uniswap Futures",
-   "type": "listing",
+   "t": "NEAR Intents Hacked for $3.8 Million",
+   "type": "hack",
    "impact": 9,
-   "s": "building",
-   "c": "medium",
+   "s": "fading",
+   "c": "high",
    "coins": [
-    "BCH",
-    "UNI"
+    "NEAR"
    ],
-   "b": "CME Group is expanding its regulated derivatives offerings by launching Bitcoin Cash and Uniswap futures contracts.",
+   "b": "A multi-million dollar exploit on NEAR Intents creates short-term FUD and security concerns surrounding ecosystem protocols.",
    "per": {
-    "UNI": "Regulated futures on CME open the door for more institutional capital allocation.",
-    "BCH": "Institutional product expansion enhances market legitimacy and derivatives liquidity."
-   }
-  },
-  {
-   "t": "Grayscale Sets Competitive 0.29% Hyperliquid ETF Fee",
-   "type": "etf",
-   "impact": 8,
-   "s": "building",
-   "c": "medium",
-   "coins": [
-    "HYPE"
-   ],
-   "b": "Grayscale has aggressively undercut competitors by setting a 0.29% fee for its Hyperliquid ETF, positioning the product for wider institutional capture.",
-   "per": {
-    "HYPE": "Fee positioning signals imminent product push and potential inflows for the underlying token."
+    "NEAR": "Protocol exploit introduces immediate downside risk and tests market support levels."
    }
   }
  ]
