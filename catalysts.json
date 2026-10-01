@@ -1,76 +1,76 @@
 {
- "updated": "2026-10-01T00:40:30.457410+00:00",
+ "updated": "2026-10-01T06:50:28.648489+00:00",
  "cards": [
   {
-   "t": "Petrobras Tests Cardano for Fuel Tracking",
+   "t": "Standard Chartered targets $40B USDe and $2 ENA",
    "s": "building",
-   "c": "medium",
+   "c": "high",
    "coins": [
-    "ADA"
+    "ENA"
    ],
-   "b": "Brazil's state-owned oil giant Petrobras is utilizing Cardano in two research projects to trace sustainable aviation fuel and renewable diesel data, preventing dual-counting of emission benefits.",
+   "b": "Institutional backing from major banks like Standard Chartered provides fundamental validation for structured yield products and their native tokens.",
    "per": {
-    "ADA": "Enterprise-level adoption by a major South American multinational provides a fundamental validation catalyst."
+    "ENA": "Primed for major structural upside if institutional adoption matches bank projections."
    }
   },
   {
-   "t": "Kakaopay Explores Tokenizing Korean Equities with Ondo and Dinari",
-   "s": "building",
-   "c": "medium",
-   "coins": [
-    "ONDO"
-   ],
-   "b": "Kakaopay Securities is actively collaborating with Dinari and Ondo Finance to explore bringing tokenized Korean-listed equities to global international markets.",
-   "per": {
-    "ONDO": "Positions ONDO directly at the center of institutional real-world asset (RWA) expansion into Asian equities."
-   }
-  },
-  {
-   "t": "Bitwise Launches First U.S. Spot NEAR ETF",
+   "t": "Bitwise launches first US spot NEAR ETF",
    "s": "building",
    "c": "high",
    "coins": [
     "NEAR"
    ],
-   "b": "Bitwise has rolled out the first U.S. spot NEAR ETF on NYSE Arca, capitalizing on a broader token rally and growing adoption of NEAR Intents.",
+   "b": "Spot ETF approvals bridge traditional capital directly into specific altcoin ecosystems, driving major volume and accessibility.",
    "per": {
-    "NEAR": "Wall Street ETF inclusion opens up traditional institutional capital inflow channels directly for the token."
+    "NEAR": "Benefiting from a massive tailwind following a 160% rally and the fresh ETF launch."
    }
   },
   {
-   "t": "Bitget Hacker Moves Stolen Funds Into Zcash Privacy Pool",
+   "t": "Petrobras taps Cardano for sustainable fuel tracking",
+   "s": "building",
+   "c": "medium",
+   "coins": [
+    "ADA"
+   ],
+   "b": "Real-world enterprise adoption by state-backed energy giants validates underlying chain utility outside of pure speculation.",
+   "per": {
+    "ADA": "Enterprise integration provides steady fundamental backing despite broader market choppiness."
+   }
+  },
+  {
+   "t": "Bitget hacker moves stolen funds to Zcash private pool",
    "s": "building",
    "c": "medium",
    "coins": [
     "ZEC"
    ],
-   "b": "Following a major security breach, the Bitget attacker has routed millions in stolen assets into Zcash's Ironwood privacy pool after facing rejections elsewhere.",
+   "b": "On-chain movement of stolen funds into privacy pools increases protocol volume and thrusts privacy-centric assets back into the spotlight.",
    "per": {
-    "ZEC": "Brings heavy volume and intense focus back to Zcash's privacy features and decentralized utility."
+    "ZEC": "Experiencing heightened transaction flows and narrative attention via the exploit fallout."
    }
   },
   {
-   "t": "DogeOS Public Testnet Opens for Meme Coin Utility",
-   "s": "building",
-   "c": "low",
-   "coins": [
-    "DOGE"
-   ],
-   "b": "The MyDoge wallet team has opened a public testnet for DogeOS, a custom layer designed to allow developers to build lending markets and games directly on top of the network.",
-   "per": {
-    "DOGE": "Shifts narrative slightly from pure payment speculation toward fundamental application layer development."
-   }
-  },
-  {
-   "t": "Standard Chartered Forecasts Massive USDe Scale and ENA Rally",
+   "t": "DogeOS public testnet launches app layer for Dogecoin",
    "s": "building",
    "c": "medium",
    "coins": [
-    "ENA"
+    "DOGE"
    ],
-   "b": "Standard Chartered issued a bullish long-term outlook predicting Ethena's USDe supply to reach $40 billion and ENA to scale higher alongside increased buybacks.",
+   "b": "Expanding meme coin utility into DeFi and gaming testnets attempts to transform legacy speculative assets into active platform ecosystems.",
    "per": {
-    "ENA": "Institutional macroeconomic backing provides structural validation for forward-looking derivative traders."
+    "DOGE": "Testnet launch gives bulls a fundamental narrative catalyst beyond pure payment use cases."
+   }
+  },
+  {
+   "t": "Kakaopay partners with Dinari and Ondo for tokenized Korean stocks",
+   "s": "building",
+   "c": "medium",
+   "coins": [
+    "ONDO"
+   ],
+   "b": "Cross-border tokenization partnerships between fintech giants and RWA protocols expand real-world asset distribution rails.",
+   "per": {
+    "ONDO": "Solidifies its position at the forefront of global real-world asset tokenization expansion."
    }
   }
  ]
