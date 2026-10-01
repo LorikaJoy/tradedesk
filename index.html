@@ -57,7 +57,7 @@ button:focus-visible,th:focus-visible{outline:2px solid var(--acc);outline-offse
 <section><h2>Liquidation tape <span class="sub" id="wsst">connecting...</span></h2><div class="tape m" id="tape"></div></section>
 <section><h2>Positioning (1h)</h2><div class="wrap"><table class="m"><thead><tr><th>Coin</th><th>Long %</th><th>Short %</th><th>OI $B</th><th>OI 1h</th></tr></thead><tbody id="tr"></tbody></table></div></section>
 </main>
-<div class="note">Live from Binance USDT-M futures. Catalyst cards are manual: edit the CARDS array. Not financial advice.</div>
+<div class="note">Live from Bybit perps (falls back to Binance if blocked). Catalyst cards are manual: edit the CARDS array. Not financial advice.</div>
 <script>
 const CARDS=[
 {t:"SEC openness to ZK-based KYC",s:"building",c:"medium",coins:["WLD","AZTEC"],b:"Commissioner Peirce argued KYC/AML should move from mass data collection to zero-knowledge proofs. World ID is the most liquid token-linked ZK identity product.",per:{WLD:"Largest live ZK proof-of-personhood product. Volume 2x normal, funding neutral.",AZTEC:"ZK privacy L2, fits the theme less directly. Thin perp volume."}},
@@ -69,7 +69,7 @@ const FAPI="https://fapi.binance.com";
 const $=id=>document.getElementById(id),f=(n,d=2)=>Number(n).toLocaleString(undefined,{maximumFractionDigits:d});
 const status=t=>$("clock").textContent=t;
 async function j(p){const r=await fetch(FAPI+p);if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}
-let LIVE=CARDS,UPD="";
+let LIVE=[],UPD="";
 function sig(sym){const r=ALLR.find(x=>x.sym==sym)||ROWS.find(x=>x.sym==sym);if(!r)return'<span class="tag m" style="color:var(--mute)">no perp</span>';
 if(r.fund>0.03)return `<span class="tag m dn">CROWDED f ${f(r.fund,3)}%</span>`;
 if(Math.abs(r.chg)>=8)return `<span class="tag m dn">LATE ${r.chg>0?"+":""}${f(r.chg,1)}%</span>`;
@@ -87,7 +87,7 @@ function alEnable(){alSave();if(!window.Notification){$("alst").textContent="Pop
 async function alFind(){alSave();try{const r=await(await fetch(`https://api.telegram.org/bot${AL.tok}/getUpdates`)).json();const m=(r.result||[]).reverse().find(u=>u.message);if(m){$("a_chat").value=m.message.chat.id;alSave();$("alst").textContent="Chat ID found: "+m.message.chat.id}else $("alst").textContent="No messages found. Send any message to your bot first, then tap again."}catch(e){$("alst").textContent="Could not reach Telegram. Check the token."}}
 function alTest(){alSave();notify("Test alert","Trade Desk alerts are working");$("alst").textContent="Test sent."}
 function score(sym,c){const r=ALLR.find(x=>x.sym==sym);if(!r)return null;let s=0,w=[];
-s+={high:25,medium:15,low:5}[c.c]||5;
+const im=Number(c.impact);if(im)s+=im>=9?30:im>=8?24:im>=7?16:0;else s+={high:25,medium:15,low:5}[c.c]||5;
 if(c.s=="building")s+=10;else{s-=15;w.push("fading")}
 if(r.vx>=2){s+=25;w.push("vol "+f(r.vx,1)+"x")}else if(r.vx>=1.5){s+=18;w.push("vol "+f(r.vx,1)+"x")}else if(r.vx>=1.2)s+=8;else if(r.vx&&r.vx<.8){s-=5;w.push("low vol")}
 const a=Math.abs(r.chg);if(a<3)s+=20;else if(a<5)s+=12;else if(a>=8){s-=25;w.push("already moved "+f(r.chg,1)+"%")}
@@ -111,8 +111,8 @@ const st=old.length?`${old.length} signals older than 4h: ${f(win/old.length*100
 $("slog").innerHTML=`<div class="sub" style="margin-bottom:6px">${st}</div><div class="wrap"><table class="m"><thead><tr><th>Coin</th><th>Grade</th><th>Entry</th><th>Now</th><th>Move %</th><th>Age</th></tr></thead><tbody>`+(rows.slice(0,15).map(o=>`<tr><td>${o.y.sym}</td><td>${o.y.g} ${o.y.s}</td><td>${f(o.y.px,o.y.px<10?4:2)}</td><td>${o.m==null?"-":f(o.y.px*(1+o.m/100),o.y.px<10?4:2)}</td><td class="${o.m>=0?"up":"dn"}">${o.m==null?"-":(o.m>=0?"+":"")+f(o.m,2)}</td><td>${o.h<1?Math.round(o.h*60)+"m":f(o.h,1)+"h"}</td></tr>`).join("")||'<tr><td colspan="6">Nothing yet. Only A and B setups get logged.</td></tr>')+"</tbody></table></div>"}
 window.addEventListener("storage",e=>{if(e.key=="sig"||e.key=="sst")trackSignals()});
 function clrLog(){try{localStorage.removeItem("sig");localStorage.removeItem("sst")}catch(e){}trackSignals()}
-function cards(){$("cards").innerHTML=(UPD?`<div class="sub" style="margin-bottom:6px">auto-updated ${UPD}</div>`:"")+LIVE.map(c=>`<div class="card"><b>${c.t}</b> <span class="st ${c.s}">${c.s}</span> <span class="st med" style="color:var(--mute)">${c.c}</span><div class="tags">${c.coins.map(x=>`<span class="tag m">${x}</span>${sig(x)}${chip(x,c)}`).join("")}</div><p>${c.b}</p>${Object.entries(c.per||{}).map(([k,v])=>`<p><b class="m">${k}:</b> ${v}</p>`).join("")}</div>`).join("");trackSignals()}
-async function loadCat(){try{const r=await fetch("catalysts.json?t="+Date.now());if(r.ok){const d=await r.json();if(d.cards&&d.cards.length){LIVE=d.cards;UPD=new Date(d.updated).toLocaleString([], {hour12:false})}}}catch(e){}cards()}
+function cards(){$("cards").innerHTML=(UPD?`<div class="sub" style="margin-bottom:6px">auto-updated ${UPD}</div>`:"")+LIVE.map(c=>`<div class="card"><b>${c.t}</b> <span class="st ${c.s}">${c.s}</span> <span class="st med" style="color:var(--mute)">${c.c}</span>${c.impact?` <span class="st building">impact ${c.impact}${c.type?" · "+c.type:""}</span>`:""}<div class="tags">${c.coins.map(x=>`<span class="tag m">${x}</span>${sig(x)}${chip(x,c)}`).join("")}</div><p>${c.b}</p>${Object.entries(c.per||{}).map(([k,v])=>`<p><b class="m">${k}:</b> ${v}</p>`).join("")}</div>`).join("")+(LIVE.length?"":'<div class="sub">No high-impact catalysts right now. Only listings, ETFs, hacks, big partnerships and similar events are shown.</div>');trackSignals()}
+async function loadCat(){try{const r=await fetch("catalysts.json?t="+Date.now());if(r.ok){const d=await r.json();if(Array.isArray(d.cards)){LIVE=d.cards;UPD=new Date(d.updated).toLocaleString([], {hour12:false})}}}catch(e){}cards()}
 $("filters").innerHTML=[["all","All"],["hot","Vol > 1.5x"],["gain","Gainers"],["lose","Losers"]].map(([k,l])=>`<button class="chip ${k==flt?"on":""}" data-k="${k}">${l}</button>`).join("");
 $("filters").onclick=e=>{const k=e.target.dataset.k;if(k){flt=k;$("filters").querySelectorAll(".chip").forEach(b=>b.classList.toggle("on",b.dataset.k==k));draw()}};
 $("thead").innerHTML=COLS.map(([k,l])=>`<th tabindex="0" data-k="${k}">${l}</th>`).join("");
@@ -120,22 +120,47 @@ $("thead").onclick=e=>{const k=e.target.dataset.k;if(!k)return;sort={k,d:sort.k=
 function draw(){let r=ROWS.filter(x=>flt=="all"||(flt=="hot"&&x.vx>1.5)||(flt=="gain"&&x.chg>0)||(flt=="lose"&&x.chg<0));
 r.sort((a,b)=>(a[sort.k]>b[sort.k]?1:-1)*sort.d);
 $("tbody").innerHTML=r.map(x=>`<tr><td><b>${x.sym}</b></td><td>${f(x.px,x.px<10?4:2)}</td><td class="${x.chg>=0?"up":"dn"}">${x.chg>=0?"+":""}${f(x.chg,1)}</td><td>${f(x.vol,1)}</td><td class="${x.fund>0.02?"dn":""}">${f(x.fund,4)}</td><td class="${x.vx>1.5?"up":""}">${x.vx?f(x.vx,1)+"x":"..."}</td></tr>`).join("");cards()}
-async function loadAvg(syms){for(const s of syms){if(AVG[s]&&Date.now()-AVG[s].t<3e5)continue;try{const k=await j(`/fapi/v1/klines?symbol=${s}&interval=1d&limit=8`);const p=k.slice(0,-1).map(x=>+x[7]);AVG[s]={a:p.reduce((a,b)=>a+b,0)/p.length,t:Date.now()}}catch(e){}}}
-async function refresh(){try{
-const [tk,pi]=await Promise.all([j("/fapi/v1/ticker/24hr"),j("/fapi/v1/premiumIndex")]);
+const BY="https://api.bybit.com";let SRC="",OI={},LASTTK=[];
+async function jb(p){const r=await fetch(BY+p);if(!r.ok)throw new Error("HTTP "+r.status);const d=await r.json();if(d.retCode!==undefined&&d.retCode!==0)throw new Error(d.retMsg||"bybit error");return d}
+async function loadAvg(syms){for(const s of syms){const k=SRC+s;if(AVG[k]&&Date.now()-AVG[k].t<3e5)continue;try{let a;
+if(SRC=="bybit"){const r=await jb(`/v5/market/kline?category=linear&symbol=${s}&interval=D&limit=8`);const l=r.result.list.slice(1).map(x=>+x[6]);a=l.reduce((p,c)=>p+c,0)/l.length}
+else{const kl=await j(`/fapi/v1/klines?symbol=${s}&interval=1d&limit=8`);const p=kl.slice(0,-1).map(x=>+x[7]);a=p.reduce((x,y)=>x+y,0)/p.length}
+AVG[k]={a,t:Date.now()}}catch(e){}}}
+async function tickers(){
+if(SRC!="binance"){try{const r=await jb("/v5/market/tickers?category=linear");SRC="bybit";
+return r.result.list.filter(x=>/USDT$/.test(x.symbol)).map(x=>({symbol:x.symbol,lastPrice:+x.lastPrice,chg:+x.price24hPcnt*100,qv:+x.turnover24h,fund:+x.fundingRate*100,oi:+x.openInterestValue||0}))}catch(e){}}
+const [tk,pi]=await Promise.all([j("/fapi/v1/ticker/24hr"),j("/fapi/v1/premiumIndex")]);SRC="binance";
 const fm={};pi.forEach(x=>fm[x.symbol]=+x.lastFundingRate*100);
-const all=tk.filter(x=>/USDT$/.test(x.symbol)).sort((a,b)=>b.quoteVolume-a.quoteVolume);const top=all.slice(0,40);const want=new Set(LIVE.flatMap(c=>c.coins).map(c=>c+"USDT"));const extra=all.filter(x=>want.has(x.symbol)&&!top.includes(x));const mk=x=>({sym:x.symbol.replace("USDT",""),px:+x.lastPrice,chg:+x.priceChangePercent,vol:x.quoteVolume/1e6,fund:fm[x.symbol]??0,vx:AVG[x.symbol]?x.quoteVolume/AVG[x.symbol].a:0});
+return tk.filter(x=>/USDT$/.test(x.symbol)).map(x=>({symbol:x.symbol,lastPrice:+x.lastPrice,chg:+x.priceChangePercent,qv:+x.quoteVolume,fund:fm[x.symbol]??0,oi:0}))}
+async function refresh(){try{
+const tk=await tickers();tk.sort((a,b)=>b.qv-a.qv);LASTTK=tk;OI={};tk.forEach(x=>OI[x.symbol]=x.oi);
+const top=tk.slice(0,40);const want=new Set(LIVE.flatMap(c=>c.coins).map(c=>c+"USDT"));const extra=tk.filter(x=>want.has(x.symbol)&&!top.includes(x));
+const mk=x=>({sym:x.symbol.replace("USDT",""),px:x.lastPrice,chg:x.chg,vol:x.qv/1e6,fund:x.fund,vx:AVG[SRC+x.symbol]?x.qv/AVG[SRC+x.symbol].a:0});
 const build=()=>{ROWS=top.map(mk);ALLR=top.concat(extra).map(mk);draw()};
-build();status("live "+new Date().toLocaleTimeString([], {hour12:false}));
+build();status(SRC+" live "+new Date().toLocaleTimeString([], {hour12:false}));
 loadAvg(top.concat(extra).map(x=>x.symbol)).then(build)}catch(e){status("offline: "+e.message)}}
 async function pos(){const S=["BTC","ETH","SOL","BNB","XRP","DOGE"];
-const o=await Promise.all(S.map(async c=>{try{const s=c+"USDT";const [ls,oi]=await Promise.all([j(`/futures/data/globalLongShortAccountRatio?symbol=${s}&period=1h&limit=1`),j(`/futures/data/openInterestHist?symbol=${s}&period=1h&limit=2`)]);const n=+oi[1].sumOpenInterestValue,p=+oi[0].sumOpenInterestValue;return `<tr><td>${c}</td><td class="up">${f(ls[0].longAccount*100,1)}</td><td class="dn">${f(ls[0].shortAccount*100,1)}</td><td>${f(n/1e9,2)}</td><td class="${n>=p?"up":"dn"}">${f((n/p-1)*100,1)}%</td></tr>`}catch(e){return ""}}));
+const o=await Promise.all(S.map(async c=>{try{const s=c+"USDT";let L,Sh,oi,ch;
+if(SRC=="bybit"){const [ls,h]=await Promise.all([jb(`/v5/market/account-ratio?category=linear&symbol=${s}&period=1h&limit=1`),jb(`/v5/market/open-interest?category=linear&symbol=${s}&intervalTime=1h&limit=2`)]);
+L=ls.result.list[0].buyRatio*100;Sh=ls.result.list[0].sellRatio*100;const a=+h.result.list[0].openInterest,b=+h.result.list[1].openInterest;ch=(a/b-1)*100;oi=(OI[s]||0)/1e9}
+else{const [ls,h]=await Promise.all([j(`/futures/data/globalLongShortAccountRatio?symbol=${s}&period=1h&limit=1`),j(`/futures/data/openInterestHist?symbol=${s}&period=1h&limit=2`)]);
+L=ls[0].longAccount*100;Sh=ls[0].shortAccount*100;const n=+h[1].sumOpenInterestValue,p=+h[0].sumOpenInterestValue;oi=n/1e9;ch=(n/p-1)*100}
+return `<tr><td>${c}</td><td class="up">${f(L,1)}</td><td class="dn">${f(Sh,1)}</td><td>${f(oi,2)}</td><td class="${ch>=0?"up":"dn"}">${f(ch,1)}%</td></tr>`}catch(e){return ""}}));
 $("tr").innerHTML=o.join("")}
 function addLiq(sym,long,n){const d=document.createElement("div");d.className="row";if(n>1e5)d.style.fontWeight=700;
 d.innerHTML=`<span>${new Date().toLocaleTimeString([], {hour12:false})} <b>${sym}</b></span><span class="${long?"dn":"up"}">${long?"long":"short"} liq</span><span>$${f(n,0)}</span>`;
 const t=$("tape");t.prepend(d);while(t.children.length>80)t.lastChild.remove()}
-function ws(){const w=new WebSocket("wss://fstream.binance.com/market/ws/!forceOrder@arr");w.onopen=()=>$("wsst").textContent="connected, waiting for liqs (min $"+MIN+")";w.onerror=()=>$("wsst").textContent="blocked or error";
+function ws(){if(SRC=="bybit")wsBybit();else wsBinance()}
+function wsBybit(){const w=new WebSocket("wss://stream.bybit.com/v5/public/linear");
+w.onopen=()=>{$("wsst").textContent="connected (bybit), waiting for liqs (min $"+MIN+")";
+const sy=[...new Set(LASTTK.slice(0,100).map(x=>x.symbol).concat(LIVE.flatMap(c=>c.coins).map(c=>c+"USDT")))];
+for(let i=0;i<sy.length;i+=10)w.send(JSON.stringify({op:"subscribe",args:sy.slice(i,i+10).map(x=>"allLiquidation."+x)}));
+w._hb=setInterval(()=>{try{w.send('{"op":"ping"}')}catch(e){}},20000)};
+w.onmessage=m=>{let d;try{d=JSON.parse(m.data)}catch(e){return}if(!d.topic||d.topic.indexOf("allLiquidation")!=0)return;(d.data||[]).forEach(o=>{const n=+o.v*+o.p;if(n>=MIN)addLiq(o.s.replace("USDT",""),o.S=="Buy",n)})};
+w.onerror=()=>$("wsst").textContent="blocked or error";
+w.onclose=()=>{clearInterval(w._hb);$("wsst").textContent="disconnected, retrying";setTimeout(ws,3000)}}
+function wsBinance(){const w=new WebSocket("wss://fstream.binance.com/market/ws/!forceOrder@arr");w.onopen=()=>$("wsst").textContent="connected (binance), waiting for liqs (min $"+MIN+")";w.onerror=()=>$("wsst").textContent="blocked or error";
 w.onmessage=m=>{const o=(JSON.parse(m.data)||{}).o;if(!o)return;const n=+o.ap*+o.z;if(n>=MIN)addLiq(o.s.replace("USDT",""),o.S=="SELL",n)};
 w.onclose=()=>{$("wsst").textContent="disconnected, retrying";setTimeout(ws,3000)}}
-loadCat();setInterval(loadCat,300000);refresh();pos();ws();setInterval(refresh,10000);setInterval(pos,120000);
+loadCat();setInterval(loadCat,300000);refresh().then(()=>{pos();ws()});setInterval(refresh,10000);setInterval(pos,120000);
 </script></body></html>
