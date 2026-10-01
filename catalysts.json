@@ -1,76 +1,32 @@
 {
- "updated": "2026-10-01T06:50:28.648489+00:00",
+ "updated": "2026-10-01T10:30:45.091613+00:00",
  "cards": [
   {
-   "t": "Standard Chartered targets $40B USDe and $2 ENA",
-   "s": "building",
-   "c": "high",
-   "coins": [
-    "ENA"
-   ],
-   "b": "Institutional backing from major banks like Standard Chartered provides fundamental validation for structured yield products and their native tokens.",
-   "per": {
-    "ENA": "Primed for major structural upside if institutional adoption matches bank projections."
-   }
-  },
-  {
-   "t": "Bitwise launches first US spot NEAR ETF",
+   "t": "Bitwise Launches First Spot NEAR ETF on NYSE Arca",
+   "type": "etf",
+   "impact": 9,
    "s": "building",
    "c": "high",
    "coins": [
     "NEAR"
    ],
-   "b": "Spot ETF approvals bridge traditional capital directly into specific altcoin ecosystems, driving major volume and accessibility.",
+   "b": "Bitwise has officially rolled out the first spot NEAR ETF on NYSE Arca, opening direct institutional access and driving major inflows into the asset.",
    "per": {
-    "NEAR": "Benefiting from a massive tailwind following a 160% rally and the fresh ETF launch."
+    "NEAR": "Major institutional tailwind from the first spot ETF launch on NYSE Arca, driving immediate market attention and liquidity."
    }
   },
   {
-   "t": "Petrobras taps Cardano for sustainable fuel tracking",
+   "t": "Concrete Token Hits Coinbase and OKX with Controlled Price Auctions",
+   "type": "listing",
+   "impact": 9,
    "s": "building",
-   "c": "medium",
+   "c": "high",
    "coins": [
-    "ADA"
+    "CT"
    ],
-   "b": "Real-world enterprise adoption by state-backed energy giants validates underlying chain utility outside of pure speculation.",
+   "b": "Concrete (CT) is launching on Coinbase and OKX with structured price auctions, providing massive initial spot exposure and liquidity.",
    "per": {
-    "ADA": "Enterprise integration provides steady fundamental backing despite broader market choppiness."
-   }
-  },
-  {
-   "t": "Bitget hacker moves stolen funds to Zcash private pool",
-   "s": "building",
-   "c": "medium",
-   "coins": [
-    "ZEC"
-   ],
-   "b": "On-chain movement of stolen funds into privacy pools increases protocol volume and thrusts privacy-centric assets back into the spotlight.",
-   "per": {
-    "ZEC": "Experiencing heightened transaction flows and narrative attention via the exploit fallout."
-   }
-  },
-  {
-   "t": "DogeOS public testnet launches app layer for Dogecoin",
-   "s": "building",
-   "c": "medium",
-   "coins": [
-    "DOGE"
-   ],
-   "b": "Expanding meme coin utility into DeFi and gaming testnets attempts to transform legacy speculative assets into active platform ecosystems.",
-   "per": {
-    "DOGE": "Testnet launch gives bulls a fundamental narrative catalyst beyond pure payment use cases."
-   }
-  },
-  {
-   "t": "Kakaopay partners with Dinari and Ondo for tokenized Korean stocks",
-   "s": "building",
-   "c": "medium",
-   "coins": [
-    "ONDO"
-   ],
-   "b": "Cross-border tokenization partnerships between fintech giants and RWA protocols expand real-world asset distribution rails.",
-   "per": {
-    "ONDO": "Solidifies its position at the forefront of global real-world asset tokenization expansion."
+    "CT": "Tier-1 exchange availability on Coinbase and OKX creates immediate price discovery and strong volume pressure."
    }
   }
  ]
