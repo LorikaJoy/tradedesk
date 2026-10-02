@@ -1,77 +1,147 @@
 {
- "updated": "2026-10-02T01:14:38.435710+00:00",
+ "updated": "2026-10-02T05:06:40.626838+00:00",
  "cards": [
+  {
+   "t": "Binance Futures to Launch USD\u24c8-Margined CTUSDT Perpetual Contract",
+   "type": "listing",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-01",
+   "coins": [
+    "CT"
+   ],
+   "rel": "direct",
+   "b": "Binance Futures announced it will launch the USD\u24c8-Margined CTUSDT Perpetual Contract on October 1, 2026.",
+   "per": {
+    "CT": "Binance Futures is launching a USD\u24c8-Margined CTUSDT Perpetual Contract."
+   },
+   "direction": "positive",
+   "quality": 100,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 25,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 10,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Binance",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVzR6eWowWWJ4Rm5qczJIQ3lzYTgzN2Z4Z1ZoOEhscTdudEZyYlRBam05dWhfcjJHY053cGFBVmV3bmFDQ0U3ekFxaHB4eVI5bTB5WTA1eElERlI3SVlwQ3lLNFpVZWxWcG4yV3RqcTAyRC10RG44TGk2THNaaWowRlNReEJyTmRrdWNMQU5mTF8?oc=5"
+    }
+   ],
+   "missing": "Exact launch hour"
+  },
   {
    "t": "CME Group to Launch Bitcoin Cash and Uniswap Futures",
    "type": "listing",
-   "impact": 9,
-   "s": "building",
-   "c": "high",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-19",
    "coins": [
     "BCH",
     "UNI"
    ],
-   "b": "CME Group is launching regulated futures contracts for Bitcoin Cash and Uniswap, providing a major institutional on-ramp that typically triggers increased trading volume and volatility.",
+   "rel": "direct",
+   "b": "CME Group will launch Bitcoin Cash and Uniswap futures contracts on October 19, 2026.",
    "per": {
-    "BCH": "Institutional futures availability validates BCH and brings derivative liquidity.",
-    "UNI": "Derivatives on a major traditional exchange like CME expand UNI's institutional reach."
-   }
-  },
-  {
-   "t": "Bitwise NEAR ETF Launches Strong With Over $52M Inflows",
-   "type": "etf",
-   "impact": 9,
+    "BCH": "CME Group is launching Bitcoin Cash futures on October 19.",
+    "UNI": "CME Group is launching Uniswap futures on October 19."
+   },
+   "direction": "positive",
+   "quality": 83,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
    "s": "building",
    "c": "high",
+   "sources": [
+    {
+     "name": "Startup Fortune",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbE1JTTBJTkdzcER2UHYyWDdzdmhtZ3U0eEdic0xBd29yQm5Qd1ppNTNLVGZOOTBvdUJZUDM5cnBkWTMzM0ZCdEYtLVpfRnRCbEdhNzhVRjBsOU1DNnh6Um9lUHBPc0x5VlZLSlRCVDY3enAwU3BfRE02VGhkQTQ4aUoxWlR3ODM0dXZLZ1Awd056Zm5jbmRkWWdvWFc?oc=5"
+    }
+   ],
+   "missing": "Contract specifications and launch times"
+  },
+  {
+   "t": "NEAR Intents Protocol Hacked",
+   "type": "hack",
+   "status": "completed",
+   "event_date": null,
    "coins": [
     "NEAR"
    ],
-   "b": "Bitwise has successfully launched its NEAR ETF, drawing tens of millions in inflows within days and bringing direct Wall Street capital into the token.",
+   "rel": "direct",
+   "b": "NEAR Intents was hacked for $3.8 million, occurring alongside a $4 billion-a-month app security incident.",
    "per": {
-    "NEAR": "Strong initial ETF inflows provide consistent passive buying pressure."
-   }
-  },
-  {
-   "t": "NEAR Intents Hacked for $3.8 Million",
-   "type": "hack",
-   "impact": 9,
+    "NEAR": "NEAR Intents protocol suffered a $3.8 million hack."
+   },
+   "direction": "negative",
+   "quality": 76,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 10,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
    "s": "fading",
    "c": "high",
-   "coins": [
-    "NEAR"
+   "sources": [
+    {
+     "name": "CryptoRank",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOejJMN0JLcUJoZFl1SFY5RHFDYWNfb2xCWWpWTEdES1RUVVZnbWhxYW01Vkw1N1hGSmFrMHJkTWdNajdid1V2UDhCNkFvMC1Pa3Fpa1RDZ2dUZngyUEtRdWJsWjhTdkJHckRkTkxLU3hnMDdxRUtObGZGYThmS04wQWxZSzkxSEVlQm9KajBrQ1FGQXktQ0FPS2xZVjNucWtWcmJuVDhBN1MyWEFH?oc=5"
+    },
+    {
+     "name": "Bitget",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE10YlhJTVhTNXB5WFRObFJDVWMwMzI4aHZQM1c4VEk4OXZhQUNKN0hWd2lwbUs4eWFvc3NZNDJPblB4M2hLTkM5cThRTktqQlFyQXZfMTl3ZENMNTl0ckNTdkRJVdIBY0FVX3lxTE10YlhJTVhTNXB5WFRObFJDVWMwMzI4aHZQM1c4VEk4OXZhQUNKN0hWd2lwbUs4eWFvc3NZNDJPblB4M2hLTkM5cThRTktqQlFyQXZfMTl3ZENMNTl0ckNTdkRJVQ?oc=5"
+    }
    ],
-   "b": "A security breach on the NEAR ecosystem involving NEAR Intents resulted in a $3.8 million exploit, creating immediate downside pressure and sentiment concerns.",
-   "per": {
-    "NEAR": "Protocol exploits trigger immediate risk-off sentiment and short-term selling."
-   }
+   "missing": "Exact date of the exploit and recovery status"
   },
   {
-   "t": "Binance Futures to Launch USD\u24c8-Margined CTUSDT Perpetual Contract",
-   "type": "listing",
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "coins": [
-    "CT"
-   ],
-   "b": "Binance Futures is introducing a perpetual contract for CT, giving traders high leverage and significantly increasing market visibility and speculative volume.",
-   "per": {
-    "CT": "Perp listings on Binance expand leverage options and drive active trading volume."
-   }
-  },
-  {
-   "t": "Evernorth Clears Shareholder Vote Ahead of Nasdaq Debut with 473M XRP Treasury",
+   "t": "Evernorth Clears Shareholder Vote Ahead of Nasdaq Debut",
    "type": "treasury",
-   "impact": 9,
-   "s": "building",
-   "c": "high",
+   "status": "confirmed_upcoming",
+   "event_date": null,
    "coins": [
     "XRP"
    ],
-   "b": "Evernorth's shareholder approval for a Nasdaq debut backed by a massive 473 million XRP treasury establishes a permanent corporate holding structure for the asset.",
+   "rel": "direct",
+   "b": "Evernorth cleared a shareholder vote ahead of its Nasdaq debut, backed by a 473M XRP treasury.",
    "per": {
-    "XRP": "Large corporate treasury lockups diminish circulating supply and tie asset valuation to public equities."
-   }
+    "XRP": "Evernorth cleared a shareholder vote ahead of a Nasdaq debut with a 473M XRP treasury."
+   },
+   "direction": "positive",
+   "quality": 75,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSUFwYXV2RGhFaWNEUEEzT3NFYWRLM3RkOG8zTnVYdFNaTkFITVBDRDdIMGkxRUd2cEFtemZDVk9MQnowNjdJOWMzVUZoTXh1d081dG9VWDVuUjljQTZzSkJ4LXRBMDdnNHVlc2Y0eUY2Qkxla3ZIaC1GcUlOZElfOFNXcHdWWFRPR2MtNk1QeGZfOUw0SUV4ZVhzdDcwYnJpazNjS0Z0NVVtRW0tUnFKWnc0LWZCdV9Ec21UMFZrSjRYdEx2OGktMmI1SWNRUlVIenBxUzNDVVVEdw?oc=5"
+    }
+   ],
+   "missing": "Exact Nasdaq listing date"
   }
  ]
 }
