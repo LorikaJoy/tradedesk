@@ -1,33 +1,41 @@
 {
- "updated": "2026-10-02T07:02:01.320383+00:00",
+ "updated": "2026-10-02T13:50:31.670898+00:00",
  "cards": [
   {
-   "t": "Evernorth Shareholder Vote and Nasdaq Debut",
+   "t": "Evernorth Nasdaq Debut and 473M XRP Treasury",
    "type": "treasury",
    "status": "confirmed_upcoming",
-   "event_date": null,
+   "event_date": "2026-10-08",
    "coins": [
     "XRP"
    ],
    "rel": "direct",
-   "b": "Evernorth cleared a shareholder vote ahead of its Nasdaq debut, backed by a 473 million XRP treasury.",
+   "b": "Evernorth cleared a shareholder vote and is scheduled to list on the Nasdaq on October 8 with a treasury of 473 million XRP.",
    "per": {
-    "XRP": "Evernorth holds a 473M XRP treasury as it clears a shareholder vote ahead of its Nasdaq debut."
+    "XRP": "Backed by 473 million tokens in Evernorth's upcoming Nasdaq-listed treasury."
    },
    "direction": "positive",
-   "quality": 85,
+   "quality": 87,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 10,
+    "credibility": 12,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
+    {
+     "name": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQWlVOTXRCRXF3VlFsSXBlSGZ2M2VpSUptSU42Z0FfdmRSa2N2RWVLWlZzX09JRk1aUUZLZm5XclNaUVZVMk1DbFpjbXVDV1NNT19wZlpiYlpEamtxRGJCdHFxOFBDU3R5Z1BRcUcxb1czTkg5UE9aQXoySS1DTWtxamN5OU4wSy10VmhGd1ZFZFZTUktfUmw4eUwtaE1GdklvaXI2bXZldUdwT3RTNmxRUjlncGx6WFQ2M1pOVmszb212SG0tUThMRE44blVhelo1bHotTXJ3cFdybHdJckJVZ0p3YVRRYXVKb1l5MXFHMEVaYjRXNU0tN3dLZXpmQktKVVI3a1RIUWh5SFBXWWxzeEhtVS13RUFSS1dtQ0poYnJXdHhRUHlMWkFn?oc=5"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1WUmItVzdWZGtPdUdEeHF6WlRNbVpqaFQxa1NJUDdlNWZMX1c1WVRLaGFjOVlTQkpPb0otWmxHUk9NRGJjZlNxTXhYSnZENFJhN0I0ODFVUkpMWnBzS2RtLU9QRHl0Y3ViSVRFUVpxLVhRQQ?oc=5"
+    },
     {
      "name": "TradingView",
      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSUFwYXV2RGhFaWNEUEEzT3NFYWRLM3RkOG8zTnVYdFNaTkFITVBDRDdIMGkxRUd2cEFtemZDVk9MQnowNjdJOWMzVUZoTXh1d081dG9VWDVuUjljQTZzSkJ4LXRBMDdnNHVlc2Y0eUY2Qkxla3ZIaC1GcUlOZElfOFNXcHdWWFRPR2MtNk1QeGZfOUw0SUV4ZVhzdDcwYnJpazNjS0Z0NVVtRW0tUnFKWnc0LWZCdV9Ec21UMFZrSjRYdEx2OGktMmI1SWNRUlVIenBxUzNDVVVEdw?oc=5"
@@ -37,46 +45,10 @@
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOelB0T3FHT3M0UTVfUUFSY2V5UmRhUUpBM2xIelkyR0xRUEhadzgxYmNNckFJQ0JYM2dxcVN4QzZyQ2phWnZmcWFVaWRhWk5BS1d0R1FmMm5yTHhqRERkRzdUVFg1T3hjT250LXRLdnFZZHZzVXZlTWhHUlpDS2NQUGtCd0JKR0ZVSDFMMm5PVVF5aU5ldFdDdFNOMUQzMURST0xwMzR3RjRoUQ?oc=5"
     }
    ],
-   "missing": "Exact date of the Nasdaq debut."
+   "missing": "Exact opening market price and immediate post-listing trading volume."
   },
   {
-   "t": "CME Group Futures Launch",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-19",
-   "coins": [
-    "BCH",
-    "UNI"
-   ],
-   "rel": "direct",
-   "b": "CME Group announced it will launch Bitcoin Cash and Uniswap futures on October 19.",
-   "per": {
-    "BCH": "CME Group will launch Bitcoin Cash futures on October 19.",
-    "UNI": "CME Group will launch Uniswap futures on October 19."
-   },
-   "direction": "positive",
-   "quality": 83,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Startup Fortune",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbE1JTTBJTkdzcER2UHYyWDdzdmhtZ3U0eEdic0xBd29yQm5Qd1ppNTNLVGZOOTBvdUJZUDM5cnBkWTMzM0ZCdEYtLVpfRnRCbEdhNzhVRjBsOU1DNnh6Um9lUHBPc0x5VlZLSlRCVDY3enAwU3BfRE02VGhkQTQ4aUoxWlR3ODM0dXZLZ1Awd056Zm5jbmRkWWdvWFc?oc=5"
-    }
-   ],
-   "missing": "Exact launch time on October 19, contract specifications."
-  },
-  {
-   "t": "NEAR Protocol App Hack",
+   "t": "NEAR Intents Protocol Hack",
    "type": "hack",
    "status": "completed",
    "event_date": null,
@@ -84,9 +56,9 @@
     "NEAR"
    ],
    "rel": "direct",
-   "b": "NEAR Intents was hacked for $3.8 million amidst other ecosystem app security incidents.",
+   "b": "NEAR Protocol experienced a hack on its intents application resulting in a $3.8 million loss, occurring around the same time as institutional ETF launches.",
    "per": {
-    "NEAR": "NEAR Intents was hacked for $3.8 million."
+    "NEAR": "Impacted by a $3.8 million security exploit on a high-volume app."
    },
    "direction": "negative",
    "quality": 76,
@@ -111,7 +83,87 @@
      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE10YlhJTVhTNXB5WFRObFJDVWMwMzI4aHZQM1c4VEk4OXZhQUNKN0hWd2lwbUs4eWFvc3NZNDJPblB4M2hLTkM5cThRTktqQlFyQXZfMTl3ZENMNTl0ckNTdkRJVdIBY0FVX3lxTE10YlhJTVhTNXB5WFRObFJDVWMwMzI4aHZQM1c4VEk4OXZhQUNKN0hWd2lwbUs4eWFvc3NZNDJPblB4M2hLTkM5cThRTktqQlFyQXZfMTl3ZENMNTl0ckNTdkRJVQ?oc=5"
     }
    ],
-   "missing": "Recovery plans, exact time of the exploit."
+   "missing": "Recovery details of the stolen funds and potential protocol-level vulnerabilities."
+  },
+  {
+   "t": "Bitwise NEAR ETF Crosses $52.8 Million in Assets",
+   "type": "etf",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "NEAR"
+   ],
+   "rel": "direct",
+   "b": "The Bitwise NEAR ETF surpassed $52.8 million in threshold value within its first two days of trading, drawing praise from analysts.",
+   "per": {
+    "NEAR": "Supported by strong initial institutional inflows following its ETF launch."
+   },
+   "direction": "positive",
+   "quality": 74,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 10,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "Bitget",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1iMU9EUkhSV0hPZnVyMlVTaDlnT1cwNXg3ckhNZnNzSVY0Vmt3bDA0ak12RUdhbXhFY0VLRy1XZnpVWVM3YlZmSjRydFZxanFVNGxRbHJpUTIzSXZaWE5FOFZ3TdIBY0FVX3lxTE1iMU9EUkhSV0hPZnVyMlVTaDlnT1cwNXg3ckhNZnNzSVY0Vmt3bDA0ak12RUdhbXhFY0VLRy1XZnpVWVM3YlZmSjRydFZxanFVNGxRbHJpUTIzSXZaWE5FOFZ3TQ?oc=5"
+    },
+    {
+     "name": "Crypto Economy",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNeFFQTWtrT1dfX0MtVFN3RTUzeXMzclhsSTBxTEdPclJSdURjOV84QmtlZUo0LUwwVlJMMURlQldTWTZPWXVqbURYTl9qX0xOZEk2NnRvanAtVmw1YjIySlcxbDlNd2ZTM1V5bnN2YkVLbVU?oc=5"
+    }
+   ],
+   "missing": "Sustained daily inflow rates after the initial launch window."
+  },
+  {
+   "t": "Ripple 1 Billion XRP Escrow Unlock",
+   "type": "unlock",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "XRP"
+   ],
+   "rel": "direct",
+   "b": "Ripple completed its regular 1 billion XRP escrow release, putting resistance levels and market absorption in focus alongside ongoing ETF inflows.",
+   "per": {
+    "XRP": "Faced with a fresh 1 billion token unlock while testing key price resistance around $1.50 to $1.54."
+   },
+   "direction": "mixed",
+   "quality": 68,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 10,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "finance.biggo.com",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rSnBoSWlid2UtRlhIcmJ1NThLUGVTejk5TFNLUEhHWjZnWTUwWkFGaTRvVjdBNVJFZ2tmMFZOR3lGWk9XQ1VDOUhMTW41Y0N2WEp2TG9nd204YlNIRmROQ1d3M25hWndVZGoyNjRfR2d4UkxhUUE?oc=5"
+    },
+    {
+     "name": "TradingNEWS",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTzdNYlgxU1BBTlFzOXZEdGFJSmduRVJVQmFDNWRwT2ZIUjVwYUp0VzdCQnN3OXZidmlYZlpkX29VbHl6aGFTZXVZX2I3aVg5SjFmZDFFcUwybi1SQ2xuWVNqbnQtSTNDXzYyOV9YS3ZHdUwza2FwTDNwXzZNTUlOZWZ4eXo2YTIyQnB6Z0U0bTFWLVRKS0NzMnVzckZxLWhmTGx4MQ?oc=5"
+    },
+    {
+     "name": "TradingNEWS",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUnFtdkRxVWFJS0NPd0k0UWw4Z0NaZllvdmxkVUg5c0VfMHFiZk1vLTlpajdrd2JQUl80TEdJMjg2TDdWUG0ySGRxZVdIM3FfSzlkc0NpNmJUVTE2WXpUWWdoVDNtM0hPdHBrczEtcXJIVUJjcXZleU8wV1FBcmswWDN1cDVIcjh6VElpTC1MUy1lWEVIR1Nhcy13?oc=5"
+    }
+   ],
+   "missing": "The exact portion of the unlocked tokens that will be sold immediately versus re-locked."
   }
  ]
 }
