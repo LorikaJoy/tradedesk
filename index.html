@@ -1,47 +1,69 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Trade Desk</title>
+<title>Alpha Radar</title>
+<meta name="theme-color" content="#ffffff"><meta name="color-scheme" content="light">
 <style>
-:root{--bg:#f3f5f9;--panel:#fff;--ink:#141b2d;--mute:#6b7592;--line:#dde2ee;--up:#0f9d6a;--dn:#d6455d;--acc:#2f5bea;--warn:#c98a10;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-:root:not([data-theme="light"]){}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1020;--panel:#121a2e;--ink:#e4e9f7;--mute:#8592b5;--line:#22304f;--up:#2ee59d;--dn:#ff5c7a;--acc:#6f95ff;--warn:#f0b429}}
-:root[data-theme="dark"]{--bg:#0b1020;--panel:#121a2e;--ink:#e4e9f7;--mute:#8592b5;--line:#22304f;--up:#2ee59d;--dn:#ff5c7a;--acc:#6f95ff;--warn:#f0b429}
-*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
-body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 "IBM Plex Sans",system-ui,sans-serif}
-.m{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace}
-header{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line);position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:2}
-h1{font-size:16px;margin:0}.sub{color:var(--mute);font-size:12px}
-main{display:grid;gap:12px;padding:12px;grid-template-columns:1.2fr 1fr;max-width:1200px;margin:auto}
-@media(max-width:800px){main{grid-template-columns:1fr}}
-section{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px;min-width:0}
-h2{font-size:13px;margin:0 0 8px;font-weight:600}
+:root{--brand:#059669;--brand-d:#047857;--tint:#ecfdf5;--tint-b:#a7f3d0;--bg:#fff;--panel:#f8faf9;--card:#fff;--ink:#1f2937;--mute:#6b7280;--line:#e5e9e7;--up:#059669;--dn:#dc2626;--acc:#047857;--warn:#b45309;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Inter,sans-serif}
+.m,td{font-variant-numeric:tabular-nums}.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+a{color:var(--brand-d)}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:rgba(255,255,255,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);box-shadow:0 1px 3px rgba(16,24,40,.04)}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 20px;max-width:1200px;margin:auto}
+.brand{display:flex;align-items:center;gap:10px}
+.logo{width:32px;height:32px;border-radius:9px;background:var(--brand);color:#fff;display:grid;place-items:center;font-weight:700;font-size:16px}
+h1{font-size:17px;margin:0;line-height:1.2;letter-spacing:-.01em}.sub{color:var(--mute);font-size:12px}
+.live{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--brand-d);background:var(--tint);border:1px solid var(--tint-b);border-radius:999px;padding:3px 10px;white-space:nowrap}
+.live:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--brand)}
+nav{display:flex;gap:4px;padding:0 20px 8px;max-width:1200px;margin:auto;overflow-x:auto;scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+nav a{padding:6px 14px;border-radius:999px;font-size:13px;font-weight:500;color:var(--mute);text-decoration:none;white-space:nowrap}
+nav a:hover{background:var(--tint);color:var(--brand-d)}
+nav a.on{background:var(--brand);color:#fff}
+main{display:grid;gap:16px;padding:20px;grid-template-columns:1.2fr 1fr;max-width:1200px;margin:auto}
+@media(max-width:800px){main{grid-template-columns:1fr;padding:14px;gap:14px}header,nav{padding-left:14px;padding-right:14px}}
+section{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;min-width:0;box-shadow:0 1px 2px rgba(16,24,40,.04),0 1px 3px rgba(16,24,40,.05);scroll-margin-top:120px}
+h2{font-size:15px;margin:0 0 12px;font-weight:650;letter-spacing:-.01em}h2 .sub{font-weight:400;margin-left:6px}
 .full{grid-column:1/-1}
-.card{border:1px solid var(--line);border-radius:8px;padding:10px;margin-bottom:8px}
-.card b{font-size:13px}.tags{display:flex;gap:6px;margin:6px 0;flex-wrap:wrap}
-.tag{font-size:11px;border:1px solid var(--line);border-radius:4px;padding:1px 6px;color:var(--acc)}
-.st{font-size:11px;border-radius:4px;padding:1px 6px;border:1px solid}
-.building{color:var(--up)}.fading{color:var(--dn)}.med{color:var(--warn)}
-.card p{margin:4px 0;color:var(--mute);font-size:13px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+@media(max-width:800px){.kpis{grid-template-columns:repeat(2,1fr)}}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+.kpi .v{font-size:24px;font-weight:700;color:var(--brand-d);line-height:1.2;margin-top:2px}.kpi .l{font-size:12px;color:var(--mute)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:12px}
+.card b{font-size:14px}.tags{display:flex;gap:6px;margin:8px 0;flex-wrap:wrap}
+.tag{font-size:11px;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:1px 8px;color:var(--acc)}
+.st{font-size:11px;border-radius:999px;padding:1px 8px;border:1px solid var(--line);background:var(--card)}
+.st.building{color:var(--brand-d);background:var(--tint);border-color:var(--tint-b)}
+.st.fading{color:#b91c1c;background:#fef2f2;border-color:#fecaca}
+.st.med{background:#fffbeb;border-color:#fde68a}
+.card p{margin:6px 0;color:var(--mute);font-size:13px}
 .wrap{overflow-x:auto}
 table{width:100%;border-collapse:collapse;font-size:13px}
-th,td{text-align:right;padding:6px 8px;border-bottom:1px solid var(--line);white-space:nowrap}
+th,td{text-align:right;padding:9px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
 th:first-child,td:first-child{text-align:left}
-th{color:var(--mute);font-weight:500;cursor:pointer;user-select:none}
-th:hover{color:var(--ink)}
+th{color:var(--mute);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.04em;cursor:pointer;user-select:none}
+th:hover{color:var(--brand-d)}
+tbody tr:hover{background:var(--tint)}
 .up{color:var(--up)}.dn{color:var(--dn)}
-.tape{height:260px;overflow:auto}
-.row{display:flex;justify-content:space-between;gap:8px;padding:4px 2px;border-bottom:1px solid var(--line);font-size:12.5px}
-.chip{display:inline-block;padding:2px 8px;border:1px solid var(--line);border-radius:99px;font-size:12px;margin-right:6px;cursor:pointer;background:none;color:var(--ink)}
-.chip.on{background:var(--acc);color:#fff;border-color:var(--acc)}
-button:focus-visible,th:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
-.note{font-size:11px;color:var(--mute);padding:4px 16px 16px;text-align:center}
+.tag.up{background:var(--tint);border-color:var(--tint-b)}.tag.dn{background:#fef2f2;border-color:#fecaca}
+.tape{height:260px;overflow:auto;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:4px 10px}
+.row{display:flex;justify-content:space-between;gap:8px;padding:7px 2px;border-bottom:1px solid var(--line);font-size:12.5px}
+.chip{display:inline-block;padding:4px 12px;border:1px solid var(--line);border-radius:999px;font-size:12px;margin:0 6px 6px 0;cursor:pointer;background:var(--card);color:var(--ink)}
+.chip:hover{border-color:var(--brand);color:var(--brand-d)}
+.chip.on{background:var(--brand);color:#fff;border-color:var(--brand)}
+input[type=checkbox]{accent-color:var(--brand)}
+input:focus-visible,button:focus-visible,th:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+summary{color:var(--brand-d)}
+.note{font-size:11px;color:var(--mute);padding:4px 20px 24px;text-align:center}
 </style></head><body>
-<header><div><h1>Trade Desk</h1><div class="sub">catalyst radar · screener · liq tape</div></div><div class="m sub" id="clock"></div></header>
+<div class="top"><header><div class="brand"><div class="logo">A</div><div><h1>Alpha Radar</h1><div class="sub">catalysts, screener and liquidity in one place</div></div></div><div class="live m" id="clock">connecting...</div></header>
+<nav><a href="#s-cat">Catalysts</a><a href="#s-sig">Signals</a><a href="#s-alert">Alerts</a><a href="#s-scr">Screener</a><a href="#s-tape">Liquidity tape</a><a href="#s-pos">Positioning</a></nav></div>
 <main>
-<section class="full"><h2>Catalysts</h2><div id="cards"></div></section>
-<section class="full"><h2>Signal log <span class="sub">fires when a coin newly turns A or B while this page is watching (long bias, shared by tabs of this browser)</span> <button class="chip" onclick="clrLog()">Clear</button></h2><div id="slog"></div></section>
-<section class="full"><details id="alp"><summary style="cursor:pointer;font-weight:600;font-size:13px">Alerts: get notified when an A or B setup fires</summary>
+<div class="full kpis"><div class="kpi"><div class="l">Data source</div><div class="v" id="k_src">...</div></div><div class="kpi"><div class="l">Catalysts tracked</div><div class="v" id="k_cat">0</div></div><div class="kpi"><div class="l">A-grade setups now</div><div class="v" id="k_a">0</div></div><div class="kpi"><div class="l">Signals logged</div><div class="v" id="k_sig">0</div></div></div>
+<section class="full" id="s-cat"><h2>Catalysts</h2><div id="cards"></div></section>
+<section class="full" id="s-sig"><h2>Signal log <span class="sub">fires when a coin newly turns A or B while this page is watching (long bias, shared by tabs of this browser)</span> <button class="chip" onclick="clrLog()">Clear</button></h2><div id="slog"></div></section>
+<section class="full" id="s-alert"><details id="alp"><summary style="cursor:pointer;font-weight:600;font-size:13px">Alerts: get notified when an A or B setup fires</summary>
 <div style="margin-top:10px;display:grid;gap:8px;max-width:420px">
 <label><input type="checkbox" id="a_snd"> Sound</label>
 <label><input type="checkbox" id="a_pop"> Browser popup</label>
@@ -51,13 +73,13 @@ button:focus-visible,th:focus-visible{outline:2px solid var(--acc);outline-offse
 <input id="a_chat" placeholder="Telegram chat ID" style="padding:8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit">
 <div><button class="chip" onclick="alEnable()">Enable popups</button><button class="chip" onclick="alFind()">Find chat ID</button><button class="chip" onclick="alTest()">Send test</button></div>
 <div class="sub" id="alst">Alerts only work while this page is open. Token is saved in this browser only.</div></div></details></section>
-<section class="full"><h2>Screener</h2>
+<section class="full" id="s-scr"><h2>Screener</h2>
 <div style="margin-bottom:8px" id="filters"></div>
 <div class="wrap"><table><thead><tr id="thead"></tr></thead><tbody id="tbody" class="m"></tbody></table></div></section>
-<section><h2>Liquidation tape <span class="sub" id="wsst">connecting...</span></h2><div class="tape m" id="tape"></div></section>
-<section><h2>Positioning (1h)</h2><div class="wrap"><table class="m"><thead><tr><th>Coin</th><th>Long %</th><th>Short %</th><th>OI $B</th><th>OI 1h</th></tr></thead><tbody id="tr"></tbody></table></div></section>
+<section id="s-tape"><h2>Liquidation tape <span class="sub" id="wsst">connecting...</span></h2><div class="tape m" id="tape"></div></section>
+<section id="s-pos"><h2>Positioning (1h)</h2><div class="wrap"><table class="m"><thead><tr><th>Coin</th><th>Long %</th><th>Short %</th><th>OI $B</th><th>OI 1h</th></tr></thead><tbody id="tr"></tbody></table></div></section>
 </main>
-<div class="note">Live from Bybit perps (falls back to Binance if blocked). Catalyst cards are manual: edit the CARDS array. Not financial advice.</div>
+<div class="note">Live from Bybit perps (falls back to Binance if blocked). Catalysts update automatically from news feeds. Scores are research aids, not profit probabilities. Not financial advice.</div>
 <script>
 const CARDS=[
 {t:"SEC openness to ZK-based KYC",s:"building",c:"medium",coins:["WLD","AZTEC"],b:"Commissioner Peirce argued KYC/AML should move from mass data collection to zero-knowledge proofs. World ID is the most liquid token-linked ZK identity product.",per:{WLD:"Largest live ZK proof-of-personhood product. Volume 2x normal, funding neutral.",AZTEC:"ZK privacy L2, fits the theme less directly. Thin perp volume."}},
@@ -95,7 +117,7 @@ if(r.fund>0.05){s-=30;w.push("crowded")}else if(r.fund>0.03){s-=20;w.push("crowd
 if(r.vol>=50)s+=5;else if(r.vol<5){s-=15;w.push("thin")}
 s=Math.max(0,Math.min(100,s));if(a>=8||r.fund>0.03)s=Math.min(s,40);
 return {s,g:s>=75?"A":s>=60?"B":s>=45?"C":"skip",w:w.join(", "),r}}
-function chip(x,c){const q=score(x,c);if(!q)return"";const col=q.g=="A"?"var(--up)":q.g=="B"?"var(--acc)":q.g=="C"?"var(--warn)":"var(--dn)";return `<span class="tag m" style="font-weight:700;color:${col}" title="${q.w}">${q.g} ${q.s}</span>`}
+function chip(x,c){const q=score(x,c);if(!q)return"";const st=q.g=="A"?"background:#059669;color:#fff;border-color:#059669":q.g=="B"?"background:#ecfdf5;color:#047857;border-color:#a7f3d0":q.g=="C"?"background:#fffbeb;color:#b45309;border-color:#fde68a":"background:#fef2f2;color:#b91c1c;border-color:#fecaca";return `<span class="tag m" style="font-weight:700;${st}" title="${q.w}">${q.g} ${q.s}</span>`}
 function slogGet(){try{return JSON.parse(localStorage.getItem("sig")||"[]")}catch(e){return[]}}
 function trackSignals(){const L=slogGet(),now=Date.now();let ch=false,sch=false,ST={},al=[];try{ST=JSON.parse(localStorage.getItem("sst")||"{}")}catch(e){}
 const best={};LIVE.forEach(c=>c.coins.forEach(x=>{const q=score(x,c);if(q&&(!best[x]||q.s>best[x].q.s))best[x]={q,c}}));
@@ -111,7 +133,14 @@ const st=old.length?`${old.length} signals older than 4h: ${f(win/old.length*100
 $("slog").innerHTML=`<div class="sub" style="margin-bottom:6px">${st}</div><div class="wrap"><table class="m"><thead><tr><th>Coin</th><th>Grade</th><th>Entry</th><th>Now</th><th>Move %</th><th>Age</th></tr></thead><tbody>`+(rows.slice(0,15).map(o=>`<tr><td>${o.y.sym}</td><td>${o.y.g} ${o.y.s}</td><td>${f(o.y.px,o.y.px<10?4:2)}</td><td>${o.m==null?"-":f(o.y.px*(1+o.m/100),o.y.px<10?4:2)}</td><td class="${o.m>=0?"up":"dn"}">${o.m==null?"-":(o.m>=0?"+":"")+f(o.m,2)}</td><td>${o.h<1?Math.round(o.h*60)+"m":f(o.h,1)+"h"}</td></tr>`).join("")||'<tr><td colspan="6">Nothing yet. Only A and B setups get logged.</td></tr>')+"</tbody></table></div>"}
 window.addEventListener("storage",e=>{if(e.key=="sig"||e.key=="sst")trackSignals()});
 function clrLog(){try{localStorage.removeItem("sig");localStorage.removeItem("sst")}catch(e){}trackSignals()}
-function cards(){$("cards").innerHTML=(UPD?`<div class="sub" style="margin-bottom:6px">auto-updated ${UPD}</div>`:"")+LIVE.map(c=>`<div class="card"><b>${c.t}</b> <span class="st ${c.s}">${c.s}</span> <span class="st med" style="color:var(--mute)">${c.c}</span>${c.impact?` <span class="st building">impact ${c.impact}${c.type?" · "+c.type:""}</span>`:""}<div class="tags">${c.coins.map(x=>`<span class="tag m">${x}</span>${sig(x)}${chip(x,c)}`).join("")}</div><p>${c.b}</p>${Object.entries(c.per||{}).map(([k,v])=>`<p><b class="m">${k}:</b> ${v}</p>`).join("")}</div>`).join("")+(LIVE.length?"":'<div class="sub">No high-impact catalysts right now. Only listings, ETFs, hacks, big partnerships and similar events are shown.</div>');trackSignals()}
+function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]))}
+function detail(c){if(!c.parts)return"";const p=c.parts;
+const st=`status: ${esc(c.status||"")}${c.event_date?" | event "+esc(c.event_date):""} | ${esc(c.rel||"direct")}`;
+const src=(c.sources||[]).map(s=>`<a href="${/^https?:/.test(s.url||"")?esc(s.url):"#"}" target="_blank" rel="noopener noreferrer" style="color:var(--acc)">${esc(s.name)}</a>`).join(", ");
+return `<p class="sub">Score ${c.quality}: source ${p.credibility}/25, relevance ${p.relevance}/25, impact ${p.impact}/20, novelty ${p.novelty}/15, timing ${p.timing}/15. This is not a profit probability.</p><p class="sub">${st}</p>`+(src?`<p class="sub">Sources: ${src}</p>`:"")+(c.missing?`<p class="sub">Missing: ${esc(c.missing)}</p>`:"")}
+function kpis(){const seen={};let a=0;LIVE.forEach(c=>c.coins.forEach(x=>{const q=score(x,c);if(q&&(!seen[x]||q.s>seen[x].s))seen[x]=q}));for(const x in seen)if(seen[x].g=="A")a++;
+$("k_cat").textContent=LIVE.length;$("k_a").textContent=a;$("k_sig").textContent=slogGet().length;$("k_src").textContent=SRC||"..."}
+function cards(){$("cards").innerHTML=(UPD?`<div class="sub" style="margin-bottom:6px">auto-updated ${UPD}</div>`:"")+LIVE.map(c=>`<div class="card"><b>${esc(c.t)}</b> <span class="st ${c.s}">${c.s}</span> <span class="st med" style="color:var(--mute)">${c.c}</span>${c.quality?` <span class="st ${c.direction==="negative"?"fading":"building"}">${esc(c.label)} ${c.quality}</span> <span class="st med" style="color:var(--mute)">${esc(c.type||"")}</span>`:(c.impact?` <span class="st building">impact ${c.impact}</span>`:"")}<div class="tags">${c.coins.map(x=>`<span class="tag m">${x}</span>${sig(x)}${chip(x,c)}`).join("")}</div><p>${esc(c.b)}</p>${detail(c)}${Object.entries(c.per||{}).map(([k,v])=>`<p><b class="m">${esc(k)}:</b> ${esc(v)}</p>`).join("")}</div>`).join("")+(LIVE.length?"":'<div class="sub">No high-impact catalysts right now. Only listings, ETFs, hacks, big partnerships and similar events are shown.</div>');trackSignals();kpis()}
 async function loadCat(){try{const r=await fetch("catalysts.json?t="+Date.now());if(r.ok){const d=await r.json();if(Array.isArray(d.cards)){LIVE=d.cards;UPD=new Date(d.updated).toLocaleString([], {hour12:false})}}}catch(e){}cards()}
 $("filters").innerHTML=[["all","All"],["hot","Vol > 1.5x"],["gain","Gainers"],["lose","Losers"]].map(([k,l])=>`<button class="chip ${k==flt?"on":""}" data-k="${k}">${l}</button>`).join("");
 $("filters").onclick=e=>{const k=e.target.dataset.k;if(k){flt=k;$("filters").querySelectorAll(".chip").forEach(b=>b.classList.toggle("on",b.dataset.k==k));draw()}};
@@ -163,4 +192,5 @@ function wsBinance(){const w=new WebSocket("wss://fstream.binance.com/market/ws/
 w.onmessage=m=>{const o=(JSON.parse(m.data)||{}).o;if(!o)return;const n=+o.ap*+o.z;if(n>=MIN)addLiq(o.s.replace("USDT",""),o.S=="SELL",n)};
 w.onclose=()=>{$("wsst").textContent="disconnected, retrying";setTimeout(ws,3000)}}
 loadCat();setInterval(loadCat,300000);refresh().then(()=>{pos();ws()});setInterval(refresh,10000);setInterval(pos,120000);
+if(window.IntersectionObserver){const L=[...document.querySelectorAll("nav a")];const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)L.forEach(a=>a.classList.toggle("on",a.getAttribute("href")=="#"+e.target.id))}),{rootMargin:"-25% 0px -65% 0px"});L.forEach(a=>{const t=document.getElementById(a.getAttribute("href").slice(1));if(t)io.observe(t)});if(L[0])L[0].classList.add("on")}
 </script></body></html>
