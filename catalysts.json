@@ -1,42 +1,46 @@
 {
- "updated": "2026-10-02T05:06:40.626838+00:00",
+ "updated": "2026-10-02T07:02:01.320383+00:00",
  "cards": [
   {
-   "t": "Binance Futures to Launch USD\u24c8-Margined CTUSDT Perpetual Contract",
-   "type": "listing",
+   "t": "Evernorth Shareholder Vote and Nasdaq Debut",
+   "type": "treasury",
    "status": "confirmed_upcoming",
-   "event_date": "2026-10-01",
+   "event_date": null,
    "coins": [
-    "CT"
+    "XRP"
    ],
    "rel": "direct",
-   "b": "Binance Futures announced it will launch the USD\u24c8-Margined CTUSDT Perpetual Contract on October 1, 2026.",
+   "b": "Evernorth cleared a shareholder vote ahead of its Nasdaq debut, backed by a 473 million XRP treasury.",
    "per": {
-    "CT": "Binance Futures is launching a USD\u24c8-Margined CTUSDT Perpetual Contract."
+    "XRP": "Evernorth holds a 473M XRP treasury as it clears a shareholder vote ahead of its Nasdaq debut."
    },
    "direction": "positive",
-   "quality": 100,
+   "quality": 85,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 25,
+    "credibility": 10,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 10,
+   "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "Binance",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVzR6eWowWWJ4Rm5qczJIQ3lzYTgzN2Z4Z1ZoOEhscTdudEZyYlRBam05dWhfcjJHY053cGFBVmV3bmFDQ0U3ekFxaHB4eVI5bTB5WTA1eElERlI3SVlwQ3lLNFpVZWxWcG4yV3RqcTAyRC10RG44TGk2THNaaWowRlNReEJyTmRrdWNMQU5mTF8?oc=5"
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSUFwYXV2RGhFaWNEUEEzT3NFYWRLM3RkOG8zTnVYdFNaTkFITVBDRDdIMGkxRUd2cEFtemZDVk9MQnowNjdJOWMzVUZoTXh1d081dG9VWDVuUjljQTZzSkJ4LXRBMDdnNHVlc2Y0eUY2Qkxla3ZIaC1GcUlOZElfOFNXcHdWWFRPR2MtNk1QeGZfOUw0SUV4ZVhzdDcwYnJpazNjS0Z0NVVtRW0tUnFKWnc0LWZCdV9Ec21UMFZrSjRYdEx2OGktMmI1SWNRUlVIenBxUzNDVVVEdw?oc=5"
+    },
+    {
+     "name": "CryptoRank",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOelB0T3FHT3M0UTVfUUFSY2V5UmRhUUpBM2xIelkyR0xRUEhadzgxYmNNckFJQ0JYM2dxcVN4QzZyQ2phWnZmcWFVaWRhWk5BS1d0R1FmMm5yTHhqRERkRzdUVFg1T3hjT250LXRLdnFZZHZzVXZlTWhHUlpDS2NQUGtCd0JKR0ZVSDFMMm5PVVF5aU5ldFdDdFNOMUQzMURST0xwMzR3RjRoUQ?oc=5"
     }
    ],
-   "missing": "Exact launch hour"
+   "missing": "Exact date of the Nasdaq debut."
   },
   {
-   "t": "CME Group to Launch Bitcoin Cash and Uniswap Futures",
+   "t": "CME Group Futures Launch",
    "type": "listing",
    "status": "confirmed_upcoming",
    "event_date": "2026-10-19",
@@ -45,10 +49,10 @@
     "UNI"
    ],
    "rel": "direct",
-   "b": "CME Group will launch Bitcoin Cash and Uniswap futures contracts on October 19, 2026.",
+   "b": "CME Group announced it will launch Bitcoin Cash and Uniswap futures on October 19.",
    "per": {
-    "BCH": "CME Group is launching Bitcoin Cash futures on October 19.",
-    "UNI": "CME Group is launching Uniswap futures on October 19."
+    "BCH": "CME Group will launch Bitcoin Cash futures on October 19.",
+    "UNI": "CME Group will launch Uniswap futures on October 19."
    },
    "direction": "positive",
    "quality": 83,
@@ -69,10 +73,10 @@
      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbE1JTTBJTkdzcER2UHYyWDdzdmhtZ3U0eEdic0xBd29yQm5Qd1ppNTNLVGZOOTBvdUJZUDM5cnBkWTMzM0ZCdEYtLVpfRnRCbEdhNzhVRjBsOU1DNnh6Um9lUHBPc0x5VlZLSlRCVDY3enAwU3BfRE02VGhkQTQ4aUoxWlR3ODM0dXZLZ1Awd056Zm5jbmRkWWdvWFc?oc=5"
     }
    ],
-   "missing": "Contract specifications and launch times"
+   "missing": "Exact launch time on October 19, contract specifications."
   },
   {
-   "t": "NEAR Intents Protocol Hacked",
+   "t": "NEAR Protocol App Hack",
    "type": "hack",
    "status": "completed",
    "event_date": null,
@@ -80,9 +84,9 @@
     "NEAR"
    ],
    "rel": "direct",
-   "b": "NEAR Intents was hacked for $3.8 million, occurring alongside a $4 billion-a-month app security incident.",
+   "b": "NEAR Intents was hacked for $3.8 million amidst other ecosystem app security incidents.",
    "per": {
-    "NEAR": "NEAR Intents protocol suffered a $3.8 million hack."
+    "NEAR": "NEAR Intents was hacked for $3.8 million."
    },
    "direction": "negative",
    "quality": 76,
@@ -107,41 +111,7 @@
      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE10YlhJTVhTNXB5WFRObFJDVWMwMzI4aHZQM1c4VEk4OXZhQUNKN0hWd2lwbUs4eWFvc3NZNDJPblB4M2hLTkM5cThRTktqQlFyQXZfMTl3ZENMNTl0ckNTdkRJVdIBY0FVX3lxTE10YlhJTVhTNXB5WFRObFJDVWMwMzI4aHZQM1c4VEk4OXZhQUNKN0hWd2lwbUs4eWFvc3NZNDJPblB4M2hLTkM5cThRTktqQlFyQXZfMTl3ZENMNTl0ckNTdkRJVQ?oc=5"
     }
    ],
-   "missing": "Exact date of the exploit and recovery status"
-  },
-  {
-   "t": "Evernorth Clears Shareholder Vote Ahead of Nasdaq Debut",
-   "type": "treasury",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "XRP"
-   ],
-   "rel": "direct",
-   "b": "Evernorth cleared a shareholder vote ahead of its Nasdaq debut, backed by a 473M XRP treasury.",
-   "per": {
-    "XRP": "Evernorth cleared a shareholder vote ahead of a Nasdaq debut with a 473M XRP treasury."
-   },
-   "direction": "positive",
-   "quality": 75,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSUFwYXV2RGhFaWNEUEEzT3NFYWRLM3RkOG8zTnVYdFNaTkFITVBDRDdIMGkxRUd2cEFtemZDVk9MQnowNjdJOWMzVUZoTXh1d081dG9VWDVuUjljQTZzSkJ4LXRBMDdnNHVlc2Y0eUY2Qkxla3ZIaC1GcUlOZElfOFNXcHdWWFRPR2MtNk1QeGZfOUw0SUV4ZVhzdDcwYnJpazNjS0Z0NVVtRW0tUnFKWnc0LWZCdV9Ec21UMFZrSjRYdEx2OGktMmI1SWNRUlVIenBxUzNDVVVEdw?oc=5"
-    }
-   ],
-   "missing": "Exact Nasdaq listing date"
+   "missing": "Recovery plans, exact time of the exploit."
   }
  ]
 }
