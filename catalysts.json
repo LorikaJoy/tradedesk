@@ -1,195 +1,121 @@
 {
- "updated": "2026-10-02T18:53:18.423346+00:00",
+ "updated": "2026-10-02T22:45:30.556421+00:00",
  "cards": [
   {
-   "t": "Evernorth Schedules XRP Nasdaq Listing",
+   "t": "Bitwise XRP ETF Gets SEC Effectiveness Notice",
    "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-08",
-   "coins": [
-    "XRP"
-   ],
-   "rel": "direct",
-   "b": "Evernorth cleared its shareholder vote and scheduled its Nasdaq listing for October 8 with a treasury holding of 473 million XRP backed by over $1 billion.",
-   "per": {
-    "XRP": "Backed by a massive corporate treasury listing and dedicated Nasdaq-bound vehicle."
-   },
-   "direction": "positive",
-   "quality": 87,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQWlVOTXRCRXF3VlFsSXBlSGZ2M2VpSUptSU42Z0FfdmRSa2N2RWVLWlZzX09JRk1aUUZLZm5XclNaUVZVMk1DbFpjbXVDV1NNT19wZlpiYlpEamtxRGJCdHFxOFBDU3R5Z1BRcUcxb1czTkg5UE9aQXoySS1DTWtxamN5OU4wSy10VmhGd1ZFZFZTUktfUmw4eUwtaE1GdklvaXI2bXZldUdwT3RTNmxRUjlncGx6WFQ2M1pOVmszb212SG0tUThMRE44blVhelo1bHotTXJ3cFdybHdJckJVZ0p3YVRRYXVKb1l5MXFHMEVaYjRXNU0tN3dLZXpmQktKVVI3a1RIUWh5SFBXWWxzeEhtVS13RUFSS1dtQ0poYnJXdHhRUHlMWkFn?oc=5"
-    },
-    {
-     "name": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMRU1NbHdadlhOYXkxUWVfN2xFYmcwOXZwY2JBV2xOTVBwSUlDYmxlemwyVGI4NzBnVllFMzB2NmNDdGkwUlFYYWJSVVNVSVlvak1PU2JDTGNKdw?oc=5"
-    },
-    {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSUFwYXV2RGhFaWNEUEEzT3NFYWRLM3RkOG8zTnVYdFNaTkFITVBDRDdIMGkxRUd2cEFtemZDVk9MQnowNjdJOWMzVUZoTXh1d081dG9VWDVuUjljQTZzSkJ4LXRBMDdnNHVlc2Y0eUY2Qkxla3ZIaC1GcUlOZElfOFNXcHdWWFRPR2MtNk1QeGZfOUw0SUV4ZVhzdDcwYnJpazNjS0Z0NVVtRW0tUnFKWnc0LWZCdV9Ec21UMFZrSjRYdEx2OGktMmI1SWNRUlVIenBxUzNDVVVEdw?oc=5"
-    }
-   ],
-   "missing": "Opening day trading volume"
-  },
-  {
-   "t": "Bitwise XRP ETF Gains SEC Effectiveness",
-   "type": "etf",
-   "status": "confirmed_upcoming",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
     "XRP"
    ],
    "rel": "direct",
-   "b": "The SEC has confirmed the effectiveness of the Bitwise XRP ETF following filings that previously moved XRP prices. Clients have already recorded significant inflows into spot XRP products.",
+   "b": "The SEC confirmed the effectiveness of the Bitwise XRP ETF following a filing that previously moved XRP.",
    "per": {
-    "XRP": "Gained regulatory advancement with the SEC effectiveness notice for the Bitwise ETF."
-   },
-   "direction": "positive",
-   "quality": 85,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 10,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYktqeTcwZTQzMGE3amxCWkNXMl81SERZbjhZVElkNEFGR0dWLU1DZWpUQW5IendoMzBJUVVwcXFpdGt2VTFDX1NLUGN5T1ZFT1IxeG1Bc1hoMFhqRzNWQ3dSTk95RDBMWXJpcWlTSjFJT0E5ZFRPVUJ2VXZ1TndfWlBlWDN6RU1OTWVJRWo0a0wwVy1Rcm8tcGJpLXBGLUkwUHhDQ044c0V1bmZxWVNsRTlB?oc=5"
-    },
-    {
-     "name": "Coinpaper",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFY3M2tFSkhLR1dKaEdLdVdRRFdLaHRwMHd6N0Jmd0M5Y29qMFJHYXVtMHhNV1NkX1lfbHA4MnJMb2Ftb3RjREV2M3ZLYjA5b1VmTjBPOGF0LW9naEZlcFdRMjRhdVEzTjJ1bHRBTHhxbzIwc1kxbzJMOEZhTVNiU0VITnRaOFR1dGticEc2dWNHQm9JWlFLc0hFa2ZEbU54WlhNNC1yTQ?oc=5"
-    }
-   ],
-   "missing": "Exact official public trading launch date"
-  },
-  {
-   "t": "Bitwise Launches US Spot NEAR ETF",
-   "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "NEAR"
-   ],
-   "rel": "direct",
-   "b": "Bitwise has launched the first US spot NEAR ETF under the ticker NRR, featuring staking rewards and crossing $52.8 million in threshold metrics shortly after launch.",
-   "per": {
-    "NEAR": "Supported by the introduction of the new spot ETF product offering staking rewards."
-   },
-   "direction": "positive",
-   "quality": 85,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 10,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Bitget",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1iMU9EUkhSV0hPZnVyMlVTaDlnT1cwNXg3ckhNZnNzSVY0Vmt3bDA0ak12RUdhbXhFY0VLRy1XZnpVWVM3YlZmSjRydFZxanFVNGxRbHJpUTIzSXZaWE5FOFZ3TdIBY0FVX3lxTE1iMU9EUkhSV0hPZnVyMlVTaDlnT1cwNXg3ckhNZnNzSVY0Vmt3bDA0ak12RUdhbXhFY0VLRy1XZnpVWVM3YlZmSjRydFZxanFVNGxRbHJpUTIzSXZaWE5FOFZ3TQ?oc=5"
-    },
-    {
-     "name": "CryptoDaily",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQkxuSXZFZVdoXzVpVEJPOUY2ZEtkYzhFYnJpc0JjcDBfaEU3eDlEV0xDbHVlbC04NXR5S1MwdUd2RTJCWG5UVkJVbndjTVFQM1J5bE1JbWZSRlNqM2VPdHRDODdnbHh3eU5uaENXZmE2RW9xeUxRTGhKSkxYV2J4RQ?oc=5"
-    }
-   ],
-   "missing": "Exact trading start time"
-  },
-  {
-   "t": "Dogecoin DeFi Testnet Launches",
-   "type": "mainnet",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "DOGE"
-   ],
-   "rel": "direct",
-   "b": "Dogecoin has launched a DeFi testnet with Ethereum compatibility alongside the introduction of DogeOS, helping spur whale accumulation and price action.",
-   "per": {
-    "DOGE": "Gaining utility through the rollout of its new DeFi testnet and DogeOS."
-   },
-   "direction": "positive",
-   "quality": 77,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 10,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE83R1dfR0gwTTNfZ04tZmt4NmZFZ0gyNWQzVEZqcmRTeTlTTmdKVkF4WWN0a3o4YjUyN3pRaXc5YlppWVpoSlBhUGJtZXhqRWlpU09QcEgyWlB4SmZTekNER3ZtcUdUUXVCQ3ppSnhoWnc?oc=5"
-    },
-    {
-     "name": "The Cryptonomist",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9UWGhEVkZvR3BxbUNIMnZvNGZwOWpUVkxfMExjTUxjdGI4MWNpYkxpMWtsR05FNGR0dVRJSlVPVlQ0VFdjamRpUjdSRGNOeUpUWk5YWk8wOW1ibF9oa2ZiOHNTeG9zLXY1clVCczdLYmQ4bmpkWWc?oc=5"
-    }
-   ],
-   "missing": "Mainnet full launch date"
-  },
-  {
-   "t": "Canary Staked TRX ETF Rings Cboe Bell",
-   "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "TRX"
-   ],
-   "rel": "direct",
-   "b": "The Canary Staked TRX ETF has listed and rung the Cboe bell, bringing institutional product availability to TRON.",
-   "per": {
-    "TRX": "Benefiting from direct institutional access via the new Cboe-listed ETF."
+    "XRP": "Gained regulatory progress with the SEC effectiveness notice for the Bitwise XRP ETF."
    },
    "direction": "positive",
    "quality": 75,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 0,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 15
    },
    "impact": 8,
    "s": "building",
    "c": "high",
-   "sources": [
-    {
-     "name": "blockchain.news",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMUxUVjBVdE9Tb1pXd29TRHEwYjVXU0hOVDZUa2xRRlpfdXI1WUhGSEs2a0syb0I4SWxxcDQxOEcxZGdfOURZaUJTbk8xOW8yQWhLY0R5R0t5dEpWdmxWX01WaUlLODFnamZ1RnBlRW9LdmplWHAtcWdPMldvVXJidWRB?oc=5"
-    }
+   "sources": [],
+   "missing": "Exact trading start date"
+  },
+  {
+   "t": "Bitwise Launches US Spot NEAR ETF Under Ticker NRR",
+   "type": "etf",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "NEAR"
    ],
-   "missing": "Initial day trading volume metrics"
+   "rel": "direct",
+   "b": "Bitwise has launched the first US spot NEAR ETF featuring staking rewards under the ticker NRR.",
+   "per": {
+    "NEAR": "Received institutional product availability with staking rewards."
+   },
+   "direction": "positive",
+   "quality": 75,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 0,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [],
+   "missing": "Long-term volume and asset retention figures"
+  },
+  {
+   "t": "Canary Amends Pepe ETF Filing",
+   "type": "etf",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "PEPE"
+   ],
+   "rel": "direct",
+   "b": "Canary has amended its PEPE ETF filing with the SEC.",
+   "per": {
+    "PEPE": "Signaled market confidence through the amended ETF filing."
+   },
+   "direction": "positive",
+   "quality": 67,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 0,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [],
+   "missing": "SEC approval status and launch timeline"
+  },
+  {
+   "t": "Dogecoin DeFi Testnet Launches",
+   "type": "mainnet",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "DOGE"
+   ],
+   "rel": "direct",
+   "b": "The Dogecoin DeFi testnet has officially launched with Ethereum compatibility.",
+   "per": {
+    "DOGE": "Expanded functionality via the new DeFi testnet launch."
+   },
+   "direction": "positive",
+   "quality": 67,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 0,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [],
+   "missing": "Mainnet release date"
   }
  ]
 }
