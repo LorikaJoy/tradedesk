@@ -1,22 +1,8 @@
 {
- "updated": "2026-10-01T21:48:44.814052+00:00",
+ "updated": "2026-10-02T01:14:38.435710+00:00",
  "cards": [
   {
-   "t": "Bitwise Rolls Out First Spot NEAR ETF on NYSE Arca",
-   "type": "etf",
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "coins": [
-    "NEAR"
-   ],
-   "b": "The launch of the first spot NEAR ETF on NYSE Arca brings direct institutional capital inflows into NEAR, driving significant market momentum.",
-   "per": {
-    "NEAR": "Spot ETF rollout provides strong institutional demand and immediate price tailwinds."
-   }
-  },
-  {
-   "t": "CME Group Launches Bitcoin Cash and Uniswap Futures",
+   "t": "CME Group to Launch Bitcoin Cash and Uniswap Futures",
    "type": "listing",
    "impact": 9,
    "s": "building",
@@ -25,24 +11,24 @@
     "BCH",
     "UNI"
    ],
-   "b": "Regulated futures listings by CME Group expand institutional access and derivatives liquidity for Bitcoin Cash and Uniswap.",
+   "b": "CME Group is launching regulated futures contracts for Bitcoin Cash and Uniswap, providing a major institutional on-ramp that typically triggers increased trading volume and volatility.",
    "per": {
-    "UNI": "CME futures listing opens the door for institutional hedging and capital inflows.",
-    "BCH": "Derivatives expansion on CME enhances market legitimacy and trading volume."
+    "BCH": "Institutional futures availability validates BCH and brings derivative liquidity.",
+    "UNI": "Derivatives on a major traditional exchange like CME expand UNI's institutional reach."
    }
   },
   {
-   "t": "Binance Futures to Launch USD\u24c8-Margined CTUSDT Perpetual Contract",
-   "type": "listing",
+   "t": "Bitwise NEAR ETF Launches Strong With Over $52M Inflows",
+   "type": "etf",
    "impact": 9,
    "s": "building",
    "c": "high",
    "coins": [
-    "CT"
+    "NEAR"
    ],
-   "b": "Perpetual contract listings on Binance Futures significantly increase leverage availability, market visibility, and speculative volume.",
+   "b": "Bitwise has successfully launched its NEAR ETF, drawing tens of millions in inflows within days and bringing direct Wall Street capital into the token.",
    "per": {
-    "CT": "Binance perpetual listing creates immediate volatility and high-volume trading opportunities."
+    "NEAR": "Strong initial ETF inflows provide consistent passive buying pressure."
    }
   },
   {
@@ -54,9 +40,37 @@
    "coins": [
     "NEAR"
    ],
-   "b": "A multi-million dollar exploit on NEAR Intents creates short-term FUD and security concerns surrounding ecosystem protocols.",
+   "b": "A security breach on the NEAR ecosystem involving NEAR Intents resulted in a $3.8 million exploit, creating immediate downside pressure and sentiment concerns.",
    "per": {
-    "NEAR": "Protocol exploit introduces immediate downside risk and tests market support levels."
+    "NEAR": "Protocol exploits trigger immediate risk-off sentiment and short-term selling."
+   }
+  },
+  {
+   "t": "Binance Futures to Launch USD\u24c8-Margined CTUSDT Perpetual Contract",
+   "type": "listing",
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "coins": [
+    "CT"
+   ],
+   "b": "Binance Futures is introducing a perpetual contract for CT, giving traders high leverage and significantly increasing market visibility and speculative volume.",
+   "per": {
+    "CT": "Perp listings on Binance expand leverage options and drive active trading volume."
+   }
+  },
+  {
+   "t": "Evernorth Clears Shareholder Vote Ahead of Nasdaq Debut with 473M XRP Treasury",
+   "type": "treasury",
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "coins": [
+    "XRP"
+   ],
+   "b": "Evernorth's shareholder approval for a Nasdaq debut backed by a massive 473 million XRP treasury establishes a permanent corporate holding structure for the asset.",
+   "per": {
+    "XRP": "Large corporate treasury lockups diminish circulating supply and tie asset valuation to public equities."
    }
   }
  ]
