@@ -1,24 +1,24 @@
 {
- "updated": "2026-10-02T22:45:30.556421+00:00",
+ "updated": "2026-10-03T01:38:31.320030+00:00",
  "cards": [
   {
-   "t": "Bitwise XRP ETF Gets SEC Effectiveness Notice",
+   "t": "Bitwise XRP ETF SEC Effectiveness Notice",
    "type": "etf",
-   "status": "officially_announced",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
     "XRP"
    ],
    "rel": "direct",
-   "b": "The SEC confirmed the effectiveness of the Bitwise XRP ETF following a filing that previously moved XRP.",
+   "b": "The Bitwise XRP ETF received an SEC effectiveness notice following filings.",
    "per": {
-    "XRP": "Gained regulatory progress with the SEC effectiveness notice for the Bitwise XRP ETF."
+    "XRP": "Bitwise XRP ETF received SEC effectiveness."
    },
    "direction": "positive",
-   "quality": 75,
+   "quality": 85,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 0,
+    "credibility": 10,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
@@ -27,71 +27,91 @@
    "impact": 8,
    "s": "building",
    "c": "high",
-   "sources": [],
-   "missing": "Exact trading start date"
+   "sources": [
+    {
+     "name": "CryptoRank",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORUZGQUljREFXYzVyYklhcXNodl9xMFJPcjNpc0kxTV90LWlWYlVicnQ2d2V5YnZiMU5QM2NxeW90bTlDeGRFRVBVd0ZmbDhyai1wVmxYTVdGZHNUVlVOb3dWeFpjdWZ1MUc0N1Y3SjREb1B0ZjhUMFQ2cTlXQkxrS3ZUTmdBOXRvVlJvQU9rU3pxaS1vZkNYRFpDdTE5SXR4ci1hNExhQkc3SmZUWkJoRGJrMEE?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYktqeTcwZTQzMGE3amxCWkNXMl81SERZbjhZVElkNEFGR0dWLU1DZWpUQW5IendoMzBJUVVwcXFpdGt2VTFDX1NLUGN5T1ZFT1IxeG1Bc1hoMFhqRzNWQ3dSTk95RDBMWXJpcWlTSjFJT0E5ZFRPVUJ2VXZ1TndfWlBlWDN6RU1OTWVJRWo0a0wwVy1Rcm8tcGJpLXBGLUkwUHhDQ044c0V1bmZxWVNsRTlB?oc=5"
+    }
+   ],
+   "missing": "Exact trading start time"
   },
   {
-   "t": "Bitwise Launches US Spot NEAR ETF Under Ticker NRR",
-   "type": "etf",
+   "t": "Binance Futures Lists CTUSDT Perpetual Contract",
+   "type": "listing",
    "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "NEAR"
+    "CT"
    ],
    "rel": "direct",
-   "b": "Bitwise has launched the first US spot NEAR ETF featuring staking rewards under the ticker NRR.",
+   "b": "Binance Futures announced the listing of the CTUSDT perpetual contract for Concrete.",
    "per": {
-    "NEAR": "Received institutional product availability with staking rewards."
+    "CT": "Binance Futures lists the CTUSDT perpetual contract."
    },
    "direction": "positive",
    "quality": 75,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 0,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [],
-   "missing": "Long-term volume and asset retention figures"
-  },
-  {
-   "t": "Canary Amends Pepe ETF Filing",
-   "type": "etf",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "PEPE"
-   ],
-   "rel": "direct",
-   "b": "Canary has amended its PEPE ETF filing with the SEC.",
-   "per": {
-    "PEPE": "Signaled market confidence through the amended ETF filing."
-   },
-   "direction": "positive",
-   "quality": 67,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 0,
+    "credibility": 8,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 7,
+   "impact": 8,
    "s": "building",
-   "c": "medium",
-   "sources": [],
-   "missing": "SEC approval status and launch timeline"
+   "c": "high",
+   "sources": [
+    {
+     "name": "CryptoRank",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdzJMRTZ2eGxFRlFlel9GMUlnOXQ3NVlnUUdxZlVuZTFhRkY3QzVWZXNFZy1FQzRnZG9VVHZpeEZHOUFxQ1RDcklzckNMdUZGYnVqUUxJZ1cxQkZha3IxeHVpUTVCOEVpeHNqWWhSbGZ1NmtrMTQwWm51VWpyUDNIZ1VibWI5NUd2?oc=5"
+    }
+   ],
+   "missing": "Exact listing time"
   },
   {
-   "t": "Dogecoin DeFi Testnet Launches",
+   "t": "Bitwise Launches US Spot NEAR ETF Under Ticker NRR",
+   "type": "etf",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "NEAR",
+    "NRR"
+   ],
+   "rel": "direct",
+   "b": "Bitwise has launched the first U.S. spot NEAR ETF with staking rewards under the ticker NRR.",
+   "per": {
+    "NEAR": "Bitwise launched the US spot NEAR ETF under ticker NRR with staking rewards."
+   },
+   "direction": "positive",
+   "quality": 74,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "CryptoDaily",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQkxuSXZFZVdoXzVpVEJPOUY2ZEtkYzhFYnJpc0JjcDBfaEU3eDlEV0xDbHVlbC04NXR5S1MwdUd2RTJCWG5UVkJVbndjTVFQM1J5bE1JbWZSRlNqM2VPdHRDODdnbHh3eU5uaENXZmE2RW9xeUxRTGhKSkxYV2J4RQ?oc=5"
+    }
+   ],
+   "missing": "Exact launch date"
+  },
+  {
+   "t": "Dogecoin DeFi Testnet Launch",
    "type": "mainnet",
-   "status": "officially_announced",
+   "status": "completed",
    "event_date": null,
    "coins": [
     "DOGE"
@@ -99,23 +119,28 @@
    "rel": "direct",
    "b": "The Dogecoin DeFi testnet has officially launched with Ethereum compatibility.",
    "per": {
-    "DOGE": "Expanded functionality via the new DeFi testnet launch."
+    "DOGE": "DeFi testnet launched with Ethereum compatibility."
    },
    "direction": "positive",
-   "quality": 67,
-   "label": "MODERATE CATALYST",
+   "quality": 66,
+   "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 0,
+    "credibility": 8,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 15
+    "timing": 6
    },
    "impact": 7,
-   "s": "building",
+   "s": "fading",
    "c": "medium",
-   "sources": [],
-   "missing": "Mainnet release date"
+   "sources": [
+    {
+     "name": "The Cryptonomist",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9UWGhEVkZvR3BxbUNIMnZvNGZwOWpUVkxfMExjTUxjdGI4MWNpYkxpMWtsR05FNGR0dVRJSlVPVlQ0VFdjamRpUjdSRGNOeUpUWk5YWk8wOW1ibF9oa2ZiOHNTeG9zLXY1clVCczdLYmQ4bmpkWWc?oc=5"
+    }
+   ],
+   "missing": "Mainnet launch date"
   }
  ]
 }
