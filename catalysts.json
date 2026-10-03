@@ -1,8 +1,56 @@
 {
- "updated": "2026-10-03T01:38:31.320030+00:00",
+ "updated": "2026-10-03T07:05:31.695323+00:00",
  "cards": [
   {
-   "t": "Bitwise XRP ETF SEC Effectiveness Notice",
+   "t": "SEC Clears 3x Leveraged Bitcoin and Ether ETFs",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "BTC",
+    "ETH"
+   ],
+   "rel": "direct",
+   "b": "The SEC has cleared and approved listing rules for the first triple-leveraged Bitcoin and Ether exchange-traded products.",
+   "per": {
+    "BTC": "Triple-leveraged ETP approval brings new speculative derivatives exposure.",
+    "ETH": "Triple-leveraged ETP approval brings new speculative derivatives exposure."
+   },
+   "direction": "positive",
+   "quality": 87,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "finance.biggo.com",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0yb19mNVU0NTI1VWdKWEg2emUzZ0tLdjE0eWtYMkllb1pxY0stRVc1ODlwMm54cFNxakw0eDRrYjkzQ2VCTG1UMmRsMXl3SkJGY1JGMnNpSTViLXNwUUVGajF0TW9jMDlyT2oyb2xNbV9ieWdwQ2c?oc=5"
+    },
+    {
+     "name": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNZHZQd04xdWkwZlRISmExUVRyYW9RYUVsR1JzeWMtUDVkay1uUHNMdlNndGJCX3dZZ19xd3ZvRmNtUEtBUFVqODh1c1QyUDFwUWRuTQ?oc=5"
+    },
+    {
+     "name": "Coinfomania",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLWFEeXlqMkpYQWtTMVJ3NlNWMWh1Wk10dXlzTTU3c2RZaUE3aU90RFFPZFVzaXVRc1RpY2xvaXhCYTA3a0NkQ2NqNkw5N2JQMVprcjRlb1dwWm1tOVVVSzFBbzVhS3U1RWhONVgxLW5ldU9HTEYxRTlueTZSZ3dmVkhybm9KZw?oc=5"
+    },
+    {
+     "name": "Coinfomania",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWGdnVnMzWEtEcFJrVVZyWVdMQU1VYkRLNE9kd2VEN0s1YWIxdkZtY1laUXNJV28zYml3dW1kQk5iRG5xT05pMmFLek5qZExYVElYZHg3X1ZIYzMyY3dSR0ZBWDlMWWJhWVNwb01JQ282dXMwcWFqSmwycXA0MkxMU2JLWjNheXlja2dn?oc=5"
+    }
+   ],
+   "missing": "Exact trading start dates."
+  },
+  {
+   "t": "Bitwise XRP ETF Receives SEC Effectiveness Notice",
    "type": "etf",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -10,9 +58,9 @@
     "XRP"
    ],
    "rel": "direct",
-   "b": "The Bitwise XRP ETF received an SEC effectiveness notice following filings.",
+   "b": "The Bitwise XRP ETF received an SEC effectiveness notice following its recent filing.",
    "per": {
-    "XRP": "Bitwise XRP ETF received SEC effectiveness."
+    "XRP": "ETF effectiveness brings spot product closer to public trading availability."
    },
    "direction": "positive",
    "quality": 85,
@@ -37,12 +85,58 @@
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYktqeTcwZTQzMGE3amxCWkNXMl81SERZbjhZVElkNEFGR0dWLU1DZWpUQW5IendoMzBJUVVwcXFpdGt2VTFDX1NLUGN5T1ZFT1IxeG1Bc1hoMFhqRzNWQ3dSTk95RDBMWXJpcWlTSjFJT0E5ZFRPVUJ2VXZ1TndfWlBlWDN6RU1OTWVJRWo0a0wwVy1Rcm8tcGJpLXBGLUkwUHhDQ044c0V1bmZxWVNsRTlB?oc=5"
     }
    ],
-   "missing": "Exact trading start time"
+   "missing": "Exact listing date on the exchange."
+  },
+  {
+   "t": "Canary Capital Amends Spot PEPE ETF Filing",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "PEPE"
+   ],
+   "rel": "direct",
+   "b": "Canary Capital has submitted an amendment to its spot PEPE ETF filing with regulators.",
+   "per": {
+    "PEPE": "Amended ETF filing signals continued push toward regulatory review."
+   },
+   "direction": "positive",
+   "quality": 79,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeVQ0OEpob05TVmpsNElMRUdrZ096TmdVWU9zdHdmNzEwUzMtbjZRZGhoTy1RWGxweFc3TjR2OUVNYlpWX0NYbXFYR2tpWXo4d0t4X0NzZ1dGcmU4LVFwd21QNm9fUFZMWThyTlpfZUdTdFRQOHJaSmVWNnByNjRLQnU4cWNFUDJEVW9IaXdpVnVOaDBoWncxOVp6TGdGQVk?oc=5"
+    },
+    {
+     "name": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FeU40N3lnby1fNkZNWl9CMEI0dk1tVk9fQnVNbWJEUWRmTWtfQldZZjk5cklubmdVdGw1bnlVNzYtMnVSbTNDX2lZUzBXal9QeTdCVw?oc=5"
+    },
+    {
+     "name": "Crypto Briefing",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ2ZYS1BoV3Jhb04zbTk2dExrRlhkX29aSllFTTRaLUtCZ0MtdldnZ1BJTzRlYTNPUFBYQjNJTnlhTF9oM0lGa2VsRWlmTkdsdmJfVXphMHdvZDJnTlA5UUpPbGJSdDVJdE5XSGV0bVF3eGRxZFAzWTg1TmRwQnNSd3l2ekptRGdIQzlCSTFaYXAwTjIxVG5tZ1NPRjF0MFZVZlE?oc=5"
+    },
+    {
+     "name": "Coinfomania",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRGdQOGNYQnE2a3ZwR0xZTGtlUlJYNFFsbDZLM250WGxCcS1XcUpEb2U5Sk9RSTBPb1ZaZ3VDaWdxMlV5dHZMNFFIb1ZfYWJTaWx3Z1BxRXVQajh6M3NWYlR0WFZpVkpmdURBT3VnQTExRlhtNWF1ck5fRUR1MTZIWXFnQVEtbkd3dEZpeFNR?oc=5"
+    }
+   ],
+   "missing": "Final SEC decision or approval timeline."
   },
   {
    "t": "Binance Futures Lists CTUSDT Perpetual Contract",
    "type": "listing",
-   "status": "officially_announced",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
     "CT"
@@ -50,7 +144,7 @@
    "rel": "direct",
    "b": "Binance Futures announced the listing of the CTUSDT perpetual contract for Concrete.",
    "per": {
-    "CT": "Binance Futures lists the CTUSDT perpetual contract."
+    "CT": "Perpetual contract listing on Binance Futures provides leveraged trading access."
    },
    "direction": "positive",
    "quality": 75,
@@ -71,7 +165,7 @@
      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdzJMRTZ2eGxFRlFlel9GMUlnOXQ3NVlnUUdxZlVuZTFhRkY3QzVWZXNFZy1FQzRnZG9VVHZpeEZHOUFxQ1RDcklzckNMdUZGYnVqUUxJZ1cxQkZha3IxeHVpUTVCOEVpeHNqWWhSbGZ1NmtrMTQwWm51VWpyUDNIZ1VibWI5NUd2?oc=5"
     }
    ],
-   "missing": "Exact listing time"
+   "missing": "Exact launch time or date."
   },
   {
    "t": "Bitwise Launches US Spot NEAR ETF Under Ticker NRR",
@@ -83,9 +177,9 @@
     "NRR"
    ],
    "rel": "direct",
-   "b": "Bitwise has launched the first U.S. spot NEAR ETF with staking rewards under the ticker NRR.",
+   "b": "Bitwise has launched the first US spot NEAR ETF featuring staking rewards under the ticker NRR.",
    "per": {
-    "NEAR": "Bitwise launched the US spot NEAR ETF under ticker NRR with staking rewards."
+    "NEAR": "Launch of spot ETF with staking brings institutional vehicle access."
    },
    "direction": "positive",
    "quality": 74,
@@ -102,45 +196,45 @@
    "c": "medium",
    "sources": [
     {
-     "name": "CryptoDaily",
+     "name": "cryptodaily.co.uk",
      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQkxuSXZFZVdoXzVpVEJPOUY2ZEtkYzhFYnJpc0JjcDBfaEU3eDlEV0xDbHVlbC04NXR5S1MwdUd2RTJCWG5UVkJVbndjTVFQM1J5bE1JbWZSRlNqM2VPdHRDODdnbHh3eU5uaENXZmE2RW9xeUxRTGhKSkxYV2J4RQ?oc=5"
     }
    ],
-   "missing": "Exact launch date"
+   "missing": "Initial daily trading volume data."
   },
   {
-   "t": "Dogecoin DeFi Testnet Launch",
-   "type": "mainnet",
-   "status": "completed",
+   "t": "Ethereum Layer-2 Blast Shuts Down",
+   "type": "other",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "DOGE"
+    "ETH"
    ],
-   "rel": "direct",
-   "b": "The Dogecoin DeFi testnet has officially launched with Ethereum compatibility.",
+   "rel": "indirect",
+   "b": "Ethereum layer-2 network Blast is shutting down as user activity fades and asset values plunge.",
    "per": {
-    "DOGE": "DeFi testnet launched with Ethereum compatibility."
+    "ETH": "Decline of a major layer-2 network shifts total value locked dynamics within the ecosystem."
    },
-   "direction": "positive",
-   "quality": 66,
-   "label": "COMPLETED CATALYST",
+   "direction": "negative",
+   "quality": 71,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 8,
-    "relevance": 25,
+    "credibility": 17,
+    "relevance": 12,
     "impact": 12,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
    "impact": 7,
-   "s": "fading",
+   "s": "building",
    "c": "medium",
    "sources": [
     {
-     "name": "The Cryptonomist",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9UWGhEVkZvR3BxbUNIMnZvNGZwOWpUVkxfMExjTUxjdGI4MWNpYkxpMWtsR05FNGR0dVRJSlVPVlQ0VFdjamRpUjdSRGNOeUpUWk5YWk8wOW1ibF9oa2ZiOHNTeG9zLXY1clVCczdLYmQ4bmpkWWc?oc=5"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/02/once-a-usd2-billion-ethereum-layer-2-blast-is-shutting-down-after-assets-plunge-98"
     }
    ],
-   "missing": "Mainnet launch date"
+   "missing": "Exact shutdown timestamp for user withdrawals."
   }
  ]
 }
