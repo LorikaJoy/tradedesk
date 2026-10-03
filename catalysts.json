@@ -1,8 +1,46 @@
 {
- "updated": "2026-10-03T07:05:31.695323+00:00",
+ "updated": "2026-10-03T12:30:54.825202+00:00",
  "cards": [
   {
-   "t": "SEC Clears 3x Leveraged Bitcoin and Ether ETFs",
+   "t": "Blast L2 Network Announces Shutdown",
+   "type": "mainnet",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "BLAST"
+   ],
+   "rel": "direct",
+   "b": "Ethereum layer-2 network Blast is shutting down and urging users to withdraw assets to the mainnet as costs outpace revenue.",
+   "per": {
+    "BLAST": "The Ethereum layer-2 network is winding down operations."
+   },
+   "direction": "negative",
+   "quality": 94,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/02/once-a-usd2-billion-ethereum-layer-2-blast-is-shutting-down-after-assets-plunge-98"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/blast-to-wind-down-ethereum-l2-after-costs-outpace-revenue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Exact final shutdown date."
+  },
+  {
+   "t": "SEC Approves 3x Leveraged Bitcoin and Ether ETFs",
    "type": "etf",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -11,10 +49,10 @@
     "ETH"
    ],
    "rel": "direct",
-   "b": "The SEC has cleared and approved listing rules for the first triple-leveraged Bitcoin and Ether exchange-traded products.",
+   "b": "The SEC has approved the listing rules for the first-ever 3x leveraged Bitcoin and Ether exchange-traded products.",
    "per": {
-    "BTC": "Triple-leveraged ETP approval brings new speculative derivatives exposure.",
-    "ETH": "Triple-leveraged ETP approval brings new speculative derivatives exposure."
+    "BTC": "Approved for 3x leveraged ETF/ETP products.",
+    "ETH": "Approved for 3x leveraged ETF/ETP products."
    },
    "direction": "positive",
    "quality": 87,
@@ -31,120 +69,36 @@
    "c": "high",
    "sources": [
     {
+     "name": "CryptoRank",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQczFQSjFVQnExYUN5NkEzYmZvVzF6aDl5SlBGLVEwaXJ3Y0JQNi14WWplTldLTGpxcFhRNUdQNXI4U3hlVW9JMTZzOFNvZnhTWFBPaFo5cU9wOXNYYWpad0ItcUpmSE4wX2xoSTVsYTRvaTlSWmV2QS0wTXhJSXdpTHYzT1hERnlXZmRJT1Qtd3B5eF9Odk9GVTFkWkhiNWNjVjJuNl9XNm96ZENya2ZFcEdpT254Qy1COEMw?oc=5"
+    },
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSjVYQWlUVFJnLUVKek9vVFdVTUFTZk5PZUYxb3drTUJaZzZpTjk4R0s0WER2Qm1YZWJpRXlXNWZ4ZF9TUUVJWnVYOEhGdnh4alBqa00zZFM4V1VJSzFIcWJicHBidHJwYXZaM1F0MnFQd1JKdnRUZUl2eUk4eC1KZ1ExZnp0Snh0SXE1WjhYN1M3RmJBYXl2aVdBNVpyVGFEQzBhV1Z4T2JLdXJhOE5PN3pLRkpHX1hwOXJ2Mnl4RVFkYVZX?oc=5"
+    },
+    {
      "name": "finance.biggo.com",
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0yb19mNVU0NTI1VWdKWEg2emUzZ0tLdjE0eWtYMkllb1pxY0stRVc1ODlwMm54cFNxakw0eDRrYjkzQ2VCTG1UMmRsMXl3SkJGY1JGMnNpSTViLXNwUUVGajF0TW9jMDlyT2oyb2xNbV9ieWdwQ2c?oc=5"
     },
     {
-     "name": "bloomingbit",
+     "name": "en.bloomingbit.io",
      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNZHZQd04xdWkwZlRISmExUVRyYW9RYUVsR1JzeWMtUDVkay1uUHNMdlNndGJCX3dZZ19xd3ZvRmNtUEtBUFVqODh1c1QyUDFwUWRuTQ?oc=5"
-    },
-    {
-     "name": "Coinfomania",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLWFEeXlqMkpYQWtTMVJ3NlNWMWh1Wk10dXlzTTU3c2RZaUE3aU90RFFPZFVzaXVRc1RpY2xvaXhCYTA3a0NkQ2NqNkw5N2JQMVprcjRlb1dwWm1tOVVVSzFBbzVhS3U1RWhONVgxLW5ldU9HTEYxRTlueTZSZ3dmVkhybm9KZw?oc=5"
-    },
-    {
-     "name": "Coinfomania",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWGdnVnMzWEtEcFJrVVZyWVdMQU1VYkRLNE9kd2VEN0s1YWIxdkZtY1laUXNJV28zYml3dW1kQk5iRG5xT05pMmFLek5qZExYVElYZHg3X1ZIYzMyY3dSR0ZBWDlMWWJhWVNwb01JQ282dXMwcWFqSmwycXA0MkxMU2JLWjNheXlja2dn?oc=5"
     }
    ],
-   "missing": "Exact trading start dates."
-  },
-  {
-   "t": "Bitwise XRP ETF Receives SEC Effectiveness Notice",
-   "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "XRP"
-   ],
-   "rel": "direct",
-   "b": "The Bitwise XRP ETF received an SEC effectiveness notice following its recent filing.",
-   "per": {
-    "XRP": "ETF effectiveness brings spot product closer to public trading availability."
-   },
-   "direction": "positive",
-   "quality": 85,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 10,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "CryptoRank",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORUZGQUljREFXYzVyYklhcXNodl9xMFJPcjNpc0kxTV90LWlWYlVicnQ2d2V5YnZiMU5QM2NxeW90bTlDeGRFRVBVd0ZmbDhyai1wVmxYTVdGZHNUVlVOb3dWeFpjdWZ1MUc0N1Y3SjREb1B0ZjhUMFQ2cTlXQkxrS3ZUTmdBOXRvVlJvQU9rU3pxaS1vZkNYRFpDdTE5SXR4ci1hNExhQkc3SmZUWkJoRGJrMEE?oc=5"
-    },
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYktqeTcwZTQzMGE3amxCWkNXMl81SERZbjhZVElkNEFGR0dWLU1DZWpUQW5IendoMzBJUVVwcXFpdGt2VTFDX1NLUGN5T1ZFT1IxeG1Bc1hoMFhqRzNWQ3dSTk95RDBMWXJpcWlTSjFJT0E5ZFRPVUJ2VXZ1TndfWlBlWDN6RU1OTWVJRWo0a0wwVy1Rcm8tcGJpLXBGLUkwUHhDQ044c0V1bmZxWVNsRTlB?oc=5"
-    }
-   ],
-   "missing": "Exact listing date on the exchange."
-  },
-  {
-   "t": "Canary Capital Amends Spot PEPE ETF Filing",
-   "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "PEPE"
-   ],
-   "rel": "direct",
-   "b": "Canary Capital has submitted an amendment to its spot PEPE ETF filing with regulators.",
-   "per": {
-    "PEPE": "Amended ETF filing signals continued push toward regulatory review."
-   },
-   "direction": "positive",
-   "quality": 79,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeVQ0OEpob05TVmpsNElMRUdrZ096TmdVWU9zdHdmNzEwUzMtbjZRZGhoTy1RWGxweFc3TjR2OUVNYlpWX0NYbXFYR2tpWXo4d0t4X0NzZ1dGcmU4LVFwd21QNm9fUFZMWThyTlpfZUdTdFRQOHJaSmVWNnByNjRLQnU4cWNFUDJEVW9IaXdpVnVOaDBoWncxOVp6TGdGQVk?oc=5"
-    },
-    {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FeU40N3lnby1fNkZNWl9CMEI0dk1tVk9fQnVNbWJEUWRmTWtfQldZZjk5cklubmdVdGw1bnlVNzYtMnVSbTNDX2lZUzBXal9QeTdCVw?oc=5"
-    },
-    {
-     "name": "Crypto Briefing",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ2ZYS1BoV3Jhb04zbTk2dExrRlhkX29aSllFTTRaLUtCZ0MtdldnZ1BJTzRlYTNPUFBYQjNJTnlhTF9oM0lGa2VsRWlmTkdsdmJfVXphMHdvZDJnTlA5UUpPbGJSdDVJdE5XSGV0bVF3eGRxZFAzWTg1TmRwQnNSd3l2ekptRGdIQzlCSTFaYXAwTjIxVG5tZ1NPRjF0MFZVZlE?oc=5"
-    },
-    {
-     "name": "Coinfomania",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRGdQOGNYQnE2a3ZwR0xZTGtlUlJYNFFsbDZLM250WGxCcS1XcUpEb2U5Sk9RSTBPb1ZaZ3VDaWdxMlV5dHZMNFFIb1ZfYWJTaWx3Z1BxRXVQajh6M3NWYlR0WFZpVkpmdURBT3VnQTExRlhtNWF1ck5fRUR1MTZIWXFnQVEtbkd3dEZpeFNR?oc=5"
-    }
-   ],
-   "missing": "Final SEC decision or approval timeline."
+   "missing": "Exact trading start date for the products."
   },
   {
    "t": "Binance Futures Lists CTUSDT Perpetual Contract",
    "type": "listing",
-   "status": "confirmed_upcoming",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
     "CT"
    ],
    "rel": "direct",
-   "b": "Binance Futures announced the listing of the CTUSDT perpetual contract for Concrete.",
+   "b": "Binance Futures has announced the listing of the CTUSDT perpetual contract for Concrete.",
    "per": {
-    "CT": "Perpetual contract listing on Binance Futures provides leveraged trading access."
+    "CT": "Binance Futures lists the CTUSDT perpetual contract."
    },
    "direction": "positive",
    "quality": 75,
@@ -165,21 +119,88 @@
      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdzJMRTZ2eGxFRlFlel9GMUlnOXQ3NVlnUUdxZlVuZTFhRkY3QzVWZXNFZy1FQzRnZG9VVHZpeEZHOUFxQ1RDcklzckNMdUZGYnVqUUxJZ1cxQkZha3IxeHVpUTVCOEVpeHNqWWhSbGZ1NmtrMTQwWm51VWpyUDNIZ1VibWI5NUd2?oc=5"
     }
    ],
-   "missing": "Exact launch time or date."
+   "missing": "Exact launch time of the perpetual contract."
   },
   {
-   "t": "Bitwise Launches US Spot NEAR ETF Under Ticker NRR",
+   "t": "PumpBTC Delisting from Binance Futures",
+   "type": "delisting",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "PUMPBTC"
+   ],
+   "rel": "direct",
+   "b": "Binance Futures announced details regarding the delisting of the PUMPBTC/USDT contract.",
+   "per": {
+    "PUMPBTC": "PUMPBTC/USDT is being delisted from Binance Futures."
+   },
+   "direction": "negative",
+   "quality": 75,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Coin Gabbar",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORk5PVU9RVUlReFFTS3VWa3lSWVdWUTFPWW1YWm1oRGVnOWloQ292V05ySllleHVqYVBmWXh3cG5jU1NWVko2MHhSbU1VMkVxaHkzU3VFenBjRlZZZ2RkaTNOZ0p1T04wcGhiR2R5N0J5UzJPanpHQ0JnRzdpRTRHTENWdGdxVkJDdXhF?oc=5"
+    }
+   ],
+   "missing": "Exact delisting date and time."
+  },
+  {
+   "t": "NEAR Intents Recovers Stolen Funds After Exploiter Returns Total",
+   "type": "hack",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "NEAR"
+   ],
+   "rel": "direct",
+   "b": "NEAR Intents recovered the entire $3.8 million stolen in an exploit after the exploiter returned the funds following an ultimatum.",
+   "per": {
+    "NEAR": "Full recovery of $3.8 million stolen funds achieved."
+   },
+   "direction": "positive",
+   "quality": 75,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/near-intents-recovers-entire-stolen-38m-after-ultimatum-to-exploiter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Details on the exploiter's identity."
+  },
+  {
+   "t": "Bitwise Launches US Spot NEAR ETF with Staking Rewards",
    "type": "etf",
    "status": "completed",
    "event_date": null,
    "coins": [
-    "NEAR",
-    "NRR"
+    "NEAR"
    ],
    "rel": "direct",
    "b": "Bitwise has launched the first US spot NEAR ETF featuring staking rewards under the ticker NRR.",
    "per": {
-    "NEAR": "Launch of spot ETF with staking brings institutional vehicle access."
+    "NEAR": "Spot NEAR ETF launched under ticker NRR with staking rewards."
    },
    "direction": "positive",
    "quality": 74,
@@ -196,45 +217,11 @@
    "c": "medium",
    "sources": [
     {
-     "name": "cryptodaily.co.uk",
+     "name": "CryptoDaily",
      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQkxuSXZFZVdoXzVpVEJPOUY2ZEtkYzhFYnJpc0JjcDBfaEU3eDlEV0xDbHVlbC04NXR5S1MwdUd2RTJCWG5UVkJVbndjTVFQM1J5bE1JbWZSRlNqM2VPdHRDODdnbHh3eU5uaENXZmE2RW9xeUxRTGhKSkxYV2J4RQ?oc=5"
     }
    ],
-   "missing": "Initial daily trading volume data."
-  },
-  {
-   "t": "Ethereum Layer-2 Blast Shuts Down",
-   "type": "other",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "ETH"
-   ],
-   "rel": "indirect",
-   "b": "Ethereum layer-2 network Blast is shutting down as user activity fades and asset values plunge.",
-   "per": {
-    "ETH": "Decline of a major layer-2 network shifts total value locked dynamics within the ecosystem."
-   },
-   "direction": "negative",
-   "quality": 71,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/02/once-a-usd2-billion-ethereum-layer-2-blast-is-shutting-down-after-assets-plunge-98"
-    }
-   ],
-   "missing": "Exact shutdown timestamp for user withdrawals."
+   "missing": "Initial inflows and trading volumes."
   }
  ]
 }
