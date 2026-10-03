@@ -1,26 +1,26 @@
 {
- "updated": "2026-10-03T12:30:54.825202+00:00",
+ "updated": "2026-10-03T16:42:55.473320+00:00",
  "cards": [
   {
-   "t": "Blast L2 Network Announces Shutdown",
-   "type": "mainnet",
+   "t": "Canary Capital Amends Spot PEPE ETF Filing",
+   "type": "etf",
    "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "BLAST"
+    "PEPE"
    ],
    "rel": "direct",
-   "b": "Ethereum layer-2 network Blast is shutting down and urging users to withdraw assets to the mainnet as costs outpace revenue.",
+   "b": "Canary Capital filed an amended S-1 for a spot PEPE ETF, proposing a Cboe BZX listing.",
    "per": {
-    "BLAST": "The Ethereum layer-2 network is winding down operations."
+    "PEPE": "Spot ETF filing amended with proposed Cboe BZX listing."
    },
-   "direction": "negative",
-   "quality": 94,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 92,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 25,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
@@ -29,15 +29,23 @@
    "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/02/once-a-usd2-billion-ethereum-layer-2-blast-is-shutting-down-after-assets-plunge-98"
+     "name": "Binance",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8yTTJ1bG9MT2NkVWY1MWNqS2FWNjJKMC1fdmJVc0dFRENtYl9vOEJSRUtJVEhIM0Z5N0c4NlplVVN6MWx4cC1pWlhqNmFrNGswUXhLdUdMdUFqMUU4RTVGVWoyQS0?oc=5"
     },
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/blast-to-wind-down-ethereum-l2-after-costs-outpace-revenue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeVQ0OEpob05TVmpsNElMRUdrZ096TmdVWU9zdHdmNzEwUzMtbjZRZGhoTy1RWGxweFc3TjR2OUVNYlpWX0NYbXFYR2tpWXo4d0t4X0NzZ1dGcmU4LVFwd21QNm9fUFZMWThyTlpfZUdTdFRQOHJaSmVWNnByNjRLQnU4cWNFUDJEVW9IaXdpVnVOaDBoWncxOVp6TGdGQVk?oc=5"
+    },
+    {
+     "name": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FeU40N3lnby1fNkZNWl9CMEI0dk1tVk9fQnVNbWJEUWRmTWtfQldZZjk5cklubmdVdGw1bnlVNzYtMnVSbTNDX2lZUzBXal9QeTdCVw?oc=5"
+    },
+    {
+     "name": "Coin Gabbar",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPakNBcTBVcm5aMWF4VlN4em1odURRcnMwQ0VXNklER2Y0MFpBRlE5ODRUbmNJYVpMVUNkTVRveXRjZ196SUYtelEtTVFxbHYxQnZFRjVRcC1nTkJSYWRhSGdKUGRyZXl3NkF0bllqTGEtRDg2TXdnRGRvT2JwVnV3djJYNjV5bXZVYko2WUh0NG0?oc=5"
     }
    ],
-   "missing": "Exact final shutdown date."
+   "missing": "SEC approval decision date."
   },
   {
    "t": "SEC Approves 3x Leveraged Bitcoin and Ether ETFs",
@@ -49,10 +57,10 @@
     "ETH"
    ],
    "rel": "direct",
-   "b": "The SEC has approved the listing rules for the first-ever 3x leveraged Bitcoin and Ether exchange-traded products.",
+   "b": "The U.S. SEC approved listing rules for 3x leveraged Bitcoin and Ether ETFs, though trading is pending activation.",
    "per": {
-    "BTC": "Approved for 3x leveraged ETF/ETP products.",
-    "ETH": "Approved for 3x leveraged ETF/ETP products."
+    "BTC": "Approved for 3x leveraged ETF listing rules.",
+    "ETH": "Approved for 3x leveraged ETF listing rules."
    },
    "direction": "positive",
    "quality": 87,
@@ -81,11 +89,11 @@
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0yb19mNVU0NTI1VWdKWEg2emUzZ0tLdjE0eWtYMkllb1pxY0stRVc1ODlwMm54cFNxakw0eDRrYjkzQ2VCTG1UMmRsMXl3SkJGY1JGMnNpSTViLXNwUUVGajF0TW9jMDlyT2oyb2xNbV9ieWdwQ2c?oc=5"
     },
     {
-     "name": "en.bloomingbit.io",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNZHZQd04xdWkwZlRISmExUVRyYW9RYUVsR1JzeWMtUDVkay1uUHNMdlNndGJCX3dZZ19xd3ZvRmNtUEtBUFVqODh1c1QyUDFwUWRuTQ?oc=5"
+     "name": "Bitget",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE41ZWMtZkQ2aGtfUUFkbktDdThIQUVURi16UjAxMktsS0Jrc1hYcW1VZFVmN2VTSm52RklSZkltdXR6cVJWM3B4OGI4LUVfUjZ4a0Q1T2tMbnd3NV9FWWNtanpJZ9IBY0FVX3lxTE41ZWMtZkQ2aGtfUUFkbktDdThIQUVURi16UjAxMktsS0Jrc1hYcW1VZFVmN2VTSm52RklSZkltdXR6cVJWM3B4OGI4LUVfUjZ4a0Q1T2tMbnd3NV9FWWNtanpJZw?oc=5"
     }
    ],
-   "missing": "Exact trading start date for the products."
+   "missing": "Exact trading activation date."
   },
   {
    "t": "Binance Futures Lists CTUSDT Perpetual Contract",
@@ -96,17 +104,17 @@
     "CT"
    ],
    "rel": "direct",
-   "b": "Binance Futures has announced the listing of the CTUSDT perpetual contract for Concrete.",
+   "b": "Binance Futures announced the listing of the CTUSDT perpetual contract for Concrete.",
    "per": {
-    "CT": "Binance Futures lists the CTUSDT perpetual contract."
+    "CT": "Binance Futures is listing a perpetual contract for CT."
    },
    "direction": "positive",
-   "quality": 75,
+   "quality": 83,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 8,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 15
    },
@@ -122,25 +130,25 @@
    "missing": "Exact launch time of the perpetual contract."
   },
   {
-   "t": "PumpBTC Delisting from Binance Futures",
-   "type": "delisting",
-   "status": "officially_announced",
+   "t": "Upbit Lists POD Trading Pairs",
+   "type": "listing",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "PUMPBTC"
+    "POD"
    ],
    "rel": "direct",
-   "b": "Binance Futures announced details regarding the delisting of the PUMPBTC/USDT contract.",
+   "b": "Upbit announced it will list POD trading pairs against KRW, BTC, and USDT.",
    "per": {
-    "PUMPBTC": "PUMPBTC/USDT is being delisted from Binance Futures."
+    "POD": "Upbit is adding multiple trading pairs for POD."
    },
-   "direction": "negative",
-   "quality": 75,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 83,
+   "label": "STRONG CATALYST",
    "parts": {
     "credibility": 8,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 15
    },
@@ -149,79 +157,45 @@
    "c": "high",
    "sources": [
     {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORk5PVU9RVUlReFFTS3VWa3lSWVdWUTFPWW1YWm1oRGVnOWloQ292V05ySllleHVqYVBmWXh3cG5jU1NWVko2MHhSbU1VMkVxaHkzU3VFenBjRlZZZ2RkaTNOZ0p1T04wcGhiR2R5N0J5UzJPanpHQ0JnRzdpRTRHTENWdGdxVkJDdXhF?oc=5"
+     "name": "Hokanews",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU05idkJ0UEU2WmhKMnFLSFJXTGNwdEY5QkI2dFN1X2VzS09Rd1dPbGZvS0ExTWJsTGxONF9YUGhneDF6SXJUVDNuNG1pX01QMEpKQWVKNldxVXNrX0szUEFyU2F2cUJPT1FCeW5TVjBRQlBITzE2bHg4RlBuekJjVS1kQQ?oc=5"
     }
    ],
-   "missing": "Exact delisting date and time."
+   "missing": "Exact trading start time."
   },
   {
-   "t": "NEAR Intents Recovers Stolen Funds After Exploiter Returns Total",
-   "type": "hack",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "NEAR"
-   ],
-   "rel": "direct",
-   "b": "NEAR Intents recovered the entire $3.8 million stolen in an exploit after the exploiter returned the funds following an ultimatum.",
-   "per": {
-    "NEAR": "Full recovery of $3.8 million stolen funds achieved."
-   },
-   "direction": "positive",
-   "quality": 75,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/near-intents-recovers-entire-stolen-38m-after-ultimatum-to-exploiter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Details on the exploiter's identity."
-  },
-  {
-   "t": "Bitwise Launches US Spot NEAR ETF with Staking Rewards",
+   "t": "Bitwise XRP ETF Receives SEC Effectiveness Notice",
    "type": "etf",
-   "status": "completed",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "NEAR"
+    "XRP"
    ],
    "rel": "direct",
-   "b": "Bitwise has launched the first US spot NEAR ETF featuring staking rewards under the ticker NRR.",
+   "b": "The Bitwise XRP ETF received an SEC effectiveness notice following a filing that previously moved XRP 7.7%.",
    "per": {
-    "NEAR": "Spot NEAR ETF launched under ticker NRR with staking rewards."
+    "XRP": "Bitwise XRP ETF received SEC effectiveness notice."
    },
    "direction": "positive",
-   "quality": 74,
-   "label": "COMPLETED CATALYST",
+   "quality": 83,
+   "label": "STRONG CATALYST",
    "parts": {
     "credibility": 8,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
+   "impact": 8,
+   "s": "building",
+   "c": "high",
    "sources": [
     {
-     "name": "CryptoDaily",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQkxuSXZFZVdoXzVpVEJPOUY2ZEtkYzhFYnJpc0JjcDBfaEU3eDlEV0xDbHVlbC04NXR5S1MwdUd2RTJCWG5UVkJVbndjTVFQM1J5bE1JbWZSRlNqM2VPdHRDODdnbHh3eU5uaENXZmE2RW9xeUxRTGhKSkxYV2J4RQ?oc=5"
+     "name": "CryptoRank",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORUZGQUljREFXYzVyYklhcXNodl9xMFJPcjNpc0kxTV90LWlWYlVicnQ2d2V5YnZiMU5QM2NxeW90bTlDeGRFRVBVd0ZmbDhyai1wVmxYTVdGZHNUVlVOb3dWeFpjdWZ1MUc0N1Y3SjREb1B0ZjhUMFQ2cTlXQkxrS3ZUTmdBOXRvVlJvQU9rU3pxaS1vZkNYRFpDdTE5SXR4ci1hNExhQkc3SmZUWkJoRGJrMEE?oc=5"
     }
    ],
-   "missing": "Initial inflows and trading volumes."
+   "missing": "Exact launch date for trading."
   }
  ]
 }
