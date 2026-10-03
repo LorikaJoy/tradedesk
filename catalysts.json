@@ -1,46 +1,8 @@
 {
- "updated": "2026-10-03T19:27:42.980651+00:00",
+ "updated": "2026-10-03T22:19:27.249705+00:00",
  "cards": [
   {
-   "t": "Canary Capital Files Amended S-1 for Spot PEPE ETF",
-   "type": "etf",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "PEPE"
-   ],
-   "rel": "direct",
-   "b": "Canary Capital has filed an amended S-1 for a spot PEPE ETF, proposing a listing on Cboe BZX.",
-   "per": {
-    "PEPE": "Canary Capital updated its spot ETF filing proposing Cboe BZX listing."
-   },
-   "direction": "positive",
-   "quality": 92,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 25,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Binance",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZOHhYejUza1R0WVRIY1VaQVhXRUF3bUFQV1RwMnFZT2kwdnZ2LVRFLUttMk9sNjgzeHktNHpmX25qZE1nQ3QtdE1RUU9NNmMyMVIzT3NqYTl5c0FMR3dMTllpMTdMaG1n?oc=5"
-    },
-    {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FeU40N3lnby1fNkZNWl9CMEI0dk1tVk9fQnVNbWJEUWRmTWtfQldZZjk5cklubmdVdGw1bnlVNzYtMnVSbTNDX2lZUzBXal9QeTdCVw?oc=5"
-    }
-   ],
-   "missing": "SEC approval timeline"
-  },
-  {
-   "t": "SEC Approves Listing Rules for 3x Leveraged Bitcoin and Ether ETPs/ETFs",
+   "t": "SEC Approves Listing Rules for 3x Leveraged Bitcoin and Ether ETFs",
    "type": "etf",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -49,58 +11,16 @@
     "ETH"
    ],
    "rel": "direct",
-   "b": "The U.S. SEC has approved listing rules for 3x leveraged Bitcoin and Ether ETPs/ETFs, though actual trading is still pending activation.",
+   "b": "The SEC has approved listing rules for 3x leveraged Bitcoin and Ether exchange-traded products, though actual trading is pending activation.",
    "per": {
-    "BTC": "Approved for 3x leveraged ETF listing rules by the SEC.",
-    "ETH": "Approved for 3x leveraged ETF listing rules by the SEC."
+    "BTC": "Approved for 3x leveraged ETF listing rules.",
+    "ETH": "Approved for 3x leveraged ETF listing rules."
    },
    "direction": "positive",
-   "quality": 87,
+   "quality": 85,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 12,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "The Coin Republic",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdkV4cGJrbHB1djBwejJhT0RhOVBaUUVGWVNGSVRxYXVDS0xYeExmSVhrY2JPOHdhUHJzQ25LNDd1aXZjQXJDMEZTcXl3N29OZlZ4UUtRQlRfaTlxR0NERHdLb21zOW1fVnBhc2gtazZUdkIydkJFTW5oMUNfeHV5Y09keWJ1SHZkNzAzeWlGX3gzWjNKY1U5eGY2c2NXXzdkX2fSAacBQVVfeXFMUHJUWVlfYnB1YUF3bHBjSVpQZmtGQWxaeU9ELTlCenItOWZPcFduV19MNnFTcVNlTm9PdkJ6Q1pfZTdBTkRQNXdUcGRoMUhnVkpHN2xSbVJMS1hTeF8tdnJTNUNFMTQ1dVRieWlPSEctaEJYU0dSU2pVQWtuZzhfNWt1aS1RaWw3ajREZTJUaTNnamo5TzFqQ3R2TUJWa1c2bW1pNWxPWnc?oc=5"
-    },
-    {
-     "name": "Bitget",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE41ZWMtZkQ2aGtfUUFkbktDdThIQUVURi16UjAxMktsS0Jrc1hYcW1VZFVmN2VTSm52RklSZkltdXR6cVJWM3B4OGI4LUVfUjZ4a0Q1T2tMbnd3NV9FWWNtanpJZ9IBY0FVX3lxTE41ZWMtZkQ2aGtfUUFkbktDdThIQUVURi16UjAxMktsS0Jrc1hYcW1VZFVmN2VTSm52RklSZkltdXR6cVJWM3B4OGI4LUVfUjZ4a0Q1T2tMbnd3NV9FWWNtanpJZw?oc=5"
-    },
-    {
-     "name": "\u6df1\u6f6eTechFlow",
-     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB3bG1uS0RQaFl2MWtxVmxTTFZBOGJBeXhlenpUNU43NlB2WW1DUmsxS3p2bnhtV093MU9qX3BjQThUZ29CQXBkb084a2VkZ1RveU9fVEswX0FhUVlM?oc=5"
-    }
-   ],
-   "missing": "Exact trading activation date"
-  },
-  {
-   "t": "Binance Futures Lists CTUSDT Perpetual Contract",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "CT"
-   ],
-   "rel": "direct",
-   "b": "Binance Futures has announced the listing of the CTUSDT perpetual contract for Concrete.",
-   "per": {
-    "CT": "Perpetual contract listing on Binance Futures."
-   },
-   "direction": "positive",
-   "quality": 83,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 8,
+    "credibility": 10,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
@@ -111,11 +31,49 @@
    "c": "high",
    "sources": [
     {
-     "name": "CryptoRank",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdzJMRTZ2eGxFRlFlel9GMUlnOXQ3NVlnUUdxZlVuZTFhRkY3QzVWZXNFZy1FQzRnZG9VVHZpeEZHOUFxQ1RDcklzckNMdUZGYnVqUUxJZ1cxQkZha3IxeHVpUTVCOEVpeHNqWWhSbGZ1NmtrMTQwWm51VWpyUDNIZ1VibWI5NUd2?oc=5"
+     "name": "Bitget",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE41ZWMtZkQ2aGtfUUFkbktDdThIQUVURi16UjAxMktsS0Jrc1hYcW1VZFVmN2VTSm52RklSZkltdXR6cVJWM3B4OGI4LUVfUjZ4a0Q1T2tMbnd3NV9FWWNtanpJZ9IBY0FVX3lxTE41ZWMtZkQ2aGtfUUFkbktDdThIQUVURi16UjAxMktsS0Jrc1hYcW1VZFVmN2VTSm52RklSZkltdXR6cVJWM3B4OGI4LUVfUjZ4a0Q1T2tMbnd3NV9FWWNtanpJZw?oc=5"
+    },
+    {
+     "name": "\u6df1\u6f6eTechFlow",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB3bG1uS0RQaFl2MWtxVmxTTFZBOGJBeXhlenpUNU43NlB2WW1DUmsxS3p2bnhtV093MU9qX3BjQThUZ29CQXBkb084a2VkZ1RveU9fVEswX0FhUVlM?oc=5"
     }
    ],
-   "missing": "Exact activation time and contract specifications"
+   "missing": "Exact trading activation date."
+  },
+  {
+   "t": "Binance Futures Lists CTUSDT Perpetual Contract",
+   "type": "listing",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "CT"
+   ],
+   "rel": "direct",
+   "b": "Binance Futures announced the listing of the CTUSDT perpetual contract for Concrete.",
+   "per": {
+    "CT": "Binance Futures is launching a perpetual contract for CT."
+   },
+   "direction": "positive",
+   "quality": 75,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5EYk1pVF9xN3RVbWlpN1dvWGlCalFQRVlldWh3WXhuSFRWYVdGY0hLRXJVbDgtTlNBRE1FZWNMVW0xUy1EdVJzalBld0VaVzhMUVNSVVVfWQ?oc=5"
+    }
+   ],
+   "missing": "Exact launch time and trading start date."
   },
   {
    "t": "Upbit Lists POD Trading Pairs",
@@ -128,15 +86,15 @@
    "rel": "direct",
    "b": "Upbit is listing POD trading pairs against KRW, BTC, and USDT.",
    "per": {
-    "POD": "Getting listed on Upbit with KRW, BTC, and USDT trading pairs."
+    "POD": "Getting listed on Upbit with KRW, BTC, and USDT pairs."
    },
    "direction": "positive",
-   "quality": 83,
+   "quality": 75,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 8,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
@@ -149,44 +107,10 @@
      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU05idkJ0UEU2WmhKMnFLSFJXTGNwdEY5QkI2dFN1X2VzS09Rd1dPbGZvS0ExTWJsTGxONF9YUGhneDF6SXJUVDNuNG1pX01QMEpKQWVKNldxVXNrX0szUEFyU2F2cUJPT1FCeW5TVjBRQlBITzE2bHg4RlBuekJjVS1kQQ?oc=5"
     }
    ],
-   "missing": "Exact listing time"
+   "missing": "Exact trading commencement time."
   },
   {
-   "t": "Bitwise XRP ETF Gets SEC Effectiveness Notice",
-   "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "XRP"
-   ],
-   "rel": "direct",
-   "b": "The Bitwise XRP ETF received an SEC effectiveness notice following a filing that previously moved XRP by 7.7%.",
-   "per": {
-    "XRP": "Secured SEC effectiveness notice for its ETF filing."
-   },
-   "direction": "positive",
-   "quality": 83,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "CryptoRank",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORUZGQUljREFXYzVyYklhcXNodl9xMFJPcjNpc0kxTV90LWlWYlVicnQ2d2V5YnZiMU5QM2NxeW90bTlDeGRFRVBVd0ZmbDhyai1wVmxYTVdGZHNUVlVOb3dWeFpjdWZ1MUc0N1Y3SjREb1B0ZjhUMFQ2cTlXQkxrS3ZUTmdBOXRvVlJvQU9rU3pxaS1vZkNYRFpDdTE5SXR4ci1hNExhQkc3SmZUWkJoRGJrMEE?oc=5"
-    }
-   ],
-   "missing": "Exact launch date for trading"
-  },
-  {
-   "t": "Upbit, Bithumb, and Coinone Lift Sandbox Trading Warning",
+   "t": "Sandbox Trading Warning Lifted by Korean Exchanges",
    "type": "other",
    "status": "completed",
    "event_date": null,
@@ -194,9 +118,9 @@
     "SAND"
    ],
    "rel": "direct",
-   "b": "Upbit, Bithumb, and Coinone have lifted their trading warnings on Sandbox, which was followed by a 62% price surge.",
+   "b": "Upbit, Bithumb, and Coinone lifted trading warnings on Sandbox (SAND), coinciding with a 62% price surge.",
    "per": {
-    "SAND": "Trading warning lifted by major Korean exchanges, prompting a 62% price surge."
+    "SAND": "Major South Korean exchanges lifted trading warnings."
    },
    "direction": "positive",
    "quality": 74,
@@ -217,7 +141,75 @@
      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUXYta09KaWFzeThYTGlwZXNCYjE0MTBGMXRKUEpQVVVNbmpOREYzbE5aUHR0Yl9uamVDN3FaZnlubml3NnYxWF9TY29pb3JYZnBGUFg1WVVFXzVqYWQydU9pYlFvZzBKdEtWa2dzR1lCUGxtY21kOTZCNGhSMFloSlJxOEltUVJKMXhoR3hvZ2lkZE9QN3ZQN2pFSk1heFVzSDhaVkpMMzlpZ3RHbkt3Zm1OcDR5RVNT?oc=5"
     }
    ],
-   "missing": "Exact date when the warnings were lifted"
+   "missing": "Reasons for the initial warning and exact lifting timestamps."
+  },
+  {
+   "t": "Ethereum Prepares for Glamsterdam Testnet Launch",
+   "type": "mainnet",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "ETH"
+   ],
+   "rel": "direct",
+   "b": "Ethereum's price climbed ahead of the upcoming Glamsterdam testnet launch.",
+   "per": {
+    "ETH": "Advancing toward the Glamsterdam testnet deployment."
+   },
+   "direction": "positive",
+   "quality": 68,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "MarketForces Africa",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdF9Qbmg2WEVmOFY4RUY3VGw0Tk10OUtEOXZFMWhqX2s1WGJ6T2xiS1VDN0o3SU55N1h1UE9mRjg1a0xxTFV6SmcxV2VZMDJ0aTFWamRQTUw0VVh1cGRIaXRHRWUyeGpFUHNIWXFlbWVRenNUS3lqal9ORk1rY2dBS3hCcWQtUUhUMzgwYw?oc=5"
+    }
+   ],
+   "missing": "Exact launch date of the testnet."
+  },
+  {
+   "t": "Midnight Network Launches Smart Contracts",
+   "type": "mainnet",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "NIGHT"
+   ],
+   "rel": "direct",
+   "b": "Midnight (NIGHT) launched smart-contract capabilities, prompting a 3-4% price surge.",
+   "per": {
+    "NIGHT": "Rolled out smart-contract functionality."
+   },
+   "direction": "positive",
+   "quality": 66,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5qa3ZBZGlGX3R0TWlLRGpNSDFmS0dHdFlWQ0pkaUcwcTZ4Ymp1OHJjTi1UY0hRYUpRSDBNMElsNl8yU2VZNXN2UWRLWVRtZzZVZFY4VXE3QVg4U3g4S0tXVWt5ajFpN0ZvOUg0eWxtSmE?oc=5"
+    }
+   ],
+   "missing": "Specific details on the network architecture and mainnet deployment metrics."
   }
  ]
 }
