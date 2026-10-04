@@ -57,16 +57,22 @@ input[type=checkbox]{accent-color:var(--brand)}input:focus-visible,button:focus-
 </style>
 </head><body>
 <div class="app"><aside class="side"><div class="brand"><div class="logo">A</div><div><b>ALPHA RADAR</b><span class="sub">Crypto Intelligence</span></div></div>
-<nav id="nav"><button data-v="dash">Dashboard</button><button data-v="cat">Catalyst Radar</button><button data-v="nar">Narrative Radar</button><button data-v="kol">KOL Intelligence</button><button data-v="tape">Liquidity Tape</button><button data-v="scr">Coin Screener</button><button data-v="meme">Meme Radar</button><button data-v="plan">Trade Planner</button><button data-v="pos">Position Monitor<span class="n" id="n_pos" hidden>0</span></button><button data-v="perf">Performance Analytics</button><button data-v="wl">Watchlist</button><button data-v="sig">Signals &amp; Alerts</button><button data-v="set">Settings</button></nav>
+<nav id="nav"><button data-v="front">Front-Run Radar</button><button data-v="dash">Dashboard</button><button data-v="cat">Catalyst Radar</button><button data-v="nar">Narrative Radar</button><button data-v="kol">KOL Intelligence</button><button data-v="tape">Liquidity Tape</button><button data-v="scr">Coin Screener</button><button data-v="meme">Meme Radar</button><button data-v="plan">Trade Planner</button><button data-v="pos">Position Monitor<span class="n" id="n_pos" hidden>0</span></button><button data-v="perf">Performance Analytics</button><button data-v="wl">Watchlist</button><button data-v="sig">Signals &amp; Alerts</button><button data-v="set">Settings</button></nav>
 <div class="promo"><b>Smarter decisions. Better opportunities.</b><span class="sub">Scores are research aids, not profit probabilities. Nothing here places orders.</span></div></aside>
 <div class="mainc"><div class="topbar"><input id="q" placeholder="Type a ticker and press Enter to open the Trade Planner" aria-label="Search coin"><div class="live m" id="clock">connecting...</div></div>
 <div class="views">
 
+<div class="view" id="v-front"><div><h1>Front-Run Radar</h1><div class="sub">Coins that have <b>not</b> pumped yet but show a pre-pump footprint. Already-pumped coins are listed separately as chase risk.</div></div>
+<div class="honest">Footprint means open interest is building while price is still quiet, volume is waking up and funding is not crowded. It is evidence, not a prediction: many coils go nowhere, and rising open interest can also mean shorts are building, so direction is never known from this data. X is not read automatically (paid API); use the X buttons and the paste box below.</div>
+<section class="pan"><h2>Pre-pump candidates <span class="sub" id="frst"></span> <button class="chip" onclick="frScan(true)">Rescan</button></h2><div class="wrap"><table><thead><tr><th class="tl">Coin</th><th>Price</th><th>24h</th><th>OI 24h</th><th>OI 6h</th><th>Volume</th><th>Funding %</th><th class="tl">Catalyst / sector</th><th>Score</th><th class="tl">Footprint</th><th></th></tr></thead><tbody id="frb"></tbody></table></div></section>
+<section class="pan"><h2>Already moving <span class="sub">chase risk. Wait for a pullback; check why it moved</span></h2><div class="wrap"><table><thead><tr><th class="tl">Coin</th><th>Price</th><th>24h</th><th>OI 24h</th><th>Funding %</th><th class="tl">Catalyst on record</th><th></th></tr></thead><tbody id="frm"></tbody></table></div></section>
+<section class="pan"><h2>Paste X feed text <span class="sub">copy posts from your own X feed, paste here</span></h2><div style="margin-bottom:8px"><button class="btn" onclick="grokCopy()">Copy Grok prompt</button> <span class="sub" id="fr_gk">Paste it into Grok, then paste Grok's answer below.</span></div><textarea id="fr_x" class="in" rows="4" placeholder="Paste tweets or thread text. Only $cashtags are counted by default."></textarea><div style="margin-top:8px"><label class="sub"><input type="checkbox" id="fr_xb"> also count bare ALLCAPS tickers</label> <button class="btn" onclick="xCount()">Count coins</button></div><div id="fr_xo" style="margin-top:10px"></div></section>
+<section class="pan"><h2>Radar pick log <span class="sub">every STRONG or BUILDING pick, judged later</span></h2><div id="frl"></div></section></div>
 <div class="view" id="v-dash"><div><h1>Good day, Trader</h1><div class="sub">Live data from Bybit. Catalysts update automatically from news feeds. Empty panels mean no data, not a hidden error.</div></div>
 <div class="kpis"><div class="kpi"><div class="l">Catalysts tracked</div><div class="v" id="k_cat">0</div></div><div class="kpi"><div class="l">A-grade setups</div><div class="v" id="k_a">0</div></div><div class="kpi"><div class="l">Open positions</div><div class="v" id="k_pos">0</div></div><div class="kpi"><div class="l">Data source</div><div class="v" id="k_src">...</div></div></div>
 <div class="pan"><h2>Market pulse <span class="sub">live from Bybit and alternative.me</span></h2><div class="g4" id="pulse"></div></div>
 <div class="g2"><section class="pan"><h2>Top Opportunities <span class="sub">catalyst coins ranked by setup score</span></h2><div class="wrap"><table><thead><tr><th>#</th><th>Coin</th><th>Price</th><th>24h</th><th class="tl">Catalyst</th><th>Status</th><th class="tl">Why monitored</th><th></th></tr></thead><tbody id="topb"></tbody></table></div></section>
-<div style="display:grid;gap:16px;align-content:start"><section class="pan"><h2>Upcoming Catalysts</h2><div id="upc"></div></section><section class="pan"><h2>Open Positions</h2><div id="dpos"></div></section><section class="pan"><h2>Recent Signals</h2><div id="rsg"></div><div class="sub" style="margin-top:8px">Signals logged: <span id="k_sig">0</span></div></section></div></div>
+<div style="display:grid;gap:16px;align-content:start"><section class="pan"><h2>Front-Run picks <span class="sub">not pumped yet</span></h2><div id="dfr"></div></section><section class="pan"><h2>Upcoming Catalysts</h2><div id="upc"></div></section><section class="pan"><h2>Open Positions</h2><div id="dpos"></div></section><section class="pan"><h2>Recent Signals</h2><div id="rsg"></div><div class="sub" style="margin-top:8px">Signals logged: <span id="k_sig">0</span></div></section></div></div>
 <div class="g2"><section class="pan"><h2>Narrative leaders <span class="sub">24h, from Bybit prices</span></h2><div id="dnar"></div></section><section class="pan"><h2>Meme Radar <span class="sub">fewest risk flags first</span></h2><div id="dmeme"></div></section></div></div>
 
 <div class="view" id="v-cat"><section class="pan"><h2>Catalyst Radar <span class="sub">only high-impact, sourced events. Scores are not profit probabilities.</span></h2><div id="cards"></div></section></div>
@@ -121,6 +127,7 @@ input[type=checkbox]{accent-color:var(--brand)}input:focus-visible,button:focus-
 <div class="sub" id="alst">Page alerts only work while this page is open. For alerts with the page closed, use the Cloudflare Worker. Token is saved in this browser only.</div></div></details></section></div>
 
 <div class="view" id="v-set"><section class="pan"><h2>Settings</h2><div class="fm"><label>Theme<select id="s_theme"><option value="light">Light</option><option value="dark">Dark</option><option value="auto">Match device</option></select></label><label>Default account (USDT)<input id="s_acc" type="number"></label><label>Default risk %<input id="s_risk" type="number" step=".1"></label><label>Default fee % per side<input id="s_fee" type="number" step=".005"></label><label>Minimum R/R for ENTRY ZONE<input id="s_rr" type="number" step=".1"></label><label>Liquidation tape min $<input id="s_liq" type="number"></label><label>WVF lookback (candles)<input id="s_wpd" type="number"></label><label>WVF extreme percentile<input id="s_wth" type="number"></label><button class="btn" onclick="setSave()">Save settings</button></div><div class="sub" id="s_st" style="margin-top:8px"></div></section>
+<section class="pan"><h2>Sync across devices <span class="sub" id="s_sst">sync is off</span></h2><div class="sub" style="margin-bottom:10px">Uses your own Cloudflare Worker. Positions, plans, KOL calls, watchlist and settings are merged between your devices. Your Telegram token is never synced. Enter the same Worker URL and sync key on every device.</div><div class="fm"><label style="grid-column:span 2">Worker URL<input id="s_surl" placeholder="https://tradedesk-alerts.lorikajoy-bonagua.workers.dev" autocomplete="off"></label><label style="grid-column:span 2">Sync key (a long secret you choose)<input id="s_skey" type="password" autocomplete="off"></label><button class="btn" onclick="syncSave()">Save and sync now</button><button class="btn sec" onclick="syncNow()">Sync now</button><button class="btn dng" onclick="syncOff()">Turn off</button></div></section>
 <section class="pan"><h2>Your data</h2><div class="sub" style="margin-bottom:8px">Positions, plans, KOL calls, watchlist and settings live only in this browser. Export a backup before clearing site data or switching devices.</div><button class="chip" onclick="dataExport()">Export backup (JSON)</button><label class="chip" style="cursor:pointer">Import backup<input type="file" id="s_imp" accept=".json" hidden></label><button class="chip" onclick="dataReset()">Erase everything</button>
 <h3>Saved plans</h3><div class="wrap"><table><thead><tr><th>Coin</th><th>Tf</th><th>Status</th><th>Type</th><th>Entry</th><th>Stop</th><th>TP1</th><th>Saved</th><th></th></tr></thead><tbody id="plb"></tbody></table></div></section>
 <section class="pan"><h2>About the data</h2><ul class="sub"><li>Prices, funding, candles, liquidations: Bybit public API (Binance fallback).</li><li>Catalysts: news feeds read every 15 min by a GitHub Action; an LLM extracts facts only, code does the scoring.</li><li>Meme tokens: DEX Screener; optional security checks via RugCheck (Solana) and GoPlus (Base) when reachable.</li><li>Not connected: X/Twitter, on-chain wallet clustering, deployer history, order-book depth, liquidation heatmaps.</li></ul></section></div>
@@ -271,12 +278,12 @@ const lv=cl.map(c=>({p:c.sum/c.n,n:c.n}));return{res:lv.filter(x=>x.p>price).sor
 function volDiv(C){const n=C.length;if(n<30)return{bear:false,txt:"Not enough candles for volume divergence."};const a=C.slice(-10),b=C.slice(-20,-10),hA=Math.max(...a.map(x=>x.h)),hB=Math.max(...b.map(x=>x.h)),vA=a.reduce((s,x)=>s+x.v,0)/10,vB=b.reduce((s,x)=>s+x.v,0)/10,r=vB?vA/vB:null;
 const bear=hA>hB&&r!=null&&r<.8;return{bear,ratio:r,txt:bear?`Price made a higher high over the last 10 candles but average volume is ${(r*100).toFixed(0)}% of the prior 10.`:r==null?"No volume data.":`No bearish volume divergence (recent volume is ${(r*100).toFixed(0)}% of the prior 10 candles, highs ${hA>hB?"higher":"not higher"}).`}}
 function indicators(C,tf){const n=C.length,I={tf,n};if(n<30)return I;const cl=C.map(x=>x.c),last=C[n-1];I.price=last.c;I.atr=atr(C);I.rsi=rsi(C);I.bb=bollinger(C);I.vwap=vwap(C,tf=="1d");
-I.e20=ema(cl,20)[n-1];if(n>=60)I.e50=ema(cl,50)[n-1];if(n>=200)I.e200=ema(cl,200)[n-1];
+I.fP=36;I.sP=n>=260?200:n>=60?50:null;I.fN="EMA36";I.sN="EMA"+I.sP;I.e20=ema(cl,36)[n-1];if(I.sP)I.e50=ema(cl,I.sP)[n-1];
 const va=C.slice(-21,-1).reduce((a,x)=>a+x.v,0)/20;I.rv=va?last.v/va:null;I.vAvg=va;I.sw=swings(C);I.st=structure(I.sw);I.sr=srLevels(C,I.sw,I.atr,last.c);I.vd=volDiv(C);I.wvf=wvf(C,typeof WVFO!=="undefined"?WVFO:{});
 I.ext=I.atr?(last.c-I.e20)/I.atr:null;I.volPct=I.atr?I.atr/last.c*100:null;return I}
 const EXP={vol:{why:"Rising price on fading volume means fewer participants are driving the move.",inv:"Volume expands again on a new high.",mon:"Volume on the next push toward resistance."},
 fb:{why:"A breakout that cannot hold usually traps late buyers and often retests lower support.",inv:"Price reclaims the broken level and closes above it with volume.",mon:"Whether price reclaims the level or breaks the next support."},
-ext:{why:"Price far above its average tends to mean-revert or consolidate; chasing here has poor reward for the risk.",inv:"Price consolidates sideways so the average catches up, without a sharp drop.",mon:"Distance from EMA20 and RSI cooling."},
+ext:{why:"Price far above its average tends to mean-revert or consolidate; chasing here has poor reward for the risk.",inv:"Price consolidates sideways so the average catches up, without a sharp drop.",mon:"Distance from the fast EMA and RSI cooling."},
 str:{why:"Lower highs or repeated rejection at the same level show sellers defending that zone.",inv:"A close above the rejected level.",mon:"The next test of that resistance."},
 sup:{why:"Closing under the latest swing low breaks the higher-low structure the uptrend relies on.",inv:"Price closes back above the broken swing low.",mon:"A retest of the broken low from below."},
 fund:{why:"High funding means longs are crowded and vulnerable to a flush.",inv:"Funding normalises while price holds.",mon:"Funding and open interest."},
@@ -290,7 +297,7 @@ add("vol","A","Price rising while volume weakens",I.vd.bear,I.vd.txt,"volume, pr
 let fb=null;for(let k=n-8;k<n;k++)for(const h of I.sw.H)if(h.i<k-1&&h.i>=n-70&&C[k].h>h.p&&C[k].c<h.p&&(!fb||k>fb.k))fb={lvl:h.p,k};
 add("fb","B","Broke resistance then closed back under it",fb&&px<fb.lvl,fb?`A candle at ${tm(fb.k)} pushed above ${fb.lvl.toPrecision(6)} but closed below it; price is ${px<fb.lvl?"still below":"back above"} the level.`:"No failed breakout in the last 8 candles.","swing highs, closes",fb?tm(fb.k):"-",fb?fb.lvl:null);
 const extreme=I.ext>=3||(I.rsi!=null&&I.rsi>=80)||(I.bb&&I.bb.pctB>1.05&&I.ext>=2);
-add("ext","C","Rapid rise with extreme extension",extreme,`Price is ${I.ext.toFixed(1)} ATR above EMA20, RSI ${I.rsi.toFixed(0)}, Bollinger %B ${I.bb?I.bb.pctB.toFixed(2):"n/a"}. (These come from the same price series and count once.)`,"EMA20, ATR, RSI, Bollinger","now");
+add("ext","C","Rapid rise with extreme extension",extreme,`Price is ${I.ext.toFixed(1)} ATR above ${I.fN}, RSI ${I.rsi.toFixed(0)}, Bollinger %B ${I.bb?I.bb.pctB.toFixed(2):"n/a"}. (These come from the same price series and count once.)`,I.fN+", ATR, RSI, Bollinger","now");
 const r3=C[n-4].c?last.c/C[n-4].c-1:0,r3p=C[n-7].c?C[n-4].c/C[n-7].c-1:0,rsi3=rsi(C.slice(0,-3)),slowing=(r3p>0&&r3<r3p*.5)||(rsi3!=null&&rsi3>70&&I.rsi<rsi3-5);
 add("cat","D","Catalyst completed and momentum fading",o.catalystDone&&slowing,o.catalystDone?(slowing?`The catalyst is marked completed and 3-candle momentum slowed (${(r3*100).toFixed(2)}% vs ${(r3p*100).toFixed(2)}% before).`:"Catalyst is completed but momentum has not faded yet."):"Catalyst is not marked completed.","catalyst status, momentum","last 3 candles");
 if(o.meme){const m=o.meme,hit=m.liqDrop!=null&&m.liqDrop>=15&&m.sells!=null&&m.buys!=null&&m.sells>m.buys*1.2;add("meme","E","Meme liquidity falling with sell pressure",hit,`Liquidity ${m.liqDrop==null?"change unknown":"is down "+m.liqDrop.toFixed(0)+"%"}; sells ${m.sells} vs buys ${m.buys}.`,"liquidity, buy/sell","now")}
@@ -302,11 +309,11 @@ const lowsB=I.sw.L.filter(x=>x.i>=n-40),lastLow=lowsB[lowsB.length-1],supLoss=la
 add("sup","-","Loss of support (close under latest swing low)",supLoss,supLoss?`Last close ${last.c.toPrecision(6)} is under the swing low ${lastLow.p.toPrecision(6)}.`:"No close under the latest swing low.","swing lows, close",supLoss?tm(n-1):"-",lastLow?lastLow.p:null);
 add("fund","-","Crowded longs (high funding)",o.fund!=null&&o.fund>.03,o.fund==null?"Funding not available.":`Funding ${o.fund.toFixed(3)}%.`,"funding","now");
 const w=I.wvf;R.wvf=w;const sell=px<I.e20,capit=!!(w&&(w.extreme||w.recentExtreme)&&sell);
-R.capit={watch:capit,confirmed:capit&&w.easing&&last.c>C[n-2].h&&I.rv>=1.2,txt:!w?"WVF needs more candles.":capit?`WVF is ${w.extreme?"at":"recently at"} an extreme (${w.v.toFixed(1)}, ${w.pct.toFixed(0)}th percentile) while price is below EMA20. Watch for stabilisation; a bottom is not implied.`:"No WVF extreme during a sell-off."};
+R.capit={watch:capit,confirmed:capit&&w.easing&&last.c>C[n-2].h&&I.rv>=1.2,txt:!w?"WVF needs more candles.":capit?`WVF is ${w.extreme?"at":"recently at"} an extreme (${w.v.toFixed(1)}, ${w.pct.toFixed(0)}th percentile) while price is below ${I.fN}. Watch for stabilisation; a bottom is not implied.`:"No WVF extreme during a sell-off."};
 const hit=id=>R.signals.find(s=>s.id==id).hit,groups=["vol","fb","ext","str","sup","fund","cat","meme"].filter(hit);R.score=groups.length;
 const brk=hit("sup")&&(px<I.e20)&&(I.st.code=="down"||(I.e50&&px<I.e50));
 R.status=brk?"STRUCTURAL BREAKDOWN":R.score>=3?"HIGH EXHAUSTION RISK":R.score==2?"EARLY EXHAUSTION WARNING":R.score==1?"MOMENTUM SLOWING":(I.e50&&px>I.e50?"HEALTHY CONTINUATION":"MOMENTUM SLOWING");
-if(R.status=="MOMENTUM SLOWING"&&R.score==0)R.notes.push("No exhaustion signals, but price is below EMA50, so there is no healthy uptrend to continue.");
+if(R.status=="MOMENTUM SLOWING"&&R.score==0)R.notes.push("No exhaustion signals, but price is below "+I.sN+", so there is no healthy uptrend to continue.");
 R.confirmed=R.status=="STRUCTURAL BREAKDOWN";
 R.scen={A:{hit:hit("vol")},B:{hit:hit("fb")},C:{hit:hit("ext")},D:{hit:hit("cat")},E:{hit:o.meme?hit("meme"):null},F:{hit:R.capit.watch}};
 R.explain=R.signals.filter(s=>s.hit).map(s=>({name:s.name,sc:s.sc,changed:s.detail,when:s.when,why:EXP[s.id].why,ind:s.ind,lv:s.lv,type:s.id=="sup"?"Confirmed structural break":"Early warning, not a confirmed breakdown",inv:EXP[s.id].inv,mon:EXP[s.id].mon}));
@@ -317,61 +324,61 @@ if(p.stop>0&&px<=p.stop){out.hold="INVALIDATED";out.exit="EXIT CONDITIONS MET";o
 if(tg.length&&px>=tg[tg.length-1]){out.hold="CATALYST COMPLETED";out.exit="EXIT CONDITIONS MET";out.why.push("Your final target is reached. Decide on a full exit or a trailing stop; do not hold only because the position is profitable.");return out}
 if(!I||!ex||ex.status=="INSUFFICIENT DATA"){out.hold="THESIS INTACT";out.exit="INSUFFICIENT DATA";out.why.push("Price is above your stop. Technical state cannot be judged without 60+ candles.");return out}
 out.exit=ex.status;const cdone=p.catStatus=="completed";
-if(ex.status=="STRUCTURAL BREAKDOWN"){out.hold="THESIS WEAKENING";out.why.push("Structure has broken (support lost, price under EMA20). Review the thesis now.")}
+if(ex.status=="STRUCTURAL BREAKDOWN"){out.hold="THESIS WEAKENING";out.why.push("Structure has broken (support lost, price under the fast EMA). Review the thesis now.")}
 else if(cdone&&ex.score>=1){out.hold="CATALYST COMPLETED";out.why.push("The catalyst is completed and at least one exhaustion signal is present. Reassess whether the original reason to hold remains.")}
 else if(ex.status=="HIGH EXHAUSTION RISK"||ex.status=="EARLY EXHAUSTION WARNING"){out.hold="THESIS WEAKENING";out.why.push(`${ex.score} independent exhaustion signals are active.`)}
-else if(ex.status=="MOMENTUM SLOWING"){out.hold="MOMENTUM SLOWING";out.why.push(ex.notes[0]||"One exhaustion signal is active or price is under EMA50.")}
-else if(I.rv>=1.3&&px>I.e20&&I.st.code=="up"&&R_>0){out.hold="MOMENTUM STRENGTHENING";out.why.push(`Relative volume ${I.rv.toFixed(1)}x with price above EMA20 and an uptrend structure.`)}
-else if(px>I.e20&&I.st.code!="down"){out.hold="HEALTHY CONTINUATION";out.why.push("Price holds above EMA20 and no exhaustion signals are active.")}
+else if(ex.status=="MOMENTUM SLOWING"){out.hold="MOMENTUM SLOWING";out.why.push(ex.notes[0]||"One exhaustion signal is active or price is under the slow EMA.")}
+else if(I.rv>=1.3&&px>I.e20&&I.st.code=="up"&&R_>0){out.hold="MOMENTUM STRENGTHENING";out.why.push(`Relative volume ${I.rv.toFixed(1)}x with price above ${I.fN} and an uptrend structure.`)}
+else if(px>I.e20&&I.st.code!="down"){out.hold="HEALTHY CONTINUATION";out.why.push("Price holds above "+I.fN+" and no exhaustion signals are active.")}
 else{out.hold="THESIS INTACT";out.why.push("Stop is not hit and no exhaustion cluster is present.")}
 if(p.holdDays&&p.openedAt&&(Date.now()-p.openedAt)/864e5>p.holdDays)out.why.push(`Your expected holding period of ${p.holdDays} days has passed. Re-justify the trade or exit.`);return out}
 function exitPlan(p,ex,px){const I=ex&&ex.I,o=[],risk=p.entry-p.stop,fx=x=>x<1?x.toFixed(5):x<10?x.toFixed(4):x.toFixed(2);
 const tg=(p.targets||[]).filter(x=>x>0);const part=tg.length?tg:(risk>0?[p.entry+risk,p.entry+2*risk]:[]);
 part.forEach((t,i)=>o.push(["Partial profit "+(i+1),fx(t),tg.length?"Your target "+(i+1):"Measured "+(i+1)+"R from your entry and stop"]));
-if(I){const tr=[];tr.push(["Trail: EMA20 minus 0.5 ATR",I.e20-.5*I.atr]);const lows=I.sw.L.filter(x=>x.i>=ex.I.n-40);if(lows.length)tr.push(["Trail: latest swing low minus 0.25 ATR",lows[lows.length-1].p-.25*I.atr]);tr.push(["Chandelier: price minus 2.5 ATR",px-2.5*I.atr]);
+if(I){const tr=[];tr.push(["Trail: "+I.fN+" minus 0.5 ATR",I.e20-.5*I.atr]);const lows=I.sw.L.filter(x=>x.i>=ex.I.n-40);if(lows.length)tr.push(["Trail: latest swing low minus 0.25 ATR",lows[lows.length-1].p-.25*I.atr]);tr.push(["Chandelier: price minus 2.5 ATR",px-2.5*I.atr]);
 tr.forEach(t=>o.push([t[0],fx(t[1]),t[1]>p.stop?(t[1]>px?"Above price now, not usable yet":"Raises your stop"):"Below your current stop, no improvement"]));
 if(I.sr.sup[0])o.push(["Support exit",fx(I.sr.sup[0].p),"Nearest support cluster below price ("+I.sr.sup[0].n+" touches); a close under it breaks structure"])}
 o.push(["Thesis exit",fx(p.stop),"Your invalidation level"]);
 if(p.holdDays)o.push(["Time exit",p.holdDays+" days after open","Your expected holding period"]);
 o.push(["Full exit","Any of: stop hit, STRUCTURAL BREAKDOWN, or 3+ exhaustion signals","Your decision; the app never sells for you"]);
-o.push(["Re-entry","Pullback to EMA20"+(I?" ("+fx(I.e20)+")":"")+" that holds with a bounce candle and rising volume","Only if the thesis is still valid"]);return o}
+o.push(["Re-entry","Pullback to "+(I?I.fN:"the fast EMA")+(I?" ("+fx(I.e20)+")":"")+" that holds with a bounce candle and rising volume","Only if the thesis is still valid"]);return o}
 /*ENGINE-END*/
 
 /*PLAN-START*/
 function wvfNote(w,I,price){if(!w)return"WVF needs more candles on this timeframe, so it is not shown.";const below=price<I.e20;
 const h=`WVF ${w.v.toFixed(1)} (${w.pct.toFixed(0)}th percentile of the last ${Math.min(200,w.series.filter(x=>x!=null).length)} readings), ${w.dir}. Band ${w.upper.toFixed(1)}, range threshold ${w.rangeHigh.toFixed(1)}.`;
-if(w.extreme&&below)return h+" Downside volatility is at an extreme while price is under EMA20: possible capitulation. Watch for stabilisation and a catalyst that still holds; a bottom is not implied.";
-if(w.extreme)return h+" Volatility extreme while price is above EMA20: a sharp wick or flush happened. Treat as context only.";
+if(w.extreme&&below)return h+" Downside volatility is at an extreme while price is under "+I.fN+": possible capitulation. Watch for stabilisation and a catalyst that still holds; a bottom is not implied.";
+if(w.extreme)return h+" Volatility extreme while price is above "+I.fN+": a sharp wick or flush happened. Treat as context only.";
 if(w.easing)return h+" Downside volatility is easing after a recent extreme. Require independent price confirmation (close above the prior high on rising volume) before reading this as a reversal.";
 if(w.dir=="rising")return h+" Downside volatility may be rising. Review the catalyst, structure and liquidity.";
 if(w.dir=="falling")return h+" Downside volatility is easing. This is not a reversal signal on its own.";
 return h+" Nothing unusual. In a rally WVF is only a contextual volatility reading, not a top signal."}
 function buildPlan(C,o){const P={status:"",type:"No-trade condition",phase:"",reasons:[],levels:[],risk:null,invalid:[],warns:[],missing:[],ev:{},scen:[],qa:[],wvfTxt:"",mode:"",ex:null,I:null},fx=x=>x<1?x.toFixed(5):x<10?x.toFixed(4):x.toFixed(2),tf=o.tf,cat=o.cat||null,minRR=o.minRR!=null?o.minRR:1.5;
-if(!C||C.length<60){P.status="INSUFFICIENT DATA";P.reasons.push(`Only ${C?C.length:0} candles are available. At least 60 are needed for EMA50, ATR and swing levels.`);P.missing.push("Indicators were not calculated because the data is insufficient.");return P}
+if(!C||C.length<60){P.status="INSUFFICIENT DATA";P.reasons.push(`Only ${C?C.length:0} candles are available. At least 60 are needed for the slow EMA, ATR and swing levels.`);P.missing.push("Indicators were not calculated because the data is insufficient.");return P}
 const n=C.length,last=C[n-1],price=o.price||last.c,I=indicators(C,tf),A=I.atr,e20=I.e20,e50=I.e50,R=I.rsi,rv=I.rv,sw=I.sw,H=sw.H,L=sw.L;P.I=I;
 const up=price>e50&&e20>e50,down=price<e50&&e20<e50,ext=I.ext,res=H.filter(x=>x.p>price).sort((a,b)=>a.p-b.p);
 const ex=exhaust(C,{price,fund:o.fund,tf,catalystDone:cat&&cat.status=="completed"});P.ex=ex;
 P.ev={trend:up?"up":down?"down":"mixed",ema20:e20,ema50:e50,atr:A,rsi:R,relVol:rv,ext,price,vwap:I.vwap,bb:I.bb,structure:I.st.label,wvf:I.wvf};
 P.wvfTxt=wvfNote(I.wvf,I,price);
 P.phase=(ex.status=="HIGH EXHAUSTION RISK"||ex.status=="STRUCTURAL BREAKDOWN")?"EXHAUSTED":(ext>2.5||(o.chg24!=null&&o.chg24>=8)||R>=75)?"EXTENDED":up&&rv>=1.2?"DEVELOPING":up?"EARLY":down?"DOWNTREND":"NO TREND";
-P.reasons.push(`${tf} trend is ${P.ev.trend}: price ${fx(price)}, EMA20 ${fx(e20)}, EMA50 ${fx(e50)}. Structure: ${I.st.label}.`);
+P.reasons.push(`${tf} trend is ${P.ev.trend}: price ${fx(price)}, ${I.fN} ${fx(e20)}, ${I.sN} ${fx(e50)}. Structure: ${I.st.label}.`);
 const wv=I.wvf;let mode=null;
 if(wv&&(wv.extreme||wv.recentExtreme)&&price<e20)mode="capitulation";
-else if(down){P.status="NO SETUP";P.reasons.push("Downtrend (price and EMA20 below EMA50). This planner only builds long setups, so no levels are generated.")}
-else if(!up){P.status="NO SETUP";P.reasons.push("No clear trend (EMA20 and EMA50 are mixed). Waiting for structure is better than guessing levels.")}
+else if(down){P.status="NO SETUP";P.reasons.push(`Downtrend (price and ${I.fN} below ${I.sN}). This planner only builds long setups, so no levels are generated.`)}
+else if(!up){P.status="NO SETUP";P.reasons.push(`No clear trend (${I.fN} and ${I.sN} are mixed). Waiting for structure is better than guessing levels.`)}
 else{const brk=H.filter(h=>h.i>=n-60&&h.p<price&&C.slice(h.i+1).some(x=>x.c>h.p)).pop();
 if(brk&&price-brk.p<=.6*A&&price>=brk.p-.3*A){mode="retest";P.brk=brk}
 else if(res[0]&&res[0].p-price<=.5*A&&rv>=1.3)mode="breakout";else mode="pullback"}
 P.mode=mode||"none";
 let zone,trig,entry,stop,why="";const zL=e20-.5*A,zH=e20+.3*A,inZone=price>=zL&&price<=zH;
 if(mode=="pullback"){P.type="Pullback entry";zone=[zL,zH];trig=Math.max(last.h,zL);entry=inZone?price:(zL+zH)/2;
-if(ext>2.5){P.status="WAIT";P.reasons.push(`Extended: price is ${ext.toFixed(1)} ATR above EMA20. Do not chase; wait for a pullback into the zone.`)}
-else if(inZone){P.status="ENTRY ZONE";P.reasons.push("Price is inside the pullback zone around EMA20 in an uptrend. Entry needs the trigger candle.")}
-else{P.status="WAIT";P.reasons.push(`Price is ${ext.toFixed(1)} ATR from EMA20, outside the pullback zone. Wait for price to come back.`)}}
+if(ext>2.5){P.status="WAIT";P.reasons.push(`Extended: price is ${ext.toFixed(1)} ATR above ${I.fN}. Do not chase; wait for a pullback into the zone.`)}
+else if(inZone){P.status="ENTRY ZONE";P.reasons.push("Price is inside the pullback zone around "+I.fN+" in an uptrend. Entry needs the trigger candle.")}
+else{P.status="WAIT";P.reasons.push(`Price is ${ext.toFixed(1)} ATR from ${I.fN}, outside the pullback zone. Wait for price to come back.`)}}
 else if(mode=="breakout"){P.type="Breakout entry";const r0=res[0].p;zone=[r0,r0+.3*A];trig=r0+.1*A;entry=trig;P.status="WAIT";P.reasons.push(`Price is ${fx(r0-price)} below resistance ${fx(r0)} with relative volume ${rv.toFixed(1)}x. Waiting for a ${tf} close above ${fx(trig)}.`)}
 else if(mode=="retest"){P.type="Breakout retest";const b=P.brk.p;zone=[b-.3*A,b+.3*A];trig=Math.max(last.h,b);entry=price>=zone[0]&&price<=zone[1]?price:b;P.status=price>=zone[0]&&price<=zone[1]?"ENTRY ZONE":"WAIT";P.reasons.push(`Price broke ${fx(b)} earlier and is now ${price>=zone[0]&&price<=zone[1]?"retesting":"approaching"} it from above. A hold with a bounce candle makes it a retest entry.`)}
 else if(mode=="capitulation"){P.type="Capitulation reversal";const sl=Math.min(...C.slice(-8).map(x=>x.l));zone=[sl,sl+.5*A];trig=Math.max(last.h,C[n-2].h);entry=trig;P.status=ex.capit.confirmed?"ENTRY ZONE":"WAIT";
-P.reasons.push(`WVF extreme with price under EMA20: countertrend reversal watch. ${ex.capit.confirmed?"Confirmation is present (WVF easing, close above the prior high on relative volume >= 1.2), but this is a high-risk countertrend trade.":`Not confirmed: needs WVF easing, a close above ${fx(trig)} and relative volume >= 1.2 (now ${rv.toFixed(1)}x).`}`)}
+P.reasons.push(`WVF extreme with price under ${I.fN}: countertrend reversal watch. ${ex.capit.confirmed?"Confirmation is present (WVF easing, close above the prior high on relative volume >= 1.2), but this is a high-risk countertrend trade.":`Not confirmed: needs WVF easing, a close above ${fx(trig)} and relative volume >= 1.2 (now ${rv.toFixed(1)}x).`}`)}
 if(P.status=="NO SETUP"){P.missing.push("Short setups are not supported.");}
 if(P.status!="NO SETUP"){
 const lows=L.filter(x=>x.i>=n-30&&x.p<entry).sort((a,b)=>b.p-a.p);let struct;
@@ -382,7 +389,7 @@ const blocked=res.find(x=>x.p>entry&&x.p<entry+Rk);if(blocked&&P.status=="ENTRY 
 if(P.status=="ENTRY ZONE"&&rr(t2)<minRR){P.status="WAIT";P.reasons.push(`R/R gate: net reward to TP2 is ${rr(t2).toFixed(2)}R, below your minimum of ${minRR}R. Not worth the risk at this location.`)}
 if(P.status=="ENTRY ZONE"&&(P.phase=="EXTENDED"||P.phase=="EXHAUSTED")){P.status="WAIT";P.reasons.push(`Chasing risk: the coin is ${P.phase} (${ex.status.toLowerCase()}). Wait for a reset.`)}
 const tag=(a,b)=>a+" ["+b+"]";
-P.levels=[["Entry zone",`${fx(zone[0])} - ${fx(zone[1])}`,tag(mode=="pullback"?`EMA20 (${fx(e20)}) minus 0.5 and plus 0.3 ATR(14)=${fx(A)} on ${tf}`:mode=="capitulation"?`Lowest low of the last 8 candles to +0.5 ATR`:mode=="retest"?`Broken swing high ${fx(P.brk.p)} +/- 0.3 ATR`:`Resistance swing high ${fx(zone[0])} plus 0.3 ATR`,"calculated")],
+P.levels=[["Entry zone",`${fx(zone[0])} - ${fx(zone[1])}`,tag(mode=="pullback"?`${I.fN} (${fx(e20)}) minus 0.5 and plus 0.3 ATR(14)=${fx(A)} on ${tf}`:mode=="capitulation"?`Lowest low of the last 8 candles to +0.5 ATR`:mode=="retest"?`Broken swing high ${fx(P.brk.p)} +/- 0.3 ATR`:`Resistance swing high ${fx(zone[0])} plus 0.3 ATR`,"calculated")],
 ["Entry trigger",fx(trig),tag(mode=="breakout"?`${tf} close above resistance plus 0.1 ATR`:`Break above the last closed ${tf} candle high shows buyers stepping in`,"calculated")],
 ["Planned entry",fx(entry),tag(P.status=="ENTRY ZONE"&&mode!="capitulation"?"Current price or trigger price":"Trigger / zone price, not yet reached","calculated")],
 ["Stop-loss",fx(stop),tag(mode=="capitulation"?"Below the capitulation low minus 0.25 ATR":lows[0]?`Below swing low ${fx(lows[0].p)} minus 0.25 ATR, kept between 1 and 2.5 ATR from entry`:"No recent swing low found; 1.5 ATR below entry","calculated")],
@@ -393,18 +400,18 @@ const rAmt=(o.account||0)*(o.riskPct||0)/100;
 if(rAmt>0){const q=rAmt/netR,nt=q*entry,lev=nt/o.account,part=o.turnover?nt/o.turnover:null;P.risk={riskAmt:rAmt,qty:q,notional:nt,lev,rr1:rr(t1),rr2:rr(t2),fee:fee*q,slipBps:part!=null?Math.min(200,5+3000*part):null};
 if(lev>5)P.warns.push(`Position needs about ${lev.toFixed(1)}x leverage. Lower the risk % or skip.`);if(part!=null&&part>.001)P.warns.push("Position is large relative to 24h turnover. Expect slippage.")}
 else P.missing.push("Account size or risk % is missing, so no position size.");
-P.invalid=[`${tf} candle closes below the stop ${fx(stop)}`,`${tf} close below EMA50 ${fx(e50)}`,mode=="breakout"?`Price closes back below ${fx(zone[0])} within 3 candles (failed breakout)`:mode=="capitulation"?`Price makes a new low under ${fx(zone[0])}`:"Price loses the pullback zone without a bounce","Catalyst is cancelled, delayed, or turns negative"]}
+P.invalid=[`${tf} candle closes below the stop ${fx(stop)}`,`${tf} close below ${I.sN} ${fx(e50)}`,mode=="breakout"?`Price closes back below ${fx(zone[0])} within 3 candles (failed breakout)`:mode=="capitulation"?`Price makes a new low under ${fx(zone[0])}`:"Price loses the pullback zone without a bounce","Catalyst is cancelled, delayed, or turns negative"]}
 else{P.num=null}
-if(R>=75)P.warns.push(`RSI ${R.toFixed(0)} is overbought.`);if(ext>=3)P.warns.push(`Price is ${ext.toFixed(1)} ATR above EMA20 (extended). Chasing risk.`);
+if(R>=75)P.warns.push(`RSI ${R.toFixed(0)} is overbought.`);if(ext>=3)P.warns.push(`Price is ${ext.toFixed(1)} ATR above ${I.fN} (extended). Chasing risk.`);
 ex.signals.filter(s=>s.hit).forEach(s=>P.warns.push("Exhaustion "+(s.sc!="-"?"(scenario "+s.sc+") ":"")+": "+s.name+". "+s.detail));
 if(P.phase=="EXTENDED"||P.phase=="EXHAUSTED")P.warns.push(`EXTENDED / CHASING RISK: phase is ${P.phase}${o.chg24!=null?", 24h move "+o.chg24.toFixed(1)+"%":""}.`);
 if(o.fund==null)P.missing.push("Funding rate not available.");
-if(!I.e200)P.missing.push("EMA200 not calculated (fewer than 200 candles).");
+if(I.sP!=200)P.missing.push(`EMA200 not used: only ${n} candles are available, so ${I.sN} is the slow average instead.`);
 if(!I.vwap)P.missing.push("VWAP not calculated (not enough candles).");
 P.missing.push("Order-book depth and exact slippage are not modeled (slippage is a rough turnover-based estimate).","Liquidation levels are not available.");
 /* qa, the ten entry questions */
 const near=P.num?Math.abs(price-P.num.entry)/A:null,dd=P.num?(P.num.entry-P.num.stop)/P.num.entry*100:null;
-P.qa=[["Early, developing, extended or exhausted?",P.phase+(o.chg24!=null?` (24h ${o.chg24.toFixed(1)}%, ${ext.toFixed(1)} ATR from EMA20, RSI ${R.toFixed(0)})`:"")],
+P.qa=[["Early, developing, extended or exhausted?",P.phase+(o.chg24!=null?` (24h ${o.chg24.toFixed(1)}%, ${ext.toFixed(1)} ATR from ${I.fN}, RSI ${R.toFixed(0)})`:"")],
 ["Is the catalyst confirmed?",cat?`${cat.label||"Catalyst"} ${cat.quality||""}, status ${cat.status||"unknown"}${cat.direction=="negative"?" (NEGATIVE)":""}`:"No catalyst on record. Technical setup only."],
 ["Is the narrative strengthening?",o.narr||"No narrative data for this coin."],
 ["Has the market already reacted?",o.chg24!=null?`24h ${o.chg24.toFixed(1)}%. ${Math.abs(o.chg24)>=8?"Much of the move may already be done.":"Move is not large yet."}`:"24h change unavailable."],
@@ -416,23 +423,90 @@ P.qa=[["Early, developing, extended or exhausted?",P.phase+(o.chg24!=null?` (24h
 ["Wait for confirmation or enter early?",P.status=="ENTRY ZONE"?"Location is acceptable, but the trigger candle is still the confirmation.":P.status=="WAIT"?"Waiting is preferable until the stated condition happens.":"No entry. Waiting."]];
 /* three scenarios, from calculated levels only */
 const sup0=I.sr.sup[0],res0=I.sr.res[0],lastLow=L.filter(x=>x.i>=n-40).pop(),lh=H.slice(-2);
-P.scen=[{name:"Bullish continuation",support:[`Trend ${P.ev.trend}, structure ${I.st.code}`,`Relative volume ${rv.toFixed(2)}x`,`RSI ${R.toFixed(0)}`],levels:[res0?`Next resistance ${fx(res0.p)} (${res0.n} touch${res0.n>1?"es":""})`:"No resistance cluster above price",P.num?`TP1 ${fx(P.num.t1)}, TP2 ${fx(P.num.t2)}`:"No targets without a setup"],confirm:[res0?`${tf} close above ${fx(res0.p+.1*A)} with relative volume >= 1.3`:`New ${tf} high on rising volume`],invalid:[P.num?`Close below ${fx(P.num.stop)}`:`Close below EMA50 ${fx(e50)}`],risks:[ext>=2?`Extended ${ext.toFixed(1)} ATR above EMA20`:"Gap risk and news",o.fund>.03?"Crowded longs (funding)":"Funding not crowded"]},
+P.scen=[{name:"Bullish continuation",support:[`Trend ${P.ev.trend}, structure ${I.st.code}`,`Relative volume ${rv.toFixed(2)}x`,`RSI ${R.toFixed(0)}`],levels:[res0?`Next resistance ${fx(res0.p)} (${res0.n} touch${res0.n>1?"es":""})`:"No resistance cluster above price",P.num?`TP1 ${fx(P.num.t1)}, TP2 ${fx(P.num.t2)}`:"No targets without a setup"],confirm:[res0?`${tf} close above ${fx(res0.p+.1*A)} with relative volume >= 1.3`:`New ${tf} high on rising volume`],invalid:[P.num?`Close below ${fx(P.num.stop)}`:`Close below ${I.sN} ${fx(e50)}`],risks:[ext>=2?`Extended ${ext.toFixed(1)} ATR above ${I.fN}`:"Gap risk and news",o.fund>.03?"Crowded longs (funding)":"Funding not crowded"]},
 {name:"Sideways consolidation",support:[`Bollinger width ${I.bb?I.bb.bw.toFixed(1)+"%":"n/a"}`,`Structure ${I.st.label}`,R>=40&&R<=60?"RSI is neutral":`RSI ${R.toFixed(0)}`],levels:[sup0&&res0?`Range ${fx(sup0.p)} to ${fx(res0.p)}`:"No clean range from swing clusters",I.vwap?`VWAP ${fx(I.vwap.v)} (${I.vwap.anchor})`:"VWAP unavailable"],confirm:[`Several ${tf} closes inside the range with falling ATR`],invalid:[sup0&&res0?`Close outside ${fx(sup0.p)}-${fx(res0.p)}`:"A close beyond the last swing high or low"],risks:["False breaks at range edges","Catalyst decays while price waits"]},
-{name:"Bearish reversal",support:[lh.length==2&&lh[1].p<lh[0].p?"Last two swing highs are descending":"Swing highs are not descending yet",I.vd.bear?"Volume divergence is present":"No volume divergence",ex.score?`${ex.score} exhaustion signal group(s) active`:"No exhaustion signals"],levels:[lastLow?`Swing low ${fx(lastLow.p)}`:"No recent swing low",sup0?`Support ${fx(sup0.p)}`:"No support cluster below",`EMA50 ${fx(e50)}`],confirm:[lastLow?`${tf} close below ${fx(lastLow.p)} on above-average volume`:`${tf} close below EMA50`],invalid:[res0?`Close back above ${fx(res0.p)}`:"Close above the last swing high"],risks:["Short squeezes against a reversal call","Strong catalyst can override technicals"]}];
+{name:"Bearish reversal",support:[lh.length==2&&lh[1].p<lh[0].p?"Last two swing highs are descending":"Swing highs are not descending yet",I.vd.bear?"Volume divergence is present":"No volume divergence",ex.score?`${ex.score} exhaustion signal group(s) active`:"No exhaustion signals"],levels:[lastLow?`Swing low ${fx(lastLow.p)}`:"No recent swing low",sup0?`Support ${fx(sup0.p)}`:"No support cluster below",`${I.sN} ${fx(e50)}`],confirm:[lastLow?`${tf} close below ${fx(lastLow.p)} on above-average volume`:`${tf} close below ${I.sN}`],invalid:[res0?`Close back above ${fx(res0.p)}`:"Close above the last swing high"],risks:["Short squeezes against a reversal call","Strong catalyst can override technicals"]}];
 return P}
 /*PLAN-END*/
 
+/*SYNCCORE-START*/
+const SYNC_REC=["pos","plans","kol","wl","wlm"];
+function syncMerge(a,b){const o={v:1,rec:{},lww:{}},cut=Date.now()-90*864e5;a=a||{};b=b||{};
+for(const k of SYNC_REC){const A=(a.rec||{})[k]||{items:{},tomb:{}},B=(b.rec||{})[k]||{items:{},tomb:{}},tomb={};
+for(const src of [A.tomb||{},B.tomb||{}])for(const id in src)tomb[id]=Math.max(tomb[id]||0,src[id]);
+const items={};for(const src of [A.items||{},B.items||{}])for(const id in src){const r=src[id];if(!items[id]||(r.u||0)>(items[id].u||0))items[id]=r}
+for(const id in items)if((tomb[id]||0)>=(items[id].u||0))delete items[id];
+for(const id in tomb)if(tomb[id]<cut)delete tomb[id];
+o.rec[k]={items,tomb}}
+for(const k of ["set"]){const A=(a.lww||{})[k],B=(b.lww||{})[k];const w=!A?B:!B?A:(B.ts>A.ts?B:A);if(w)o.lww[k]=w}
+return o}
+/*SYNCCORE-END*/
+/*FR-START*/
+/* Pre-pump footprint score. r: px24, px6 (% moves), oi24, oi6 (% open-interest change), vr (recent volume vs normal), cr (range compression, null if unknown), fund (%), above (price above 48h average).
+   o: cat (positive catalyst on record), narr (sector state or null). Returns a research score, not a probability. */
+function frScore(r,o){o=o||{};const t=[],f1=x=>(x>=0?"+":"")+x.toFixed(1);
+if(r.px24>=8||r.px6>=5)return{s:0,cls:"ALREADY MOVED",tags:["24h "+f1(r.px24)+"%"],disq:true};
+if(r.px24<=-6)return{s:0,cls:"FALLING",tags:["24h "+f1(r.px24)+"%"],disq:true};
+if(r.fund>0.03)return{s:0,cls:"CROWDED LONGS",tags:["funding "+r.fund.toFixed(3)+"%"],disq:true};
+let s=0;const a=Math.abs(r.px24);
+if(r.oi24>=15){s+=30;t.push("OI "+f1(r.oi24)+"% 24h")}else if(r.oi24>=8){s+=22;t.push("OI "+f1(r.oi24)+"% 24h")}else if(r.oi24>=4){s+=10;t.push("OI "+f1(r.oi24)+"% 24h")}
+if(r.oi6>=2){s+=5;t.push("OI still rising 6h")}
+if(a<2){s+=25;t.push("price flat "+f1(r.px24)+"%")}else if(a<4){s+=18;t.push("price quiet "+f1(r.px24)+"%")}else if(a<6){s+=8}
+if(r.vr>=2){s+=20;t.push("volume "+r.vr.toFixed(1)+"x normal")}else if(r.vr>=1.4){s+=12;t.push("volume "+r.vr.toFixed(1)+"x normal")}else if(r.vr>=1.15){s+=5}
+if(r.cr!=null){if(r.cr<=.7){s+=10;t.push("range compressing")}else if(r.cr<=.85)s+=5}
+if(r.fund<=.015&&r.fund>=-.03){s+=8}if(r.fund<-.01&&r.oi24>=8){s+=4;t.push("shorts paying (squeeze fuel)")}
+if(r.above){s+=5}
+if(o.cat){s+=15;t.push("catalyst on record")}
+if(o.narr==="ACCELERATING"||o.narr==="EMERGING"){s+=8;t.push("sector "+o.narr.toLowerCase())}
+s=Math.min(100,s);let cls;
+if(r.oi24<4&&!o.cat){s=Math.min(s,30);cls="NO FOOTPRINT"}else cls=s>=70?"STRONG FOOTPRINT":s>=55?"BUILDING":s>=40?"EARLY WATCH":"NOISE";
+return{s,cls,tags:t,disq:false}}
+/*FR-END*/
+/* ===== cross-device sync (Cloudflare Worker + KV) ===== */
+function sv0(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+let SYN=ld("syn",{url:"",key:""}),SU=ld("syu",{}),SH=ld("syh",{}),ST_=ld("syt",{}),SYTS=ld("syts",{}),syncT=null,syncBusy=false,SYNST="sync is off";
+const SYNC_ALL=new Set([...SYNC_REC,"set"]);
+function recsOf(k,v){if(k=="wl")return(v||[]).map(s=>({id:s,d:s}));if(k=="wlm")return Object.entries(v||{}).map(([s,m])=>({id:s,d:m}));return(v||[]).filter(d=>d&&d.id).map(d=>({id:d.id,d}))}
+function fromRecs(k,items){const ids=Object.keys(items);if(k=="wl")return ids.sort((a,b)=>items[a].u-items[b].u).map(id=>items[id].d);if(k=="wlm"){const o={};ids.forEach(id=>o[id]=items[id].d);return o}return ids.sort().map(id=>items[id].d)}
+const hsh=d=>{if(d&&typeof d=="object"){const c=Object.assign({},d);delete c.last;delete c.liq0;return JSON.stringify(c)}return JSON.stringify(d)};
+function stampSync(k,v){if(k=="set"){SYTS.set=Date.now();sv0("syts",SYTS);return}
+const now=Date.now(),rs=recsOf(k,v),su=SU[k]=SU[k]||{},sh=SH[k]=SH[k]||{},seen={};
+rs.forEach(r=>{seen[r.id]=1;const h=hsh(r.d);if(sh[r.id]!==h){sh[r.id]=h;su[r.id]=now}});
+for(const id in sh)if(!seen[id]){(ST_[k]=ST_[k]||{})[id]=now;delete sh[id];delete su[id]}
+sv0("syu",SU);sv0("syh",SH);sv0("syt",ST_)}
+function snapDoc(){const d={v:1,rec:{},lww:{}};for(const k of SYNC_REC){const v=ld(k,k=="wlm"?{}:[]),su=SU[k]=SU[k]||{},sh=SH[k]=SH[k]||{},items={};
+recsOf(k,v).forEach(r=>{if(su[r.id]==null)su[r.id]=1;if(sh[r.id]==null)sh[r.id]=hsh(r.d);items[r.id]={d:r.d,u:su[r.id]}});d.rec[k]={items,tomb:ST_[k]||{}}}
+const s=ld("set",null);if(s)d.lww.set={val:s,ts:SYTS.set||1};return d}
+function applyDoc(doc){let changed=false;
+for(const k of SYNC_REC){const R=(doc.rec||{})[k];if(!R)continue;const cur=JSON.stringify(ld(k,k=="wlm"?{}:[])),nv=fromRecs(k,R.items||{});
+SU[k]={};SH[k]={};for(const id in R.items){SU[k][id]=R.items[id].u;SH[k][id]=hsh(R.items[id].d)}ST_[k]=R.tomb||{};
+if(JSON.stringify(nv)!==cur){sv0(k,nv);changed=true}}
+const L=(doc.lww||{}).set;if(L&&(SYTS.set||0)<L.ts&&JSON.stringify(L.val)!==JSON.stringify(ld("set",null))){sv0("set",L.val);SYTS.set=L.ts;changed=true}
+sv0("syu",SU);sv0("syh",SH);sv0("syt",ST_);sv0("syts",SYTS);if(changed)syncReload();return changed}
+function syncReload(){POS=ld("pos",[]);KC=ld("kol",[]);WL=ld("wl",[]);WLM=ld("wlm",{});Object.assign(SET,ld("set",{}));WVFO={pd:SET.wpd,thr:SET.wth};MIN=SET.liq;
+applyTheme();planDefaults();plDraw();klDraw();drawWL();draw();posDraw();dashExtra();if(!$("v-set").hidden)setLoad();if(!$("v-perf").hidden)perfDraw();posMon()}
+function setSyncStatus(t){SYNST=t;const e=$("s_sst");if(e)e.textContent=t}
+function syncUrl(){return String(SYN.url||"").trim().replace(/\/+$/,"").replace(/\/sync$/,"")+"/sync"}
+function syncQueue(){if(!SYN.url||!SYN.key)return;clearTimeout(syncT);syncT=setTimeout(syncNow,3000)}
+async function syncNow(){if(syncBusy||!SYN.url||!SYN.key)return;syncBusy=true;
+try{const r=await fetch(syncUrl(),{method:"PUT",headers:{"content-type":"application/json","x-sync-key":SYN.key},body:JSON.stringify(snapDoc())});
+if(r.status==401)throw new Error("wrong sync key");if(r.status==503)throw new Error("SYNC_KEY is not set on the Worker yet");if(!r.ok)throw new Error("HTTP "+r.status);
+const m=await r.json(),ch=applyDoc(m);setSyncStatus("synced "+new Date().toLocaleTimeString([], {hour12:false})+(ch?" (received changes)":""))}
+catch(e){setSyncStatus("sync failed: "+(e.message=="Failed to fetch"?"cannot reach the Worker URL (check it, and that the Worker is deployed)":e.message))}syncBusy=false}
+function syncSave(){const u=$("s_surl").value.trim(),k=$("s_skey").value.trim();if(!/^https:\/\//.test(u)){setSyncStatus("The Worker URL must start with https://");return}if(k.length<12){setSyncStatus("Use a sync key of at least 12 characters.");return}
+SYN={url:u,key:k};sv0("syn",SYN);setSyncStatus("syncing...");syncNow()}
+function syncOff(){SYN={url:"",key:""};sv0("syn",SYN);$("s_surl").value="";$("s_skey").value="";setSyncStatus("sync is off on this device (your data stays here and in the cloud copy)")}
 /* ===== storage, settings, theme ===== */
-function sv(k,v){try{localStorage.setItem(k,JSON.stringify(v));return true}catch(e){return false}}
+function sv(k,v){try{if(SYNC_ALL.has(k))stampSync(k,v);localStorage.setItem(k,JSON.stringify(v));if(SYNC_ALL.has(k))syncQueue();return true}catch(e){return false}}
 function toast(m){const d=document.createElement("div");d.className="toast";d.textContent=m;document.body.appendChild(d);setTimeout(()=>d.remove(),4000)}
 function age(ms){if(ms==null||!isFinite(ms))return"?";const h=ms/36e5;return h<1?Math.round(h*60)+"m":h<48?f(h,1)+"h":f(h/24,1)+"d"}
 function applyTheme(){let t=SET.theme;if(t=="auto")t=window.matchMedia&&matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light";document.documentElement.dataset.theme=t;const m=document.querySelector("meta[name=theme-color]");if(m)m.content=t=="dark"?"#0b1210":"#ffffff"}
 function setLoad(){["theme","acc","risk","fee","rr","liq","wpd","wth"].forEach(k=>$("s_"+k).value=SET[k]);plDraw()}
 function planDefaults(){$("p_acc").value=SET.acc;$("p_risk").value=SET.risk;$("p_fee").value=SET.fee;$("p_rr").value=SET.rr}
 function setSave(){["acc","risk","fee","rr","liq","wpd","wth"].forEach(k=>{const v=parseFloat($("s_"+k).value);if(isFinite(v)&&v>=0)SET[k]=v});SET.theme=$("s_theme").value;sv("set",SET);MIN=SET.liq;WVFO={pd:SET.wpd,thr:SET.wth};applyTheme();planDefaults();$("s_st").textContent="Saved."}
-const KEYS=["set","pos","plans","kol","wl","wlm","al","sig","sst","nh","mh"];
+const KEYS=["set","pos","plans","kol","wl","wlm","al","sig","sst","nh","mh","frlog"];
 function dataExport(){const o={};KEYS.forEach(k=>o[k]=ld(k,null));const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([JSON.stringify(o,null,1)],{type:"application/json"}));a.download="alpha-radar-backup.json";a.click()}
-function dataReset(){if(confirm("Erase all positions, plans, KOL calls, watchlist and settings from this browser?")){KEYS.forEach(k=>{try{localStorage.removeItem(k)}catch(e){}});location.reload()}}
+function dataReset(){if(confirm("Erase all positions, plans, KOL calls, watchlist and settings from this browser? Sync will also be disconnected on this device. The cloud copy is not touched.")){KEYS.concat(["syn","syu","syh","syt","syts"]).forEach(k=>{try{localStorage.removeItem(k)}catch(e){}});location.reload()}}
 /* ===== sectors / narrative radar ===== */
 const SECT={"AI":"FET RENDER TAO WLD NEAR ARKM VIRTUAL AI16Z GRASS AIXBT GRIFFAIN IO ATH KAITO AIOZ NMR ALT PHB AGIX OCEAN CGPT".split(" "),
 "Layer 1":"ETH SOL AVAX ADA DOT SUI APT SEI TON NEAR INJ TRX ATOM ALGO XRP BNB HBAR ICP FTM S KAS TIA".split(" "),
@@ -469,7 +543,7 @@ const px=s=>{const x=t(s);return x?tile(s,fp(x.lastPrice),(x.chg>=0?"+":"")+f(x.
 $("pulse").innerHTML=px("BTC")+px("ETH")+px("SOL")+tile("BTC funding",bt?f(bt.fund,4)+"%":"-",bt?(bt.fund>.03?"longs crowded":bt.fund<0?"shorts paying":"normal"):"no data",bt&&bt.fund>.03?"dn":"sub")+tile("Fear and greed",FNG?FNG.value:FNG===false?"-":"...",FNG?FNG.value_classification:FNG===false?"source unreachable":"loading")+tile("Breadth (top 40)",ROWS.length?f(ROWS.filter(x=>x.chg>0).length/ROWS.length*100,0)+"% up":"-","24h, by turnover")+tile("Liquidation tape",$("wsst").textContent.split(",")[0].slice(0,18),"see Liquidity Tape")+tile("Open positions",POS.filter(p=>p.status=="open").length,"Position Monitor");
 const op=POS.filter(p=>p.status=="open");$("dpos").innerHTML=op.map(p=>{const e=PEX[p.id];return `<div class="li"><span><b>${esc(p.sym)}</b> ${e&&e.hs?`<span class="pill ${holdCls(e.hs.hold)}">${e.hs.hold}</span>`:'<span class="sub">loading</span>'}</span><span class="m ${e&&e.px&&e.px>=p.entry?"up":"dn"}">${e&&e.px?(e.px/p.entry*100-100>=0?"+":"")+f(e.px/p.entry*100-100,1)+"%":""}</span></div>`}).join("")||'<div class="sub">No open positions. Add one in Position Monitor.</div>';
 $("dnar").innerHTML=NARS.slice(0,4).map(n=>`<div class="li"><span><b>${esc(n.k)}</b> <span class="pill ${stCls[n.state]}">${n.state}</span></span><span class="m ${n.avg>=0?"up":"dn"}">${n.avg>=0?"+":""}${f(n.avg,1)}%</span></div>`).join("")||'<div class="sub">Waiting for market data.</div>';
-dashMeme();const a=$("n_pos");a.textContent=op.length;a.hidden=!op.length;$("k_pos").textContent=op.length}
+dashMeme();dashFR();const a=$("n_pos");a.textContent=op.length;a.hidden=!op.length;$("k_pos").textContent=op.length}
 /* ===== watchlist ===== */
 let WLM=ld("wlm",{});
 function wlAdd(){const s=$("wl_add").value.trim().toUpperCase().replace(/USDT$/,"");if(!s)return;if(!WL.includes(s))wl(s);$("wl_add").value=""}
@@ -495,10 +569,10 @@ const rec=KC.filter(c=>now-c.t<1728e5),cs={};rec.forEach(c=>(cs[c.sym]=cs[c.sym]
 $("klc").innerHTML=Object.entries(cs).filter(([s,h])=>h.size>=2).map(([s,h])=>`<div class="li"><span><b>${esc(s)}</b> ${[...h].map(esc).join(", ")}</span><span class="sub">${h.size} KOLs</span></div>`).join("")||'<div class="sub">No coin has calls from 2+ different KOLs in 48h. Even when it does, KOLs often copy each other, so this is not independent confirmation.</div>'}
 /* ===== planner UI ===== */
 function chartSVG(C,P,tf){const N=Math.min(90,C.length),S=C.slice(-N),W=900,Hh=340,pl=8,pr=74,pt=10,pb=18,nm=P.num,I=P.I||{};
-const cl=C.map(x=>x.c),e20=ema(cl,20).slice(-N),e50=ema(cl,50).slice(-N);let hi=Math.max(...S.map(x=>x.h)),lo=Math.min(...S.map(x=>x.l));
+const cl=C.map(x=>x.c),e20=ema(cl,I.fP||36).slice(-N),e50=ema(cl,I.sP||50).slice(-N);let hi=Math.max(...S.map(x=>x.h)),lo=Math.min(...S.map(x=>x.l));
 if(nm){lo=Math.min(lo,nm.stop);hi=Math.max(hi,nm.t1)}const pad=(hi-lo)*.05||hi*.01;hi+=pad;lo-=pad;
 const cw=(W-pl-pr)/N,X=i=>pl+(i+.5)*cw,Y=p=>pt+(hi-p)/(hi-lo)*(Hh-pt-pb),bw=Math.max(1.5,cw*.7),fx=x=>x<1?x.toFixed(5):x<10?x.toFixed(4):x.toFixed(2);
-let s=`<svg class="chart" viewBox="0 0 ${W} ${Hh}" role="img" aria-label="${esc(tf)} candles with EMA20, EMA50 and planned levels">`;
+let s=`<svg class="chart" viewBox="0 0 ${W} ${Hh}" role="img" aria-label="${esc(tf)} candles with ${esc(I.fN||"fast EMA")}, ${esc(I.sN||"slow EMA")} and planned levels">`;
 const hl=(p,lab,col,dash)=>p>lo&&p<hi?`<line x1="${pl}" x2="${W-pr}" y1="${Y(p)}" y2="${Y(p)}" stroke="${col}" stroke-width="1" ${dash?'stroke-dasharray="5 4"':""}/><text x="${W-pr+4}" y="${Y(p)+3}" style="fill:${col}">${lab} ${fx(p)}</text>`:"";
 if(nm)s+=`<rect x="${pl}" y="${Y(nm.zone[1])}" width="${W-pl-pr}" height="${Math.max(1.5,Y(nm.zone[0])-Y(nm.zone[1]))}" fill="var(--brand)" opacity=".14"/>`;
 S.forEach((x,i)=>{const c=x.c>=x.o?"var(--up)":"var(--dn)";s+=`<line x1="${X(i)}" x2="${X(i)}" y1="${Y(x.h)}" y2="${Y(x.l)}" stroke="${c}"/><rect x="${X(i)-bw/2}" y="${Y(Math.max(x.o,x.c))}" width="${bw}" height="${Math.max(1,Math.abs(Y(x.o)-Y(x.c)))}" fill="${c}"/>`});
@@ -506,7 +580,7 @@ const pol=(a,col)=>`<polyline fill="none" stroke="${col}" stroke-width="1.4" poi
 s+=pol(e20,"#2563eb")+pol(e50,"#d97706");
 if(I.vwap)s+=hl(I.vwap.v,"VWAP","#7c3aed",true);
 if(nm){s+=hl(nm.entry,"Entry","var(--ink)",true)+hl(nm.stop,"Stop","var(--dn)",false)+hl(nm.t1,"TP1","var(--up)",true)+hl(nm.t2,"TP2","var(--up)",true)+hl(nm.t3,"TP3","var(--up)",true)}
-s+=`<text x="${pl+4}" y="${Hh-4}">blue EMA20 | amber EMA50 | purple VWAP | green band = entry zone | ${esc(tf)} candles</text></svg>`;return s}
+s+=`<text x="${pl+4}" y="${Hh-4}">blue ${esc(I.fN)} | amber ${esc(I.sN)} | purple VWAP | green band = entry zone | ${esc(tf)} candles</text></svg>`;return s}
 function wvfSVG(w){if(!w)return"";const v=w.series.filter(x=>x!=null).slice(-70),W=900,Hh=90,mx=Math.max(...v,w.upper)*1.1||1,bw=(W-10)/v.length;
 return `<svg class="chart" viewBox="0 0 ${W} ${Hh}" role="img" aria-label="Williams Vix Fix history">${v.map((y,i)=>`<rect x="${5+i*bw}" y="${Hh-4-y/mx*(Hh-8)}" width="${Math.max(1,bw-1)}" height="${y/mx*(Hh-8)}" fill="${y>=w.upper?"var(--dn)":"var(--brand)"}" opacity=".75"/>`).join("")}<line x1="0" x2="${W}" y1="${Hh-4-w.upper/mx*(Hh-8)}" y2="${Hh-4-w.upper/mx*(Hh-8)}" stroke="var(--dn)" stroke-dasharray="4 3"/><text x="6" y="12">WVF history, last ${v.length} candles. Red = above the band (${w.upper.toFixed(1)}).</text></svg>`}
 let LASTPLAN=null;
@@ -520,11 +594,11 @@ if(P.levels.length)o+=`<h3>${P.status=="ENTRY ZONE"?"Setup":"Conditional plan (n
 if(k)o+=`<h3>Risk and size</h3><div class="kpis3"><div class="kpi"><div class="l">Risk amount</div><div class="v">${f(k.riskAmt,2)}</div></div><div class="kpi"><div class="l">Quantity</div><div class="v">${f(k.qty,4)}</div></div><div class="kpi"><div class="l">Notional / leverage</div><div class="v">${f(k.notional,0)} / ${f(k.lev,1)}x</div></div><div class="kpi"><div class="l">R/R to TP1 and TP2 (after fees)</div><div class="v">${f(k.rr1,1)} / ${f(k.rr2,1)}</div></div></div><div class="sub" style="margin-top:6px">Fees for the round trip about ${f(k.fee,2)}. Slippage ${k.slipBps!=null?"rough estimate "+f(k.slipBps,0)+" bps from size vs 24h turnover (not order-book based)":"not estimated (no turnover)"}.</div>`;
 if(m.saveable&&P.num)o+=`<div style="margin-top:12px"><button class="btn sec" onclick="planSave()">Save plan</button> <button class="btn" onclick="planPaper()">Open as paper position</button></div>`;
 o+=`<h3>Indicators (${esc(tf)} unless stated)</h3><div class="wrap"><table><thead><tr><th>Indicator</th><th>Value</th><th class="tl">Reading</th></tr></thead><tbody>`+[
-["EMA20 / EMA50",`${fx(I.e20)} / ${fx(I.e50)}`,I.e50?(I.e20>I.e50?"EMA20 above EMA50":"EMA20 below EMA50"):""],["EMA200",I.e200?fx(I.e200):"n/a","needs 200 candles"],
+[`${I.fN} / ${I.sN}`,`${fx(I.e20)} / ${fx(I.e50)}`,I.e50?(I.e20>I.e50?I.fN+" above "+I.sN:I.fN+" below "+I.sN):""],["Slow EMA length",I.sN||"n/a",I.sP==200?"200 candles of history used":"fewer than 260 candles, so EMA50 stands in for EMA200"],
 ["RSI(14)",I.rsi!=null?I.rsi.toFixed(0):"n/a",I.rsi>=70?"overbought zone":I.rsi<=30?"oversold zone":"neutral range"],["ATR(14)",I.atr?`${fx(I.atr)} (${I.volPct.toFixed(2)}% of price)`:"n/a","volatility per candle"],
 ["Relative volume",I.rv!=null?I.rv.toFixed(2)+"x":"n/a","last closed candle vs the prior 20"],["VWAP",I.vwap?fx(I.vwap.v):"n/a",I.vwap?`anchor: ${I.vwap.anchor}; price ${m.px>I.vwap.v?"above":"below"}`:"not enough candles"],
 ["Bollinger(20,2)",I.bb?`${fx(I.bb.lo)} / ${fx(I.bb.mid)} / ${fx(I.bb.up)}`:"n/a",I.bb?`%B ${I.bb.pctB.toFixed(2)}, width ${I.bb.bw.toFixed(1)}%`:""],["Market structure",I.st?I.st.code:"n/a",I.st?I.st.label:""],
-["Support / resistance",`${I.sr&&I.sr.sup[0]?fx(I.sr.sup[0].p):"-"} / ${I.sr&&I.sr.res[0]?fx(I.sr.res[0].p):"-"}`,"nearest swing-cluster levels"],["Volume divergence",I.vd?(I.vd.bear?"bearish":"none"):"n/a",I.vd?I.vd.txt:""],["Price extension",I.ext!=null?I.ext.toFixed(1)+" ATR":"n/a","distance above EMA20"]
+["Support / resistance",`${I.sr&&I.sr.sup[0]?fx(I.sr.sup[0].p):"-"} / ${I.sr&&I.sr.res[0]?fx(I.sr.res[0].p):"-"}`,"nearest swing-cluster levels"],["Volume divergence",I.vd?(I.vd.bear?"bearish":"none"):"n/a",I.vd?I.vd.txt:""],["Price extension",I.ext!=null?I.ext.toFixed(1)+" ATR":"n/a","distance above "+I.fN]
 ].map(r=>`<tr><td><b>${r[0]}</b></td><td class="m">${esc(r[1])}</td><td class="tl nw">${esc(r[2])}</td></tr>`).join("")+`</tbody></table></div><div class="sub" style="margin-top:4px">EMA, RSI, ATR, VWAP and Bollinger all come from the same price series, so they are not independent confirmations.</div>`;
 o+=`<h3>Williams Vix Fix (${esc(tf)})</h3><div class="callout">${esc(P.wvfTxt)}</div>${wvfSVG(I.wvf)}`;
 o+=`<h3>Entry analysis</h3><div class="wrap"><table><tbody>${P.qa.map(r=>`<tr><td class="tl nw"><b>${esc(r[0])}</b></td><td class="tl nw">${esc(r[1])}</td></tr>`).join("")}</tbody></table></div>`;
@@ -687,21 +761,59 @@ function dashMeme(){if(!MM.rows.length){$("dmeme").innerHTML='<div class="sub">N
 $("dmeme").innerHTML=memeSorted().slice(0,4).map(r=>{const v=memeVerdict(memeChecks(r));return `<div class="li"><span><b>${esc(r.sym)}</b> <span class="sub">${esc(r.ch)}, liq $${f((r.liq||0)/1e3,0)}K</span></span><span class="pill ${v[1]}">${v[0]}</span></div>`}).join("")}
 document.querySelectorAll("[data-ch]").forEach(b=>b.onclick=()=>{MM.ch=b.dataset.ch;MM.sel=null;MM.rows=[];$("mmd").hidden=true;document.querySelectorAll("[data-ch]").forEach(x=>x.classList.toggle("on",x==b));memeDraw();memeLoad(true)});
 $("mm_hide").onchange=memeDraw;
+/* ===== Front-Run Radar ===== */
+let FR={rows:[],t:0,busy:false,first:true,msg:""},FRL=ld("frlog",[]);
+const STABLE=new Set(["USDC","FDUSD","TUSD","USDE","DAI","USDD","PYUSD"]);
+const avg=a=>a.reduce((x,y)=>x+y,0)/Math.max(1,a.length);
+const xLink=s=>"https://x.com/search?q="+encodeURIComponent("$"+s)+"&f=live",nLink=s=>"https://www.google.com/search?tbm=nws&q="+encodeURIComponent(s+" crypto");
+function narState(sym){const r=NARS.filter(n=>n.m.some(x=>x.c==sym));const o=["ACCELERATING","EMERGING"];const h=r.find(n=>o.includes(n.state));return h?h.state:(r[0]?r[0].state:null)}
+async function frScan(force){if(FR.busy)return;if(!force&&Date.now()-FR.t<3e5&&FR.rows.length){frDraw();return}
+if(!LASTTK.length){FR.msg="waiting for market data...";frDraw();return}
+if(SRC!="bybit"){FR.msg="The scan needs Bybit open-interest history, and this browser is on the Binance fallback, so it is unavailable.";frDraw();return}
+FR.busy=true;FR.msg="scanning "+Math.min(100,LASTTK.length)+" perps...";frDraw();
+const uni=LASTTK.filter(x=>x.qv>=5e6&&!STABLE.has(symBase(x.symbol))).slice(0,100),out=[];let i=0;
+async function w(){while(i<uni.length){const x=uni[i++];try{
+const [o,k]=await Promise.all([jb(`/v5/market/open-interest?category=linear&symbol=${x.symbol}&intervalTime=1h&limit=26`),jb(`/v5/market/kline?category=linear&symbol=${x.symbol}&interval=60&limit=60`)]);
+const ol=o.result.list.map(y=>+y.openInterest),kl=k.result.list.slice(1);if(ol.length<25||kl.length<48||!ol[24])continue;
+const cl=kl.map(c=>+c[4]),tv=kl.map(c=>+c[6]),rg=kl.map(c=>(+c[2]-+c[3])/(+c[4]||1)),prior=avg(tv.slice(6,30))*6;
+out.push({sym:x.symbol.replace("USDT",""),px:x.lastPrice,px24:x.chg,px6:(cl[0]/cl[6]-1)*100,oi24:(ol[0]/ol[24]-1)*100,oi6:(ol[0]/ol[6]-1)*100,vr:prior?tv.slice(0,6).reduce((a,b)=>a+b,0)/prior:0,cr:avg(rg.slice(12,48))?avg(rg.slice(0,12))/avg(rg.slice(12,48)):null,fund:x.fund,above:cl[0]>avg(cl.slice(0,48)),qv:x.qv})}catch(e){}}}
+await Promise.all(Array.from({length:8},w));
+if(!out.length){FR.busy=false;FR.msg="scan returned no data (Bybit may be rate-limiting this network). Try again in a minute.";frDraw();return}
+narCompute();out.forEach(r=>{const base=symBase(r.sym),cat=LIVE.find(c=>c.coins.includes(r.sym)||c.coins.includes(base));r.cat=cat&&cat.direction!="negative"?cat:null;r.catAny=cat||null;r.narr=narState(base);Object.assign(r,frScore(r,{cat:!!r.cat,narr:r.narr}))});
+FR.rows=out;FR.t=Date.now();FR.busy=false;FR.msg="scanned "+out.length+" perps at "+new Date().toLocaleTimeString([], {hour12:false});frLogPicks();frDraw();dashFR()}
+function frLogPicks(){const now=Date.now(),al=[];FR.rows.filter(r=>r.cls=="STRONG FOOTPRINT"||r.cls=="BUILDING").forEach(r=>{if(FRL.some(y=>y.sym==r.sym&&now-y.t<864e5))return;FRL.push({sym:r.sym,t:now,px:r.px,s:r.s,cls:r.cls});if(r.cls=="STRONG FOOTPRINT"&&!FR.first)al.push(r)});
+FRL=FRL.slice(-200);sv("frlog",FRL);FR.first=false;al.slice(0,3).forEach(r=>notify(`Front-run: ${r.sym} ${r.cls} ${r.s}`,`Price ${fp(r.px)} | ${r.tags.join(", ")}\nNot pumped yet (24h ${r.px24>=0?"+":""}${f(r.px24,1)}%). Footprint only, not a prediction. Check the chart and your plan before acting.`))}
+function frRow(r){return `<tr><td class="tl"><b>${esc(r.sym)}</b></td><td class="m">${fp(r.px)}</td><td class="${r.px24>=0?"up":"dn"}">${r.px24>=0?"+":""}${f(r.px24,1)}%</td><td class="${r.oi24>=8?"up":""}">${r.oi24>=0?"+":""}${f(r.oi24,1)}%</td><td>${r.oi6>=0?"+":""}${f(r.oi6,1)}%</td><td class="${r.vr>=1.4?"up":""}">${f(r.vr,1)}x</td><td class="${r.fund>.02?"dn":""}">${f(r.fund,3)}</td><td class="tl nw">${r.cat?`<span class="tag up" title="${esc(r.cat.t)}">${esc((r.cat.label||"catalyst")+" "+(r.cat.quality||""))}</span>`:'<span class="sub">none</span>'}${r.narr?` <span class="tag">${esc(r.narr.toLowerCase())}</span>`:""}</td><td><span class="tag m g-${r.s>=70?"A":r.s>=55?"B":r.s>=40?"C":"S"}" style="font-weight:700">${r.s}</span> <span class="sub">${esc(r.cls)}</span></td><td class="tl nw sub">${esc(r.tags.join(", "))}</td><td><button class="mini" onclick="plan('${esc(r.sym)}')">Plan</button> <a class="mini" style="text-decoration:none" href="${xLink(r.sym)}" target="_blank" rel="noopener noreferrer">X</a></td></tr>`}
+function frDraw(){$("frst").textContent=FR.msg||"";const R=FR.rows,picks=R.filter(r=>!r.disq&&r.s>=40).sort((a,b)=>b.s-a.s).slice(0,25);
+$("frb").innerHTML=picks.map(frRow).join("")||`<tr><td colspan="11" class="sub">${R.length?"No coin has a clear pre-pump footprint right now. That is a normal answer; do not force a trade.":"Scanning..."}</td></tr>`;
+const mv=R.filter(r=>r.cls=="ALREADY MOVED").sort((a,b)=>b.px24-a.px24).slice(0,15);
+$("frm").innerHTML=mv.map(r=>`<tr><td class="tl"><b>${esc(r.sym)}</b></td><td class="m">${fp(r.px)}</td><td class="up">+${f(r.px24,1)}%</td><td>${r.oi24>=0?"+":""}${f(r.oi24,1)}%</td><td class="${r.fund>.03?"dn":""}">${f(r.fund,3)}</td><td class="tl nw">${r.catAny?`<b>${esc(r.catAny.label||"")}</b> ${esc(r.catAny.t)}`:'<span class="sub">none found in the feed. Check X or news below.</span>'}</td><td><a class="mini" style="text-decoration:none" href="${xLink(r.sym)}" target="_blank" rel="noopener noreferrer">X live</a> <a class="mini" style="text-decoration:none" href="${nLink(r.sym)}" target="_blank" rel="noopener noreferrer">News</a> <button class="mini" onclick="plan('${esc(r.sym)}')">Pullback plan</button></td></tr>`).join("")||'<tr><td colspan="7" class="sub">None.</td></tr>';
+const now=Date.now(),L=FRL.slice().reverse().map(y=>{const t=LASTTK.find(x=>x.symbol==y.sym+"USDT");return{y,m:t?(t.lastPrice/y.px-1)*100:null,h:(now-y.t)/36e5}}),old=L.filter(o=>o.h>=4&&o.m!=null);
+$("frl").innerHTML=`<div class="sub" style="margin-bottom:6px">${old.length?`${old.length} picks older than 4h: ${f(old.filter(o=>o.m>0).length/old.length*100,0)}% up, average ${f(avg(old.map(o=>o.m)),2)}% since flagged (no stop, no fees)${old.length<20?". Fewer than 20: too few to trust.":""}`:"No picks old enough to judge yet. The log fills while this page is open."}</div><div class="wrap"><table class="m"><thead><tr><th>Coin</th><th>Class</th><th>Flagged at</th><th>Now</th><th>Move</th><th>Age</th></tr></thead><tbody>`+(L.slice(0,15).map(o=>`<tr><td>${esc(o.y.sym)}</td><td>${esc(o.y.cls)} ${o.y.s}</td><td>${fp(o.y.px)}</td><td>${o.m==null?"-":fp(o.y.px*(1+o.m/100))}</td><td class="${o.m>=0?"up":"dn"}">${o.m==null?"-":(o.m>=0?"+":"")+f(o.m,2)+"%"}</td><td>${o.h<1?Math.round(o.h*60)+"m":f(o.h,1)+"h"}</td></tr>`).join("")||'<tr><td colspan="6">Nothing flagged yet.</td></tr>')+"</tbody></table></div>"}
+function dashFR(){const p=FR.rows.filter(r=>!r.disq&&r.s>=55).sort((a,b)=>b.s-a.s).slice(0,5);$("dfr").innerHTML=p.map(r=>`<div class="li"><span><b>${esc(r.sym)}</b> <span class="sub">${esc(r.cls.toLowerCase())}</span></span><span><span class="tag m g-${r.s>=70?"A":"B"}" style="font-weight:700">${r.s}</span> <button class="mini" onclick="plan('${esc(r.sym)}')">Plan</button></span></div>`).join("")||`<div class="sub">${FR.rows.length?"No strong footprint right now.":"Scanning..."} <button class="mini" onclick="go('front')">Open Front-Run Radar</button></div>`}
+/* paste X feed text: count $cashtags and compare with what the market is doing */
+function xCount(){const txt=$("fr_x").value,m={},re=/\$([A-Za-z][A-Za-z0-9]{1,9})\b/g;let k;while((k=re.exec(txt)))m[k[1].toUpperCase()]=(m[k[1].toUpperCase()]||0)+1;
+if($("fr_xb").checked){const known=new Set(LASTTK.map(x=>symBase(x.symbol))),stop=new Set(["THE","AND","FOR","ALL","NOW","NEW","BIG","ONE","TOP","BUY","SELL","LONG","SHORT","NEAR","GAS","SUPER","OP","ARE","YOU"]);(txt.match(/\b[A-Z]{3,10}\b/g)||[]).forEach(w=>{if(known.has(w)&&!stop.has(w))m[w]=(m[w]||0)+1})}
+const rows=Object.entries(m).sort((a,b)=>b[1]-a[1]).slice(0,20).map(([s,n])=>{const r=FR.rows.find(x=>x.sym==s||symBase(x.sym)==s),t=LASTTK.find(x=>symBase(x.symbol)==s);return{s,n,t,r}});
+$("fr_xo").innerHTML=rows.length?`<div class="wrap"><table><thead><tr><th>Coin</th><th>Mentions</th><th>24h</th><th>Footprint</th><th class="tl">Read</th><th></th></tr></thead><tbody>${rows.map(o=>`<tr><td class="tl"><b>${esc(o.s)}</b></td><td>${o.n}</td><td class="${o.t&&o.t.chg>=0?"up":"dn"}">${o.t?(o.t.chg>=0?"+":"")+f(o.t.chg,1)+"%":"no perp"}</td><td>${o.r?o.r.s+" "+esc(o.r.cls):"-"}</td><td class="tl nw sub">${!o.t?"Not on Bybit perps (maybe a DEX token; try Meme Radar).":o.t.chg>=8?"Already moved. Chase risk; wait for a pullback.":o.n>=2&&o.t.chg<4?"Talked about but has not moved yet. Could be early, could be noise; check the footprint and the chart.":"Mentioned once or already moving a little."}</td><td>${o.t?`<button class="mini" onclick="plan('${esc(symBase(o.t.symbol))}')">Plan</button>`:""}</td></tr>`).join("")}</tbody></table></div><div class="sub">Counts only come from the text you paste. Mentions are not independent: accounts copy each other.</div>`:'<div class="sub">No $cashtags found in that text.</div>'}
+
+const GROKP="Scan X for the last 24h. List 10 crypto tokens whose mentions from credible accounts are rising but whose price has NOT pumped yet. For each: the specific catalyst (listing, buyback, unlock, partnership, upgrade), the date it happens, and a link to the source post. Exclude anything already up more than 8% in 24h. Say 'unverified' if you can't find a source. Use $CASHTAGS for every token.";
+function grokCopy(){const e=$("fr_gk"),ok=()=>e.textContent="Copied. Open Grok and paste it.",no=()=>{e.textContent="Copy blocked. Prompt shown below, select and copy it.";$("fr_x").value=GROKP};try{navigator.clipboard.writeText(GROKP).then(ok,no)}catch(x){no()}}
 /* ===== candles, navigation, startup ===== */
 const TFM={"15m":["15","15m"],"1h":["60","1h"],"4h":["240","4h"],"1d":["D","1d"]};
 async function candles(sym,tf){const s=sym+"USDT";
-if(SRC=="binance"){const k=await j(`/fapi/v1/klines?symbol=${s}&interval=${TFM[tf][1]}&limit=200`);return k.map(x=>({t:+x[0],o:+x[1],h:+x[2],l:+x[3],c:+x[4],v:+x[7],b:+x[5]}))}
-const r=await jb(`/v5/market/kline?category=linear&symbol=${s}&interval=${TFM[tf][0]}&limit=200`);return r.result.list.slice().reverse().map(x=>({t:+x[0],o:+x[1],h:+x[2],l:+x[3],c:+x[4],v:+x[6],b:+x[5]}))}
+if(SRC=="binance"){const k=await j(`/fapi/v1/klines?symbol=${s}&interval=${TFM[tf][1]}&limit=500`);return k.map(x=>({t:+x[0],o:+x[1],h:+x[2],l:+x[3],c:+x[4],v:+x[7],b:+x[5]}))}
+const r=await jb(`/v5/market/kline?category=linear&symbol=${s}&interval=${TFM[tf][0]}&limit=500`);return r.result.list.slice().reverse().map(x=>({t:+x[0],o:+x[1],h:+x[2],l:+x[3],c:+x[4],v:+x[6],b:+x[5]}))}
 $("q").addEventListener("keydown",e=>{if(e.key=="Enter"){const s=e.target.value.trim().toUpperCase().replace(/USDT$/,"");if(s){e.target.value="";plan(s)}}});
-const VW=["dash","cat","nar","kol","tape","scr","meme","plan","pos","perf","wl","sig","set"];
+const VW=["front","dash","cat","nar","kol","tape","scr","meme","plan","pos","perf","wl","sig","set"];
 function go(v){if(!VW.includes(v))v="dash";VW.forEach(x=>$("v-"+x).hidden=x!=v);document.querySelectorAll("#nav button[data-v]").forEach(b=>b.classList.toggle("on",b.dataset.v==v));try{history.replaceState(null,"","#"+v)}catch(e){}scrollTo(0,0);
-const h={dash:dashExtra,nar:()=>{narDraw();cgLoad()},kol:klDraw,meme:()=>memeLoad(),pos:posDraw,perf:perfDraw,wl:drawWL,set:setLoad}[v];if(h)h()}
+const h={front:()=>frScan(),dash:dashExtra,nar:()=>{narDraw();cgLoad()},kol:klDraw,meme:()=>memeLoad(),pos:posDraw,perf:perfDraw,wl:drawWL,set:setLoad}[v];if(h)h()}
 applyTheme();try{matchMedia("(prefers-color-scheme:dark)").addEventListener("change",applyTheme)}catch(e){}
 planDefaults();$("s_imp").onchange=e=>{const fl=e.target.files[0];if(!fl)return;fl.text().then(t=>{try{const o=JSON.parse(t);KEYS.forEach(k=>{if(o[k]!=null)sv(k,o[k])});location.reload()}catch(x){toast("That file is not a valid backup.")}})};
-document.querySelectorAll("#nav button[data-v]").forEach(b=>b.onclick=()=>go(b.dataset.v));window.addEventListener("hashchange",()=>go((location.hash||"#dash").slice(1)));
-drawWL();go((location.hash||"#dash").slice(1));
+document.querySelectorAll("#nav button[data-v]").forEach(b=>b.onclick=()=>go(b.dataset.v));window.addEventListener("hashchange",()=>go((location.hash||"#front").slice(1)));
+drawWL();go((location.hash||"#front").slice(1));
 setInterval(()=>{if(LASTTK.length){$("symlist").innerHTML=LASTTK.slice(0,400).map(x=>`<option value="${esc(x.symbol.replace("USDT",""))}">`).join("");if(!$("v-wl").hidden)drawWL();wlCheck();if(!$("v-nar").hidden)narDraw();if(!$("v-kol").hidden)klDraw()}},15000);
-loadCat();setInterval(loadCat,300000);refresh().then(()=>{pos();ws();posMon();fngLoad();narCompute();dashExtra()});setInterval(refresh,10000);setInterval(pos,120000);setInterval(posMon,30000);setInterval(()=>{if(!$("v-meme").hidden&&Date.now()-MM.t>12e4)memeLoad(true)},30000);
+loadCat();setInterval(loadCat,300000);refresh().then(()=>{pos();ws();posMon();fngLoad();narCompute();dashExtra();frScan()});setInterval(refresh,10000);setInterval(pos,120000);setInterval(posMon,30000);setInterval(()=>frScan(true),300000);setInterval(()=>{if(!$("v-meme").hidden&&Date.now()-MM.t>12e4)memeLoad(true)},30000);
 
 </script>
 </body></html>
