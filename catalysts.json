@@ -1,8 +1,50 @@
 {
- "updated": "2026-10-04T17:47:00.330037+00:00",
+ "updated": "2026-10-04T20:45:58.770592+00:00",
  "cards": [
   {
-   "t": "SEC Clears Six 3x Leveraged Bitcoin and Ether ETPs",
+   "t": "Canary Capital Amends PEPE ETF Filing",
+   "type": "etf",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "PEPE"
+   ],
+   "rel": "direct",
+   "b": "Canary Capital has submitted an amended filing for a PEPE ETF, eyeing a listing on Cboe BZX.",
+   "per": {
+    "PEPE": "Amended ETF filing targets Cboe BZX listing."
+   },
+   "direction": "positive",
+   "quality": 92,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 25,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "CryptoRank",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM0x1aFBXTDFkRXNYU1VLTFZ4V2cwRHNta3lsTk0zek9rM3JBU084Q1pNaG8yT1J0VVpTMjFDVlB0T0NfOHc1dl9UM1pud2pJMHdXeU5wYnczMEtubjZWbGdFak9uaGd5dW56alpVeHRJeks0Q2FBcXNLcEx5cTBzc01lMUxCbk9feGhncURpaWhFb2JZZTZGMWRtT0h4dw?oc=5"
+    },
+    {
+     "name": "KuCoin",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMHB6SkVRN3B5aGt5SzFnYUR2SEdZblVZaktkZEhPaGJxWTVJeWtOOXQ3RHBrZTRIQTBJRFZmR1JfWEFoVkI0UVJCck1ZbDBxQS1OQS1Hd1RRcjJXSHpoaGhlV2ROcFRjTExON2xFY2ljQ0FGakZCQ1hrUlhTSUEzVWtEN2gzTE1nUlpaNzgwQTJrRTF2ckMyTw?oc=5"
+    },
+    {
+     "name": "Binance",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBHanBkM2hnRzJxbWhiMEJ1ZjJDYmxMbkh6Z283eUFIZkdnenlnVzNOYWZpb1JJcVpGY01faEo1N2xhUFZ5eS1Wd0x6VnBEUXhBeEJpU2U3eVFQX1R5MHdrQ2VjQ01EeUY0?oc=5"
+    }
+   ],
+   "missing": "SEC review timeline and final approval outcome."
+  },
+  {
+   "t": "SEC Clears 3x Leveraged Bitcoin and Ether ETPs",
    "type": "etf",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -11,10 +53,10 @@
     "ETH"
    ],
    "rel": "direct",
-   "b": "The SEC has cleared and approved the first batch of six 3x leveraged Bitcoin and Ether ETPs.",
+   "b": "The SEC has cleared the listing of six 3x leveraged Bitcoin and Ether futures ETPs/ETFs.",
    "per": {
-    "BTC": "Approved for 3x leveraged ETP listings.",
-    "ETH": "Approved for 3x leveraged ETP listings."
+    "BTC": "Cleared for 3x leveraged futures ETP listing.",
+    "ETH": "Cleared for 3x leveraged futures ETP listing."
    },
    "direction": "positive",
    "quality": 87,
@@ -31,7 +73,7 @@
    "c": "high",
    "sources": [
     {
-     "name": "cryptoslate.com",
+     "name": "CryptoSlate",
      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOHBJdFBnOXIwSTAyXy0yRWlhcVNNV1RaSE5fOWJNemFQTWF5dUc1SzlBNllnSVZZRW12WWZkS01ycTRoNVlsSVF3NHpTV1piYzFTN1czQkFfNmdfNFkxcUNOWlJSYjNFS3VRQTYwTGhkbzlCWG1JMWZiWGNVQVRsR180YkM1bjRZbzhZSQ?oc=5"
     },
     {
@@ -39,32 +81,36 @@
      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KRThDQVVPdmlrcEdsUjJIMFNqeHc5VmlKaU9lcHJnSHF4MGxJN2N6TEJaWDFNbEZzdnlENk9QTjFDREU4bUVfbHF1M2EzOVFSSjAxU3p5aWVobkloRk5BZHVCMmFEX0lp?oc=5"
     },
     {
-     "name": "CryptoRank",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSm02Z25COE9HV2JqOGpFeG04RHMwcHFhRlBoaDdQOU5wbk9KMHpuQ1I3WWcyRGpYQjMwcElfU0tiUG5MZjg1c0JaVFY1WXliSEVXOGt0ZmlweVhFQW1DTEIxWUI1TFlYTlVJa09ZV3ZBT09KWXJYeDZOTXZXbDVXSS1VMXktb2d1R3c?oc=5"
+     "name": "Bitcoin News",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcDhHZkRodk5uSUJ3Wk44QWJEbjdBOTBfa1BUNE1aTWticWZBWENHX05IQ2tuWENRSk41NGxQY3doVU9NMFRiQWZIWU1TZ2JScTJnV2RVSnpwY0lvam1lS04zMkxzcTlvN1RGU183YlVhLTRiVzZEaUZXa195c0ZROFh0b2lSdjFKcWdsY3hXSFM0ZzBsU1Mta0gyUXRhekF0YVNxR1ByR0EtUk5iNTVtVE1IZWxQdw?oc=5"
+    },
+    {
+     "name": "Coinspot.io",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa2NIYkNNeWdyQnhUZGtkZHZ6dGQycnoxOWZDVmpva0FnWFZUUDNuQWlZNVBQVEw0czVMN3JiblZGV2Y4UWd5Ml9rMjhWS1A5Qm91R05BaXhPRWVRV0Y4NHdYb1E5RnNTS0hXQVdrV0U3c1ZFZEZWYmh2Y0R3RHZoYUFxWU1CbVRDbnZyY2xXNFYzMEE?oc=5"
     }
    ],
-   "missing": "Exact trading launch dates and ticker symbols for all six products."
+   "missing": "Exact trading commencement dates for each specific product."
   },
   {
-   "t": "NEAR Intents Recovers Stolen Funds After Exploit",
-   "type": "hack",
+   "t": "NEAR Intents Recovers Stolen Funds After Ultimatum",
+   "type": "other",
    "status": "completed",
    "event_date": null,
    "coins": [
     "NEAR"
    ],
    "rel": "direct",
-   "b": "NEAR Intents recovered the entire $3.8 million stolen in a recent exploit after issuing a 48-hour ultimatum to the identified attacker.",
+   "b": "The NEAR Intents team successfully recovered the entire $3.8 million stolen in an exploit after issuing a 48-hour ultimatum to the identified exploiter.",
    "per": {
-    "NEAR": "Recovered 100% of the $3.8M stolen in the recent exploit following an ultimatum."
+    "NEAR": "Recovered full $3.8M from recent exploit funds."
    },
    "direction": "positive",
-   "quality": 77,
+   "quality": 85,
    "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 19,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 6
    },
@@ -81,20 +127,54 @@
      "url": "https://decrypt.co/380014/near-intents-recovers-3-8-million-after-48-hour-ultimatum"
     }
    ],
-   "missing": "Specific details on whether any vulnerabilities remain unpatched."
+   "missing": "Any additional security patches implemented post-exploit."
+  },
+  {
+   "t": "VanEck Adds Staking to BNB ETF Proposal",
+   "type": "etf",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "BNB"
+   ],
+   "rel": "direct",
+   "b": "VanEck has added staking functionality to its proposed BNB ETF and selected Figment as the staking provider.",
+   "per": {
+    "BNB": "Proposed ETF application updated to include staking via Figment."
+   },
+   "direction": "positive",
+   "quality": 83,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "finance.biggo.com",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43dUlkQmdwWk9TbUdDczMtUVZPY1BWYUNLU3FqVjJwVWdWQTNxa0VQeTZndHBid0dkZWlYSFhyQ1RRS3J2T01aWTVxeTRENWFDa1VJcW9SeWNRRS1uVFRlM1phdlU0ZHYxbk1rb1FLMGt3MEstT3c?oc=5"
+    }
+   ],
+   "missing": "SEC approval timeline and final launch date."
   },
   {
    "t": "Upbit Freezes EGLD Withdrawals",
    "type": "other",
-   "status": "officially_announced",
+   "status": "confirmed_upcoming",
    "event_date": "2025-10-19",
    "coins": [
     "EGLD"
    ],
    "rel": "direct",
-   "b": "Upbit has decided to freeze EGLD withdrawals starting from October 19.",
+   "b": "Upbit announced that EGLD withdrawals will be frozen starting from October 19.",
    "per": {
-    "EGLD": "Upbit is freezing withdrawals for the token beginning October 19."
+    "EGLD": "Withdrawals on Upbit are scheduled to be frozen starting October 19."
    },
    "direction": "negative",
    "quality": 75,
@@ -115,54 +195,20 @@
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BSVgzaC1nV0RlVWRRalQ1SWt4ZTI0cmNSRzBiOGlSOUxVM1RXc1ZxRDBZX1BZWi1HZTgzVzBvNGI3aDFXSmNtTkpaUU9LbEl2S0NUVFJINE9QS2dsNFRUWmJPMEs4V1V2UnNLb3Nn?oc=5"
     }
    ],
-   "missing": "The exact reason for the withdrawal suspension was not specified."
+   "missing": "Reasons for the freeze and exact resumption time."
   },
   {
-   "t": "CRO Token Burn and Buyback Plan",
+   "t": "CRO Surges on Token Burn and Buyback Plan",
    "type": "burn",
-   "status": "officially_announced",
+   "status": "ongoing",
    "event_date": null,
    "coins": [
     "CRO"
    ],
    "rel": "direct",
-   "b": "CRO surged following the announcement of a 228 million token burn and buyback plan.",
+   "b": "CRO surged following a 228 million token burn and buyback plan.",
    "per": {
-    "CRO": "A 228 million token burn and buyback plan was announced."
-   },
-   "direction": "positive",
-   "quality": 75,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xVlhfUmxjYk5MYloxS0ZCOUpPcU9lSFJmcFNuYURSN1VXUUtDWjBaYk1DYjk5aHU0dFNYM0NHTHNVQlU1OW92QWl5cVl0ME9zNlhXX2RmYmJuQVY3ZFcxMjMzcG1EOUMxd0VVeG9ZdlA?oc=5"
-    }
-   ],
-   "missing": "The execution timeline and schedule for the buyback and burn."
-  },
-  {
-   "t": "Pump.fun Token Surges Amid Ongoing Burn Policy",
-   "type": "burn",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "PUMP"
-   ],
-   "rel": "direct",
-   "b": "The PUMP token jumped over 15% with high trading volume amid its ongoing burn policy.",
-   "per": {
-    "PUMP": "Benefiting from ongoing token burn policies supporting price and volume."
+    "CRO": "Boosted by a 228M token burn and buyback initiative."
    },
    "direction": "positive",
    "quality": 72,
@@ -179,11 +225,49 @@
    "c": "medium",
    "sources": [
     {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOHd3cFE0Z1poTG9KQmhEQXJ2LWJ2R0F5Y3UxY3N2d1daRHFoUEZmd2JKZTEwNjVZWUl4bG9QVW01YkliZzhOWU1pNjdtTk5lX1RRVGxxZmtuTkNsdEVhcENUYzhFSGR3V3g5ZVFxZi1ROHByUGc4NXZuMEFYdC1jUnFB?oc=5"
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xVlhfUmxjYk5MYloxS0ZCOUpPcU9lSFJmcFNuYURSN1VXUUtDWjBaYk1DYjk5aHU0dFNYM0NHTHNVQlU1OW92QWl5cVl0ME9zNlhXX2RmYmJuQVY3ZFcxMjMzcG1EOUMxd0VVeG9ZdlA?oc=5"
     }
    ],
-   "missing": "Exact upcoming burn amounts or schedules."
+   "missing": "Future buyback schedules or total token reduction targets."
+  },
+  {
+   "t": "El Salvador Receives IMF Funding Following Bitcoin Waivers",
+   "type": "funding",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "indirect",
+   "b": "El Salvador received $138 million from the IMF after implementing Bitcoin waivers, with continued efforts to reduce state involvement in Bitcoin activities.",
+   "per": {
+    "BTC": "Ecosystem impacts as El Salvador adjusts state crypto involvement for IMF funding."
+   },
+   "direction": "positive",
+   "quality": 64,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 6,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/el-salvador-receives-138-million-from-imf-after-bitcoin-waivers-granted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "TronWeekly",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5uMTZfVUlpSjhsNGpjZDdsWGFiSlpRT08xYlpSaHF6cFJOWEVuTThHTjhWeVg4a2VlRFdWNDJmV1VoZXEyYVgwYkFmdlhEa0dVdGkzVHNVNFBZWnZ4TjJnZlExT0d2SVhVaVEyZG1VMmM3YWd2VmhPeDF4Zw?oc=5"
+    }
+   ],
+   "missing": "Specific policy implementation timelines."
   }
  ]
 }
