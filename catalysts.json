@@ -1,20 +1,20 @@
 {
- "updated": "2026-10-04T07:39:34.245135+00:00",
+ "updated": "2026-10-04T13:28:21.662190+00:00",
  "cards": [
   {
-   "t": "SEC Approves 3x Leveraged Bitcoin and Ether ETPs/ETFs",
+   "t": "SEC Approves 3x Leveraged Bitcoin and Ether ETPs",
    "type": "etf",
-   "status": "confirmed_upcoming",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
     "BTC",
     "ETH"
    ],
    "rel": "direct",
-   "b": "The U.S. SEC has approved listing rules for the first-ever 3x leveraged Bitcoin and Ether ETPs and ETFs, with trading pending activation.",
+   "b": "The U.S. SEC has officially cleared and approved the listing rules for six 3x leveraged Bitcoin and Ether ETPs.",
    "per": {
-    "BTC": "Approval of 3x leveraged ETP listing rules expands market access.",
-    "ETH": "Approval of 3x leveraged ETP listing rules expands market access."
+    "BTC": "Approved for new 3x leveraged ETP products.",
+    "ETH": "Approved for new 3x leveraged ETP products."
    },
    "direction": "positive",
    "quality": 87,
@@ -31,23 +31,19 @@
    "c": "high",
    "sources": [
     {
-     "name": "CryptoRank",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQczFQSjFVQnExYUN5NkEzYmZvVzF6aDl5SlBGLVEwaXJ3Y0JQNi14WWplTldLTGpxcFhRNUdQNXI4U3hlVW9JMTZzOFNvZnhTWFBPaFo5cU9wOXNYYWpad0ItcUpmSE4wX2xoSTVsYTRvaTlSWmV2QS0wTXhJSXdpTHYzT1hERnlXZmRJT1Qtd3B5eF9Odk9GVTFkWkhiNWNjVjJuNl9XNm96ZENya2ZFcEdpT254Qy1COEMw?oc=5"
-    },
-    {
-     "name": "The Coin Republic",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdkV4cGJrbHB1djBwejJhT0RhOVBaUUVGWVNGSVRxYXVDS0xYeExmSVhrY2JPOHdhUHJzQ25LNDd1aXZjQXJDMEZTcXl3N29OZlZ4UUtRQlRfaTlxR0NERHdLb21zOW1fVnBhc2gtazZUdkIydkJFTW5oMUNfeHV5Y09keWJ1SHZkNzAzeWlGX3gzWjNKY1U5eGY2c2NXXzdkX2fSAacBQVVfeXFMUHJUWVlfYnB1YUF3bHBjSVpQZmtGQWxaeU9ELTlCenItOWZPcFduV19MNnFTcVNlTm9PdkJ6Q1pfZTdBTkRQNXdUcGRoMUhnVkpHN2xSbVJMS1hTeF8tdnJTNUNFMTQ1dVRieWlPSEctaEJYU0dSU2pVQWtuZzhfNWt1aS1RaWw3ajREZTJUaTNnamo5TzFqQ3R2TUJWa1c2bW1pNWxPWnc?oc=5"
+     "name": "CryptoTicker",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KRThDQVVPdmlrcEdsUjJIMFNqeHc5VmlKaU9lcHJnSHF4MGxJN2N6TEJaWDFNbEZzdnlENk9QTjFDREU4bUVfbHF1M2EzOVFSSjAxU3p5aWVobkloRk5BZHVCMmFEX0lp?oc=5"
     },
     {
      "name": "CryptoRank",
      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSm02Z25COE9HV2JqOGpFeG04RHMwcHFhRlBoaDdQOU5wbk9KMHpuQ1I3WWcyRGpYQjMwcElfU0tiUG5MZjg1c0JaVFY1WXliSEVXOGt0ZmlweVhFQW1DTEIxWUI1TFlYTlVJa09ZV3ZBT09KWXJYeDZOTXZXbDVXSS1VMXktb2d1R3c?oc=5"
     },
     {
-     "name": "\u6df1\u6f6eTechFlow",
-     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB3bG1uS0RQaFl2MWtxVmxTTFZBOGJBeXhlenpUNU43NlB2WW1DUmsxS3p2bnhtV093MU9qX3BjQThUZ29CQXBkb084a2VkZ1RveU9fVEswX0FhUVlM?oc=5"
+     "name": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcllSR2xMeDNfbnU0OGUtUG1ZWklpUDJmM1o1S3VXXzlzWGlQZ0Q1UjZKYmpuSGxmc3YtQ1Nzc01YMGR6TVBqX3lLZXl1TlZVQ0JLMVN4YjJCcl9aZ1FsbWVzM3JITlVzV2ZhaUZhV1Z3MERYb2hSZTJuVG1vTGhpT3QxMHdPb3FDdGZZU3EyYlYxOHhiYVVkaHViMGh0NzY4a2s5d2Jpa0p4cXl3RGoyaUk2LWF4X0syenpQZUlGQ28zeEJpanVrRXd5b2I5QQ?oc=5"
     }
    ],
-   "missing": "Exact activation date for trading."
+   "missing": "The exact trading commencement dates for the approved leveraged products."
   },
   {
    "t": "Upbit Freezes EGLD Withdrawals",
@@ -58,9 +54,9 @@
     "EGLD"
    ],
    "rel": "direct",
-   "b": "Upbit announced that EGLD withdrawals are frozen, and a decision regarding the situation will be made starting October 19.",
+   "b": "Upbit has decided to freeze EGLD withdrawals starting from October 19.",
    "per": {
-    "EGLD": "Upbit frozen withdrawals and pending decision create uncertainty."
+    "EGLD": "Withdrawals are set to be frozen on Upbit starting October 19."
    },
    "direction": "negative",
    "quality": 83,
@@ -81,20 +77,20 @@
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BSVgzaC1nV0RlVWRRalQ1SWt4ZTI0cmNSRzBiOGlSOUxVM1RXc1ZxRDBZX1BZWi1HZTgzVzBvNGI3aDFXSmNtTkpaUU9LbEl2S0NUVFJINE9QS2dsNFRUWmJPMEs4V1V2UnNLb3Nn?oc=5"
     }
    ],
-   "missing": "The specific reason for freezing EGLD withdrawals."
+   "missing": "The precise reasoning behind the withdrawal freeze and when it will be lifted."
   },
   {
-   "t": "Upbit Lists POD Trading Pairs",
+   "t": "Upbit to List POD Trading Pairs",
    "type": "listing",
-   "status": "confirmed_upcoming",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
     "POD"
    ],
    "rel": "direct",
-   "b": "Upbit announced plans to list POD trading pairs against KRW, BTC, and USDT.",
+   "b": "Upbit has officially announced plans to list POD trading pairs against KRW, BTC, and USDT.",
    "per": {
-    "POD": "Upcoming exchange listing on Upbit provides major trading pair access."
+    "POD": "Getting listed on Upbit with KRW, BTC, and USDT pairs."
    },
    "direction": "positive",
    "quality": 83,
@@ -115,113 +111,7 @@
      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU05idkJ0UEU2WmhKMnFLSFJXTGNwdEY5QkI2dFN1X2VzS09Rd1dPbGZvS0ExTWJsTGxONF9YUGhneDF6SXJUVDNuNG1pX01QMEpKQWVKNldxVXNrX0szUEFyU2F2cUJPT1FCeW5TVjBRQlBITzE2bHg4RlBuekJjVS1kQQ?oc=5"
     }
    ],
-   "missing": "Exact launch date and time for the trading pairs."
-  },
-  {
-   "t": "Ethereum Glamsterdam Testnet Launch Nears",
-   "type": "mainnet",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "Ethereum's Glamsterdam testnet launch is approaching, which has helped support token price momentum.",
-   "per": {
-    "ETH": "Upcoming testnet upgrade draws anticipation and positive price action."
-   },
-   "direction": "positive",
-   "quality": 77,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 10,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "finance.biggo.com",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xZWVLMWlXZ0JrSkR1cnlpYkZsY2loZEowUlVXeklHUUtkbnhHb3l3Ym1fYUpwek8zRWpfLXBHamhkR0VNd1lLU2pnSUVtaGZUSklaNnBORkF5Z0hXYm9zUTFqY3lqcXJEc3pzVzZaTTEyaXA3akE?oc=5"
-    },
-    {
-     "name": "MarketForces Africa",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdF9Qbmg2WEVmOFY4RUY3VGw0Tk10OUtEOXZFMWhqX2s1WGJ6T2xiS1VDN0o3SU55N1h1UE9mRjg1a0xxTFV6SmcxV2VZMDJ0aTFWamRQTUw0VVh1cGRIaXRHRWUyeGpFUHNIWXFlbWVRenNUS3lqal9ORk1rY2dBS3hCcWQtUUhUMzgwYw?oc=5"
-    }
-   ],
-   "missing": "The exact date of the Glamsterdam testnet launch."
-  },
-  {
-   "t": "NEAR Intents Recovers Stolen $3.8M",
-   "type": "hack",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "NEAR"
-   ],
-   "rel": "direct",
-   "b": "NEAR Intents successfully recovered the entirety of a stolen $3.8 million after issuing an ultimatum to the exploiter.",
-   "per": {
-    "NEAR": "Full recovery of funds resolves security breach concerns."
-   },
-   "direction": "positive",
-   "quality": 75,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/near-intents-recovers-entire-stolen-38m-after-ultimatum-to-exploiter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Identity of the exploiter and whether any terms were granted."
-  },
-  {
-   "t": "Upbit, Bithumb, and Coinone Lift Sandbox Trading Warning",
-   "type": "other",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "SAND"
-   ],
-   "rel": "direct",
-   "b": "Upbit, Bithumb, and Coinone have lifted their trading warnings on Sandbox (SAND), contributing to a 62% price surge.",
-   "per": {
-    "SAND": "Lifting of exchange trading warnings removed risk and propelled a price surge."
-   },
-   "direction": "positive",
-   "quality": 74,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "The Crypto Times",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUXYta09KaWFzeThYTGlwZXNCYjE0MTBGMXRKUEpQVVVNbmpOREYzbE5aUHR0Yl9uamVDN3FaZnlubml3NnYxWF9TY29pb3JYZnBGUFg1WVVFXzVqYWQydU9pYlFvZzBKdEtWa2dzR1lCUGxtY21kOTZCNGhSMFloSlJxOEltUVJKMXhoR3hvZ2lkZE9QN3ZQN2pFSk1heFVzSDhaVkpMMzlpZ3RHbkt3Zm1OcDR5RVNT?oc=5"
-    }
-   ],
-   "missing": "The original reason the trading warning was imposed."
+   "missing": "The exact launch date and time for the trading pairs."
   }
  ]
 }
