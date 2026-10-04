@@ -1,20 +1,20 @@
 {
- "updated": "2026-10-04T13:28:21.662190+00:00",
+ "updated": "2026-10-04T17:47:00.330037+00:00",
  "cards": [
   {
-   "t": "SEC Approves 3x Leveraged Bitcoin and Ether ETPs",
+   "t": "SEC Clears Six 3x Leveraged Bitcoin and Ether ETPs",
    "type": "etf",
-   "status": "officially_announced",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
     "BTC",
     "ETH"
    ],
    "rel": "direct",
-   "b": "The U.S. SEC has officially cleared and approved the listing rules for six 3x leveraged Bitcoin and Ether ETPs.",
+   "b": "The SEC has cleared and approved the first batch of six 3x leveraged Bitcoin and Ether ETPs.",
    "per": {
-    "BTC": "Approved for new 3x leveraged ETP products.",
-    "ETH": "Approved for new 3x leveraged ETP products."
+    "BTC": "Approved for 3x leveraged ETP listings.",
+    "ETH": "Approved for 3x leveraged ETP listings."
    },
    "direction": "positive",
    "quality": 87,
@@ -31,24 +31,62 @@
    "c": "high",
    "sources": [
     {
+     "name": "cryptoslate.com",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOHBJdFBnOXIwSTAyXy0yRWlhcVNNV1RaSE5fOWJNemFQTWF5dUc1SzlBNllnSVZZRW12WWZkS01ycTRoNVlsSVF3NHpTV1piYzFTN1czQkFfNmdfNFkxcUNOWlJSYjNFS3VRQTYwTGhkbzlCWG1JMWZiWGNVQVRsR180YkM1bjRZbzhZSQ?oc=5"
+    },
+    {
      "name": "CryptoTicker",
      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KRThDQVVPdmlrcEdsUjJIMFNqeHc5VmlKaU9lcHJnSHF4MGxJN2N6TEJaWDFNbEZzdnlENk9QTjFDREU4bUVfbHF1M2EzOVFSSjAxU3p5aWVobkloRk5BZHVCMmFEX0lp?oc=5"
     },
     {
      "name": "CryptoRank",
      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSm02Z25COE9HV2JqOGpFeG04RHMwcHFhRlBoaDdQOU5wbk9KMHpuQ1I3WWcyRGpYQjMwcElfU0tiUG5MZjg1c0JaVFY1WXliSEVXOGt0ZmlweVhFQW1DTEIxWUI1TFlYTlVJa09ZV3ZBT09KWXJYeDZOTXZXbDVXSS1VMXktb2d1R3c?oc=5"
-    },
-    {
-     "name": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcllSR2xMeDNfbnU0OGUtUG1ZWklpUDJmM1o1S3VXXzlzWGlQZ0Q1UjZKYmpuSGxmc3YtQ1Nzc01YMGR6TVBqX3lLZXl1TlZVQ0JLMVN4YjJCcl9aZ1FsbWVzM3JITlVzV2ZhaUZhV1Z3MERYb2hSZTJuVG1vTGhpT3QxMHdPb3FDdGZZU3EyYlYxOHhiYVVkaHViMGh0NzY4a2s5d2Jpa0p4cXl3RGoyaUk2LWF4X0syenpQZUlGQ28zeEJpanVrRXd5b2I5QQ?oc=5"
     }
    ],
-   "missing": "The exact trading commencement dates for the approved leveraged products."
+   "missing": "Exact trading launch dates and ticker symbols for all six products."
+  },
+  {
+   "t": "NEAR Intents Recovers Stolen Funds After Exploit",
+   "type": "hack",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "NEAR"
+   ],
+   "rel": "direct",
+   "b": "NEAR Intents recovered the entire $3.8 million stolen in a recent exploit after issuing a 48-hour ultimatum to the identified attacker.",
+   "per": {
+    "NEAR": "Recovered 100% of the $3.8M stolen in the recent exploit following an ultimatum."
+   },
+   "direction": "positive",
+   "quality": 77,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/near-intents-recovers-entire-stolen-38m-after-ultimatum-to-exploiter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/380014/near-intents-recovers-3-8-million-after-48-hour-ultimatum"
+    }
+   ],
+   "missing": "Specific details on whether any vulnerabilities remain unpatched."
   },
   {
    "t": "Upbit Freezes EGLD Withdrawals",
    "type": "other",
-   "status": "confirmed_upcoming",
+   "status": "officially_announced",
    "event_date": "2025-10-19",
    "coins": [
     "EGLD"
@@ -56,15 +94,15 @@
    "rel": "direct",
    "b": "Upbit has decided to freeze EGLD withdrawals starting from October 19.",
    "per": {
-    "EGLD": "Withdrawals are set to be frozen on Upbit starting October 19."
+    "EGLD": "Upbit is freezing withdrawals for the token beginning October 19."
    },
    "direction": "negative",
-   "quality": 83,
+   "quality": 75,
    "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 8,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
@@ -77,28 +115,28 @@
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BSVgzaC1nV0RlVWRRalQ1SWt4ZTI0cmNSRzBiOGlSOUxVM1RXc1ZxRDBZX1BZWi1HZTgzVzBvNGI3aDFXSmNtTkpaUU9LbEl2S0NUVFJINE9QS2dsNFRUWmJPMEs4V1V2UnNLb3Nn?oc=5"
     }
    ],
-   "missing": "The precise reasoning behind the withdrawal freeze and when it will be lifted."
+   "missing": "The exact reason for the withdrawal suspension was not specified."
   },
   {
-   "t": "Upbit to List POD Trading Pairs",
-   "type": "listing",
+   "t": "CRO Token Burn and Buyback Plan",
+   "type": "burn",
    "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "POD"
+    "CRO"
    ],
    "rel": "direct",
-   "b": "Upbit has officially announced plans to list POD trading pairs against KRW, BTC, and USDT.",
+   "b": "CRO surged following the announcement of a 228 million token burn and buyback plan.",
    "per": {
-    "POD": "Getting listed on Upbit with KRW, BTC, and USDT pairs."
+    "CRO": "A 228 million token burn and buyback plan was announced."
    },
    "direction": "positive",
-   "quality": 83,
+   "quality": 75,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 8,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
@@ -107,11 +145,45 @@
    "c": "high",
    "sources": [
     {
-     "name": "Hokanews",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU05idkJ0UEU2WmhKMnFLSFJXTGNwdEY5QkI2dFN1X2VzS09Rd1dPbGZvS0ExTWJsTGxONF9YUGhneDF6SXJUVDNuNG1pX01QMEpKQWVKNldxVXNrX0szUEFyU2F2cUJPT1FCeW5TVjBRQlBITzE2bHg4RlBuekJjVS1kQQ?oc=5"
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xVlhfUmxjYk5MYloxS0ZCOUpPcU9lSFJmcFNuYURSN1VXUUtDWjBaYk1DYjk5aHU0dFNYM0NHTHNVQlU1OW92QWl5cVl0ME9zNlhXX2RmYmJuQVY3ZFcxMjMzcG1EOUMxd0VVeG9ZdlA?oc=5"
     }
    ],
-   "missing": "The exact launch date and time for the trading pairs."
+   "missing": "The execution timeline and schedule for the buyback and burn."
+  },
+  {
+   "t": "Pump.fun Token Surges Amid Ongoing Burn Policy",
+   "type": "burn",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "PUMP"
+   ],
+   "rel": "direct",
+   "b": "The PUMP token jumped over 15% with high trading volume amid its ongoing burn policy.",
+   "per": {
+    "PUMP": "Benefiting from ongoing token burn policies supporting price and volume."
+   },
+   "direction": "positive",
+   "quality": 72,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOHd3cFE0Z1poTG9KQmhEQXJ2LWJ2R0F5Y3UxY3N2d1daRHFoUEZmd2JKZTEwNjVZWUl4bG9QVW01YkliZzhOWU1pNjdtTk5lX1RRVGxxZmtuTkNsdEVhcENUYzhFSGR3V3g5ZVFxZi1ROHByUGc4NXZuMEFYdC1jUnFB?oc=5"
+    }
+   ],
+   "missing": "Exact upcoming burn amounts or schedules."
   }
  ]
 }
