@@ -1,66 +1,20 @@
 {
- "updated": "2026-10-05T03:33:26.892678+00:00",
+ "updated": "2026-10-05T10:50:55.328680+00:00",
  "cards": [
   {
-   "t": "Canary Capital Amends PEPE ETF Filing and Targets Cboe BZX Listing",
+   "t": "SEC Approves 3x Leveraged ETPs",
    "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "PEPE"
-   ],
-   "rel": "direct",
-   "b": "Canary Capital submitted an amended ETF filing for PEPE, eyeing a listing on the Cboe BZX exchange.",
-   "per": {
-    "PEPE": "Amended ETF filing submitted aiming for Cboe BZX listing."
-   },
-   "direction": "positive",
-   "quality": 92,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 25,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "CryptoRank",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM0x1aFBXTDFkRXNYU1VLTFZ4V2cwRHNta3lsTk0zek9rM3JBU084Q1pNaG8yT1J0VVpTMjFDVlB0T0NfOHc1dl9UM1pud2pJMHdXeU5wYnczMEtubjZWbGdFak9uaGd5dW56alpVeHRJeks0Q2FBcXNLcEx5cTBzc01lMUxCbk9feGhncURpaWhFb2JZZTZGMWRtT0h4dw?oc=5"
-    },
-    {
-     "name": "KuCoin",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMHB6SkVRN3B5aGt5SzFnYUR2SEdZblVZaktkZEhPaGJxWTVJeWtOOXQ3RHBrZTRIQTBJRFZmR1JfWEFoVkI0UVJCck1ZbDBxQS1OQS1Hd1RRcjJXSHpoaGhlV2ROcFRjTExON2xFY2ljQ0FGakZCQ1hrUlhTSUEzVWtEN2gzTE1nUlpaNzgwQTJrRTF2ckMyTw?oc=5"
-    },
-    {
-     "name": "Binance",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBHanBkM2hnRzJxbWhiMEJ1ZjJDYmxMbkh6Z283eUFIZkdnenlnVzNOYWZpb1JJcVpGY01faEo1N2xhUFZ5eS1Wd0x6VnBEUXhBeEJpU2U3eVFQX1R5MHdrQ2VjQ01EeUY0?oc=5"
-    },
-    {
-     "name": "tronweekly.com",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWGtURmdYQTNMcFlER2VjMmFETUhVMkFwSkNHX29uUUFoNlpKSEpKSndmZ3BUWktmT2xsWG1wWHM0MGpQTDBKNUFjU0xLSlYzN3Q0cFU5SVNRYkFQUHN3Y2NhM0w3a2VjWk05N0NTT3RKRl9nTjgxRFMwZGNqdW9WNVVTZkQ1cFptWHZSS09HT1VGZw?oc=5"
-    }
-   ],
-   "missing": "Approval and official launch dates."
-  },
-  {
-   "t": "SEC Approves Listing of 3x Leveraged Bitcoin and Ether Products",
-   "type": "etf",
-   "status": "confirmed_upcoming",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
     "BTC",
     "ETH"
    ],
    "rel": "direct",
-   "b": "The US SEC cleared and approved listings for triple-leveraged Bitcoin, Ether and metals ETF/ETP products.",
+   "b": "The U.S. SEC has cleared the listing of new 3x leveraged Bitcoin and Ether futures ETPs/ETFs.",
    "per": {
-    "BTC": "Approved for 3x leveraged ETF/ETP products.",
-    "ETH": "Approved for 3x leveraged ETF/ETP products."
+    "BTC": "Triple-leveraged Bitcoin products cleared for listing.",
+    "ETH": "Triple-leveraged Ether products cleared for listing."
    },
    "direction": "positive",
    "quality": 87,
@@ -89,14 +43,52 @@
      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOHBJdFBnOXIwSTAyXy0yRWlhcVNNV1RaSE5fOWJNemFQTWF5dUc1SzlBNllnSVZZRW12WWZkS01ycTRoNVlsSVF3NHpTV1piYzFTN1czQkFfNmdfNFkxcUNOWlJSYjNFS3VRQTYwTGhkbzlCWG1JMWZiWGNVQVRsR180YkM1bjRZbzhZSQ?oc=5"
     },
     {
-     "name": "\uc7ac\uacbd\uc77c\ubcf4",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95blVRYXRiZElZSFlLOXZPbEExVllzbmNJMzBVZVN0OXMzeGlEcVFjMGp6dWp1eGlqMHpXU3ZyeUtWS2JtUkw2a29ocG1XMnVGQ05iSFZ5MktEaWpTT3lEMXNR?oc=5"
+     "name": "Cointribune",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbGxKRmlMamJnNm43MENvcnFySVlnOGVFemhUbXkybUZ6bGdEWFppWnlPb0pjZmZTZ2MwcmxLSjN4VVdpU015VU9wS3dGaU9Wd1UtQkZOd2VfdUhxXzNoWlM4cW5EX2tBbmJjOURBWDI3NVlLYkZzWFMtdDRoaWZXTGFfX3V1NTZsakRMLThocjFEQ1Qx?oc=5"
     }
    ],
-   "missing": "Exact launch date on exchanges."
+   "missing": "Exact trading start dates."
   },
   {
-   "t": "Near Intents Recovers $3.8 Million After Exploit Ultimatum",
+   "t": "Zcash NU7 Testnet Activation",
+   "type": "mainnet",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "ZEC"
+   ],
+   "rel": "direct",
+   "b": "Zcash's NU7 upgrade has gone live on the public testnet, cutting the target block time from 75 seconds to 25 seconds ahead of a planned November mainnet activation.",
+   "per": {
+    "ZEC": "NU7 cuts target block time to 25 seconds on testnet ahead of mainnet."
+   },
+   "direction": "positive",
+   "quality": 83,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/05/zcash-s-25-second-blocks-go-live-on-public-testnet-ahead-of-schedule"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/zcash-nu7-testnet-activation-november-mainnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Exact November mainnet activation date."
+  },
+  {
+   "t": "Near Intents Recovers Exploited Funds",
    "type": "hack",
    "status": "completed",
    "event_date": null,
@@ -104,15 +96,15 @@
     "NEAR"
    ],
    "rel": "direct",
-   "b": "Near Intents recovered in full the roughly $3.8 million drained during a recent exploit after issuing a 48-hour ultimatum.",
+   "b": "Near Intents successfully recovered the full $3.8 million drained in a recent exploit after issuing an ultimatum to the attacker.",
    "per": {
-    "NEAR": "All exploited funds ($3.8M) successfully recovered."
+    "NEAR": "Full recovery of $3.8M exploited funds mitigates security incident impact."
    },
    "direction": "positive",
-   "quality": 77,
+   "quality": 75,
    "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 17,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -123,83 +115,11 @@
    "c": "high",
    "sources": [
     {
-     "name": "Startup Fortune",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOb1QwckhzRXRXZjdUa1FqSGZ1VnpWVzRlMHdaRFpGVnJGMlZCNzk3WVVZQllTWW9KVGNkQjNmS01oVjRRckZwbUc3RnNrbmtYdUMwdE9UZ01iMGczLUhUQ1VueEdDY25EeGdKTHpBbGZLMmxVSFpXdWhGVTlMSDRoVG04UGdmT2tCM0dvTDVjVTFBdEhjeV9raQ?oc=5"
-    },
-    {
      "name": "decrypt.co",
      "url": "https://decrypt.co/380014/near-intents-recovers-3-8-million-after-48-hour-ultimatum"
     }
    ],
-   "missing": "Details on the identity of the attacker or future security patches."
-  },
-  {
-   "t": "VanEck Adds Staking to Proposed BNB ETF with Figment",
-   "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "BNB"
-   ],
-   "rel": "direct",
-   "b": "VanEck has added staking to its proposed BNB ETF, tapping Figment as the staking provider.",
-   "per": {
-    "BNB": "Included in a proposed ETF featuring staking integration."
-   },
-   "direction": "positive",
-   "quality": 75,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "finance.biggo.com",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43dUlkQmdwWk9TbUdDczMtUVZPY1BWYUNLU3FqVjJwVWdWQTNxa0VQeTZndHBid0dkZWlYSFhyQ1RRS3J2T01aWTVxeTRENWFDa1VJcW9SeWNRRS1uVFRlM1phdlU0ZHYxbk1rb1FLMGt3MEstT3c?oc=5"
-    }
-   ],
-   "missing": "Regulatory approval timeline."
-  },
-  {
-   "t": "CRO Surges on 228M Token Burn and Buyback Plan",
-   "type": "burn",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "CRO"
-   ],
-   "rel": "direct",
-   "b": "CRO surged following a 228 million token burn and buyback plan.",
-   "per": {
-    "CRO": "Benefit from a 228M token burn and buyback plan."
-   },
-   "direction": "positive",
-   "quality": 72,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xVlhfUmxjYk5MYloxS0ZCOUpPcU9lSFJmcFNuYURSN1VXUUtDWjBaYk1DYjk5aHU0dFNYM0NHTHNVQlU1OW92QWl5cVl0ME9zNlhXX2RmYmJuQVY3ZFcxMjMzcG1EOUMxd0VVeG9ZdlA?oc=5"
-    }
-   ],
-   "missing": "Timeline for completion of the buyback and burn."
+   "missing": "Further security audit updates."
   }
  ]
 }
