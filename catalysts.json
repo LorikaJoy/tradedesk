@@ -1,56 +1,56 @@
 {
- "updated": "2026-10-05T10:50:55.328680+00:00",
+ "updated": "2026-10-05T19:38:27.205014+00:00",
  "cards": [
   {
-   "t": "SEC Approves 3x Leveraged ETPs",
+   "t": "SEC Clears 3x Leveraged Bitcoin and Ethereum Funds",
    "type": "etf",
-   "status": "officially_announced",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
     "BTC",
     "ETH"
    ],
    "rel": "direct",
-   "b": "The U.S. SEC has cleared the listing of new 3x leveraged Bitcoin and Ether futures ETPs/ETFs.",
+   "b": "The SEC approved a Cboe rule allowing Volatility Shares to list the first 3x leveraged Bitcoin and Ethereum exchange-traded funds in the U.S.",
    "per": {
-    "BTC": "Triple-leveraged Bitcoin products cleared for listing.",
-    "ETH": "Triple-leveraged Ether products cleared for listing."
+    "BTC": "First 3x leveraged Bitcoin ETP approved for U.S. trading.",
+    "ETH": "First 3x leveraged Ethereum ETP approved for U.S. trading."
    },
    "direction": "positive",
-   "quality": 87,
+   "quality": 96,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 12,
+    "credibility": 21,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 9,
+   "impact": 10,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "Startup Fortune",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYVlaY1pQY29GekdJeTE1elUwa2JPUzk4SVJNQnhXNkRkcGJ1UzMxQ3FqOGFqMENKLXNHRG5XQXJBVjMyaU1RTGFXZ0VKUzZiSDhmb2pkcFlwYTAxZUNHZWxrWThhTVZHWjFfRExqUTE2SDc2eDBJYnpWaVMxSFV2dFlrc2xEYV9lQVBJbm1mY00yclFiZUNMcDVBMVpCUQ?oc=5"
+     "name": "CoinGape",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNFI3Mk14bHZncXhCNmhwUjZsNlU4V1AtM1VvUDU0eTRwSTlwS3lvcDRLMjBkWlhfalZ4enB1NHh0VFdJZXowWXlsdk54bTlRNE9vc09OMUJ0VkZtSlc2cDhkVkJLeHBqOFFRbjh2S1U0eGtUeTlCblRoTWt4bW5zWUZzaFpEWlpaV21YZFBQbWRGMGM?oc=5"
     },
     {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE81WFg5UVh0TDVLRUh3QnluZ0FtemM2a2M4TDV6RWpZRmdyRHpLM040UURId0dPb1hWaDFDdEl6TGNBelZIU3h1YXlia213aHdKY3lJSg?oc=5"
+     "name": "Bitget",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE93aVNVSEZKZnk4V1M1Y2xpaV9RUWJGcl9UWmxtN3d1aFhKcm5EWm02eDk1M0NJNVRSd3RFcUVpZVlJM2lpMllqOXhaWHZfYW9veHgxOFFRcWtuMEZsaDBKMHdnQdIBY0FVX3lxTE93aVNVSEZKZnk4V1M1Y2xpaV9RUWJGcl9UWmxtN3d1aFhKcm5EWm02eDk1M0NJNVRSd3RFcUVpZVlJM2lpMllqOXhaWHZfYW9veHgxOFFRcWtuMEZsaDBKMHdnQQ?oc=5"
     },
     {
-     "name": "CryptoSlate",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOHBJdFBnOXIwSTAyXy0yRWlhcVNNV1RaSE5fOWJNemFQTWF5dUc1SzlBNllnSVZZRW12WWZkS01ycTRoNVlsSVF3NHpTV1piYzFTN1czQkFfNmdfNFkxcUNOWlJSYjNFS3VRQTYwTGhkbzlCWG1JMWZiWGNVQVRsR180YkM1bjRZbzhZSQ?oc=5"
+     "name": "unchainedcrypto.com",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRzlldWxreEp1dWowNEFnR1VtWUhXRmx3X2dYcUpTUk9hRVF6NkNXTTJYaU15SUMzdE9xOEoyNFRXbmFZbDJIVVdaUXNsdGRRZWYyZURyTTZ5M0JtdFZDaFR6T1FCTmt3Nm1RN0o3TEF5OFlPZUVlTHRtZFdyNzlKYnFMTkR2N2RBd3ZQNkFIY29MWFZEemZXNlkyNFUzQQ?oc=5"
     },
     {
-     "name": "Cointribune",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbGxKRmlMamJnNm43MENvcnFySVlnOGVFemhUbXkybUZ6bGdEWFppWnlPb0pjZmZTZ2MwcmxLSjN4VVdpU015VU9wS3dGaU9Wd1UtQkZOd2VfdUhxXzNoWlM4cW5EX2tBbmJjOURBWDI3NVlLYkZzWFMtdDRoaWZXTGFfX3V1NTZsakRMLThocjFEQ1Qx?oc=5"
+     "name": "tradersunion.com",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcnNPZHlpQnlDSzZlSW1DZFNDalA3SU1VenVxZ295dHdSRmNEZW91RURtMGk5ZmZNZVNONUtaZjhEOUZlaHRWRzdNcWd4WDRmRC10bkt1VGY5dGx5SUZ0S3JkY0hEZXV0cS1zVURHY0hRdzB5Nndsc0lpRkx2NERmQlJqblFYLUthM3NaclZWaE94U2c4eENEYlBfUms1MWs?oc=5"
     }
    ],
-   "missing": "Exact trading start dates."
+   "missing": "Exact launch dates for the products."
   },
   {
-   "t": "Zcash NU7 Testnet Activation",
+   "t": "Zcash Activates NU7 on Testnet Ahead of Mainnet",
    "type": "mainnet",
    "status": "ongoing",
    "event_date": null,
@@ -58,9 +58,9 @@
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Zcash's NU7 upgrade has gone live on the public testnet, cutting the target block time from 75 seconds to 25 seconds ahead of a planned November mainnet activation.",
+   "b": "Zcash activated its NU7 upgrade on the public testnet, reducing target block times to 25 seconds ahead of a planned November mainnet launch.",
    "per": {
-    "ZEC": "NU7 cuts target block time to 25 seconds on testnet ahead of mainnet."
+    "ZEC": "NU7 testnet live with mainnet targeted for November."
    },
    "direction": "positive",
    "quality": 83,
@@ -85,26 +85,68 @@
      "url": "https://cointelegraph.com/news/zcash-nu7-testnet-activation-november-mainnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact November mainnet activation date."
+   "missing": "Exact date in November for mainnet deployment."
   },
   {
-   "t": "Near Intents Recovers Exploited Funds",
-   "type": "hack",
+   "t": "Strategy Buys 334 Bitcoin and Repurchases Shares",
+   "type": "buyback",
    "status": "completed",
    "event_date": null,
    "coins": [
-    "NEAR"
+    "BTC"
    ],
    "rel": "direct",
-   "b": "Near Intents successfully recovered the full $3.8 million drained in a recent exploit after issuing an ultimatum to the attacker.",
+   "b": "Strategy purchased 334 Bitcoin for $28.7 million, bringing total holdings to 848,000 BTC, while spending $176.3 million to repurchase STRC shares.",
    "per": {
-    "NEAR": "Full recovery of $3.8M exploited funds mitigates security incident impact."
+    "BTC": "Holdings increased to 848,000 BTC."
    },
    "direction": "positive",
-   "quality": 75,
+   "quality": 79,
    "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/strategy-848k-bitcoin-strc-buybacks-outpace-btc-buys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/380056/strategy-posts-21b-q3-gain-buys-29m-in-btc-repurchases-176m-in-strc"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-10-05-more-orange-than-ever-michael-saylor-strategy-bitcoin-417631"
+    }
+   ],
+   "missing": "Future acquisition schedules."
+  },
+  {
+   "t": "Bitmine Adds 15,112 ETH in Recent Purchases",
+   "type": "treasury",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "ETH"
+   ],
+   "rel": "direct",
+   "b": "Bitmine added 15,112 ETH to push its total stash past 6 million ETH, reaching 99% of its 'Alchemy of 5%' supply target.",
+   "per": {
+    "ETH": "Treasury holdings exceed 6 million ETH."
+   },
+   "direction": "positive",
+   "quality": 77,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 19,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -116,10 +158,14 @@
    "sources": [
     {
      "name": "decrypt.co",
-     "url": "https://decrypt.co/380014/near-intents-recovers-3-8-million-after-48-hour-ultimatum"
+     "url": "https://decrypt.co/380059/bitmine-41m-more-ethereum-alchemy-of-5-target"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-10-05-tom-lee-says-ether-dwarfing-other-macro-assets-as-bitmine-adds-15112-eth-417660"
     }
    ],
-   "missing": "Further security audit updates."
+   "missing": "Timing for the remaining 1% target acquisition."
   }
  ]
 }
