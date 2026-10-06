@@ -1,4 +1,195 @@
 {
- "updated": "2026-10-06T07:05:29.108758+00:00",
- "cards": []
+ "updated": "2026-10-06T14:10:07.721404+00:00",
+ "cards": [
+  {
+   "t": "Arbitrum Integrates Paxos USDG Stablecoin with ARB Incentives",
+   "type": "partnership",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "ARB"
+   ],
+   "rel": "direct",
+   "b": "Arbitrum is joining the Paxos-led Global Dollar group and launching USDG, supported by a proposal for 100 million ARB in incentives to drive adoption and liquidity.",
+   "per": {
+    "ARB": "Set to receive 100 million tokens in proposed incentives to support USDG stablecoin adoption and liquidity on the network."
+   },
+   "direction": "positive",
+   "quality": 94,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/05/arbitrum-joins-paxos-led-stablecoin-group-global-dollar-to-capture-digital-dollar-growth"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/paxos-3b-usdg-stablecoin-launches-arbitrum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Exact distribution schedule for the 100 million ARB incentives."
+  },
+  {
+   "t": "Solana Foundation Unveils Open-Source Institutional Settlement Program",
+   "type": "partnership",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "The Solana Foundation launched an open-source DvP program designed to allow financial institutions to settle trades atomically in seconds, developed with input from JPMorgan.",
+   "per": {
+    "SOL": "Gains institutional tooling via the DvP settlement standard built with input from J.P. Morgan."
+   },
+   "direction": "positive",
+   "quality": 88,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/06/solana-foundation-unveils-a-program-to-settle-institutional-trades-in-seconds-with-jpmorgan-s-inputs"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/solana-foundation-settlement-seconds-dvp?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/380126/solana-institutional-settlement-standard-jp-morgan"
+    }
+   ],
+   "missing": "Adoption timeline by specific institutional participants."
+  },
+  {
+   "t": "Ethereum Sepolia Testnet Deploys Glamsterdam Upgrade",
+   "type": "mainnet",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "ETH"
+   ],
+   "rel": "direct",
+   "b": "Ethereum successfully launched the Glamsterdam upgrade on the Sepolia testnet following a validator client software update. The upgrade aims to increase work capacity per block to 200 million gas.",
+   "per": {
+    "ETH": "Testing capacity increases targeting 200 million gas per block on Sepolia ahead of mainnet activation."
+   },
+   "direction": "positive",
+   "quality": 77,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/06/ethereum-s-glamsterdam-test-gets-last-minute-fix-before-major-capacity-jump"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/ethereums-glamsterdam-upgrade-launches-on-sepolia-testnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Exact mainnet launch date for the Glamsterdam upgrade."
+  },
+  {
+   "t": "Metaplanet Q3 Holdings Reach 44,000 BTC via Net Accumulation",
+   "type": "treasury",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Japanese firm Metaplanet added a net 1,000 Bitcoin in the third quarter, bringing its total holdings to 44,000 BTC alongside a revised capital allocation strategy.",
+   "per": {
+    "BTC": "Corporate treasury expanded total holdings to 44,000 coins."
+   },
+   "direction": "positive",
+   "quality": 70,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/05/metaplanet-adds-1-000-bitcoin-after-sale-and-repurchase-launches-income-strategy"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/metaplanet-net-income-strategy-bitcoin-accumulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Specific details of preferred securities income generation."
+  },
+  {
+   "t": "Strategy Reports Bitcoin Purchases and STRC Share Repurchases",
+   "type": "buyback",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Strategy acquired 334 Bitcoin for $28.7 million while allocating $176.3 million to repurchase approximately 1.77 million shares of STRC.",
+   "per": {
+    "BTC": "Expanded treasury holdings by 334 coins."
+   },
+   "direction": "positive",
+   "quality": 68,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/strategy-848k-bitcoin-strc-buybacks-outpace-btc-buys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Total remaining buyback authorization limits."
+  }
+ ]
 }
