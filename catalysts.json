@@ -1,40 +1,36 @@
 {
- "updated": "2026-10-06T19:30:58.994216+00:00",
+ "updated": "2026-10-06T23:14:52.628167+00:00",
  "cards": [
   {
    "t": "Winklevoss Twins File for Spot Zcash ETF on Nasdaq",
    "type": "etf",
-   "status": "officially_announced",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Winklevoss Asset Services has filed an S-1 with the SEC for a spot Zcash ETF to trade on Nasdaq under the ticker WINK with a 0.25% annual fee. This filing follows a sharp rise in Zcash prices and aims to compete with existing products by offering a lower fee structure.",
+   "b": "Winklevoss Asset Services has filed an S-1 with the SEC for a spot Zcash ETF to trade on Nasdaq under the ticker WINK with a 0.25% annual fee. Gemini Trust will serve as custodian and affiliates plan up to $100 million in launch interest.",
    "per": {
-    "ZEC": "Filing of the WINK spot ETF on Nasdaq could drive institutional inflows and trading volume."
+    "ZEC": "Filing of the WINK spot ETF expands institutional access for Zcash."
    },
    "direction": "positive",
-   "quality": 87,
+   "quality": 96,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 12,
+    "credibility": 21,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 9,
+   "impact": 10,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "Crypto News",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5HM0RDUDRpUE9FLWVtWmZvZjJ0ZFg4VVBpb3VhNC1Fd2dEaC1PQzhFUlFoM3dxQ2pHc21FY2EwV1VIZWZQUnBkdVNlc0ozNE1SalJ3RHJBMlB2MHdhZUhqLUI5RlNiaWhFbzNUMXV4SVFFODA3WWdBelFFVHJXQQ?oc=5"
-    },
-    {
      "name": "Coinpedia Fintech News",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNnFnaFhTYldlTE1BMFFpY1RrbGtNakdjLXpJWmUxNm93SW5oaDJUeWtHcFFEcHBIZlMzZ2o3cW1ZX2JaSXdpamZTOXE0djJBaF9xcExMOEd5SV9KeWFFSjJxWjd4bGU1eWpoZThYbXFpaEtyOGY1TTBDSG5Qa1lwMkUyUTBJN1pLVng4d1BqeHY0X2dPemQ5dXhpYkNwZ9IBowFBVV95cUxPVlRuZ1VYZGQzZWtRb0hqbjhQZHhjVzZiS29FM1pYdGdwSWk2NW9LX2Q5NTNOZXl0MVAzRWc2M2ZqX29EeE1qc1BkZ2t2NUc5U0gtWVNsZDA3TlFuOEFraGxMYk1IRmlNaW1pUWh5R08wSWpSaUpMM2RjQlIzSXh5elpGbFdINDNxcWtnMEJTMmdCdjBRdnc2ZENfTHYxZmZSSUxB?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVlRuZ1VYZGQzZWtRb0hqbjhQZHhjVzZiS29FM1pYdGdwSWk2NW9LX2Q5NTNOZXl0MVAzRWc2M2ZqX29EeE1qc1BkZ2t2NUc5U0gtWVNsZDA3TlFuOEFraGxMYk1IRmlNaW1pUWh5R08wSWpSaUpMM2RjQlIzSXh5elpGbFdINDNxcWtnMEJTMmdCdjBRdnc2ZENfTHYxZmZSSUxB0gGjAUFVX3lxTE9WVG5nVVhkZDNla1FvSGpuOFBkeGNXNmJLb0UzWlh0Z3BJaTY1b0tfZDk1M05leXQxUDNFZzYzZmpfb0R4TWpzUGRna3Y1RzlTSC1ZU2xkMDdOUW44QWtobExiTUhGaU1pbWlRaHlHTzBJalJpSkwzZGNCUjNJeHl6WkZsV0g0M3Fxa2cwQlMyZ0J2MFF2dzZkQ19MdjFmZlJJTEE?oc=5"
     },
     {
      "name": "Yahoo Finance",
@@ -43,38 +39,74 @@
     {
      "name": "Pluang",
      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR0d3TGxLQlNFYjViSThiRTJRNEVSWmxZV18wNG9zVjU1LVRhVmxGdVMteWJCS04tOHd6aHg4cXlzWnJEZWxSWkFYc0N1NE1uRHNmVU5SekgxMWRYNDlLVUVMYkRYeXJNcFlEWnoxVFFDaExIRm9tRUhvT0I5cXptMmg2WC1Ja0phOFp4bHBEUGRrYmMyUTBacWFZLVhnaFlB?oc=5"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/winklevoss-backed-zcash-etf-files-with-sec-for-nasdaq-listing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact launch date and SEC approval timeline are not specified."
+   "missing": "Exact launch date on Nasdaq."
   },
   {
-   "t": "Arbitrum Launches Paxos USDG Stablecoin with ARB Incentives",
-   "type": "partnership",
+   "t": "Anvil Secures $5 Million Token Purchase Led by Founders Fund",
+   "type": "funding",
    "status": "completed",
    "event_date": null,
    "coins": [
-    "ARB",
-    "USDG"
+    "ANVL"
    ],
    "rel": "direct",
-   "b": "Arbitrum has joined the Paxos-led Global Dollar group, bringing the USDG stablecoin live on its network. The Layer-2 network has proposed 100 million ARB in incentives to support adoption, liquidity, and secure a share of reserve income.",
+   "b": "Peter Thiel-backed Founders Fund led a $5 million token buy in crypto collateral protocol Anvil, with participation from Pantera Capital and Bullish, to support easier business software integration.",
    "per": {
-    "ARB": "Incentives and integration of the USDG stablecoin aim to drive ecosystem activity and adoption.",
-    "USDG": "Expansion onto Arbitrum broadens the stablecoin's multi-chain distribution."
+    "ANVL": "Strategic token purchase provides capital as Anvil rolls out business integration tools."
    },
    "direction": "positive",
-   "quality": 77,
+   "quality": 68,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/06/peter-thiel-backed-founders-fund-leads-a-usd5-million-token-buy-in-crypto-collateral-protocol-anvil"
+    }
+   ],
+   "missing": "Token vesting schedules or distribution details."
+  },
+  {
+   "t": "Paxos USDG Stablecoin Launches on Arbitrum with Incentive Program",
+   "type": "mainnet",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "ARB"
+   ],
+   "rel": "direct",
+   "b": "Paxos has launched its USDG stablecoin on Arbitrum, accompanied by a proposal to allocate 100 million ARB in incentives to support network adoption and liquidity.",
+   "per": {
+    "ARB": "Incentive program and USDG integration aim to drive liquidity on the layer-2 network."
+   },
+   "direction": "positive",
+   "quality": 64,
    "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 19,
-    "relevance": 25,
+    "relevance": 12,
     "impact": 12,
     "novelty": 15,
     "timing": 6
    },
-   "impact": 8,
+   "impact": 6,
    "s": "fading",
-   "c": "high",
+   "c": "medium",
    "sources": [
     {
      "name": "coindesk.com",
@@ -85,45 +117,7 @@
      "url": "https://cointelegraph.com/news/paxos-3b-usdg-stablecoin-launches-arbitrum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Timeline for rolling out the 100 million ARB incentives."
-  },
-  {
-   "t": "Ethereum Sepolia Testnet Successfully Runs Glamsterdam Upgrade",
-   "type": "mainnet",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "Ethereum deployed its Glamsterdam upgrade on the Sepolia testnet following a last-minute validator client software fix. The upgrade serves as a major rehearsal for mainnet activation, designed to boost capacity by raising block work limits to 200 million gas.",
-   "per": {
-    "ETH": "Successful testnet execution paves the way for a major capacity and efficiency jump on the mainnet."
-   },
-   "direction": "positive",
-   "quality": 77,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/06/ethereum-s-glamsterdam-test-gets-last-minute-fix-before-major-capacity-jump"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/ethereums-glamsterdam-upgrade-launches-on-sepolia-testnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Exact mainnet activation date for the Glamsterdam upgrade."
+   "missing": "Timeline for the full distribution of the 100 million ARB incentives."
   }
  ]
 }
