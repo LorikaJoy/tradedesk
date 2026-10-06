@@ -1,24 +1,24 @@
 {
- "updated": "2026-10-06T14:10:07.721404+00:00",
+ "updated": "2026-10-06T19:30:58.994216+00:00",
  "cards": [
   {
-   "t": "Arbitrum Integrates Paxos USDG Stablecoin with ARB Incentives",
-   "type": "partnership",
-   "status": "confirmed_upcoming",
+   "t": "Winklevoss Twins File for Spot Zcash ETF on Nasdaq",
+   "type": "etf",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "ARB"
+    "ZEC"
    ],
    "rel": "direct",
-   "b": "Arbitrum is joining the Paxos-led Global Dollar group and launching USDG, supported by a proposal for 100 million ARB in incentives to drive adoption and liquidity.",
+   "b": "Winklevoss Asset Services has filed an S-1 with the SEC for a spot Zcash ETF to trade on Nasdaq under the ticker WINK with a 0.25% annual fee. This filing follows a sharp rise in Zcash prices and aims to compete with existing products by offering a lower fee structure.",
    "per": {
-    "ARB": "Set to receive 100 million tokens in proposed incentives to support USDG stablecoin adoption and liquidity on the network."
+    "ZEC": "Filing of the WINK spot ETF on Nasdaq could drive institutional inflows and trading volume."
    },
    "direction": "positive",
-   "quality": 94,
+   "quality": 87,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 12,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
@@ -26,6 +26,54 @@
    },
    "impact": 9,
    "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Crypto News",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5HM0RDUDRpUE9FLWVtWmZvZjJ0ZFg4VVBpb3VhNC1Fd2dEaC1PQzhFUlFoM3dxQ2pHc21FY2EwV1VIZWZQUnBkdVNlc0ozNE1SalJ3RHJBMlB2MHdhZUhqLUI5RlNiaWhFbzNUMXV4SVFFODA3WWdBelFFVHJXQQ?oc=5"
+    },
+    {
+     "name": "Coinpedia Fintech News",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNnFnaFhTYldlTE1BMFFpY1RrbGtNakdjLXpJWmUxNm93SW5oaDJUeWtHcFFEcHBIZlMzZ2o3cW1ZX2JaSXdpamZTOXE0djJBaF9xcExMOEd5SV9KeWFFSjJxWjd4bGU1eWpoZThYbXFpaEtyOGY1TTBDSG5Qa1lwMkUyUTBJN1pLVng4d1BqeHY0X2dPemQ5dXhpYkNwZ9IBowFBVV95cUxPVlRuZ1VYZGQzZWtRb0hqbjhQZHhjVzZiS29FM1pYdGdwSWk2NW9LX2Q5NTNOZXl0MVAzRWc2M2ZqX29EeE1qc1BkZ2t2NUc5U0gtWVNsZDA3TlFuOEFraGxMYk1IRmlNaW1pUWh5R08wSWpSaUpMM2RjQlIzSXh5elpGbFdINDNxcWtnMEJTMmdCdjBRdnc2ZENfTHYxZmZSSUxB?oc=5"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSXYxMzhoUUVFSWxDdlVhZF9ETEZUZ2cyTXk3MW45bjRWWkxUWHl3SG13U29mb3dsUVpndy1fNlNEV0ZyMlRIMEg0WlV2RU1tNTRyYWV4RUpDOXU5eVl2b3hrZU01UGhVQUk1LWxLNE1jdE9hQjJZVkhwczRwVGNUbU5YMjQzdFZibHVPSlBZb09pMGhDU1dVbzU2TFBmVmh3d2c?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR0d3TGxLQlNFYjViSThiRTJRNEVSWmxZV18wNG9zVjU1LVRhVmxGdVMteWJCS04tOHd6aHg4cXlzWnJEZWxSWkFYc0N1NE1uRHNmVU5SekgxMWRYNDlLVUVMYkRYeXJNcFlEWnoxVFFDaExIRm9tRUhvT0I5cXptMmg2WC1Ja0phOFp4bHBEUGRrYmMyUTBacWFZLVhnaFlB?oc=5"
+    }
+   ],
+   "missing": "Exact launch date and SEC approval timeline are not specified."
+  },
+  {
+   "t": "Arbitrum Launches Paxos USDG Stablecoin with ARB Incentives",
+   "type": "partnership",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "ARB",
+    "USDG"
+   ],
+   "rel": "direct",
+   "b": "Arbitrum has joined the Paxos-led Global Dollar group, bringing the USDG stablecoin live on its network. The Layer-2 network has proposed 100 million ARB in incentives to support adoption, liquidity, and secure a share of reserve income.",
+   "per": {
+    "ARB": "Incentives and integration of the USDG stablecoin aim to drive ecosystem activity and adoption.",
+    "USDG": "Expansion onto Arbitrum broadens the stablecoin's multi-chain distribution."
+   },
+   "direction": "positive",
+   "quality": 77,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
    "c": "high",
    "sources": [
     {
@@ -37,52 +85,10 @@
      "url": "https://cointelegraph.com/news/paxos-3b-usdg-stablecoin-launches-arbitrum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact distribution schedule for the 100 million ARB incentives."
+   "missing": "Timeline for rolling out the 100 million ARB incentives."
   },
   {
-   "t": "Solana Foundation Unveils Open-Source Institutional Settlement Program",
-   "type": "partnership",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "SOL"
-   ],
-   "rel": "direct",
-   "b": "The Solana Foundation launched an open-source DvP program designed to allow financial institutions to settle trades atomically in seconds, developed with input from JPMorgan.",
-   "per": {
-    "SOL": "Gains institutional tooling via the DvP settlement standard built with input from J.P. Morgan."
-   },
-   "direction": "positive",
-   "quality": 88,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/06/solana-foundation-unveils-a-program-to-settle-institutional-trades-in-seconds-with-jpmorgan-s-inputs"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/solana-foundation-settlement-seconds-dvp?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/380126/solana-institutional-settlement-standard-jp-morgan"
-    }
-   ],
-   "missing": "Adoption timeline by specific institutional participants."
-  },
-  {
-   "t": "Ethereum Sepolia Testnet Deploys Glamsterdam Upgrade",
+   "t": "Ethereum Sepolia Testnet Successfully Runs Glamsterdam Upgrade",
    "type": "mainnet",
    "status": "completed",
    "event_date": null,
@@ -90,9 +96,9 @@
     "ETH"
    ],
    "rel": "direct",
-   "b": "Ethereum successfully launched the Glamsterdam upgrade on the Sepolia testnet following a validator client software update. The upgrade aims to increase work capacity per block to 200 million gas.",
+   "b": "Ethereum deployed its Glamsterdam upgrade on the Sepolia testnet following a last-minute validator client software fix. The upgrade serves as a major rehearsal for mainnet activation, designed to boost capacity by raising block work limits to 200 million gas.",
    "per": {
-    "ETH": "Testing capacity increases targeting 200 million gas per block on Sepolia ahead of mainnet activation."
+    "ETH": "Successful testnet execution paves the way for a major capacity and efficiency jump on the mainnet."
    },
    "direction": "positive",
    "quality": 77,
@@ -117,79 +123,7 @@
      "url": "https://cointelegraph.com/news/ethereums-glamsterdam-upgrade-launches-on-sepolia-testnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact mainnet launch date for the Glamsterdam upgrade."
-  },
-  {
-   "t": "Metaplanet Q3 Holdings Reach 44,000 BTC via Net Accumulation",
-   "type": "treasury",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Japanese firm Metaplanet added a net 1,000 Bitcoin in the third quarter, bringing its total holdings to 44,000 BTC alongside a revised capital allocation strategy.",
-   "per": {
-    "BTC": "Corporate treasury expanded total holdings to 44,000 coins."
-   },
-   "direction": "positive",
-   "quality": 70,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/10/05/metaplanet-adds-1-000-bitcoin-after-sale-and-repurchase-launches-income-strategy"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/metaplanet-net-income-strategy-bitcoin-accumulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Specific details of preferred securities income generation."
-  },
-  {
-   "t": "Strategy Reports Bitcoin Purchases and STRC Share Repurchases",
-   "type": "buyback",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Strategy acquired 334 Bitcoin for $28.7 million while allocating $176.3 million to repurchase approximately 1.77 million shares of STRC.",
-   "per": {
-    "BTC": "Expanded treasury holdings by 334 coins."
-   },
-   "direction": "positive",
-   "quality": 68,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/strategy-848k-bitcoin-strc-buybacks-outpace-btc-buys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Total remaining buyback authorization limits."
+   "missing": "Exact mainnet activation date for the Glamsterdam upgrade."
   }
  ]
 }
