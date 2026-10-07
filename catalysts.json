@@ -1,54 +1,8 @@
 {
- "updated": "2026-10-07T16:26:04.177112+00:00",
+ "updated": "2026-10-07T21:27:13.985474+00:00",
  "cards": [
   {
-   "t": "Bitmine Nears 5% Ethereum Accumulation Ceiling",
-   "type": "treasury",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "Tom Lee announced that Bitmine is approximately 100,000 ETH away from reaching its self-imposed 5% hard cap on Ethereum supply, signaling that its major continuous accumulation streak will soon end.",
-   "per": {
-    "ETH": "Expected loss of a steady, massive corporate buyer as the company reaches its target ceiling."
-   },
-   "direction": "negative",
-   "quality": 93,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/07/ether-is-about-to-lose-a-steady-buyer-as-tom-lee-says-bitmine-will-stop-token-purchases"
-    },
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/10/07/live-updates-bitcoin-slides-under-usd84-000-as-usd550-million-in-bets-get-liquidated"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/bitmine-ether-5-percent-supply-hard-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/380287/bitmine-ethereum-buying-will-stop-tom-lee"
-    }
-   ],
-   "missing": "Exact date of final accumulation purchase."
-  },
-  {
-   "t": "Winklevoss Asset Services Files for Spot Zcash ETF on Nasdaq under WINK",
+   "t": "Winklevoss Files for Spot Zcash ETF",
    "type": "etf",
    "status": "officially_announced",
    "event_date": null,
@@ -56,15 +10,57 @@
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Winklevoss Asset Services has filed an S-1 registration statement for a spot Zcash ETF to trade on Nasdaq under the ticker WINK with a proposed 0.25% fee and Gemini Trust as custodian. The filing also mentions up to $100 million in initial launch interest.",
+   "b": "Winklevoss Asset Services has filed for a spot Zcash ETF with the SEC to list on Nasdaq, offering a 0.25% fee and backed by a $100 million indication of interest.",
    "per": {
-    "ZEC": "File submission for a US spot ETF on Nasdaq has driven market interest and price action."
+    "ZEC": "Filing of spot Zcash ETF by Winklevoss with $100M indication of interest and 0.25% fee."
    },
    "direction": "positive",
-   "quality": 87,
+   "quality": 96,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 12,
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 10,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "The Cryptonomist",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBsMWl4NEtVcjQ1TUFuYWlqS0VENzBJZmlCdnFBOXc3N3d1WklhVEU3NmlESEJ4R1JmSGl4T1NLUExvdGdlT3JkYVdHSTRTSUpuX0xUeUNrWkVUamtxd0FWX1ZCT0FOZUlCSXdpdEQ0c04tdw?oc=5"
+    },
+    {
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaUNuaklPbXRaRHdhZEJ6YXZJQU50MXpST2Vlb3FCMlRGbGdvaFRsWGVjSHUycG50VS1wcFNZZXAxVlRUVkRDbnpmcm9EOGVndnhWY2xaYXMyQnBIb1RUUFR0YTRXU3B6d01iLWNFeVVaU3ZhaVFnNExFXzRVcHFpQ056VF9vNWc?oc=5"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/winklevoss-backed-zcash-etf-files-with-sec-for-nasdaq-listing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Exact SEC approval date"
+  },
+  {
+   "t": "Bitmine Sets 5% Ether Accumulation Hard Cap",
+   "type": "treasury",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "ETH"
+   ],
+   "rel": "direct",
+   "b": "Bitmine announced it will stop purchasing additional Ether once it reaches its target of owning 5% of the total ETH supply, turning its accumulation streak into a hard ceiling.",
+   "per": {
+    "ETH": "Bitmine will halt accumulation once its holdings reach 5% of total supply."
+   },
+   "direction": "negative",
+   "quality": 94,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 19,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
@@ -75,63 +71,129 @@
    "c": "high",
    "sources": [
     {
-     "name": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYm43OVNSMEJ5MGU4S0NUNWFWZ2NBSFAydnBXT2h5Y05ZWktfeHBuWUxzUXRDQmIzN2hzaFJHUWhpa0EyRDRFeWExVVk5aE9xUUZBZDA1aHMyazlXc0pjVW5mMk1JRExVMlh5bnhVM3Vod2RKU1puZTZLTlZISkxvdmlzdGRnTUlna3JLODN0TVZtQVRCY08zMnJVczlyMlE?oc=5"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/07/ether-is-about-to-lose-a-steady-buyer-as-tom-lee-says-bitmine-will-stop-token-purchases"
     },
     {
-     "name": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DTmdjN3FEQjVkNFJ3dXNsaGRKMFZleTcwVE43NTdpTmp2T3hQcUVlVzJLQWY3cnpnZERxUnd0ZG94dmRIVmZDckIzQzA0ZVpMSnY1RklwQjVZZw?oc=5"
-    },
-    {
-     "name": "Coinpedia Fintech News",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVlRuZ1VYZGQzZWtRb0hqbjhQZHhjVzZiS29FM1pYdGdwSWk2NW9LX2Q5NTNOZXl0MVAzRWc2M2ZqX29EeE1qc1BkZ2t2NUc5U0gtWVNsZDA3TlFuOEFraGxMYk1IRmlNaW1pUWh5R08wSWpSaUpMM2RjQlIzSXh5elpGbFdINDNxcWtnMEJTMmdCdjBRdnc2ZENfTHYxZmZSSUxB0gGjAUFVX3lxTE9WVG5nVVhkZDNla1FvSGpuOFBkeGNXNmJLb0UzWlh0Z3BJaTY1b0tfZDk1M05leXQxUDNFZzYzZmpfb0R4TWpzUGRna3Y1RzlTSC1ZU2xkMDdOUW44QWtobExiTUhGaU1pbWlRaHlHTzBJalJpSkwzZGNCUjNJeHl6WkZsV0g0M3Fxa2cwQlMyZ0J2MFF2dzZkQ19MdjFmZlJJTEE?oc=5"
-    },
-    {
-     "name": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSXYxMzhoUUVFSWxDdlVhZF9ETEZUZ2cyTXk3MW45bjRWWkxUWHl3SG13U29mb3dsUVpndy1fNlNEV0ZyMlRIMEg0WlV2RU1tNTRyYWV4RUpDOXU5eVl2b3hrZU01UGhVQUk1LWxLNE1jdE9hQjJZVkhwczRwVGNUbU5YMjQzdFZibHVPSlBZb09pMGhDU1dVbzU2TFBmVmh3d2c?oc=5"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/bitmine-ether-5-percent-supply-hard-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "SEC approval date and final launch timeline are not yet known."
+   "missing": "Exact date when the 5% cap will be reached"
   },
   {
-   "t": "Binance Completes Stargate Finance (STG) Migration to LayerZero (ZRO)",
-   "type": "other",
-   "status": "completed",
-   "event_date": null,
+   "t": "Binance Adds JPMorgan and Eli Lilly bStocks Trading Pairs",
+   "type": "listing",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-07",
    "coins": [
-    "STG",
-    "ZRO"
+    "USDEWB"
    ],
    "rel": "direct",
-   "b": "Binance has successfully completed the token migration and merge from Stargate Finance (STG) to LayerZero (ZRO) at a ratio of 1 STG to 0.08634 ZRO.",
+   "b": "Binance scheduled trading and added margin collateral for tokenized stock pairs including JPMorgan Chase (JPMB), Eli Lilly (LLYB), and StablecoinX Inc (USDEWB) on Spot and Convert.",
    "per": {
-    "STG": "Token migration completed; old STG tokens replaced by ZRO.",
-    "ZRO": "Received distributed tokens via the official exchange migration ratio."
+    "USDEWB": "Listed on Binance spot and convert with margin collateral support starting October 7, 2026."
    },
-   "direction": "neutral",
-   "quality": 83,
-   "label": "COMPLETED CATALYST",
+   "direction": "positive",
+   "quality": 92,
+   "label": "STRONG CATALYST",
    "parts": {
     "credibility": 25,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
-   "impact": 8,
-   "s": "fading",
+   "impact": 9,
+   "s": "building",
    "c": "high",
    "sources": [
     {
      "name": "Binance",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcldEOE4wTndrY2JTaTkxaTBFM09kSDVnYi1ieXZDWlRzbTZQV3FlRk5vVEU4cU41eGhfTGgzY1Q1cVRFNTRMWmRYelNSYS1TR1k2OU5ZN2FlbEhKRmJlNnM3N1NwNFZBUXNVTkV1bkFWdTV6WE44N0I2bFRHN3Z3ZVdvaUdGaDQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTGxvZkdEUFFfRm93a3l4a1hKUmRrckNUYTNrMW5xbHFhbE81YVhDdXR5eGJVU0NXR3B1dTF1TzJ0YnBfbmhYSzllS1Fkc2xrOHBEQkY5Ny1pWElIWkQ0M19JT3ZwVVZSSjNVWDVpNURoZlhlNnBtY3BFdVd4N19SWUhUVlJsN2s?oc=5"
     },
     {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOa0FQWVk2enZZYzRlSGVqUUF0OUJNdzJJdEZFMGc4ZVhBYXFNR2JuT3lpMFFVcmQyTi1iN3pnWlBVWEpoei1ZYlU5LXhJWEgzandYSGZ5MG1ES3dEb2tZbUZlV25qMFRhU05URUV0Um1jNGQ1MzUyRWJnRFFuUnM2S1JQUm50bzlBM1lqTm84bzUxVjgwZ2Ew?oc=5"
+     "name": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdW92WGR4eHIwQXE4Z0djYjBYd3B1Y3U4dDRma25Tc0ljdkxpaG45X2JRazFobW1nbnM1QWljTFNmRVhXQV9VNDRxeWgybU0yU29QX0JucmpuXzI1bkdidXZTdUM2SXlwdE5sSVFmZGRocDA2ODU3cXJERG83QjJTcFFWREtmZ194Z1lhR3BNMW55US0ybVgtS0RORTlqcXdMVVZSYThHUWw1Y1cyQ2VjRlZ5VGI?oc=5"
     }
    ],
-   "missing": "Trading open times for newly converted pairs on all specific platforms."
+   "missing": "Exact trading start hour"
+  },
+  {
+   "t": "Canary Capital Files Amended S-1 for Staked Sei ETF",
+   "type": "etf",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "SEI"
+   ],
+   "rel": "direct",
+   "b": "Canary Capital has filed an amended S-1 application with the SEC for a spot Sei ETF that includes staking features.",
+   "per": {
+    "SEI": "Canary Capital submitted an amended S-1 for a staked Sei ETF."
+   },
+   "direction": "positive",
+   "quality": 79,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54cWFTcFVJWG5Mb2JXMG5ReDU1U1FlOGRicDU3RU9iQVFKMC1lV2lqbHRjSmlaeUFCOXQ3anROZHBZbG9nVlZKa196UHJhWFFDUDZoQg?oc=5"
+    },
+    {
+     "name": "CryptoRank",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTkxWQzV4ZWVYNjJqUHhNNXN3c2Z0MnNnUkpUanNaWElZTTQ3WFltdXA3aTRnQkU0TUJtQmNhTVA1cTBhWWRuQk8yUG10U0JRNHY3LTF2dGZNRFc0TlVjQTRtSkdCLWF6QWticHNXZFJ4T3hPTUEzOFBDVm1nbkFxa1Atd0N1TjZoTkJ0X09IdFI3aXVqM0dscGI3dVljbmJ0SEtQR05QQ2lLQQ?oc=5"
+    },
+    {
+     "name": "TronWeekly",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1tdG01T21lT0FndU11STZXaGpXUkx2RlptdmRIUTdXbHRVa09nLUZTTXdUcV9yV1paTFdpaTZqMWdEc3dBVm5iLThVMXQzU25reEx5djR4MU1HN19yMWduaXZySDkxbDdYdEJST3Y1ODlDdXJ4V2EwVmN3TQ?oc=5"
+    }
+   ],
+   "missing": "SEC review timeline and final decision date"
+  },
+  {
+   "t": "Hyperliquid Faces 3.75M HYPE Token Unlock",
+   "type": "unlock",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "HYPE"
+   ],
+   "rel": "direct",
+   "b": "Hyperliquid is facing an upcoming token unlock consisting of 3.75 million HYPE tokens.",
+   "per": {
+    "HYPE": "Scheduled for a 3.75 million token unlock event."
+   },
+   "direction": "negative",
+   "quality": 75,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "StreetInsider",
+     "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNSWZ6aHFNZTNyaWxEOHZMYWZPMHcyX18wVlA0SnlkckZ4MU9UcEE3V3pYTHhqVzZfcm1zSlJPcnpSNGhLWGFUMzdoS1VySUljVW5YTVg0Z2p0U1pUUWgxWTVzN2xDMDR4SElPTVBJOGhPcUpKa2ZrWHNZZENVcVJPeUEzYm0zZVVyQThwdktoVy1qODNqMmprMi0xMXVrMTRfSUd2VTZQN3Z4clc2dlU3LWdpWHBCN3RnTTdsTmk5NF9zZmI0Q2QtWnRGZkJMU2tvTWl1LWk5TVREQnkzblBnS1E5cU9XSnlIMXZKSXZxbDc5SzF6a0VWb1g2U3cwaVQ3bUFUSjRncjBpQUU0?oc=5"
+    }
+   ],
+   "missing": "Exact calendar release date and vesting schedule details"
   }
  ]
 }
