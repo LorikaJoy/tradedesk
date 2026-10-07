@@ -1,18 +1,18 @@
 {
- "updated": "2026-10-07T02:26:04.109261+00:00",
+ "updated": "2026-10-07T09:02:05.687812+00:00",
  "cards": [
   {
-   "t": "Winklevoss Twins File for Spot Zcash ETF on Nasdaq",
+   "t": "Winklevoss Files for Spot Zcash ETF on Nasdaq",
    "type": "etf",
-   "status": "confirmed_upcoming",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Winklevoss Asset Services has filed an S-1 for a spot Zcash ETF to trade on Nasdaq under the symbol WINK with a 0.25% fee and a $100 million indication of interest.",
+   "b": "Winklevoss Asset Services has filed an S-1 with the SEC for a spot Zcash ETF to trade on Nasdaq under the symbol WINK with a 0.25% fee. Gemini Trust will serve as custodian and Winklevoss Capital affiliates are eyeing up to a $100 million investment.",
    "per": {
-    "ZEC": "Filing of spot Zcash ETF by Winklevoss on Nasdaq could introduce institutional inflows."
+    "ZEC": "Filing of spot ETF could provide institutional access and drive demand."
    },
    "direction": "positive",
    "quality": 96,
@@ -33,112 +33,32 @@
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVlRuZ1VYZGQzZWtRb0hqbjhQZHhjVzZiS29FM1pYdGdwSWk2NW9LX2Q5NTNOZXl0MVAzRWc2M2ZqX29EeE1qc1BkZ2t2NUc5U0gtWVNsZDA3TlFuOEFraGxMYk1IRmlNaW1pUWh5R08wSWpSaUpMM2RjQlIzSXh5elpGbFdINDNxcWtnMEJTMmdCdjBRdnc2ZENfTHYxZmZSSUxB0gGjAUFVX3lxTE9WVG5nVVhkZDNla1FvSGpuOFBkeGNXNmJLb0UzWlh0Z3BJaTY1b0tfZDk1M05leXQxUDNFZzYzZmpfb0R4TWpzUGRna3Y1RzlTSC1ZU2xkMDdOUW44QWtobExiTUhGaU1pbWlRaHlHTzBJalJpSkwzZGNCUjNJeHl6WkZsV0g0M3Fxa2cwQlMyZ0J2MFF2dzZkQ19MdjFmZlJJTEE?oc=5"
     },
     {
-     "name": "Crypto News",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5HM0RDUDRpUE9FLWVtWmZvZjJ0ZFg4VVBpb3VhNC1Fd2dEaC1PQzhFUlFoM3dxQ2pHc21FY2EwV1VIZWZQUnBkdVNlc0ozNE1SalJ3RHJBMlB2MHdhZUhqLUI5RlNiaWhFbzNUMXV4SVFFODA3WWdBelFFVHJXQQ?oc=5"
-    },
-    {
      "name": "Pluang",
      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQUx6WHU1WUpmN0ptd0lHNWUzYlcwbkFzeHR6SXVBUlpuTnRMSUxEVGs2dzdQc3Q0RmFWT2l0OHduSmlROTVCOGh2aGNVWGJGckdyMjdxTFBSMjJzWC1ET0xyZ1hvRHVPMTdRMUpGZlhMRWRyYzFMTDljUFo3eWMwSUkxeGNoQQ?oc=5"
     },
     {
      "name": "Pluang",
      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR0d3TGxLQlNFYjViSThiRTJRNEVSWmxZV18wNG9zVjU1LVRhVmxGdVMteWJCS04tOHd6aHg4cXlzWnJEZWxSWkFYc0N1NE1uRHNmVU5SekgxMWRYNDlLVUVMYkRYeXJNcFlEWnoxVFFDaExIRm9tRUhvT0I5cXptMmg2WC1Ja0phOFp4bHBEUGRrYmMyUTBacWFZLVhnaFlB?oc=5"
-    }
-   ],
-   "missing": "Exact launch date and SEC approval timeline."
-  },
-  {
-   "t": "Ethereum Glamsterdam Upgrade Launches on Sepolia Testnet",
-   "type": "mainnet",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "Ethereum's Glamsterdam upgrade has launched on the Sepolia testnet following client updates, raising block capacity to 200 million gas ahead of mainnet activation.",
-   "per": {
-    "ETH": "Testnet deployment brings the scalability and efficiency upgrade closer to mainnet."
-   },
-   "direction": "positive",
-   "quality": 83,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/06/ethereum-s-glamsterdam-test-gets-last-minute-fix-before-major-capacity-jump"
     },
     {
      "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/ethereums-glamsterdam-upgrade-launches-on-sepolia-testnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "url": "https://cointelegraph.com/news/winklevoss-backed-zcash-etf-files-with-sec-for-nasdaq-listing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Mainnet activation date for Glamsterdam."
+   "missing": "Exact SEC approval date and final launch timeline."
   },
   {
-   "t": "Solana Foundation Unveils Open-Source Institutional Settlement Program",
+   "t": "Paxos USDG Stablecoin Launches on Arbitrum",
    "type": "mainnet",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "SOL"
-   ],
-   "rel": "direct",
-   "b": "The Solana Foundation launched an open-source DvP program built with J.P. Morgan input, allowing financial institutions to settle asset trades atomically in seconds.",
-   "per": {
-    "SOL": "Adoption of settlement infrastructure by traditional financial institutions enhances institutional utility."
-   },
-   "direction": "positive",
-   "quality": 79,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/06/solana-foundation-unveils-a-program-to-settle-institutional-trades-in-seconds-with-jpmorgan-s-inputs"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/solana-foundation-settlement-seconds-dvp?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/380126/solana-institutional-settlement-standard-jp-morgan"
-    }
-   ],
-   "missing": "Names of participating institutions adopting the live production environment."
-  },
-  {
-   "t": "Paxos Launches USDG Stablecoin on Arbitrum with ARB Incentives",
-   "type": "partnership",
    "status": "completed",
    "event_date": null,
    "coins": [
     "ARB"
    ],
    "rel": "direct",
-   "b": "Paxos has launched its $3B USDG stablecoin on Arbitrum, with the network proposing 100 million ARB in incentives to support distribution, adoption, and liquidity.",
+   "b": "Paxos' USDG stablecoin is now live on Arbitrum as part of the Global Dollar network, with the network proposing 100 million ARB in incentives to support adoption and liquidity.",
    "per": {
-    "ARB": "Arbitrum is backing USDG to capture digital dollar growth and drive adoption via incentives."
+    "ARB": "Integration of Paxos-issued USDG brings reserve income sharing and liquidity incentives."
    },
    "direction": "positive",
    "quality": 77,
@@ -163,41 +83,83 @@
      "url": "https://cointelegraph.com/news/paxos-3b-usdg-stablecoin-launches-arbitrum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Distribution schedule for the 100 million ARB incentives."
+   "missing": "Final governance voting results for the 100 million ARB incentive allocation."
   },
   {
-   "t": "Founders Fund Leads $5 Million Token Buy in Anvil",
-   "type": "funding",
-   "status": "completed",
-   "event_date": null,
+   "t": "Abstract Layer 2 Network Announces Shutdown",
+   "type": "other",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-12-15",
    "coins": [
-    "ANVL"
+    "ETH"
    ],
    "rel": "direct",
-   "b": "Peter Thiel-backed Founders Fund, alongside Pantera Capital and Bullish, led a $5 million token purchase in crypto collateral protocol Anvil.",
+   "b": "Consumer-focused Ethereum Layer-2 network Abstract, backed by Pudgy Penguins' parent Igloo, has announced it will shut down on December 15, 2026, urging users to bridge their assets off the platform.",
    "per": {
-    "ANVL": "Venture capital backing supports the rollout of Anvil's new protocol software."
+    "ETH": "Decommissioning of an ecosystem L2 network after failing to achieve sustainable product-market fit."
    },
-   "direction": "positive",
-   "quality": 68,
-   "label": "COMPLETED CATALYST",
+   "direction": "negative",
+   "quality": 75,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 5,
+    "credibility": 21,
+    "relevance": 12,
+    "impact": 12,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
+   "impact": 8,
+   "s": "building",
+   "c": "high",
    "sources": [
     {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVkN4bEtPNEotMEx1VUJlVHZBekFveWZ2QnNpMlJZZ2tzX1Z2MWo1NERtby1CQTkxNXU1UmYzM0kyZlZTTTN0cVljd1loWlpPRFpuRWpaVTJ6SEkxYkp5TFl1LXV3ZElNZ3BYTmxxWFhpVGFzLUd0VG1KVVRQNzBFbEVyLXFhdGNQdjlaUVV2TQ?oc=5"
+    },
+    {
      "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/10/06/peter-thiel-backed-founders-fund-leads-a-usd5-million-token-buy-in-crypto-collateral-protocol-anvil"
+     "url": "https://www.coindesk.com/tech/2026/10/07/pudgy-penguins-abstract-becomes-second-ethereum-layer-2-to-shut-in-a-week"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/380225/pudgy-penguin-ethereum-layer-2-abstract-shutting-down"
     }
    ],
-   "missing": "Token allocation percentages and valuation details."
+   "missing": "Total exact funds remaining to be bridged out."
+  },
+  {
+   "t": "Hyperliquid 3.75M HYPE Token Unlock",
+   "type": "unlock",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "HYPE"
+   ],
+   "rel": "direct",
+   "b": "Hyperliquid is facing an upcoming token unlock of 3.75 million HYPE tokens.",
+   "per": {
+    "HYPE": "Token supply increase from the unlock could introduce selling pressure."
+   },
+   "direction": "negative",
+   "quality": 75,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "StreetInsider",
+     "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNSWZ6aHFNZTNyaWxEOHZMYWZPMHcyX18wVlA0SnlkckZ4MU9UcEE3V3pYTHhqVzZfcm1zSlJPcnpSNGhLWGFUMzdoS1VySUljVW5YTVg0Z2p0U1pUUWgxWTVzN2xDMDR4SElPTVBJOGhPcUpKa2ZrWHNZZENVcVJPeUEzYm0zZVVyQThwdktoVy1qODNqMmprMi0xMXVrMTRfSUd2VTZQN3Z4clc2dlU3LWdpWHBCN3RnTTdsTmk5NF9zZmI0Q2QtWnRGZkJMU2tvTWl1LWk5TVREQnkzblBnS1E5cU9XSnlIMXZKSXZxbDc5SzF6a0VWb1g2U3cwaVQ3bUFUSjRncjBpQUU0?oc=5"
+    }
+   ],
+   "missing": "Exact release date of the unlock."
   }
  ]
 }
