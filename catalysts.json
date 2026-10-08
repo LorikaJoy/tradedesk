@@ -1,18 +1,18 @@
 {
- "updated": "2026-10-08T07:23:13.122312+00:00",
+ "updated": "2026-10-08T14:45:36.467444+00:00",
  "cards": [
   {
-   "t": "Winklevoss-backed Zcash ETF Filed with SEC for Nasdaq Listing",
-   "type": "etf",
+   "t": "Samsung Wallet Integrates USDC Transfers",
+   "type": "partnership",
    "status": "confirmed_upcoming",
-   "event_date": null,
+   "event_date": "2026-10-30",
    "coins": [
-    "ZEC"
+    "USDC"
    ],
    "rel": "direct",
-   "b": "Winklevoss Asset Services has filed with the SEC for a spot Zcash ETF on Nasdaq with Gemini Trust as custodian and a proposed WINK ticker, promising a low fee structure.",
+   "b": "Samsung is integrating USDC into its Samsung Wallet for US Galaxy users, enabling cross-border remittances and bank payouts in over 60 countries starting in late October.",
    "per": {
-    "ZEC": "Filing of the WINK spot ETF brings new institutional exposure to Nasdaq."
+    "USDC": "Integrated into Samsung Wallet for US users with late October rollout."
    },
    "direction": "positive",
    "quality": 96,
@@ -29,42 +29,38 @@
    "c": "high",
    "sources": [
     {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNS21EU21JOXFIc3hpcWRNNEI3SGhfTGp6QzdsMlhyTkd2cng4U0MyYVBpZnRuT0pUUGR3ejZ6dEM3Qy1ZTE9objNCQnNaTlRuMmlDLWstTzhheF8yenhJVTJDTlU5NEZKTkx5ZUY1V1VkY2RXcUNzN29CTHpIZXdEZ1djQUpxY0c3V1J6QUhoWEtZX2huM2lkdUJjdWp3WjZaQ1hRMzZLZHVTVEF0OFBpXzJPRTViWkdBbXFYd2FoclMzdw?oc=5"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/08/solana-partners-with-samsung-to-integrate-usdc-in-82-million-phones"
     },
     {
-     "name": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYm43OVNSMEJ5MGU4S0NUNWFWZ2NBSFAydnBXT2h5Y05ZWktfeHBuWUxzUXRDQmIzN2hzaFJHUWhpa0EyRDRFeWExVVk5aE9xUUZBZDA1aHMyazlXc0pjVW5mMk1JRExVMlh5bnhVM3Vod2RKU1puZTZLTlZISkxvdmlzdGRnTUlna3JLODN0TVZtQVRCY08zMnJVczlyMlE?oc=5"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/samsung-wallet-usdc-transfers-us-galaxy-users-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-     "name": "Briefs Finance",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbnhGZ25zM3ZxVjEzeUFDU3ZTX2JodjZpeFhSZ0cwWlVaX09XajdJbE84TWRDeFMwVkdKdmM1SkI4cFdVZnNHenlmVUVOZGlZRWs4UDc5OW1ORS12OTRUcDIzRHlDcV9pOWhnaHNBUWVFNUl0QlQ5emVyQ0FnOFFGTjhFa0c?oc=5"
-    },
-    {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdGJoN3RmR0FhNHJUbFFYaEdiZ1NhNlUzTW1XTEpaMU9OTG1JUFY2RzFIcDZwMVpPRV9mTGdUT2NXaVNidWNuV2UzLWsxM1N4SUVjUGprU2NzQmU5MVA0S3VMMGZsdmMxdlV0dWxGZFVxbGREMkJwU1JjVXBWZVh4bE9TWjg3RXZ0VXNJR3dtWV83TEltZ1RZMThJLVJRU1RBaVNwSkh3alBkTXFoTS1KS0pMdE05QS1DYnZMUWNsUk5QTWp6WlE2QnFNRE4?oc=5"
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/380377/samsung-wallet-taps-solana-for-usdc-transfers-on-82m-us-galaxy-devices"
     }
    ],
-   "missing": "Approval date and final trading launch date."
+   "missing": "Exact launch day within late October."
   },
   {
-   "t": "Bitmine to Halt Ether Accumulation Upon Reaching 5% Supply Cap",
-   "type": "treasury",
+   "t": "Upbit Adds PONS Trading Pairs",
+   "type": "listing",
    "status": "confirmed_upcoming",
-   "event_date": null,
+   "event_date": "2026-10-08",
    "coins": [
-    "ETH"
+    "PONS"
    ],
    "rel": "direct",
-   "b": "Tom Lee announced that Bitmine will stop purchasing additional ETH once it hits its 5% supply ceiling, removing a key institutional accumulation buyer.",
+   "b": "Upbit is opening spot trading for PONS in Korean won (KRW), BTC, and USDT markets on October 8, 2026.",
    "per": {
-    "ETH": "Loss of a major consistent corporate treasury buyer is weighing on sentiment."
+    "PONS": "Spot trading launches on Upbit across KRW, BTC, and USDT markets."
    },
-   "direction": "negative",
-   "quality": 94,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 87,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 12,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
@@ -75,54 +71,91 @@
    "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/07/ether-is-about-to-lose-a-steady-buyer-as-tom-lee-says-bitmine-will-stop-token-purchases"
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZ3hWTWZWOWl0NUFLQUYxOWVicjNZRVV3Q2xneHh0VFVDSUUzQXJxUUQ2bkRmZXpUZ3o2VlYzRDlKakVZNmdkaW5rTXBHOVlkWl9KcFg1NUlKSVZuSE85SDk1dDRLT3UwbkU5SEJtWUJLT2s3MVZ2Vk1uVkU0WFR1YWQ1WTVkczk3SHhmdkxQUHVqMUxJN2kxTjNMbXZNdUk0Q3dQOFJyNndVVk9CSlIxV3BBdjVYVm5DQnJXSUt0bWtwNmZEN3Buemc5UDBTVzlPTVE?oc=5"
     },
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/10/07/live-updates-bitcoin-slides-under-usd84-000-as-usd550-million-in-bets-get-liquidated"
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQeE51ek5IX3Vlb1I5S185UDVSZHJmXzBNaVV6dHMtTEYwLUVwcWp1N25icWo2UncweFExNU0xUXNEdUVqRUJYdUowRVVoMW1yUkxqMmZFYlU?oc=5"
     },
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/bitmine-ether-5-percent-supply-hard-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "Coin Gabbar",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMDh5QVRfTDZ5S3F0dWc1bkQyVnFIQjBBYklIN2xZQXNxd2NNa1NOSF9RQ0dMWWpnX2JIa0cyV1pGVllCVjI4UGp6N0tPelZKNnNxamh5QnZzQ0NtZEZiZ0ItZDEtYlNUbm1LRy1UQUUyVHRnblNKZjMxcXFVVnNpV2RXcHh0OGt0M2hiQ2QwWXZsVzkteThV?oc=5"
     }
    ],
-   "missing": "Exact date when the 5% cap will be fully reached."
+   "missing": "Exact hour of the listing launch."
   },
   {
-   "t": "Polygon Integrates TRON Stablecoin Supply for Cross-Border Transfers",
-   "type": "partnership",
-   "status": "completed",
+   "t": "Coinbase Launches Full PONS-USD Trading",
+   "type": "listing",
+   "status": "ongoing",
    "event_date": null,
    "coins": [
-    "POL",
-    "USDT"
+    "PONS"
    ],
    "rel": "direct",
-   "b": "Polygon has tapped TRON's $94 billion stablecoin supply, enabling seamless cross-border transfers and moving USDT between TRON and EVM networks without third-party wallet or bridge connectors.",
+   "b": "Coinbase has opened full PONS-USD trading supporting limit, market, and stop orders following a surprise listing.",
    "per": {
-    "POL": "Integration opens up massive liquidity access from TRON's stablecoin supply."
+    "PONS": "Full trading pairs with advanced order types are now active on Coinbase."
    },
    "direction": "positive",
-   "quality": 75,
-   "label": "COMPLETED CATALYST",
+   "quality": 82,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 10,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
-    "timing": 6
+    "timing": 12
    },
    "impact": 8,
-   "s": "fading",
+   "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/10/07/polygon-and-tron-partner-to-bridge-usd94-billion-usdt-ecosystem-with-u-s-banking-rails"
+     "name": "Crypto Briefing",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9TR2NFb1o3bVY2R0xxN3YwQk5vY1h4YUlvZTFycjU1SjNPVzQ2N2pSbUt4LUo1T1VkQU11dnNacHJmZEdEa3U3bXRLdUJ4Nm5RTkxNeFZLeS1iNk1WeTJta0FsMGtRQ2JjOHM1ZllB?oc=5"
+    },
+    {
+     "name": "Bitcoin Sistemi",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE51eUZFMWpBUlVScGRYT0kyTVU3eUpPQUNqMFgxNkoza24tRHdCd0RyOTltcExwTE5aZmN2THJZaHc1d3FQM0ZUOVRzcElaMVpBUG1ZbFlKemt0RjlIT0pXNGQzalZ1VlQtbDdEWFBDY3ZkSFIwVW8wSTBScmRjUQ?oc=5"
     }
    ],
-   "missing": "Adoption metrics and volume data."
+   "missing": "Listing exact time."
+  },
+  {
+   "t": "Bitcoin Cash CME Futures Launch",
+   "type": "other",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-19",
+   "coins": [
+    "BCH"
+   ],
+   "rel": "direct",
+   "b": "CME is scheduled to launch Bitcoin Cash futures on October 19, 2026.",
+   "per": {
+    "BCH": "CME futures contracts debut on October 19."
+   },
+   "direction": "positive",
+   "quality": 75,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "CryptoTicker",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JZ0gwOXVYcUVvM1pZMW0tNkVya1FHd1ZveEhKaVhtRWhkRW4wakdqWFo0c0J4UTYtQUFWZTkzdVpVd3FJMFVzcXdaRTlYWS04YTRIamZ2TWFrYWhyQXR5VmZwUjFkM1p4MXc?oc=5"
+    }
+   ],
+   "missing": "Contract specifications and trading hours."
   }
  ]
 }
