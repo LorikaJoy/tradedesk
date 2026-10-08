@@ -1,66 +1,24 @@
 {
- "updated": "2026-10-08T14:45:36.467444+00:00",
+ "updated": "2026-10-08T20:26:54.722340+00:00",
  "cards": [
   {
-   "t": "Samsung Wallet Integrates USDC Transfers",
+   "t": "Samsung Wallet Integrates USDC for Cross-Border Transfers",
    "type": "partnership",
    "status": "confirmed_upcoming",
-   "event_date": "2026-10-30",
+   "event_date": "2025-10-31",
    "coins": [
     "USDC"
    ],
    "rel": "direct",
-   "b": "Samsung is integrating USDC into its Samsung Wallet for US Galaxy users, enabling cross-border remittances and bank payouts in over 60 countries starting in late October.",
+   "b": "Samsung is integrating USDC into Samsung Wallet to allow US Galaxy users to send cross-border payments and local-currency payouts to bank accounts in over 60 countries starting late October.",
    "per": {
-    "USDC": "Integrated into Samsung Wallet for US users with late October rollout."
+    "USDC": "Will be integrated into Samsung Wallet for cross-border remittances by US Galaxy users."
    },
    "direction": "positive",
-   "quality": 96,
+   "quality": 94,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 10,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/08/solana-partners-with-samsung-to-integrate-usdc-in-82-million-phones"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/samsung-wallet-usdc-transfers-us-galaxy-users-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/380377/samsung-wallet-taps-solana-for-usdc-transfers-on-82m-us-galaxy-devices"
-    }
-   ],
-   "missing": "Exact launch day within late October."
-  },
-  {
-   "t": "Upbit Adds PONS Trading Pairs",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-08",
-   "coins": [
-    "PONS"
-   ],
-   "rel": "direct",
-   "b": "Upbit is opening spot trading for PONS in Korean won (KRW), BTC, and USDT markets on October 8, 2026.",
-   "per": {
-    "PONS": "Spot trading launches on Upbit across KRW, BTC, and USDT markets."
-   },
-   "direction": "positive",
-   "quality": 87,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 12,
+    "credibility": 19,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
@@ -71,70 +29,66 @@
    "c": "high",
    "sources": [
     {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZ3hWTWZWOWl0NUFLQUYxOWVicjNZRVV3Q2xneHh0VFVDSUUzQXJxUUQ2bkRmZXpUZ3o2VlYzRDlKakVZNmdkaW5rTXBHOVlkWl9KcFg1NUlKSVZuSE85SDk1dDRLT3UwbkU5SEJtWUJLT2s3MVZ2Vk1uVkU0WFR1YWQ1WTVkczk3SHhmdkxQUHVqMUxJN2kxTjNMbXZNdUk0Q3dQOFJyNndVVk9CSlIxV3BBdjVYVm5DQnJXSUt0bWtwNmZEN3Buemc5UDBTVzlPTVE?oc=5"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/08/solana-partners-with-samsung-to-integrate-usdc-in-82-million-phones"
     },
     {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQeE51ek5IX3Vlb1I5S185UDVSZHJmXzBNaVV6dHMtTEYwLUVwcWp1N25icWo2UncweFExNU0xUXNEdUVqRUJYdUowRVVoMW1yUkxqMmZFYlU?oc=5"
-    },
-    {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMDh5QVRfTDZ5S3F0dWc1bkQyVnFIQjBBYklIN2xZQXNxd2NNa1NOSF9RQ0dMWWpnX2JIa0cyV1pGVllCVjI4UGp6N0tPelZKNnNxamh5QnZzQ0NtZEZiZ0ItZDEtYlNUbm1LRy1UQUUyVHRnblNKZjMxcXFVVnNpV2RXcHh0OGt0M2hiQ2QwWXZsVzkteThV?oc=5"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/samsung-wallet-usdc-transfers-us-galaxy-users-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact hour of the listing launch."
+   "missing": "The exact day in late October."
   },
   {
-   "t": "Coinbase Launches Full PONS-USD Trading",
-   "type": "listing",
-   "status": "ongoing",
+   "t": "EU Securities Regulator Gives Crypto Platforms 3 Months to Remove Non-Compliant Stablecoins",
+   "type": "regulation",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "PONS"
+    "USDC"
    ],
    "rel": "direct",
-   "b": "Coinbase has opened full PONS-USD trading supporting limit, market, and stop orders following a surprise listing.",
+   "b": "ESMA has instructed authorized crypto platforms in the EU to block new access to stablecoins that fail to meet MiCA rules within a 3-month window while national authorities oversee existing customer holdings.",
    "per": {
-    "PONS": "Full trading pairs with advanced order types are now active on Coinbase."
+    "USDC": "Subject to EU MiCA compliance evaluations across authorized platforms."
    },
-   "direction": "positive",
-   "quality": 82,
-   "label": "STRONG CATALYST",
+   "direction": "negative",
+   "quality": 94,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 10,
+    "credibility": 19,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "Crypto Briefing",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9TR2NFb1o3bVY2R0xxN3YwQk5vY1h4YUlvZTFycjU1SjNPVzQ2N2pSbUt4LUo1T1VkQU11dnNacHJmZEdEa3U3bXRLdUJ4Nm5RTkxNeFZLeS1iNk1WeTJta0FsMGtRQ2JjOHM1ZllB?oc=5"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/10/08/eu-securities-regulator-gives-crypto-platforms-3-months-to-remove-unauthorized-stablecoins"
     },
     {
-     "name": "Bitcoin Sistemi",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE51eUZFMWpBUlVScGRYT0kyTVU3eUpPQUNqMFgxNkoza24tRHdCd0RyOTltcExwTE5aZmN2THJZaHc1d3FQM0ZUOVRzcElaMVpBUG1ZbFlKemt0RjlIT0pXNGQzalZ1VlQtbDdEWFBDY3ZkSFIwVW8wSTBScmRjUQ?oc=5"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/esma-unauthorised-stablecoins-three-month-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Listing exact time."
+   "missing": "Specific list of non-compliant stablecoins impacted."
   },
   {
    "t": "Bitcoin Cash CME Futures Launch",
-   "type": "other",
+   "type": "listing",
    "status": "confirmed_upcoming",
-   "event_date": "2026-10-19",
+   "event_date": "2025-10-19",
    "coins": [
     "BCH"
    ],
    "rel": "direct",
-   "b": "CME is scheduled to launch Bitcoin Cash futures on October 19, 2026.",
+   "b": "CME Futures for Bitcoin Cash are scheduled to launch on October 19, bringing regulated derivatives exposure to the asset.",
    "per": {
-    "BCH": "CME futures contracts debut on October 19."
+    "BCH": "Set to launch on CME Futures on October 19."
    },
    "direction": "positive",
    "quality": 75,
@@ -155,7 +109,49 @@
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JZ0gwOXVYcUVvM1pZMW0tNkVya1FHd1ZveEhKaVhtRWhkRW4wakdqWFo0c0J4UTYtQUFWZTkzdVpVd3FJMFVzcXdaRTlYWS04YTRIamZ2TWFrYWhyQXR5VmZwUjFkM1p4MXc?oc=5"
     }
    ],
-   "missing": "Contract specifications and trading hours."
+   "missing": "Contract specifications and opening hour details."
+  },
+  {
+   "t": "Securitize Launches Tokenized US Equities on Solana",
+   "type": "mainnet",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "Securitize has launched tokenized shares of 12 US companies\u2014including Apple, Nvidia, and Tesla\u2014backed 1-to-1 with dividend and voting rights, trading first on Solana with plans for NYSE and OKX-ICE venues.",
+   "per": {
+    "SOL": "Hosts the initial trading venue for Securitize's new tokenized US equities platform."
+   },
+   "direction": "positive",
+   "quality": 72,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/08/securitize-brings-apple-nvidia-and-tesla-to-solana-with-nyse-trading-in-the-works"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/securitize-stock-jumps-launching-tokenized-us-equities-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/380458/securitize-nvidia-apple-amazon-tokenized-stocks-solana"
+    }
+   ],
+   "missing": "Exact launch dates for the NYSE and OKX-ICE expansions."
   }
  ]
 }
