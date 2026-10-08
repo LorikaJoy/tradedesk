@@ -1,18 +1,18 @@
 {
- "updated": "2026-10-07T21:27:13.985474+00:00",
+ "updated": "2026-10-08T01:11:15.722567+00:00",
  "cards": [
   {
-   "t": "Winklevoss Files for Spot Zcash ETF",
+   "t": "Winklevoss Files for Spot Zcash ETF on Nasdaq",
    "type": "etf",
-   "status": "officially_announced",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Winklevoss Asset Services has filed for a spot Zcash ETF with the SEC to list on Nasdaq, offering a 0.25% fee and backed by a $100 million indication of interest.",
+   "b": "Winklevoss Asset Services has filed with the SEC for a spot Zcash ETF named the WINK fund, seeking a Nasdaq listing with Gemini Trust as custodian and a proposed low fee.",
    "per": {
-    "ZEC": "Filing of spot Zcash ETF by Winklevoss with $100M indication of interest and 0.25% fee."
+    "ZEC": "The ETF filing has driven increased market attention and price volatility for Zcash."
    },
    "direction": "positive",
    "quality": 96,
@@ -29,22 +29,26 @@
    "c": "high",
    "sources": [
     {
-     "name": "The Cryptonomist",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBsMWl4NEtVcjQ1TUFuYWlqS0VENzBJZmlCdnFBOXc3N3d1WklhVEU3NmlESEJ4R1JmSGl4T1NLUExvdGdlT3JkYVdHSTRTSUpuX0xUeUNrWkVUamtxd0FWX1ZCT0FOZUlCSXdpdEQ0c04tdw?oc=5"
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNS21EU21JOXFIc3hpcWRNNEI3SGhfTGp6QzdsMlhyTkd2cng4U0MyYVBpZnRuT0pUUGR3ejZ6dEM3Qy1ZTE9objNCQnNaTlRuMmlDLWstTzhheF8yenhJVTJDTlU5NEZKTkx5ZUY1V1VkY2RXcUNzN29CTHpIZXdEZ1djQUpxY0c3V1J6QUhoWEtZX2huM2lkdUJjdWp3WjZaQ1hRMzZLZHVTVEF0OFBpXzJPRTViWkdBbXFYd2FoclMzdw?oc=5"
     },
     {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaUNuaklPbXRaRHdhZEJ6YXZJQU50MXpST2Vlb3FCMlRGbGdvaFRsWGVjSHUycG50VS1wcFNZZXAxVlRUVkRDbnpmcm9EOGVndnhWY2xaYXMyQnBIb1RUUFR0YTRXU3B6d01iLWNFeVVaU3ZhaVFnNExFXzRVcHFpQ056VF9vNWc?oc=5"
+     "name": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYm43OVNSMEJ5MGU4S0NUNWFWZ2NBSFAydnBXT2h5Y05ZWktfeHBuWUxzUXRDQmIzN2hzaFJHUWhpa0EyRDRFeWExVVk5aE9xUUZBZDA1aHMyazlXc0pjVW5mMk1JRExVMlh5bnhVM3Vod2RKU1puZTZLTlZISkxvdmlzdGRnTUlna3JLODN0TVZtQVRCY08zMnJVczlyMlE?oc=5"
     },
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/winklevoss-backed-zcash-etf-files-with-sec-for-nasdaq-listing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DTmdjN3FEQjVkNFJ3dXNsaGRKMFZleTcwVE43NTdpTmp2T3hQcUVlVzJLQWY3cnpnZERxUnd0ZG94dmRIVmZDckIzQzA0ZVpMSnY1RklwQjVZZw?oc=5"
+    },
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdGJoN3RmR0FhNHJUbFFYaEdiZ1NhNlUzTW1XTEpaMU9OTG1JUFY2RzFIcDZwMVpPRV9mTGdUT2NXaVNidWNuV2UzLWsxM1N4SUVjUGprU2NzQmU5MVA0S3VMMGZsdmMxdlV0dWxGZFVxbGREMkJwU1JjVXBWZVh4bE9TWjg3RXZ0VXNJR3dtWV83TEltZ1RZMThJLVJRU1RBaVNwSkh3alBkTXFoTS1KS0pMdE05QS1DYnZMUWNsUk5QTWp6WlE2QnFNRE4?oc=5"
     }
    ],
-   "missing": "Exact SEC approval date"
+   "missing": "Exact SEC approval date and final trading launch timeline."
   },
   {
-   "t": "Bitmine Sets 5% Ether Accumulation Hard Cap",
+   "t": "Tom Lee Announces Bitmine to Halt Ethereum Accumulation at 5% Supply Cap",
    "type": "treasury",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -52,9 +56,9 @@
     "ETH"
    ],
    "rel": "direct",
-   "b": "Bitmine announced it will stop purchasing additional Ether once it reaches its target of owning 5% of the total ETH supply, turning its accumulation streak into a hard ceiling.",
+   "b": "Tom Lee stated that major corporate ETH treasury holder Bitmine will stop purchasing additional Ether once it reaches a hard cap of 5% of total supply, removing a steady buyer from the market.",
    "per": {
-    "ETH": "Bitmine will halt accumulation once its holdings reach 5% of total supply."
+    "ETH": "Pressured Ethereum prices and sentiment as a key institutional accumulation streak approaches its end."
    },
    "direction": "negative",
    "quality": 94,
@@ -75,125 +79,95 @@
      "url": "https://www.coindesk.com/markets/2026/10/07/ether-is-about-to-lose-a-steady-buyer-as-tom-lee-says-bitmine-will-stop-token-purchases"
     },
     {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/07/live-updates-bitcoin-slides-under-usd84-000-as-usd550-million-in-bets-get-liquidated"
+    },
+    {
      "name": "cointelegraph.com",
      "url": "https://cointelegraph.com/news/bitmine-ether-5-percent-supply-hard-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact date when the 5% cap will be reached"
+   "missing": "Exact date when the 5% supply threshold will be fully reached."
   },
   {
-   "t": "Binance Adds JPMorgan and Eli Lilly bStocks Trading Pairs",
+   "t": "Binance Adds JPMorgan, Eli Lilly and StablecoinX bStocks Trading Pairs",
    "type": "listing",
-   "status": "confirmed_upcoming",
+   "status": "completed",
    "event_date": "2026-10-07",
    "coins": [
-    "USDEWB"
+    "USDEB"
    ],
    "rel": "direct",
-   "b": "Binance scheduled trading and added margin collateral for tokenized stock pairs including JPMorgan Chase (JPMB), Eli Lilly (LLYB), and StablecoinX Inc (USDEWB) on Spot and Convert.",
+   "b": "Binance added tokenized bStocks trading pairs including StablecoinX Inc (USDEB), JPMorgan Chase, and Eli Lilly to its spot and convert platforms, and allowed bStocks as margin collateral.",
    "per": {
-    "USDEWB": "Listed on Binance spot and convert with margin collateral support starting October 7, 2026."
+    "USDEB": "Listed on Binance spot and convert platforms with active trading pairs."
    },
    "direction": "positive",
-   "quality": 92,
-   "label": "STRONG CATALYST",
+   "quality": 83,
+   "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 25,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 15
+    "timing": 6
    },
-   "impact": 9,
-   "s": "building",
+   "impact": 8,
+   "s": "fading",
    "c": "high",
    "sources": [
     {
+     "name": "tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNb3FybDBiZ3lhWlZoSE5LT0VCWTVQcVZVZzNHTXBXd3JwdFJ1c0NKTzd6aUVTck9lMHhOdEoyc0hIbEhyNUhoSnN6SEVFcVBEWmJr?oc=5"
+    },
+    {
      "name": "Binance",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTGxvZkdEUFFfRm93a3l4a1hKUmRrckNUYTNrMW5xbHFhbE81YVhDdXR5eGJVU0NXR3B1dTF1TzJ0YnBfbmhYSzllS1Fkc2xrOHBEQkY5Ny1pWElIWkQ0M19JT3ZwVVZSSjNVWDVpNURoZlhlNnBtY3BFdVd4N19SWUhUVlJsN2s?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbkZuRDZOcWR3bFlWdDdsZ3c3dlZTX1BMZTR3MDNta2FmUGtQc2tZQVNFMEhDTUVNM1BDTExhUzhmLUNDelVqd0JSaXNyeHBaYUhTSjFLOHhrb1liQlUxVEQ4SnlORURRQnhDRGhoY2lsanRKREVHTDlXaVU5TVBhN01tSENzakViQVdjbzZ4ekk?oc=5"
     },
     {
      "name": "The Defiant",
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdW92WGR4eHIwQXE4Z0djYjBYd3B1Y3U4dDRma25Tc0ljdkxpaG45X2JRazFobW1nbnM1QWljTFNmRVhXQV9VNDRxeWgybU0yU29QX0JucmpuXzI1bkdidXZTdUM2SXlwdE5sSVFmZGRocDA2ODU3cXJERG83QjJTcFFWREtmZ194Z1lhR3BNMW55US0ybVgtS0RORTlqcXdMVVZSYThHUWw1Y1cyQ2VjRlZ5VGI?oc=5"
+    },
+    {
+     "name": "Crypto Briefing",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFN2l1UTJuY0tMV1B4dUMxdVVyWTNvMzZ6NjJwSFJWZ05ET193TUtnVjdJbUhfQkl6eXM4Y1A1bFM2b0RDMm04T3czVFRRUWh6RWtYZTJOdTI3ZU1Tc3RrTUY1ZzZUcXAwUjhkczVoYw?oc=5"
     }
    ],
-   "missing": "Exact trading start hour"
+   "missing": "Specific trading volume metrics post-launch."
   },
   {
-   "t": "Canary Capital Files Amended S-1 for Staked Sei ETF",
-   "type": "etf",
+   "t": "Polygon Integrates TRON Stablecoin Supply for Cross-Border Transfers",
+   "type": "partnership",
    "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "SEI"
+    "USDT"
    ],
    "rel": "direct",
-   "b": "Canary Capital has filed an amended S-1 application with the SEC for a spot Sei ETF that includes staking features.",
+   "b": "Polygon integrated TRON's $94 billion stablecoin supply, allowing businesses to move USDT between TRON and EVM networks without wallet providers, bridges, or fiat ramps.",
    "per": {
-    "SEI": "Canary Capital submitted an amended S-1 for a staked Sei ETF."
+    "USDT": "Expands cross-network utility and transfer capabilities."
    },
    "direction": "positive",
-   "quality": 79,
-   "label": "STRONG CATALYST",
+   "quality": 71,
+   "label": "MODERATE CATALYST",
    "parts": {
-    "credibility": 12,
-    "relevance": 25,
+    "credibility": 17,
+    "relevance": 12,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 7,
    "s": "building",
-   "c": "high",
+   "c": "medium",
    "sources": [
     {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54cWFTcFVJWG5Mb2JXMG5ReDU1U1FlOGRicDU3RU9iQVFKMC1lV2lqbHRjSmlaeUFCOXQ3anROZHBZbG9nVlZKa196UHJhWFFDUDZoQg?oc=5"
-    },
-    {
-     "name": "CryptoRank",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTkxWQzV4ZWVYNjJqUHhNNXN3c2Z0MnNnUkpUanNaWElZTTQ3WFltdXA3aTRnQkU0TUJtQmNhTVA1cTBhWWRuQk8yUG10U0JRNHY3LTF2dGZNRFc0TlVjQTRtSkdCLWF6QWticHNXZFJ4T3hPTUEzOFBDVm1nbkFxa1Atd0N1TjZoTkJ0X09IdFI3aXVqM0dscGI3dVljbmJ0SEtQR05QQ2lLQQ?oc=5"
-    },
-    {
-     "name": "TronWeekly",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1tdG01T21lT0FndU11STZXaGpXUkx2RlptdmRIUTdXbHRVa09nLUZTTXdUcV9yV1paTFdpaTZqMWdEc3dBVm5iLThVMXQzU25reEx5djR4MU1HN19yMWduaXZySDkxbDdYdEJST3Y1ODlDdXJ4V2EwVmN3TQ?oc=5"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/07/polygon-and-tron-partner-to-bridge-usd94-billion-usdt-ecosystem-with-u-s-banking-rails"
     }
    ],
-   "missing": "SEC review timeline and final decision date"
-  },
-  {
-   "t": "Hyperliquid Faces 3.75M HYPE Token Unlock",
-   "type": "unlock",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "HYPE"
-   ],
-   "rel": "direct",
-   "b": "Hyperliquid is facing an upcoming token unlock consisting of 3.75 million HYPE tokens.",
-   "per": {
-    "HYPE": "Scheduled for a 3.75 million token unlock event."
-   },
-   "direction": "negative",
-   "quality": 75,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "StreetInsider",
-     "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNSWZ6aHFNZTNyaWxEOHZMYWZPMHcyX18wVlA0SnlkckZ4MU9UcEE3V3pYTHhqVzZfcm1zSlJPcnpSNGhLWGFUMzdoS1VySUljVW5YTVg0Z2p0U1pUUWgxWTVzN2xDMDR4SElPTVBJOGhPcUpKa2ZrWHNZZENVcVJPeUEzYm0zZVVyQThwdktoVy1qODNqMmprMi0xMXVrMTRfSUd2VTZQN3Z4clc2dlU3LWdpWHBCN3RnTTdsTmk5NF9zZmI0Q2QtWnRGZkJMU2tvTWl1LWk5TVREQnkzblBnS1E5cU9XSnlIMXZKSXZxbDc5SzF6a0VWb1g2U3cwaVQ3bUFUSjRncjBpQUU0?oc=5"
-    }
-   ],
-   "missing": "Exact calendar release date and vesting schedule details"
+   "missing": "Adoption metrics and volume handled through the integration."
   }
  ]
 }
