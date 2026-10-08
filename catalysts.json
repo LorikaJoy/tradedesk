@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-08T01:11:15.722567+00:00",
+ "updated": "2026-10-08T07:23:13.122312+00:00",
  "cards": [
   {
-   "t": "Winklevoss Files for Spot Zcash ETF on Nasdaq",
+   "t": "Winklevoss-backed Zcash ETF Filed with SEC for Nasdaq Listing",
    "type": "etf",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -10,9 +10,9 @@
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Winklevoss Asset Services has filed with the SEC for a spot Zcash ETF named the WINK fund, seeking a Nasdaq listing with Gemini Trust as custodian and a proposed low fee.",
+   "b": "Winklevoss Asset Services has filed with the SEC for a spot Zcash ETF on Nasdaq with Gemini Trust as custodian and a proposed WINK ticker, promising a low fee structure.",
    "per": {
-    "ZEC": "The ETF filing has driven increased market attention and price volatility for Zcash."
+    "ZEC": "Filing of the WINK spot ETF brings new institutional exposure to Nasdaq."
    },
    "direction": "positive",
    "quality": 96,
@@ -37,18 +37,18 @@
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYm43OVNSMEJ5MGU4S0NUNWFWZ2NBSFAydnBXT2h5Y05ZWktfeHBuWUxzUXRDQmIzN2hzaFJHUWhpa0EyRDRFeWExVVk5aE9xUUZBZDA1aHMyazlXc0pjVW5mMk1JRExVMlh5bnhVM3Vod2RKU1puZTZLTlZISkxvdmlzdGRnTUlna3JLODN0TVZtQVRCY08zMnJVczlyMlE?oc=5"
     },
     {
-     "name": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DTmdjN3FEQjVkNFJ3dXNsaGRKMFZleTcwVE43NTdpTmp2T3hQcUVlVzJLQWY3cnpnZERxUnd0ZG94dmRIVmZDckIzQzA0ZVpMSnY1RklwQjVZZw?oc=5"
+     "name": "Briefs Finance",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbnhGZ25zM3ZxVjEzeUFDU3ZTX2JodjZpeFhSZ0cwWlVaX09XajdJbE84TWRDeFMwVkdKdmM1SkI4cFdVZnNHenlmVUVOZGlZRWs4UDc5OW1ORS12OTRUcDIzRHlDcV9pOWhnaHNBUWVFNUl0QlQ5emVyQ0FnOFFGTjhFa0c?oc=5"
     },
     {
      "name": "TradingView",
      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdGJoN3RmR0FhNHJUbFFYaEdiZ1NhNlUzTW1XTEpaMU9OTG1JUFY2RzFIcDZwMVpPRV9mTGdUT2NXaVNidWNuV2UzLWsxM1N4SUVjUGprU2NzQmU5MVA0S3VMMGZsdmMxdlV0dWxGZFVxbGREMkJwU1JjVXBWZVh4bE9TWjg3RXZ0VXNJR3dtWV83TEltZ1RZMThJLVJRU1RBaVNwSkh3alBkTXFoTS1KS0pMdE05QS1DYnZMUWNsUk5QTWp6WlE2QnFNRE4?oc=5"
     }
    ],
-   "missing": "Exact SEC approval date and final trading launch timeline."
+   "missing": "Approval date and final trading launch date."
   },
   {
-   "t": "Tom Lee Announces Bitmine to Halt Ethereum Accumulation at 5% Supply Cap",
+   "t": "Bitmine to Halt Ether Accumulation Upon Reaching 5% Supply Cap",
    "type": "treasury",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -56,9 +56,9 @@
     "ETH"
    ],
    "rel": "direct",
-   "b": "Tom Lee stated that major corporate ETH treasury holder Bitmine will stop purchasing additional Ether once it reaches a hard cap of 5% of total supply, removing a steady buyer from the market.",
+   "b": "Tom Lee announced that Bitmine will stop purchasing additional ETH once it hits its 5% supply ceiling, removing a key institutional accumulation buyer.",
    "per": {
-    "ETH": "Pressured Ethereum prices and sentiment as a key institutional accumulation streak approaches its end."
+    "ETH": "Loss of a major consistent corporate treasury buyer is weighing on sentiment."
    },
    "direction": "negative",
    "quality": 94,
@@ -87,26 +87,27 @@
      "url": "https://cointelegraph.com/news/bitmine-ether-5-percent-supply-hard-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact date when the 5% supply threshold will be fully reached."
+   "missing": "Exact date when the 5% cap will be fully reached."
   },
   {
-   "t": "Binance Adds JPMorgan, Eli Lilly and StablecoinX bStocks Trading Pairs",
-   "type": "listing",
+   "t": "Polygon Integrates TRON Stablecoin Supply for Cross-Border Transfers",
+   "type": "partnership",
    "status": "completed",
-   "event_date": "2026-10-07",
+   "event_date": null,
    "coins": [
-    "USDEB"
+    "POL",
+    "USDT"
    ],
    "rel": "direct",
-   "b": "Binance added tokenized bStocks trading pairs including StablecoinX Inc (USDEB), JPMorgan Chase, and Eli Lilly to its spot and convert platforms, and allowed bStocks as margin collateral.",
+   "b": "Polygon has tapped TRON's $94 billion stablecoin supply, enabling seamless cross-border transfers and moving USDT between TRON and EVM networks without third-party wallet or bridge connectors.",
    "per": {
-    "USDEB": "Listed on Binance spot and convert platforms with active trading pairs."
+    "POL": "Integration opens up massive liquidity access from TRON's stablecoin supply."
    },
    "direction": "positive",
-   "quality": 83,
+   "quality": 75,
    "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 25,
+    "credibility": 17,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -117,57 +118,11 @@
    "c": "high",
    "sources": [
     {
-     "name": "tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNb3FybDBiZ3lhWlZoSE5LT0VCWTVQcVZVZzNHTXBXd3JwdFJ1c0NKTzd6aUVTck9lMHhOdEoyc0hIbEhyNUhoSnN6SEVFcVBEWmJr?oc=5"
-    },
-    {
-     "name": "Binance",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbkZuRDZOcWR3bFlWdDdsZ3c3dlZTX1BMZTR3MDNta2FmUGtQc2tZQVNFMEhDTUVNM1BDTExhUzhmLUNDelVqd0JSaXNyeHBaYUhTSjFLOHhrb1liQlUxVEQ4SnlORURRQnhDRGhoY2lsanRKREVHTDlXaVU5TVBhN01tSENzakViQVdjbzZ4ekk?oc=5"
-    },
-    {
-     "name": "The Defiant",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdW92WGR4eHIwQXE4Z0djYjBYd3B1Y3U4dDRma25Tc0ljdkxpaG45X2JRazFobW1nbnM1QWljTFNmRVhXQV9VNDRxeWgybU0yU29QX0JucmpuXzI1bkdidXZTdUM2SXlwdE5sSVFmZGRocDA2ODU3cXJERG83QjJTcFFWREtmZ194Z1lhR3BNMW55US0ybVgtS0RORTlqcXdMVVZSYThHUWw1Y1cyQ2VjRlZ5VGI?oc=5"
-    },
-    {
-     "name": "Crypto Briefing",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFN2l1UTJuY0tMV1B4dUMxdVVyWTNvMzZ6NjJwSFJWZ05ET193TUtnVjdJbUhfQkl6eXM4Y1A1bFM2b0RDMm04T3czVFRRUWh6RWtYZTJOdTI3ZU1Tc3RrTUY1ZzZUcXAwUjhkczVoYw?oc=5"
-    }
-   ],
-   "missing": "Specific trading volume metrics post-launch."
-  },
-  {
-   "t": "Polygon Integrates TRON Stablecoin Supply for Cross-Border Transfers",
-   "type": "partnership",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "USDT"
-   ],
-   "rel": "direct",
-   "b": "Polygon integrated TRON's $94 billion stablecoin supply, allowing businesses to move USDT between TRON and EVM networks without wallet providers, bridges, or fiat ramps.",
-   "per": {
-    "USDT": "Expands cross-network utility and transfer capabilities."
-   },
-   "direction": "positive",
-   "quality": 71,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
      "name": "coindesk.com",
      "url": "https://www.coindesk.com/business/2026/10/07/polygon-and-tron-partner-to-bridge-usd94-billion-usdt-ecosystem-with-u-s-banking-rails"
     }
    ],
-   "missing": "Adoption metrics and volume handled through the integration."
+   "missing": "Adoption metrics and volume data."
   }
  ]
 }
