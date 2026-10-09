@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-09T19:12:01.205274+00:00",
+ "updated": "2026-10-09T23:15:49.754627+00:00",
  "cards": [
   {
-   "t": "Thailand SEC Approves Spot Bitcoin and Ether ETFs Effective October 16",
+   "t": "Thailand SEC Approves Spot Bitcoin and Ether ETFs for Stock Exchange of Thailand",
    "type": "etf",
    "status": "confirmed_upcoming",
    "event_date": "2026-10-16",
@@ -11,58 +11,10 @@
     "ETH"
    ],
    "rel": "direct",
-   "b": "Thailand's SEC has finalized rules allowing Thai asset managers to launch local spot Bitcoin and Ether ETFs on the Stock Exchange of Thailand starting October 16.",
+   "b": "Thailand's SEC has finalized rules allowing local asset managers to launch spot Bitcoin and Ether exchange-traded funds on the Stock Exchange of Thailand, effective October 16, 2026.",
    "per": {
-    "BTC": "Eligible for new spot ETF listings on the Stock Exchange of Thailand starting October 16.",
-    "ETH": "Eligible for new spot ETF listings on the Stock Exchange of Thailand starting October 16."
-   },
-   "direction": "positive",
-   "quality": 96,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 10,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "CoinDesk",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGJzalRVVTY0Uy1LMjFmZ29BTC05TTdKX2VWdnhRd09VdHFSUTIzemJwRGVkd2xDMW9Ma0x4Yl95UDFMZjE4Z1djcTlUendOVW9oUEZWcEw1MlZseFR2Mm5PWDlNcHFYVzJtQm9PaGZYeGJIb2V1cjZ5Z0plc2ZHNjlfNncwYW84RUlUSkcwNUdydDgwV2ZxZnZQZ0hQaG5zU0dWQ2dB?oc=5"
-    },
-    {
-     "name": "KuCoin",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYUZjTTR4d2lJMFVTNDF5QTU5ZXM4MnpmSkE4ZFY4bFVBenVCZHJWTks4SnptcTlZRm9BbjRDaVMySFRRbi02eHA2Y3VjWDJYay1oZDRQenpHWWJCZVhHb2hYc0FkUU9MZ1dFbUxzYXp0cnV4NnBrcHQ3QXRnYm9lcHNmOEotdjRxUU14emRRb3QtMEZwRXN0VkRfZmNjd2ZhcmQyQmlQR3NQZ2Rs?oc=5"
-    },
-    {
-     "name": "Bitbo",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9HbTB4VnV6TnBtRDV3dW9fejdyOXJ6VHUwcmFodlFPUU5xX0NYQ2RYaTI1TzdKY3FieHJ0WUxuZ2w3eXNuZFdxb0IxVmpmZjBsNXJzOG1FRkhac0VRX2Vv?oc=5"
-    },
-    {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5KRC0xdmxzS0Q1cTlUTmdSeGxYWTBMclFhMVRCeUdsRGllSURwRVpDRmRhZzd3ZkhJWHJmbzZMMDl3TXFmNzB0VGh3NWt2SjdJdnBBQg?oc=5"
-    }
-   ],
-   "missing": "Specific asset management fund names launching the products on day one."
-  },
-  {
-   "t": "Sui Protocol to Launch Hashi with $500M in Bitcoin Finance Commitments",
-   "type": "mainnet",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "SUI",
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Layer-1 blockchain Sui is launching Hashi, an institutional protocol backed by over $500 million in commitments that lets holders use bitcoin as collateral without moving it off the Bitcoin network.",
-   "per": {
-    "SUI": "Hosting the upcoming launch of institutional protocol Hashi.",
-    "BTC": "Enabled for institutional collateral usage without leaving the Bitcoin network via Hashi."
+    "BTC": "Local spot Bitcoin ETFs will begin trading on the Stock Exchange of Thailand on October 16.",
+    "ETH": "Local spot Ether ETFs will launch on the Stock Exchange of Thailand on October 16."
    },
    "direction": "positive",
    "quality": 94,
@@ -79,19 +31,135 @@
    "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/09/new-tech-to-power-bitcoin-lending-is-set-to-debut-with-usd500-million-in-commitments"
+     "name": "CryptoRank",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMWV2aU9Ca0dKRkFjaTRqT290Y3NXUl9EcThHb2pzMGU3MVo1RTZIVllBMmFPY2FuRDFGeFNad3hHVjdRVHQ3VUJsMzdGcTExMUhmWHl4Q0Qtb0xwRHhabjM0NWp1RWhMRHZZVjB2VXZyUEtGRE1xaEJpMl9RbXBUVFVmZWJHYTZa?oc=5"
     },
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/sui-hashi-bitcoin-finance-commitments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "CoinDesk",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGJzalRVVTY0Uy1LMjFmZ29BTC05TTdKX2VWdnhRd09VdHFSUTIzemJwRGVkd2xDMW9Ma0x4Yl95UDFMZjE4Z1djcTlUendOVW9oUEZWcEw1MlZseFR2Mm5PWDlNcHFYVzJtQm9PaGZYeGJIb2V1cjZ5Z0plc2ZHNjlfNncwYW84RUlUSkcwNUdydDgwV2ZxZnZQZ0hQaG5zU0dWQ2dB?oc=5"
+    },
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/10/09/thailand-opens-door-to-locally-listed-bitcoin-and-ether-etfs"
     }
    ],
-   "missing": "Exact mainnet launch date in October or later."
+   "missing": "Exact names of the approved asset management funds and initial asset under management targets."
   },
   {
-   "t": "Binance Adds Observation and Monitoring Tags to BICO and CVC",
-   "type": "delisting",
+   "t": "Starknet Considers Transitioning from Layer 2 to Layer 1 Blockchain",
+   "type": "mainnet",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "STRK"
+   ],
+   "rel": "direct",
+   "b": "Starknet announced it is actively considering becoming its own Layer 1 blockchain, aiming to be a fully quantum-resistant network by 2027.",
+   "per": {
+    "STRK": "Token jumped following the announcement of plans to become an L1 network."
+   },
+   "direction": "positive",
+   "quality": 86,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Coin Gabbar",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMmhqTG1BQmFUMDRodkdJeGdCVko1NzlwN3FiNjFFMDZKNmhZeW1xYzlHNE4zOXJBWnF3RVVTMVoxSTN6ZHptT3BNQ2xnZmtoT3R5Zk1Fd1hqa2s5Q2VEWk0yMFVkNzNycTEtNkF1VHVCMFFyYjFTalZCRVNPYWhzYUduTU1uTFBqZ2ZQajVKUW5LSks1?oc=5"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/380585/ethereum-l2-starknet-jumps-20-after-saying-it-wants-to-become-an-l1"
+    }
+   ],
+   "missing": "Timeline for the mainnet launch of the L1 network and technical architecture details."
+  },
+  {
+   "t": "Solana Narks Final 200-Millisecond Upgrade to Halve Block Times",
+   "type": "mainnet",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "Solana is nearing the completion of its seven-week push to halve block times through a 200-millisecond upgrade, though validators face higher operating costs.",
+   "per": {
+    "SOL": "Block times will be halved as the final upgrade nears completion."
+   },
+   "direction": "positive",
+   "quality": 86,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Coin Gabbar",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMWVUVk5Ha0wyM250XzVwMk5KMEYyOWdZN05wMDEzdDUxUTYxMENGRHhlenl0QVBxV1V6cnMzODBzbk56YXYzX2VRQWN2OUstWDRRcXdPRnlkb3d0YWh0YWQ3UXp3TGpIa191S0VfaXd3WjExWHhUWWY3NEMtZHlOaHNPaUc2cFJYSlUwWDBSRkhudw?oc=5"
+    },
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/09/solana-is-about-to-halve-its-block-times-as-final-200-millisecond-upgrade-nears"
+    }
+   ],
+   "missing": "Exact deployment date or block height for the upgrade completion."
+  },
+  {
+   "t": "Sui Protocol Launches Hashi Institutional Bitcoin Lending Protocol",
+   "type": "mainnet",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "SUI",
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Sui is launching Hashi, an institutional protocol backed by $500 million in commitments that allows users to use Bitcoin as collateral without moving it off the Bitcoin network.",
+   "per": {
+    "SUI": "Powering the launch of the new Hashi Bitcoin lending tech.",
+    "BTC": "Holders can use BTC as collateral on other networks via Hashi without moving it off-chain."
+   },
+   "direction": "positive",
+   "quality": 84,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/09/new-tech-to-power-bitcoin-lending-is-set-to-debut-with-usd500-million-in-commitments"
+    }
+   ],
+   "missing": "Exact release schedule for public availability."
+  },
+  {
+   "t": "Binance Flags Biconomy and Civic Tokens with Observation Labels and Monitoring Tags",
+   "type": "regulation",
    "status": "officially_announced",
    "event_date": null,
    "coins": [
@@ -99,16 +167,16 @@
     "CVC"
    ],
    "rel": "direct",
-   "b": "Binance has added observation labels and monitoring tags to Biconomy (BICO) and Civic (CVC) over listing risks.",
+   "b": "Binance has added observation labels and monitoring tags to Biconomy (BICO) and Civic (CVC) tokens due to listing risks and potential delisting evaluation.",
    "per": {
-    "BICO": "Given a Binance observation/monitoring tag due to listing risks.",
-    "CVC": "Given a Binance observation/monitoring tag due to listing risks."
+    "BICO": "Added to Binance's monitoring list due to listing risks.",
+    "CVC": "Added to Binance's monitoring list due to listing risks."
    },
    "direction": "negative",
-   "quality": 79,
+   "quality": 77,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 12,
+    "credibility": 10,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -127,15 +195,11 @@
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yWEtuOFotS2t4X0ZyVmdOaXQwclFqUHY2WkVLZGo3cjJwMWFkODJ3T09KamlleGhIVHdRYmplYjdLUlRBTjVHbTVlSFdZVlBveXFqdnZDUElvZw?oc=5"
     },
     {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZDlVZVJQMF9sY0JqTkFzTU5Ua3JxVENJdi1TOEpYd2RaaVBkVWNIZzR2Q1JiTk9hejY3MEhHTWtCZ2syWF9nZG5FQXpEcHlDbWRnRXk5WnB5SDJQNGJyZUF3UUVEYXh4XzdjLVc5WE5XdFZrSFNuZ0c1WjlmcW8taUNQbVhRVEd2cTZ2bnhYU3o?oc=5"
-    },
-    {
      "name": "Coin Gabbar",
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQazBiUGVPdkV3WVEyOWJwczl3TEJtRkZGbjhHaGQ1ZjZfTHJfMmdtTUROVlo3aEZhMndqR3V6YjJCVVk1djBCcldPZzhmOGpHWU5EbDd4VTI5YnBRWTE5WEhBbGJZa2ZMUnBvTllrTlRvT3YxdXFTNnM3TlViWGpMSmxwUHZ6MUZKNjA0?oc=5"
     }
    ],
-   "missing": "Whether actual delisting will follow and exact timelines."
+   "missing": "Whether the tokens will ultimately be delisted or removed from observation."
   }
  ]
 }
