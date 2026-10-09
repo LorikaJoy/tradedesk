@@ -1,18 +1,20 @@
 {
- "updated": "2026-10-09T00:32:54.481288+00:00",
+ "updated": "2026-10-09T06:42:36.271655+00:00",
  "cards": [
   {
-   "t": "Samsung Wallet Integrates USDC Transfers",
+   "t": "Samsung Wallet Integrates USDC on Solana",
    "type": "partnership",
    "status": "confirmed_upcoming",
    "event_date": "2026-10-31",
    "coins": [
-    "USDC"
+    "USDC",
+    "SOL"
    ],
    "rel": "direct",
-   "b": "Samsung is integrating USDC into Samsung Wallet for US Galaxy users, enabling cross-border remittances and bank payouts in over 60 countries starting late October.",
+   "b": "Samsung is integrating USDC transfers via Solana into Samsung Wallet for 82 million US Galaxy users, enabling cross-border remittances and payouts to bank accounts in over 60 countries starting in late October.",
    "per": {
-    "USDC": "Integration into Samsung Wallet expands real-world utility and cross-border remittance access."
+    "USDC": "Integration into 82 million Galaxy devices drives massive real-world stablecoin distribution.",
+    "SOL": "Solana serves as the underlying blockchain powering Samsung Wallet's USDC cross-border transfer capabilities."
    },
    "direction": "positive",
    "quality": 96,
@@ -29,38 +31,38 @@
    "c": "high",
    "sources": [
     {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQM2k2Z3c0el9OUzd6eUFCUWx6VFl2anBlazhvZ3hwYzVvekNuNlNBNnJHenNINXQ0VS0ybTl6ZnR0clFudTQ3V2ZjOHFfTDF3NDgxTEFNWWxhX3F1c25PZzVaeFZ0S1gtZEVadHRmeEQ4LWJWY0piWHdFdm9tSENScVlvZlBYZ1NhTlJFbmVsRUNtMVU?oc=5"
-    },
-    {
      "name": "coindesk.com",
      "url": "https://www.coindesk.com/tech/2026/10/08/solana-partners-with-samsung-to-integrate-usdc-in-82-million-phones"
     },
     {
      "name": "cointelegraph.com",
      "url": "https://cointelegraph.com/news/samsung-wallet-usdc-transfers-us-galaxy-users-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/380377/samsung-wallet-taps-solana-for-usdc-transfers-on-82m-us-galaxy-devices"
     }
    ],
-   "missing": "Exact release day in late October."
+   "missing": "Exact day in late October for the roll-out"
   },
   {
-   "t": "Upbit Adds PONS Trading Pairs",
-   "type": "listing",
+   "t": "Sui Protocol Hashi Mainnet Launch",
+   "type": "mainnet",
    "status": "confirmed_upcoming",
-   "event_date": "2026-10-08",
+   "event_date": null,
    "coins": [
-    "PONS"
+    "SUI"
    ],
    "rel": "direct",
-   "b": "Upbit is adding spot trading pairs for PONS against the South Korean Won, Bitcoin, and USDT.",
+   "b": "Layer-1 blockchain Sui is launching Hashi, an institutional protocol allowing holders to use bitcoin as collateral without moving it off the Bitcoin network, backed by over $500 million in commitments ahead of mainnet launch.",
    "per": {
-    "PONS": "Spot trading opens on Upbit in KRW, BTC, and USDT markets."
+    "SUI": "The Hashi protocol launch with $500 million in commitments expands institutional utility for the Sui ecosystem."
    },
    "direction": "positive",
-   "quality": 87,
+   "quality": 94,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 12,
+    "credibility": 19,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
@@ -71,38 +73,34 @@
    "c": "high",
    "sources": [
     {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQeE51ek5IX3Vlb1I5S185UDVSZHJmXzBNaVV6dHMtTEYwLUVwcWp1N25icWo2UncweFExNU0xUXNEdUVqRUJYdUowRVVoMW1yUkxqMmZFYlU?oc=5"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/09/new-tech-to-power-bitcoin-lending-is-set-to-debut-with-usd500-million-in-commitments"
     },
     {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZ3hWTWZWOWl0NUFLQUYxOWVicjNZRVV3Q2xneHh0VFVDSUUzQXJxUUQ2bkRmZXpUZ3o2VlYzRDlKakVZNmdkaW5rTXBHOVlkWl9KcFg1NUlKSVZuSE85SDk1dDRLT3UwbkU5SEJtWUJLT2s3MVZ2Vk1uVkU0WFR1YWQ1WTVkczk3SHhmdkxQUHVqMUxJN2kxTjNMbXZNdUk0Q3dQOFJyNndVVk9CSlIxV3BBdjVYVm5DQnJXSUt0bWtwNmZEN3Buemc5UDBTVzlPTVE?oc=5"
-    },
-    {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMDh5QVRfTDZ5S3F0dWc1bkQyVnFIQjBBYklIN2xZQXNxd2NNa1NOSF9RQ0dMWWpnX2JIa0cyV1pGVllCVjI4UGp6N0tPelZKNnNxamh5QnZzQ0NtZEZiZ0ItZDEtYlNUbm1LRy1UQUUyVHRnblNKZjMxcXFVVnNpV2RXcHh0OGt0M2hiQ2QwWXZsVzkteThV?oc=5"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/sui-hashi-bitcoin-finance-commitments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact hour of trading launch."
+   "missing": "Exact launch date for Hashi mainnet"
   },
   {
-   "t": "Bitcoin Cash CME Futures Launch",
-   "type": "other",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-19",
+   "t": "Tether Partners with Kazakhstan Central Bank",
+   "type": "partnership",
+   "status": "officially_announced",
+   "event_date": null,
    "coins": [
-    "BCH"
+    "USDT"
    ],
    "rel": "direct",
-   "b": "CME Group is set to launch Bitcoin Cash futures contracts on October 19, bringing regulated derivatives exposure to institutional markets.",
+   "b": "Tether signed a deal with Kazakhstan's central bank to help study a tenge-pegged stablecoin and bring real-world assets onto a blockchain.",
    "per": {
-    "BCH": "CME Futures launch on October 19."
+    "USDT": "Collaboration with a central bank expands institutional validation for Tether and its underlying technology."
    },
    "direction": "positive",
-   "quality": 75,
+   "quality": 84,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 17,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -113,11 +111,45 @@
    "c": "high",
    "sources": [
     {
-     "name": "CryptoTicker",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JZ0gwOXVYcUVvM1pZMW0tNkVya1FHd1ZveEhKaVhtRWhkRW4wakdqWFo0c0J4UTYtQUFWZTkzdVpVd3FJMFVzcXdaRTlYWS04YTRIamZ2TWFrYWhyQXR5VmZwUjFkM1p4MXc?oc=5"
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/380347/tether-kazakhstan-central-bank-stablecoin-tokenized-assets"
     }
    ],
-   "missing": "Contract specifications and trading volume projections."
+   "missing": "Timeline for pilot rollout or stablecoin issuance"
+  },
+  {
+   "t": "Solana Block Time Reduction Upgrade",
+   "type": "other",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "Solana is completing a seven-week push to halve its block times as its final 200-millisecond upgrade nears completion, though validators face higher costs and tighter operating windows.",
+   "per": {
+    "SOL": "Achieving 200-millisecond block times enhances Solana's network performance and transaction speed."
+   },
+   "direction": "positive",
+   "quality": 81,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/09/solana-is-about-to-halve-its-block-times-as-final-200-millisecond-upgrade-nears"
+    }
+   ],
+   "missing": "Exact completion date of the final upgrade"
   }
  ]
 }
