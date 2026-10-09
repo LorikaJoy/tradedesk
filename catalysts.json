@@ -1,62 +1,20 @@
 {
- "updated": "2026-10-09T06:42:36.271655+00:00",
+ "updated": "2026-10-09T13:48:22.007092+00:00",
  "cards": [
   {
-   "t": "Samsung Wallet Integrates USDC on Solana",
-   "type": "partnership",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-31",
-   "coins": [
-    "USDC",
-    "SOL"
-   ],
-   "rel": "direct",
-   "b": "Samsung is integrating USDC transfers via Solana into Samsung Wallet for 82 million US Galaxy users, enabling cross-border remittances and payouts to bank accounts in over 60 countries starting in late October.",
-   "per": {
-    "USDC": "Integration into 82 million Galaxy devices drives massive real-world stablecoin distribution.",
-    "SOL": "Solana serves as the underlying blockchain powering Samsung Wallet's USDC cross-border transfer capabilities."
-   },
-   "direction": "positive",
-   "quality": 96,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 10,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/08/solana-partners-with-samsung-to-integrate-usdc-in-82-million-phones"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/samsung-wallet-usdc-transfers-us-galaxy-users-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/380377/samsung-wallet-taps-solana-for-usdc-transfers-on-82m-us-galaxy-devices"
-    }
-   ],
-   "missing": "Exact day in late October for the roll-out"
-  },
-  {
-   "t": "Sui Protocol Hashi Mainnet Launch",
+   "t": "Sui Protocol to Launch Hashi Bitcoin Finance Protocol on Mainnet",
    "type": "mainnet",
    "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "SUI"
+    "SUI",
+    "BTC"
    ],
    "rel": "direct",
-   "b": "Layer-1 blockchain Sui is launching Hashi, an institutional protocol allowing holders to use bitcoin as collateral without moving it off the Bitcoin network, backed by over $500 million in commitments ahead of mainnet launch.",
+   "b": "Layer-1 blockchain Sui is preparing to launch Hashi, an institutional Bitcoin finance protocol backed by over $500 million in commitments.",
    "per": {
-    "SUI": "The Hashi protocol launch with $500 million in commitments expands institutional utility for the Sui ecosystem."
+    "SUI": "Powering the upcoming launch of the Hashi protocol.",
+    "BTC": "Will be utilized as collateral via Hashi without leaving the Bitcoin network."
    },
    "direction": "positive",
    "quality": 94,
@@ -81,28 +39,65 @@
      "url": "https://cointelegraph.com/news/sui-hashi-bitcoin-finance-commitments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact launch date for Hashi mainnet"
+   "missing": "Exact mainnet deployment date."
   },
   {
-   "t": "Tether Partners with Kazakhstan Central Bank",
-   "type": "partnership",
-   "status": "officially_announced",
-   "event_date": null,
+   "t": "Binance Alpha Removes 13 Tokens in October 2026",
+   "type": "delisting",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-09",
    "coins": [
-    "USDT"
+    "SUP",
+    "CUDIS",
+    "PYTHIA",
+    "BLUM"
    ],
    "rel": "direct",
-   "b": "Tether signed a deal with Kazakhstan's central bank to help study a tenge-pegged stablecoin and bring real-world assets onto a blockchain.",
+   "b": "Binance Alpha has announced the removal of multiple tokens including SUP, CUDIS, PYTHIA, BLUM, and others scheduled for October 9, 2026.",
    "per": {
-    "USDT": "Collaboration with a central bank expands institutional validation for Tether and its underlying technology."
+    "VRA": "Scheduled for removal from Binance Alpha on 2026-10-09."
    },
-   "direction": "positive",
-   "quality": 84,
-   "label": "STRONG CATALYST",
+   "direction": "negative",
+   "quality": 92,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 25,
     "relevance": 25,
     "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Binance",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOFZlWTBPUmVueU5Wd09oaUt1cHYzMTlJa3JTU1NNcDVuUWRpTmRVSGRkR2RhT0ZxWENUU3ZTY0Jna3hGRHVIMXdWQ1YxV1FNdlB2aVBjU01LU0FUb1EzV1JVdVZWaURRRTFIYi1mX3NYLWZVcDVwcUxBOENTNmkwczNPbFQxRnVQMUlZWGlEZjA?oc=5"
+    }
+   ],
+   "missing": "Impact on liquidity across other platforms."
+  },
+  {
+   "t": "KAIA Spot Trading Opens on Upbit",
+   "type": "listing",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-09",
+   "coins": [
+    "KAIA"
+   ],
+   "rel": "direct",
+   "b": "Upbit has launched spot trading for KAIA, resulting in a significant price surge for the asset.",
+   "per": {
+    "KAIA": "Spot trading opened on Upbit on October 9, 2026."
+   },
+   "direction": "positive",
+   "quality": 85,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 10,
+    "relevance": 25,
+    "impact": 20,
     "novelty": 15,
     "timing": 15
    },
@@ -111,45 +106,63 @@
    "c": "high",
    "sources": [
     {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/380347/tether-kazakhstan-central-bank-stablecoin-tokenized-assets"
+     "name": "Coin Gabbar",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQzBWNzJ1TFB6TlVuOGNOVk4teHctX29rWTVfTFlyMl9VbC1nZEt5N2taQVVNdjgtYVFyMkhWMnBrcXE1UVhZeW1KUHN3TXpQZktoUnFIWkgxbEJFUUxaRTBGZ1FXYzJLTXNUVEZvUFU1TzRKM0lSQjVDcFpBb3ktWk0waE96NGkyczNwZlFaeGdaNDFL?oc=5"
+    },
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOVlzc0Joa2RTMXNSNFVYVUVoVS14NkEwSmNXUUI5aklIaFlKbU9VMi1OWHNSVEJSZFo1SFNuUW9TMlR4a2UyNFhpM204blpySG1qbm1UNWs0SWI5ZUZNQ3dlNUZvTXpWNjdVaXRVOUlraV9UdXpBS2V4Zm1CTWJmMTBFM3g1RVkyUW9PV3FKWkN2S3NEeHFlVGdIbmM3SWN3TnB1LXJMZlljMnRfYWlDX0laNA?oc=5"
     }
    ],
-   "missing": "Timeline for pilot rollout or stablecoin issuance"
+   "missing": "Exact trading volume post-launch and order book depth details."
   },
   {
-   "t": "Solana Block Time Reduction Upgrade",
-   "type": "other",
-   "status": "ongoing",
-   "event_date": null,
+   "t": "Thailand SEC Approves Local Bitcoin and Ether ETFs Starting October 16",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-16",
    "coins": [
-    "SOL"
+    "BTC",
+    "ETH"
    ],
    "rel": "direct",
-   "b": "Solana is completing a seven-week push to halve its block times as its final 200-millisecond upgrade nears completion, though validators face higher costs and tighter operating windows.",
+   "b": "Thailand's SEC has finalized rules allowing local asset managers to launch spot Bitcoin and Ether ETFs on the Stock Exchange of Thailand starting October 16, 2026.",
    "per": {
-    "SOL": "Achieving 200-millisecond block times enhances Solana's network performance and transaction speed."
+    "BTC": "Eligible for locally listed ETFs on the Stock Exchange of Thailand starting October 16.",
+    "ETH": "Eligible for locally listed ETFs on the Stock Exchange of Thailand starting October 16."
    },
    "direction": "positive",
-   "quality": 81,
+   "quality": 83,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 12,
+    "credibility": 21,
+    "relevance": 12,
+    "impact": 20,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
    "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
+     "name": "CoinDesk",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGJzalRVVTY0Uy1LMjFmZ29BTC05TTdKX2VWdnhRd09VdHFSUTIzemJwRGVkd2xDMW9Ma0x4Yl95UDFMZjE4Z1djcTlUendOVW9oUEZWcEw1MlZseFR2Mm5PWDlNcHFYVzJtQm9PaGZYeGJIb2V1cjZ5Z0plc2ZHNjlfNncwYW84RUlUSkcwNUdydDgwV2ZxZnZQZ0hQaG5zU0dWQ2dB?oc=5"
+    },
+    {
+     "name": "Bitbo",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9HbTB4VnV6TnBtRDV3dW9fejdyOXJ6VHUwcmFodlFPUU5xX0NYQ2RYaTI1TzdKY3FieHJ0WUxuZ2w3eXNuZFdxb0IxVmpmZjBsNXJzOG1FRkhac0VRX2Vv?oc=5"
+    },
+    {
+     "name": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5KRC0xdmxzS0Q1cTlUTmdSeGxYWTBMclFhMVRCeUdsRGllSURwRVpDRmRhZzd3ZkhJWHJmbzZMMDl3TXFmNzB0VGh3NWt2SjdJdnBBQg?oc=5"
+    },
+    {
      "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/09/solana-is-about-to-halve-its-block-times-as-final-200-millisecond-upgrade-nears"
+     "url": "https://www.coindesk.com/policy/2026/10/09/thailand-opens-door-to-locally-listed-bitcoin-and-ether-etfs"
     }
    ],
-   "missing": "Exact completion date of the final upgrade"
+   "missing": "Specific asset manager names launching the initial products."
   }
  ]
 }
