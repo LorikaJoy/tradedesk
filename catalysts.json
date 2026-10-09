@@ -1,8 +1,56 @@
 {
- "updated": "2026-10-09T13:48:22.007092+00:00",
+ "updated": "2026-10-09T19:12:01.205274+00:00",
  "cards": [
   {
-   "t": "Sui Protocol to Launch Hashi Bitcoin Finance Protocol on Mainnet",
+   "t": "Thailand SEC Approves Spot Bitcoin and Ether ETFs Effective October 16",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-16",
+   "coins": [
+    "BTC",
+    "ETH"
+   ],
+   "rel": "direct",
+   "b": "Thailand's SEC has finalized rules allowing Thai asset managers to launch local spot Bitcoin and Ether ETFs on the Stock Exchange of Thailand starting October 16.",
+   "per": {
+    "BTC": "Eligible for new spot ETF listings on the Stock Exchange of Thailand starting October 16.",
+    "ETH": "Eligible for new spot ETF listings on the Stock Exchange of Thailand starting October 16."
+   },
+   "direction": "positive",
+   "quality": 96,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 10,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "CoinDesk",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGJzalRVVTY0Uy1LMjFmZ29BTC05TTdKX2VWdnhRd09VdHFSUTIzemJwRGVkd2xDMW9Ma0x4Yl95UDFMZjE4Z1djcTlUendOVW9oUEZWcEw1MlZseFR2Mm5PWDlNcHFYVzJtQm9PaGZYeGJIb2V1cjZ5Z0plc2ZHNjlfNncwYW84RUlUSkcwNUdydDgwV2ZxZnZQZ0hQaG5zU0dWQ2dB?oc=5"
+    },
+    {
+     "name": "KuCoin",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYUZjTTR4d2lJMFVTNDF5QTU5ZXM4MnpmSkE4ZFY4bFVBenVCZHJWTks4SnptcTlZRm9BbjRDaVMySFRRbi02eHA2Y3VjWDJYay1oZDRQenpHWWJCZVhHb2hYc0FkUU9MZ1dFbUxzYXp0cnV4NnBrcHQ3QXRnYm9lcHNmOEotdjRxUU14emRRb3QtMEZwRXN0VkRfZmNjd2ZhcmQyQmlQR3NQZ2Rs?oc=5"
+    },
+    {
+     "name": "Bitbo",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9HbTB4VnV6TnBtRDV3dW9fejdyOXJ6VHUwcmFodlFPUU5xX0NYQ2RYaTI1TzdKY3FieHJ0WUxuZ2w3eXNuZFdxb0IxVmpmZjBsNXJzOG1FRkhac0VRX2Vv?oc=5"
+    },
+    {
+     "name": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5KRC0xdmxzS0Q1cTlUTmdSeGxYWTBMclFhMVRCeUdsRGllSURwRVpDRmRhZzd3ZkhJWHJmbzZMMDl3TXFmNzB0VGh3NWt2SjdJdnBBQg?oc=5"
+    }
+   ],
+   "missing": "Specific asset management fund names launching the products on day one."
+  },
+  {
+   "t": "Sui Protocol to Launch Hashi with $500M in Bitcoin Finance Commitments",
    "type": "mainnet",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -11,10 +59,10 @@
     "BTC"
    ],
    "rel": "direct",
-   "b": "Layer-1 blockchain Sui is preparing to launch Hashi, an institutional Bitcoin finance protocol backed by over $500 million in commitments.",
+   "b": "Layer-1 blockchain Sui is launching Hashi, an institutional protocol backed by over $500 million in commitments that lets holders use bitcoin as collateral without moving it off the Bitcoin network.",
    "per": {
-    "SUI": "Powering the upcoming launch of the Hashi protocol.",
-    "BTC": "Will be utilized as collateral via Hashi without leaving the Bitcoin network."
+    "SUI": "Hosting the upcoming launch of institutional protocol Hashi.",
+    "BTC": "Enabled for institutional collateral usage without leaving the Bitcoin network via Hashi."
    },
    "direction": "positive",
    "quality": 94,
@@ -39,130 +87,55 @@
      "url": "https://cointelegraph.com/news/sui-hashi-bitcoin-finance-commitments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact mainnet deployment date."
+   "missing": "Exact mainnet launch date in October or later."
   },
   {
-   "t": "Binance Alpha Removes 13 Tokens in October 2026",
+   "t": "Binance Adds Observation and Monitoring Tags to BICO and CVC",
    "type": "delisting",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-09",
+   "status": "officially_announced",
+   "event_date": null,
    "coins": [
-    "SUP",
-    "CUDIS",
-    "PYTHIA",
-    "BLUM"
+    "BICO",
+    "CVC"
    ],
    "rel": "direct",
-   "b": "Binance Alpha has announced the removal of multiple tokens including SUP, CUDIS, PYTHIA, BLUM, and others scheduled for October 9, 2026.",
+   "b": "Binance has added observation labels and monitoring tags to Biconomy (BICO) and Civic (CVC) over listing risks.",
    "per": {
-    "VRA": "Scheduled for removal from Binance Alpha on 2026-10-09."
+    "BICO": "Given a Binance observation/monitoring tag due to listing risks.",
+    "CVC": "Given a Binance observation/monitoring tag due to listing risks."
    },
    "direction": "negative",
-   "quality": 92,
+   "quality": 79,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 25,
+    "credibility": 12,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Binance",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOFZlWTBPUmVueU5Wd09oaUt1cHYzMTlJa3JTU1NNcDVuUWRpTmRVSGRkR2RhT0ZxWENUU3ZTY0Jna3hGRHVIMXdWQ1YxV1FNdlB2aVBjU01LU0FUb1EzV1JVdVZWaURRRTFIYi1mX3NYLWZVcDVwcUxBOENTNmkwczNPbFQxRnVQMUlZWGlEZjA?oc=5"
-    }
-   ],
-   "missing": "Impact on liquidity across other platforms."
-  },
-  {
-   "t": "KAIA Spot Trading Opens on Upbit",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-09",
-   "coins": [
-    "KAIA"
-   ],
-   "rel": "direct",
-   "b": "Upbit has launched spot trading for KAIA, resulting in a significant price surge for the asset.",
-   "per": {
-    "KAIA": "Spot trading opened on Upbit on October 9, 2026."
-   },
-   "direction": "positive",
-   "quality": 85,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 10,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
    "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
+    {
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Ma0dpNWxWekhZVEVjZWhnalRGLW9HRGU2Y2ZicndpZ05FVlJWLV8yMG5YQTFDOHhqWkJoSHAyM3hRTnRfQzZYZmlTOF96ZF8yWVlTUk1LOEM?oc=5"
+    },
+    {
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yWEtuOFotS2t4X0ZyVmdOaXQwclFqUHY2WkVLZGo3cjJwMWFkODJ3T09KamlleGhIVHdRYmplYjdLUlRBTjVHbTVlSFdZVlBveXFqdnZDUElvZw?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZDlVZVJQMF9sY0JqTkFzTU5Ua3JxVENJdi1TOEpYd2RaaVBkVWNIZzR2Q1JiTk9hejY3MEhHTWtCZ2syWF9nZG5FQXpEcHlDbWRnRXk5WnB5SDJQNGJyZUF3UUVEYXh4XzdjLVc5WE5XdFZrSFNuZ0c1WjlmcW8taUNQbVhRVEd2cTZ2bnhYU3o?oc=5"
+    },
     {
      "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQzBWNzJ1TFB6TlVuOGNOVk4teHctX29rWTVfTFlyMl9VbC1nZEt5N2taQVVNdjgtYVFyMkhWMnBrcXE1UVhZeW1KUHN3TXpQZktoUnFIWkgxbEJFUUxaRTBGZ1FXYzJLTXNUVEZvUFU1TzRKM0lSQjVDcFpBb3ktWk0waE96NGkyczNwZlFaeGdaNDFL?oc=5"
-    },
-    {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOVlzc0Joa2RTMXNSNFVYVUVoVS14NkEwSmNXUUI5aklIaFlKbU9VMi1OWHNSVEJSZFo1SFNuUW9TMlR4a2UyNFhpM204blpySG1qbm1UNWs0SWI5ZUZNQ3dlNUZvTXpWNjdVaXRVOUlraV9UdXpBS2V4Zm1CTWJmMTBFM3g1RVkyUW9PV3FKWkN2S3NEeHFlVGdIbmM3SWN3TnB1LXJMZlljMnRfYWlDX0laNA?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQazBiUGVPdkV3WVEyOWJwczl3TEJtRkZGbjhHaGQ1ZjZfTHJfMmdtTUROVlo3aEZhMndqR3V6YjJCVVk1djBCcldPZzhmOGpHWU5EbDd4VTI5YnBRWTE5WEhBbGJZa2ZMUnBvTllrTlRvT3YxdXFTNnM3TlViWGpMSmxwUHZ6MUZKNjA0?oc=5"
     }
    ],
-   "missing": "Exact trading volume post-launch and order book depth details."
-  },
-  {
-   "t": "Thailand SEC Approves Local Bitcoin and Ether ETFs Starting October 16",
-   "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-16",
-   "coins": [
-    "BTC",
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "Thailand's SEC has finalized rules allowing local asset managers to launch spot Bitcoin and Ether ETFs on the Stock Exchange of Thailand starting October 16, 2026.",
-   "per": {
-    "BTC": "Eligible for locally listed ETFs on the Stock Exchange of Thailand starting October 16.",
-    "ETH": "Eligible for locally listed ETFs on the Stock Exchange of Thailand starting October 16."
-   },
-   "direction": "positive",
-   "quality": 83,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "CoinDesk",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGJzalRVVTY0Uy1LMjFmZ29BTC05TTdKX2VWdnhRd09VdHFSUTIzemJwRGVkd2xDMW9Ma0x4Yl95UDFMZjE4Z1djcTlUendOVW9oUEZWcEw1MlZseFR2Mm5PWDlNcHFYVzJtQm9PaGZYeGJIb2V1cjZ5Z0plc2ZHNjlfNncwYW84RUlUSkcwNUdydDgwV2ZxZnZQZ0hQaG5zU0dWQ2dB?oc=5"
-    },
-    {
-     "name": "Bitbo",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9HbTB4VnV6TnBtRDV3dW9fejdyOXJ6VHUwcmFodlFPUU5xX0NYQ2RYaTI1TzdKY3FieHJ0WUxuZ2w3eXNuZFdxb0IxVmpmZjBsNXJzOG1FRkhac0VRX2Vv?oc=5"
-    },
-    {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5KRC0xdmxzS0Q1cTlUTmdSeGxYWTBMclFhMVRCeUdsRGllSURwRVpDRmRhZzd3ZkhJWHJmbzZMMDl3TXFmNzB0VGh3NWt2SjdJdnBBQg?oc=5"
-    },
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/policy/2026/10/09/thailand-opens-door-to-locally-listed-bitcoin-and-ether-etfs"
-    }
-   ],
-   "missing": "Specific asset manager names launching the initial products."
+   "missing": "Whether actual delisting will follow and exact timelines."
   }
  ]
 }
