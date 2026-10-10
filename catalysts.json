@@ -1,104 +1,76 @@
 {
- "updated": "2026-10-10T19:25:01.748583+00:00",
+ "updated": "2026-10-10T22:46:36.007359+00:00",
  "cards": [
   {
-   "t": "Thailand SEC Approves Local Bitcoin and Ethereum ETFs",
-   "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-16",
+   "t": "Ledger Investigates Wallet Drains Linked to Reseller",
+   "type": "hack",
+   "status": "ongoing",
+   "event_date": null,
    "coins": [
     "BTC",
-    "ETH"
+    "ETH",
+    "TRX"
    ],
    "rel": "direct",
-   "b": "Thailand's new crypto rules take effect on October 16, allowing local asset managers to launch Bitcoin and Ethereum ETFs on the domestic stock exchange.",
+   "b": "Ledger is investigating suspected crypto thefts totaling over $86 million tied to devices sold by Southeast Asian reseller CryptoBilis.",
    "per": {
-    "BTC": "Eligible for new Thai locally listed ETFs starting October 16.",
-    "ETH": "Eligible for new Thai locally listed ETFs starting October 16."
+    "BTC": "Holders affected by suspected hardware wallet compromises via reseller.",
+    "ETH": "Holders affected by suspected hardware wallet compromises via reseller.",
+    "TRX": "Holders affected by suspected hardware wallet compromises via reseller."
    },
-   "direction": "positive",
-   "quality": 86,
-   "label": "STRONG CATALYST",
+   "direction": "negative",
+   "quality": 93,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 21,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
-    "timing": 15
+    "timing": 12
    },
    "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "CryptoRank",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMWV2aU9Ca0dKRkFjaTRqT290Y3NXUl9EcThHb2pzMGU3MVo1RTZIVllBMmFPY2FuRDFGeFNad3hHVjdRVHQ3VUJsMzdGcTExMUhmWHl4Q0Qtb0xwRHhabjM0NWp1RWhMRHZZVjB2VXZyUEtGRE1xaEJpMl9RbXBUVFVmZWJHYTZa?oc=5"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/09/ledger-investigates-potential-wallet-tampering-after-reports-of-usd86-million-in-crypto-stolen"
     },
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/policy/2026/10/09/thailand-opens-door-to-locally-listed-bitcoin-and-ether-etfs"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/ledger-investigates-fund-losses-linked-to-southeast-asian-reseller-warns-users?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/380582/ledger-probes-87m-theft-crypto-wallet-reseller"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-10-09-ledger-cryptobilis-fund-losses-418163"
     }
    ],
-   "missing": "Specific asset managers launching the initial funds and exact launch times."
+   "missing": "Final audit results from Ledger regarding the compromised devices."
   },
   {
-   "t": "Starknet Considering Transition to Layer 1 Network",
+   "t": "Starknet Considers Transitioning from L2 to L1",
    "type": "mainnet",
-   "status": "ongoing",
-   "event_date": null,
+   "status": "officially_announced",
+   "event_date": "2027-01-01",
    "coins": [
     "STRK"
    ],
    "rel": "direct",
-   "b": "Ethereum L2 Starknet is actively considering becoming its own Layer 1 blockchain to potentially achieve quantum-resistant network status by 2027.",
+   "b": "Ethereum L2 Starknet is actively considering becoming its own layer-1 blockchain, aiming to be a fully quantum-resistant network by 2027.",
    "per": {
-    "STRK": "Prices jumped following the announcement that the network is exploring an L1 transition."
+    "STRK": "Token jumped 20% following the announcement to explore becoming an L1."
    },
    "direction": "positive",
-   "quality": 83,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMmhqTG1BQmFUMDRodkdJeGdCVko1NzlwN3FiNjFFMDZKNmhZeW1xYzlHNE4zOXJBWnF3RVVTMVoxSTN6ZHptT3BNQ2xnZmtoT3R5Zk1Fd1hqa2s5Q2VEWk0yMFVkNzNycTEtNkF1VHVCMFFyYjFTalZCRVNPYWhzYUduTU1uTFBqZ2ZQajVKUW5LSks1?oc=5"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/380585/ethereum-l2-starknet-jumps-20-after-saying-it-wants-to-become-an-l1"
-    }
-   ],
-   "missing": "Definitive timeline or technical roadmap for the L1 migration."
-  },
-  {
-   "t": "Zcash Developers Set Quantum-Resistant Payment Target",
-   "type": "mainnet",
-   "status": "confirmed_upcoming",
-   "event_date": "2027-01-01",
-   "coins": [
-    "ZEC"
-   ],
-   "rel": "direct",
-   "b": "Zcash developers have targeted January for quantum-resistant public payments alongside wallet tooling updates.",
-   "per": {
-    "ZEC": "Upcoming quantum-resistant payment upgrades scheduled for early next year."
-   },
-   "direction": "positive",
-   "quality": 77,
+   "quality": 84,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 17,
     "relevance": 25,
-    "impact": 5,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
@@ -107,45 +79,143 @@
    "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/09/zcash-developers-set-january-target-for-quantum-resistant-payments-after-bunker-mode-scare"
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/380585/ethereum-l2-starknet-jumps-20-after-saying-it-wants-to-become-an-l1"
     }
    ],
-   "missing": "Exact date in January 2027."
+   "missing": "Definite timeline for the mainnet transition aside from the 2027 quantum resistance target."
   },
   {
-   "t": "Tron Quantum-Resistant Upgrade Goes Live on Testnet",
-   "type": "mainnet",
-   "status": "ongoing",
+   "t": "Thailand Clears Bitcoin and Ether ETFs",
+   "type": "etf",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "TRX"
+    "BTC",
+    "ETH"
    ],
    "rel": "direct",
-   "b": "Justin Sun announced that Tron's post-quantum cryptography upgrade has gone live on the testnet, with mainnet deployment ready at any time.",
+   "b": "Thailand has cleared Bitcoin and Ether ETFs with an 80% exposure rule, setting start dates and rules for trading with licensed custodians.",
    "per": {
-    "TRX": "Testnet launch paves the way for upcoming mainnet quantum-resistance integration."
+    "BTC": "Approved for ETF exposure under Thailand's new framework.",
+    "ETH": "Approved for ETF exposure under Thailand's new framework."
    },
    "direction": "positive",
-   "quality": 74,
-   "label": "MODERATE CATALYST",
+   "quality": 79,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "FinanceFeeds",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPS2FPOU5rWUM2WHRuYTJLWUUtZGxHdmtGSDFleVo1UEc0dGlWLTdXX1dfaXhGajBhdVE2X0tKTS1qXzVHZGF2TUVTeFRBaXZiS080X2NZZ3Fkc0NwYktQZkJ0LUsxbXFyOHE4M3RKYk15aUR3emFPbUtyWkZKUU93M3dsajhjWGh4U0E?oc=5"
+    },
+    {
+     "name": "BitKE",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOS21JRTJVUlY2VjVSVkNvTUFqbmdIWmpkZEZKRFdEVkh5djBVcmNPcEVLaF9hSnJmWml6SXJRS3pvd0xuazg1eFlJN3czaEJTdHAwcUloUHdwelhqOEJab3RXZThFRWpCLVVMVHhaMWlLQl9BVlkyTzlkVFYtUDZLT21ad0JYa0Vvb0E?oc=5"
+    },
+    {
+     "name": "Crypto Adventure",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRjI3ZUNGNkN2NkVIeFBOdkMyd0FLSGxCZUxsNHpPTzc5Z21iVDFtWW50dEdzTXVxVjBhLUZUdi00QTh3cllWdURjcy04bHBxVlFacGx3WDlLS0Z3cXZ6UUdiODBnSmViNE1ULTd2cThOTkpZU21jMXFTby1aejBURU8xS1hzazZIcFhhQXdWaWVYZEZUa0lfQVZnRFhtNVR0NTBCSw?oc=5"
+    }
+   ],
+   "missing": "Exact calendar start date for trading."
+  },
+  {
+   "t": "Bitwise Liquidates Dogecoin ETF BWOW",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-14",
+   "coins": [
+    "DOGE"
+   ],
+   "rel": "direct",
+   "b": "Bitwise is winding down and liquidating its Dogecoin ETF (BWOW) on October 14 due to weak demand.",
+   "per": {
+    "DOGE": "Bitwise CEO called the DOGE ETF failure tragic ahead of its October 14 closure."
+   },
+   "direction": "negative",
+   "quality": 72,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 12,
     "relevance": 25,
     "impact": 5,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
    "impact": 7,
    "s": "building",
    "c": "medium",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/justin-sun-says-trons-post-quantum-cryptography-has-gone-live-on-testnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "CryptoTicker",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vZHBSVHhqOEtqaXNvWG81SnlpMmdYV21XT3I2Z3hDeXlLTU5tUUVLTGY0dWNXUHo1aERKUUhmVWZocjVGcUJ4RHlQU28yRDh3emw0ZHh1LW1xNjhLYlR6dUlIODc5dzFSZU9jdW9YQTFBWnRZcHZDVg?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTmRwMUVRUGFQb0R2MUdreGRrdk96dTRwRVBFUXJIRENieldBQWdCMGQ3SGNtTVFYd3hNa185c0hIWi1NVnUxY0tvRjFObVdNb3ZkbWFYTkhMMVFZUnRSQWxlcUtWb3BMTGtlTVYxWnM0QWJYTFlqOXJUdERwaWFSYm55cXRlbVQ1YW5feHNNYjlCTW9hSW5qb19B?oc=5"
+    },
+    {
+     "name": "CoinGape",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcHFoMmpDYmI2d0RaV0hvMGxrdm0yd2FtVzU3ZGJLa3NMSl9TNVZKb2c1V3VrMUVWT2JzOWhHTFFkZy1GaVk0UjRzQTlVVWZGMk9hUzhnbXdpN1d3TEVhYXZLTEFHczQtS0dUdGdxTnNFTWdqcG1maHlIZ2szU2NfWHhIRHVfM1FOVnUxTUlYT3dWbmlYdmJCMVR2V1VTa3hiY2VxekFGN0QwVm9VZXlrQmpCSzNaTzdjZGhBLTZLbWV6VVAy?oc=5"
     }
    ],
-   "missing": "Exact mainnet deployment date."
+   "missing": "Exact time of closure on October 14."
+  },
+  {
+   "t": "Upbit Lists Kaia Token",
+   "type": "listing",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "KAIA"
+   ],
+   "rel": "direct",
+   "b": "Upbit listed the KAIA token, driving a significant price surge backed by strong Korean retail participation.",
+   "per": {
+    "KAIA": "Surged around 53% to 64% following the Upbit listing."
+   },
+   "direction": "positive",
+   "quality": 70,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdU95WVNGR2FzbXFRWlNTcVk4TS1XbEI0cl9NMHZZWk1rV0xrWjNHOGVxLVlTVW1aaGo0V281M0R3T2NJbG54VkdaVmRlN1JCbTlwejlic2pzT0Vmby1wSFBsOTZjZ2RsUWV0cEdGbldERG9vZ1g5Ym9GbHI3c0t0NHN1UnF1QkdxWl9XYS0wTXkwZ1NTNWZRa01aclo0OEVYSzJ6bWVRZUZmZ3c?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZjc4VFdaTGxrNXJWcXA3bGdsV3dQUzVGMnVPZVI1eGZ5WGJrMnYzTTg4N3BwSGd2U3pDN3NpbFNfYzZTcno4QVFYX25CaE5fOUcxdm1IX1ZmMldwTUtkZjduM1UtWlYwMDEzc0VEVVRCYWNTM1daWTc1aWdwNkhEQXJHVlhoYkhrSUxhcjNMbHY?oc=5"
+    },
+    {
+     "name": "Hokanews",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdnRmbjlGVGYwMTVSV05Rd2pNdHAzM25nNHdFSW1TT2ZSTlRBU1JtWWRrbkhGY3NUN2dpd2ZSd0FMRlM2NjdtQ3dzWngzR0pxZ1RUS2JNX0NEUDVZeE9aVm1pc2pTbkYtOWd3emNOSmlvdTFlQXJKaFRnWG1CQzdySkRvaw?oc=5"
+    },
+    {
+     "name": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMldqLVgyN01tNmtfWlRoVkx2Y1M1NWhGeG1zVFhxY2NXWFhhSFJyQnV1WnY5WVFYUzRwbmljWS1lMThpMHh4elliQXZQOGM1TUFURng1NUFDZEZvS1M3LWI5dkF4WUFzbkVKLWhJbnd2TzVqNUF5eXVacm80MHR4OHR4NFhZT2p4MkZ4TEFkQjcxT29vc2pMTk9aSUowQQ?oc=5"
+    }
+   ],
+   "missing": "Exact listing timestamp."
   }
  ]
 }
