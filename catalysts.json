@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-10T09:00:20.644582+00:00",
+ "updated": "2026-10-10T15:21:17.910952+00:00",
  "cards": [
   {
-   "t": "Thailand SEC Approves Local Bitcoin and Ethereum ETFs Starting October 16",
+   "t": "Thailand Sets October 16 Start for Local Crypto ETFs",
    "type": "etf",
    "status": "confirmed_upcoming",
    "event_date": "2026-10-16",
@@ -11,10 +11,10 @@
     "ETH"
    ],
    "rel": "direct",
-   "b": "Thailand's SEC has finalized rules allowing local asset managers to launch spot Bitcoin and Ethereum ETFs on the Stock Exchange of Thailand, effective October 16.",
+   "b": "Thailand's new crypto rules take effect on October 16, allowing local mutual funds and asset managers to launch and invest in locally listed Bitcoin and Ethereum ETFs.",
    "per": {
-    "BTC": "Eligible for new local spot ETFs starting October 16.",
-    "ETH": "Eligible for new local spot ETFs starting October 16."
+    "BTC": "Local spot ETFs authorized to begin trading on October 16 in Thailand.",
+    "ETH": "Included alongside Bitcoin for local Thai asset manager ETF launches."
    },
    "direction": "positive",
    "quality": 94,
@@ -35,18 +35,49 @@
      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMWV2aU9Ca0dKRkFjaTRqT290Y3NXUl9EcThHb2pzMGU3MVo1RTZIVllBMmFPY2FuRDFGeFNad3hHVjdRVHQ3VUJsMzdGcTExMUhmWHl4Q0Qtb0xwRHhabjM0NWp1RWhMRHZZVjB2VXZyUEtGRE1xaEJpMl9RbXBUVFVmZWJHYTZa?oc=5"
     },
     {
-     "name": "CoinDesk",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGJzalRVVTY0Uy1LMjFmZ29BTC05TTdKX2VWdnhRd09VdHFSUTIzemJwRGVkd2xDMW9Ma0x4Yl95UDFMZjE4Z1djcTlUendOVW9oUEZWcEw1MlZseFR2Mm5PWDlNcHFYVzJtQm9PaGZYeGJIb2V1cjZ5Z0plc2ZHNjlfNncwYW84RUlUSkcwNUdydDgwV2ZxZnZQZ0hQaG5zU0dWQ2dB?oc=5"
-    },
-    {
      "name": "coindesk.com",
      "url": "https://www.coindesk.com/policy/2026/10/09/thailand-opens-door-to-locally-listed-bitcoin-and-ether-etfs"
     }
    ],
-   "missing": "Specific asset management applicants and initial AUM projections."
+   "missing": "Specific names of the first asset managers issuing the local ETFs."
   },
   {
-   "t": "Solana Nears Final Upgrade to Halve Block Times to 200 Milliseconds",
+   "t": "Sui Launches Hashi Bitcoin Lending Protocol",
+   "type": "mainnet",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "SUI",
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Layer-1 blockchain Sui is debuting Hashi, an institutional lending protocol backed by $500 million in commitments that allows holders to use Bitcoin as collateral without moving it off the Bitcoin network.",
+   "per": {
+    "SUI": "Launching Hashi protocol with $500M in commitments for Bitcoin lending."
+   },
+   "direction": "positive",
+   "quality": 92,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/09/new-tech-to-power-bitcoin-lending-is-set-to-debut-with-usd500-million-in-commitments"
+    }
+   ],
+   "missing": "Exact rollout date and full list of participating institutional partners."
+  },
+  {
+   "t": "Solana Narks 200-Millisecond Block Time Upgrade",
    "type": "mainnet",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -54,9 +85,9 @@
     "SOL"
    ],
    "rel": "direct",
-   "b": "Solana is completing a seven-week push to produce blocks twice as frequently, bringing block times down to 200 milliseconds.",
+   "b": "Solana is nearing the final stage of a seven-week push to halve its block times down to 200 milliseconds, increasing transaction frequency.",
    "per": {
-    "SOL": "Block times are being halved to 200 milliseconds."
+    "SOL": "Finalizing upgrade to halve block times to 200 milliseconds."
    },
    "direction": "positive",
    "quality": 84,
@@ -77,28 +108,94 @@
      "url": "https://www.coindesk.com/tech/2026/10/09/solana-is-about-to-halve-its-block-times-as-final-200-millisecond-upgrade-nears"
     }
    ],
-   "missing": "Exact activation timestamp or block height."
+   "missing": "Precise activation time and timestamp for the final block time change."
   },
   {
-   "t": "Sui Protocol Launches Hashi to Enable Institutional Bitcoin Lending",
-   "type": "mainnet",
-   "status": "confirmed_upcoming",
+   "t": "XRPL Patches Decade-Old Vulnerability",
+   "type": "other",
+   "status": "completed",
    "event_date": null,
    "coins": [
-    "SUI",
-    "BTC"
+    "XRP"
    ],
    "rel": "direct",
-   "b": "Layer-1 blockchain Sui is launching Hashi, an institutional protocol allowing holders to use bitcoin as collateral without moving it off the Bitcoin network, debuting with $500 million in commitments.",
+   "b": "The XRP Ledger released an emergency software patch to fix a decade-old bug that could have allowed transactions to create spendable XRP without proper funding from the sender.",
    "per": {
-    "SUI": "Releasing Hashi protocol with $500M in commitments.",
-    "BTC": "Can be utilized as collateral via Hashi without leaving the Bitcoin network."
+    "XRP": "Emergency patch fixes vulnerability that could create unauthorized tokens."
    },
    "direction": "positive",
-   "quality": 84,
+   "quality": 83,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/10/xrp-ledger-patched-decade-old-bug-that-could-create-billions-of-dollars-in-xrp-from-nothing"
+    }
+   ],
+   "missing": "Exact date of vulnerability discovery and details on exploitation attempts."
+  },
+  {
+   "t": "Tron Quantum-Resistant Cryptography Ready for Mainnet",
+   "type": "mainnet",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "TRX"
+   ],
+   "rel": "direct",
+   "b": "Tron founder Justin Sun announced that post-quantum cryptography has successfully gone live on the testnet and is ready for mainnet deployment.",
+   "per": {
+    "TRX": "Post-quantum cryptography tested and prepared for mainnet rollout."
+   },
+   "direction": "positive",
+   "quality": 77,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 17,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/justin-sun-says-trons-post-quantum-cryptography-has-gone-live-on-testnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Exact deployment date for the mainnet upgrade."
+  },
+  {
+   "t": "Bitwise Liquidates Dogecoin ETF",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-14",
+   "coins": [
+    "DOGE"
+   ],
+   "rel": "direct",
+   "b": "Bitwise is winding down and liquidating its Dogecoin ETF (BWOW) on October 14.",
+   "per": {
+    "DOGE": "ETF product BWOW scheduled for liquidation by Bitwise on October 14."
+   },
+   "direction": "negative",
+   "quality": 75,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 8,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -109,11 +206,11 @@
    "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/09/new-tech-to-power-bitcoin-lending-is-set-to-debut-with-usd500-million-in-commitments"
+     "name": "CryptoTicker",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vZHBSVHhqOEtqaXNvWG81SnlpMmdYV21XT3I2Z3hDeXlLTU5tUUVLTGY0dWNXUHo1aERKUUhmVWZocjVGcUJ4RHlQU28yRDh3emw0ZHh1LW1xNjhLYlR6dUlIODc5dzFSZU9jdW9YQTFBWnRZcHZDVg?oc=5"
     }
    ],
-   "missing": "Exact launch date."
+   "missing": "Total remaining assets under management at the time of liquidation."
   }
  ]
 }
