@@ -1,4 +1,119 @@
 {
- "updated": "2026-10-10T02:30:55.027251+00:00",
- "cards": []
+ "updated": "2026-10-10T09:00:20.644582+00:00",
+ "cards": [
+  {
+   "t": "Thailand SEC Approves Local Bitcoin and Ethereum ETFs Starting October 16",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-16",
+   "coins": [
+    "BTC",
+    "ETH"
+   ],
+   "rel": "direct",
+   "b": "Thailand's SEC has finalized rules allowing local asset managers to launch spot Bitcoin and Ethereum ETFs on the Stock Exchange of Thailand, effective October 16.",
+   "per": {
+    "BTC": "Eligible for new local spot ETFs starting October 16.",
+    "ETH": "Eligible for new local spot ETFs starting October 16."
+   },
+   "direction": "positive",
+   "quality": 94,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "CryptoRank",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMWV2aU9Ca0dKRkFjaTRqT290Y3NXUl9EcThHb2pzMGU3MVo1RTZIVllBMmFPY2FuRDFGeFNad3hHVjdRVHQ3VUJsMzdGcTExMUhmWHl4Q0Qtb0xwRHhabjM0NWp1RWhMRHZZVjB2VXZyUEtGRE1xaEJpMl9RbXBUVFVmZWJHYTZa?oc=5"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGJzalRVVTY0Uy1LMjFmZ29BTC05TTdKX2VWdnhRd09VdHFSUTIzemJwRGVkd2xDMW9Ma0x4Yl95UDFMZjE4Z1djcTlUendOVW9oUEZWcEw1MlZseFR2Mm5PWDlNcHFYVzJtQm9PaGZYeGJIb2V1cjZ5Z0plc2ZHNjlfNncwYW84RUlUSkcwNUdydDgwV2ZxZnZQZ0hQaG5zU0dWQ2dB?oc=5"
+    },
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/10/09/thailand-opens-door-to-locally-listed-bitcoin-and-ether-etfs"
+    }
+   ],
+   "missing": "Specific asset management applicants and initial AUM projections."
+  },
+  {
+   "t": "Solana Nears Final Upgrade to Halve Block Times to 200 Milliseconds",
+   "type": "mainnet",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "Solana is completing a seven-week push to produce blocks twice as frequently, bringing block times down to 200 milliseconds.",
+   "per": {
+    "SOL": "Block times are being halved to 200 milliseconds."
+   },
+   "direction": "positive",
+   "quality": 84,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/09/solana-is-about-to-halve-its-block-times-as-final-200-millisecond-upgrade-nears"
+    }
+   ],
+   "missing": "Exact activation timestamp or block height."
+  },
+  {
+   "t": "Sui Protocol Launches Hashi to Enable Institutional Bitcoin Lending",
+   "type": "mainnet",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "SUI",
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Layer-1 blockchain Sui is launching Hashi, an institutional protocol allowing holders to use bitcoin as collateral without moving it off the Bitcoin network, debuting with $500 million in commitments.",
+   "per": {
+    "SUI": "Releasing Hashi protocol with $500M in commitments.",
+    "BTC": "Can be utilized as collateral via Hashi without leaving the Bitcoin network."
+   },
+   "direction": "positive",
+   "quality": 84,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/09/new-tech-to-power-bitcoin-lending-is-set-to-debut-with-usd500-million-in-commitments"
+    }
+   ],
+   "missing": "Exact launch date."
+  }
+ ]
 }
