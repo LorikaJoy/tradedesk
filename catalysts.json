@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-10T15:21:17.910952+00:00",
+ "updated": "2026-10-10T19:25:01.748583+00:00",
  "cards": [
   {
-   "t": "Thailand Sets October 16 Start for Local Crypto ETFs",
+   "t": "Thailand SEC Approves Local Bitcoin and Ethereum ETFs",
    "type": "etf",
    "status": "confirmed_upcoming",
    "event_date": "2026-10-16",
@@ -11,18 +11,18 @@
     "ETH"
    ],
    "rel": "direct",
-   "b": "Thailand's new crypto rules take effect on October 16, allowing local mutual funds and asset managers to launch and invest in locally listed Bitcoin and Ethereum ETFs.",
+   "b": "Thailand's new crypto rules take effect on October 16, allowing local asset managers to launch Bitcoin and Ethereum ETFs on the domestic stock exchange.",
    "per": {
-    "BTC": "Local spot ETFs authorized to begin trading on October 16 in Thailand.",
-    "ETH": "Included alongside Bitcoin for local Thai asset manager ETF launches."
+    "BTC": "Eligible for new Thai locally listed ETFs starting October 16.",
+    "ETH": "Eligible for new Thai locally listed ETFs starting October 16."
    },
    "direction": "positive",
-   "quality": 94,
+   "quality": 86,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 19,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
@@ -39,123 +39,58 @@
      "url": "https://www.coindesk.com/policy/2026/10/09/thailand-opens-door-to-locally-listed-bitcoin-and-ether-etfs"
     }
    ],
-   "missing": "Specific names of the first asset managers issuing the local ETFs."
+   "missing": "Specific asset managers launching the initial funds and exact launch times."
   },
   {
-   "t": "Sui Launches Hashi Bitcoin Lending Protocol",
+   "t": "Starknet Considering Transition to Layer 1 Network",
    "type": "mainnet",
-   "status": "confirmed_upcoming",
+   "status": "ongoing",
    "event_date": null,
    "coins": [
-    "SUI",
-    "BTC"
+    "STRK"
    ],
    "rel": "direct",
-   "b": "Layer-1 blockchain Sui is debuting Hashi, an institutional lending protocol backed by $500 million in commitments that allows holders to use Bitcoin as collateral without moving it off the Bitcoin network.",
+   "b": "Ethereum L2 Starknet is actively considering becoming its own Layer 1 blockchain to potentially achieve quantum-resistant network status by 2027.",
    "per": {
-    "SUI": "Launching Hashi protocol with $500M in commitments for Bitcoin lending."
-   },
-   "direction": "positive",
-   "quality": 92,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/09/new-tech-to-power-bitcoin-lending-is-set-to-debut-with-usd500-million-in-commitments"
-    }
-   ],
-   "missing": "Exact rollout date and full list of participating institutional partners."
-  },
-  {
-   "t": "Solana Narks 200-Millisecond Block Time Upgrade",
-   "type": "mainnet",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "SOL"
-   ],
-   "rel": "direct",
-   "b": "Solana is nearing the final stage of a seven-week push to halve its block times down to 200 milliseconds, increasing transaction frequency.",
-   "per": {
-    "SOL": "Finalizing upgrade to halve block times to 200 milliseconds."
-   },
-   "direction": "positive",
-   "quality": 84,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/09/solana-is-about-to-halve-its-block-times-as-final-200-millisecond-upgrade-nears"
-    }
-   ],
-   "missing": "Precise activation time and timestamp for the final block time change."
-  },
-  {
-   "t": "XRPL Patches Decade-Old Vulnerability",
-   "type": "other",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "XRP"
-   ],
-   "rel": "direct",
-   "b": "The XRP Ledger released an emergency software patch to fix a decade-old bug that could have allowed transactions to create spendable XRP without proper funding from the sender.",
-   "per": {
-    "XRP": "Emergency patch fixes vulnerability that could create unauthorized tokens."
+    "STRK": "Prices jumped following the announcement that the network is exploring an L1 transition."
    },
    "direction": "positive",
    "quality": 83,
-   "label": "COMPLETED CATALYST",
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 19,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
-    "timing": 6
+    "timing": 12
    },
    "impact": 8,
-   "s": "fading",
+   "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/10/xrp-ledger-patched-decade-old-bug-that-could-create-billions-of-dollars-in-xrp-from-nothing"
+     "name": "Coin Gabbar",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMmhqTG1BQmFUMDRodkdJeGdCVko1NzlwN3FiNjFFMDZKNmhZeW1xYzlHNE4zOXJBWnF3RVVTMVoxSTN6ZHptT3BNQ2xnZmtoT3R5Zk1Fd1hqa2s5Q2VEWk0yMFVkNzNycTEtNkF1VHVCMFFyYjFTalZCRVNPYWhzYUduTU1uTFBqZ2ZQajVKUW5LSks1?oc=5"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/380585/ethereum-l2-starknet-jumps-20-after-saying-it-wants-to-become-an-l1"
     }
    ],
-   "missing": "Exact date of vulnerability discovery and details on exploitation attempts."
+   "missing": "Definitive timeline or technical roadmap for the L1 migration."
   },
   {
-   "t": "Tron Quantum-Resistant Cryptography Ready for Mainnet",
+   "t": "Zcash Developers Set Quantum-Resistant Payment Target",
    "type": "mainnet",
-   "status": "officially_announced",
-   "event_date": null,
+   "status": "confirmed_upcoming",
+   "event_date": "2027-01-01",
    "coins": [
-    "TRX"
+    "ZEC"
    ],
    "rel": "direct",
-   "b": "Tron founder Justin Sun announced that post-quantum cryptography has successfully gone live on the testnet and is ready for mainnet deployment.",
+   "b": "Zcash developers have targeted January for quantum-resistant public payments alongside wallet tooling updates.",
    "per": {
-    "TRX": "Post-quantum cryptography tested and prepared for mainnet rollout."
+    "ZEC": "Upcoming quantum-resistant payment upgrades scheduled for early next year."
    },
    "direction": "positive",
    "quality": 77,
@@ -172,45 +107,45 @@
    "c": "high",
    "sources": [
     {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/09/zcash-developers-set-january-target-for-quantum-resistant-payments-after-bunker-mode-scare"
+    }
+   ],
+   "missing": "Exact date in January 2027."
+  },
+  {
+   "t": "Tron Quantum-Resistant Upgrade Goes Live on Testnet",
+   "type": "mainnet",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "TRX"
+   ],
+   "rel": "direct",
+   "b": "Justin Sun announced that Tron's post-quantum cryptography upgrade has gone live on the testnet, with mainnet deployment ready at any time.",
+   "per": {
+    "TRX": "Testnet launch paves the way for upcoming mainnet quantum-resistance integration."
+   },
+   "direction": "positive",
+   "quality": 74,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
      "name": "cointelegraph.com",
      "url": "https://cointelegraph.com/news/justin-sun-says-trons-post-quantum-cryptography-has-gone-live-on-testnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact deployment date for the mainnet upgrade."
-  },
-  {
-   "t": "Bitwise Liquidates Dogecoin ETF",
-   "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-14",
-   "coins": [
-    "DOGE"
-   ],
-   "rel": "direct",
-   "b": "Bitwise is winding down and liquidating its Dogecoin ETF (BWOW) on October 14.",
-   "per": {
-    "DOGE": "ETF product BWOW scheduled for liquidation by Bitwise on October 14."
-   },
-   "direction": "negative",
-   "quality": 75,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "CryptoTicker",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vZHBSVHhqOEtqaXNvWG81SnlpMmdYV21XT3I2Z3hDeXlLTU5tUUVLTGY0dWNXUHo1aERKUUhmVWZocjVGcUJ4RHlQU28yRDh3emw0ZHh1LW1xNjhLYlR6dUlIODc5dzFSZU9jdW9YQTFBWnRZcHZDVg?oc=5"
-    }
-   ],
-   "missing": "Total remaining assets under management at the time of liquidation."
+   "missing": "Exact mainnet deployment date."
   }
  ]
 }
