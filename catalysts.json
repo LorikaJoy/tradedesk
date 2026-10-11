@@ -1,28 +1,26 @@
 {
- "updated": "2026-10-11T14:23:01.804838+00:00",
+ "updated": "2026-10-11T19:05:18.737502+00:00",
  "cards": [
   {
-   "t": "Coinbase Delists USDT and DAI",
-   "type": "delisting",
+   "t": "Tron Quantum Crypto Ready on Testnet",
+   "type": "mainnet",
    "status": "confirmed_upcoming",
-   "event_date": "2026-10-30",
+   "event_date": null,
    "coins": [
-    "USDT",
-    "DAI"
+    "TRX"
    ],
    "rel": "direct",
-   "b": "Coinbase is scheduled to delist USDT and DAI on October 30.",
+   "b": "Justin Sun announced that Tron's post-quantum cryptography has gone live on its testnet, preparing to bring quantum resistance to the mainnet at any time.",
    "per": {
-    "USDT": "Scheduled for delisting from Coinbase on October 30.",
-    "DAI": "Scheduled for delisting from Coinbase on October 30."
+    "TRX": "Quantum cryptography live on testnet, preparing for mainnet deployment."
    },
-   "direction": "negative",
-   "quality": 83,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 84,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 17,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
@@ -31,30 +29,104 @@
    "c": "high",
    "sources": [
     {
-     "name": "CryptoTicker",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CdHRVQk1Za0lCVzZkOTFuS2pyTFdxSTlpRDQ2VjJ1QVlMVVpkeER2Zlo0VGdEU0FtT2lMNnc1YTdEXzZzTlkyWmZqMjhwTTNiUmtWZjZTZDdKQkV5Wjh3blBzOXB1OXRsRS1NOUJ0Y2ZxZw?oc=5"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/justin-sun-says-trons-post-quantum-cryptography-has-gone-live-on-testnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact time of the delisting and potential impact on other platforms."
+   "missing": "Exact mainnet launch date"
   },
   {
-   "t": "ESMA Imposes Three-Month Stablecoin Exposure Deadline in EU",
-   "type": "regulation",
+   "t": "Zcash Hash-Based Signatures and Privacy Tools",
+   "type": "other",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-01-01",
+   "coins": [
+    "ZEC"
+   ],
+   "rel": "direct",
+   "b": "Zcash developer Zakura expects hash-based signatures to land in Zcash in January, while rolling out a privacy tool for rotating transparent addresses this week.",
+   "per": {
+    "ZEC": "Hash-based signatures expected in January alongside address rotation tools."
+   },
+   "direction": "positive",
+   "quality": 84,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/380637/zcash-plans-hide-keys-ai-quantum-attacks"
+    }
+   ],
+   "missing": "Exact day in January for signature rollout"
+  },
+  {
+   "t": "Coinbase USDC Lending Launch in UK",
+   "type": "partnership",
    "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "USDT"
+    "BTC",
+    "ETH",
+    "USDC"
    ],
    "rel": "direct",
-   "b": "The European Securities and Markets Authority (ESMA) has given EU crypto firms three months to unwind non-MiCA stablecoin exposure.",
+   "b": "Coinbase is bringing USDC lending to the UK backed by Bitcoin and Ethereum.",
    "per": {
-    "USDT": "Faces regulatory pressure in Europe as firms must unwind non-MiCA exposure within three months."
+    "USDC": "New lending service launched in the UK backed by BTC and ETH.",
+    "BTC": "Used as collateral for Coinbase UK USDC lending.",
+    "ETH": "Used as collateral for Coinbase UK USDC lending."
    },
-   "direction": "negative",
-   "quality": 72,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 75,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 10,
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORE5laU4yWXg4Z3dIS0RLQkNIUjdLWW1IQkJSbzhVQTRfWFVibm95VWxQTlE2a1Utcko3VU9YdDZKWl82bDVrU0wwMm5ZZF9YMlRGczh0Z3hRbmVCQ3QzUjlHcnZ6N0c0Tzg0YUhKUlFGM014VWtHLWljbXdnX2Z4TVN1OHAteDBlV2pqTUVHYkR2YjVjMlUwM3Q2YThnUUU?oc=5"
+    }
+   ],
+   "missing": "Total credit limits and specific rollout timelines"
+  },
+  {
+   "t": "Thailand Bitcoin and Ether ETF Rules Start",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-16",
+   "coins": [
+    "BTC",
+    "ETH"
+   ],
+   "rel": "indirect",
+   "b": "Thailand is clearing and finalizing Bitcoin and Ether ETF rules with an official start date of October 16.",
+   "per": {
+    "BTC": "Thailand clears Bitcoin ETFs starting October 16.",
+    "ETH": "Thailand clears Ether ETFs starting October 16."
+   },
+   "direction": "positive",
+   "quality": 74,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 12,
     "relevance": 12,
     "impact": 20,
     "novelty": 15,
@@ -65,15 +137,19 @@
    "c": "medium",
    "sources": [
     {
-     "name": "Forex Crunch",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOc2NKNG91Q3lieEJrZEUtS3d5cGlJcmlpUXZDdU54SEg4R0xybmVwVFBPWE4taEdtd1Rhd2JhNzhzV3FQcHJ6NEJLVzdqbml1SGNmWTRNam5BR3NJUnN5R1NzemIwd016eFBJZXJoRjRvNDBqQUd4cFpHVk10RVJKOUMyWGthMnZOTGpZNGJBcEE?oc=5"
+     "name": "TechBullion",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMUNMenNOWHdVbHZEeVJYWGdheDFrUWxTUE1rQkh6eEpXNWkxT296S01TWEtGdS1QWWdsZEgxMnhpUzNVWHhmNjVMVGc3al81bFItQ25SQ2tVMndWb2dTZnAtR09ZRVcxN2pYZ2FTRU5reW9GbndxZi1MMm9tSXBlSVhTVDd3MGtCTmh3djhlTEUzSHFhTVU4bk94S0loczNNMUFvQ29ETnB0dDdJZFRfOC0xVQ?oc=5"
     },
     {
-     "name": "The Crypto Times",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUTNQRTBHTEoybzNSSGNuZ1hrWU92UWxjemdadGhYaEZNTGRnVkFBYkZKNjk4QnpsdmNnT3Z5U2lLUTZzV1p6RHBtRU80XzJNS2VaV1BOZWJNTUVJZlJiaVVSMVVaN2EzLU0tNXlsY1FkeVI4SktVbWo1OWdFcXFJWkQ3aUhtTlF3UGtYWA?oc=5"
+     "name": "CryptoDaily",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNczg1ZkRYUUZBWVUxODBCUW9NcTVkSXpIOXpYU0xFb2otY3hoSjhObnBiWVJIeFNETXVURERsUHpLSzJSd290ZkNjZXA5ellFdXlXdGhvYUIwaWhmYnFfSUdxMDJuOWpaVlBmcW1tVm9TalNfSWk1YlNYc3BXT2dUY0U3QQ?oc=5"
+    },
+    {
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPd3lNbTJhN09uNHhQSG9fdGg4RHVoZHNpbHU5MUFVQS05dWtEeWMtZjNETkl3eFY0YVBiOE1pQTlOMzN2SklKTG5kd1gtVEdfS3lYbGNtVmU2dUE?oc=5"
     }
    ],
-   "missing": "The exact compliance date and list of specific tokens affected beyond general non-MiCA stablecoins."
+   "missing": "Initial approval lists and capital flows"
   }
  ]
 }
