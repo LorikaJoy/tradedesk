@@ -1,44 +1,6 @@
 {
- "updated": "2026-10-11T07:42:32.056661+00:00",
+ "updated": "2026-10-11T14:23:01.804838+00:00",
  "cards": [
-  {
-   "t": "XRPL Patches Decade-Old Vulnerability",
-   "type": "other",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "XRP"
-   ],
-   "rel": "direct",
-   "b": "The XRP Ledger patched a decade-old bug that could have allowed spendable XRP to be created without the sender funding it, following a demonstration by researchers.",
-   "per": {
-    "XRP": "XRPL emergency software release patches a critical long-standing bug."
-   },
-   "direction": "positive",
-   "quality": 85,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ0c5UjV4NjdhaFRnaVREbEN0aUFHcEZEQkhvX1p6aGg3bmd3M0xlV0tENUc5ZG1kbFpFUnR1c0N4dEdRY3k0NXpVY1RZbUJVc2ZScTlQWUFFaVZKVnRVOXB3aVJ0U3A1cmZLZV9FUF9maFkyVVNrcWwyQkx5OFJvZW9mT3FyR3BOUGxlNGl2WVh1OWVtbEhtMEUwRFdVVGZTM1MtNzZqY0RjWV9HYXd2YlpyQjA2RHhlRF90S1o1LXdnM2oyMG44eGcwd083QQ?oc=5"
-    },
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/10/xrp-ledger-patched-decade-old-bug-that-could-create-billions-of-dollars-in-xrp-from-nothing"
-    }
-   ],
-   "missing": "Long-term ramifications for ledger security and transaction validation history."
-  },
   {
    "t": "Coinbase Delists USDT and DAI",
    "type": "delisting",
@@ -49,10 +11,10 @@
     "DAI"
    ],
    "rel": "direct",
-   "b": "Coinbase has announced it will delist USDT and DAI on October 30, requiring users to check their holdings before the deadline.",
+   "b": "Coinbase is scheduled to delist USDT and DAI on October 30.",
    "per": {
-    "USDT": "Coinbase delisting on October 30.",
-    "DAI": "Coinbase delisting on October 30."
+    "USDT": "Scheduled for delisting from Coinbase on October 30.",
+    "DAI": "Scheduled for delisting from Coinbase on October 30."
    },
    "direction": "negative",
    "quality": 83,
@@ -73,127 +35,45 @@
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CdHRVQk1Za0lCVzZkOTFuS2pyTFdxSTlpRDQ2VjJ1QVlMVVpkeER2Zlo0VGdEU0FtT2lMNnc1YTdEXzZzTlkyWmZqMjhwTTNiUmtWZjZTZDdKQkV5Wjh3blBzOXB1OXRsRS1NOUJ0Y2ZxZw?oc=5"
     }
    ],
-   "missing": "Exact time of day for the delisting and complete impact on specific trading pairs."
+   "missing": "Exact time of the delisting and potential impact on other platforms."
   },
   {
-   "t": "Bitwise Winds Down Dogecoin ETF (BWOW)",
-   "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-14",
-   "coins": [
-    "DOGE"
-   ],
-   "rel": "direct",
-   "b": "Bitwise is winding down and liquidating its Dogecoin ETF (BWOW) on October 14 due to weak demand, which the CEO flagged as tragic.",
-   "per": {
-    "DOGE": "Bitwise is shutting down its Dogecoin ETF (BWOW) on October 14."
-   },
-   "direction": "negative",
-   "quality": 79,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "CryptoTicker",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vZHBSVHhqOEtqaXNvWG81SnlpMmdYV21XT3I2Z3hDeXlLTU5tUUVLTGY0dWNXUHo1aERKUUhmVWZocjVGcUJ4RHlQU28yRDh3emw0ZHh1LW1xNjhLYlR6dUlIODc5dzFSZU9jdW9YQTFBWnRZcHZDVg?oc=5"
-    },
-    {
-     "name": "Bitget",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1sRHNjR0xjcFdndVhUOGNUdGxzNXBXdFFfZlZzWmdaX1d6Q3h3bDZKWnczN1M0Nkh6MDIzT3c0aUpNeDRpOE91WlBtSUw5VFRvN3NUcGxJVGVoSUZlbFVCYVgySdIBY0FVX3lxTE1sRHNjR0xjcFdndVhUOGNUdGxzNXBXdFFfZlZzWmdaX1d6Q3h3bDZKWnczN1M0Nkh6MDIzT3c0aUpNeDRpOE91WlBtSUw5VFRvN3NUcGxJVGVoSUZlbFVCYVgySQ?oc=5"
-    },
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTmRwMUVRUGFQb0R2MUdreGRrdk96dTRwRVBFUXJIRENieldBQWdCMGQ3SGNtTVFYd3hNa185c0hIWi1NVnUxY0tvRjFObVdNb3ZkbWFYTkhMMVFZUnRSQWxlcUtWb3BMTGtlTVYxWnM0QWJYTFlqOXJUdERwaWFSYm55cXRlbVQ1YW5feHNNYjlCTW9hSW5qb19B?oc=5"
-    },
-    {
-     "name": "CoinGape",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcHFoMmpDYmI2d0RaV0hvMGxrdm0yd2FtVzU3ZGJLa3NMSl9TNVZKb2c1V3VrMUVWT2JzOWhHTFFkZy1GaVk0UjRzQTlVVWZGMk9hUzhnbXdpN1d3TEVhYXZLTEFHczQtS0dUdGdxTnNFTWdqcG1maHlIZ2szU2NfWHhIRHVfM1FOVnUxTUlYT3dWbmlYdmJCMVR2V1VTa3hiY2VxekFGN0QwVm9VZXlrQmpCSzNaTzdjZGhBLTZLbWV6VVAy?oc=5"
-    }
-   ],
-   "missing": "Final payout details for ETF holders and exact closure time."
-  },
-  {
-   "t": "Thailand SEC Approves Bitcoin and Ethereum ETF Launch",
-   "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-16",
-   "coins": [
-    "BTC",
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "The Thailand SEC has set an October 16 start date for Bitcoin and Ethereum ETFs.",
-   "per": {
-    "BTC": "Thailand SEC sets October 16 start date for Bitcoin ETFs.",
-    "ETH": "Thailand SEC sets October 16 start date for Ethereum ETFs."
-   },
-   "direction": "positive",
-   "quality": 77,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 10,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWpqQUFnOWlEZUNwdFVjNUJ3RlJhdnpVS3JHeXlVYmlBYjZacWxFRGdPXzJaMU5QN3FEUmNhNXp0bU5OZjRtNGxmOWt6YldtQmRmWGNoUUlvbzNnT3p1cDZUY3pKbnpDa0dYYzY0TTd6U0p3TjZWb09SQjBhaDhGbFBVeHYwXzhfQUoxTE9zRUlMN2FWT2l2ZVdSRTZMNVE?oc=5"
-    },
-    {
-     "name": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcHN1N2RsZXJyVjNvWXg2bWU2QXFSSkZ1X2lQQTlBblJ3eU9EZ1RhMnlFak51TmRXY3A4Y09ON0VpdXFZOF9NU3BIZ24xVUFzM2R5OVd4aVNrMnhQNkRIT0lYSl9Pekt2dnVFd2lKT1lNcWVjTmlpcWhwbWIxbFJwVms0cFJscXlHT2piNFZyY1JXbk8zcEo5Nk5VZ0dWeW05cHk0?oc=5"
-    }
-   ],
-   "missing": "List of approved issuers and expected initial trading volumes."
-  },
-  {
-   "t": "Tron Quantum Cryptography Goes Live on Testnet",
-   "type": "mainnet",
-   "status": "completed",
+   "t": "ESMA Imposes Three-Month Stablecoin Exposure Deadline in EU",
+   "type": "regulation",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "TRX"
+    "USDT"
    ],
    "rel": "direct",
-   "b": "Justin Sun announced that Tron's post-quantum cryptography has gone live on the testnet, with readiness to bring quantum resistance to mainnet at any time.",
+   "b": "The European Securities and Markets Authority (ESMA) has given EU crypto firms three months to unwind non-MiCA stablecoin exposure.",
    "per": {
-    "TRX": "Post-quantum cryptography launched on testnet."
+    "USDT": "Faces regulatory pressure in Europe as firms must unwind non-MiCA exposure within three months."
    },
-   "direction": "positive",
-   "quality": 68,
-   "label": "COMPLETED CATALYST",
+   "direction": "negative",
+   "quality": 72,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 5,
+    "credibility": 10,
+    "relevance": 12,
+    "impact": 20,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
    "impact": 7,
-   "s": "fading",
+   "s": "building",
    "c": "medium",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/justin-sun-says-trons-post-quantum-cryptography-has-gone-live-on-testnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "Forex Crunch",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOc2NKNG91Q3lieEJrZEUtS3d5cGlJcmlpUXZDdU54SEg4R0xybmVwVFBPWE4taEdtd1Rhd2JhNzhzV3FQcHJ6NEJLVzdqbml1SGNmWTRNam5BR3NJUnN5R1NzemIwd016eFBJZXJoRjRvNDBqQUd4cFpHVk10RVJKOUMyWGthMnZOTGpZNGJBcEE?oc=5"
+    },
+    {
+     "name": "The Crypto Times",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUTNQRTBHTEoybzNSSGNuZ1hrWU92UWxjemdadGhYaEZNTGRnVkFBYkZKNjk4QnpsdmNnT3Z5U2lLUTZzV1p6RHBtRU80XzJNS2VaV1BOZWJNTUVJZlJiaVVSMVVaN2EzLU0tNXlsY1FkeVI4SktVbWo1OWdFcXFJWkQ3aUhtTlF3UGtYWA?oc=5"
     }
    ],
-   "missing": "Exact mainnet deployment date."
+   "missing": "The exact compliance date and list of specific tokens affected beyond general non-MiCA stablecoins."
   }
  ]
 }
