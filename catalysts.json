@@ -1,54 +1,8 @@
 {
- "updated": "2026-10-12T08:56:21.464462+00:00",
+ "updated": "2026-10-12T18:32:49.211038+00:00",
  "cards": [
   {
-   "t": "XRP Ledger Patches Decade-Old Integer Overflow Bug",
-   "type": "other",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "XRP"
-   ],
-   "rel": "direct",
-   "b": "The XRP Ledger Foundation pushed an emergency security patch for a decade-old overflow bug in the payment engine that could have theoretically minted trillions of XRP.",
-   "per": {
-    "XRP": "An unexploited decade-old potential supply overflow bug was patched by the foundation via an emergency update."
-   },
-   "direction": "neutral",
-   "quality": 87,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 9,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/12/why-a-bug-that-could-have-threatened-xrp-s-100-billion-supply-cap-stayed-hidden-for-years"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/xrp-ledger-defends-emergency-patch-for-unlimited-xrp-bug?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/magazine/ledger-attack-spreads-to-eu-ai-finds-18-trillion-xrp-bug-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/ecosystems/2026-10-11-xrp-ledger-patches-decade-old-bug-that-could-have-minted-trillions-of-xrp-418230"
-    }
-   ],
-   "missing": "Whether any malicious attempts targeted the vulnerability before patching."
-  },
-  {
-   "t": "DATA Network Migrates to Sui Following Foundation Investment",
+   "t": "DATA Network Migrates to Sui Blockchain",
    "type": "mainnet",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -56,47 +10,87 @@
     "SUI"
    ],
    "rel": "direct",
-   "b": "DATA Network is upgrading to run natively on Sui backed by a $30 million investment from the Sui Foundation, while its independent chain will be retired.",
+   "b": "DATA Network is migrating its infrastructure to the Sui blockchain, retiring its own chain backed by a $30 million investment from the Sui Foundation.",
    "per": {
-    "SUI": "Secures native integration of the data protocol backed by a $30M Sui Foundation commitment."
+    "SUI": "Receives network expansion backed by a $30 million investment."
    },
    "direction": "positive",
-   "quality": 86,
+   "quality": 84,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 17,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 9,
+   "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
      "name": "cointelegraph.com",
      "url": "https://cointelegraph.com/news/data-network-to-migrate-to-sui-retire-its-own-chain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/ecosystems/2026-10-11-sui-foundation-invests-30-million-data-network-418243"
     }
    ],
-   "missing": "Exact migration date."
+   "missing": "The exact execution date of the migration."
   },
   {
-   "t": "Upbit Lists Reserve Rights (RSR)",
+   "t": "Evernorth Launches Pure-Play XRP Treasury on Nasdaq",
+   "type": "treasury",
+   "status": "completed",
+   "event_date": "2026-10-12",
+   "coins": [
+    "XRP"
+   ],
+   "rel": "direct",
+   "b": "Evernorth's XRPN shares began trading on Nasdaq following a SPAC merger, holding 473 million XRP after 80% of SPAC investors cashed out.",
+   "per": {
+    "XRP": "Treasury shares trade on Nasdaq under ticker XRPN."
+   },
+   "direction": "mixed",
+   "quality": 79,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "StreetInsider",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNUEJYMFc1Y1N6UzJreTVGTVNFOXJNcm1uSVotRGp2N2VQY2ZId2ZPZS1NcC1QOWZ5ZzNSQzh3OFlxSjR0NFVrRWRtM181c1RQMVBETGZoUjRlbzhOQ2tELXRwNnh0N1dLWFlNN3lFQUl6ZGN3R2Ztc3VSX3JRUDZVeFRCcnlqVE1CamxObUFTYndzUnMtYVdwU0daZVB1ZWR3cUl2R0dmenY3RzNLWWk4RlpGbEJKaGlNVThIRmQxekhsbjJyVjRZMlNEeC1HWHgtdkphVjA1Y19sMlVGMm8xeHl3?oc=5"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/xrp-treasury-evernorth-rise-nasdaq-opening?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/380728/ripple-backed-evernorth-hits-nasdaq-holding-473-million-xrp"
+    }
+   ],
+   "missing": "Full long-term valuation details of the treasury relative to market price."
+  },
+  {
+   "t": "Upbit Lists Reserve Rights (RSR) and Gitcoin (GTC)",
    "type": "listing",
    "status": "completed",
    "event_date": "2026-10-12",
    "coins": [
-    "RSR"
+    "RSR",
+    "GTC"
    ],
    "rel": "direct",
-   "b": "Upbit opened spot trading for Reserve Rights (RSR) in its KRW and USDT markets, causing a sharp surge following the listing news.",
+   "b": "Upbit has officially opened spot trading pairs in KRW and USDT for Reserve Rights (RSR) and Gitcoin (GTC), leading to significant price surges.",
    "per": {
-    "RSR": "Upbit listing in KRW and USDT markets drove heavy initial trading volume and a significant surge."
+    "RSR": "Surged 66% following Upbit's KRW and USDT listing news.",
+    "GTC": "Rallied up to 93% as trading opened on Upbit."
    },
    "direction": "positive",
    "quality": 78,
@@ -121,52 +115,18 @@
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV295dUIxU2xSR0hPaU16X0FYajJqbzFmTmVYQ2VtV2c5cVY3U3hhWmdyd2l0Yy0yd29KSmJBUXBOeHE4cG5RQVlkT0JyTjFlcURfUzZjRmlUMEpFalFtLTRWZ0pWakhMNEktYV9WQm13Y3R0VmU4M3VFQXpVLTh1R1VOVjZiZWtPLTdTeEhGVXFFWHVWVElNNEJScU5ZMW10eVg2cg?oc=5"
     },
     {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQR2VRUDAwd2h5bmVDN0tFbnB4VUVJVFdPcmdCNGUyY3JSeGlKbENDS01nUHhTbWZMZTV3MzlCcmU1VDJDUzFmSUpUYmdVNURYQjlsOXRBMFdVbzBiMXdNWGJFbm5hMzZTSmpnUHJZaGRLMEhrOXVMU2tTckRvYk5XRTVUcWx6dzBjTUFwVEdCVUdmMloyX2lEV0k1Nm9JQkdKWnFWRkVXUnhvUHo1UjFTdE5RNFdOT1V3ZW5TUk9LRVBPcXNzOUtpU0VZNC1JRU90a1ZwTFZPc3V2Y0k?oc=5"
+     "name": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83Q3lGcWJIVUpHWV9rMzc5bldYaWdJcEEzQXM0UXRuX3JxRFpfaXlPSFUwVk5VenlsTFpMaDNGcVdrQWdKRWQyUjQyZ2FkQWY4ZktXdg?oc=5"
     },
     {
      "name": "Pluang",
      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPV3FmWnE0N09YeXg5RURLVTdMUU56TVZPVE1NcnVvTWN0VFdSVWY2ajVfWU9WVTJPU0NGMnVJcnZDSU1WZ2Mzd3QyVXFXbkdjOEJPNmw3OEFaX3kxOWU5M3VPYjlyT3JXRjB4SjlqeWZqSlFpaGdCamlyQi1WNTNJek42SDdCZw?oc=5"
     }
    ],
-   "missing": "Exact sustained trading volume figures beyond the initial surge."
+   "missing": "Exact trading volumes and order book depth after initial launch."
   },
   {
-   "t": "Zcash Plans Hash-Based Signatures and Privacy Tools",
-   "type": "mainnet",
-   "status": "confirmed_upcoming",
-   "event_date": "2027-01-01",
-   "coins": [
-    "ZEC"
-   ],
-   "rel": "direct",
-   "b": "Zcash full node developer Zakura announced plans to introduce hash-based signatures in January and is rolling out a transparent address rotation privacy tool.",
-   "per": {
-    "ZEC": "Upcoming implementation of hash-based signatures aimed at quantum and AI resistance."
-   },
-   "direction": "positive",
-   "quality": 77,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/380637/zcash-plans-hide-keys-ai-quantum-attacks"
-    }
-   ],
-   "missing": "Exact day in January for the hash-based signatures release."
-  },
-  {
-   "t": "Pando Launches Second Spot Solana ETF on HKEX",
+   "t": "Pando Finance Launches Second Spot Solana ETF on HKEX",
    "type": "etf",
    "status": "completed",
    "event_date": "2026-10-13",
@@ -174,9 +134,9 @@
     "SOL"
    ],
    "rel": "direct",
-   "b": "Pando Asset Management launched Hong Kong's second spot Solana ETF on the HKEX with a 0.6% fee, providing direct exposure and expanding institutional access.",
+   "b": "Pando Finance has launched Hong Kong's second spot Solana ETF on the HKEX with a lower 0.6% fee undercutting ChinaAMC.",
    "per": {
-    "SOL": "The HKEX ETF launch expands direct institutional and regional access for Solana."
+    "SOL": "Provides direct institutional exposure via HKEX listing code 2831.HK."
    },
    "direction": "positive",
    "quality": 70,
@@ -194,7 +154,11 @@
    "sources": [
     {
      "name": "Crypto News",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaUJNWkc0VThZZkJkX01UdjF5TkxINHB3UVhSZ3Z1Y0hFdmMxb3RMWFNkZVhmX1VsZnd4VHNoS3pKc0lENXg0ZVpBalR6OExyS3AwU1FqTVZoQVhLMl9KdXRPRmdyRlMxal9QSVFnemprUWFiS2htcE1OUFNSRWxCZGt4dmd3THNETDhXVA?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOajZDUTRaY1FQSlNlZDlvY2pkWFFMN1o0eEFDWGhpNlpRYlhjOXpDNGZsTHVibVo0d0RISFNBSElHMzVGOHE4SWc1dWplWjJ2RF9BeTd1c3NwQkIyNlpPNFFKdzVWc1cwOTN2ZG5hemF5ZEp3ZDlVcVhfV1NiQzcwcjRvSEFUWWRTRVBjYg?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRUpFX3dxRmppZHB5M3o1Tl9xTklTdnRET0JWWFZDZWwwclFhR1kwVVdZNFlDeFlRUl9nWUFRMmNSQ04wcXhHRC1vamlFZ1BtNUpEVjljQnBxb0dJTUYwVkxqcm1fbjVvdkZIOUNUc180ZzhTTkdpU2xyUUxHeGZpelpnTQ?oc=5"
     },
     {
      "name": "The Cryptonomist",
@@ -203,53 +167,43 @@
     {
      "name": "CoinGape",
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUVJXcml2WF9kano3QWtQTjBJdGxUYktlTzlNUGtYOGZSZllfOVIxLUtvRHJscGdEUGFralJyQ3U5NjRFNnRCTTllaXdHLUIxRGdpU2hxby1RUlJNcDdVeWdUdm1Oc1B0X1BRdHhUemlyOFZDbVBCUnBmM08tcjh5UFhWeFp5ZnJRMVVXOTluZ0tENUVDVHIwTzJDeG0waVIxQjQwN21naVZldm0yV2k4?oc=5"
-    },
-    {
-     "name": "Coinfomania",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQa2wtRnAxTUl2eEgxcndacHdEZFg5S0RiMkxLbzNOdW52SXY3U0UzWFhmZDgtbU9iaGxLR3doVWhpckl1MnptcFpMUWxnbkZCRHV1aUhLQ2haRnJmbUtOekg1aUFVb1dRaUtxcUVabHp6V3RlRE5jSGRuYnJsNzlJaDJKWHBvdE1UU0E?oc=5"
     }
    ],
-   "missing": "Total initial capital inflows captured on day one."
+   "missing": "First-day inflow and volume figures."
   },
   {
-   "t": "Thailand Approves Spot Bitcoin and Ether ETFs",
-   "type": "etf",
+   "t": "MEXC Removes RON/USDT Futures",
+   "type": "delisting",
    "status": "confirmed_upcoming",
-   "event_date": "2026-10-16",
+   "event_date": "2026-10-14",
    "coins": [
-    "BTC",
-    "ETH"
+    "RON"
    ],
    "rel": "direct",
-   "b": "Thailand cleared spot Bitcoin and Ether ETFs, with regulations taking effect on October 16, 2026.",
+   "b": "MEXC announced it will remove the RON/USDT futures contract on October 14.",
    "per": {
-    "BTC": "Clearing of spot ETFs in Thailand expands regulated local access starting October 16.",
-    "ETH": "Clearing of spot ETFs in Thailand expands regulated local access starting October 16."
+    "RON": "Futures contract will be delisted on MEXC."
    },
-   "direction": "positive",
-   "quality": 64,
-   "label": "MODERATE CATALYST",
+   "direction": "negative",
+   "quality": 68,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 10,
-    "relevance": 12,
-    "impact": 12,
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 5,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 6,
+   "impact": 7,
    "s": "building",
    "c": "medium",
    "sources": [
     {
-     "name": "TechBullion",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMUNMenNOWHdVbHZEeVJYWGdheDFrUWxTUE1rQkh6eEpXNWkxT296S01TWEtGdS1QWWdsZEgxMnhpUzNVWHhmNjVMVGc3al81bFItQ25SQ2tVMndWb2dTZnAtR09ZRVcxN2pYZ2FTRU5reW9GbndxZi1MMm9tSXBlSVhTVDd3MGtCTmh3djhlTEUzSHFhTVU4bk94S0loczNNMUFvQ29ETnB0dDdJZFRfOC0xVQ?oc=5"
-    },
-    {
-     "name": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORkN3TFZ3elRjbkY1a0xrUlhxSXJKSGRSenQyVF9oTXBNZUlNSDZLelRsR29Xc29MdVNHTUstWWgwNk5FQ3lDMTMwaktpMmNaLWtIZUVTcDYyV05EZG51aEE5YTNFTC15VWUxMFZLMWUzSlJNVERJNmwzRzZaNzZBbHdDeXg2ZjQ0OEhKVmptZzBMTUdBeWMtYXJyX29kMkxONTY0QVVLbm0?oc=5"
+     "name": "Coin Gabbar",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZWpMY0EwOGtERVVvcmJQb3UzTUJuZmR5c0xVbllXSVppZE91c0d5c3BHTDhMMktmSWM5dUo2SDNwS1hHX0J1QmdKbV94WXVyRDZUdlVOUVZCU244RWpWb19vSnlJUC1hZUhDblVqdHdkb3c4RW5lUEFUWlpoN3RXQlRpQnM?oc=5"
     }
    ],
-   "missing": "Initial assets under management expected at launch."
+   "missing": "Reasons for the futures delisting."
   }
  ]
 }
