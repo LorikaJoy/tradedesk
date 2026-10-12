@@ -1,56 +1,138 @@
 {
- "updated": "2026-10-12T01:59:31.752659+00:00",
+ "updated": "2026-10-12T08:56:21.464462+00:00",
  "cards": [
   {
-   "t": "Thailand SEC Approves Bitcoin and Ether ETFs Starting October 16",
-   "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-16",
+   "t": "XRP Ledger Patches Decade-Old Integer Overflow Bug",
+   "type": "other",
+   "status": "completed",
+   "event_date": null,
    "coins": [
-    "BTC",
-    "ETH"
+    "XRP"
    ],
    "rel": "direct",
-   "b": "Thailand has cleared spot Bitcoin and Ether ETFs to launch, with rules effective starting October 16, 2026.",
+   "b": "The XRP Ledger Foundation pushed an emergency security patch for a decade-old overflow bug in the payment engine that could have theoretically minted trillions of XRP.",
    "per": {
-    "BTC": "Bitcoin spot ETFs are cleared for launch in Thailand starting October 16.",
-    "ETH": "Ether spot ETFs are cleared for launch in Thailand starting October 16."
+    "XRP": "An unexploited decade-old potential supply overflow bug was patched by the foundation via an emergency update."
+   },
+   "direction": "neutral",
+   "quality": 87,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 9,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/12/why-a-bug-that-could-have-threatened-xrp-s-100-billion-supply-cap-stayed-hidden-for-years"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/xrp-ledger-defends-emergency-patch-for-unlimited-xrp-bug?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/magazine/ledger-attack-spreads-to-eu-ai-finds-18-trillion-xrp-bug-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/ecosystems/2026-10-11-xrp-ledger-patches-decade-old-bug-that-could-have-minted-trillions-of-xrp-418230"
+    }
+   ],
+   "missing": "Whether any malicious attempts targeted the vulnerability before patching."
+  },
+  {
+   "t": "DATA Network Migrates to Sui Following Foundation Investment",
+   "type": "mainnet",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "SUI"
+   ],
+   "rel": "direct",
+   "b": "DATA Network is upgrading to run natively on Sui backed by a $30 million investment from the Sui Foundation, while its independent chain will be retired.",
+   "per": {
+    "SUI": "Secures native integration of the data protocol backed by a $30M Sui Foundation commitment."
    },
    "direction": "positive",
-   "quality": 79,
+   "quality": 86,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 12,
+    "credibility": 19,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "TechBullion",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMUNMenNOWHdVbHZEeVJYWGdheDFrUWxTUE1rQkh6eEpXNWkxT296S01TWEtGdS1QWWdsZEgxMnhpUzNVWHhmNjVMVGc3al81bFItQ25SQ2tVMndWb2dTZnAtR09ZRVcxN2pYZ2FTRU5reW9GbndxZi1MMm9tSXBlSVhTVDd3MGtCTmh3djhlTEUzSHFhTVU4bk94S0loczNNMUFvQ29ETnB0dDdJZFRfOC0xVQ?oc=5"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/data-network-to-migrate-to-sui-retire-its-own-chain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-     "name": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORkN3TFZ3elRjbkY1a0xrUlhxSXJKSGRSenQyVF9oTXBNZUlNSDZLelRsR29Xc29MdVNHTUstWWgwNk5FQ3lDMTMwaktpMmNaLWtIZUVTcDYyV05EZG51aEE5YTNFTC15VWUxMFZLMWUzSlJNVERJNmwzRzZaNzZBbHdDeXg2ZjQ0OEhKVmptZzBMTUdBeWMtYXJyX29kMkxONTY0QVVLbm0?oc=5"
-    },
-    {
-     "name": "CryptoDaily",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNczg1ZkRYUUZBWVUxODBCUW9NcTVkSXpIOXpYU0xFb2otY3hoSjhObnBiWVJIeFNETXVURERsUHpLSzJSd290ZkNjZXA5ellFdXlXdGhvYUIwaWhmYnFfSUdxMDJuOWpaVlBmcW1tVm9TalNfSWk1YlNYc3BXT2dUY0U3QQ?oc=5"
-    },
-    {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPd3lNbTJhN09uNHhQSG9fdGg4RHVoZHNpbHU5MUFVQS05dWtEeWMtZjNETkl3eFY0YVBiOE1pQTlOMzN2SklKTG5kd1gtVEdfS3lYbGNtVmU2dUE?oc=5"
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/ecosystems/2026-10-11-sui-foundation-invests-30-million-data-network-418243"
     }
    ],
-   "missing": "Specific issuer names and initial asset under management targets."
+   "missing": "Exact migration date."
   },
   {
-   "t": "Zcash Plans Hash-Based Signatures and Privacy Tool Rollout",
+   "t": "Upbit Lists Reserve Rights (RSR)",
+   "type": "listing",
+   "status": "completed",
+   "event_date": "2026-10-12",
+   "coins": [
+    "RSR"
+   ],
+   "rel": "direct",
+   "b": "Upbit opened spot trading for Reserve Rights (RSR) in its KRW and USDT markets, causing a sharp surge following the listing news.",
+   "per": {
+    "RSR": "Upbit listing in KRW and USDT markets drove heavy initial trading volume and a significant surge."
+   },
+   "direction": "positive",
+   "quality": 78,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE85SkxfY19LRUVNellYdWEwbXgwb0tabVlRWWk5MDhtaFFfTnZZb21PSzBVMXpaLWVRM2xleGxlSWM5YUZwVHB6T0c2SVpRaDktSEtzVnNNMENDZw?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV295dUIxU2xSR0hPaU16X0FYajJqbzFmTmVYQ2VtV2c5cVY3U3hhWmdyd2l0Yy0yd29KSmJBUXBOeHE4cG5RQVlkT0JyTjFlcURfUzZjRmlUMEpFalFtLTRWZ0pWakhMNEktYV9WQm13Y3R0VmU4M3VFQXpVLTh1R1VOVjZiZWtPLTdTeEhGVXFFWHVWVElNNEJScU5ZMW10eVg2cg?oc=5"
+    },
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQR2VRUDAwd2h5bmVDN0tFbnB4VUVJVFdPcmdCNGUyY3JSeGlKbENDS01nUHhTbWZMZTV3MzlCcmU1VDJDUzFmSUpUYmdVNURYQjlsOXRBMFdVbzBiMXdNWGJFbm5hMzZTSmpnUHJZaGRLMEhrOXVMU2tTckRvYk5XRTVUcWx6dzBjTUFwVEdCVUdmMloyX2lEV0k1Nm9JQkdKWnFWRkVXUnhvUHo1UjFTdE5RNFdOT1V3ZW5TUk9LRVBPcXNzOUtpU0VZNC1JRU90a1ZwTFZPc3V2Y0k?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPV3FmWnE0N09YeXg5RURLVTdMUU56TVZPVE1NcnVvTWN0VFdSVWY2ajVfWU9WVTJPU0NGMnVJcnZDSU1WZ2Mzd3QyVXFXbkdjOEJPNmw3OEFaX3kxOWU5M3VPYjlyT3JXRjB4SjlqeWZqSlFpaGdCamlyQi1WNTNJek42SDdCZw?oc=5"
+    }
+   ],
+   "missing": "Exact sustained trading volume figures beyond the initial surge."
+  },
+  {
+   "t": "Zcash Plans Hash-Based Signatures and Privacy Tools",
    "type": "mainnet",
    "status": "confirmed_upcoming",
    "event_date": "2027-01-01",
@@ -58,9 +140,9 @@
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Zcash full node developer Zakura expects hash-based signatures to land in Zcash in January, while rolling out a transparent address rotation privacy tool.",
+   "b": "Zcash full node developer Zakura announced plans to introduce hash-based signatures in January and is rolling out a transparent address rotation privacy tool.",
    "per": {
-    "ZEC": "Hash-based signatures are expected to integrate in January alongside privacy tool updates."
+    "ZEC": "Upcoming implementation of hash-based signatures aimed at quantum and AI resistance."
    },
    "direction": "positive",
    "quality": 77,
@@ -81,7 +163,93 @@
      "url": "https://decrypt.co/380637/zcash-plans-hide-keys-ai-quantum-attacks"
     }
    ],
-   "missing": "Exact release date in January."
+   "missing": "Exact day in January for the hash-based signatures release."
+  },
+  {
+   "t": "Pando Launches Second Spot Solana ETF on HKEX",
+   "type": "etf",
+   "status": "completed",
+   "event_date": "2026-10-13",
+   "coins": [
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "Pando Asset Management launched Hong Kong's second spot Solana ETF on the HKEX with a 0.6% fee, providing direct exposure and expanding institutional access.",
+   "per": {
+    "SOL": "The HKEX ETF launch expands direct institutional and regional access for Solana."
+   },
+   "direction": "positive",
+   "quality": 70,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "Crypto News",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaUJNWkc0VThZZkJkX01UdjF5TkxINHB3UVhSZ3Z1Y0hFdmMxb3RMWFNkZVhmX1VsZnd4VHNoS3pKc0lENXg0ZVpBalR6OExyS3AwU1FqTVZoQVhLMl9KdXRPRmdyRlMxal9QSVFnemprUWFiS2htcE1OUFNSRWxCZGt4dmd3THNETDhXVA?oc=5"
+    },
+    {
+     "name": "The Cryptonomist",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1XVksxUUNsUHoxRzhWQkNpbDJPd1lzemdXNWtGckpLUG1xRUFYTXU0UHZwZ2E4bU5nMWo4dDNTX0pGWl9uNFliUUE2RkNqZlJNU3RvWUc5VzM0X0R3c3phVWVSNHJsLUFtOUNB?oc=5"
+    },
+    {
+     "name": "CoinGape",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUVJXcml2WF9kano3QWtQTjBJdGxUYktlTzlNUGtYOGZSZllfOVIxLUtvRHJscGdEUGFralJyQ3U5NjRFNnRCTTllaXdHLUIxRGdpU2hxby1RUlJNcDdVeWdUdm1Oc1B0X1BRdHhUemlyOFZDbVBCUnBmM08tcjh5UFhWeFp5ZnJRMVVXOTluZ0tENUVDVHIwTzJDeG0waVIxQjQwN21naVZldm0yV2k4?oc=5"
+    },
+    {
+     "name": "Coinfomania",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQa2wtRnAxTUl2eEgxcndacHdEZFg5S0RiMkxLbzNOdW52SXY3U0UzWFhmZDgtbU9iaGxLR3doVWhpckl1MnptcFpMUWxnbkZCRHV1aUhLQ2haRnJmbUtOekg1aUFVb1dRaUtxcUVabHp6V3RlRE5jSGRuYnJsNzlJaDJKWHBvdE1UU0E?oc=5"
+    }
+   ],
+   "missing": "Total initial capital inflows captured on day one."
+  },
+  {
+   "t": "Thailand Approves Spot Bitcoin and Ether ETFs",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-16",
+   "coins": [
+    "BTC",
+    "ETH"
+   ],
+   "rel": "direct",
+   "b": "Thailand cleared spot Bitcoin and Ether ETFs, with regulations taking effect on October 16, 2026.",
+   "per": {
+    "BTC": "Clearing of spot ETFs in Thailand expands regulated local access starting October 16.",
+    "ETH": "Clearing of spot ETFs in Thailand expands regulated local access starting October 16."
+   },
+   "direction": "positive",
+   "quality": 64,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 10,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 6,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "TechBullion",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMUNMenNOWHdVbHZEeVJYWGdheDFrUWxTUE1rQkh6eEpXNWkxT296S01TWEtGdS1QWWdsZEgxMnhpUzNVWHhmNjVMVGc3al81bFItQ25SQ2tVMndWb2dTZnAtR09ZRVcxN2pYZ2FTRU5reW9GbndxZi1MMm9tSXBlSVhTVDd3MGtCTmh3djhlTEUzSHFhTVU4bk94S0loczNNMUFvQ29ETnB0dDdJZFRfOC0xVQ?oc=5"
+    },
+    {
+     "name": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORkN3TFZ3elRjbkY1a0xrUlhxSXJKSGRSenQyVF9oTXBNZUlNSDZLelRsR29Xc29MdVNHTUstWWgwNk5FQ3lDMTMwaktpMmNaLWtIZUVTcDYyV05EZG51aEE5YTNFTC15VWUxMFZLMWUzSlJNVERJNmwzRzZaNzZBbHdDeXg2ZjQ0OEhKVmptZzBMTUdBeWMtYXJyX29kMkxONTY0QVVLbm0?oc=5"
+    }
+   ],
+   "missing": "Initial assets under management expected at launch."
   }
  ]
 }
