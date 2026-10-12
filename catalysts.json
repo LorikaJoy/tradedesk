@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T22:52:49.891927+00:00",
+ "updated": "2026-10-12T01:59:31.752659+00:00",
  "cards": [
   {
    "t": "Thailand SEC Approves Bitcoin and Ether ETFs Starting October 16",
@@ -11,58 +11,16 @@
     "ETH"
    ],
    "rel": "direct",
-   "b": "Thailand has finalized rules clearing Bitcoin and Ether ETFs to begin operating starting October 16, 2026.",
+   "b": "Thailand has cleared spot Bitcoin and Ether ETFs to launch, with rules effective starting October 16, 2026.",
    "per": {
-    "BTC": "New regional ETF product launch starting October 16.",
-    "ETH": "New regional ETF product launch starting October 16."
+    "BTC": "Bitcoin spot ETFs are cleared for launch in Thailand starting October 16.",
+    "ETH": "Ether spot ETFs are cleared for launch in Thailand starting October 16."
    },
    "direction": "positive",
-   "quality": 87,
+   "quality": 79,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 12,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "TechBullion",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMUNMenNOWHdVbHZEeVJYWGdheDFrUWxTUE1rQkh6eEpXNWkxT296S01TWEtGdS1QWWdsZEgxMnhpUzNVWHhmNjVMVGc3al81bFItQ25SQ2tVMndWb2dTZnAtR09ZRVcxN2pYZ2FTRU5reW9GbndxZi1MMm9tSXBlSVhTVDd3MGtCTmh3djhlTEUzSHFhTVU4bk94S0loczNNMUFvQ29ETnB0dDdJZFRfOC0xVQ?oc=5"
-    },
-    {
-     "name": "CryptoDaily",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNczg1ZkRYUUZBWVUxODBCUW9NcTVkSXpIOXpYU0xFb2otY3hoSjhObnBiWVJIeFNETXVURERsUHpLSzJSd290ZkNjZXA5ellFdXlXdGhvYUIwaWhmYnFfSUdxMDJuOWpaVlBmcW1tVm9TalNfSWk1YlNYc3BXT2dUY0U3QQ?oc=5"
-    },
-    {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPd3lNbTJhN09uNHhQSG9fdGg4RHVoZHNpbHU5MUFVQS05dWtEeWMtZjNETkl3eFY0YVBiOE1pQTlOMzN2SklKTG5kd1gtVEdfS3lYbGNtVmU2dUE?oc=5"
-    }
-   ],
-   "missing": "Initial inflow volumes and specific approved fund managers"
-  },
-  {
-   "t": "Tron Post-Quantum Cryptography Live on Testnet",
-   "type": "mainnet",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "TRX"
-   ],
-   "rel": "direct",
-   "b": "Justin Sun announced that Tron's post-quantum cryptography has gone live on the testnet, with mainnet readiness expected at any time.",
-   "per": {
-    "TRX": "Testnet launch paves the way for mainnet quantum resistance integration."
-   },
-   "direction": "positive",
-   "quality": 84,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 17,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -73,14 +31,26 @@
    "c": "high",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/justin-sun-says-trons-post-quantum-cryptography-has-gone-live-on-testnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "TechBullion",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMUNMenNOWHdVbHZEeVJYWGdheDFrUWxTUE1rQkh6eEpXNWkxT296S01TWEtGdS1QWWdsZEgxMnhpUzNVWHhmNjVMVGc3al81bFItQ25SQ2tVMndWb2dTZnAtR09ZRVcxN2pYZ2FTRU5reW9GbndxZi1MMm9tSXBlSVhTVDd3MGtCTmh3djhlTEUzSHFhTVU4bk94S0loczNNMUFvQ29ETnB0dDdJZFRfOC0xVQ?oc=5"
+    },
+    {
+     "name": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORkN3TFZ3elRjbkY1a0xrUlhxSXJKSGRSenQyVF9oTXBNZUlNSDZLelRsR29Xc29MdVNHTUstWWgwNk5FQ3lDMTMwaktpMmNaLWtIZUVTcDYyV05EZG51aEE5YTNFTC15VWUxMFZLMWUzSlJNVERJNmwzRzZaNzZBbHdDeXg2ZjQ0OEhKVmptZzBMTUdBeWMtYXJyX29kMkxONTY0QVVLbm0?oc=5"
+    },
+    {
+     "name": "CryptoDaily",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNczg1ZkRYUUZBWVUxODBCUW9NcTVkSXpIOXpYU0xFb2otY3hoSjhObnBiWVJIeFNETXVURERsUHpLSzJSd290ZkNjZXA5ellFdXlXdGhvYUIwaWhmYnFfSUdxMDJuOWpaVlBmcW1tVm9TalNfSWk1YlNYc3BXT2dUY0U3QQ?oc=5"
+    },
+    {
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPd3lNbTJhN09uNHhQSG9fdGg4RHVoZHNpbHU5MUFVQS05dWtEeWMtZjNETkl3eFY0YVBiOE1pQTlOMzN2SklKTG5kd1gtVEdfS3lYbGNtVmU2dUE?oc=5"
     }
    ],
-   "missing": "Exact mainnet deployment date"
+   "missing": "Specific issuer names and initial asset under management targets."
   },
   {
-   "t": "Zcash Plans Hash-Based Signatures and Privacy Tools",
+   "t": "Zcash Plans Hash-Based Signatures and Privacy Tool Rollout",
    "type": "mainnet",
    "status": "confirmed_upcoming",
    "event_date": "2027-01-01",
@@ -88,17 +58,17 @@
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Zcash full node developer Zakura expects hash-based signatures to land in Zcash in January, while rolling out a privacy tool for rotating transparent addresses.",
+   "b": "Zcash full node developer Zakura expects hash-based signatures to land in Zcash in January, while rolling out a transparent address rotation privacy tool.",
    "per": {
-    "ZEC": "Upgrade introduces quantum-resistant signature expectations and address rotation."
+    "ZEC": "Hash-based signatures are expected to integrate in January alongside privacy tool updates."
    },
    "direction": "positive",
-   "quality": 84,
+   "quality": 77,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 17,
     "relevance": 25,
-    "impact": 12,
+    "impact": 5,
     "novelty": 15,
     "timing": 15
    },
@@ -111,7 +81,7 @@
      "url": "https://decrypt.co/380637/zcash-plans-hide-keys-ai-quantum-attacks"
     }
    ],
-   "missing": "Exact date in January for the signature implementation"
+   "missing": "Exact release date in January."
   }
  ]
 }
