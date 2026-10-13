@@ -1,18 +1,86 @@
 {
- "updated": "2026-10-13T00:58:37.059294+00:00",
+ "updated": "2026-10-13T07:28:26.152214+00:00",
  "cards": [
   {
-   "t": "Upbit Lists Reserve Rights (RSR)",
+   "t": "Binance Lists RWUSD with Zero Fee Promotion",
    "type": "listing",
-   "status": "completed",
-   "event_date": "2026-10-12",
+   "status": "confirmed_upcoming",
+   "event_date": null,
    "coins": [
-    "RSR"
+    "RWUSD"
    ],
    "rel": "direct",
-   "b": "Upbit has listed Reserve Rights (RSR) for trading in KRW and USDT spot markets, causing a sharp price surge.",
+   "b": "Binance announced it will list RWUSD and introduce a zero trading fee promotion for the asset.",
    "per": {
-    "RSR": "Spot trading opened on Upbit in KRW and USDT markets on October 12, 2026."
+    "RWUSD": "Token will be listed on Binance alongside a zero trading fee promotion."
+   },
+   "direction": "positive",
+   "quality": 92,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 25,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Binance",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQektSaXZqR2NXakRjam5od0NTQkptQU5wUG12SHRWRXZGQ2dXZG9SNnNxWnZyVWtad3BLNWVmRi1YcWJfVG4tQ2FWb3I0Ym83dElEME1UZmxFdGNfcTYzMWJRbFg0NzU1NGVub1hRazgzOUlZNHVQaG5qeHdSZTBPbEdjeVE0QVFGR1VsUi1GbHA?oc=5"
+    }
+   ],
+   "missing": "Exact launch date and time"
+  },
+  {
+   "t": "DATA Network Migrates to Sui",
+   "type": "mainnet",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "SUI"
+   ],
+   "rel": "direct",
+   "b": "DATA Network announced plans to migrate its network to Sui and retire its own chain, backed by a $30 million investment from the Sui Foundation.",
+   "per": {
+    "SUI": "Receiving DATA Network migration supported by a $30M Sui Foundation investment."
+   },
+   "direction": "positive",
+   "quality": 84,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/data-network-to-migrate-to-sui-retire-its-own-chain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Exact migration date"
+  },
+  {
+   "t": "Pando Finance Launches Hong Kong Spot Solana ETF",
+   "type": "etf",
+   "status": "completed",
+   "event_date": "2026-10-13",
+   "coins": [
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "Pando Finance launched Hong Kong's second spot Solana ETF on the Hong Kong Stock Exchange on October 13, undercutting competitors with a 0.6% fee.",
+   "per": {
+    "SOL": "Pando Finance launched its spot Solana ETF on the HKEX."
    },
    "direction": "positive",
    "quality": 78,
@@ -29,26 +97,22 @@
    "c": "high",
    "sources": [
     {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE85SkxfY19LRUVNellYdWEwbXgwb0tabVlRWWk5MDhtaFFfTnZZb21PSzBVMXpaLWVRM2xleGxlSWM5YUZwVHB6T0c2SVpRaDktSEtzVnNNMENDZw?oc=5"
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1mdUx5N2xFci0xQl9IYWIyNk1mMGNrNlVhQnV6OHdsWkJ6cVhzLTZ2TGJtYTVodWxYNEFNY0NaUThMenhVQVZXbzZUMHpiX1I0SHJqY1dSZmRBVkZrajZ5Wll3M3F3QzNad2h1TGtfMlQtMmdZc2c?oc=5"
     },
     {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV295dUIxU2xSR0hPaU16X0FYajJqbzFmTmVYQ2VtV2c5cVY3U3hhWmdyd2l0Yy0yd29KSmJBUXBOeHE4cG5RQVlkT0JyTjFlcURfUzZjRmlUMEpFalFtLTRWZ0pWakhMNEktYV9WQm13Y3R0VmU4M3VFQXpVLTh1R1VOVjZiZWtPLTdTeEhGVXFFWHVWVElNNEJScU5ZMW10eVg2cg?oc=5"
+     "name": "CoinGape",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUVJXcml2WF9kano3QWtQTjBJdGxUYktlTzlNUGtYOGZSZllfOVIxLUtvRHJscGdEUGFralJyQ3U5NjRFNnRCTTllaXdHLUIxRGdpU2hxby1RUlJNcDdVeWdUdm1Oc1B0X1BRdHhUemlyOFZDbVBCUnBmM08tcjh5UFhWeFp5ZnJRMVVXOTluZ0tENUVDVHIwTzJDeG0waVIxQjQwN21naVZldm0yV2k4?oc=5"
     },
     {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPV3FmWnE0N09YeXg5RURLVTdMUU56TVZPVE1NcnVvTWN0VFdSVWY2ajVfWU9WVTJPU0NGMnVJcnZDSU1WZ2Mzd3QyVXFXbkdjOEJPNmw3OEFaX3kxOWU5M3VPYjlyT3JXRjB4SjlqeWZqSlFpaGdCamlyQi1WNTNJek42SDdCZw?oc=5"
-    },
-    {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQR2VRUDAwd2h5bmVDN0tFbnB4VUVJVFdPcmdCNGUyY3JSeGlKbENDS01nUHhTbWZMZTV3MzlCcmU1VDJDUzFmSUpUYmdVNURYQjlsOXRBMFdVbzBiMXdNWGJFbm5hMzZTSmpnUHJZaGRLMEhrOXVMU2tTckRvYk5XRTVUcWx6dzBjTUFwVEdCVUdmMloyX2lEV0k1Nm9JQkdKWnFWRkVXUnhvUHo1UjFTdE5RNFdOT1V3ZW5TUk9LRVBPcXNzOUtpU0VZNC1JRU90a1ZwTFZPc3V2Y0k?oc=5"
+     "name": "NameCoinNews",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9SeTRFM1dkVlVaNU84bERjNzIzbkNyZllEM1l1MUZSNTJ1SGc5eFQ4U2lKVU9qTUo5dGJpOUZMNkZza3pnb0p5dHpyUXBIVk40VjhiN01nc3FHaUNqeTlTUVhqc3FhZVZGRkJDNk5hRl9HNGpnN2tHbkUyMA?oc=5"
     }
    ],
-   "missing": "Initial trading volume figures post-listing."
+   "missing": "Total initial capital inflows"
   },
   {
-   "t": "Upbit Lists Gitcoin (GTC)",
+   "t": "Upbit Lists Gitcoin",
    "type": "listing",
    "status": "completed",
    "event_date": null,
@@ -56,23 +120,23 @@
     "GTC"
    ],
    "rel": "direct",
-   "b": "Gitcoin jumped after Upbit announced a KRW and USDT market listing for GTC.",
+   "b": "Upbit announced spot market listings for Gitcoin (GTC) in KRW and USDT markets, causing the price to jump over 90% as trading opened.",
    "per": {
-    "GTC": "Listed on Upbit with KRW and USDT trading pairs."
+    "GTC": "Upbit listed GTC in KRW and USDT markets."
    },
    "direction": "positive",
-   "quality": 76,
+   "quality": 68,
    "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 10,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 6
    },
-   "impact": 8,
+   "impact": 7,
    "s": "fading",
-   "c": "high",
+   "c": "medium",
    "sources": [
     {
      "name": "bloomingbit",
@@ -83,61 +147,27 @@
      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTk5nMWpPNFN1RDV4MGdMT0FweDY3Ynk0VFZpRjdOWlNWekg3bE5xLWxIdTQ3SHhQS2tUU2NwMkJsVUxPRTFtNTBLRnU3eDQ0S3l3LVk4cl9OUkVCQ2laMjRPZ1pkQTUtYmZFcGwxYS1xay16eExySzN1NFE1X2M4UTBxRWVGNUc4Y0I3VTQyRmZ2UQ?oc=5"
     }
    ],
-   "missing": "Exact launch timestamps."
+   "missing": "Exact listing timestamp beyond the day of the announcement"
   },
   {
-   "t": "DATA Network Migrates to Sui",
-   "type": "mainnet",
-   "status": "officially_announced",
-   "event_date": null,
+   "t": "Upbit Lists Reserve Rights",
+   "type": "listing",
+   "status": "completed",
+   "event_date": "2026-10-12",
    "coins": [
-    "SUI"
+    "RSR"
    ],
    "rel": "direct",
-   "b": "DATA Network announced it will migrate to Sui and retire its own chain, backed by a $30 million investment from the Sui Foundation.",
+   "b": "Upbit opened spot trading for Reserve Rights (RSR) in KRW and USDT markets on October 12, 2026.",
    "per": {
-    "SUI": "Receiving DATA Network onto its ecosystem with backing from the Sui Foundation."
-   },
-   "direction": "positive",
-   "quality": 71,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/data-network-to-migrate-to-sui-retire-its-own-chain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Exact migration execution date."
-  },
-  {
-   "t": "Standard Chartered Adds RLUSD Custody and LMAX Link",
-   "type": "partnership",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "XRP"
-   ],
-   "rel": "indirect",
-   "b": "Standard Chartered launched custody for Ripple's RLUSD stablecoin in Dubai and plans a collateral link with LMAX.",
-   "per": {
-    "XRP": "Standard Chartered offers RLUSD custody on the XRP Ledger and enables institutional collateral usage."
+    "RSR": "Spot trading opened on Upbit for KRW and USDT pairs."
    },
    "direction": "positive",
    "quality": 66,
    "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 21,
-    "relevance": 12,
+    "credibility": 8,
+    "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 6
@@ -147,53 +177,11 @@
    "c": "medium",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/10/12/standard-chartered-offers-rlusd-custody-in-dubai-and-plans-lmax-collateral-link"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/standard-chartered-rlusd-custody-lmax-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/380776/standard-chartered-hold-ripple-rlusd-stablecoin-dubai"
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQR2VRUDAwd2h5bmVDN0tFbnB4VUVJVFdPcmdCNGUyY3JSeGlKbENDS01nUHhTbWZMZTV3MzlCcmU1VDJDUzFmSUpUYmdVNURYQjlsOXRBMFdVbzBiMXdNWGJFbm5hMzZTSmpnUHJZaGRLMEhrOXVMU2tTckRvYk5XRTVUcWx6dzBjTUFwVEdCVUdmMloyX2lEV0k1Nm9JQkdKWnFWRkVXUnhvUHo1UjFTdE5RNFdOT1V3ZW5TUk9LRVBPcXNzOUtpU0VZNC1JRU90a1ZwTFZPc3V2Y0k?oc=5"
     }
    ],
-   "missing": "Launch date for the LMAX collateral link."
-  },
-  {
-   "t": "Strategy Buys 250 Bitcoin",
-   "type": "treasury",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Strategy added 250 Bitcoin to its balance sheet, bringing its total holdings to 848,250 BTC alongside a $4.88 billion cash reserve.",
-   "per": {
-    "BTC": "Treasury holdings increased to 848,250 BTC."
-   },
-   "direction": "positive",
-   "quality": 60,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 7,
-    "timing": 6
-   },
-   "impact": 6,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/michael-saylor-strategy-250-btc-buy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Average purchase price per bitcoin."
+   "missing": "Initial trading volume figures"
   }
  ]
 }
