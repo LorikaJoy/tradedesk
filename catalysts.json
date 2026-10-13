@@ -1,24 +1,66 @@
 {
- "updated": "2026-10-13T07:28:26.152214+00:00",
+ "updated": "2026-10-13T15:13:35.190540+00:00",
  "cards": [
   {
-   "t": "Binance Lists RWUSD with Zero Fee Promotion",
-   "type": "listing",
+   "t": "Blur Marketplace to Shut Down",
+   "type": "other",
    "status": "confirmed_upcoming",
-   "event_date": null,
+   "event_date": "2026-11-12",
    "coins": [
-    "RWUSD"
+    "BLUR"
    ],
    "rel": "direct",
-   "b": "Binance announced it will list RWUSD and introduce a zero trading fee promotion for the asset.",
+   "b": "The NFT marketplace Blur is scheduled to shut down its website on November 12, 2026, following a 99% collapse in trading volumes.",
    "per": {
-    "RWUSD": "Token will be listed on Binance alongside a zero trading fee promotion."
+    "BLUR": "The project will cease operations on November 12."
+   },
+   "direction": "negative",
+   "quality": 94,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/13/once-largest-ethereum-nft-marketplace-blur-is-shutting-down-after-volumes-collapse-99"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/blur-is-shutting-down-its-website-so-why-are-nft-collectors-cheering?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "N/A"
+  },
+  {
+   "t": "Russia's Sberbank Crypto Trading Launch",
+   "type": "mainnet",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-12-01",
+   "coins": [
+    "BTC",
+    "ETH",
+    "USDT"
+   ],
+   "rel": "direct",
+   "b": "Sberbank has received approval to offer crypto trading to all clients starting December 1, 2026.",
+   "per": {
+    "BTC": "Trading access opens to all clients on Dec 1.",
+    "ETH": "Trading access opens to all clients on Dec 1.",
+    "USDT": "Trading access opens to all clients on Dec 1."
    },
    "direction": "positive",
-   "quality": 92,
+   "quality": 88,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 25,
+    "credibility": 21,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -29,30 +71,76 @@
    "c": "high",
    "sources": [
     {
-     "name": "Binance",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQektSaXZqR2NXakRjam5od0NTQkptQU5wUG12SHRWRXZGQ2dXZG9SNnNxWnZyVWtad3BLNWVmRi1YcWJfVG4tQ2FWb3I0Ym83dElEME1UZmxFdGNfcTYzMWJRbFg0NzU1NGVub1hRazgzOUlZNHVQaG5qeHdSZTBPbEdjeVE0QVFGR1VsUi1GbHA?oc=5"
+     "name": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWV91ODVFOERrRlRXVXBWUzFaSFJlblg2Q2ZoVzBpbjNaa1lYUjlFVC1jeWtVTlRyZ0tOTmh5UHlxejhmUFhYX3RVSDhoSGQ1WGZOVXN5NUNFVnQ4bWFiS1NjUnNaSVZoUU1WS0kxV2FEeng5VWtpR0JfaWhZZkgtR0pWUU9BczlJc095a3ZZeGZxSFpxT0Z6WmE4WVlaSjVQWGFLRlRqTGtBTW1TX1p2QzI3QTVLZEk1YUQyV0NhUDRtNFVkV0VldWpodFJ5QW0zbVF5cWpYalJvZHlQVUZreEZmT2lWWjRj?oc=5"
+    },
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/13/russia-s-largest-bank-sberbank-secures-approval-to-trade-crypto"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/sberbank-russia-crypto-trading-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact launch date and time"
+   "missing": "N/A"
   },
   {
-   "t": "DATA Network Migrates to Sui",
-   "type": "mainnet",
-   "status": "officially_announced",
-   "event_date": null,
+   "t": "Binance to Shut Down Mining Pool",
+   "type": "other",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-11-10",
    "coins": [
-    "SUI"
+    "BTC"
    ],
    "rel": "direct",
-   "b": "DATA Network announced plans to migrate its network to Sui and retire its own chain, backed by a $30 million investment from the Sui Foundation.",
+   "b": "Binance will discontinue its mining pool services on November 10, 2026, and has instructed users to migrate to alternative pools.",
    "per": {
-    "SUI": "Receiving DATA Network migration supported by a $30M Sui Foundation investment."
+    "BTC": "Miners must relocate their operations before the November 10 shutdown."
+   },
+   "direction": "negative",
+   "quality": 86,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Altcoin Buzz",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQnZSdFlWWXNTc0tSMm1LZXRxX2gwTzI5YmRpT3A3QkxHVnA4MWk3UDJvWkRsMkMtZC1yM1EwcXRYQmJ4cWxVdEVxT2VoZ0xpclQydFFzRzlTZXF4ZTA2ZHFWS3B3WlVqT2xERC1mQnFoN0FBMGxpVFZrN0lnMmhkdnhCMmFnUmRRVEdDM2NMZlc?oc=5"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/binance-shut-down-crypto-mining-pool-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "N/A"
+  },
+  {
+   "t": "Hong Kong Spot Solana ETF Debut",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-13",
+   "coins": [
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "Pando Finance is launching the second spot Solana ETF in Hong Kong on October 13 with a 0.6% fee.",
+   "per": {
+    "SOL": "New spot ETF debut in Hong Kong."
    },
    "direction": "positive",
-   "quality": 84,
+   "quality": 77,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 10,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -63,125 +151,97 @@
    "c": "high",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/data-network-to-migrate-to-sui-retire-its-own-chain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Exact migration date"
-  },
-  {
-   "t": "Pando Finance Launches Hong Kong Spot Solana ETF",
-   "type": "etf",
-   "status": "completed",
-   "event_date": "2026-10-13",
-   "coins": [
-    "SOL"
-   ],
-   "rel": "direct",
-   "b": "Pando Finance launched Hong Kong's second spot Solana ETF on the Hong Kong Stock Exchange on October 13, undercutting competitors with a 0.6% fee.",
-   "per": {
-    "SOL": "Pando Finance launched its spot Solana ETF on the HKEX."
-   },
-   "direction": "positive",
-   "quality": 78,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "BigGo Finance",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1mdUx5N2xFci0xQl9IYWIyNk1mMGNrNlVhQnV6OHdsWkJ6cVhzLTZ2TGJtYTVodWxYNEFNY0NaUThMenhVQVZXbzZUMHpiX1I0SHJqY1dSZmRBVkZrajZ5Wll3M3F3QzNad2h1TGtfMlQtMmdZc2c?oc=5"
-    },
-    {
      "name": "CoinGape",
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUVJXcml2WF9kano3QWtQTjBJdGxUYktlTzlNUGtYOGZSZllfOVIxLUtvRHJscGdEUGFralJyQ3U5NjRFNnRCTTllaXdHLUIxRGdpU2hxby1RUlJNcDdVeWdUdm1Oc1B0X1BRdHhUemlyOFZDbVBCUnBmM08tcjh5UFhWeFp5ZnJRMVVXOTluZ0tENUVDVHIwTzJDeG0waVIxQjQwN21naVZldm0yV2k4?oc=5"
     },
     {
-     "name": "NameCoinNews",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9SeTRFM1dkVlVaNU84bERjNzIzbkNyZllEM1l1MUZSNTJ1SGc5eFQ4U2lKVU9qTUo5dGJpOUZMNkZza3pnb0p5dHpyUXBIVk40VjhiN01nc3FHaUNqeTlTUVhqc3FhZVZGRkJDNk5hRl9HNGpnN2tHbkUyMA?oc=5"
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1mdUx5N2xFci0xQl9IYWIyNk1mMGNrNlVhQnV6OHdsWkJ6cVhzLTZ2TGJtYTVodWxYNEFNY0NaUThMenhVQVZXbzZUMHpiX1I0SHJqY1dSZmRBVkZrajZ5Wll3M3F3QzNad2h1TGtfMlQtMmdZc2c?oc=5"
     }
    ],
-   "missing": "Total initial capital inflows"
+   "missing": "N/A"
   },
   {
-   "t": "Upbit Lists Gitcoin",
-   "type": "listing",
-   "status": "completed",
+   "t": "Aptos Encrypted Mempool Rollout",
+   "type": "mainnet",
+   "status": "ongoing",
    "event_date": null,
    "coins": [
-    "GTC"
+    "APT"
    ],
    "rel": "direct",
-   "b": "Upbit announced spot market listings for Gitcoin (GTC) in KRW and USDT markets, causing the price to jump over 90% as trading opened.",
+   "b": "Aptos has introduced an encrypted mempool feature to prevent sandwich attacks and frontrunning by hiding transaction details until finalization.",
    "per": {
-    "GTC": "Upbit listed GTC in KRW and USDT markets."
+    "APT": "New feature improves security against frontrunning."
    },
    "direction": "positive",
-   "quality": 68,
-   "label": "COMPLETED CATALYST",
+   "quality": 74,
+   "label": "MODERATE CATALYST",
    "parts": {
-    "credibility": 10,
+    "credibility": 17,
     "relevance": 25,
-    "impact": 12,
+    "impact": 5,
     "novelty": 15,
-    "timing": 6
+    "timing": 12
    },
    "impact": 7,
-   "s": "fading",
+   "s": "building",
    "c": "medium",
    "sources": [
     {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83Q3lGcWJIVUpHWV9rMzc5bldYaWdJcEEzQXM0UXRuX3JxRFpfaXlPSFUwVk5VenlsTFpMaDNGcVdrQWdKRWQyUjQyZ2FkQWY4ZktXdg?oc=5"
-    },
-    {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTk5nMWpPNFN1RDV4MGdMT0FweDY3Ynk0VFZpRjdOWlNWekg3bE5xLWxIdTQ3SHhQS2tUU2NwMkJsVUxPRTFtNTBLRnU3eDQ0S3l3LVk4cl9OUkVCQ2laMjRPZ1pkQTUtYmZFcGwxYS1xay16eExySzN1NFE1X2M4UTBxRWVGNUc4Y0I3VTQyRmZ2UQ?oc=5"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/aptos-rolls-out-encrypted-mempool-to-curb-frontrunning-sandwich-attacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact listing timestamp beyond the day of the announcement"
+   "missing": "N/A"
   },
   {
-   "t": "Upbit Lists Reserve Rights",
-   "type": "listing",
-   "status": "completed",
-   "event_date": "2026-10-12",
+   "t": "Thailand Bitcoin and Ether ETF Approval",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-16",
    "coins": [
-    "RSR"
+    "BTC",
+    "ETH"
    ],
    "rel": "direct",
-   "b": "Upbit opened spot trading for Reserve Rights (RSR) in KRW and USDT markets on October 12, 2026.",
+   "b": "Thailand has approved the creation and trading of Bitcoin and Ethereum ETFs on its stock exchange, with launch scheduled for October 16.",
    "per": {
-    "RSR": "Spot trading opened on Upbit for KRW and USDT pairs."
+    "BTC": "ETFs launching on the Thai stock exchange.",
+    "ETH": "ETFs launching on the Thai stock exchange."
    },
    "direction": "positive",
    "quality": 66,
-   "label": "COMPLETED CATALYST",
+   "label": "MODERATE CATALYST",
    "parts": {
-    "credibility": 8,
-    "relevance": 25,
+    "credibility": 12,
+    "relevance": 12,
     "impact": 12,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
    "impact": 7,
-   "s": "fading",
+   "s": "building",
    "c": "medium",
    "sources": [
     {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQR2VRUDAwd2h5bmVDN0tFbnB4VUVJVFdPcmdCNGUyY3JSeGlKbENDS01nUHhTbWZMZTV3MzlCcmU1VDJDUzFmSUpUYmdVNURYQjlsOXRBMFdVbzBiMXdNWGJFbm5hMzZTSmpnUHJZaGRLMEhrOXVMU2tTckRvYk5XRTVUcWx6dzBjTUFwVEdCVUdmMloyX2lEV0k1Nm9JQkdKWnFWRkVXUnhvUHo1UjFTdE5RNFdOT1V3ZW5TUk9LRVBPcXNzOUtpU0VZNC1JRU90a1ZwTFZPc3V2Y0k?oc=5"
+     "name": "Coin Gabbar",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdVA0NU1sTWc1TU10WDJPeEJFdUVPSTFRNnlGdGJDaVNCVHY1TS1zeUdwNVZYUkZFRld4UE5hb2l1YWFUNVRLX3RmVnBfMVVVWWVFTWZ0d1ozcW5WMkJCS29uNzZseE5NamRKRGlzSklDNnpzaDU2ZTRhSnhLeGoyN2pBeWgwSmR4UjJ5OGp5dlM?oc=5"
+    },
+    {
+     "name": "The Paypers",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeXhFd3dpdjJBbVZqQ1ZZM1RJeXgwTGh0allTRnN4U0xDSWZMNkp4N1FWLXN1WGxaNkR6MEZ1S3A4OFNUTkRUSXZoWU5WX3ZrSkl4YXdMQ2o0dENNQzlXTlIxeVpSazkzbnRXUUFUb1lhWVd1UmlkUTdQOXFXX3VQaUd4dVRULXBibWJBQVNnOWUtNS1xMVNTZkdGRDdNYXhOMS0weGxzTVVUbXU0SVgxSkZ5WXE?oc=5"
+    },
+    {
+     "name": "UA.NEWS",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVWFUTE9ud2ttekxYNE1faWMwSUJUVXl1WGFjNDZ3WnktcTVjNEprRVhINllJQnBIdDdlRU9UTTllazhaczFnWlNsajdqenZXNTlycTF5REFrbHc5OFRmdHRPeXFJZzJzeU9Da1VZZnI2RTRQZ213VmRWa2dHZGNRTzA1a0c1ZFFTLWkwX2hXODluc2RoTnRkVlFYRkRKbjZVS0ZCaQ?oc=5"
+    },
+    {
+     "name": "openPR.com",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZXdIVmtLeG9RS1dXLTRoSzBtS1JBNnRfbkJ1Tm5Sb0JRVVp0aUdhaTZwSjFzeTc0NmQwTTVsLUt2WXNuM0ljZEFWVmQxckl0S2Jxb0ZqdEFwOTFOcHJTa0FhWFpFUXlDU05Sa3d1RE1VbjdvSHdlQU9rcDBXYjNWNXd3dkVLb0ZsZ1hNYmt5WTZBdw?oc=5"
     }
    ],
-   "missing": "Initial trading volume figures"
+   "missing": "N/A"
   }
  ]
 }
