@@ -1,96 +1,18 @@
 {
- "updated": "2026-10-12T18:32:49.211038+00:00",
+ "updated": "2026-10-13T00:58:37.059294+00:00",
  "cards": [
   {
-   "t": "DATA Network Migrates to Sui Blockchain",
-   "type": "mainnet",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "SUI"
-   ],
-   "rel": "direct",
-   "b": "DATA Network is migrating its infrastructure to the Sui blockchain, retiring its own chain backed by a $30 million investment from the Sui Foundation.",
-   "per": {
-    "SUI": "Receives network expansion backed by a $30 million investment."
-   },
-   "direction": "positive",
-   "quality": 84,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/data-network-to-migrate-to-sui-retire-its-own-chain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "The exact execution date of the migration."
-  },
-  {
-   "t": "Evernorth Launches Pure-Play XRP Treasury on Nasdaq",
-   "type": "treasury",
-   "status": "completed",
-   "event_date": "2026-10-12",
-   "coins": [
-    "XRP"
-   ],
-   "rel": "direct",
-   "b": "Evernorth's XRPN shares began trading on Nasdaq following a SPAC merger, holding 473 million XRP after 80% of SPAC investors cashed out.",
-   "per": {
-    "XRP": "Treasury shares trade on Nasdaq under ticker XRPN."
-   },
-   "direction": "mixed",
-   "quality": 79,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "StreetInsider",
-     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNUEJYMFc1Y1N6UzJreTVGTVNFOXJNcm1uSVotRGp2N2VQY2ZId2ZPZS1NcC1QOWZ5ZzNSQzh3OFlxSjR0NFVrRWRtM181c1RQMVBETGZoUjRlbzhOQ2tELXRwNnh0N1dLWFlNN3lFQUl6ZGN3R2Ztc3VSX3JRUDZVeFRCcnlqVE1CamxObUFTYndzUnMtYVdwU0daZVB1ZWR3cUl2R0dmenY3RzNLWWk4RlpGbEJKaGlNVThIRmQxekhsbjJyVjRZMlNEeC1HWHgtdkphVjA1Y19sMlVGMm8xeHl3?oc=5"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/xrp-treasury-evernorth-rise-nasdaq-opening?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/380728/ripple-backed-evernorth-hits-nasdaq-holding-473-million-xrp"
-    }
-   ],
-   "missing": "Full long-term valuation details of the treasury relative to market price."
-  },
-  {
-   "t": "Upbit Lists Reserve Rights (RSR) and Gitcoin (GTC)",
+   "t": "Upbit Lists Reserve Rights (RSR)",
    "type": "listing",
    "status": "completed",
    "event_date": "2026-10-12",
    "coins": [
-    "RSR",
-    "GTC"
+    "RSR"
    ],
    "rel": "direct",
-   "b": "Upbit has officially opened spot trading pairs in KRW and USDT for Reserve Rights (RSR) and Gitcoin (GTC), leading to significant price surges.",
+   "b": "Upbit has listed Reserve Rights (RSR) for trading in KRW and USDT spot markets, causing a sharp price surge.",
    "per": {
-    "RSR": "Surged 66% following Upbit's KRW and USDT listing news.",
-    "GTC": "Rallied up to 93% as trading opened on Upbit."
+    "RSR": "Spot trading opened on Upbit in KRW and USDT markets on October 12, 2026."
    },
    "direction": "positive",
    "quality": 78,
@@ -115,35 +37,107 @@
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV295dUIxU2xSR0hPaU16X0FYajJqbzFmTmVYQ2VtV2c5cVY3U3hhWmdyd2l0Yy0yd29KSmJBUXBOeHE4cG5RQVlkT0JyTjFlcURfUzZjRmlUMEpFalFtLTRWZ0pWakhMNEktYV9WQm13Y3R0VmU4M3VFQXpVLTh1R1VOVjZiZWtPLTdTeEhGVXFFWHVWVElNNEJScU5ZMW10eVg2cg?oc=5"
     },
     {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPV3FmWnE0N09YeXg5RURLVTdMUU56TVZPVE1NcnVvTWN0VFdSVWY2ajVfWU9WVTJPU0NGMnVJcnZDSU1WZ2Mzd3QyVXFXbkdjOEJPNmw3OEFaX3kxOWU5M3VPYjlyT3JXRjB4SjlqeWZqSlFpaGdCamlyQi1WNTNJek42SDdCZw?oc=5"
+    },
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQR2VRUDAwd2h5bmVDN0tFbnB4VUVJVFdPcmdCNGUyY3JSeGlKbENDS01nUHhTbWZMZTV3MzlCcmU1VDJDUzFmSUpUYmdVNURYQjlsOXRBMFdVbzBiMXdNWGJFbm5hMzZTSmpnUHJZaGRLMEhrOXVMU2tTckRvYk5XRTVUcWx6dzBjTUFwVEdCVUdmMloyX2lEV0k1Nm9JQkdKWnFWRkVXUnhvUHo1UjFTdE5RNFdOT1V3ZW5TUk9LRVBPcXNzOUtpU0VZNC1JRU90a1ZwTFZPc3V2Y0k?oc=5"
+    }
+   ],
+   "missing": "Initial trading volume figures post-listing."
+  },
+  {
+   "t": "Upbit Lists Gitcoin (GTC)",
+   "type": "listing",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "GTC"
+   ],
+   "rel": "direct",
+   "b": "Gitcoin jumped after Upbit announced a KRW and USDT market listing for GTC.",
+   "per": {
+    "GTC": "Listed on Upbit with KRW and USDT trading pairs."
+   },
+   "direction": "positive",
+   "quality": 76,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 10,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
      "name": "bloomingbit",
      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83Q3lGcWJIVUpHWV9rMzc5bldYaWdJcEEzQXM0UXRuX3JxRFpfaXlPSFUwVk5VenlsTFpMaDNGcVdrQWdKRWQyUjQyZ2FkQWY4ZktXdg?oc=5"
     },
     {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPV3FmWnE0N09YeXg5RURLVTdMUU56TVZPVE1NcnVvTWN0VFdSVWY2ajVfWU9WVTJPU0NGMnVJcnZDSU1WZ2Mzd3QyVXFXbkdjOEJPNmw3OEFaX3kxOWU5M3VPYjlyT3JXRjB4SjlqeWZqSlFpaGdCamlyQi1WNTNJek42SDdCZw?oc=5"
+     "name": "Coin Gabbar",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTk5nMWpPNFN1RDV4MGdMT0FweDY3Ynk0VFZpRjdOWlNWekg3bE5xLWxIdTQ3SHhQS2tUU2NwMkJsVUxPRTFtNTBLRnU3eDQ0S3l3LVk4cl9OUkVCQ2laMjRPZ1pkQTUtYmZFcGwxYS1xay16eExySzN1NFE1X2M4UTBxRWVGNUc4Y0I3VTQyRmZ2UQ?oc=5"
     }
    ],
-   "missing": "Exact trading volumes and order book depth after initial launch."
+   "missing": "Exact launch timestamps."
   },
   {
-   "t": "Pando Finance Launches Second Spot Solana ETF on HKEX",
-   "type": "etf",
-   "status": "completed",
-   "event_date": "2026-10-13",
+   "t": "DATA Network Migrates to Sui",
+   "type": "mainnet",
+   "status": "officially_announced",
+   "event_date": null,
    "coins": [
-    "SOL"
+    "SUI"
    ],
    "rel": "direct",
-   "b": "Pando Finance has launched Hong Kong's second spot Solana ETF on the HKEX with a lower 0.6% fee undercutting ChinaAMC.",
+   "b": "DATA Network announced it will migrate to Sui and retire its own chain, backed by a $30 million investment from the Sui Foundation.",
    "per": {
-    "SOL": "Provides direct institutional exposure via HKEX listing code 2831.HK."
+    "SUI": "Receiving DATA Network onto its ecosystem with backing from the Sui Foundation."
    },
    "direction": "positive",
-   "quality": 70,
+   "quality": 71,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/data-network-to-migrate-to-sui-retire-its-own-chain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Exact migration execution date."
+  },
+  {
+   "t": "Standard Chartered Adds RLUSD Custody and LMAX Link",
+   "type": "partnership",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "XRP"
+   ],
+   "rel": "indirect",
+   "b": "Standard Chartered launched custody for Ripple's RLUSD stablecoin in Dubai and plans a collateral link with LMAX.",
+   "per": {
+    "XRP": "Standard Chartered offers RLUSD custody on the XRP Ledger and enables institutional collateral usage."
+   },
+   "direction": "positive",
+   "quality": 66,
    "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 12,
-    "relevance": 25,
+    "credibility": 21,
+    "relevance": 12,
     "impact": 12,
     "novelty": 15,
     "timing": 6
@@ -153,57 +147,53 @@
    "c": "medium",
    "sources": [
     {
-     "name": "Crypto News",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOajZDUTRaY1FQSlNlZDlvY2pkWFFMN1o0eEFDWGhpNlpRYlhjOXpDNGZsTHVibVo0d0RISFNBSElHMzVGOHE4SWc1dWplWjJ2RF9BeTd1c3NwQkIyNlpPNFFKdzVWc1cwOTN2ZG5hemF5ZEp3ZDlVcVhfV1NiQzcwcjRvSEFUWWRTRVBjYg?oc=5"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/12/standard-chartered-offers-rlusd-custody-in-dubai-and-plans-lmax-collateral-link"
     },
     {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRUpFX3dxRmppZHB5M3o1Tl9xTklTdnRET0JWWFZDZWwwclFhR1kwVVdZNFlDeFlRUl9nWUFRMmNSQ04wcXhHRC1vamlFZ1BtNUpEVjljQnBxb0dJTUYwVkxqcm1fbjVvdkZIOUNUc180ZzhTTkdpU2xyUUxHeGZpelpnTQ?oc=5"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/standard-chartered-rlusd-custody-lmax-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-     "name": "The Cryptonomist",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1XVksxUUNsUHoxRzhWQkNpbDJPd1lzemdXNWtGckpLUG1xRUFYTXU0UHZwZ2E4bU5nMWo4dDNTX0pGWl9uNFliUUE2RkNqZlJNU3RvWUc5VzM0X0R3c3phVWVSNHJsLUFtOUNB?oc=5"
-    },
-    {
-     "name": "CoinGape",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUVJXcml2WF9kano3QWtQTjBJdGxUYktlTzlNUGtYOGZSZllfOVIxLUtvRHJscGdEUGFralJyQ3U5NjRFNnRCTTllaXdHLUIxRGdpU2hxby1RUlJNcDdVeWdUdm1Oc1B0X1BRdHhUemlyOFZDbVBCUnBmM08tcjh5UFhWeFp5ZnJRMVVXOTluZ0tENUVDVHIwTzJDeG0waVIxQjQwN21naVZldm0yV2k4?oc=5"
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/380776/standard-chartered-hold-ripple-rlusd-stablecoin-dubai"
     }
    ],
-   "missing": "First-day inflow and volume figures."
+   "missing": "Launch date for the LMAX collateral link."
   },
   {
-   "t": "MEXC Removes RON/USDT Futures",
-   "type": "delisting",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-14",
+   "t": "Strategy Buys 250 Bitcoin",
+   "type": "treasury",
+   "status": "completed",
+   "event_date": null,
    "coins": [
-    "RON"
+    "BTC"
    ],
    "rel": "direct",
-   "b": "MEXC announced it will remove the RON/USDT futures contract on October 14.",
+   "b": "Strategy added 250 Bitcoin to its balance sheet, bringing its total holdings to 848,250 BTC alongside a $4.88 billion cash reserve.",
    "per": {
-    "RON": "Futures contract will be delisted on MEXC."
+    "BTC": "Treasury holdings increased to 848,250 BTC."
    },
-   "direction": "negative",
-   "quality": 68,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 60,
+   "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 17,
     "relevance": 25,
     "impact": 5,
-    "novelty": 15,
-    "timing": 15
+    "novelty": 7,
+    "timing": 6
    },
-   "impact": 7,
-   "s": "building",
+   "impact": 6,
+   "s": "fading",
    "c": "medium",
    "sources": [
     {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZWpMY0EwOGtERVVvcmJQb3UzTUJuZmR5c0xVbllXSVppZE91c0d5c3BHTDhMMktmSWM5dUo2SDNwS1hHX0J1QmdKbV94WXVyRDZUdlVOUVZCU244RWpWb19vSnlJUC1hZUhDblVqdHdkb3c4RW5lUEFUWlpoN3RXQlRpQnM?oc=5"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/michael-saylor-strategy-250-btc-buy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Reasons for the futures delisting."
+   "missing": "Average purchase price per bitcoin."
   }
  ]
 }
