@@ -1,52 +1,18 @@
 {
- "updated": "2026-10-13T20:41:48.104752+00:00",
+ "updated": "2026-10-13T23:54:55.266494+00:00",
  "cards": [
   {
-   "t": "Binance to List RWUSD with Zero Fee Promotion",
-   "type": "listing",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "RWUSD"
-   ],
-   "rel": "direct",
-   "b": "Binance has officially announced that it will list RWUSD and introduce a zero trading fee promotion for the asset.",
-   "per": {
-    "RWUSD": "Will be listed on Binance accompanied by a zero trading fee promotion."
-   },
-   "direction": "positive",
-   "quality": 100,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 25,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 10,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Binance",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQektSaXZqR2NXakRjam5od0NTQkptQU5wUG12SHRWRXZGQ2dXZG9SNnNxWnZyVWtad3BLNWVmRi1YcWJfVG4tQ2FWb3I0Ym83dElEME1UZmxFdGNfcTYzMWJRbFg0NzU1NGVub1hRazgzOUlZNHVQaG5qeHdSZTBPbEdjeVE0QVFGR1VsUi1GbHA?oc=5"
-    }
-   ],
-   "missing": "Exact listing time and date"
-  },
-  {
-   "t": "Blur Website Closure",
-   "type": "delisting",
+   "t": "Blur to Shut Down Website on November 12",
+   "type": "other",
    "status": "confirmed_upcoming",
    "event_date": "2026-11-12",
    "coins": [
     "BLUR"
    ],
    "rel": "direct",
-   "b": "NFT marketplace Blur announced it will close its website on November 12, 2026, following a severe volume collapse and a suspension of deposits by Upbit.",
+   "b": "The NFT marketplace Blur is shutting down its website on November 12 after trading volumes collapsed by 99% from its peak. Upbit also suspended Blur deposits after flagging the token for review.",
    "per": {
-    "BLUR": "Trading and platform operations face termination as the website shuts down on November 12."
+    "BLUR": "Website shutdown and deposit suspension create severe headwinds for the token."
    },
    "direction": "negative",
    "quality": 96,
@@ -75,45 +41,45 @@
      "url": "https://www.coindesk.com/tech/2026/10/13/once-largest-ethereum-nft-marketplace-blur-is-shutting-down-after-volumes-collapse-99"
     }
    ],
-   "missing": "Final token utility plans post-closure"
+   "missing": "Details on token migration or ultimate fate of user funds beyond the website closure."
   },
   {
-   "t": "ENS DAO Upgrade Proposal",
-   "type": "mainnet",
-   "status": "officially_announced",
+   "t": "Binance Lists RWUSD with Zero Fee Promotion",
+   "type": "listing",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "ENS"
+    "RWUSD"
    ],
    "rel": "direct",
-   "b": "ENS is seeking DAO approval to activate an upgraded Ethereum naming system, which will temporarily pause new .eth registrations during the transition.",
+   "b": "Binance announced it will list RWUSD and launch a zero trading fee promotion for the token.",
    "per": {
-    "ENS": "Will experience a temporary pause in new registrations while existing domain holders can renew normally."
+    "RWUSD": "Binance listing and zero fee promotion will increase accessibility and trading volume."
    },
    "direction": "positive",
-   "quality": 77,
+   "quality": 92,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 25,
     "relevance": 25,
-    "impact": 5,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/ens-dao-ensv2-upgrade-eth-domain-registrations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "Binance",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQektSaXZqR2NXakRjam5od0NTQkptQU5wUG12SHRWRXZGQ2dXZG9SNnNxWnZyVWtad3BLNWVmRi1YcWJfVG4tQ2FWb3I0Ym83dElEME1UZmxFdGNfcTYzMWJRbFg0NzU1NGVub1hRazgzOUlZNHVQaG5qeHdSZTBPbEdjeVE0QVFGR1VsUi1GbHA?oc=5"
     }
    ],
-   "missing": "Voting completion date"
+   "missing": "Exact listing date and time."
   },
   {
-   "t": "Sberbank Crypto Trading Launch in Russia",
-   "type": "mainnet",
+   "t": "Sberbank Secures Approval for December Crypto Trading Launch in Russia",
+   "type": "regulation",
    "status": "confirmed_upcoming",
    "event_date": "2026-12-01",
    "coins": [
@@ -122,11 +88,11 @@
     "USDT"
    ],
    "rel": "direct",
-   "b": "Russia's largest bank, Sberbank, secured regulatory approval and set a December 1 launch date to open crypto trading for all clients, currently testing trades in its app.",
+   "b": "Russia's largest bank, Sberbank, secured regulatory approval and set a date of December 1 to open crypto trading for all clients, having already tested BTC, ETH, and USDT trades in its app.",
    "per": {
-    "BTC": "Will be available for trading to all Sberbank clients starting December 1.",
-    "ETH": "Will be available for trading to all Sberbank clients starting December 1.",
-    "USDT": "Will be available for trading to all Sberbank clients starting December 1."
+    "BTC": "Opening to all clients on Russia's largest bank expands regulated access.",
+    "ETH": "Opening to all clients on Russia's largest bank expands regulated access.",
+    "USDT": "Opening to all clients on Russia's largest bank expands regulated access."
    },
    "direction": "positive",
    "quality": 75,
@@ -155,41 +121,41 @@
      "url": "https://cointelegraph.com/news/sberbank-russia-crypto-trading-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Specific regulatory limitations on trading pairs"
+   "missing": "Specific trading pairs and technical integration steps."
   },
   {
-   "t": "Metaplanet Convertible Bond Issuance",
-   "type": "funding",
-   "status": "officially_announced",
+   "t": "Strive Raises $500M via New Preferred Share Class to Buy Bitcoin",
+   "type": "treasury",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
     "BTC"
    ],
    "rel": "indirect",
-   "b": "Metaplanet plans to issue $329 million in zero-interest convertible bonds with a five-year maturity to restructure debt and fund share buybacks without selling its Bitcoin holdings.",
+   "b": "Strive is raising $500 million to purchase additional Bitcoin by introducing a new preferred share class offering a fixed 15% dividend yield at par.",
    "per": {
-    "BTC": "Company holdings remain secure as debt restructuring replaces Bitcoin-collateralized loans."
+    "BTC": "Capital raise specifically targeted at acquiring more Bitcoin for the corporate treasury."
    },
    "direction": "positive",
-   "quality": 64,
+   "quality": 71,
    "label": "MODERATE CATALYST",
    "parts": {
     "credibility": 17,
     "relevance": 12,
-    "impact": 5,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 6,
+   "impact": 7,
    "s": "building",
    "c": "medium",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/metaplanet-329m-convertible-bonds-pay-debt-share-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/13/strive-to-ipo-second-preferred-share-class-as-it-looks-to-further-build-bitcoin-treasury"
     }
    ],
-   "missing": "Exact issuance date"
+   "missing": "The timeline for completing the capital raise and subsequent Bitcoin purchases."
   }
  ]
 }
