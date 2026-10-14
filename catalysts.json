@@ -1,24 +1,24 @@
 {
- "updated": "2026-10-14T03:07:29.461775+00:00",
+ "updated": "2026-10-14T08:39:39.289317+00:00",
  "cards": [
   {
-   "t": "Blur Marketplace Website Shutdown",
-   "type": "delisting",
+   "t": "Solana Alpenglow Upgrade",
+   "type": "mainnet",
    "status": "confirmed_upcoming",
-   "event_date": "2025-11-12",
+   "event_date": "2026-10-21",
    "coins": [
-    "BLUR"
+    "SOL"
    ],
    "rel": "direct",
-   "b": "NFT marketplace Blur announced it is shutting down its website on November 12, following a 99% collapse in trading volumes from its 2023 peak. Upbit has already suspended Blur deposits after flagging the token for review.",
+   "b": "Solana has scheduled the Alpenglow upgrade for October 21, targeting 150-millisecond finality and replacing the existing validator voting system.",
    "per": {
-    "BLUR": "Website closure and trading volume collapse threaten token utility and market access."
+    "SOL": "The upgrade targets 150-millisecond finality and removes vote transactions from blocks."
    },
-   "direction": "negative",
-   "quality": 94,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 92,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 17,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
@@ -29,40 +29,80 @@
    "c": "high",
    "sources": [
     {
-     "name": "CryptoTicker",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ZMkNHWHB2eUNCeEkxa0NHWkxhTzFFSno5Uk5NQ3ZhZ0JGTFkyWjJ3NGN2eEMwc09ydW5WUVRlWDlMLTZzWTZRMUdndUJUMG1uWEUwR0o0RUV3aFQ3OGloMGZhcw?oc=5"
-    },
-    {
      "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/13/once-largest-ethereum-nft-marketplace-blur-is-shutting-down-after-volumes-collapse-99"
+     "url": "https://www.coindesk.com/tech/2026/10/14/solana-sets-oct-21-for-alpenglow-upgrade-targeting-150-millisecond-finality"
     }
    ],
-   "missing": "Exact time of the website closure on November 12."
+   "missing": "Exact block height or time of the upgrade."
   },
   {
-   "t": "Sberbank Crypto Trading Launch",
+   "t": "Binance Delists QUICK and EPIC",
+   "type": "delisting",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-28",
+   "coins": [
+    "QUICK",
+    "EPIC"
+   ],
+   "rel": "direct",
+   "b": "Binance has announced the delisting of QUICK and EPIC tokens scheduled for October 28, 2026.",
+   "per": {
+    "QUICK": "Binance delisting sent QUICK down 20%.",
+    "EPIC": "Binance delisting sent EPIC down 11%."
+   },
+   "direction": "negative",
+   "quality": 87,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "BeInCrypto",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5DUXhob3A1d0ZkSkNmVkcwSHAzX0VYTkI1dUVfSDNDWmlsYmRmZ1RocWZteDNreE03dGZtVGcwZXRERnRuU3pya3NDemRCa3RhV09UaDFwRlRBVTFHLUV0YVBPYWFqcFIybUcw?oc=5"
+    },
+    {
+     "name": "Crypto News",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5zSTZKM3ZublNuaFZrX2hraVE0RmtRcmNMV3FuNlVYMGpZYWtFaGpVMVZHZVJWcW1NelUya0t3eFpoMFYzNV81X2xjX1l0OTBGTEZEbFhyNU9sU3hOdHVjMG1OQlpmTmdsNlpwVlFFekZncHFIMzVWY284Yw?oc=5"
+    },
+    {
+     "name": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9nbVVUMl9yamF3OUtrdERncURhM0NpMjZrcFFOQWZVSnd2eW05OTVBUm16VUxwRnpTbC1xRHNIbjRFaWpnSjAwaF9JNVJVVzJQblltN19sYXVHWFNOQTBXMGw3SWdNeHBKZHVFMldxdDRRSjlVYkE?oc=5"
+    }
+   ],
+   "missing": "Exact time of the delisting on October 28."
+  },
+  {
+   "t": "Sberbank Crypto Trading Launch in Russia",
    "type": "regulation",
    "status": "confirmed_upcoming",
-   "event_date": "2025-12-01",
+   "event_date": "2026-12-01",
    "coins": [
     "BTC",
     "ETH",
     "USDT"
    ],
    "rel": "direct",
-   "b": "Russia's largest bank, Sberbank, secured regulatory approval and set a December 1 launch date to open crypto trading to all clients, having already tested Bitcoin, Ether, and Tether trades within its mobile app.",
+   "b": "Russia's largest bank, Sberbank, secured approval to trade crypto and plans to open crypto trading to all clients on December 1, supporting BTC, ETH, and USDT.",
    "per": {
-    "BTC": "Gains regulated institutional entry path in Russia.",
-    "ETH": "Gains regulated institutional entry path in Russia.",
-    "USDT": "Gains regulated institutional entry path in Russia."
+    "BTC": "Sberbank is preparing to offer trading for Bitcoin.",
+    "ETH": "Sberbank is preparing to offer trading for Ether.",
+    "USDT": "Sberbank is preparing to offer trading for Tether."
    },
    "direction": "positive",
-   "quality": 83,
+   "quality": 75,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 21,
     "relevance": 12,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
@@ -83,151 +123,51 @@
      "url": "https://cointelegraph.com/news/sberbank-russia-crypto-trading-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Specific trading pairs and liquidity caps for retail users."
+   "missing": "Specific regulatory limitations on trading volumes or user eligibility beyond general access."
   },
   {
-   "t": "South Korea Blocks Unregistered Crypto Platforms",
-   "type": "regulation",
-   "status": "officially_announced",
-   "event_date": null,
+   "t": "Thailand Approves Bitcoin and Ethereum ETFs",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-16",
    "coins": [
-    "KCS"
+    "BTC",
+    "ETH"
    ],
    "rel": "direct",
-   "b": "South Korean regulators have stepped up actions to block access to 27 unregistered crypto exchanges and websites, including KuCoin and Bitmart, warning that local users may experience asset withdrawal difficulties.",
+   "b": "Thailand's stock exchange has approved Bitcoin and Ethereum ETFs for an official launch on October 16, 2026.",
    "per": {
-    "KCS": "Access restrictions in South Korea could impact user liquidity and platform volumes."
+    "BTC": "Approved for ETF launch on the Thai stock exchange on October 16.",
+    "ETH": "Approved for ETF launch on the Thai stock exchange on October 16."
    },
-   "direction": "negative",
-   "quality": 81,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 74,
+   "label": "MODERATE CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 12,
     "relevance": 12,
     "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/policy/2026/10/13/south-korea-blocks-27-crypto-exchanges-including-bitmart-and-kucoin"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/south-korea-moves-to-block-27-crypto-websites-including-kucoin-mexc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Exact timeline for when network-level DNS blocking will take full effect."
-  },
-  {
-   "t": "ENS DAO Upgrade Transition",
-   "type": "mainnet",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "ENS"
-   ],
-   "rel": "direct",
-   "b": "ENS is seeking DAO approval to activate an upgraded Ethereum naming system. New .eth registrations will temporarily pause for hours during the transition while existing domain holders can renew without migrating.",
-   "per": {
-    "ENS": "New name registrations will experience a brief pause during the protocol upgrade."
-   },
-   "direction": "neutral",
-   "quality": 77,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/ens-dao-ensv2-upgrade-eth-domain-registrations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Exact date and time for the governance vote and transition execution."
-  },
-  {
-   "t": "Binance Mining Pool Shutdown",
-   "type": "other",
-   "status": "confirmed_upcoming",
-   "event_date": "2025-11-10",
-   "coins": [
-    "BTC"
-   ],
-   "rel": "indirect",
-   "b": "Binance announced it will permanently shut down its crypto mining pool and related services on November 10, urging miners to migrate their hashrate to alternative providers.",
-   "per": {
-    "BTC": "Miners must redirect their mining operations to other pools ahead of the service termination."
-   },
-   "direction": "negative",
-   "quality": 73,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
    "impact": 7,
    "s": "building",
    "c": "medium",
    "sources": [
     {
-     "name": "Altcoin Buzz",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQnZSdFlWWXNTc0tSMm1LZXRxX2gwTzI5YmRpT3A3QkxHVnA4MWk3UDJvWkRsMkMtZC1yM1EwcXRYQmJ4cWxVdEVxT2VoZ0xpclQydFFzRzlTZXF4ZTA2ZHFWS3B3WlVqT2xERC1mQnFoN0FBMGxpVFZrN0lnMmhkdnhCMmFnUmRRVEdDM2NMZlc?oc=5"
+     "name": "Coin Gabbar",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdVA0NU1sTWc1TU10WDJPeEJFdUVPSTFRNnlGdGJDaVNCVHY1TS1zeUdwNVZYUkZFRld4UE5hb2l1YWFUNVRLX3RmVnBfMVVVWWVFTWZ0d1ozcW5WMkJCS29uNzZseE5NamRKRGlzSklDNnpzaDU2ZTRhSnhLeGoyN2pBeWgwSmR4UjJ5OGp5dlM?oc=5"
     },
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/binance-shut-down-crypto-mining-pool-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Impact on overall network hashrate distribution."
-  },
-  {
-   "t": "Metaplanet Zero-Interest Convertible Bonds Issuance",
-   "type": "funding",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "indirect",
-   "b": "Metaplanet announced plans to issue $329 million in zero-interest convertible bonds with a five-year maturity to restructure its debt and fund share buybacks without selling its Bitcoin reserves.",
-   "per": {
-    "BTC": "Treasury holdings remain protected from forced liquidation as alternative debt financing is utilized."
-   },
-   "direction": "positive",
-   "quality": 71,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
+     "name": "The Paypers",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeXhFd3dpdjJBbVZqQ1ZZM1RJeXgwTGh0allTRnN4U0xDSWZMNkp4N1FWLXN1WGxaNkR6MEZ1S3A4OFNUTkRUSXZoWU5WX3ZrSkl4YXdMQ2o0dENNQzlXTlIxeVpSazkzbnRXUUFUb1lhWVd1UmlkUTdQOXFXX3VQaUd4dVRULXBibWJBQVNnOWUtNS1xMVNTZkdGRDdNYXhOMS0weGxzTVVUbXU0SVgxSkZ5WXE?oc=5"
+    },
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/metaplanet-329m-convertible-bonds-pay-debt-share-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "CoinTrust",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRWtqN0FGb29lUExlc3YwTkpmWVJvNWV4WW9jb1pfSXp2Tld4SnVqLXRCVmdFeFkyTUQyNmNIZEx2WFo2V2pQUHk2b3FnTkE3aVl4b2dWRWctcjhkZ2NTOEN4WGtfRmdnY3ZTVU9CWlllVjJJS0xGbFBXdVpTY05kTi1mUThvREszNUpaMWtFM2xaZC1SNndVYU9RZm5UQmplX2pXUUVR0gGrAUFVX3lxTFB1UU50RnprOXM1OTB0NUtUckZ6RXlVeFExSmMtZnQzNEJzQVVobnlILUZrTjRwZUZpOUhScEJ4MUs2eGx0V2Y5YTF3MWxVdDFEYmJDUHdFWlNQWWtIVC1IS2FXRlZoWVhtTDlsSk4xMHc3WHF4YVR6UXkwc0dWSU1wUE5fR21ZSmxSX0ZuSEwtbnB0cS1SUzBiOEtOaEg5WS1qRFljVXF2VUl2NA?oc=5"
     }
    ],
-   "missing": "Exact issuance date of the convertible bonds."
+   "missing": "Initial assets under management or participating issuers details."
   }
  ]
 }
