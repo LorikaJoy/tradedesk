@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T08:39:39.289317+00:00",
+ "updated": "2026-10-14T14:02:54.090955+00:00",
  "cards": [
   {
    "t": "Solana Alpenglow Upgrade",
@@ -10,9 +10,9 @@
     "SOL"
    ],
    "rel": "direct",
-   "b": "Solana has scheduled the Alpenglow upgrade for October 21, targeting 150-millisecond finality and replacing the existing validator voting system.",
+   "b": "Solana has set October 21 for its Alpenglow upgrade, which targets 150-millisecond finality and replaces the existing validator voting system.",
    "per": {
-    "SOL": "The upgrade targets 150-millisecond finality and removes vote transactions from blocks."
+    "SOL": "The upgrade removes vote transactions from blocks and aims to improve finality speeds."
    },
    "direction": "positive",
    "quality": 92,
@@ -33,22 +33,22 @@
      "url": "https://www.coindesk.com/tech/2026/10/14/solana-sets-oct-21-for-alpenglow-upgrade-targeting-150-millisecond-finality"
     }
    ],
-   "missing": "Exact block height or time of the upgrade."
+   "missing": "Market reaction and whether transaction counts will be artificially affected by vote removal."
   },
   {
-   "t": "Binance Delists QUICK and EPIC",
+   "t": "Binance Delisting of EPIC and QUICK",
    "type": "delisting",
    "status": "confirmed_upcoming",
    "event_date": "2026-10-28",
    "coins": [
-    "QUICK",
-    "EPIC"
+    "EPIC",
+    "QUICK"
    ],
    "rel": "direct",
-   "b": "Binance has announced the delisting of QUICK and EPIC tokens scheduled for October 28, 2026.",
+   "b": "Binance is set to delist EPIC and QUICK, ending spot trading on October 28, which immediately triggered double-digit price drops upon announcement.",
    "per": {
-    "QUICK": "Binance delisting sent QUICK down 20%.",
-    "EPIC": "Binance delisting sent EPIC down 11%."
+    "QUICK": "Fell as much as 20% following the announcement.",
+    "EPIC": "Fell 11% following the announcement."
    },
    "direction": "negative",
    "quality": 87,
@@ -65,22 +65,22 @@
    "c": "high",
    "sources": [
     {
+     "name": "Altcoin Buzz",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTlhLaGFyclFzay01R3EzZHFJeVZJTWJxOWdBZ0R0TkxKOWc0cHJQbGZ4SXlGendTRWJ3RW9LS3VVbmFxLVVwVF9idTZodDBwUmg5NmpXTGRGeDY5ODRYTTZ3eno0aFc5WXdVcmNLX01mS3JWbkpfTnZTMEoxckkwcTNzbl92OWc0OS1hUHVRVG9VUHZtaXBabw?oc=5"
+    },
+    {
      "name": "BeInCrypto",
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5DUXhob3A1d0ZkSkNmVkcwSHAzX0VYTkI1dUVfSDNDWmlsYmRmZ1RocWZteDNreE03dGZtVGcwZXRERnRuU3pya3NDemRCa3RhV09UaDFwRlRBVTFHLUV0YVBPYWFqcFIybUcw?oc=5"
     },
     {
      "name": "Crypto News",
      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5zSTZKM3ZublNuaFZrX2hraVE0RmtRcmNMV3FuNlVYMGpZYWtFaGpVMVZHZVJWcW1NelUya0t3eFpoMFYzNV81X2xjX1l0OTBGTEZEbFhyNU9sU3hOdHVjMG1OQlpmTmdsNlpwVlFFekZncHFIMzVWY284Yw?oc=5"
-    },
-    {
-     "name": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9nbVVUMl9yamF3OUtrdERncURhM0NpMjZrcFFOQWZVSnd2eW05OTVBUm16VUxwRnpTbC1xRHNIbjRFaWpnSjAwaF9JNVJVVzJQblltN19sYXVHWFNOQTBXMGw3SWdNeHBKZHVFMldxdDRRSjlVYkE?oc=5"
     }
    ],
-   "missing": "Exact time of the delisting on October 28."
+   "missing": "Exact time of spot trading cessation on October 28."
   },
   {
-   "t": "Sberbank Crypto Trading Launch in Russia",
+   "t": "Sberbank Crypto Trading Launch",
    "type": "regulation",
    "status": "confirmed_upcoming",
    "event_date": "2026-12-01",
@@ -90,63 +90,17 @@
     "USDT"
    ],
    "rel": "direct",
-   "b": "Russia's largest bank, Sberbank, secured approval to trade crypto and plans to open crypto trading to all clients on December 1, supporting BTC, ETH, and USDT.",
+   "b": "Russia\u2019s largest bank, Sberbank, secured approval to trade crypto and plans to open crypto trading to all clients on December 1.",
    "per": {
-    "BTC": "Sberbank is preparing to offer trading for Bitcoin.",
-    "ETH": "Sberbank is preparing to offer trading for Ether.",
-    "USDT": "Sberbank is preparing to offer trading for Tether."
+    "BTC": "Will be tradable via Sberbank's app once fully opened to all clients."
    },
    "direction": "positive",
-   "quality": 75,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWV91ODVFOERrRlRXVXBWUzFaSFJlblg2Q2ZoVzBpbjNaa1lYUjlFVC1jeWtVTlRyZ0tOTmh5UHlxejhmUFhYX3RVSDhoSGQ1WGZOVXN5NUNFVnQ4bWFiS1NjUnNaSVZoUU1WS0kxV2FEeng5VWtpR0JfaWhZZkgtR0pWUU9BczlJc095a3ZZeGZxSFpxT0Z6WmE4WVlaSjVQWGFLRlRqTGtBTW1TX1p2QzI3QTVLZEk1YUQyV0NhUDRtNFVkV0VldWpodFJ5QW0zbVF5cWpYalJvZHlQVUZreEZmT2lWWjRj?oc=5"
-    },
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/10/13/russia-s-largest-bank-sberbank-secures-approval-to-trade-crypto"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/sberbank-russia-crypto-trading-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Specific regulatory limitations on trading volumes or user eligibility beyond general access."
-  },
-  {
-   "t": "Thailand Approves Bitcoin and Ethereum ETFs",
-   "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-16",
-   "coins": [
-    "BTC",
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "Thailand's stock exchange has approved Bitcoin and Ethereum ETFs for an official launch on October 16, 2026.",
-   "per": {
-    "BTC": "Approved for ETF launch on the Thai stock exchange on October 16.",
-    "ETH": "Approved for ETF launch on the Thai stock exchange on October 16."
-   },
-   "direction": "positive",
-   "quality": 74,
+   "quality": 71,
    "label": "MODERATE CATALYST",
    "parts": {
-    "credibility": 12,
+    "credibility": 17,
     "relevance": 12,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
@@ -155,19 +109,45 @@
    "c": "medium",
    "sources": [
     {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdVA0NU1sTWc1TU10WDJPeEJFdUVPSTFRNnlGdGJDaVNCVHY1TS1zeUdwNVZYUkZFRld4UE5hb2l1YWFUNVRLX3RmVnBfMVVVWWVFTWZ0d1ozcW5WMkJCS29uNzZseE5NamRKRGlzSklDNnpzaDU2ZTRhSnhLeGoyN2pBeWgwSmR4UjJ5OGp5dlM?oc=5"
-    },
-    {
-     "name": "The Paypers",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeXhFd3dpdjJBbVZqQ1ZZM1RJeXgwTGh0allTRnN4U0xDSWZMNkp4N1FWLXN1WGxaNkR6MEZ1S3A4OFNUTkRUSXZoWU5WX3ZrSkl4YXdMQ2o0dENNQzlXTlIxeVpSazkzbnRXUUFUb1lhWVd1UmlkUTdQOXFXX3VQaUd4dVRULXBibWJBQVNnOWUtNS1xMVNTZkdGRDdNYXhOMS0weGxzTVVUbXU0SVgxSkZ5WXE?oc=5"
-    },
-    {
-     "name": "CoinTrust",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRWtqN0FGb29lUExlc3YwTkpmWVJvNWV4WW9jb1pfSXp2Tld4SnVqLXRCVmdFeFkyTUQyNmNIZEx2WFo2V2pQUHk2b3FnTkE3aVl4b2dWRWctcjhkZ2NTOEN4WGtfRmdnY3ZTVU9CWlllVjJJS0xGbFBXdVpTY05kTi1mUThvREszNUpaMWtFM2xaZC1SNndVYU9RZm5UQmplX2pXUUVR0gGrAUFVX3lxTFB1UU50RnprOXM1OTB0NUtUckZ6RXlVeFExSmMtZnQzNEJzQVVobnlILUZrTjRwZUZpOUhScEJ4MUs2eGx0V2Y5YTF3MWxVdDFEYmJDUHdFWlNQWWtIVC1IS2FXRlZoWVhtTDlsSk4xMHc3WHF4YVR6UXkwc0dWSU1wUE5fR21ZSmxSX0ZuSEwtbnB0cS1SUzBiOEtOaEg5WS1qRFljVXF2VUl2NA?oc=5"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/13/russia-s-largest-bank-sberbank-secures-approval-to-trade-crypto"
     }
    ],
-   "missing": "Initial assets under management or participating issuers details."
+   "missing": "Full regulatory scope and volume limits for retail clients."
+  },
+  {
+   "t": "Strive Bitcoin Purchase Funding",
+   "type": "treasury",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "indirect",
+   "b": "Strive is raising $500 million to buy additional bitcoin by issuing a new preferred share class offering a fixed 15% dividend yield.",
+   "per": {
+    "BTC": "Set to benefit from corporate treasury accumulation using the newly raised capital."
+   },
+   "direction": "positive",
+   "quality": 71,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/13/strive-to-ipo-second-preferred-share-class-as-it-looks-to-further-build-bitcoin-treasury"
+    }
+   ],
+   "missing": "The exact date when the $500 million will be fully deployed to purchase Bitcoin."
   }
  ]
 }
