@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-14T14:02:54.090955+00:00",
+ "updated": "2026-10-14T18:35:54.671818+00:00",
  "cards": [
   {
-   "t": "Solana Alpenglow Upgrade",
+   "t": "Solana Alpenglow Upgrade Scheduled for October 21",
    "type": "mainnet",
    "status": "confirmed_upcoming",
    "event_date": "2026-10-21",
@@ -10,9 +10,9 @@
     "SOL"
    ],
    "rel": "direct",
-   "b": "Solana has set October 21 for its Alpenglow upgrade, which targets 150-millisecond finality and replaces the existing validator voting system.",
+   "b": "Solana has set October 21 for its Alpenglow upgrade, which targets 150-millisecond finality and replaces the validator voting system.",
    "per": {
-    "SOL": "The upgrade removes vote transactions from blocks and aims to improve finality speeds."
+    "SOL": "SOL price and network metrics are reacting to the impending speed upgrade."
    },
    "direction": "positive",
    "quality": 92,
@@ -33,10 +33,10 @@
      "url": "https://www.coindesk.com/tech/2026/10/14/solana-sets-oct-21-for-alpenglow-upgrade-targeting-150-millisecond-finality"
     }
    ],
-   "missing": "Market reaction and whether transaction counts will be artificially affected by vote removal."
+   "missing": "Precise block height for the upgrade activation."
   },
   {
-   "t": "Binance Delisting of EPIC and QUICK",
+   "t": "Binance to Delist EPIC and QUICK on October 28",
    "type": "delisting",
    "status": "confirmed_upcoming",
    "event_date": "2026-10-28",
@@ -45,10 +45,9 @@
     "QUICK"
    ],
    "rel": "direct",
-   "b": "Binance is set to delist EPIC and QUICK, ending spot trading on October 28, which immediately triggered double-digit price drops upon announcement.",
+   "b": "Binance announced it will delist EPIC and QUICK and end spot trading for both tokens on October 28.",
    "per": {
-    "QUICK": "Fell as much as 20% following the announcement.",
-    "EPIC": "Fell 11% following the announcement."
+    "QUICK": "QuickSwap price dropped 19% following the delisting announcement."
    },
    "direction": "negative",
    "quality": 87,
@@ -73,81 +72,11 @@
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5DUXhob3A1d0ZkSkNmVkcwSHAzX0VYTkI1dUVfSDNDWmlsYmRmZ1RocWZteDNreE03dGZtVGcwZXRERnRuU3pya3NDemRCa3RhV09UaDFwRlRBVTFHLUV0YVBPYWFqcFIybUcw?oc=5"
     },
     {
-     "name": "Crypto News",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5zSTZKM3ZublNuaFZrX2hraVE0RmtRcmNMV3FuNlVYMGpZYWtFaGpVMVZHZVJWcW1NelUya0t3eFpoMFYzNV81X2xjX1l0OTBGTEZEbFhyNU9sU3hOdHVjMG1OQlpmTmdsNlpwVlFFekZncHFIMzVWY284Yw?oc=5"
+     "name": "The Crypto Times",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNY0pod3B4ZndzYUg5ckVJRlAwclFEVUotMTUwQTE5SGN6d1Ruc0wzaUVWMjVscGNsbVJmWVFLdE1wWDVWQWZsZzAtUHZZVnpHSDYzak9vUzhpT25mZnlaUmxpZUlkVDh1LUZNV3VGQ2hIeUhpUTk5Q2syeW1qMTl2NFVsel91YmQxVUZST3paV1pJMHVvWjlmWUd1N2Zsb2Zxd2Ew?oc=5"
     }
    ],
-   "missing": "Exact time of spot trading cessation on October 28."
-  },
-  {
-   "t": "Sberbank Crypto Trading Launch",
-   "type": "regulation",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-12-01",
-   "coins": [
-    "BTC",
-    "ETH",
-    "USDT"
-   ],
-   "rel": "direct",
-   "b": "Russia\u2019s largest bank, Sberbank, secured approval to trade crypto and plans to open crypto trading to all clients on December 1.",
-   "per": {
-    "BTC": "Will be tradable via Sberbank's app once fully opened to all clients."
-   },
-   "direction": "positive",
-   "quality": 71,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/10/13/russia-s-largest-bank-sberbank-secures-approval-to-trade-crypto"
-    }
-   ],
-   "missing": "Full regulatory scope and volume limits for retail clients."
-  },
-  {
-   "t": "Strive Bitcoin Purchase Funding",
-   "type": "treasury",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "indirect",
-   "b": "Strive is raising $500 million to buy additional bitcoin by issuing a new preferred share class offering a fixed 15% dividend yield.",
-   "per": {
-    "BTC": "Set to benefit from corporate treasury accumulation using the newly raised capital."
-   },
-   "direction": "positive",
-   "quality": 71,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/13/strive-to-ipo-second-preferred-share-class-as-it-looks-to-further-build-bitcoin-treasury"
-    }
-   ],
-   "missing": "The exact date when the $500 million will be fully deployed to purchase Bitcoin."
+   "missing": "Exact time of the delisting on October 28."
   }
  ]
 }
