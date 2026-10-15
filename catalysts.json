@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T21:56:56.045640+00:00",
+ "updated": "2026-10-15T00:17:42.017733+00:00",
  "cards": [
   {
    "t": "Solana Alpenglow Upgrade",
@@ -10,15 +10,15 @@
     "SOL"
    ],
    "rel": "direct",
-   "b": "Solana has set October 21 for its Alpenglow upgrade, which targets a 150-millisecond finality by replacing the existing validator voting system and removing vote transactions from blocks.",
+   "b": "Solana scheduled its Alpenglow upgrade for October 21, targeting 150-millisecond finality by replacing the existing validator voting system.",
    "per": {
-    "SOL": "Alpenglow upgrade scheduled for October 21 targeting 150ms finality."
+    "SOL": "The upgrade will remove vote transactions from blocks, potentially altering reported transaction metrics."
    },
    "direction": "positive",
-   "quality": 94,
+   "quality": 92,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 17,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
@@ -29,30 +29,25 @@
    "c": "high",
    "sources": [
     {
-     "name": "StreetInsider",
-     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQNjdPNVhqRTZ5UzdpcTN6dTZUYlFnbHRBYVRGV05vei1BREx4X0U1eVdLRGMzbmNpVVA4X0tUVjBQWl9KMmU1UXNWSjYtMHpaTFQtUlpQa1JqY0ZmNU0xcExNWlNVcUIwWVJWSTM5a2t6VlY0SHZSamtVUVlJVzlQX2ZsVTg1TFZraHctUnBXVHpSVFFWekxYSkJaaThlQWVlSUpXLTl6RDhuZDdDN1JraXAzZkUxajNBeV9kbnNMdmJlc285WGxyU2xEdmJPV2pmT0dPMjlWYmRLblFsV01SM0FxczI5cWNjZ2tVekN3?oc=5"
-    },
-    {
      "name": "coindesk.com",
      "url": "https://www.coindesk.com/tech/2026/10/14/solana-sets-oct-21-for-alpenglow-upgrade-targeting-150-millisecond-finality"
     }
    ],
-   "missing": "Block height or exact rollout schedule."
+   "missing": "Block height or exact epoch of the upgrade execution."
   },
   {
-   "t": "Binance Delists EPIC and QUICK",
+   "t": "Binance to Delist QUICK and EPIC",
    "type": "delisting",
    "status": "confirmed_upcoming",
    "event_date": "2026-10-28",
    "coins": [
-    "EPIC",
-    "QUICK"
+    "QUICK",
+    "EPIC"
    ],
    "rel": "direct",
-   "b": "Binance is delisting EPIC and QUICK, ending spot trading for both tokens on October 28, 2026.",
+   "b": "Binance announced it will delist QUICK and EPIC, ending spot trading for both tokens on October 28, 2026.",
    "per": {
-    "EPIC": "Binance ending spot trading on October 28.",
-    "QUICK": "Binance ending spot trading on October 28, seeing a 19% price drop."
+    "QUICK": "Binance delisting on October 28 caused a sharp price drop of 19% following the announcement."
    },
    "direction": "negative",
    "quality": 87,
@@ -73,10 +68,6 @@
      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTlhLaGFyclFzay01R3EzZHFJeVZJTWJxOWdBZ0R0TkxKOWc0cHJQbGZ4SXlGendTRWJ3RW9LS3VVbmFxLVVwVF9idTZodDBwUmg5NmpXTGRGeDY5ODRYTTZ3eno0aFc5WXdVcmNLX01mS3JWbkpfTnZTMEoxckkwcTNzbl92OWc0OS1hUHVRVG9VUHZtaXBabw?oc=5"
     },
     {
-     "name": "BeInCrypto",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5DUXhob3A1d0ZkSkNmVkcwSHAzX0VYTkI1dUVfSDNDWmlsYmRmZ1RocWZteDNreE03dGZtVGcwZXRERnRuU3pya3NDemRCa3RhV09UaDFwRlRBVTFHLUV0YVBPYWFqcFIybUcw?oc=5"
-    },
-    {
      "name": "CryptoTicker",
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9rRE9MeVVHc0hOTGZPQmtTcm5ELTRWMzA3VzJyRW1KN3BXMEUyUWlDWmNJYllVYm1ieHJBSkw4UmpZR0dRdWRrdnhpUm8zT2JsOUZacnFsVUkwb2JyRjFzRXd5UlBlNnUxbXpzS0VObERUZGtk?oc=5"
     },
@@ -85,56 +76,20 @@
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNY0pod3B4ZndzYUg5ckVJRlAwclFEVUotMTUwQTE5SGN6d1Ruc0wzaUVWMjVscGNsbVJmWVFLdE1wWDVWQWZsZzAtUHZZVnpHSDYzak9vUzhpT25mZnlaUmxpZUlkVDh1LUZNV3VGQ2hIeUhpUTk5Q2syeW1qMTl2NFVsel91YmQxVUZST3paV1pJMHVvWjlmWUd1N2Zsb2Zxd2Ew?oc=5"
     }
    ],
-   "missing": "Exact time of day for the delisting."
+   "missing": "Exact time of day for the spot trading cessation."
   },
   {
-   "t": "Stripe-Owned Wallets Integration on XRP Ledger",
-   "type": "partnership",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "XRP",
-    "RLUSD"
-   ],
-   "rel": "direct",
-   "b": "Ripple has added Stripe-owned wallets to the XRP Ledger, enabling software to pay for online services using XRP and RLUSD.",
-   "per": {
-    "XRP": "Stripe-owned wallets added to the XRP Ledger for payments.",
-    "RLUSD": "Integrated alongside XRP for online service payments."
-   },
-   "direction": "positive",
-   "quality": 84,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/14/ripple-adds-stripe-owned-wallets-to-xrp-ledger-as-ai-payments-pass-14-million"
-    }
-   ],
-   "missing": "Transaction volume expectations and adoption timeline."
-  },
-  {
-   "t": "EU Classifies Circle's USDC as Significant Under MiCA",
+   "t": "EU MiCA Classification of USDC",
    "type": "regulation",
-   "status": "officially_announced",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
     "USDC"
    ],
    "rel": "direct",
-   "b": "The EU authority has classified Circle's USDC as 'significant' under MiCA, placing the stablecoin under direct supervision by French and EU authorities.",
+   "b": "European authorities classified Circle\u2019s USDC as a 'significant e-money token' under MiCA, placing it under joint French and EU oversight.",
    "per": {
-    "USDC": "Classified as significant under MiCA, leading to increased EU oversight."
+    "USDC": "Increased regulatory scrutiny and direct oversight by European authorities."
    },
    "direction": "mixed",
    "quality": 84,
@@ -155,7 +110,41 @@
      "url": "https://cointelegraph.com/news/eba-circle-usdc-stablecoin-significant-token-mica?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Specific operational adjustments required for Circle."
+   "missing": "Exact implementation date for the heightened supervision tier."
+  },
+  {
+   "t": "Strive Bitcoin Preferred Share Offering",
+   "type": "treasury",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Strive is raising $500 million through a new preferred share class to buy additional Bitcoin, offering a fixed 15% dividend yield.",
+   "per": {
+    "BTC": "Treasury accumulation via the $500 million share offering provides indirect buying pressure."
+   },
+   "direction": "positive",
+   "quality": 71,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/13/strive-to-ipo-second-preferred-share-class-as-it-looks-to-further-build-bitcoin-treasury"
+    }
+   ],
+   "missing": "Closing date of the share offering and exact purchasing timeline."
   }
  ]
 }
