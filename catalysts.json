@@ -1,24 +1,22 @@
 {
- "updated": "2026-10-15T18:28:17.520108+00:00",
+ "updated": "2026-10-15T21:39:04.994727+00:00",
  "cards": [
   {
-   "t": "Binance to Delist EPIC and QUICK",
-   "type": "delisting",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-28",
+   "t": "Upbit Adds PUFFER to Won Market",
+   "type": "listing",
+   "status": "officially_announced",
+   "event_date": null,
    "coins": [
-    "EPIC",
-    "QUICK"
+    "PUFFER"
    ],
    "rel": "direct",
-   "b": "Binance has announced the delisting of EPIC and QUICK tokens, with trading set to terminate on October 28.",
+   "b": "Upbit has officially announced the addition of the PUFFER token to its South Korean won (KRW) market, triggering a significant price surge.",
    "per": {
-    "EPIC": "Trading ends on October 28.",
-    "QUICK": "Trading ends on October 28."
+    "PUFFER": "Added to Upbit's won market, driving immediate high volatility and price appreciation."
    },
-   "direction": "negative",
+   "direction": "positive",
    "quality": 87,
-   "label": "NEGATIVE CATALYST",
+   "label": "STRONG CATALYST",
    "parts": {
     "credibility": 12,
     "relevance": 25,
@@ -31,36 +29,38 @@
    "c": "high",
    "sources": [
     {
-     "name": "CryptoTicker",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9rRE9MeVVHc0hOTGZPQmtTcm5ELTRWMzA3VzJyRW1KN3BXMEUyUWlDWmNJYllVYm1ieHJBSkw4UmpZR0dRdWRrdnhpUm8zT2JsOUZacnFsVUkwb2JyRjFzRXd5UlBlNnUxbXpzS0VObERUZGtk?oc=5"
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOFdtMm5TR2FkdVE0OU01eUxwazJMNUpXLU1qbGV2WkFMU1Q3N0E1aUdmUVo4NDdMR1VReFdUUW1MTktmeVk4WVNuUVh0VmFNeDNiR2E5UEdWcnljQ1hQWVBYUzZ5M1lELTM1UGJyOUt2MXBmX0VSM09vUXI2SDJVX3JxY21LaVU5R3NZT0dsQTY?oc=5"
     },
     {
-     "name": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUFYdUctN2dpRnliLVgzd3NmMk1VNV9fT2dPZnc5SlZPSVhxT2E4MUFUNWw3b0RHeVN6MkZTbzdoZVM5V3dmVXpja3F3UmlEQXktb1Z2bmpvUUdBLUdXY1B3V1ZWc29tNFU2UF9JaFFjYWpBU3NxVl9aQW1lYVhpV3JIcFhRNzV0TEFCXzBMSnVCVE1xaGJrWllsVklsdDQ3cjZaN2R3?oc=5"
+     "name": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vOXlseFdWZGl2Zm9QZUVGaGQ3a2NxRjhvLXVUcnhIclJibmFRdkhITjk2TXNEUWtvZUVFUm1fTnoyQkdyTEFsZGE4WG5DU0cxeVpjdw?oc=5"
     },
     {
-     "name": "openPR.com",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQVo0Mnp5cTRod2VvSXZvQ0VNdDdqMVNHeUpQNTE2a25PdWV3ZlRtU1Q0Mm5KdFlEaEYtWWxIeXk2MllXVGt4b3F1MGlRRjhSazVWelliZEVBeURBVmR3aEQ0RDV2YmlDTzdvWFBVZGVMYnRYSklDX0J6bXJmXzZXSVNENTA4Tm0xTFBRQmlnSjVKQkhpaEJYcmlGQkhfd0pUTkU0?oc=5"
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBTX0dUVE9jaVY5bTBhVGVWVzlDLWc3c2NNbFVlSmk2LURkejlSWVJpZFA2OHRZajNibjA3U3J2d0d2UjVtLW1NYUV5TDJvX085OWE5RHRsS0c?oc=5"
     }
    ],
-   "missing": "Precise hour of delisting."
+   "missing": "Exact launch timestamp details beyond general announcements."
   },
   {
-   "t": "Upbit Lists PUFFER Token",
-   "type": "listing",
-   "status": "officially_announced",
-   "event_date": null,
+   "t": "Binance Delists EPIC and QUICK",
+   "type": "delisting",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-28",
    "coins": [
-    "PUFFER"
+    "EPIC",
+    "QUICK"
    ],
    "rel": "direct",
-   "b": "Upbit has added the PUFFER token to its Korean won market, driving significant trading volume and price surges.",
+   "b": "Binance has announced the upcoming delisting of EPIC and QUICK, with trading scheduled to end on October 28.",
    "per": {
-    "PUFFER": "Listed on Upbit for trading against the Korean won."
+    "EPIC": "Trading support to end on October 28 following Binance delisting announcement.",
+    "QUICK": "Trading support to end on October 28 following Binance delisting announcement."
    },
-   "direction": "positive",
+   "direction": "negative",
    "quality": 85,
-   "label": "STRONG CATALYST",
+   "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 10,
     "relevance": 25,
@@ -73,43 +73,34 @@
    "c": "high",
    "sources": [
     {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOFdtMm5TR2FkdVE0OU01eUxwazJMNUpXLU1qbGV2WkFMU1Q3N0E1aUdmUVo4NDdMR1VReFdUUW1MTktmeVk4WVNuUVh0VmFNeDNiR2E5UEdWcnljQ1hQWVBYUzZ5M1lELTM1UGJyOUt2MXBmX0VSM09vUXI2SDJVX3JxY21LaVU5R3NZT0dsQTY?oc=5"
+     "name": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUFYdUctN2dpRnliLVgzd3NmMk1VNV9fT2dPZnc5SlZPSVhxT2E4MUFUNWw3b0RHeVN6MkZTbzdoZVM5V3dmVXpja3F3UmlEQXktb1Z2bmpvUUdBLUdXY1B3V1ZWc29tNFU2UF9JaFFjYWpBU3NxVl9aQW1lYVhpV3JIcFhRNzV0TEFCXzBMSnVCVE1xaGJrWllsVklsdDQ3cjZaN2R3?oc=5"
     },
     {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vOXlseFdWZGl2Zm9QZUVGaGQ3a2NxRjhvLXVUcnhIclJibmFRdkhITjk2TXNEUWtvZUVFUm1fTnoyQkdyTEFsZGE4WG5DU0cxeVpjdw?oc=5"
-    },
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZFlvYnRkc1RRVnBWSFRiOTMtZTRSM05GX1MwemRieXIxM2d3VDlKd3pzSVdweDZNRVgtUlhtUlJKdWZoeDlRRTZIcDc3WnBjUnMzRnBuR3NJaU9OWTdsVGRGUnRvZ2NaRlc4MkYtTERpcjcyVHFzMG41bDM0YlNnR3kzeXlfREFERzA5czNkOVg?oc=5"
-    },
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVThuT3ZmRHJIdVcyTlMtR3NSTVYwNW9KYlRPMTFiUE9DNlJJMU9RMlhlMDRTbXlsMTVGMnVNRVFNSWRCdW5OOC16dGcyTGhIMGFHSzhNRFdsNG1qb0tJYm9BYXdDSjJFa21MZk1ENUUyT1J1OGpEa1hDWlB6WkRLWThENTU1TWZxTWZWYm9BRDZrZTlRX0Nz?oc=5"
+     "name": "openPR.com",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQVo0Mnp5cTRod2VvSXZvQ0VNdDdqMVNHeUpQNTE2a25PdWV3ZlRtU1Q0Mm5KdFlEaEYtWWxIeXk2MllXVGt4b3F1MGlRRjhSazVWelliZEVBeURBVmR3aEQ0RDV2YmlDTzdvWFBVZGVMYnRYSklDX0J6bXJmXzZXSVNENTA4Tm0xTFBRQmlnSjVKQkhpaEJYcmlGQkhfd0pUTkU0?oc=5"
     }
    ],
-   "missing": "Exact listing timestamp."
+   "missing": "Exact trading cessation hours."
   },
   {
-   "t": "Starknet Votes on Layer-2 Independence Over Quantum Risks",
+   "t": "Starknet Votes on Potential L1 Transition",
    "type": "mainnet",
    "status": "ongoing",
    "event_date": null,
    "coins": [
-    "STRK",
-    "ETH"
+    "STRK"
    ],
    "rel": "direct",
-   "b": "Starknet is holding a community vote for STRK holders to decide whether to explore becoming an independent layer-1 blockchain to mitigate Ethereum quantum security risks.",
+   "b": "Starknet has opened a governance vote for STRK holders to decide whether to explore becoming an independent layer-1 blockchain to mitigate quantum risks.",
    "per": {
-    "STRK": "Holders voting on L1 independence proposal."
+    "STRK": "Holders are voting on whether to move away from Ethereum L2 dependency toward an independent L1."
    },
    "direction": "mixed",
-   "quality": 81,
+   "quality": 83,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 19,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -120,14 +111,18 @@
    "c": "high",
    "sources": [
     {
+     "name": "CryptoRank",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPR0ZBQ2QyM2hzV0FDXzZrNnJMTFB4UGIzbWhmMzUySEs4M2M0STF2Z0t1U0NPTlFHR3pYdlZyOHRmT0pic1ozcGpHT2VqdnZHLWZUS3AzWTF5VmNGYzU2T2s1NkFZRUhfMUxhR29zT2RyU0N6MWhyWHo0NmZ4MFd1aGNfQkpyR2JMQ1QxOUN2UzJhWHF4Z1FLdzltTFd3X3FHWDB5cXo0Z2treWs?oc=5"
+    },
+    {
      "name": "cointelegraph.com",
      "url": "https://cointelegraph.com/news/starknet-vote-ethereum-l2-exit-post-quantum-l1?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Vote conclusion date."
+   "missing": "Voting conclusion timeline and specific implementation steps."
   },
   {
-   "t": "Polygon Acquires Coinme and Secures US Money Transmitter Licenses",
+   "t": "Polygon Acquires Coinme for US Payment Licenses",
    "type": "partnership",
    "status": "completed",
    "event_date": null,
@@ -135,23 +130,23 @@
     "POL"
    ],
    "rel": "direct",
-   "b": "Polygon has completed the acquisition of Coinme, gaining access to 37 US money transmitter licenses and 11 state exemptions.",
+   "b": "Polygon has closed its acquisition of Coinme, gaining access to 37 money transmitter licenses and 11 state exemptions in the US.",
    "per": {
-    "POL": "Expands regulatory capabilities via Coinme deal."
+    "POL": "Gains expanded regulatory licensing footprint in the United States through the Coinme asset acquisition."
    },
    "direction": "positive",
-   "quality": 77,
+   "quality": 64,
    "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 19,
-    "relevance": 25,
+    "relevance": 12,
     "impact": 12,
     "novelty": 15,
     "timing": 6
    },
-   "impact": 8,
+   "impact": 6,
    "s": "fading",
-   "c": "high",
+   "c": "medium",
    "sources": [
     {
      "name": "Analytics Insight",
@@ -162,7 +157,7 @@
      "url": "https://cointelegraph.com/news/polygon-gains-us-payments-licenses-after-closing-coinme-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Financial terms of the acquisition."
+   "missing": "Financial terms of the transaction."
   },
   {
    "t": "VanEck Withdraws Lido Staked Ethereum ETF Filing",
@@ -174,17 +169,17 @@
     "LDO"
    ],
    "rel": "direct",
-   "b": "VanEck has officially pulled its proposed Lido Staked Ethereum ETF filing from the SEC pipeline nearly a year after proposing it.",
+   "b": "VanEck has officially pulled its S-1 registration statement and canceled plans for its unlaunched Lido Staked Ethereum ETF after a year-long wait.",
    "per": {
-    "ETH": "Associated stETH ETF application withdrawn.",
-    "LDO": "Staked Ethereum ETF product plan canceled by VanEck."
+    "ETH": "Affected by the cancellation of the proposed stETH ETF product.",
+    "LDO": "Impacted by the termination of VanEck's Lido Staked Ethereum ETF application."
    },
    "direction": "negative",
-   "quality": 64,
+   "quality": 60,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 12,
-    "relevance": 25,
+    "credibility": 21,
+    "relevance": 12,
     "impact": 12,
     "novelty": 15,
     "timing": 0
@@ -194,57 +189,23 @@
    "c": "medium",
    "sources": [
     {
-     "name": "Altcoin Buzz",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX2l4cGdrcjNucWFnSHZfckVSa3BZSjRDTE5PVUxheW1oMnIzNnptQ2szZUlpSzhnWHFvZl84OGhrS2pRZFQzbE1kR2llaFRsa1RPbGdjTzhMdHYyZllRUDQ4TktERWZyRlc2Z2VzQ3dNbDRIVmxZYW84bXVGVV9TRVRMdUhKd2VlYXJZbF9OQQ?oc=5"
-    },
-    {
      "name": "CryptoRank",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeG83OHhyQTI3emF5Mm91aXVmX0dzUkxMWlAzY3p2cnZlbDFFR0l2YVVtRG1YTThsY3VnMGlQSWcwQUYtMnQ0U01ORmZrTXFNWmFKVGVjcHJ0UFc3QWptdzJPYXhNNDdLMUV2aDRFZ0V5TXdIWXdZeFFtdWQ2RmRzWFdQUV9Rd0ItSHUxeGVSbw?oc=5"
+    },
+    {
+     "name": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdnJKdURpc0J2SXdGUGdHNE9rVUlWNlJkRDQ1V1cwZ1l5eDZVV3BEMDlqR0hBa1R4ZHhXS2I3UFF3bUFUVjJqZFhhMWVfQVNhdHFNU2pUYWhKWTZWMHFLOF92Vm5CVU94MDhaYXZmUkNreXRZX3R0RVo5QWNpTDAtQllFUV9SdWJSMHI3cDFWdG1uU0J6Q1lPZjF3?oc=5"
     },
     {
      "name": "Crypto News",
      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8zYjMxdXBiWHFmcl9BRWpZeFhNSktFd3cwQXV4eHpfdVZNUGYya25FUnpYN3llNFhIUXBMcThITWdRWWd1b1dXNXVjd1YtVlBYMDlObFpIUlBSZ2d1OXNod21fMmxMTFVrbzQtM2FPOTR5bGZKUmxwRGNB?oc=5"
     },
     {
-     "name": "Coinspeaker",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2MjZVZXJoaXRVZHlELVZNckQyUTZCbm5IdjFIQjFmbUVNVVFIX2RMWjVmZU9QTVhVZzJiVzJoRktfRjJtNWFJV2J3WW0yWmRFYV9iQndTSm1PejFyS3o2NTgwSEpIdF9qNkwtS3Qxa1h2dlZjMTNMdWlGaHN2SVnSAX9BVV95cUxQNjI2VWVyaGl0VWR5RC1WTXJEMlE2Qm5uSHYxSEIxZm1FTVVRSF9kTFo1ZmVPUE1YVWcyYlcyaEZLX0YybTVhSVdid1ltMlpkRWFfYkJ3U0ptT3oxckt6NjU4MEhKSHRfajZMLUt0MWtYdnZWYzEzTHVpRmhzdklZ?oc=5"
+     "name": "Forex Crunch",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQTVzcFl3N3RScm1wVk5ORnpfRVVZdm9FWWJ4M3BvZExMemtuSGxiMmpBM1hjMTRzR3JYM1pCQVhSc3l5b3dOUzhoSzA2aDFwMGVVcVlNSk5RMjFMdHpYVTFGWWlfS2prM0JoRGZ3dlphdHBzaXFGM3dseExxdTV5NEREcVV5RVZ3VlRsb01qbw?oc=5"
     }
    ],
-   "missing": "Reason for withdrawal."
-  },
-  {
-   "t": "Binance Pool Shuts Down Hashrate Provider Following Hashrate Drop",
-   "type": "other",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-11-10",
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Binance Pool is shutting down after a significant hashrate reduction, giving remaining miners a cutoff date of November 10 to switch providers.",
-   "per": {
-    "BTC": "Miners must migrate away from Binance Pool before November 10."
-   },
-   "direction": "negative",
-   "quality": 64,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 12,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 6,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-mining-pool-once-handling-2-3-of-network-shuts-after-hashrate-falls-65"
-    }
-   ],
-   "missing": "Total remaining affected hash rate."
+   "missing": "Specific strategic reasons cited by VanEck beyond regulatory withdrawal filing."
   }
  ]
 }
