@@ -1,61 +1,20 @@
 {
- "updated": "2026-10-15T09:39:39.913593+00:00",
+ "updated": "2026-10-15T14:25:01.323860+00:00",
  "cards": [
   {
-   "t": "Solana Alpenglow Upgrade Scheduled for October 21",
-   "type": "mainnet",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-21",
-   "coins": [
-    "SOL"
-   ],
-   "rel": "direct",
-   "b": "Solana has set October 21 for its Alpenglow upgrade, targeting 150-millisecond finality by replacing the existing validator voting system.",
-   "per": {
-    "SOL": "Upgrade aims to remove vote transactions from blocks and alter headline transaction counts."
-   },
-   "direction": "positive",
-   "quality": 96,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 10,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "TechBullion",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWTRwcUZZMFRPeG9MUWdySjBHUENuNEpqUTRld1JnM2owa2ZfRERFcTg5bnB5V0RmWEowTHdOLXpFeUJjNzZ3cVJZcjVoOExiR3ZBSXc1VXBtOVRILWJiZ1MxX2VLZ3ZBVmV4Tmp0MmNxZjgtQzYyTUtPN1ZCRnlNa2s4LVNTQTVzcWFjVGJ0M0xBZWFVeGtjdVh5UW5nYjVSelZ3RWtIZWpHVkd5eHllVzk4UGRMdjFjQzY2dQ?oc=5"
-    },
-    {
-     "name": "openPR.com",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSFhDR3d5a25zYmQyQjNIdkJGTE1icnVjeFVHS25DQ3NDM2M5U2s3QVJnbXl0QUpmNUVxQ1NlVWxoN09kVFluMGpLYWpaV2lRMXN1YlVfR285TGpIc3Jtb29kRlZwbEZaUVVxd3FMY1lIZzNRVHBaektCajFKdjdJNy1jZjR0SzdjZEszS1prVDkwWUlxNXRJ?oc=5"
-    },
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/14/solana-sets-oct-21-for-alpenglow-upgrade-targeting-150-millisecond-finality"
-    }
-   ],
-   "missing": "Exact block height for activation"
-  },
-  {
-   "t": "Binance to Delist EPIC and QUICK on October 28",
+   "t": "Binance to Delist EPIC and QUICK",
    "type": "delisting",
    "status": "confirmed_upcoming",
-   "event_date": "2026-10-28",
+   "event_date": "2025-10-28",
    "coins": [
     "EPIC",
     "QUICK"
    ],
    "rel": "direct",
-   "b": "Binance has announced it will delist EPIC and QUICK, ending spot trading for both tokens on October 28.",
+   "b": "Binance announced the delisting of EPIC and QUICK tokens, with trading set to end on October 28.",
    "per": {
-    "QUICK": "QuickSwap price dropped 19% following the Binance delisting announcement."
+    "EPIC": "Trading ends on October 28 due to Binance delisting.",
+    "QUICK": "Trading ends on October 28 due to Binance delisting."
    },
    "direction": "negative",
    "quality": 87,
@@ -72,10 +31,6 @@
    "c": "high",
    "sources": [
     {
-     "name": "Altcoin Buzz",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTlhLaGFyclFzay01R3EzZHFJeVZJTWJxOWdBZ0R0TkxKOWc0cHJQbGZ4SXlGendTRWJ3RW9LS3VVbmFxLVVwVF9idTZodDBwUmg5NmpXTGRGeDY5ODRYTTZ3eno0aFc5WXdVcmNLX01mS3JWbkpfTnZTMEoxckkwcTNzbl92OWc0OS1hUHVRVG9VUHZtaXBabw?oc=5"
-    },
-    {
      "name": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUFYdUctN2dpRnliLVgzd3NmMk1VNV9fT2dPZnc5SlZPSVhxT2E4MUFUNWw3b0RHeVN6MkZTbzdoZVM5V3dmVXpja3F3UmlEQXktb1Z2bmpvUUdBLUdXY1B3V1ZWc29tNFU2UF9JaFFjYWpBU3NxVl9aQW1lYVhpV3JIcFhRNzV0TEFCXzBMSnVCVE1xaGJrWllsVklsdDQ3cjZaN2R3?oc=5"
     },
@@ -84,11 +39,83 @@
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9rRE9MeVVHc0hOTGZPQmtTcm5ELTRWMzA3VzJyRW1KN3BXMEUyUWlDWmNJYllVYm1ieHJBSkw4UmpZR0dRdWRrdnhpUm8zT2JsOUZacnFsVUkwb2JyRjFzRXd5UlBlNnUxbXpzS0VObERUZGtk?oc=5"
     },
     {
-     "name": "The Crypto Times",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNY0pod3B4ZndzYUg5ckVJRlAwclFEVUotMTUwQTE5SGN6d1Ruc0wzaUVWMjVscGNsbVJmWVFLdE1wWDVWQWZsZzAtUHZZVnpHSDYzak9vUzhpT25mZnlaUmxpZUlkVDh1LUZNV3VGQ2hIeUhpUTk5Q2syeW1qMTl2NFVsel91YmQxVUZST3paV1pJMHVvWjlmWUd1N2Zsb2Zxd2Ew?oc=5"
+     "name": "openPR.com",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQVo0Mnp5cTRod2VvSXZvQ0VNdDdqMVNHeUpQNTE2a25PdWV3ZlRtU1Q0Mm5KdFlEaEYtWWxIeXk2MllXVGt4b3F1MGlRRjhSazVWelliZEVBeURBVmR3aEQ0RDV2YmlDTzdvWFBVZGVMYnRYSklDX0J6bXJmXzZXSVNENTA4Tm0xTFBRQmlnSjVKQkhpaEJYcmlGQkhfd0pUTkU0?oc=5"
     }
    ],
-   "missing": "Exact time of day for the trading cessation"
+   "missing": "Exact hour of trading cessation"
+  },
+  {
+   "t": "Hex Founder Richard Heart Arrested in Istanbul",
+   "type": "other",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "HEX"
+   ],
+   "rel": "direct",
+   "b": "Hex founder Richard Heart (Richard Schueler) was arrested by police in Istanbul, leading to a 30% drop in HEX token prices and $160 million wiped from sellers.",
+   "per": {
+    "HEX": "Plummeted 30% following local reports of the founder's arrest in Istanbul."
+   },
+   "direction": "negative",
+   "quality": 85,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/10/15/hex-founder-richard-heart-arrested-in-istanbul-turkish-media-report"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/hex-token-erases-160m-reports-founder-schuelers-arrest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Extradition details and official legal charges"
+  },
+  {
+   "t": "Starknet Opens Governance Vote on Quantum-Risk L1 Exit",
+   "type": "mainnet",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "STRK"
+   ],
+   "rel": "direct",
+   "b": "Starknet initiated a community vote for STRK holders to decide whether to explore becoming an independent layer-1 blockchain to mitigate quantum-security risks.",
+   "per": {
+    "STRK": "Holders are voting on a potential exit from Ethereum as an L2 to an independent L1."
+   },
+   "direction": "mixed",
+   "quality": 81,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/starknet-vote-ethereum-l2-exit-post-quantum-l1?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Voting end date and quorum requirements"
   },
   {
    "t": "Upbit Adds PUFFER Token to Won and BTC Markets",
@@ -99,9 +126,9 @@
     "PUFFER"
    ],
    "rel": "direct",
-   "b": "Upbit has added the PUFFER token to its Korean won and BTC markets, prompting significant price surges shortly after launch.",
+   "b": "Upbit added the PUFFER token to its Korean won market and BTC market, causing a sharp price surge following the launch.",
    "per": {
-    "PUFFER": "Token jumped as much as 243.75% on the BTC market following the Upbit listing."
+    "PUFFER": "Listed on Upbit's Korean won and BTC markets, resulting in heavy trading volume and a multi-fold price increase."
    },
    "direction": "positive",
    "quality": 76,
@@ -137,57 +164,17 @@
    "missing": "Exact listing timestamp"
   },
   {
-   "t": "Binance Pool to Shut Down on November 10",
-   "type": "other",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-11-10",
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Binance is shutting down Binance Pool on November 10 following a drop in hashrate, requiring remaining miners to choose another provider.",
-   "per": {
-    "BTC": "Computing power directed at Binance Pool dropped significantly from 26 EH/s to about 9 EH/s."
-   },
-   "direction": "negative",
-   "quality": 73,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "NewsCord",
-     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPLWN4OVBTT3VtMkVWdEpBbmtKeEIwekJKUWgwS19UUXBOWnhDdXh5c2F5NVpuQUtvTEV0aUZjRXdwYnhFQ25oUkUwaFNrdjJuUnZRM1pUeF81TkhaRmR1NnF2WEpKWDVFOHRrWVM0WjFYbUZiRG1tYXY5VG5CWUJreklDVzRhanRsTE5Wc3J5a3ZVNmt1RFdMbFNqWXlrNlZvMGlyam9iTERTVjJuN1J5bUE3TTB1Ry1zNnp6R0hXTE5jM2c2NVZQOUs5NXhTX0kzNjJMQ1JST1hOOEcw?oc=5"
-    },
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-mining-pool-once-handling-2-3-of-network-shuts-after-hashrate-falls-65"
-    }
-   ],
-   "missing": "Future plans for the mining pool infrastructure"
-  },
-  {
-   "t": "VanEck Withdraws Lido Staked Ethereum ETF Filing",
+   "t": "VanEck Withdraws Application for Lido Staked Ether ETF",
    "type": "etf",
    "status": "completed",
    "event_date": null,
    "coins": [
-    "ETH",
-    "LDO"
+    "ETH"
    ],
    "rel": "direct",
-   "b": "VanEck has officially withdrawn its SEC registration and application for the proposed Lido Staked Ethereum ETF after a yearlong wait.",
+   "b": "VanEck officially withdrew its SEC registration for the proposed Lido Staked Ethereum ETF after a year-long wait.",
    "per": {
-    "ETH": "ETH faced broader ETF exodus pressure during this period.",
-    "LDO": "Staked Ethereum ETF filing cancellation removes a near-term institutional vehicle for Lido."
+    "ETH": "VanEck pulled its unlaunched Lido staked ETH ETF application from the SEC pipeline."
    },
    "direction": "negative",
    "quality": 66,
@@ -204,12 +191,12 @@
    "c": "medium",
    "sources": [
     {
-     "name": "The Defiant",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdnJKdURpc0J2SXdGUGdHNE9rVUlWNlJkRDQ1V1cwZ1l5eDZVV3BEMDlqR0hBa1R4ZHhXS2I3UFF3bUFUVjJqZFhhMWVfQVNhdHFNU2pUYWhKWTZWMHFLOF92Vm5CVU94MDhaYXZmUkNreXRZX3R0RVo5QWNpTDAtQllFUV9SdWJSMHI3cDFWdG1uU0J6Q1lPZjF3?oc=5"
-    },
-    {
      "name": "Altcoin Buzz",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX2l4cGdrcjNucWFnSHZfckVSa3BZSjRDTE5PVUxheW1oMnIzNnptQ2szZUlpSzhnWHFvZl84OGhrS2pRZFQzbE1kR2llaFRsa1RPbGdjTzhMdHYyZllRUDQ4TktERWZyRlc2Z2VzQ3dNbDRIVmxZYW84bXVGVV9TRVRMdUhKd2VlYXJZbF9OQQ?oc=5"
+    },
+    {
+     "name": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdnJKdURpc0J2SXdGUGdHNE9rVUlWNlJkRDQ1V1cwZ1l5eDZVV3BEMDlqR0hBa1R4ZHhXS2I3UFF3bUFUVjJqZFhhMWVfQVNhdHFNU2pUYWhKWTZWMHFLOF92Vm5CVU94MDhaYXZmUkNreXRZX3R0RVo5QWNpTDAtQllFUV9SdWJSMHI3cDFWdG1uU0J6Q1lPZjF3?oc=5"
     },
     {
      "name": "Yahoo Finance",
@@ -220,7 +207,7 @@
      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8zYjMxdXBiWHFmcl9BRWpZeFhNSktFd3cwQXV4eHpfdVZNUGYya25FUnpYN3llNFhIUXBMcThITWdRWWd1b1dXNXVjd1YtVlBYMDlObFpIUlBSZ2d1OXNod21fMmxMTFVrbzQtM2FPOTR5bGZKUmxwRGNB?oc=5"
     }
    ],
-   "missing": "Reasons for the withdrawal cited by regulators"
+   "missing": "Reasons for withdrawal cited by VanEck"
   }
  ]
 }
