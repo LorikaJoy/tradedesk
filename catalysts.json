@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-15T00:17:42.017733+00:00",
+ "updated": "2026-10-15T04:58:05.913001+00:00",
  "cards": [
   {
-   "t": "Solana Alpenglow Upgrade",
+   "t": "Solana Alpenglow Upgrade Scheduled for October 21",
    "type": "mainnet",
    "status": "confirmed_upcoming",
    "event_date": "2026-10-21",
@@ -10,17 +10,17 @@
     "SOL"
    ],
    "rel": "direct",
-   "b": "Solana scheduled its Alpenglow upgrade for October 21, targeting 150-millisecond finality by replacing the existing validator voting system.",
+   "b": "Solana has set October 21 for its Alpenglow upgrade, targeting a 150-millisecond finality by replacing the validator voting system and removing vote transactions from blocks.",
    "per": {
-    "SOL": "The upgrade will remove vote transactions from blocks, potentially altering reported transaction metrics."
+    "SOL": "The upcoming Alpenglow upgrade on October 21 aims to bring 150-millisecond finality."
    },
    "direction": "positive",
-   "quality": 92,
+   "quality": 88,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 21,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
@@ -29,25 +29,34 @@
    "c": "high",
    "sources": [
     {
+     "name": "TechBullion",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWTRwcUZZMFRPeG9MUWdySjBHUENuNEpqUTRld1JnM2owa2ZfRERFcTg5bnB5V0RmWEowTHdOLXpFeUJjNzZ3cVJZcjVoOExiR3ZBSXc1VXBtOVRILWJiZ1MxX2VLZ3ZBVmV4Tmp0MmNxZjgtQzYyTUtPN1ZCRnlNa2s4LVNTQTVzcWFjVGJ0M0xBZWFVeGtjdVh5UW5nYjVSelZ3RWtIZWpHVkd5eHllVzk4UGRMdjFjQzY2dQ?oc=5"
+    },
+    {
+     "name": "openPR.com",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSFhDR3d5a25zYmQyQjNIdkJGTE1icnVjeFVHS25DQ3NDM2M5U2s3QVJnbXl0QUpmNUVxQ1NlVWxoN09kVFluMGpLYWpaV2lRMXN1YlVfR285TGpIc3Jtb29kRlZwbEZaUVVxd3FMY1lIZzNRVHBaektCajFKdjdJNy1jZjR0SzdjZEszS1prVDkwWUlxNXRJ?oc=5"
+    },
+    {
      "name": "coindesk.com",
      "url": "https://www.coindesk.com/tech/2026/10/14/solana-sets-oct-21-for-alpenglow-upgrade-targeting-150-millisecond-finality"
     }
    ],
-   "missing": "Block height or exact epoch of the upgrade execution."
+   "missing": "Potential network downtime or specific block height for the upgrade."
   },
   {
-   "t": "Binance to Delist QUICK and EPIC",
+   "t": "Binance to Delist EPIC and QUICK Spot Trading on October 28",
    "type": "delisting",
    "status": "confirmed_upcoming",
    "event_date": "2026-10-28",
    "coins": [
-    "QUICK",
-    "EPIC"
+    "EPIC",
+    "QUICK"
    ],
    "rel": "direct",
-   "b": "Binance announced it will delist QUICK and EPIC, ending spot trading for both tokens on October 28, 2026.",
+   "b": "Binance announced it will delist EPIC and QUICK, ending spot trading for both tokens on October 28.",
    "per": {
-    "QUICK": "Binance delisting on October 28 caused a sharp price drop of 19% following the announcement."
+    "QUICK": "Binance's upcoming delisting on October 28 sent the price down 19% following the announcement.",
+    "EPIC": "Binance's upcoming delisting on October 28 contributed to an initial drop of up to 10% within minutes."
    },
    "direction": "negative",
    "quality": 87,
@@ -72,79 +81,62 @@
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9rRE9MeVVHc0hOTGZPQmtTcm5ELTRWMzA3VzJyRW1KN3BXMEUyUWlDWmNJYllVYm1ieHJBSkw4UmpZR0dRdWRrdnhpUm8zT2JsOUZacnFsVUkwb2JyRjFzRXd5UlBlNnUxbXpzS0VObERUZGtk?oc=5"
     },
     {
+     "name": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUFYdUctN2dpRnliLVgzd3NmMk1VNV9fT2dPZnc5SlZPSVhxT2E4MUFUNWw3b0RHeVN6MkZTbzdoZVM5V3dmVXpja3F3UmlEQXktb1Z2bmpvUUdBLUdXY1B3V1ZWc29tNFU2UF9JaFFjYWpBU3NxVl9aQW1lYVhpV3JIcFhRNzV0TEFCXzBMSnVCVE1xaGJrWllsVklsdDQ3cjZaN2R3?oc=5"
+    },
+    {
      "name": "The Crypto Times",
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNY0pod3B4ZndzYUg5ckVJRlAwclFEVUotMTUwQTE5SGN6d1Ruc0wzaUVWMjVscGNsbVJmWVFLdE1wWDVWQWZsZzAtUHZZVnpHSDYzak9vUzhpT25mZnlaUmxpZUlkVDh1LUZNV3VGQ2hIeUhpUTk5Q2syeW1qMTl2NFVsel91YmQxVUZST3paV1pJMHVvWjlmWUd1N2Zsb2Zxd2Ew?oc=5"
     }
    ],
-   "missing": "Exact time of day for the spot trading cessation."
+   "missing": "The exact time of day trading stops on October 28."
   },
   {
-   "t": "EU MiCA Classification of USDC",
-   "type": "regulation",
-   "status": "confirmed_upcoming",
+   "t": "VanEck Withdraws SEC Registration for Lido Staked Ethereum ETF",
+   "type": "etf",
+   "status": "completed",
    "event_date": null,
    "coins": [
-    "USDC"
+    "LDO",
+    "ETH"
    ],
    "rel": "direct",
-   "b": "European authorities classified Circle\u2019s USDC as a 'significant e-money token' under MiCA, placing it under joint French and EU oversight.",
+   "b": "VanEck has officially withdrawn its SEC registration and application for its Lido Staked Ethereum ETF, also halting its brokerage-account investment plan.",
    "per": {
-    "USDC": "Increased regulatory scrutiny and direct oversight by European authorities."
+    "LDO": "VanEck's withdrawal of the Lido staked Ether ETF filing removes an upcoming product pipeline catalyst."
    },
-   "direction": "mixed",
-   "quality": 84,
-   "label": "STRONG CATALYST",
+   "direction": "negative",
+   "quality": 79,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 21,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 15
+    "timing": 6
    },
    "impact": 8,
-   "s": "building",
+   "s": "fading",
    "c": "high",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/eba-circle-usdc-stablecoin-significant-token-mica?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Exact implementation date for the heightened supervision tier."
-  },
-  {
-   "t": "Strive Bitcoin Preferred Share Offering",
-   "type": "treasury",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Strive is raising $500 million through a new preferred share class to buy additional Bitcoin, offering a fixed 15% dividend yield.",
-   "per": {
-    "BTC": "Treasury accumulation via the $500 million share offering provides indirect buying pressure."
-   },
-   "direction": "positive",
-   "quality": 71,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
+     "name": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Nc1k5c1RWdV93WGpEdkhaMWhRQWtQazUwODN3ZF91Z2RNNzEzT1dKemJLLWpVd3dDSUpOVmpreWRjdTk5UGlrVkN3bmZ5N3Y3bHJ3bWR1b1pMZw?oc=5"
+    },
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/13/strive-to-ipo-second-preferred-share-class-as-it-looks-to-further-build-bitcoin-treasury"
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSEVxVjYyY2d6bEhLTGFIVUZfNGtOWmtINGQ2anhUMTF3b2xYX3pXY0Q0dHZIQ2l2MHRZNmRkN0ZOS0c2TnMwM2RFUi1hRWJ6eXY3VElxZ0ZsYTd1LTkzX0VTVXJfUHlqT2QyNnpWQ00tdjZQdmRvbDZBcmc5cnl0Q1lMdkRpMUx0eXl2SzVxcHphYTVYSS1vbHJKVTRtRWgwYjFhTg?oc=5"
+    },
+    {
+     "name": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQenlRMzhSN0ZjZmRyTWJyLXVVTXJvRGFTeTVyZEJLbF9yR0lwZ2pyc0RsQVNPZGtZb3BUdFFMQ2Zpd2owTnFXOUUtS2FRUDI2dmV4cHhIa1ZkUjczT1ZHVHZRUDNYbXpHdG5yRnhyMUp5YTR0RlcyZzZEM25GMUJiV1lBVHhxWTdFTVBQYnA4Qmd5S3pFV2VLdEpld2tta0wxTVVlenZPZXlhMGFfdnEzMTZicWt1SGMxYnhvZUdhZnR5TlB6?oc=5"
+    },
+    {
+     "name": "Crypto Briefing",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAwSmVjWWhKQ1NjUTFUbm1JeTUzYVJCS1N6TF9XLWFQYnFMZUVIWXpDMVNtanlMaWw1b0RHMnFTVzVxMVZsSUVtalcyX3lRUDdTbXRLY2dYZ09CY0t4QXpaMDBIbk5CUUhhVm5Dd0VWNlpDdWk3dmlTNQ?oc=5"
     }
    ],
-   "missing": "Closing date of the share offering and exact purchasing timeline."
+   "missing": "Reasons for the withdrawal."
   }
  ]
 }
