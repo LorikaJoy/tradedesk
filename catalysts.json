@@ -1,94 +1,26 @@
 {
- "updated": "2026-10-16T19:50:51.563872+00:00",
+ "updated": "2026-10-16T22:24:43.240663+00:00",
  "cards": [
   {
-   "t": "Tron Sets Up $200M ATM Share Offering for TRX Purchases",
-   "type": "treasury",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "TRX"
-   ],
-   "rel": "direct",
-   "b": "Nasdaq-listed Tron has set up a $200 million ATM share offering to fund ongoing TRX token acquisitions and support its treasury holdings.",
-   "per": {
-    "TRX": "$200M ATM share offering to fuel acquisitions."
-   },
-   "direction": "positive",
-   "quality": 84,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/nasdaq-tron-200m-atm-offering-fuel-trx-acquisitions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Timeline of when the share offering execution will begin"
-  },
-  {
-   "t": "Strategy Conditionally Declares Daily Dividends on STRC",
-   "type": "other",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "STRC"
-   ],
-   "rel": "direct",
-   "b": "Strategy conditionally declared daily dividends on STRC as the token continued to hover below its $100 par value.",
-   "per": {
-    "STRC": "Daily dividends declared conditionally while trading below $100 par value."
-   },
-   "direction": "mixed",
-   "quality": 77,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/strategy-daily-dividends-strc-hovers-below-100?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Exact conditions required for the daily dividends"
-  },
-  {
-   "t": "Upbit to Delist Zilliqa",
+   "t": "Upbit Delists Zilliqa",
    "type": "delisting",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-11-16",
+   "status": "officially_announced",
+   "event_date": "2025-11-16",
    "coins": [
     "ZIL"
    ],
    "rel": "direct",
-   "b": "Upbit announced it will delist Zilliqa (ZIL) on November 16.",
+   "b": "Upbit has announced it will delist Zilliqa (ZIL) on November 16.",
    "per": {
-    "ZIL": "Upbit ending support on Nov 16."
+    "ZIL": "Upbit exchange delisting on Nov 16 removes significant liquidity."
    },
    "direction": "negative",
-   "quality": 75,
+   "quality": 83,
    "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 8,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 15
    },
@@ -101,7 +33,7 @@
      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbU1OaVlyRS1jeUl4Z3BDbDJCYk12cnpweXl1MzgyeWdOTTZMSXdfa3BtOE1mTzgtTUlOOEtOcGtGdGx4aEp6WTBNUXJLb2kySmg5QzdmeUlYbGRVV295YVFlaEJ0Mk43SzdLbFh4SDlZUlNiWk5qaFV5WklFV1VtaVRLVFZSM19VN3c?oc=5"
     }
    ],
-   "missing": "Exact time of delisting on Nov 16"
+   "missing": "Specific time of delisting on Nov 16."
   }
  ]
 }
