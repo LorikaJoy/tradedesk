@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-15T23:51:56.010925+00:00",
+ "updated": "2026-10-16T02:43:21.138231+00:00",
  "cards": [
   {
-   "t": "HEX Token Drops Following Founder Richard Schueler Arrest",
+   "t": "HEX Token Crash Following Founder Arrest Reports",
    "type": "other",
    "status": "ongoing",
    "event_date": null,
@@ -10,9 +10,9 @@
     "HEX"
    ],
    "rel": "direct",
-   "b": "HEX tokens declined sharply following local media reports that founder Richard Schueler (Richard Heart) was arrested in Istanbul.",
+   "b": "HEX tokens plummeted by 30% and wiped out $160 million following local media reports that founder Richard Schueler (Richard Heart) was arrested in Istanbul, where police seized cash and luxury watches.",
    "per": {
-    "HEX": "Token sellers erased $160 million in market value following the arrest reports."
+    "HEX": "Dropped 30% following the founder's arrest reports in Istanbul."
    },
    "direction": "negative",
    "quality": 91,
@@ -37,10 +37,10 @@
      "url": "https://cointelegraph.com/news/hex-token-erases-160m-reports-founder-schuelers-arrest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Official confirmation from international authorities on extradition or formal charges."
+   "missing": "Official confirmation of extradition status or formal charges by international authorities"
   },
   {
-   "t": "Tron Sets Up $200M ATM Share Offering",
+   "t": "Tron Sets Up $200M ATM Share Offering to Fund TRX",
    "type": "treasury",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -48,33 +48,37 @@
     "TRX"
    ],
    "rel": "direct",
-   "b": "Nasdaq-listed Tron has established a $200 million ATM share offering to fuel ongoing TRX treasury acquisitions.",
+   "b": "Nasdaq-listed treasury company Tron has established a $200 million ATM share offering to finance further TRX acquisitions alongside its ongoing accumulation strategy.",
    "per": {
-    "TRX": "Capital raised will be directly utilized to fund additional TRX purchases."
+    "TRX": "Backed by a new $200 million capital-raising initiative to fuel token purchases."
    },
    "direction": "positive",
-   "quality": 84,
+   "quality": 86,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 19,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
+    {
+     "name": "openPR.com",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZ25EbGpQZW4xZlFrdTBMc2hKa1MwR3lvZnV3OXA0RnVzX0NRNklVV2Vzb0pVRFBZQlpGejZMLWJoWVNkbjlzTjVGcHVkTmdHdjJoaVFhVXQtYTgzV2c5NC1pQVU3cnpTVjNTWjJodzFXZ3dUaVdtTDcyNHRmajFPc0NxTF9PaGRWZk43cEFjdk9PSG5VUEltcHV3?oc=5"
+    },
     {
      "name": "cointelegraph.com",
      "url": "https://cointelegraph.com/news/nasdaq-tron-200m-atm-offering-fuel-trx-acquisitions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Timeline for when the share offering execution will begin."
+   "missing": "Timeline for capital deployment completion"
   },
   {
-   "t": "Starknet Opens Governance Vote on Quantum Security Independence",
+   "t": "Starknet Governance Vote on Potential L1 Exit",
    "type": "mainnet",
    "status": "ongoing",
    "event_date": null,
@@ -82,9 +86,9 @@
     "STRK"
    ],
    "rel": "direct",
-   "b": "Starknet is asking STRK holders to vote on whether to explore becoming an independent layer-1 blockchain to mitigate Ethereum quantum-upgrade timeline risks.",
+   "b": "Starknet has opened a governance vote for STRK holders to decide whether to explore transitioning into an independent layer-1 blockchain to circumvent Ethereum quantum-security dependency timelines.",
    "per": {
-    "STRK": "Token holders are voting on potential architectural separation from Ethereum."
+    "STRK": "Subject to community governance outcomes regarding network architecture independence."
    },
    "direction": "mixed",
    "quality": 81,
@@ -105,10 +109,56 @@
      "url": "https://cointelegraph.com/news/starknet-vote-ethereum-l2-exit-post-quantum-l1?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "The exact timeline for the conclusion of the governance vote."
+   "missing": "Final voting results and implementation schedule"
   },
   {
-   "t": "Upbit Adds PUFFER to Won Market",
+   "t": "VanEck Withdraws Lido Staked Ethereum ETF Application",
+   "type": "etf",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "ETH"
+   ],
+   "rel": "direct",
+   "b": "VanEck has officially sought to withdraw its proposed Lido Staked Ethereum ETF filing nearly a year after its initial submission, abandoning plans for the stETH fund before any shares were issued.",
+   "per": {
+    "ETH": "Affected by the cancellation of the proposed staked Ethereum investment product."
+   },
+   "direction": "negative",
+   "quality": 79,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "CryptoRank",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeG83OHhyQTI3emF5Mm91aXVmX0dzUkxMWlAzY3p2cnZlbDFFR0l2YVVtRG1YTThsY3VnMGlQSWcwQUYtMnQ0U01ORmZrTXFNWmFKVGVjcHJ0UFc3QWptdzJPYXhNNDdLMUV2aDRFZ0V5TXdIWXdZeFFtdWQ2RmRzWFdQUV9Rd0ItSHUxeGVSbw?oc=5"
+    },
+    {
+     "name": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdnJKdURpc0J2SXdGUGdHNE9rVUlWNlJkRDQ1V1cwZ1l5eDZVV3BEMDlqR0hBa1R4ZHhXS2I3UFF3bUFUVjJqZFhhMWVfQVNhdHFNU2pUYWhKWTZWMHFLOF92Vm5CVU94MDhaYXZmUkNreXRZX3R0RVo5QWNpTDAtQllFUV9SdWJSMHI3cDFWdG1uU0J6Q1lPZjF3?oc=5"
+    },
+    {
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1PV1Zoc1hJREpsVWtBMFpuRFBQenNjZlVfT25KbnNRMVdIN2lQTzFsVm40ZmROUnM1eE9SUGJhYWw2VXVneGdwb3lsdzNJQ2c4ZWdhTVRxNzdycjJONUl3Tm1OeVQxcjB6bVNNZk1rYUJYUXhHV1E?oc=5"
+    },
+    {
+     "name": "Altcoin Buzz",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX2l4cGdrcjNucWFnSHZfckVSa3BZSjRDTE5PVUxheW1oMnIzNnptQ2szZUlpSzhnWHFvZl84OGhrS2pRZFQzbE1kR2llaFRsa1RPbGdjTzhMdHYyZllRUDQ4TktERWZyRlc2Z2VzQ3dNbDRIVmxZYW84bXVGVV9TRVRMdUhKd2VlYXJZbF9OQQ?oc=5"
+    }
+   ],
+   "missing": "Reasons for withdrawal left unsaid in regulatory letters"
+  },
+  {
+   "t": "Upbit KRW Market Listing for PUFFER",
    "type": "listing",
    "status": "completed",
    "event_date": null,
@@ -116,9 +166,9 @@
     "PUFFER"
    ],
    "rel": "direct",
-   "b": "Upbit added the PUFFER token to its Korean won market, prompting significant price surges on its first day of trading.",
+   "b": "Upbit added the PUFFER token to its Korean won market, triggering a significant price surge on its first day of trading.",
    "per": {
-    "PUFFER": "Surged significantly following its introduction to Upbit's KRW market."
+    "PUFFER": "Surged over 240% following its listing on Upbit's KRW market."
    },
    "direction": "positive",
    "quality": 78,
@@ -151,90 +201,45 @@
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZFlvYnRkc1RRVnBWSFRiOTMtZTRSM05GX1MwemRieXIxM2d3VDlKd3pzSVdweDZNRVgtUlhtUlJKdWZoeDlRRTZIcDc3WnBjUnMzRnBuR3NJaU9OWTdsVGRGUnRvZ2NaRlc4MkYtTERpcjcyVHFzMG41bDM0YlNnR3kzeXlfREFERzA5czNkOVg?oc=5"
     }
    ],
-   "missing": "Exact trading volume numbers outside of percentage spikes."
+   "missing": "Exact launch timestamps beyond general daily reports"
   },
   {
-   "t": "Binance to Delist EPIC and QUICK",
-   "type": "delisting",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-28",
-   "coins": [
-    "EPIC",
-    "QUICK"
-   ],
-   "rel": "direct",
-   "b": "Binance announced plans to delist EPIC and QUICK, with trading scheduled to end on October 28.",
-   "per": {
-    "EPIC": "Trading will end on October 28 due to the upcoming Binance delisting.",
-    "QUICK": "Trading will end on October 28 due to the upcoming Binance delisting."
-   },
-   "direction": "negative",
-   "quality": 75,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUFYdUctN2dpRnliLVgzd3NmMk1VNV9fT2dPZnc5SlZPSVhxT2E4MUFUNWw3b0RHeVN6MkZTbzdoZVM5V3dmVXpja3F3UmlEQXktb1Z2bmpvUUdBLUdXY1B3V1ZWc29tNFU2UF9JaFFjYWpBU3NxVl9aQW1lYVhpV3JIcFhRNzV0TEFCXzBMSnVCVE1xaGJrWllsVklsdDQ3cjZaN2R3?oc=5"
-    }
-   ],
-   "missing": "Reasons for the delisting."
-  },
-  {
-   "t": "VanEck Withdraws Lido Staked Ethereum ETF Filing",
-   "type": "etf",
+   "t": "EU Classifies Circle's USDC as 'Significant'",
+   "type": "regulation",
    "status": "completed",
    "event_date": null,
    "coins": [
-    "LDO",
-    "ETH"
+    "USDC"
    ],
    "rel": "direct",
-   "b": "VanEck has officially asked the SEC to withdraw its proposed Lido Staked Ethereum ETF application nearly a year after filing it.",
+   "b": "European authorities have officially classified Circle's USDC stablecoin as 'significant' under the Markets in Crypto-Assets (MiCa) framework, subjecting it to direct oversight by French and EU regulators.",
    "per": {
-    "LDO": "Plans for the unlaunched Lido stETH ETF fund were officially cancelled by VanEck."
+    "USDC": "Gains regulatory clarity and structured EU compliance status."
    },
-   "direction": "negative",
-   "quality": 66,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 77,
+   "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 21,
-    "relevance": 12,
+    "credibility": 19,
+    "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 6
    },
-   "impact": 7,
+   "impact": 8,
    "s": "fading",
-   "c": "medium",
+   "c": "high",
    "sources": [
     {
-     "name": "The Defiant",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdnJKdURpc0J2SXdGUGdHNE9rVUlWNlJkRDQ1V1cwZ1l5eDZVV3BEMDlqR0hBa1R4ZHhXS2I3UFF3bUFUVjJqZFhhMWVfQVNhdHFNU2pUYWhKWTZWMHFLOF92Vm5CVU94MDhaYXZmUkNreXRZX3R0RVo5QWNpTDAtQllFUV9SdWJSMHI3cDFWdG1uU0J6Q1lPZjF3?oc=5"
+     "name": "openPR.com",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbjk3ZGotczc4VnhFeUE2UUdUd0lNTHl0aktEbGdSVHdUeW93SERFTEluU0RLM1BuSmxwMlliYTVuVUViRy1Od1BPTVhxd1JYRVpiSTl1bUU4S1VKM0Zua0V0QnJjLWhlaFExZ0Vwd2NaaE03UEdsSDl3YUlPbE5KbGZyQmhrTGo1R0hRT3VDOFNwMEFhN1NSSzJZaw?oc=5"
     },
     {
-     "name": "CryptoRank",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeG83OHhyQTI3emF5Mm91aXVmX0dzUkxMWlAzY3p2cnZlbDFFR0l2YVVtRG1YTThsY3VnMGlQSWcwQUYtMnQ0U01ORmZrTXFNWmFKVGVjcHJ0UFc3QWptdzJPYXhNNDdLMUV2aDRFZ0V5TXdIWXdZeFFtdWQ2RmRzWFdQUV9Rd0ItSHUxeGVSbw?oc=5"
-    },
-    {
-     "name": "Altcoin Buzz",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX2l4cGdrcjNucWFnSHZfckVSa3BZSjRDTE5PVUxheW1oMnIzNnptQ2szZUlpSzhnWHFvZl84OGhrS2pRZFQzbE1kR2llaFRsa1RPbGdjTzhMdHYyZllRUDQ4TktERWZyRlc2Z2VzQ3dNbDRIVmxZYW84bXVGVV9TRVRMdUhKd2VlYXJZbF9OQQ?oc=5"
-    },
-    {
-     "name": "Crypto News",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8zYjMxdXBiWHFmcl9BRWpZeFhNSktFd3cwQXV4eHpfdVZNUGYya25FUnpYN3llNFhIUXBMcThITWdRWWd1b1dXNXVjd1YtVlBYMDlObFpIUlBSZ2d1OXNod21fMmxMTFVrbzQtM2FPOTR5bGZKUmxwRGNB?oc=5"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/eba-circle-usdc-stablecoin-significant-token-mica?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Specific reasons cited by VanEck for the withdrawal."
+   "missing": "Specific operational adjustments required by issuers"
   }
  ]
 }
