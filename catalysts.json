@@ -1,28 +1,28 @@
 {
- "updated": "2026-10-16T02:43:21.138231+00:00",
+ "updated": "2026-10-16T07:32:30.806622+00:00",
  "cards": [
   {
-   "t": "HEX Token Crash Following Founder Arrest Reports",
+   "t": "Richard Heart arrested in Istanbul",
    "type": "other",
-   "status": "ongoing",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
     "HEX"
    ],
    "rel": "direct",
-   "b": "HEX tokens plummeted by 30% and wiped out $160 million following local media reports that founder Richard Schueler (Richard Heart) was arrested in Istanbul, where police seized cash and luxury watches.",
+   "b": "HEX founder Richard Heart was arrested in Istanbul, resulting in a significant decline in HEX token price.",
    "per": {
-    "HEX": "Dropped 30% following the founder's arrest reports in Istanbul."
+    "HEX": "Sharp negative price volatility due to founder arrest news."
    },
    "direction": "negative",
-   "quality": 91,
+   "quality": 94,
    "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 19,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
    "impact": 9,
    "s": "building",
@@ -37,32 +37,70 @@
      "url": "https://cointelegraph.com/news/hex-token-erases-160m-reports-founder-schuelers-arrest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Official confirmation of extradition status or formal charges by international authorities"
+   "missing": "Future legal proceedings and implications for token supply."
   },
   {
-   "t": "Tron Sets Up $200M ATM Share Offering to Fund TRX",
-   "type": "treasury",
-   "status": "confirmed_upcoming",
+   "t": "Starknet explores L1 independence",
+   "type": "mainnet",
+   "status": "ongoing",
    "event_date": null,
    "coins": [
-    "TRX"
+    "STRK"
    ],
    "rel": "direct",
-   "b": "Nasdaq-listed treasury company Tron has established a $200 million ATM share offering to finance further TRX acquisitions alongside its ongoing accumulation strategy.",
+   "b": "Starknet is conducting a governance vote to determine if it should become an independent layer-1 blockchain to mitigate dependence on Ethereum's quantum security roadmap.",
    "per": {
-    "TRX": "Backed by a new $200 million capital-raising initiative to fuel token purchases."
+    "STRK": "Price surge observed following the announcement of the governance vote."
    },
-   "direction": "positive",
-   "quality": 86,
+   "direction": "mixed",
+   "quality": 83,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 19,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 15
+    "timing": 12
    },
-   "impact": 9,
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NbjNCa0IzM3l0QWxCekJtYlY3cm95SzhCazFIcUszUHRmaVQ4VlFQUzBhZFFleWdRaDJXTlgyWW4yc01GMmhLZ2dPdzJ3RG5TVU1iM0dRQUFtU0VaNno2MFdtTWpjVXFXeUlXb3JjTEo?oc=5"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/starknet-vote-ethereum-l2-exit-post-quantum-l1?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Final result of the governance vote."
+  },
+  {
+   "t": "Tron ATM share offering for TRX acquisition",
+   "type": "buyback",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "TRX"
+   ],
+   "rel": "direct",
+   "b": "Tron has initiated a $200 million ATM share offering to fund ongoing TRX token acquisitions to bolster its treasury.",
+   "per": {
+    "TRX": "Positive potential price impact from continued treasury-backed accumulation."
+   },
+   "direction": "positive",
+   "quality": 83,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
@@ -75,171 +113,79 @@
      "url": "https://cointelegraph.com/news/nasdaq-tron-200m-atm-offering-fuel-trx-acquisitions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Timeline for capital deployment completion"
+   "missing": "Exact daily acquisition amounts."
   },
   {
-   "t": "Starknet Governance Vote on Potential L1 Exit",
-   "type": "mainnet",
-   "status": "ongoing",
-   "event_date": null,
+   "t": "Russia to ban P2P crypto trading",
+   "type": "regulation",
+   "status": "confirmed_upcoming",
+   "event_date": "2027-07-01",
    "coins": [
-    "STRK"
+    "BTC"
    ],
-   "rel": "direct",
-   "b": "Starknet has opened a governance vote for STRK holders to decide whether to explore transitioning into an independent layer-1 blockchain to circumvent Ethereum quantum-security dependency timelines.",
+   "rel": "indirect",
+   "b": "The Central Bank of Russia has confirmed a ban on direct peer-to-peer crypto trades effective July 1, 2027, mandating all trades pass through approved exchanges.",
    "per": {
-    "STRK": "Subject to community governance outcomes regarding network architecture independence."
+    "BTC": "Potential long-term regulatory headwinds for regional retail liquidity."
    },
-   "direction": "mixed",
-   "quality": 81,
-   "label": "STRONG CATALYST",
+   "direction": "negative",
+   "quality": 73,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/russia-ban-p2p-crypto-trades-july-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/381079/russia-ban-peer-to-peer-bitcoin-trading"
+    }
+   ],
+   "missing": "Impact on specific volume of P2P activity."
+  },
+  {
+   "t": "Binance Pool hashrate decline",
+   "type": "other",
+   "status": "ongoing",
+   "event_date": "2026-11-10",
+   "coins": [
+    "BNB"
+   ],
+   "rel": "indirect",
+   "b": "Binance Pool is shutting down after a significant hashrate drop, requiring miners to transition to other providers before November 10.",
+   "per": {
+    "BNB": "Minor ecosystem impact due to infrastructure reorganization."
+   },
+   "direction": "negative",
+   "quality": 61,
+   "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 17,
-    "relevance": 25,
-    "impact": 12,
+    "relevance": 12,
+    "impact": 5,
     "novelty": 15,
     "timing": 12
    },
-   "impact": 8,
+   "impact": 6,
    "s": "building",
-   "c": "high",
+   "c": "medium",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/starknet-vote-ethereum-l2-exit-post-quantum-l1?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-mining-pool-once-handling-2-3-of-network-shuts-after-hashrate-falls-65"
     }
    ],
-   "missing": "Final voting results and implementation schedule"
-  },
-  {
-   "t": "VanEck Withdraws Lido Staked Ethereum ETF Application",
-   "type": "etf",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "VanEck has officially sought to withdraw its proposed Lido Staked Ethereum ETF filing nearly a year after its initial submission, abandoning plans for the stETH fund before any shares were issued.",
-   "per": {
-    "ETH": "Affected by the cancellation of the proposed staked Ethereum investment product."
-   },
-   "direction": "negative",
-   "quality": 79,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "CryptoRank",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeG83OHhyQTI3emF5Mm91aXVmX0dzUkxMWlAzY3p2cnZlbDFFR0l2YVVtRG1YTThsY3VnMGlQSWcwQUYtMnQ0U01ORmZrTXFNWmFKVGVjcHJ0UFc3QWptdzJPYXhNNDdLMUV2aDRFZ0V5TXdIWXdZeFFtdWQ2RmRzWFdQUV9Rd0ItSHUxeGVSbw?oc=5"
-    },
-    {
-     "name": "The Defiant",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdnJKdURpc0J2SXdGUGdHNE9rVUlWNlJkRDQ1V1cwZ1l5eDZVV3BEMDlqR0hBa1R4ZHhXS2I3UFF3bUFUVjJqZFhhMWVfQVNhdHFNU2pUYWhKWTZWMHFLOF92Vm5CVU94MDhaYXZmUkNreXRZX3R0RVo5QWNpTDAtQllFUV9SdWJSMHI3cDFWdG1uU0J6Q1lPZjF3?oc=5"
-    },
-    {
-     "name": "BigGo Finance",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1PV1Zoc1hJREpsVWtBMFpuRFBQenNjZlVfT25KbnNRMVdIN2lQTzFsVm40ZmROUnM1eE9SUGJhYWw2VXVneGdwb3lsdzNJQ2c4ZWdhTVRxNzdycjJONUl3Tm1OeVQxcjB6bVNNZk1rYUJYUXhHV1E?oc=5"
-    },
-    {
-     "name": "Altcoin Buzz",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX2l4cGdrcjNucWFnSHZfckVSa3BZSjRDTE5PVUxheW1oMnIzNnptQ2szZUlpSzhnWHFvZl84OGhrS2pRZFQzbE1kR2llaFRsa1RPbGdjTzhMdHYyZllRUDQ4TktERWZyRlc2Z2VzQ3dNbDRIVmxZYW84bXVGVV9TRVRMdUhKd2VlYXJZbF9OQQ?oc=5"
-    }
-   ],
-   "missing": "Reasons for withdrawal left unsaid in regulatory letters"
-  },
-  {
-   "t": "Upbit KRW Market Listing for PUFFER",
-   "type": "listing",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "PUFFER"
-   ],
-   "rel": "direct",
-   "b": "Upbit added the PUFFER token to its Korean won market, triggering a significant price surge on its first day of trading.",
-   "per": {
-    "PUFFER": "Surged over 240% following its listing on Upbit's KRW market."
-   },
-   "direction": "positive",
-   "quality": 78,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "BigGo Finance",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE01RWhNOVRaWU1MVXBNcGtkNUVsSjJTS3ZmREcwOTB6M1pkN1V4ZlRwVmtFX3V5QWFic25kYk5PdHMwUnhpWmZ2a3RfNS1weDdNOG84MkpYLUdxNF9XSGFLc0stTXlTOGhjODFPU21aMmtPMWtJbWc?oc=5"
-    },
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOFdtMm5TR2FkdVE0OU01eUxwazJMNUpXLU1qbGV2WkFMU1Q3N0E1aUdmUVo4NDdMR1VReFdUUW1MTktmeVk4WVNuUVh0VmFNeDNiR2E5UEdWcnljQ1hQWVBYUzZ5M1lELTM1UGJyOUt2MXBmX0VSM09vUXI2SDJVX3JxY21LaVU5R3NZT0dsQTY?oc=5"
-    },
-    {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vOXlseFdWZGl2Zm9QZUVGaGQ3a2NxRjhvLXVUcnhIclJibmFRdkhITjk2TXNEUWtvZUVFUm1fTnoyQkdyTEFsZGE4WG5DU0cxeVpjdw?oc=5"
-    },
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZFlvYnRkc1RRVnBWSFRiOTMtZTRSM05GX1MwemRieXIxM2d3VDlKd3pzSVdweDZNRVgtUlhtUlJKdWZoeDlRRTZIcDc3WnBjUnMzRnBuR3NJaU9OWTdsVGRGUnRvZ2NaRlc4MkYtTERpcjcyVHFzMG41bDM0YlNnR3kzeXlfREFERzA5czNkOVg?oc=5"
-    }
-   ],
-   "missing": "Exact launch timestamps beyond general daily reports"
-  },
-  {
-   "t": "EU Classifies Circle's USDC as 'Significant'",
-   "type": "regulation",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "USDC"
-   ],
-   "rel": "direct",
-   "b": "European authorities have officially classified Circle's USDC stablecoin as 'significant' under the Markets in Crypto-Assets (MiCa) framework, subjecting it to direct oversight by French and EU regulators.",
-   "per": {
-    "USDC": "Gains regulatory clarity and structured EU compliance status."
-   },
-   "direction": "positive",
-   "quality": 77,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "openPR.com",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbjk3ZGotczc4VnhFeUE2UUdUd0lNTHl0aktEbGdSVHdUeW93SERFTEluU0RLM1BuSmxwMlliYTVuVUViRy1Od1BPTVhxd1JYRVpiSTl1bUU4S1VKM0Zua0V0QnJjLWhlaFExZ0Vwd2NaaE03UEdsSDl3YUlPbE5KbGZyQmhrTGo1R0hRT3VDOFNwMEFhN1NSSzJZaw?oc=5"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/eba-circle-usdc-stablecoin-significant-token-mica?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Specific operational adjustments required by issuers"
+   "missing": "Migration path for displaced miners."
   }
  ]
 }
