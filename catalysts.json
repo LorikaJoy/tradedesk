@@ -1,191 +1,107 @@
 {
- "updated": "2026-10-16T07:32:30.806622+00:00",
+ "updated": "2026-10-16T19:50:51.563872+00:00",
  "cards": [
   {
-   "t": "Richard Heart arrested in Istanbul",
-   "type": "other",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "HEX"
-   ],
-   "rel": "direct",
-   "b": "HEX founder Richard Heart was arrested in Istanbul, resulting in a significant decline in HEX token price.",
-   "per": {
-    "HEX": "Sharp negative price volatility due to founder arrest news."
-   },
-   "direction": "negative",
-   "quality": 94,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/policy/2026/10/15/hex-founder-richard-heart-arrested-in-istanbul-turkish-media-report"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/hex-token-erases-160m-reports-founder-schuelers-arrest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Future legal proceedings and implications for token supply."
-  },
-  {
-   "t": "Starknet explores L1 independence",
-   "type": "mainnet",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "STRK"
-   ],
-   "rel": "direct",
-   "b": "Starknet is conducting a governance vote to determine if it should become an independent layer-1 blockchain to mitigate dependence on Ethereum's quantum security roadmap.",
-   "per": {
-    "STRK": "Price surge observed following the announcement of the governance vote."
-   },
-   "direction": "mixed",
-   "quality": 83,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NbjNCa0IzM3l0QWxCekJtYlY3cm95SzhCazFIcUszUHRmaVQ4VlFQUzBhZFFleWdRaDJXTlgyWW4yc01GMmhLZ2dPdzJ3RG5TVU1iM0dRQUFtU0VaNno2MFdtTWpjVXFXeUlXb3JjTEo?oc=5"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/starknet-vote-ethereum-l2-exit-post-quantum-l1?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Final result of the governance vote."
-  },
-  {
-   "t": "Tron ATM share offering for TRX acquisition",
-   "type": "buyback",
-   "status": "ongoing",
+   "t": "Tron Sets Up $200M ATM Share Offering for TRX Purchases",
+   "type": "treasury",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
     "TRX"
    ],
    "rel": "direct",
-   "b": "Tron has initiated a $200 million ATM share offering to fund ongoing TRX token acquisitions to bolster its treasury.",
+   "b": "Nasdaq-listed Tron has set up a $200 million ATM share offering to fund ongoing TRX token acquisitions and support its treasury holdings.",
    "per": {
-    "TRX": "Positive potential price impact from continued treasury-backed accumulation."
+    "TRX": "$200M ATM share offering to fuel acquisitions."
    },
    "direction": "positive",
-   "quality": 83,
+   "quality": 84,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 17,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
    "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "openPR.com",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZ25EbGpQZW4xZlFrdTBMc2hKa1MwR3lvZnV3OXA0RnVzX0NRNklVV2Vzb0pVRFBZQlpGejZMLWJoWVNkbjlzTjVGcHVkTmdHdjJoaVFhVXQtYTgzV2c5NC1pQVU3cnpTVjNTWjJodzFXZ3dUaVdtTDcyNHRmajFPc0NxTF9PaGRWZk43cEFjdk9PSG5VUEltcHV3?oc=5"
-    },
-    {
      "name": "cointelegraph.com",
      "url": "https://cointelegraph.com/news/nasdaq-tron-200m-atm-offering-fuel-trx-acquisitions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact daily acquisition amounts."
+   "missing": "Timeline of when the share offering execution will begin"
   },
   {
-   "t": "Russia to ban P2P crypto trading",
-   "type": "regulation",
-   "status": "confirmed_upcoming",
-   "event_date": "2027-07-01",
+   "t": "Strategy Conditionally Declares Daily Dividends on STRC",
+   "type": "other",
+   "status": "officially_announced",
+   "event_date": null,
    "coins": [
-    "BTC"
+    "STRC"
    ],
-   "rel": "indirect",
-   "b": "The Central Bank of Russia has confirmed a ban on direct peer-to-peer crypto trades effective July 1, 2027, mandating all trades pass through approved exchanges.",
+   "rel": "direct",
+   "b": "Strategy conditionally declared daily dividends on STRC as the token continued to hover below its $100 par value.",
    "per": {
-    "BTC": "Potential long-term regulatory headwinds for regional retail liquidity."
+    "STRC": "Daily dividends declared conditionally while trading below $100 par value."
+   },
+   "direction": "mixed",
+   "quality": 77,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/strategy-daily-dividends-strc-hovers-below-100?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Exact conditions required for the daily dividends"
+  },
+  {
+   "t": "Upbit to Delist Zilliqa",
+   "type": "delisting",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-11-16",
+   "coins": [
+    "ZIL"
+   ],
+   "rel": "direct",
+   "b": "Upbit announced it will delist Zilliqa (ZIL) on November 16.",
+   "per": {
+    "ZIL": "Upbit ending support on Nov 16."
    },
    "direction": "negative",
-   "quality": 73,
+   "quality": 75,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 19,
-    "relevance": 12,
+    "credibility": 8,
+    "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 7,
+   "impact": 8,
    "s": "building",
-   "c": "medium",
+   "c": "high",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/russia-ban-p2p-crypto-trades-july-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/381079/russia-ban-peer-to-peer-bitcoin-trading"
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbU1OaVlyRS1jeUl4Z3BDbDJCYk12cnpweXl1MzgyeWdOTTZMSXdfa3BtOE1mTzgtTUlOOEtOcGtGdGx4aEp6WTBNUXJLb2kySmg5QzdmeUlYbGRVV295YVFlaEJ0Mk43SzdLbFh4SDlZUlNiWk5qaFV5WklFV1VtaVRLVFZSM19VN3c?oc=5"
     }
    ],
-   "missing": "Impact on specific volume of P2P activity."
-  },
-  {
-   "t": "Binance Pool hashrate decline",
-   "type": "other",
-   "status": "ongoing",
-   "event_date": "2026-11-10",
-   "coins": [
-    "BNB"
-   ],
-   "rel": "indirect",
-   "b": "Binance Pool is shutting down after a significant hashrate drop, requiring miners to transition to other providers before November 10.",
-   "per": {
-    "BNB": "Minor ecosystem impact due to infrastructure reorganization."
-   },
-   "direction": "negative",
-   "quality": 61,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 12,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 6,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-mining-pool-once-handling-2-3-of-network-shuts-after-hashrate-falls-65"
-    }
-   ],
-   "missing": "Migration path for displaced miners."
+   "missing": "Exact time of delisting on Nov 16"
   }
  ]
 }
