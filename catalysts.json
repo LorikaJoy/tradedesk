@@ -1,4 +1,73 @@
 {
- "updated": "2026-10-17T09:07:19.225425+00:00",
- "cards": []
+ "updated": "2026-10-17T12:57:54.573666+00:00",
+ "cards": [
+  {
+   "t": "Upbit to Delist Zilliqa (ZIL) on Nov. 16",
+   "type": "delisting",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-11-16",
+   "coins": [
+    "ZIL"
+   ],
+   "rel": "direct",
+   "b": "Upbit announced it will delist Zilliqa (ZIL) on November 16.",
+   "per": {
+    "ZIL": "Upbit exchange will end trading support for ZIL on November 16."
+   },
+   "direction": "negative",
+   "quality": 75,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbU1OaVlyRS1jeUl4Z3BDbDJCYk12cnpweXl1MzgyeWdOTTZMSXdfa3BtOE1mTzgtTUlOOEtOcGtGdGx4aEp6WTBNUXJLb2kySmg5QzdmeUlYbGRVV295YVFlaEJ0Mk43SzdLbFh4SDlZUlNiWk5qaFV5WklFV1VtaVRLVFZSM19VN3c?oc=5"
+    }
+   ],
+   "missing": "Specific time of delisting and trading pairs affected."
+  },
+  {
+   "t": "NEAR Rises 12% Following Partnership With Sunrise",
+   "type": "partnership",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "NEAR"
+   ],
+   "rel": "direct",
+   "b": "NEAR token rose 12% following a partnership announcement with Sunrise.",
+   "per": {
+    "NEAR": "Partnered with Sunrise, prompting a 12% price increase."
+   },
+   "direction": "positive",
+   "quality": 66,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "KuCoin",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMEpMOEdONEozR2psX1R3b2NwU05BejhxdllkY1NpcXhMY2w0N1Zkc0pmUE5GeXRDSWI2VFprYzJqQVJ6QXBKQS11QXZfX0gtZk1CZ3lKdGVEUG9sSVJneDhfZUFibFhSbjRqTzZpbGJaNjBDMU9meW9PZUlYbE5XUTZlRzJvZ3VJZWFrOFNR?oc=5"
+    }
+   ],
+   "missing": "Full details and financial terms of the Sunrise partnership."
+  }
+ ]
 }
