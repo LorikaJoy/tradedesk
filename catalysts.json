@@ -1,39 +1,4 @@
 {
- "updated": "2026-10-16T22:24:43.240663+00:00",
- "cards": [
-  {
-   "t": "Upbit Delists Zilliqa",
-   "type": "delisting",
-   "status": "officially_announced",
-   "event_date": "2025-11-16",
-   "coins": [
-    "ZIL"
-   ],
-   "rel": "direct",
-   "b": "Upbit has announced it will delist Zilliqa (ZIL) on November 16.",
-   "per": {
-    "ZIL": "Upbit exchange delisting on Nov 16 removes significant liquidity."
-   },
-   "direction": "negative",
-   "quality": 83,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbU1OaVlyRS1jeUl4Z3BDbDJCYk12cnpweXl1MzgyeWdOTTZMSXdfa3BtOE1mTzgtTUlOOEtOcGtGdGx4aEp6WTBNUXJLb2kySmg5QzdmeUlYbGRVV295YVFlaEJ0Mk43SzdLbFh4SDlZUlNiWk5qaFV5WklFV1VtaVRLVFZSM19VN3c?oc=5"
-    }
-   ],
-   "missing": "Specific time of delisting on Nov 16."
-  }
- ]
+ "updated": "2026-10-17T00:40:04.746169+00:00",
+ "cards": []
 }
