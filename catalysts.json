@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T20:50:45.397294+00:00",
+ "updated": "2026-10-17T22:49:23.524994+00:00",
  "cards": [
   {
    "t": "Strategy Faces Index Removal Under Finalized MSCI Rules",
@@ -10,23 +10,23 @@
     "BTC"
    ],
    "rel": "indirect",
-   "b": "MSCI finalized rules to classify non-operating companies as ineligible starting November 30, putting Bitcoin treasury giant Strategy at risk of index removal.",
+   "b": "MSCI finalized rules to classify non-operating companies as ineligible starting November 30, targeting firms like Strategy whose balance sheets are dominated by a single asset.",
    "per": {
-    "BTC": "Potential indirect pressure from corporate treasury index eligibility changes."
+    "BTC": "Potential index removal of major corporate holder Strategy could impact market sentiment and treasury-driven demand."
    },
    "direction": "negative",
-   "quality": 79,
+   "quality": 73,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 19,
     "relevance": 12,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 7,
    "s": "building",
-   "c": "high",
+   "c": "medium",
    "sources": [
     {
      "name": "decrypt.co",
@@ -35,153 +35,13 @@
     {
      "name": "decrypt.co",
      "url": "https://decrypt.co/381138/morning-minute-google-clears-a-major-quantum-hurdle-bitcoin-still-safe"
-    }
-   ],
-   "missing": "Definitive confirmation of exclusion status by MSCI."
-  },
-  {
-   "t": "PONS Token Jumps After Coinbase and Deribit Listings",
-   "type": "listing",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "PONS"
-   ],
-   "rel": "direct",
-   "b": "The PONS token increased by 11% following listings on Coinbase and Deribit. The token is nearing a key breakout point.",
-   "per": {
-    "PONS": "Experienced an 11% price increase following its exchange debuts."
-   },
-   "direction": "positive",
-   "quality": 76,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 10,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "AMBCrypto",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWTJUR0QxSFRmTHNHOXpNbWF3Z1U4Rm16X1hqWWJWeFdhYk1ET2I0TW9ZMHhYZFVWOUxnS3oxQnFGZVJVNWJVNjRMUHZtSy1uMkNnUlVPSUZmUXYwYUdBVVpLVkxGc0pxclo3OVYxc3ZZYkJXc1kwR3VDOUEyUmNkRWpUT3pfM3NhT2w3ZEN3?oc=5"
     },
     {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWk10M1VYQmhVbzBnWkZpTWRIZ3U4dTJYVWwyZkFkOW0yaFhoQW9LQldKb2E5Y0lValNqQkRDWmtaQ01QZzEyb0c3dXhkaUF4NXFRNlBEZGxPTFhaYzdkUENNVUhIYjRJUjY0Qm8tS182ZkVuUjN2R3NCUWg4SjdIMWN5SkZTMEdqWDdlVzRkeG9iN3IyNzZOSlozS3dLWV95VnJYbEpJdFZUNHhybFM0?oc=5"
+     "name": "Crypto News",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBHMlVoQnFiaHpnWnFMbVpCUUl3Y3ZOYm9wYU1HV1pMWHk0OUhIdUN0X3FRWWZzeU5XS2s5RklON3otVGFXN2FSM01Bem0zb1ZYTjBQTEV3ZFRnUXNjczZtbFVoN0djMzc3d0Y2N1VMUzRiVF9wVmI4QkZ5QWY?oc=5"
     }
    ],
-   "missing": "Exact listing dates and trading pair details."
-  },
-  {
-   "t": "Solana Alpenglow Launch Date Set",
-   "type": "mainnet",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-21",
-   "coins": [
-    "SOL"
-   ],
-   "rel": "direct",
-   "b": "Solana is approaching its Alpenglow network launch scheduled for October 21, influencing recent price predictions.",
-   "per": {
-    "SOL": "Anticipating network upgrade and launch event."
-   },
-   "direction": "positive",
-   "quality": 75,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "CoinGape",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNFk5ZE1ZcjdWYXlxTEJTRmZZM0NMdWh1R25aNDdBTHJrYW5ZSzYyRmVqbC1xekhDcEZyek5ybnNRcTNiZXFDbUJsRDI0ckhBMkhzWUVpeWd5Z2FoX3RrcFlmZktPd2Q5dHFYWEVkMTloOVlMZW1YYnJmeDIyMjhkaHRTVWxMcHZvbURLVVRRRDlyYkNh?oc=5"
-    }
-   ],
-   "missing": "Specific upgrade parameters and technical changes."
-  },
-  {
-   "t": "21Shares Files for SEI ETF with Staking Features",
-   "type": "etf",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "SEI"
-   ],
-   "rel": "direct",
-   "b": "21Shares has officially filed an application for an exchange-traded fund (ETF) focused on SEI that incorporates staking features.",
-   "per": {
-    "SEI": "Benefits from institutional product expansion efforts."
-   },
-   "direction": "positive",
-   "quality": 75,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLTQwT0htZk95cERMZFVBTk13ZndDZXVIOVBnc01mWkZSLXdnamxhcDZPbU8xcUhpcndYcHB0ZGZxbEdHQjBVLWIteHVveDRvWlJTQm9JMUVfeENVdENoZDdpenB2RTBKOTBLYkM0UGVjekVEbkd3S21KUS1obGdSSUQ2cUdBa216QmdiNHZsV255NzRv?oc=5"
-    }
-   ],
-   "missing": "Regulatory review timeline and approval odds."
-  },
-  {
-   "t": "Quantum Alliance Formed to Address Bitcoin Quantum Vulnerabilities",
-   "type": "other",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Nine crypto companies launched the Quantum Alliance to set open standards for testing quantum-resistance claims as millions of Bitcoin sit exposed.",
-   "per": {
-    "BTC": "Subject to long-term security discussions and collaborative industry defense standards."
-   },
-   "direction": "neutral",
-   "quality": 70,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/16/experts-agree-quantum-computers-could-put-satoshi-s-bitcoin-at-risk-but-not-on-what-s-next"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/381236/crypto-firms-launch-quantum-alliance-as-6-million-bitcoin-sit-exposed"
-    }
-   ],
-   "missing": "Consensus on timeline of quantum threat and whether vulnerable coins should be frozen."
+   "missing": "Exact details on potential buffer measures or response actions from Strategy."
   }
  ]
 }
