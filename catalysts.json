@@ -1,18 +1,104 @@
 {
- "updated": "2026-10-17T12:57:54.573666+00:00",
+ "updated": "2026-10-17T16:10:14.685109+00:00",
  "cards": [
   {
-   "t": "Upbit to Delist Zilliqa (ZIL) on Nov. 16",
-   "type": "delisting",
+   "t": "Deutsche Bank Nears Launch of Institutional Bitcoin and Ether Custody Services",
+   "type": "partnership",
    "status": "confirmed_upcoming",
-   "event_date": "2026-11-16",
+   "event_date": null,
    "coins": [
-    "ZIL"
+    "BTC",
+    "ETH"
    ],
    "rel": "direct",
-   "b": "Upbit announced it will delist Zilliqa (ZIL) on November 16.",
+   "b": "Deutsche Bank is weeks away from launching institutional Bitcoin and Ether custody services in Germany and expanding to Asian financial centers.",
    "per": {
-    "ZIL": "Upbit exchange will end trading support for ZIL on November 16."
+    "BTC": "Institutional custody launch broadens regulated access.",
+    "ETH": "Custody support from a major bank expands institutional pathways."
+   },
+   "direction": "positive",
+   "quality": 88,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNek1CaFEyeW9Yc3NMR0tqdkwxSnNvNGlGN1VqdElTVWVVdU9fZVMxOURkaWxfR01qcnZmWUxBd2p5VDlQVUxXZi1DdTB2SnZqdlVVTzl1d2RVVm8xamlCSUlVcnpQMi1LUVE5SkxaeEFBenNaYkNHS19TLU1CM1YxMzVlWmxwZkJUdm9OVWtwRldHckNNaHVnSWVUWVA2NGxtU1hPV1BReTlYRHhoLUJMSEtXSTFKbkg3bTVTVDJHVWFJSlJIRWp1RjZPOGRtS2ZYaG83UU1HZXJOdkliSnowRko3a2tRSVBCbm1xcw?oc=5"
+    },
+    {
+     "name": "Bitcoin News",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbWxiakdYNk5OVDZIZ2lMVXpFRnNGejJhdi16S3E1YlBYYjkxRlhQc1haVjkycmRnbGlsTU5QRWV4LUg1ZExtbHl6R0wyNDF2Z1Y4ZnNTNWZoV0xuWmhGTTZJMEJCUFVWUmFvX1RQQU5JY0QzdVE0YnkyS1hPQWtUOFo4NG9JRS1jMGI1bk92d2o2QTZlYkVlTGxCLXo?oc=5"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/deutsche-bank-crypto-custody-expansion-asia-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Exact launch date."
+  },
+  {
+   "t": "MSCI Finalizes Index Rules Threatening Strategy and Metaplanet Inclusion",
+   "type": "regulation",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-11-30",
+   "coins": [
+    "BTC"
+   ],
+   "rel": "indirect",
+   "b": "MSCI approved rules classifying non-operating companies whose balance sheets are dominated by a single asset as ineligible for index inclusion, threatening the index status of Bitcoin treasury firms like Strategy and Metaplanet.",
+   "per": {
+    "BTC": "Potential index exclusion for corporate holders could weigh on institutional sentiment."
+   },
+   "direction": "negative",
+   "quality": 81,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 12,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/16/msci-approves-rules-that-could-eject-strategy-metaplanet-from-equity-indexes"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/381168/bitcoin-treasury-giant-strategy-faces-index-removal-under-finalized-msci-rules"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/381138/morning-minute-google-clears-a-major-quantum-hurdle-bitcoin-still-safe"
+    }
+   ],
+   "missing": "Exact names of all affected companies outside Strategy and Metaplanet."
+  },
+  {
+   "t": "XRP Ledger Escrow Release Scheduled for November 1",
+   "type": "unlock",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-11-01",
+   "coins": [
+    "XRP"
+   ],
+   "rel": "direct",
+   "b": "An escrow release of XRP is scheduled for November 1, adding a planned supply influx into the market.",
+   "per": {
+    "XRP": "Scheduled token unlock may increase circulating supply and selling pressure."
    },
    "direction": "negative",
    "quality": 75,
@@ -29,32 +115,32 @@
    "c": "high",
    "sources": [
     {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbU1OaVlyRS1jeUl4Z3BDbDJCYk12cnpweXl1MzgyeWdOTTZMSXdfa3BtOE1mTzgtTUlOOEtOcGtGdGx4aEp6WTBNUXJLb2kySmg5QzdmeUlYbGRVV295YVFlaEJ0Mk43SzdLbFh4SDlZUlNiWk5qaFV5WklFV1VtaVRLVFZSM19VN3c?oc=5"
+     "name": "CryptoTicker",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcVFJdE5OX2NCZ25GNlpDaWtZRHdSa0wzZGhEYmdYanF3Sm9JeEFUblFkZzBSbTZ6OWl5MGR3aVN5MkVMaG1wSnQzaE5MSFpLUjZ0NWlpTEhSYmxMSkZKdktsY3VTZnQtRHpGNENPR2daRDljWEx6ZFhKM3dIWjEwdzdiLVg3cU5q?oc=5"
     }
    ],
-   "missing": "Specific time of delisting and trading pairs affected."
+   "missing": "Exact token volume to be released."
   },
   {
-   "t": "NEAR Rises 12% Following Partnership With Sunrise",
-   "type": "partnership",
+   "t": "Crypto Firms Launch Quantum Alliance to Address Threat to 6 Million Bitcoin",
+   "type": "other",
    "status": "completed",
    "event_date": null,
    "coins": [
-    "NEAR"
+    "BTC"
    ],
    "rel": "direct",
-   "b": "NEAR token rose 12% following a partnership announcement with Sunrise.",
+   "b": "Nine crypto companies formed the Quantum Alliance to set open standards and prepare for quantum attacks on vulnerable Bitcoin holdings.",
    "per": {
-    "NEAR": "Partnered with Sunrise, prompting a 12% price increase."
+    "BTC": "Long-term coordination addresses existential quantum risks, though timelines remain distant."
    },
-   "direction": "positive",
-   "quality": 66,
+   "direction": "mixed",
+   "quality": 70,
    "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 19,
     "relevance": 25,
-    "impact": 12,
+    "impact": 5,
     "novelty": 15,
     "timing": 6
    },
@@ -63,11 +149,49 @@
    "c": "medium",
    "sources": [
     {
-     "name": "KuCoin",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMEpMOEdONEozR2psX1R3b2NwU05BejhxdllkY1NpcXhMY2w0N1Zkc0pmUE5GeXRDSWI2VFprYzJqQVJ6QXBKQS11QXZfX0gtZk1CZ3lKdGVEUG9sSVJneDhfZUFibFhSbjRqTzZpbGJaNjBDMU9meW9PZUlYbE5XUTZlRzJvZ3VJZWFrOFNR?oc=5"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/16/experts-agree-quantum-computers-could-put-satoshi-s-bitcoin-at-risk-but-not-on-what-s-next"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/381236/crypto-firms-launch-quantum-alliance-as-6-million-bitcoin-sit-exposed"
     }
    ],
-   "missing": "Full details and financial terms of the Sunrise partnership."
+   "missing": "Specific mitigation timelines and code implementation steps."
+  },
+  {
+   "t": "Solana Foundation Reschedules Shanghai Event Due to Overwhelming Registration",
+   "type": "other",
+   "status": "delayed",
+   "event_date": null,
+   "coins": [
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "The Solana Foundation postponed its Shanghai event after registrations quadrupled overnight and exceeded local authority limits.",
+   "per": {
+    "SOL": "Event delay creates minor operational friction but reflects high local interest."
+   },
+   "direction": "mixed",
+   "quality": 66,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 4
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/solana-shanghai-postponed-exceeding-event-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Rescheduled event date."
   }
  ]
 }
