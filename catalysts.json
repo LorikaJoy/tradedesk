@@ -1,81 +1,77 @@
 {
- "updated": "2026-10-18T05:08:27.334140+00:00",
+ "updated": "2026-10-18T09:34:43.215154+00:00",
  "cards": [
   {
-   "t": "MSCI Rules Target Single-Asset Treasury Companies",
-   "type": "treasury",
+   "t": "Solana Alpenglow Launch",
+   "type": "mainnet",
    "status": "confirmed_upcoming",
-   "event_date": "2026-11-30",
+   "event_date": "2026-10-21",
    "coins": [
-    "BTC"
+    "SOL"
    ],
    "rel": "direct",
-   "b": "MSCI finalized rules to classify non-operating companies whose balance sheets are dominated by a single asset as ineligible for index inclusion, effective November 30.",
+   "b": "Solana is preparing for the Alpenglow network activation scheduled for October 21.",
    "per": {
-    "BTC": "Potential index removal for major bitcoin treasury holders could create downward pressure."
+    "SOL": "Alpenglow launch approaches on October 21."
    },
-   "direction": "negative",
-   "quality": 94,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 85,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 10,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 9,
+   "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/381168/bitcoin-treasury-giant-strategy-faces-index-removal-under-finalized-msci-rules"
+     "name": "CoinGape",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNFk5ZE1ZcjdWYXlxTEJTRmZZM0NMdWh1R25aNDdBTHJrYW5ZSzYyRmVqbC1xekhDcEZyek5ybnNRcTNiZXFDbUJsRDI0ckhBMkhzWUVpeWd5Z2FoX3RrcFlmZktPd2Q5dHFYWEVkMTloOVlMZW1YYnJmeDIyMjhkaHRTVWxMcHZvbURLVVRRRDlyYkNh?oc=5"
     },
     {
-     "name": "Crypto News",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBHMlVoQnFiaHpnWnFMbVpCUUl3Y3ZOYm9wYU1HV1pMWHk0OUhIdUN0X3FRWWZzeU5XS2s5RklON3otVGFXN2FSM01Bem0zb1ZYTjBQTEV3ZFRnUXNjczZtbFVoN0djMzc3d0Y2N1VMUzRiVF9wVmI4QkZ5QWY?oc=5"
+     "name": "openPR.com",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQnkxYTdJNFQ4YlJIT2U0d2FXTW5rZFQyWlQ1dVptNWxkQnVsakhrN3Rra2hvLWFsTU12eVkwX21DSUZUTDFSM3F1Y2ZTUTh4WFRmS1NmbG5ackJTYjRKeWx3QnVaMFBIUDVFRmNZNTlTTDBJeUIxdGtYV29zZ3AzTnhaN25ZQzRIQi13QmpsYmtmRHRnVVU5VnNIOHlsN3c?oc=5"
     }
    ],
-   "missing": "Exact list of companies to be removed from the index."
+   "missing": "Specific details on network changes and exact upgrade times."
   },
   {
-   "t": "Marqeta and Coinbase Expand Stablecoin Card Partnership",
-   "type": "partnership",
+   "t": "Ethereum Upgrade Test",
+   "type": "mainnet",
    "status": "confirmed_upcoming",
-   "event_date": null,
+   "event_date": "2026-10-26",
    "coins": [
-    "USDC"
+    "ETH"
    ],
    "rel": "direct",
-   "b": "Coinbase and Marqeta extended their six-year tie-up to power stablecoin-backed debit cards, building on their previous 2020 collaboration.",
+   "b": "Ethereum holds near $2,400 ahead of an upgrade test scheduled for October 26.",
    "per": {
-    "USDC": "Expanded card integration increases utility and transaction volume for USDC."
+    "ETH": "Upgrade test scheduled for October 26."
    },
    "direction": "positive",
-   "quality": 86,
+   "quality": 75,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 8,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 9,
+   "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "FinanceFeeds",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNODB0X1ZETERKOUU1TUVBZWJ1VnlqUlNmaExXOHNORGdLT0ZMX1lTREFuVnR5UEN1ZmtlUXk1c1BvMFVJX0ZYLXBTVGxpU19zV3VaaDFvRDhnNWEwTm5YVjBaNUJYR05nb2dKNmdsS0JYZ21UUlU2SFgzbEdaNUoxdHJrSnhvbVBzZEY5SDJhVWZOV1NuQmIw?oc=5"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-10-16-coinbase-to-power-stablecoin-backed-cards-for-marqeta-customers-418833"
+     "name": "openPR.com",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOb3ZseExHREFvb0loM2ZNYjdmcC1CV3dtZGVwZVBFbTIyVzNVWnFfUTJnQ2tFYWtEdElVeXFoTGx1bXVWUlhOY2xZU3ZDVFZ5SkJTZ2pJTExZaUNlS29lY1o2dkpQUXp5WXRJc0h0NnNGMFdSdHlsdHowQk5JWlYyMVdKWjI3bi1OVjRIYzJuWERyRWE5NjVFeXdsTy0?oc=5"
     }
    ],
-   "missing": "Launch dates for specific new regional card rollouts."
+   "missing": "Details of the upgrade specifications."
   }
  ]
 }
