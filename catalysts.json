@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-18T21:30:30.202036+00:00",
+ "updated": "2026-10-18T23:39:23.764314+00:00",
  "cards": [
   {
-   "t": "Cysic Bridge Suspended After Unauthorized Mint",
+   "t": "Cysic Bridge Suspended After Unauthorized Mint and Fund Move",
    "type": "hack",
    "status": "ongoing",
    "event_date": null,
@@ -10,9 +10,9 @@
     "CYS"
    ],
    "rel": "direct",
-   "b": "Cysic suspended its crypto bridge after an unauthorized mint of 10 million CYS tokens, with $727,000 moved to Ethereum.",
+   "b": "Cysic suspended its crypto bridge after an attacker made an unauthorized mint of 10 million CYS tokens and moved approximately $727,000 to Ethereum.",
    "per": {
-    "CYS": "Bridge suspended and tokens unauthorizedly minted and moved."
+    "CYS": "Hit by an unauthorized mint of 10 million tokens and bridge suspension."
    },
    "direction": "negative",
    "quality": 91,
@@ -37,28 +37,28 @@
      "url": "https://www.theblock.co/news/defi/2026-10-18-cysic-suspends-bridge-after-attacker-mints-tokens-and-moves-727000-to-ethereum-418863"
     }
    ],
-   "missing": "Total final losses and remediation timeline."
+   "missing": "The exact total financial damage beyond the bridged $727,000 and recovery plans are not yet specified."
   },
   {
-   "t": "Grayscale Files for US Bittensor ETP Listing",
+   "t": "Grayscale Files With SEC for First US Bittensor ETP Listing",
    "type": "etf",
-   "status": "confirmed_upcoming",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
     "TAO"
    ],
    "rel": "direct",
-   "b": "Grayscale has filed with the SEC for the first US Bittensor ETP listing.",
+   "b": "Grayscale has filed an application with the SEC to list the first US Bittensor ETP.",
    "per": {
-    "TAO": "Faced with a new SEC filing for an ETP listing by Grayscale."
+    "TAO": "Gaining institutional product visibility via Grayscale's ETP filing."
    },
    "direction": "positive",
-   "quality": 75,
+   "quality": 85,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 10,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 15
    },
@@ -69,9 +69,13 @@
     {
      "name": "CoinMarketCap",
      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLURmcFNBNDZfRG8tZkNTZjZpLV92US1VbFFWZXFfRTFMNjRxaWNzRmNLVERTeVN3VVhrY0dQNDZyTmVUSGRwN0ZRR2ZZRmtIR09VcWtQV3JKX2xRalphNjNtUTFEd1FJaEwwMkQ1M1NPVVlGQXlubGJRWEpNdFNCaFZtcEhQVDdHbGM4ZA?oc=5"
+    },
+    {
+     "name": "openPR.com",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPR1VpWFc4WV9aWHl2T1UwRkhWWDQxZ24tNmJEd0taUmdyNXlkc3gxYWpOeko4bW83b2l3SEEwakZCOVhQT1k1TGFDUkxxbUdOSm52cEtSN3MwOVRvS0VQb3d3aTNYNXZHajdOV0ZTOWRYeWdoblpiam4xUUVidThhSFIyRFY2T1pWSzNIejdPdXpJTVdfaUhB?oc=5"
     }
    ],
-   "missing": "SEC approval timeline."
+   "missing": "The exact filing date and SEC review timeline details are not provided."
   }
  ]
 }
