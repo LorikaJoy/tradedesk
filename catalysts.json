@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-18T19:10:59.174403+00:00",
+ "updated": "2026-10-18T21:30:30.202036+00:00",
  "cards": [
   {
-   "t": "Cysic Bridge Suspended After Unauthorized Token Mint",
+   "t": "Cysic Bridge Suspended After Unauthorized Mint",
    "type": "hack",
    "status": "ongoing",
    "event_date": null,
@@ -10,9 +10,9 @@
     "CYS"
    ],
    "rel": "direct",
-   "b": "Cysic halted its crypto bridge after an attacker made an unauthorized mint of 10 million CYS tokens, moving about $727,000 in proceeds to Ethereum.",
+   "b": "Cysic suspended its crypto bridge after an unauthorized mint of 10 million CYS tokens, with $727,000 moved to Ethereum.",
    "per": {
-    "CYS": "Bridge halted and tokens minted without authorization, causing potential security concerns."
+    "CYS": "Bridge suspended and tokens unauthorizedly minted and moved."
    },
    "direction": "negative",
    "quality": 91,
@@ -37,28 +37,28 @@
      "url": "https://www.theblock.co/news/defi/2026-10-18-cysic-suspends-bridge-after-attacker-mints-tokens-and-moves-727000-to-ethereum-418863"
     }
    ],
-   "missing": "Total financial loss outside of the bridged amount and exact recovery status."
+   "missing": "Total final losses and remediation timeline."
   },
   {
-   "t": "Grayscale Files With SEC for First US Bittensor ETP Listing",
+   "t": "Grayscale Files for US Bittensor ETP Listing",
    "type": "etf",
-   "status": "officially_announced",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
     "TAO"
    ],
    "rel": "direct",
-   "b": "Grayscale has filed with the SEC to launch the first US Bittensor ETP listing.",
+   "b": "Grayscale has filed with the SEC for the first US Bittensor ETP listing.",
    "per": {
-    "TAO": "Filing could bring institutional ETP access to the asset."
+    "TAO": "Faced with a new SEC filing for an ETP listing by Grayscale."
    },
    "direction": "positive",
-   "quality": 83,
+   "quality": 75,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 8,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
@@ -71,7 +71,7 @@
      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLURmcFNBNDZfRG8tZkNTZjZpLV92US1VbFFWZXFfRTFMNjRxaWNzRmNLVERTeVN3VVhrY0dQNDZyTmVUSGRwN0ZRR2ZZRmtIR09VcWtQV3JKX2xRalphNjNtUTFEd1FJaEwwMkQ1M1NPVVlGQXlubGJRWEpNdFNCaFZtcEhQVDdHbGM4ZA?oc=5"
     }
    ],
-   "missing": "Approval timeline and exchange venue details."
+   "missing": "SEC approval timeline."
   }
  ]
 }
