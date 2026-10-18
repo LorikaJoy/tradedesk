@@ -1,77 +1,39 @@
 {
- "updated": "2026-10-18T09:34:43.215154+00:00",
+ "updated": "2026-10-18T13:33:45.364026+00:00",
  "cards": [
   {
-   "t": "Solana Alpenglow Launch",
-   "type": "mainnet",
+   "t": "Cysic Bridge Halts After Unauthorized Mint",
+   "type": "hack",
    "status": "confirmed_upcoming",
-   "event_date": "2026-10-21",
+   "event_date": null,
    "coins": [
-    "SOL"
+    "CYS"
    ],
    "rel": "direct",
-   "b": "Solana is preparing for the Alpenglow network activation scheduled for October 21.",
+   "b": "Cysic halted its crypto bridge following an unauthorized mint of 10 million CYS tokens. The incident was contained to bridge message processing and minting, leaving the mainnet and other systems unaffected.",
    "per": {
-    "SOL": "Alpenglow launch approaches on October 21."
+    "CYS": "Hit by an unauthorized mint of 10 million tokens, prompting a bridge halt."
    },
-   "direction": "positive",
-   "quality": 85,
-   "label": "STRONG CATALYST",
+   "direction": "negative",
+   "quality": 92,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 10,
+    "credibility": 17,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "CoinGape",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNFk5ZE1ZcjdWYXlxTEJTRmZZM0NMdWh1R25aNDdBTHJrYW5ZSzYyRmVqbC1xekhDcEZyek5ybnNRcTNiZXFDbUJsRDI0ckhBMkhzWUVpeWd5Z2FoX3RrcFlmZktPd2Q5dHFYWEVkMTloOVlMZW1YYnJmeDIyMjhkaHRTVWxMcHZvbURLVVRRRDlyYkNh?oc=5"
-    },
-    {
-     "name": "openPR.com",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQnkxYTdJNFQ4YlJIT2U0d2FXTW5rZFQyWlQ1dVptNWxkQnVsakhrN3Rra2hvLWFsTU12eVkwX21DSUZUTDFSM3F1Y2ZTUTh4WFRmS1NmbG5ackJTYjRKeWx3QnVaMFBIUDVFRmNZNTlTTDBJeUIxdGtYV29zZ3AzTnhaN25ZQzRIQi13QmpsYmtmRHRnVVU5VnNIOHlsN3c?oc=5"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/cysic-crypto-bridge-halted-after-unauthorized-mint-of-10m-cys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Specific details on network changes and exact upgrade times."
-  },
-  {
-   "t": "Ethereum Upgrade Test",
-   "type": "mainnet",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-26",
-   "coins": [
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "Ethereum holds near $2,400 ahead of an upgrade test scheduled for October 26.",
-   "per": {
-    "ETH": "Upgrade test scheduled for October 26."
-   },
-   "direction": "positive",
-   "quality": 75,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "openPR.com",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOb3ZseExHREFvb0loM2ZNYjdmcC1CV3dtZGVwZVBFbTIyVzNVWnFfUTJnQ2tFYWtEdElVeXFoTGx1bXVWUlhOY2xZU3ZDVFZ5SkJTZ2pJTExZaUNlS29lY1o2dkpQUXp5WXRJc0h0NnNGMFdSdHlsdHowQk5JWlYyMVdKWjI3bi1OVjRIYzJuWERyRWE5NjVFeXdsTy0?oc=5"
-    }
-   ],
-   "missing": "Details of the upgrade specifications."
+   "missing": "Exact date of the exploit and recovery timeline."
   }
  ]
 }
