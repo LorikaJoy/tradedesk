@@ -1,28 +1,28 @@
 {
- "updated": "2026-10-18T13:33:45.364026+00:00",
+ "updated": "2026-10-18T16:54:51.934241+00:00",
  "cards": [
   {
-   "t": "Cysic Bridge Halts After Unauthorized Mint",
+   "t": "Cysic Bridge Suspended Following Unauthorized Mint",
    "type": "hack",
-   "status": "confirmed_upcoming",
+   "status": "ongoing",
    "event_date": null,
    "coins": [
     "CYS"
    ],
    "rel": "direct",
-   "b": "Cysic halted its crypto bridge following an unauthorized mint of 10 million CYS tokens. The incident was contained to bridge message processing and minting, leaving the mainnet and other systems unaffected.",
+   "b": "Cysic suspended its crypto bridge after an unauthorized mint of 10 million CYS tokens, with the attacker bridging about $727,000 to Ethereum.",
    "per": {
-    "CYS": "Hit by an unauthorized mint of 10 million tokens, prompting a bridge halt."
+    "CYS": "Bridge suspended and tokens minted unauthorizedly."
    },
    "direction": "negative",
-   "quality": 92,
+   "quality": 91,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 19,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 15
+    "timing": 12
    },
    "impact": 9,
    "s": "building",
@@ -31,9 +31,13 @@
     {
      "name": "cointelegraph.com",
      "url": "https://cointelegraph.com/news/cysic-crypto-bridge-halted-after-unauthorized-mint-of-10m-cys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/defi/2026-10-18-cysic-suspends-bridge-after-attacker-mints-tokens-and-moves-727000-to-ethereum-418863"
     }
    ],
-   "missing": "Exact date of the exploit and recovery timeline."
+   "missing": "Full recovery status of funds and timeline for bridge reactivation"
   }
  ]
 }
