@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-18T00:33:15.998772+00:00",
+ "updated": "2026-10-18T05:08:27.334140+00:00",
  "cards": [
   {
-   "t": "MSCI Rules Target Strategy for Index Removal",
+   "t": "MSCI Rules Target Single-Asset Treasury Companies",
    "type": "treasury",
    "status": "confirmed_upcoming",
    "event_date": "2026-11-30",
@@ -10,21 +10,21 @@
     "BTC"
    ],
    "rel": "direct",
-   "b": "MSCI finalized rules classifying non-operating companies with balance sheets dominated by a single asset as ineligible, targeting firms like Bitcoin treasury giant Strategy starting November 30.",
+   "b": "MSCI finalized rules to classify non-operating companies whose balance sheets are dominated by a single asset as ineligible for index inclusion, effective November 30.",
    "per": {
-    "BTC": "Potential index removal for Strategy could trigger balance sheet and treasury pressures."
+    "BTC": "Potential index removal for major bitcoin treasury holders could create downward pressure."
    },
    "direction": "negative",
-   "quality": 81,
+   "quality": 94,
    "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 19,
-    "relevance": 12,
+    "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
@@ -37,41 +37,45 @@
      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBHMlVoQnFiaHpnWnFMbVpCUUl3Y3ZOYm9wYU1HV1pMWHk0OUhIdUN0X3FRWWZzeU5XS2s5RklON3otVGFXN2FSM01Bem0zb1ZYTjBQTEV3ZFRnUXNjczZtbFVoN0djMzc3d0Y2N1VMUzRiVF9wVmI4QkZ5QWY?oc=5"
     }
    ],
-   "missing": "Exact portfolio rebalancing flows and full list of affected firms."
+   "missing": "Exact list of companies to be removed from the index."
   },
   {
-   "t": "Solana Alpenglow Upgrade Set for October 21",
-   "type": "mainnet",
+   "t": "Marqeta and Coinbase Expand Stablecoin Card Partnership",
+   "type": "partnership",
    "status": "confirmed_upcoming",
-   "event_date": "2026-10-21",
+   "event_date": null,
    "coins": [
-    "SOL"
+    "USDC"
    ],
    "rel": "direct",
-   "b": "Solana approaches its scheduled Alpenglow network launch on October 21, drawing market attention and price predictions.",
+   "b": "Coinbase and Marqeta extended their six-year tie-up to power stablecoin-backed debit cards, building on their previous 2020 collaboration.",
    "per": {
-    "SOL": "Alpenglow launch serves as a key technical catalyst for Solana."
+    "USDC": "Expanded card integration increases utility and transaction volume for USDC."
    },
    "direction": "positive",
-   "quality": 75,
+   "quality": 86,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 19,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "CoinGape",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNFk5ZE1ZcjdWYXlxTEJTRmZZM0NMdWh1R25aNDdBTHJrYW5ZSzYyRmVqbC1xekhDcEZyek5ybnNRcTNiZXFDbUJsRDI0ckhBMkhzWUVpeWd5Z2FoX3RrcFlmZktPd2Q5dHFYWEVkMTloOVlMZW1YYnJmeDIyMjhkaHRTVWxMcHZvbURLVVRRRDlyYkNh?oc=5"
+     "name": "FinanceFeeds",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNODB0X1ZETERKOUU1TUVBZWJ1VnlqUlNmaExXOHNORGdLT0ZMX1lTREFuVnR5UEN1ZmtlUXk1c1BvMFVJX0ZYLXBTVGxpU19zV3VaaDFvRDhnNWEwTm5YVjBaNUJYR05nb2dKNmdsS0JYZ21UUlU2SFgzbEdaNUoxdHJrSnhvbVBzZEY5SDJhVWZOV1NuQmIw?oc=5"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-10-16-coinbase-to-power-stablecoin-backed-cards-for-marqeta-customers-418833"
     }
    ],
-   "missing": "Detailed technical parameters and activation block height."
+   "missing": "Launch dates for specific new regional card rollouts."
   }
  ]
 }
