@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-18T23:39:23.764314+00:00",
+ "updated": "2026-10-19T01:42:07.409026+00:00",
  "cards": [
   {
-   "t": "Cysic Bridge Suspended After Unauthorized Mint and Fund Move",
+   "t": "Cysic Suspends Bridge After Unauthorized Mint",
    "type": "hack",
    "status": "ongoing",
    "event_date": null,
@@ -10,9 +10,9 @@
     "CYS"
    ],
    "rel": "direct",
-   "b": "Cysic suspended its crypto bridge after an attacker made an unauthorized mint of 10 million CYS tokens and moved approximately $727,000 to Ethereum.",
+   "b": "Cysic suspended its crypto bridge after an unauthorized mint of 10 million CYS tokens. The attacker bridged about $727,000 in proceeds to Ethereum through Mayan, deBridge, and SWFT's Bridgers.",
    "per": {
-    "CYS": "Hit by an unauthorized mint of 10 million tokens and bridge suspension."
+    "CYS": "Bridge suspended after unauthorized mint of 10 million tokens."
    },
    "direction": "negative",
    "quality": 91,
@@ -37,45 +37,41 @@
      "url": "https://www.theblock.co/news/defi/2026-10-18-cysic-suspends-bridge-after-attacker-mints-tokens-and-moves-727000-to-ethereum-418863"
     }
    ],
-   "missing": "The exact total financial damage beyond the bridged $727,000 and recovery plans are not yet specified."
+   "missing": "Full remediation timeline and fund recovery status"
   },
   {
-   "t": "Grayscale Files With SEC for First US Bittensor ETP Listing",
-   "type": "etf",
-   "status": "officially_announced",
+   "t": "Qubic Network Freezes Chain After Exploit",
+   "type": "hack",
+   "status": "ongoing",
    "event_date": null,
    "coins": [
-    "TAO"
+    "QUBIC"
    ],
    "rel": "direct",
-   "b": "Grayscale has filed an application with the SEC to list the first US Bittensor ETP.",
+   "b": "Qubic froze its chain after an attacker drained 1,400 wallets using weak seeds. Network validators are currently preparing to vote on a recovery plan while 87.1% of stolen funds remain onchain.",
    "per": {
-    "TAO": "Gaining institutional product visibility via Grayscale's ETP filing."
+    "QUBIC": "Qubic network frozen following exploit draining 1,400 wallets."
    },
-   "direction": "positive",
-   "quality": 85,
-   "label": "STRONG CATALYST",
+   "direction": "negative",
+   "quality": 89,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 10,
+    "credibility": 17,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 15
+    "timing": 12
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLURmcFNBNDZfRG8tZkNTZjZpLV92US1VbFFWZXFfRTFMNjRxaWNzRmNLVERTeVN3VVhrY0dQNDZyTmVUSGRwN0ZRR2ZZRmtIR09VcWtQV3JKX2xRalphNjNtUTFEd1FJaEwwMkQ1M1NPVVlGQXlubGJRWEpNdFNCaFZtcEhQVDdHbGM4ZA?oc=5"
-    },
-    {
-     "name": "openPR.com",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPR1VpWFc4WV9aWHl2T1UwRkhWWDQxZ24tNmJEd0taUmdyNXlkc3gxYWpOeko4bW83b2l3SEEwakZCOVhQT1k1TGFDUkxxbUdOSm52cEtSN3MwOVRvS0VQb3d3aTNYNXZHajdOV0ZTOWRYeWdoblpiam4xUUVidThhSFIyRFY2T1pWSzNIejdPdXpJTVdfaUhB?oc=5"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/qubic-freezes-chain-after-attacker-drains-14k-wallets-with-weak-seeds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "The exact filing date and SEC review timeline details are not provided."
+   "missing": "Exact recovery plan details and validator vote timing"
   }
  ]
 }
