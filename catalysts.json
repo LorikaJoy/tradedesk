@@ -1,70 +1,128 @@
 {
- "updated": "2026-10-19T20:02:45.004404+00:00",
+ "updated": "2026-10-19T23:37:41.924943+00:00",
  "cards": [
   {
-   "t": "Cysic Halts Bridge After Unauthorized Mint",
-   "type": "hack",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "CYS"
-   ],
-   "rel": "direct",
-   "b": "Cysic halted its crypto bridge following an unauthorized mint of 10 million CYS tokens, though the team noted operations were limited to message processing and minting.",
-   "per": {
-    "CYS": "Unauthorized minting incident prompts bridge halt and security review."
-   },
-   "direction": "negative",
-   "quality": 89,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/cysic-crypto-bridge-halted-after-unauthorized-mint-of-10m-cys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Total financial impact and remediation timeline."
-  },
-  {
-   "t": "Upbit Adds Concrete (CT) Trading Pairs",
+   "t": "Coinbase Adds AXIS, PEARL, and STABLE to Roadmap",
    "type": "listing",
-   "status": "officially_announced",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "CT"
+    "AXIS",
+    "PEARL",
+    "STABLE"
    ],
    "rel": "direct",
-   "b": "Upbit announced plans to list the Concrete (CT) token with KRW, BTC, and USDT trading pairs, prompting a sharp price rally. Bithumb also joined the listing rollout.",
+   "b": "Coinbase added AXIS, PEARL, and STABLE to its official asset listing roadmap, signalling forthcoming support for trading on the exchange.",
    "per": {
-    "CT": "Upbit and Bithumb listings providing new trading pairs drive strong upward momentum."
+    "AXIS": "Added to Coinbase listing roadmap.",
+    "PEARL": "Added to Coinbase listing roadmap.",
+    "STABLE": "Added to Coinbase listing roadmap."
    },
    "direction": "positive",
-   "quality": 87,
+   "quality": 85,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 12,
+    "credibility": 10,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 9,
+   "impact": 8,
    "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Crypto Briefing",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzWEV1NEE2dU1aNkY2bFdaZk43MFEzWlhhVHA0ekxQMjl3cnZzZEpyS1R1M0V2ZDE2QmRTX3VqMzFOSmZIM09vSGZ1TjdHRldOUDBfSVBIcDFrdXZPNjFkYU52bGNHcjJPYlJYanFIWl80RXpPYVE?oc=5"
+    },
+    {
+     "name": "Bitcoin Sistemi",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOHFHcE4zOFdmUDNhb2dDenUtZ1NaQUZsOGM1aWduWktxX0V2UlVja09XUzBKV2JPZXFjTXVHZ21LVjZOakJhTTY3ZndfNURYeE5wYW93TXRXcTFYUXhwcVpqMzFMbXRJQ2M5QWNUS1NIcHVnUFJNdjdTRXdnQWZMNFFFUmt1NWZ1VDBzdWZBS3ZvVG52ZGh1d19KbG1OaF9pUzU0?oc=5"
+    }
+   ],
+   "missing": "Exact trading launch dates."
+  },
+  {
+   "t": "Strive Purchases Additional Bitcoin",
+   "type": "treasury",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Bitcoin treasury company Strive added 1,223 BTC for approximately $100 million, bringing its total holdings to 36,818 BTC following investor capital inflows.",
+   "per": {
+    "BTC": "Absorbed over 1,200 coins into Strive's growing corporate balance sheet reserves."
+   },
+   "direction": "positive",
+   "quality": 79,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/19/live-updates-bitcoin-tags-usd83-000-and-slips-back-as-chip-stocks-lead-a-rebound"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/strive-buys-335m-in-bitcoin-boosting-holdings-to-36818-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/381382/strive-buys-335-million-bitcoin"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-10-19-strive-scoops-1223-bitcoin-100-million-total-holdings-reach-36818-btc-421020"
+    }
+   ],
+   "missing": "Exact completion timestamps of the latest tranche."
+  },
+  {
+   "t": "Concrete (CT) Listed on Upbit",
+   "type": "listing",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "CT"
+   ],
+   "rel": "direct",
+   "b": "Upbit launched trading pairs for Concrete (CT) against KRW, BTC, and USDT, causing a significant price rally for the token.",
+   "per": {
+    "CT": "Experienced a 32% to 48% jump following the listing announcement and launch across Upbit and Bithumb trading pairs."
+   },
+   "direction": "positive",
+   "quality": 78,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
    "c": "high",
    "sources": [
     {
      "name": "bloomingbit",
      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5xSnB1eEZGV3NqSUdxcW9aZ29PQkNWWmhVcFFuVTBaYU55UVdtU1ViMkZMYkZESkxrdTBxRldEX2owQ0EyZVhEcWFhQ1FDVFZfQThqeA?oc=5"
+    },
+    {
+     "name": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43VzVZOWlSank4WXo2NGxSbGxRVmswXzB2bDNfTzBLZU9DM0tGaV9WQU9tanBPdUpSNHdVTll6bVpIMndhSlQ1NzlKMUlQMW9fOWdIOGt2ZkhPZw?oc=5"
     },
     {
      "name": "Pluang",
@@ -75,51 +133,83 @@
      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9FellXT19iaGswa1VxWWl5NTAxd0FVbkV5RGlHWkVhc2NsbHcwOHFDNEVod1VMa2FuR09FV0FPbm4tNG9Kd2hINnpFX25wcTBIT2NlN2p0WVo?oc=5"
     }
    ],
-   "missing": "Exact launch timestamps and initial liquidity details."
+   "missing": "Exact listing timestamp."
   },
   {
-   "t": "CME Launches Bitcoin Cash and Uniswap Futures",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-19",
+   "t": "SkyAI Liquidates Solana Treasury for $201M Buyback",
+   "type": "buyback",
+   "status": "ongoing",
+   "event_date": "2025-10-29",
    "coins": [
-    "BCH",
-    "UNI"
+    "SOL"
    ],
    "rel": "direct",
-   "b": "CME Group is expanding its single-asset crypto derivatives lineup by launching Bitcoin Cash and Uniswap futures.",
+   "b": "Former medical device maker SkyAI sold its entire Solana treasury, leaving it with $223.8 million in cash, and launched a $201 million share and warrant buyback running through October 29.",
    "per": {
-    "BCH": "CME futures debut expands institutional access.",
-    "UNI": "CME futures debut expands institutional access."
+    "SOL": "Treasury holdings were completely liquidated by SkyAI for cash."
    },
-   "direction": "positive",
-   "quality": 79,
-   "label": "STRONG CATALYST",
+   "direction": "negative",
+   "quality": 70,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 12,
-    "relevance": 25,
+    "credibility": 19,
+    "relevance": 12,
     "impact": 12,
     "novelty": 15,
-    "timing": 15
+    "timing": 12
    },
-   "impact": 8,
+   "impact": 7,
    "s": "building",
-   "c": "high",
+   "c": "medium",
    "sources": [
     {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNenpKNkJQb1Y4LUFBV0xiYWZqYzUwSldISHpPeU15bUFPWnFDU1NlWWVLNWszTjlRUUFPTVR4TGEzajVWNFVrVnFVWm5lZFlLT1NHMUN6ZXA2MXktbTZ2bmNEUDNpNEVPUnk2bWtQaF9KOGNiZkV2N2JNSVN4VWl6azhVUlBqV1Vkb0M1YnNRV2p2RnRHdGJ1LXhNWWtJUGthc2xtaGhzOVFELTVKRHNhYzdvWVNENVFmZ2M0eXFfem9sSHJxOVhmUEw0X2REVHZ3ejFUVHlMa0lxT2s?oc=5"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/solana-treasury-skyai-sells-all-sol-holdings-launches-201m-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdXNQRlBXVjk0NE1IeWRQX2ZDcGlpNHNDc3hRaTN3ZVdqaTR0TmNUU1NPSnpUOHc5QWdMb20wckNXcjdzY3BtM29CWXRiT1R6QU4yQXpNRlJJeVdzUVBoa1lnNWcwT0JsZ1RFM3J5WWJmWDRiOVBSeG42TmVvOG9LcTFxM25sWXdwa3Fwb2E3X2pWZkhQLVE2Y2QxLUhZcGNy?oc=5"
-    },
-    {
-     "name": "Blockhead",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUTJiWEFKcnJtcWpfQzFybFdTTkd3NVpPZDNCWW9nLUlTQXE5MFBBaTBtT2Q3UVhraXY0UjJ3QTdQaUlpUk1fdzlMcUhyRHFSQVpiZWdob19ab1NPNkF1ZGIyM09tNzUzUEg1RUlUbUdLNi01TUw1LUVsZVNpUWVOY1dtUmo1WWtYdDdRYzZ3OUFmaGhkTDFjQXRVMkUxcEYtNEdGaTMyNE1WUGhyS0hTRkUyeVhjOGg1U1BHUjdkT2NudjMxUjhn?oc=5"
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-10-19-skyai-sells-off-entire-solana-treasury-launches-201-million-buyback-421037"
     }
    ],
-   "missing": "Initial trading volumes and open interest metrics following launch."
+   "missing": "Impact of the full SOL dump on market liquidity."
+  },
+  {
+   "t": "Strategy Adds 267 Bitcoin and Repurchases Shares",
+   "type": "treasury",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Strategy bought an additional 267 Bitcoin for $22 million while repurchasing $193 million in STRC shares and boosting its preferred stock buyback program to $3 billion.",
+   "per": {
+    "BTC": "Corporate holdings increased by 267 coins."
+   },
+   "direction": "positive",
+   "quality": 70,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/strategy-btc-22-million-buy-strc-buyback-193-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-10-19-we-found-room-for-more-orange-michael-saylors-strategy-buys-more-bitcoin-418895"
+    }
+   ],
+   "missing": "Details on when the next preferred stock buyback tranche begins."
   }
  ]
 }
