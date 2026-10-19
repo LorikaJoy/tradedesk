@@ -1,24 +1,24 @@
 {
- "updated": "2026-10-19T06:52:27.912360+00:00",
+ "updated": "2026-10-19T14:15:25.170114+00:00",
  "cards": [
   {
-   "t": "Cysic Suspends Bridge After Unauthorized Token Mint",
+   "t": "Qubic Freezes Chain After Attacker Drains Wallets",
    "type": "hack",
    "status": "ongoing",
    "event_date": null,
    "coins": [
-    "CYS"
+    "QUBIC"
    ],
    "rel": "direct",
-   "b": "Cysic suspended its crypto bridge after an unauthorized mint of 10 million CYS tokens, with about $727,000 bridged to Ethereum.",
+   "b": "Qubic froze its chain after an attacker drained 1.4K wallets using weak seeds, while network validators prepare to vote on a recovery plan.",
    "per": {
-    "CYS": "Hit by an unauthorized mint of 10 million tokens and bridge suspension."
+    "QUBIC": "Chain halted following a major exploit affecting 1.4k wallets."
    },
    "direction": "negative",
-   "quality": 91,
+   "quality": 89,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 17,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
@@ -30,87 +30,183 @@
    "sources": [
     {
      "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/cysic-crypto-bridge-halted-after-unauthorized-mint-of-10m-cys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-10-18-cysic-suspends-bridge-after-attacker-mints-tokens-and-moves-727000-to-ethereum-418863"
+     "url": "https://cointelegraph.com/news/qubic-freezes-chain-after-attacker-drains-14k-wallets-with-weak-seeds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Full recovery details and resumption date."
+   "missing": "Details of the upcoming validator recovery vote result"
   },
   {
    "t": "CME Group Adds Bitcoin Cash and Uniswap Futures",
-   "type": "listing",
+   "type": "other",
    "status": "confirmed_upcoming",
-   "event_date": null,
+   "event_date": "2026-10-19",
    "coins": [
     "BCH",
     "UNI"
    ],
    "rel": "direct",
-   "b": "CME Group is expanding its single-asset crypto lineup to 11 by adding Bitcoin Cash and Uniswap futures.",
+   "b": "CME Group is expanding its single-asset crypto lineup to 11 by launching Bitcoin Cash and Uniswap futures.",
    "per": {
-    "BCH": "CME Group is adding Bitcoin Cash futures.",
-    "UNI": "CME Group is adding Uniswap futures."
+    "BCH": "CME futures launch expands institutional derivatives access.",
+    "UNI": "CME futures launch expands institutional derivatives access."
    },
    "direction": "positive",
-   "quality": 83,
+   "quality": 88,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 21,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "www.blockhead.co",
+     "name": "Blockhead",
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUTJiWEFKcnJtcWpfQzFybFdTTkd3NVpPZDNCWW9nLUlTQXE5MFBBaTBtT2Q3UVhraXY0UjJ3QTdQaUlpUk1fdzlMcUhyRHFSQVpiZWdob19ab1NPNkF1ZGIyM09tNzUzUEg1RUlUbUdLNi01TUw1LUVsZVNpUWVOY1dtUmo1WWtYdDdRYzZ3OUFmaGhkTDFjQXRVMkUxcEYtNEdGaTMyNE1WUGhyS0hTRkUyeVhjOGg1U1BHUjdkT2NudjMxUjhn?oc=5"
+    },
+    {
+     "name": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE41NGdWMVVBUnIzVnd2Vlc0SVhvdjc3SmRBMFRyd0lZU01sakRXUWVieHF0RXpwbFNZNzl6N0lyYXZCZDBuT2kwWkEwZEZybGJGOTd4aQ?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRThNNWRFZzdiRDBfWThndFkxQ0UyRlFCaG8zTGVZT2p6OFduZGdib3YtNmxVSUlJYzR5WlNyUmpFVkVrakhkUEdkUTZXbW5fcUlIWXM4RGZSLUd2MVVVSEtzWFNxeTNLeXNLNXBlSU01MGdGSl9CN29yVTBqWTFiQkJoNjBtTk5zLTJGOUV5ZXU?oc=5"
+    },
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/19/cme-s-bitcoin-cash-uniswap-futures-global-pmis-crypto-week-ahead"
     }
    ],
-   "missing": "The exact launch date for the futures contracts."
+   "missing": "Exact trading hours on launch day"
   },
   {
-   "t": "CFTC Clears Bitcoin Perpetual Futures for US Markets",
-   "type": "regulation",
+   "t": "World Centralizes Proof-of-Human ID and Bank Suite Launch",
+   "type": "partnership",
    "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "BTC"
+    "WLD"
    ],
    "rel": "direct",
-   "b": "The CFTC has cleared Bitcoin perpetual futures for U.S. markets.",
+   "b": "World rolled out biometric verification badges for Zoom enterprise users and integrated its proof-of-human IDs with banks to combat AI fraud.",
    "per": {
-    "BTC": "Bitcoin perpetual futures cleared for US markets by the CFTC."
+    "WLD": "New partnerships with Zoom and banking integrations increase utility."
    },
    "direction": "positive",
-   "quality": 83,
+   "quality": 88,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 21,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
     {
      "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZHJ4U29ndmhrdFhpV2oxbURFVk82VERhdW5LMnNFazBNYjdUQ3RxRFVOUktvTnlxeHJhcWt6Q1JuX1h6Q2xNNGlHelpROFUzU2VkbmZTNEktbnFDNW4xcGhraXBmNVI3QlpDWTJXbC1PSVhHTXFScVBrR01COWhiOGlGY2NGQQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBhN0JJOFByOU5tSldJWlZOaF8wWEhyc2tWSHo4eVp0TW5oRENFbS01XzQtS1l2T1RaemlJNTFvdUE3Uzl1SXpYbTRySHBvRExlUkhGRGRyaVRjTnRYRWRIaXN3TlFVU2E1MXhrei1tMmE?oc=5"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/zoom-proof-of-human-badges-world-id-ai-deepfakes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/381288/sam-altmans-world-takes-proof-of-human-ids-to-banks-citing-40b-ai-fraud-risk"
     }
    ],
-   "missing": "Rollout dates for specific exchanges."
+   "missing": "Specific names of partner banks participating in the initial rollout"
   },
   {
-   "t": "XRPL Lending Code Patch Prepared for Validators",
+   "t": "Upbit Lists Concrete (CT)",
+   "type": "listing",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "CT"
+   ],
+   "rel": "direct",
+   "b": "Upbit has announced plans to list the Concrete (CT) token with KRW, BTC, and USDT trading pairs, prompting a surge in price and trading volume.",
+   "per": {
+    "CT": "Upbit and Bithumb listing plans have driven a sharp price increase and high FDV."
+   },
+   "direction": "positive",
+   "quality": 87,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5xSnB1eEZGV3NqSUdxcW9aZ29PQkNWWmhVcFFuVTBaYU55UVdtU1ViMkZMYkZESkxrdTBxRldEX2owQ0EyZVhEcWFhQ1FDVFZfQThqeA?oc=5"
+    },
+    {
+     "name": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43VzVZOWlSank4WXo2NGxSbGxRVmswXzB2bDNfTzBLZU9DM0tGaV9WQU9tanBPdUpSNHdVTll6bVpIMndhSlQ1NzlKMUlQMW9fOWdIOGt2ZkhPZw?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWXF3OFpvSTJuNnNZMG1na2VoWjByazlTMkwyQkF2eW5vNGxYQ01DdWsxZElKbnZPT1ZlcFE4YXZvWnJRRkVJYWNvSFNZNHhfOEl0QW1FVzNELXlxdmhwTmNabjFCS1pTeWlLdXFnOVVyTHVTTG5BN1dqRkp6MjBjazlsRGRhWWRLdk0yRWlnQ2h2NnpKNlJPUFlEU3dyT0dmbjFRWE5IVQ?oc=5"
+    },
+    {
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9FellXT19iaGswa1VxWWl5NTAxd0FVbkV5RGlHWkVhc2NsbHcwOHFDNEVod1VMa2FuR09FV0FPbm4tNG9Kd2hINnpFX25wcTBIT2NlN2p0WVo?oc=5"
+    }
+   ],
+   "missing": "Exact launch time and date of trading availability"
+  },
+  {
+   "t": "Cysic Halts Crypto Bridge Following Unauthorized Mint",
+   "type": "hack",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "CYS"
+   ],
+   "rel": "direct",
+   "b": "Cysic halted its crypto bridge after an unauthorized mint of 10 million CYS tokens, though it stated mainnet and other systems remain unaffected.",
+   "per": {
+    "CYS": "Bridge halted and unauthorized minting incident under management."
+   },
+   "direction": "negative",
+   "quality": 81,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/cysic-crypto-bridge-halted-after-unauthorized-mint-of-10m-cys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Full post-mortem and timeline for bridge resumption"
+  },
+  {
+   "t": "XRPL Ledger Lending Code Bug-Fix Patch Vote",
    "type": "mainnet",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -118,11 +214,11 @@
     "XRP"
    ],
    "rel": "direct",
-   "b": "Validators have a bug-fix patch for the XRP Ledger lending code on course to go live Friday, though the underlying lending system is still short of approval votes.",
+   "b": "Validators have a bug-fix patch on course to go live to repair lending code, though the lending system itself remains short of approval votes.",
    "per": {
-    "XRP": "XRPL lending code bug-fix patch prepared for validators."
+    "XRP": "XRPL bug-fix patch prepares for release while lending code awaits votes."
    },
-   "direction": "positive",
+   "direction": "mixed",
    "quality": 77,
    "label": "STRONG CATALYST",
    "parts": {
@@ -141,41 +237,7 @@
      "url": "https://www.coindesk.com/tech/2026/10/19/xrp-ledger-is-set-to-fix-its-lending-code-before-anyone-can-use-it"
     }
    ],
-   "missing": "Final vote count and activation status."
-  },
-  {
-   "t": "Grayscale Files With SEC for First US Bittensor ETP Listing",
-   "type": "etf",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "TAO"
-   ],
-   "rel": "direct",
-   "b": "Grayscale has filed with the SEC for the first U.S. Bittensor ETP listing.",
-   "per": {
-    "TAO": "Grayscale filed for the first US Bittensor ETP."
-   },
-   "direction": "positive",
-   "quality": 75,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLURmcFNBNDZfRG8tZkNTZjZpLV92US1VbFFWZXFfRTFMNjRxaWNzRmNLVERTeVN3VVhrY0dQNDZyTmVUSGRwN0ZRR2ZZRmtIR09VcWtQV3JKX2xRalphNjNtUTFEd1FJaEwwMkQ1M1NPVVlGQXlubGJRWEpNdFNCaFZtcEhQVDdHbGM4ZA?oc=5"
-    }
-   ],
-   "missing": "SEC approval timeline."
+   "missing": "Exact time of the validator vote completion"
   }
  ]
 }
