@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-19T01:42:07.409026+00:00",
+ "updated": "2026-10-19T06:52:27.912360+00:00",
  "cards": [
   {
-   "t": "Cysic Suspends Bridge After Unauthorized Mint",
+   "t": "Cysic Suspends Bridge After Unauthorized Token Mint",
    "type": "hack",
    "status": "ongoing",
    "event_date": null,
@@ -10,9 +10,9 @@
     "CYS"
    ],
    "rel": "direct",
-   "b": "Cysic suspended its crypto bridge after an unauthorized mint of 10 million CYS tokens. The attacker bridged about $727,000 in proceeds to Ethereum through Mayan, deBridge, and SWFT's Bridgers.",
+   "b": "Cysic suspended its crypto bridge after an unauthorized mint of 10 million CYS tokens, with about $727,000 bridged to Ethereum.",
    "per": {
-    "CYS": "Bridge suspended after unauthorized mint of 10 million tokens."
+    "CYS": "Hit by an unauthorized mint of 10 million tokens and bridge suspension."
    },
    "direction": "negative",
    "quality": 91,
@@ -37,41 +37,145 @@
      "url": "https://www.theblock.co/news/defi/2026-10-18-cysic-suspends-bridge-after-attacker-mints-tokens-and-moves-727000-to-ethereum-418863"
     }
    ],
-   "missing": "Full remediation timeline and fund recovery status"
+   "missing": "Full recovery details and resumption date."
   },
   {
-   "t": "Qubic Network Freezes Chain After Exploit",
-   "type": "hack",
-   "status": "ongoing",
+   "t": "CME Group Adds Bitcoin Cash and Uniswap Futures",
+   "type": "listing",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "QUBIC"
+    "BCH",
+    "UNI"
    ],
    "rel": "direct",
-   "b": "Qubic froze its chain after an attacker drained 1,400 wallets using weak seeds. Network validators are currently preparing to vote on a recovery plan while 87.1% of stolen funds remain onchain.",
+   "b": "CME Group is expanding its single-asset crypto lineup to 11 by adding Bitcoin Cash and Uniswap futures.",
    "per": {
-    "QUBIC": "Qubic network frozen following exploit draining 1,400 wallets."
+    "BCH": "CME Group is adding Bitcoin Cash futures.",
+    "UNI": "CME Group is adding Uniswap futures."
    },
-   "direction": "negative",
-   "quality": 89,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 83,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 8,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
-   "impact": 9,
+   "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/qubic-freezes-chain-after-attacker-drains-14k-wallets-with-weak-seeds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "www.blockhead.co",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUTJiWEFKcnJtcWpfQzFybFdTTkd3NVpPZDNCWW9nLUlTQXE5MFBBaTBtT2Q3UVhraXY0UjJ3QTdQaUlpUk1fdzlMcUhyRHFSQVpiZWdob19ab1NPNkF1ZGIyM09tNzUzUEg1RUlUbUdLNi01TUw1LUVsZVNpUWVOY1dtUmo1WWtYdDdRYzZ3OUFmaGhkTDFjQXRVMkUxcEYtNEdGaTMyNE1WUGhyS0hTRkUyeVhjOGg1U1BHUjdkT2NudjMxUjhn?oc=5"
     }
    ],
-   "missing": "Exact recovery plan details and validator vote timing"
+   "missing": "The exact launch date for the futures contracts."
+  },
+  {
+   "t": "CFTC Clears Bitcoin Perpetual Futures for US Markets",
+   "type": "regulation",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "The CFTC has cleared Bitcoin perpetual futures for U.S. markets.",
+   "per": {
+    "BTC": "Bitcoin perpetual futures cleared for US markets by the CFTC."
+   },
+   "direction": "positive",
+   "quality": 83,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZHJ4U29ndmhrdFhpV2oxbURFVk82VERhdW5LMnNFazBNYjdUQ3RxRFVOUktvTnlxeHJhcWt6Q1JuX1h6Q2xNNGlHelpROFUzU2VkbmZTNEktbnFDNW4xcGhraXBmNVI3QlpDWTJXbC1PSVhHTXFScVBrR01COWhiOGlGY2NGQQ?oc=5"
+    }
+   ],
+   "missing": "Rollout dates for specific exchanges."
+  },
+  {
+   "t": "XRPL Lending Code Patch Prepared for Validators",
+   "type": "mainnet",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "XRP"
+   ],
+   "rel": "direct",
+   "b": "Validators have a bug-fix patch for the XRP Ledger lending code on course to go live Friday, though the underlying lending system is still short of approval votes.",
+   "per": {
+    "XRP": "XRPL lending code bug-fix patch prepared for validators."
+   },
+   "direction": "positive",
+   "quality": 77,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/19/xrp-ledger-is-set-to-fix-its-lending-code-before-anyone-can-use-it"
+    }
+   ],
+   "missing": "Final vote count and activation status."
+  },
+  {
+   "t": "Grayscale Files With SEC for First US Bittensor ETP Listing",
+   "type": "etf",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "TAO"
+   ],
+   "rel": "direct",
+   "b": "Grayscale has filed with the SEC for the first U.S. Bittensor ETP listing.",
+   "per": {
+    "TAO": "Grayscale filed for the first US Bittensor ETP."
+   },
+   "direction": "positive",
+   "quality": 75,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLURmcFNBNDZfRG8tZkNTZjZpLV92US1VbFFWZXFfRTFMNjRxaWNzRmNLVERTeVN3VVhrY0dQNDZyTmVUSGRwN0ZRR2ZZRmtIR09VcWtQV3JKX2xRalphNjNtUTFEd1FJaEwwMkQ1M1NPVVlGQXlubGJRWEpNdFNCaFZtcEhQVDdHbGM4ZA?oc=5"
+    }
+   ],
+   "missing": "SEC approval timeline."
   }
  ]
 }
