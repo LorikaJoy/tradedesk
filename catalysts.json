@@ -1,119 +1,31 @@
 {
- "updated": "2026-10-19T23:37:41.924943+00:00",
+ "updated": "2026-10-20T02:04:46.407619+00:00",
  "cards": [
   {
-   "t": "Coinbase Adds AXIS, PEARL, and STABLE to Roadmap",
+   "t": "Upbit Lists Concrete (CT)",
    "type": "listing",
    "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "AXIS",
-    "PEARL",
-    "STABLE"
-   ],
-   "rel": "direct",
-   "b": "Coinbase added AXIS, PEARL, and STABLE to its official asset listing roadmap, signalling forthcoming support for trading on the exchange.",
-   "per": {
-    "AXIS": "Added to Coinbase listing roadmap.",
-    "PEARL": "Added to Coinbase listing roadmap.",
-    "STABLE": "Added to Coinbase listing roadmap."
-   },
-   "direction": "positive",
-   "quality": 85,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 10,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Crypto Briefing",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzWEV1NEE2dU1aNkY2bFdaZk43MFEzWlhhVHA0ekxQMjl3cnZzZEpyS1R1M0V2ZDE2QmRTX3VqMzFOSmZIM09vSGZ1TjdHRldOUDBfSVBIcDFrdXZPNjFkYU52bGNHcjJPYlJYanFIWl80RXpPYVE?oc=5"
-    },
-    {
-     "name": "Bitcoin Sistemi",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOHFHcE4zOFdmUDNhb2dDenUtZ1NaQUZsOGM1aWduWktxX0V2UlVja09XUzBKV2JPZXFjTXVHZ21LVjZOakJhTTY3ZndfNURYeE5wYW93TXRXcTFYUXhwcVpqMzFMbXRJQ2M5QWNUS1NIcHVnUFJNdjdTRXdnQWZMNFFFUmt1NWZ1VDBzdWZBS3ZvVG52ZGh1d19KbG1OaF9pUzU0?oc=5"
-    }
-   ],
-   "missing": "Exact trading launch dates."
-  },
-  {
-   "t": "Strive Purchases Additional Bitcoin",
-   "type": "treasury",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Bitcoin treasury company Strive added 1,223 BTC for approximately $100 million, bringing its total holdings to 36,818 BTC following investor capital inflows.",
-   "per": {
-    "BTC": "Absorbed over 1,200 coins into Strive's growing corporate balance sheet reserves."
-   },
-   "direction": "positive",
-   "quality": 79,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/19/live-updates-bitcoin-tags-usd83-000-and-slips-back-as-chip-stocks-lead-a-rebound"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/strive-buys-335m-in-bitcoin-boosting-holdings-to-36818-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/381382/strive-buys-335-million-bitcoin"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-10-19-strive-scoops-1223-bitcoin-100-million-total-holdings-reach-36818-btc-421020"
-    }
-   ],
-   "missing": "Exact completion timestamps of the latest tranche."
-  },
-  {
-   "t": "Concrete (CT) Listed on Upbit",
-   "type": "listing",
-   "status": "completed",
    "event_date": null,
    "coins": [
     "CT"
    ],
    "rel": "direct",
-   "b": "Upbit launched trading pairs for Concrete (CT) against KRW, BTC, and USDT, causing a significant price rally for the token.",
+   "b": "Upbit is listing the Concrete (CT) token with KRW, BTC, and USDT trading pairs, prompting a price rally and increased trading activity.",
    "per": {
-    "CT": "Experienced a 32% to 48% jump following the listing announcement and launch across Upbit and Bithumb trading pairs."
+    "CT": "Upbit listing with KRW, BTC, and USDT pairs is driving significant volume and a more than 48% price jump."
    },
    "direction": "positive",
-   "quality": 78,
-   "label": "COMPLETED CATALYST",
+   "quality": 87,
+   "label": "STRONG CATALYST",
    "parts": {
     "credibility": 12,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
-   "impact": 8,
-   "s": "fading",
+   "impact": 9,
+   "s": "building",
    "c": "high",
    "sources": [
     {
@@ -133,66 +45,144 @@
      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9FellXT19iaGswa1VxWWl5NTAxd0FVbkV5RGlHWkVhc2NsbHcwOHFDNEVod1VMa2FuR09FV0FPbm4tNG9Kd2hINnpFX25wcTBIT2NlN2p0WVo?oc=5"
     }
    ],
-   "missing": "Exact listing timestamp."
+   "missing": "Exact listing time and launch hour."
   },
   {
    "t": "SkyAI Liquidates Solana Treasury for $201M Buyback",
    "type": "buyback",
-   "status": "ongoing",
-   "event_date": "2025-10-29",
+   "status": "officially_announced",
+   "event_date": null,
    "coins": [
     "SOL"
    ],
    "rel": "direct",
-   "b": "Former medical device maker SkyAI sold its entire Solana treasury, leaving it with $223.8 million in cash, and launched a $201 million share and warrant buyback running through October 29.",
+   "b": "SkyAI has liquidated its entire Solana treasury holdings and initiated a $201 million share and warrant repurchase program using its cash reserves.",
    "per": {
-    "SOL": "Treasury holdings were completely liquidated by SkyAI for cash."
+    "SOL": "Treasury liquidation adds sell pressure as the former medical device maker exits its SOL holdings."
    },
-   "direction": "negative",
-   "quality": 70,
-   "label": "NEGATIVE CATALYST",
+   "direction": "mixed",
+   "quality": 84,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 19,
-    "relevance": 12,
+    "credibility": 17,
+    "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
-   "impact": 7,
+   "impact": 8,
    "s": "building",
-   "c": "medium",
+   "c": "high",
    "sources": [
     {
      "name": "cointelegraph.com",
      "url": "https://cointelegraph.com/news/solana-treasury-skyai-sells-all-sol-holdings-launches-201m-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-10-19-skyai-sells-off-entire-solana-treasury-launches-201-million-buyback-421037"
     }
    ],
-   "missing": "Impact of the full SOL dump on market liquidity."
+   "missing": "Timeline of when the liquidation was fully executed on-market."
   },
   {
-   "t": "Strategy Adds 267 Bitcoin and Repurchases Shares",
-   "type": "treasury",
-   "status": "completed",
+   "t": "XRPL Lending Code Bug-Fix Patch Scheduled",
+   "type": "mainnet",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "XRP"
+   ],
+   "rel": "direct",
+   "b": "Validators on the XRP Ledger have a bug-fix patch for its lending code scheduled to go live, though the lending system itself still requires additional votes for full approval.",
+   "per": {
+    "XRP": "Network upgrade addresses lending code vulnerabilities ahead of full feature adoption."
+   },
+   "direction": "positive",
+   "quality": 77,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/19/xrp-ledger-is-set-to-fix-its-lending-code-before-anyone-can-use-it"
+    }
+   ],
+   "missing": "Exact activation time for the patch and remaining validator vote count."
+  },
+  {
+   "t": "BlackRock Files for iShares Bitcoin Managed Protection ETF",
+   "type": "etf",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
     "BTC"
    ],
    "rel": "direct",
-   "b": "Strategy bought an additional 267 Bitcoin for $22 million while repurchasing $193 million in STRC shares and boosting its preferred stock buyback program to $3 billion.",
+   "b": "BlackRock has filed with the SEC for a new Bitcoin ETF designed to provide downside protection and upside exposure tied to its IBIT product.",
    "per": {
-    "BTC": "Corporate holdings increased by 267 coins."
+    "BTC": "Filing introduces a specialized structured ETF product aimed at hedging downside risk for institutional Bitcoin holders."
+   },
+   "direction": "positive",
+   "quality": 75,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAwZERpQnl2bGozZUdPNHJMd013NDN4RTUwSDFQZjlhNFVuTWYySWZ0MEV3MWMxMHFCNGx3UWhtdHJzUXRoTWJNbi1GWnJKSVBjNnh1TWc0YzJhWGpMYXB3NmhJOEUxOGRSdG5VNnJpNkpxTTNzWlE?oc=5"
+    },
+    {
+     "name": "The Block",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbFBfWVFvc1RLX19CWlAwTV9MQXpWbjBlSmNzYnRCRlBmOXMwb2Jwa3N2VkJaeVNOUFBNRm8yR1o4VW9tNy1Fam9HTDFqN2Z4V3JMVENBLTJ6WWtsX21OYUFpSmxFZTdwVlU3cE5BUldqZkdVeUR5NEFBQlNWM3NoeUdzbnpFSDh2R3RGa2ppYWRMRk1xeWktTnlPbENUSjcwQ0tGeFdhSV9qMVZrTFNVRDg3WW1QZmdPWC14ZWNXams2bU4x?oc=5"
+    },
+    {
+     "name": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XQlkzcHJwWmR5MFAwajkteHQ3dlN6THNvQjhfX3QxOFBnNVg4Vmk0cGJkUGxmT1hrOVV1c0x4WWZ1b1p1bGZSZzU0bU4yTms1bkdGYg?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYzEtWFNWU1lhUl9FTjVxMU1NR3UxV1UzX2wyYUt4TjdXS0E4a0g3VmVyU3NJM0ZQN1FaTktpaW5ha2FoUWE4UDh2VjlZY1BsTWhZRWdueXlNR19FeVZkaENzOXdLdThjNDNUdnRqZTVqOTZrNG9kUmpVd3FTNkZzcldreGdwZDEtUVNsQ0tB?oc=5"
+    }
+   ],
+   "missing": "SEC review timeline and final approval decision date."
+  },
+  {
+   "t": "CME Launches Bitcoin Cash and Uniswap Futures",
+   "type": "listing",
+   "status": "completed",
+   "event_date": "2026-10-19",
+   "coins": [
+    "BCH",
+    "UNI"
+   ],
+   "rel": "direct",
+   "b": "CME Group has officially launched Bitcoin Cash and Uniswap futures contracts, expanding its single-asset crypto derivatives lineup to 11.",
+   "per": {
+    "UNI": "UNI surged around 3.6% alongside the CME futures debut and market bounce.",
+    "BCH": "BCH open interest adjusted as CME's new futures contracts debuted."
    },
    "direction": "positive",
    "quality": 70,
    "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 12,
     "relevance": 25,
-    "impact": 5,
+    "impact": 12,
     "novelty": 15,
     "timing": 6
    },
@@ -201,15 +191,23 @@
    "c": "medium",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/strategy-btc-22-million-buy-strc-buyback-193-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdXNQRlBXVjk0NE1IeWRQX2ZDcGlpNHNDc3hRaTN3ZVdqaTR0TmNUU1NPSnpUOHc5QWdMb20wckNXcjdzY3BtM29CWXRiT1R6QU4yQXpNRlJJeVdzUVBoa1lnNWcwT0JsZ1RFM3J5WWJmWDRiOVBSeG42TmVvOG9LcTFxM25sWXdwa3Fwb2E3X2pWZkhQLVE2Y2QxLUhZcGNy?oc=5"
     },
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-10-19-we-found-room-for-more-orange-michael-saylors-strategy-buys-more-bitcoin-418895"
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBhLUhMUGJRODVfMFdFc2RYQ1JVVXVha2RMNXNta3ZtWmVYaFRiSzVZV0hoV3V5RllGRExiYjlSa2QxcnFNVDA1a2w1Vk9RTmNQeVFhWUhoSWY0NG5VTzZWQ0tvajZNcmw2T1QxQlJxTjA?oc=5"
+    },
+    {
+     "name": "Blockhead",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUTJiWEFKcnJtcWpfQzFybFdTTkd3NVpPZDNCWW9nLUlTQXE5MFBBaTBtT2Q3UVhraXY0UjJ3QTdQaUlpUk1fdzlMcUhyRHFSQVpiZWdob19ab1NPNkF1ZGIyM09tNzUzUEg1RUlUbUdLNi01TUw1LUVsZVNpUWVOY1dtUmo1WWtYdDdRYzZ3OUFmaGhkTDFjQXRVMkUxcEYtNEdGaTMyNE1WUGhyS0hTRkUyeVhjOGg1U1BHUjdkT2NudjMxUjhn?oc=5"
+    },
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNenpKNkJQb1Y4LUFBV0xiYWZqYzUwSldISHpPeU15bUFPWnFDU1NlWWVLNWszTjlRUUFPTVR4TGEzajVWNFVrVnFVWm5lZFlLT1NHMUN6ZXA2MXktbTZ2bmNEUDNpNEVPUnk2bWtQaF9KOGNiZkV2N2JNSVN4VWl6azhVUlBqV1Vkb0M1YnNRV2p2RnRHdGJ1LXhNWWtJUGthc2xtaGhzOVFELTVKRHNhYzdvWVNENVFmZ2M0eXFfem9sSHJxOVhmUEw0X2REVHZ3ejFUVHlMa0lxT2s?oc=5"
     }
    ],
-   "missing": "Details on when the next preferred stock buyback tranche begins."
+   "missing": "Trading volume and initial open interest metrics for the first few days."
   }
  ]
 }
