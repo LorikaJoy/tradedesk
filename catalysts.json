@@ -1,102 +1,42 @@
 {
- "updated": "2026-10-20T07:30:04.146621+00:00",
+ "updated": "2026-10-20T12:54:05.425318+00:00",
  "cards": [
   {
-   "t": "CME Launches Bitcoin Cash and Uniswap Futures",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-19",
+   "t": "SkyAI Liquidation and Buyback Program",
+   "type": "buyback",
+   "status": "officially_announced",
+   "event_date": null,
    "coins": [
-    "BCH",
-    "UNI"
+    "SOL"
    ],
    "rel": "direct",
-   "b": "CME targets an October 19 start date to launch Bitcoin Cash and Uniswap futures, expanding its regulated crypto derivatives options.",
+   "b": "SkyAI sold all its SOL holdings to launch a $201 million share and warrant buyback program.",
    "per": {
-    "UNI": "UNI saw a 3.6% surge partly tied to CME futures launch announcements and market bounces.",
-    "BCH": "Set to benefit from institutional derivatives access."
+    "SOL": "Sold off entirely by treasury firm SkyAI to fund a corporate share buyback."
    },
-   "direction": "positive",
-   "quality": 88,
-   "label": "STRONG CATALYST",
+   "direction": "negative",
+   "quality": 84,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 21,
+    "credibility": 17,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 9,
+   "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBhLUhMUGJRODVfMFdFc2RYQ1JVVXVha2RMNXNta3ZtWmVYaFRiSzVZV0hoV3V5RllGRExiYjlSa2QxcnFNVDA1a2w1Vk9RTmNQeVFhWUhoSWY0NG5VTzZWQ0tvajZNcmw2T1QxQlJxTjA?oc=5"
-    },
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdXNQRlBXVjk0NE1IeWRQX2ZDcGlpNHNDc3hRaTN3ZVdqaTR0TmNUU1NPSnpUOHc5QWdMb20wckNXcjdzY3BtM29CWXRiT1R6QU4yQXpNRlJJeVdzUVBoa1lnNWcwT0JsZ1RFM3J5WWJmWDRiOVBSeG42TmVvOG9LcTFxM25sWXdwa3Fwb2E3X2pWZkhQLVE2Y2QxLUhZcGNy?oc=5"
-    },
-    {
-     "name": "NewsBTC",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdThMRkRFTkFQRnZPcEhIb0tfejgxLW5UN2NNY0pBNUVvdzBKTVJTU0xzRm5VU1l1Z0lkeHV2N1UyeG5ESU5aeTBmZ3pPRVlVTHlQQVFyQXFGcGpjTjBNOGduclZ3WDdmM1BGZUxVLTBEWTJGalZlZHBUc2lzVnQzbjJqanZqWlZXM2tJa0trZTloMjRfZGtXd2tCNFN6YktEZHZvcdIBqgFBVV95cUxQc2RtSlVlRTVUTnV2bF81TTVkeG13b2Vxc1ZLMkJzN09jVHpfZDdaSm8zRGlUS1FCUDVDdUhHamZSYmRHdllMa1c5MEdFdndSWG5FX2dxN1F2XzRTYlY0RVBBN1V0eEtLZHF1cEJFcEk4dkhGMXQzZHZnX0lHbktOTU51U25tOVVJVVYwUXdySGZ3d0xuTjR6QVZ0cDFoYWlHbFJNcFZhNy0yUQ?oc=5"
-    },
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/19/cme-s-bitcoin-cash-uniswap-futures-global-pmis-crypto-week-ahead"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/solana-treasury-skyai-sells-all-sol-holdings-launches-201m-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact trading hour of the futures rollout."
+   "missing": "Execution timeline for the buyback"
   },
   {
-   "t": "Upbit and Bithumb to list Concrete (CT)",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "CT"
-   ],
-   "rel": "direct",
-   "b": "Upbit and Bithumb are planning to list the Concrete (CT) token, adding trading pairs against KRW, BTC, and USDT.",
-   "per": {
-    "CT": "Upbit and Bithumb listings are driving strong price rallies and trading volume for CT."
-   },
-   "direction": "positive",
-   "quality": 87,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5xSnB1eEZGV3NqSUdxcW9aZ29PQkNWWmhVcFFuVTBaYU55UVdtU1ViMkZMYkZESkxrdTBxRldEX2owQ0EyZVhEcWFhQ1FDVFZfQThqeA?oc=5"
-    },
-    {
-     "name": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43VzVZOWlSank4WXo2NGxSbGxRVmswXzB2bDNfTzBLZU9DM0tGaV9WQU9tanBPdUpSNHdVTll6bVpIMndhSlQ1NzlKMUlQMW9fOWdIOGt2ZkhPZw?oc=5"
-    },
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWXF3OFpvSTJuNnNZMG1na2VoWjByazlTMkwyQkF2eW5vNGxYQ01DdWsxZElKbnZPT1ZlcFE4YXZvWnJRRkVJYWNvSFNZNHhfOEl0QW1FVzNELXlxdmhwTmNabjFCS1pTeWlLdXFnOVVyTHVTTG5BN1dqRkp6MjBjazlsRGRhWWRLdk0yRWlnQ2h2NnpKNlJPUFlEU3dyT0dmbjFRWE5IVQ?oc=5"
-    },
-    {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9FellXT19iaGswa1VxWWl5NTAxd0FVbkV5RGlHWkVhc2NsbHcwOHFDNEVod1VMa2FuR09FV0FPbm4tNG9Kd2hINnpFX25wcTBIT2NlN2p0WVo?oc=5"
-    }
-   ],
-   "missing": "Exact listing times and initial opening prices."
-  },
-  {
-   "t": "XRP Ledger Lending Code Bug-Fix Patching",
+   "t": "XRP Ledger Lending Code Bug-Fix Patch",
    "type": "mainnet",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -104,15 +44,15 @@
     "XRP"
    ],
    "rel": "direct",
-   "b": "Validators have a bug-fix patch on course to go live to fix XRP Ledger's lending code before anyone can use it.",
+   "b": "XRP Ledger validators have a bug-fix patch on course to go live to repair its uncollateralized lending feature code.",
    "per": {
-    "XRP": "XRPL code improvements progress as governance votes continue."
+    "XRP": "Lending protocol code receiving a bug-fix patch ahead of validator approval."
    },
-   "direction": "mixed",
-   "quality": 77,
+   "direction": "neutral",
+   "quality": 79,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 19,
     "relevance": 25,
     "impact": 5,
     "novelty": 15,
@@ -125,43 +65,161 @@
     {
      "name": "coindesk.com",
      "url": "https://www.coindesk.com/tech/2026/10/19/xrp-ledger-is-set-to-fix-its-lending-code-before-anyone-can-use-it"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/381358/xrp-ledger-repairs-lending-protocol-before-live"
     }
    ],
-   "missing": "Whether validators will achieve the necessary votes to fully activate the system."
+   "missing": "Exact activation time for the patch"
   },
   {
-   "t": "SkyAI Liquidates Solana Treasury for Buyback Program",
-   "type": "buyback",
-   "status": "completed",
+   "t": "Coinbase Asset Roadmap Additions",
+   "type": "listing",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "SOL"
+    "AXIS",
+    "PEARL",
+    "STABLE"
    ],
    "rel": "direct",
-   "b": "Treasury firm SkyAI has completely liquidated its SOL holdings to launch a $201 million share and warrant repurchase program.",
+   "b": "Coinbase added AXIS, PEARL, and STABLE to its asset listing roadmap.",
    "per": {
-    "SOL": "Saw complete liquidation of treasury holdings by this entity, though funds are shifting into buybacks."
+    "AXIS": "Added to Coinbase asset listing roadmap.",
+    "PEARL": "Added to Coinbase asset listing roadmap.",
+    "STABLE": "Added to Coinbase asset listing roadmap."
    },
-   "direction": "mixed",
-   "quality": 75,
-   "label": "COMPLETED CATALYST",
+   "direction": "positive",
+   "quality": 77,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 10,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
    "impact": 8,
-   "s": "fading",
+   "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/solana-treasury-skyai-sells-all-sol-holdings-launches-201m-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "Crypto Briefing",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzWEV1NEE2dU1aNkY2bFdaZk43MFEzWlhhVHA0ekxQMjl3cnZzZEpyS1R1M0V2ZDE2QmRTX3VqMzFOSmZIM09vSGZ1TjdHRldOUDBfSVBIcDFrdXZPNjFkYU52bGNHcjJPYlJYanFIWl80RXpPYVE?oc=5"
+    },
+    {
+     "name": "Bitcoin Sistemi",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOHFHcE4zOFdmUDNhb2dDenUtZ1NaQUZsOGM1aWduWktxX0V2UlVja09XUzBKV2JPZXFjTXVHZ21LVjZOakJhTTY3ZndfNURYeE5wYW93TXRXcTFYUXhwcVpqMzFMbXRJQ2M5QWNUS1NIcHVnUFJNdjdTRXdnQWZMNFFFUmt1NWZ1VDBzdWZBS3ZvVG52ZGh1d19KbG1OaF9pUzU0?oc=5"
     }
    ],
-   "missing": "Timeline of when the liquidation orders were executed on-market."
+   "missing": "Exact official trading launch dates"
+  },
+  {
+   "t": "Upbit KRW Market Listing",
+   "type": "listing",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "METAPLEX"
+   ],
+   "rel": "direct",
+   "b": "Metaplex is listed on the Upbit KRW market, causing a price jump of 10% to $0.0575.",
+   "per": {
+    "METAPLEX": "Listed on Upbit KRW market, driving a 10% price increase."
+   },
+   "direction": "positive",
+   "quality": 75,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYdS0tV2FMN0ZvNEVEVmw4a0NhMzVrLUV6blF6WHpaMk1CMElYQnA5eVlPb1k1QmpRd1FaY2d6eExNQUduQ1RmU2hla3ExX1lGbllIUQ?oc=5"
+    }
+   ],
+   "missing": "Exact listing timestamp"
+  },
+  {
+   "t": "Mt. Gox Repayment Deadline Extension",
+   "type": "other",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Mt. Gox extended its creditor repayment deadline to 2027 in its sixth extension due to incomplete payment procedures.",
+   "per": {
+    "BTC": "Repayment deadline extended to 2027, delaying distribution of remaining Bitcoin."
+   },
+   "direction": "negative",
+   "quality": 73,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/mt-gox-creditor-repayment-deadline-extended-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/381392/mt-gox-pushes-repayment-deadline-to-2027-with-2-8b-in-bitcoin-still-to-distribute"
+    }
+   ],
+   "missing": "Specific distribution dates within 2027"
+  },
+  {
+   "t": "Bitget Spot Trading Launch",
+   "type": "listing",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-21",
+   "coins": [
+    "AXIS"
+   ],
+   "rel": "direct",
+   "b": "Bitget announced it will launch AXIS/USDT spot trading on October 21.",
+   "per": {
+    "AXIS": "Scheduled for spot trading launch on Bitget on October 21."
+   },
+   "direction": "positive",
+   "quality": 68,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPek1lWGU4T2JlQzNUYzBJTTVBX0N4VkVndC15UjhZWkFpZXFySnpGOWZIYU5ENEVkeDZrNzBOOG8tRVR5d0ZCdnJCV2ctTVJPNUE0aHZwXzR4dE5lVUU0QUhpcmdjZ1lCVUJ6S0lGZHh6Szc4cEZEc1pjNVQ5LXNYYi1sdXNjTDdHQ1lsTGdqWXQwY19udXZqbVdxWQ?oc=5"
+    }
+   ],
+   "missing": "Coinbase listing date"
   }
  ]
 }
