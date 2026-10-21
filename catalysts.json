@@ -1,84 +1,8 @@
 {
- "updated": "2026-10-21T13:14:30.624055+00:00",
+ "updated": "2026-10-21T18:05:27.425388+00:00",
  "cards": [
   {
-   "t": "Solana Alpenglow Network Overhaul",
-   "type": "mainnet",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-21",
-   "coins": [
-    "SOL"
-   ],
-   "rel": "direct",
-   "b": "Solana's Alpenglow network overhaul, its biggest since 2020, is scheduled to go live on Wednesday. It replaces the voting system to target roughly 150-millisecond finality.",
-   "per": {
-    "SOL": "Major network consensus upgrade aiming for faster finality."
-   },
-   "direction": "positive",
-   "quality": 92,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/21/solana-s-alpenglow-its-biggest-network-overhaul-since-2020-goes-live-wednesday"
-    }
-   ],
-   "missing": "Post-launch network stability metrics."
-  },
-  {
-   "t": "Switzerland Approves First Retail Spot Bitcoin ETF",
-   "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-11-01",
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Switzerland's FINMA has approved the country's first spot Bitcoin ETF (BBIT) for retail investors, waiving diversification rules. The fund is cleared for a November debut on the SIX Swiss Exchange.",
-   "per": {
-    "BTC": "Retail access via a domestic Swiss ETF structure broadens potential inflows."
-   },
-   "direction": "positive",
-   "quality": 87,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Bitcoin Foundation",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTm02UURUcmFEbl9XLW9oMVRlcjI2QnFZQmFQNXJkS2xaVzdQZnNZTWxmY0pUYjUtdTE0a0V0TXNaeElqTGtMNHZIYzh0WlRqdVF3bjlHa3VDcEQ4Ty1kbjNqNHhHLU9hdnpZY2pMMXVqZW9tZkd4bkprUkZRZkFiM1dWcnRwT2FiTWJGMnFtVk53eV9Oa3Fqc1pFMVotUW91ZnZxRjhQNG5feEhpalk2S3R2SVVuSGNxeUdla0dKUQ?oc=5"
-    },
-    {
-     "name": "BeInCrypto",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYWXNuckxGeS1XNDRpQU1kSGVHUlBLbm9oc1hDN0ZLTkdPRHRxTHpEOG5KY1BCalo3dktrQmFtdk1fSWV6ZUpDc011UzdoSk92NzlubDdvSEloZG4tZG0zcnk1ZUwxN2UwZDJReVgwakhyT1E?oc=5"
-    },
-    {
-     "name": "FinanceFeeds",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOY2Z5QUpvaUlGRnhzckRnaTRzejlDZld2NmN6Sk5YT2w4NXg2bHhsWDlUU05vaXFWSXlZU1NrWk1CYlpZT01Tdzdvb0FPRjZBMGtnWlFTQ3FqNGM4aTV4d3VjZDZ2UG9BZUt4SHM4TVNPcGhCTTUtRjBzeW1qUWhaZF9YNDJsS01UQ1N3RDJoM09WQmN6VVo2djNWaXFuR0k0ejRobXloVmU0YVFldWtaYkxDbFNHTUdCYlo4?oc=5"
-    }
-   ],
-   "missing": "Exact launch date in November."
-  },
-  {
-   "t": "Zcash NU7 Network Upgrade",
+   "t": "Zcash NU7 Upgrade Date Set",
    "type": "mainnet",
    "status": "confirmed_upcoming",
    "event_date": "2026-11-05",
@@ -86,17 +10,17 @@
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Zcash developers have finalized the NU7 mainnet activation height, targeting November 5. The upgrade aims to triple payment speed by cutting block time from 75 seconds to 25 seconds.",
+   "b": "Zcash developers have finalized the NU7 mainnet activation height, targeting November 5 to triple payment speeds.",
    "per": {
-    "ZEC": "Mainnet upgrade targets faster block times and improved network throughput."
+    "ZEC": "The NU7 upgrade will cut block times from 75 seconds to 25 seconds."
    },
    "direction": "positive",
-   "quality": 86,
+   "quality": 94,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 19,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 15
    },
@@ -113,20 +37,63 @@
      "url": "https://cointelegraph.com/markets/zcash-zec-rallies-12-percent-nu7-mainnet-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Specific block height specification merger into node software."
+   "missing": "Node software distribution completion and final block height confirmation."
   },
   {
-   "t": "PancakeSwap Fee-Sharing Overhaul Vote",
-   "type": "other",
+   "t": "Solana Alpenglow Mainnet Launch",
+   "type": "mainnet",
+   "status": "completed",
+   "event_date": "2026-10-21",
+   "coins": [
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "Solana's Alpenglow network upgrade has officially gone live on mainnet, replacing the voting system used since 2020.",
+   "per": {
+    "SOL": "Alpenglow replaces TowerBFT to target 99% faster finality and near-immediate transaction settlement."
+   },
+   "direction": "positive",
+   "quality": 87,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 9,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/21/solana-s-alpenglow-its-biggest-network-overhaul-since-2020-goes-live-wednesday"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/solanas-alpenglow-launches-mainnet-99-faster-finality?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/381484/solana-alpenglow-goes-live-in-most-ambitious-upgrade-since-ethereums-merge"
+    }
+   ],
+   "missing": "Exact hour of mainnet activation."
+  },
+  {
+   "t": "PancakeSwap Fee Overhaul Vote",
+   "type": "burn",
    "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "CAKE"
+    "CAKE",
+    "BNB"
    ],
    "rel": "direct",
-   "b": "PancakeSwap's proposed fee-sharing overhaul is heading to a vote, aiming to give liquidity providers 88% of swap fees and cut CAKE emissions by 69%.",
+   "b": "PancakeSwap has proposed a major fee-sharing overhaul heading to a vote that would alter liquidity provider rewards and emissions.",
    "per": {
-    "CAKE": "Proposed reduction in emissions and higher fee share for liquidity providers."
+    "CAKE": "The proposal would give liquidity providers 88% of swap fees and cut CAKE emissions by 69%."
    },
    "direction": "positive",
    "quality": 84,
@@ -147,41 +114,113 @@
      "url": "https://cointelegraph.com/markets/pancakeswap-tvl-jumps-19-percent-fee-overhaul?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Voting completion date."
+   "missing": "Voting start and end dates."
   },
   {
-   "t": "Axis Robotics AXIS Token Listing and Airdrop",
-   "type": "listing",
+   "t": "Switzerland First Retail Bitcoin ETF Approval",
+   "type": "etf",
    "status": "confirmed_upcoming",
+   "event_date": "2026-11-01",
+   "coins": [
+    "BTC"
+   ],
+   "rel": "indirect",
+   "b": "FINMA has approved Switzerland's first spot Bitcoin ETF for retail investors, with a SIX debut cleared for November.",
+   "per": {
+    "BTC": "The product unlocks direct retail access and is cleared for a November SIX debut."
+   },
+   "direction": "positive",
+   "quality": 72,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 10,
+    "relevance": 12,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "BeInCrypto",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYWXNuckxGeS1XNDRpQU1kSGVHUlBLbm9oc1hDN0ZLTkdPRHRxTHpEOG5KY1BCalo3dktrQmFtdk1fSWV6ZUpDc011UzdoSk92NzlubDdvSEloZG4tZG0zcnk1ZUwxN2UwZDJReVgwakhyT1E?oc=5"
+    },
+    {
+     "name": "FinanceFeeds",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOY2Z5QUpvaUlGRnhzckRnaTRzejlDZld2NmN6Sk5YT2w4NXg2bHhsWDlUU05vaXFWSXlZU1NrWk1CYlpZT01Tdzdvb0FPRjZBMGtnWlFTQ3FqNGM4aTV4d3VjZDZ2UG9BZUt4SHM4TVNPcGhCTTUtRjBzeW1qUWhaZF9YNDJsS01UQ1N3RDJoM09WQmN6VVo2djNWaXFuR0k0ejRobXloVmU0YVFldWtaYkxDbFNHTUdCYlo4?oc=5"
+    }
+   ],
+   "missing": "Exact trading start date in November."
+  },
+  {
+   "t": "BNB Chain Fork Test",
+   "type": "mainnet",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-29",
+   "coins": [
+    "BNB"
+   ],
+   "rel": "direct",
+   "b": "The BNB Chain has scheduled a fork test for October 29.",
+   "per": {
+    "BNB": "Network will undergo a fork test on October 29."
+   },
+   "direction": "positive",
+   "quality": 68,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "openPR.com",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSHdVejk2NkdqWXFoM3otQXVLNVIwZ1E1dkhZbjZNckRrNExZSERRalZOXzYwazFSeTN3OE1uRHFHaXUwRzVYb0RNRnlHZXVMVEdxamUwMDJrLVM2bjhwbHVoVHJ2aVFMZnpKZS0zNDZ0ZURibThvN3dCNlBBc1ZScUdCeVc0UXRwckFTcnBvSm9namE4RTlXYnAxTG4xN2h3QldJ?oc=5"
+    }
+   ],
+   "missing": "Specific details on the upgrade contents."
+  },
+  {
+   "t": "Axis Robotics Binance Airdrop and Listing",
+   "type": "listing",
+   "status": "completed",
    "event_date": null,
    "coins": [
     "AXIS"
    ],
    "rel": "direct",
-   "b": "Axis Robotics is conducting its Binance AXIS airdrop and listing with trading details announced.",
+   "b": "Binance opened trading and an airdrop for Axis Robotics (AXIS).",
    "per": {
-    "AXIS": "New exchange listing and token airdrop event."
+    "AXIS": "Binance launched the AXIS airdrop and spot trading."
    },
    "direction": "positive",
-   "quality": 75,
-   "label": "STRONG CATALYST",
+   "quality": 66,
+   "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 8,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 15
+    "timing": 6
    },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
    "sources": [
     {
      "name": "Coin Gabbar",
      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOc0lwNnQ5c2dmLVNSV0N1Ty1CR0FyMDJkQ3U0SXJMNWJaUUV4WDlaZWhZM2dVczhfNlRzSWdXbnpfYmpOM2VzdUcyUFRUZGEyZzgwTTIxTHU3RFh1WnM3YzhLOXU0NmdLaWM4akxiUlk3aTBZT1BJYi1uNHdkem1jMWlSYklMaVlVWW4xUTk5U0hHQnhx?oc=5"
     }
    ],
-   "missing": "Exact trading start hour."
+   "missing": "Exact launch timestamps."
   }
  ]
 }
