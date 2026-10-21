@@ -1,123 +1,63 @@
 {
- "updated": "2026-10-21T02:01:56.987785+00:00",
+ "updated": "2026-10-21T07:35:25.523007+00:00",
  "cards": [
   {
-   "t": "Injective and BDACS Plan Korean Won Stablecoin Settlement",
-   "type": "partnership",
+   "t": "SkyAI Liquidates Solana Treasury for $201M Buyback",
+   "type": "buyback",
    "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "INJ"
+    "SOL"
    ],
    "rel": "direct",
-   "b": "Injective and BDACS plan to bring the won-backed stablecoin KRW1 to tokenized asset markets as South Korea develops regulatory frameworks.",
+   "b": "SkyAI has sold all of its SOL holdings and launched a $201 million buyback program to repurchase shares and warrants using its $223.8 million cash holdings.",
    "per": {
-    "INJ": "Partnering with BDACS to integrate the KRW1 stablecoin for tokenized asset settlement."
+    "SOL": "Treasury firm SkyAI has completely sold off its SOL holdings."
    },
-   "direction": "positive",
-   "quality": 77,
+   "direction": "mixed",
+   "quality": 75,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 0,
     "relevance": 25,
-    "impact": 5,
+    "impact": 20,
     "novelty": 15,
     "timing": 15
    },
    "impact": 8,
    "s": "building",
    "c": "high",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/injective-bdacs-korean-won-stablecoin-tokenized-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Launch date for the KRW1 stablecoin integration."
+   "sources": [],
+   "missing": "The exact execution schedule for the share repurchase."
   },
   {
-   "t": "BlackRock Files for iShares Bitcoin Managed Protection ETF",
-   "type": "etf",
-   "status": "officially_announced",
+   "t": "Solana Network Overhaul 'Alpenglow' Goes Live",
+   "type": "mainnet",
+   "status": "completed",
    "event_date": null,
    "coins": [
-    "BTC"
+    "SOL"
    ],
    "rel": "direct",
-   "b": "BlackRock has submitted an SEC filing for a new Bitcoin ETF, designated as PBIT, designed to offer a 10 percent downside loss buffer and capped upside gains.",
+   "b": "Solana's Alpenglow, its biggest network overhaul since 2020, went live on Wednesday to replace its legacy voting system, targeting 150-millisecond finality.",
    "per": {
-    "BTC": "BlackRock filed for a buffered Bitcoin ETF (PBIT) using options to limit potential losses to 10% while capping upside gains."
+    "SOL": "Alpenglow launch replaces the voting system used since 2020 to achieve faster finality."
    },
    "direction": "positive",
-   "quality": 74,
-   "label": "MODERATE CATALYST",
+   "quality": 66,
+   "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 12,
-    "relevance": 12,
+    "credibility": 0,
+    "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 15
+    "timing": 6
    },
    "impact": 7,
-   "s": "building",
+   "s": "fading",
    "c": "medium",
-   "sources": [
-    {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOSHZzZFJ5TGE2YVpyV2NUMnhPLXRhenFjZHBfclVjZkdobkdpYmZOcFNHVU9RV2cwLUNrQ3R6eW8xQUNQMlhSWmJ0Q2FXY3RYbXpBeDFESGtPcFRrVDFmcEN4dUloMjdDUXloU1J1a0ViZ0Q1Y3AyX195MjFRZ2s3ZXNwLWVlTWhBaENMVmxxU2J3OUlXYVBpbGhjdVN6U2tjOGhuZFdDMUdEUXIyc25PSFlyVkxXSjQ0eG52MFhkNlQ5SXA4YUxTUUxOSERMTlNGY1RlN2NsSFJTS1B2R1ZrX0NrZE5TTG81cDNyRjdaX2FXVFZB?oc=5"
-    },
-    {
-     "name": "NewsCord",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOTU5QNUJ6R0JxNVRMcmotQmRKUFFBSUtiM3ZTa0NOQWRkZFNQRklRR0pZNl9fQkN6LUNFMl9rWlhxUEpEMzF3WDFxeHpRY1dXWjZLZTZxZGhqckVxMmtYVXRDMnZkeHl1N2psZTdqOUlNT3FqWkZ1d1c3UDBRQUZWUGlyTkhNOXRsME9Yc19DcHowZFlxRE5PekdGUUR5SnU3YmN5Y3JvOFU3Mm5fcXRWWndEM1RfWm12bHl1V3IyanFNWUlhT0hmaDBPOUF3RHFiZWd1MHRtU0dkX01oSVAwRnN1WXBDYzRvdnc?oc=5"
-    },
-    {
-     "name": "CryptoRank",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9FdmJIa0VxRUVjMDZRVV9TTmwzLV8zQ2FhUXR3T0VuZm44SGVWOFY2NGlUMUE4N1oxRnR3Sy1LV3U4cUpVa1hWc2dTUVo1WnJmQW5FLS1RRElySFllWEJXSUxhQ0hUM1UzMU96dzdDQ1FJdUxnajBKUFdidkdmUQ?oc=5"
-    }
-   ],
-   "missing": "Approval date and final listing exchange details."
-  },
-  {
-   "t": "Switzerland Approves First Retail Spot Bitcoin ETF",
-   "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Swiss regulator FINMA has approved Switzerland's first spot Bitcoin ETF tailored for retail investors, granting direct Bitcoin access under regulatory safeguards.",
-   "per": {
-    "BTC": "Switzerland's FINMA greenlit the country's first retail Bitcoin ETF, opening direct regulatory-compliant access for individual investors."
-   },
-   "direction": "positive",
-   "quality": 74,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 12,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQczlXcFV5VkdQZkRxTC1sejMxa3M1V296ZjNLRGFha0Z1MHgteW1USlJpWnc3emtSZW9oUkVNNjY4cjBwUFpuLXk0YTNJa0FoMTNPTFd5LVJidjV0Z01EbFdmTHpNRnVadE8zLWMyMmxrZkgyZE1QNC1OeXdjWFBGd1ZQNkd3QmgzN3NsVlNtaVdCVzdnQXhfMGd4NFM5Ums2NnlOMDIyNkY?oc=5"
-    },
-    {
-     "name": "NewsCord",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaXVsX2c4X0xYQjVWRHoxZTd2ZDZkY3BCQXA3c3N5UVQzeHJqdl81NGVrSTRQeFIxR2JrNXFYaHB0NVZwMHFBMk1BV0Z6cGppdWFmRzRKMzBsOV9WQnpUWnpRWlM4LXA4dEZtTTRaUERrcGhwa3hrZDlHSW1lZ0dxVDFxNlBDUDVxdzZiUkJYRzNSVHhIdmt3clMtQzUwRnVDQmxxdERDMDN2cHFSeUp4R1RVRTVBM0UtTXZUSE9KZ210dHgwU3hybTFldVJQSjBrOHNfR0hDbmx1N2JmV0E?oc=5"
-    },
-    {
-     "name": "CryptoPotato",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPY3dxZmc0R3UxNnlFUDJQSWZUUDRhc2xQcFo5WEdUU0plMFhybXRtZ0dXNXRVYmd0QThmLVlaTVgwakpYbjFnN2h4a1VzRzdBX0sxaUJ2b0FIMmNyU25fbzZPUlZfX25odjUyaWF3M1hndXpJMUpWRUNERW1mXzdhZUp4VFZtNFpBV081UVoxMDNEWENsTUZNTG1KTW1CaUZQVkVV?oc=5"
-    }
-   ],
-   "missing": "Exact trading start date."
+   "sources": [],
+   "missing": "Exact time of day for the rollout beyond Wednesday."
   }
  ]
 }
