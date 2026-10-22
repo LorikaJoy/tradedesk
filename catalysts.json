@@ -1,18 +1,18 @@
 {
- "updated": "2026-10-22T04:51:37.880311+00:00",
+ "updated": "2026-10-22T09:47:27.507188+00:00",
  "cards": [
   {
-   "t": "Zcash Developers Set NU7 Upgrade Date",
+   "t": "Zcash Sets NU7 Upgrade Date",
    "type": "mainnet",
    "status": "confirmed_upcoming",
-   "event_date": "2025-11-05",
+   "event_date": "2026-11-05",
    "coins": [
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Zcash developers finalized the NU7 mainnet activation height targeting November 5, designed to triple payment speed by cutting block times to 25 seconds.",
+   "b": "Zcash developers have finalized the activation height for the NU7 mainnet upgrade, targeting November 5 to triple payment speed and cut block times to 25 seconds.",
    "per": {
-    "ZEC": "NU7 upgrade is scheduled to activate on-chain on November 5."
+    "ZEC": "Upgrade targeting November 5 to reduce block times to 25 seconds."
    },
    "direction": "positive",
    "quality": 94,
@@ -37,49 +37,7 @@
      "url": "https://cointelegraph.com/markets/zcash-zec-rallies-12-percent-nu7-mainnet-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Node software synchronization completion"
-  },
-  {
-   "t": "Upbit Lists AXIS Token",
-   "type": "listing",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "AXIS"
-   ],
-   "rel": "direct",
-   "b": "Upbit has announced the listing of the AXIS token, opening trading markets for Won, Bitcoin, and USDT.",
-   "per": {
-    "AXIS": "Trading pairs with KRW, BTC, and USDT are launching on Upbit."
-   },
-   "direction": "positive",
-   "quality": 87,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBZWE9HNl9lUWVEOGY5NmRXX0RSQ1V4N3loelJqRl8wNEFETEFRYjhmbjhWbGl5SFA5bTNHY3EwUmR1SWhtdlRURVRIUHF2RndQaDljLUEyVG4?oc=5"
-    },
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORFFIV2RXaFhKSTdGV2I0aDZXcER1d0RETkRmazRMNjNWQlpZZTJaM3V6Y014OVRaZTNKTVE5S3A4OUV6VjBma1A3VDlTcWhKd29pYTItYjlKU0M0WkZQaTB3SVZNRFBROU5Fd3dNdGR5VVVaTXR1bGdEQzktUXBBX0xwYXR5anFPT2FKdjlhX1RUTldZTjlRQkxFSQ?oc=5"
-    },
-    {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOc0lwNnQ5c2dmLVNSV0N1Ty1CR0FyMDJkQ3U0SXJMNWJaUUV4WDlaZWhZM2dVczhfNlRzSWdXbnpfYmpOM2VzdUcyUFRUZGEyZzgwTTIxTHU3RFh1WnM3YzhLOXU0NmdLaWM4akxiUlk3aTBZT1BJYi1uNHdkem1jMWlSYklMaVlVWW4xUTk5U0hHQnhx?oc=5"
-    }
-   ],
-   "missing": "Exact trading start time"
+   "missing": "Final node software synchronization details."
   },
   {
    "t": "Solana Activates Alpenglow Mainnet Upgrade",
@@ -90,9 +48,9 @@
     "SOL"
    ],
    "rel": "direct",
-   "b": "Solana's Alpenglow network upgrade went live on mainnet, replacing its voting system to target a 99% reduction in finality time.",
+   "b": "Solana's Alpenglow mainnet upgrade, its biggest network overhaul since 2020, is officially live and targets settlement in about 150 milliseconds.",
    "per": {
-    "SOL": "Alpenglow mainnet launch aims for near-immediate transaction settlement."
+    "SOL": "Mainnet upgrade live with 99% faster finality and a new voting system."
    },
    "direction": "positive",
    "quality": 85,
@@ -110,6 +68,10 @@
    "sources": [
     {
      "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/22/solana-completes-alpenglow-upgrade-here-s-what-it-means-for-users"
+    },
+    {
+     "name": "coindesk.com",
      "url": "https://www.coindesk.com/tech/2026/10/21/solana-s-alpenglow-its-biggest-network-overhaul-since-2020-goes-live-wednesday"
     },
     {
@@ -117,10 +79,10 @@
      "url": "https://cointelegraph.com/news/solanas-alpenglow-launches-mainnet-99-faster-finality?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact metrics on finality speeds post-launch"
+   "missing": "Exact time of day for full activation across all validators."
   },
   {
-   "t": "PancakeSwap Proposes Fee-Sharing and CAKE Emission Overhaul",
+   "t": "PancakeSwap Proposes Fee and Emission Overhaul",
    "type": "other",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -128,9 +90,9 @@
     "CAKE"
    ],
    "rel": "direct",
-   "b": "PancakeSwap has put a major fee overhaul to a vote that would give liquidity providers 88% of swap fees and cut CAKE token emissions by 69%.",
+   "b": "PancakeSwap is heading to a vote on a major fee-sharing overhaul that would give liquidity providers 88% of swap fees and cut CAKE emissions by 69%.",
    "per": {
-    "CAKE": "Token emissions face a proposed 69% reduction pending the governance vote."
+    "CAKE": "Fee overhaul heading to vote to reduce emissions and increase swap share for LPs."
    },
    "direction": "positive",
    "quality": 84,
@@ -151,26 +113,26 @@
      "url": "https://cointelegraph.com/markets/pancakeswap-tvl-jumps-19-percent-fee-overhaul?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Voting end date and implementation timeline"
+   "missing": "Exact voting timeline and results."
   },
   {
-   "t": "Grayscale Files for WLD ETF and Nasdaq Listing",
-   "type": "etf",
-   "status": "confirmed_upcoming",
+   "t": "Upbit Lists AXIS Token",
+   "type": "listing",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "WLD"
+    "AXIS"
    ],
    "rel": "direct",
-   "b": "Grayscale filed for a Worldcoin (WLD) ETF targeting a listing on the Nasdaq exchange.",
+   "b": "Upbit has announced the listing of the AXIS token for Won, Bitcoin, and USDT trading markets.",
    "per": {
-    "WLD": "Targeting a Nasdaq listing through Grayscale's new ETF filing."
+    "AXIS": "Expands trading access with Upbit listing for Won, BTC, and USDT."
    },
    "direction": "positive",
-   "quality": 75,
+   "quality": 77,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 10,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -181,53 +143,15 @@
    "c": "high",
    "sources": [
     {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdl9sR3JaMDd6Uk9ZZ05vQVlzU1dvQURNclc0bjhUd2I3VHROalp1c2tBSzBNd094SnM3amJMTC00a05NOVNfTGxndHdXbWRHVmpQek8tclZzWDNEak9ZcGk5X2NfRDMxakpWWXZ4cTY2R2VUVlVPRFMwWmhkalZlUmJaMy1XdjVvbUVUU3BLM1dCS1FhSEJvdUlR?oc=5"
-    }
-   ],
-   "missing": "Regulatory approval timeline"
-  },
-  {
-   "t": "Switzerland Approves First Retail Spot Bitcoin ETF",
-   "type": "etf",
-   "status": "officially_announced",
-   "event_date": "2025-11-01",
-   "coins": [
-    "BTC"
-   ],
-   "rel": "indirect",
-   "b": "FINMA approved Switzerland's first spot Bitcoin ETF (BBIT), clearing it for an anticipated debut on the SIX Swiss Exchange in November.",
-   "per": {
-    "BTC": "Retail access in Switzerland expands via the approved BBIT fund launch."
-   },
-   "direction": "positive",
-   "quality": 74,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 12,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "BeInCrypto",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYWXNuckxGeS1XNDRpQU1kSGVHUlBLbm9oc1hDN0ZLTkdPRHRxTHpEOG5KY1BCalo3dktrQmFtdk1fSWV6ZUpDc011UzdoSk92NzlubDdvSEloZG4tZG0zcnk1ZUwxN2UwZDJReVgwakhyT1E?oc=5"
+     "name": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBZWE9HNl9lUWVEOGY5NmRXX0RSQ1V4N3loelJqRl8wNEFETEFRYjhmbjhWbGl5SFA5bTNHY3EwUmR1SWhtdlRURVRIUHF2RndQaDljLUEyVG4?oc=5"
     },
     {
-     "name": "FinanceFeeds",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOY2Z5QUpvaUlGRnhzckRnaTRzejlDZld2NmN6Sk5YT2w4NXg2bHhsWDlUU05vaXFWSXlZU1NrWk1CYlpZT01Tdzdvb0FPRjZBMGtnWlFTQ3FqNGM4aTV4d3VjZDZ2UG9BZUt4SHM4TVNPcGhCTTUtRjBzeW1qUWhaZF9YNDJsS01UQ1N3RDJoM09WQmN6VVo2djNWaXFuR0k0ejRobXloVmU0YVFldWtaYkxDbFNHTUdCYlo4?oc=5"
-    },
-    {
-     "name": "BlockchainReporter",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XckxVYVFqU2Y1Y0RnRzVReHJQMXpURVpnckViZzlWcnFhWl92RklHalVjSi1UYUFicDBzUmVZZElmQ1NPS21HaTRsLU5jMS02bE9rN0RMQjlUWlB2SDRTVGlCRXp3Q29MWTkyclVOQU1sZkts?oc=5"
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORFFIV2RXaFhKSTdGV2I0aDZXcER1d0RETkRmazRMNjNWQlpZZTJaM3V6Y014OVRaZTNKTVE5S3A4OUV6VjBma1A3VDlTcWhKd29pYTItYjlKU0M0WkZQaTB3SVZNRFBROU5Fd3dNdGR5VVVaTXR1bGdEQzktUXBBX0xwYXR5anFPT2FKdjlhX1RUTldZTjlRQkxFSQ?oc=5"
     }
    ],
-   "missing": "Exact November trading launch date"
+   "missing": "Exact trading start time."
   }
  ]
 }
