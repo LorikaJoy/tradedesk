@@ -1,4 +1,161 @@
 {
- "updated": "2026-10-22T19:01:02.678807+00:00",
- "cards": []
+ "updated": "2026-10-22T22:18:04.758749+00:00",
+ "cards": [
+  {
+   "t": "Coinbase to Delist FORTH on November 23",
+   "type": "delisting",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-11-23",
+   "coins": [
+    "FORTH"
+   ],
+   "rel": "direct",
+   "b": "Coinbase is suspending trading of Ampleforth's FORTH token on November 23 as the governance token winds down, while user withdrawals remain open.",
+   "per": {
+    "FORTH": "Trading suspension on Coinbase scheduled for November 23, 2026."
+   },
+   "direction": "negative",
+   "quality": 87,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNFh4ZkZLc09lQ3piSHFiYUhqVmVULU9aeUJXVXNNbjhMeWtOZHJnSHhET3dhSmtSemthMVpEeUJRMWZpeDdNcWx5ZXFXZE5LM3o1Q2pFRkFvTzI1NUZuLWI1aFZtc2I0TzdVMHQ1QzRrdkFvT1ViYzVGeERnUWxpODlsQ3Q1dmFqWnl5Q2xn?oc=5"
+    },
+    {
+     "name": "Crypto Briefing",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1zdVZSQVI2bVVGMVZ4TE0wM2c0b29LVUZRMEpMU1lyaXJwalZfZHJpUUYxNkhGcjkzTlpuaExJcnVVNC1KMENyRjRLQ3RsQ1dfaDVxWHZ6emlhS29uYzdWYTlFRncxX29aSFNOS0VxWnExczQyeVFJeW9XWQ?oc=5"
+    },
+    {
+     "name": "Bitcoin Sistemi",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZMERfMXhpeS1wSzhvVFBwbzg3OW1MZ3huOXhOQUloTzNreXZpZmdIN2NVMXI3bGRoNWpIMHl1TUpvR1o4Z2ZQNFhvVU1ETU1UandRVkIyZ0dDbGxJYVJmamxXY3p1R1RKaVBxRWtRLS1hVmxTcFFiOTc5Vk4?oc=5"
+    },
+    {
+     "name": "Hokanews",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FN1N5MXhRb2FQVkxjWndqa0oxUUFxaWdaUkJTbkpubkwyZjR6by1ZeUNfaFZ6cm5VSkt4NXVYSk5fY1BTNGVhamVxcDRXUk1GSTZPZk5qcElkay1vRXVsWHAyazJESVdYc3ZvOEZ4MzVuaW5QRXc?oc=5"
+    }
+   ],
+   "missing": "Exact time of day for the suspension."
+  },
+  {
+   "t": "Solana Activates Alpenglow Mainnet Upgrade",
+   "type": "mainnet",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "Solana's Alpenglow upgrade is live on mainnet, targeting a 99% reduction in finality times to achieve near-immediate settlement.",
+   "per": {
+    "SOL": "Alpenglow consensus upgrade is now live on mainnet."
+   },
+   "direction": "positive",
+   "quality": 77,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/22/solana-completes-alpenglow-upgrade-here-s-what-it-means-for-users"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/solanas-alpenglow-launches-mainnet-99-faster-finality?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Exact activation timestamp."
+  },
+  {
+   "t": "XRP Ledger Upgrade Moved to November",
+   "type": "mainnet",
+   "status": "delayed",
+   "event_date": "2026-11-01",
+   "coins": [
+    "XRP"
+   ],
+   "rel": "direct",
+   "b": "The XRPL cleanup upgrade has been moved to November after validator support briefly dipped below the required threshold before recovering.",
+   "per": {
+    "XRP": "Network upgrade delayed to November following temporary validator support drops."
+   },
+   "direction": "neutral",
+   "quality": 68,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 4
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "AD HOC NEWS",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZzlHQTAyeGVZWHJYZm9ONXI3THZhWGloMm5LMmlWemVNa0ZhNnN1RFNkbXJndTBDZmZQcGtzS3MwbWxvV0w0MDd5MGhkc2wwVUtMYzdndE5iWWNfY3lkR05Eb0ZLUHd6Z3hmdjR0QThRNlZ1a1hNLUtoNnVib2R3OS1SR1ZTZzVIaW1XVWl2RVM0cm9BbDlPVlZRcGNqZHFBb01rYWJZSTlrT2MtMUpZcmpEWVJ5d3l4NlhqNF93?oc=5"
+    },
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/22/xrp-ledger-bug-fix-moved-to-november-after-validator-support-dipped-for-two-hours"
+    }
+   ],
+   "missing": "Exact deployment date in November."
+  },
+  {
+   "t": "Grayscale ZCSH Files 3-for-1 Stock Split",
+   "type": "other",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "ZEC"
+   ],
+   "rel": "direct",
+   "b": "Grayscale ZCSH has filed for a 3-for-1 split following significant upward price movement in ZEC.",
+   "per": {
+    "ZEC": "Grayscale ZCSH files for a 3-for-1 split."
+   },
+   "direction": "positive",
+   "quality": 68,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUHl6N2xLaGNFZEdBbFRObG1DamFhZWtfUWx0NGpGemV5aDlSUV9jMVRLVXE5LXhKNVhZbm9SQmNhWlBwcVFBdTlQRXM2aTVoS1g4aEZZWmgzNDBCRnU4WVhPNENHZ1kxb0RXQUVJM1NoWGVaQ1RVVEdhREVVM2VscVhTS0s1dTh6X2xpWlpaNA?oc=5"
+    }
+   ],
+   "missing": "Effective execution date for the split."
+  }
+ ]
 }
