@@ -1,42 +1,138 @@
 {
- "updated": "2026-10-23T19:28:27.738082+00:00",
+ "updated": "2026-10-23T22:31:37.550611+00:00",
  "cards": [
   {
-   "t": "Coinbase to suspend FORTH trading",
+   "t": "Binance Platform Delists Eight Tokens",
    "type": "delisting",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-11-23",
+   "status": "officially_announced",
+   "event_date": "2026-10-23",
    "coins": [
-    "FORTH"
+    "PTB",
+    "AA",
+    "OWL",
+    "DORA"
    ],
    "rel": "direct",
-   "b": "Coinbase announced it will suspend trading for the Ampleforth governance token (FORTH) on November 23 as the project winds down.",
+   "b": "Binance announced the delisting and removal of eight tokens, including PTB, AA, OWL, DORA, ELIZAOS, and MEMES, from its platform as part of an October shakeup.",
    "per": {
-    "FORTH": "Trading suspension on Coinbase scheduled for November 23, 2026."
+    "PTB": "Scheduled for removal by Binance on October 23, 2026.",
+    "AA": "Scheduled for removal by Binance on October 23, 2026.",
+    "OWL": "Scheduled for removal by Binance on October 23, 2026.",
+    "DORA": "Scheduled for removal by Binance on October 23, 2026.",
+    "ELIZAOS": "Scheduled for removal by Binance on October 23, 2026.",
+    "MEMES": "Scheduled for removal by Binance on October 23, 2026."
    },
    "direction": "negative",
-   "quality": 83,
+   "quality": 100,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 25,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 10,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "Crypto Briefing",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1zdVZSQVI2bVVGMVZ4TE0wM2c0b29LVUZRMEpMU1lyaXJwalZfZHJpUUYxNkhGcjkzTlpuaExJcnVVNC1KMENyRjRLQ3RsQ1dfaDVxWHZ6emlhS29uYzdWYTlFRncxX29aSFNOS0VxWnExczQyeVFJeW9XWQ?oc=5"
+     "name": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5jQjFWWENoY0g4U3I2QzJDSWRucVpQTmlCX1hOTXJPTDRfWDlmSnpSUzgxd3FrRFVDeVZELUI5Yy15OUNyaVc5aFZ6Znh5Vnk2UmVlTVNOUQ?oc=5"
+    },
+    {
+     "name": "Binance",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX05iNVpVUXhpaXd5NXgyMEpZeGpjRWIwYm50eHVrV2xyOUdmRy1RWGhGTmtpYjh4Ry1aNDBheXpZVDFnZjdDQk5UYWlnTlItZVpxZVV3WU9rRUxlbnV3X2NNR0tLRW9BXzBYMnlDMFN4MEtZa2NqRDhaRmVMT1A4Q01uR0pURUpmRzJ3dzVOMk4?oc=5"
     }
    ],
-   "missing": "Exact time of the suspension on November 23."
+   "missing": "Exact trading pairs affected and precise times of delisting."
   },
   {
-   "t": "Ethereum delays Glamsterdam testnet launch",
+   "t": "Switzerland Approves First Retail Spot Bitcoin ETF",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-11-01",
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "FINMA has cleared Switzerland's first domestic retail spot Bitcoin ETF under fund law, with a listing on the SIX Swiss Exchange targeted for November.",
+   "per": {
+    "BTC": "Set to be tracked by Switzerland's first approved domestic retail spot Bitcoin ETF upon its November launch."
+   },
+   "direction": "positive",
+   "quality": 87,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWWFvVTItQjVvRS1vUnJuVmltaTh3NjN6MXRuUXVLRkd0cTl0eE0yQ19vNVRTUTFDVFlwQXc4LTI4WHozb3R6elZNX2Q1LUNPN0tnZW5XTVB0YllCMmw5S0pNSl9hNnY5NTI5SHdYZFFxOXVoWHR2aTZ3UEJvOGhNU2dmNHFfWmViYVZvY2FvRTEySHM2UC1qVDJDS0tzRWd1N3pxSHotOGQzZTlrYzZiUVV2djZ4WnV6NC1IdUxoUkNPRjhhcjBOTQ?oc=5"
+    },
+    {
+     "name": "LCX Exchange",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUmotZzlSd0JZRmZ2V0hrbTRxT1FPUzdIaXY4YVhDcnljbm1Vd0lIbFg5djktdkVYZkdKZG1sa0dYM3VsTWk1TkFQbEdkM19IYkhXM1VKN1M0U2p6Sm9LbVkydEVLQkNwR29TTC1aTUJWVHBYOUZFZHo1Q1lMd0VuU1VRS1VXV1NhbEwwTWZpOVVXakp5OGJaM2hiTmxwc0tId0E?oc=5"
+    },
+    {
+     "name": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMlMzZ2FhWVJ5eVhjbVB4bHBYeVNQSWNrOVZ1elpRT1VaZFpjVzg5R292T3hHTWRPc3NMcS1NVEtIdUVjbFE5dDRFU0dHcXhta09URXJ1Nml0cE5ET0l6ZThhcENoWVpLMlBZTmRGMHAtRWJ5bm9CREpldlFJQVhZdGhCR0E4dy1lUHd0Y1ZBNklBaGlOcmIxbFlzQS00R21DN3FzYzhB?oc=5"
+    }
+   ],
+   "missing": "Exact launch date in November and ticker symbol for the ETF."
+  },
+  {
+   "t": "Franklin Templeton Wins Nasdaq Approval for Bitcoin DRIP ETFs",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Franklin Templeton has gained approval from Nasdaq to list two Bitcoin DRIP strategy ETFs that reinvest stock dividends into Bitcoin exposure.",
+   "per": {
+    "BTC": "Will be tied to the newly approved Nasdaq-bound Franklin Templeton DRIP strategy ETFs."
+   },
+   "direction": "positive",
+   "quality": 87,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9pa3N4YW9aWUZLU2Y2TDJQTW03ZG14Wk01TnhDTl9LT3hWUEMtYWtjS1FHbTdkNnVjRTBMU1JyVXVxdHMxVE9QV0I5RTNnd3J5TWhubU4wc0M?oc=5"
+    },
+    {
+     "name": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA2XzVWX3ZXUzhhZW1EcXZBQm05bjBrb0ZIeFRraW41cGVLSjZOaXJnZFViQkQ4NWI0M1lTR1R6R1lVamxLX2h0OHpXUlY3QlJmc3JqMQ?oc=5"
+    },
+    {
+     "name": "Crypto Economy",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQVowdG4xbFcxMTdaWDZoaTBOWmh2MGJIRlVFSjZIakNKWlNseDN6ZHpudDVJcVVNUmU0cU9fdUNjTlBsLWh3T0wzaXlPbzlyVWEzQnFhNFpLTm1MQ1VwMkpSSUVySUw4WDVSSTlRTXJKekJCdkxHQTRSZmRLcmRjclFLUk1acU05SFN6MTI3YjBmdw?oc=5"
+    }
+   ],
+   "missing": "Exact trading start date on Nasdaq."
+  },
+  {
+   "t": "Ethereum Delays Glamsterdam Testnet Fork",
    "type": "mainnet",
    "status": "delayed",
    "event_date": null,
@@ -44,17 +140,17 @@
     "ETH"
    ],
    "rel": "direct",
-   "b": "Ethereum developers canceled the Hoodi activation for the Glamsterdam test after security researchers identified risks to existing smart contracts from new gas rules.",
+   "b": "Ethereum developers canceled the scheduled Monday Hoodi testnet activation for the Glamsterdam upgrade after security firm ChainSecurity flagged gas changes that could affect existing contracts.",
    "per": {
-    "ETH": "Testnet launch delayed due to security risks identified in gas rules."
+    "ETH": "Faces a delay in its testnet upgrade timeline as gas rule security risks are evaluated."
    },
    "direction": "negative",
-   "quality": 75,
+   "quality": 85,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 21,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 4
    },
@@ -69,44 +165,47 @@
     {
      "name": "cointelegraph.com",
      "url": "https://cointelegraph.com/news/ethereum-delays-glamsterdam-testnet-fork-gas-security-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/381681/ethereum-delays-glamsterdam-testnet-fork-over-gas-security-flaws"
     }
    ],
-   "missing": "New reschedule date for the Glamsterdam testnet launch."
+   "missing": "New reschedule date for the Hoodi testnet activation."
   },
   {
-   "t": "Cysic bridge exploited on BNB Smart Chain",
-   "type": "hack",
-   "status": "ongoing",
+   "t": "Zcash Prepares for NU7 Network Upgrade",
+   "type": "mainnet",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "BNB",
-    "ETH"
+    "ZEC"
    ],
    "rel": "direct",
-   "b": "An attacker exploited Cysic's bridge to mint 10 million tokens on BNB Smart Chain and moved funds into Tornado Cash.",
+   "b": "Zcash is approaching its upcoming NU7 network upgrade while maintaining price support levels.",
    "per": {
-    "BNB": "Impacted by unauthorized token minting exploit via Cysic bridge."
+    "ZEC": "Getting ready for the NU7 network upgrade launch."
    },
-   "direction": "negative",
-   "quality": 68,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 75,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
-    "relevance": 12,
+    "credibility": 8,
+    "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
-   "impact": 7,
+   "impact": 8,
    "s": "building",
-   "c": "medium",
+   "c": "high",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/cysic-exploiter-eth-tornado-cash-white-hat-offer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "Yahoo Finance Australia",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWV9CeEJfX3U3RGZNS3hlay1reUhCUlFrbFdoVkhzdUJFQ2pWREpuTy1qNWVIVjNLa3RxREozMEpDaVdDWW1PZGpYbF9BZzhveVRDUDNINl9RMnp6ejZLUUFGUHVlZ1ZDRWZ2UDVDS3RhbjgzcGUyY2J0RTgzUWQ4MjBWdmUxM3JVRlE?oc=5"
     }
    ],
-   "missing": "Total financial loss amount on BNB Smart Chain."
+   "missing": "Exact launch date for the NU7 upgrade."
   }
  ]
 }
