@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-23T15:29:13.706363+00:00",
+ "updated": "2026-10-23T19:28:27.738082+00:00",
  "cards": [
   {
-   "t": "Coinbase to Delist FORTH",
+   "t": "Coinbase to suspend FORTH trading",
    "type": "delisting",
    "status": "confirmed_upcoming",
    "event_date": "2026-11-23",
@@ -10,79 +10,33 @@
     "FORTH"
    ],
    "rel": "direct",
-   "b": "Coinbase will halt trading and suspend the Ampleforth governance token FORTH on November 23, 2026, while withdrawals remain open.",
+   "b": "Coinbase announced it will suspend trading for the Ampleforth governance token (FORTH) on November 23 as the project winds down.",
    "per": {
-    "FORTH": "Trading will be halted on Coinbase on November 23 as the governance token winds down."
+    "FORTH": "Trading suspension on Coinbase scheduled for November 23, 2026."
    },
    "direction": "negative",
-   "quality": 87,
+   "quality": 83,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 12,
+    "credibility": 8,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 9,
+   "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNFh4ZkZLc09lQ3piSHFiYUhqVmVULU9aeUJXVXNNbjhMeWtOZHJnSHhET3dhSmtSemthMVpEeUJRMWZpeDdNcWx5ZXFXZE5LM3o1Q2pFRkFvTzI1NUZuLWI1aFZtc2I0TzdVMHQ1QzRrdkFvT1ViYzVGeERnUWxpODlsQ3Q1dmFqWnl5Q2xn?oc=5"
-    },
-    {
      "name": "Crypto Briefing",
      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1zdVZSQVI2bVVGMVZ4TE0wM2c0b29LVUZRMEpMU1lyaXJwalZfZHJpUUYxNkhGcjkzTlpuaExJcnVVNC1KMENyRjRLQ3RsQ1dfaDVxWHZ6emlhS29uYzdWYTlFRncxX29aSFNOS0VxWnExczQyeVFJeW9XWQ?oc=5"
-    },
-    {
-     "name": "Hokanews",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FN1N5MXhRb2FQVkxjWndqa0oxUUFxaWdaUkJTbkpubkwyZjR6by1ZeUNfaFZ6cm5VSkt4NXVYSk5fY1BTNGVhamVxcDRXUk1GSTZPZk5qcElkay1vRXVsWHAyazJESVdYc3ZvOEZ4MzVuaW5QRXc?oc=5"
     }
    ],
-   "missing": "Exact time of the trading suspension on November 23."
+   "missing": "Exact time of the suspension on November 23."
   },
   {
-   "t": "Coinbase Ireland Fined $3.6M by Central Bank",
-   "type": "regulation",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "USDC"
-   ],
-   "rel": "indirect",
-   "b": "The Central Bank of Ireland fined Coinbase Ireland $3.6 million over fund safeguarding failures stemming from instruction given during the 2023 Silvergate collapse, pending high court approval.",
-   "per": {
-    "USDC": "Involves regulatory enforcement on Coinbase operations."
-   },
-   "direction": "negative",
-   "quality": 66,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 12,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/policy/2026/10/22/irish-central-bank-fines-coinbase-ireland-usd3-6-million-over-fund-safeguarding-failures"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/ireland-central-bank-coinbase-oversight-safeguard-failure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Final high court sanction execution date."
-  },
-  {
-   "t": "Ethereum Delays Glamsterdam Testnet Launch",
+   "t": "Ethereum delays Glamsterdam testnet launch",
    "type": "mainnet",
    "status": "delayed",
    "event_date": null,
@@ -90,23 +44,23 @@
     "ETH"
    ],
    "rel": "direct",
-   "b": "Ethereum developers canceled the scheduled activation of the Glamsterdam testnet (Hoodi) after security researchers flagged risks that new gas rules could allow smart contracts to permanently record failed operations.",
+   "b": "Ethereum developers canceled the Hoodi activation for the Glamsterdam test after security researchers identified risks to existing smart contracts from new gas rules.",
    "per": {
-    "ETH": "Testnet activation delayed following security concerns regarding gas rule changes."
+    "ETH": "Testnet launch delayed due to security risks identified in gas rules."
    },
    "direction": "negative",
-   "quality": 62,
+   "quality": 75,
    "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 19,
-    "relevance": 12,
+    "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 4
    },
-   "impact": 6,
+   "impact": 8,
    "s": "fading",
-   "c": "medium",
+   "c": "high",
    "sources": [
     {
      "name": "coindesk.com",
@@ -118,6 +72,41 @@
     }
    ],
    "missing": "New reschedule date for the Glamsterdam testnet launch."
+  },
+  {
+   "t": "Cysic bridge exploited on BNB Smart Chain",
+   "type": "hack",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "BNB",
+    "ETH"
+   ],
+   "rel": "direct",
+   "b": "An attacker exploited Cysic's bridge to mint 10 million tokens on BNB Smart Chain and moved funds into Tornado Cash.",
+   "per": {
+    "BNB": "Impacted by unauthorized token minting exploit via Cysic bridge."
+   },
+   "direction": "negative",
+   "quality": 68,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/cysic-exploiter-eth-tornado-cash-white-hat-offer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Total financial loss amount on BNB Smart Chain."
   }
  ]
 }
