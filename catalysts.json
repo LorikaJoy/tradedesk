@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-23T10:30:57.556222+00:00",
+ "updated": "2026-10-23T15:29:13.706363+00:00",
  "cards": [
   {
-   "t": "Coinbase to Delist FORTH Token",
+   "t": "Coinbase to Delist FORTH",
    "type": "delisting",
    "status": "confirmed_upcoming",
    "event_date": "2026-11-23",
@@ -10,9 +10,9 @@
     "FORTH"
    ],
    "rel": "direct",
-   "b": "Coinbase announced it will halt trading and delist Ampleforth's FORTH token on November 23, 2026, as the governance token winds down.",
+   "b": "Coinbase will halt trading and suspend the Ampleforth governance token FORTH on November 23, 2026, while withdrawals remain open.",
    "per": {
-    "FORTH": "Trading suspended on Coinbase on November 23, 2026; withdrawals remain open."
+    "FORTH": "Trading will be halted on Coinbase on November 23 as the governance token winds down."
    },
    "direction": "negative",
    "quality": 87,
@@ -41,97 +41,28 @@
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FN1N5MXhRb2FQVkxjWndqa0oxUUFxaWdaUkJTbkpubkwyZjR6by1ZeUNfaFZ6cm5VSkt4NXVYSk5fY1BTNGVhamVxcDRXUk1GSTZPZk5qcElkay1vRXVsWHAyazJESVdYc3ZvOEZ4MzVuaW5QRXc?oc=5"
     }
    ],
-   "missing": "Exact time of day for trading suspension"
+   "missing": "Exact time of the trading suspension on November 23."
   },
   {
-   "t": "Cysic Bridge Exploited for 10M Tokens on BNB Chain",
-   "type": "hack",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "BNB",
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "An attacker exploited Cysic\u2019s bridge to mint 10 million tokens on the BNB Smart Chain, subsequently moving $744,000 in ETH and BNB to Tornado Cash.",
-   "per": {
-    "BNB": "Target of unauthorized token minting and subsequent Tornado Cash fund transfers."
-   },
-   "direction": "negative",
-   "quality": 68,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/cysic-exploiter-eth-tornado-cash-white-hat-offer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Total financial loss across all affected networks"
-  },
-  {
-   "t": "XRP Ledger Bug Fix Rescheduled to November",
-   "type": "mainnet",
-   "status": "delayed",
-   "event_date": null,
-   "coins": [
-    "XRP"
-   ],
-   "rel": "direct",
-   "b": "The XRP Ledger cleanup upgrade and bug fix countdown was temporarily delayed to November after validator support briefly dipped to 26 of 35 before recovering to 31.",
-   "per": {
-    "XRP": "Network upgrade timeline pushed to November following brief validator support drop."
-   },
-   "direction": "neutral",
-   "quality": 66,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 4
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/22/xrp-ledger-bug-fix-moved-to-november-after-validator-support-dipped-for-two-hours"
-    }
-   ],
-   "missing": "Specific activation date in November"
-  },
-  {
-   "t": "Switzerland Approves First Spot Bitcoin ETF for November Launch",
-   "type": "etf",
+   "t": "Coinbase Ireland Fined $3.6M by Central Bank",
+   "type": "regulation",
    "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "BTC"
+    "USDC"
    ],
-   "rel": "direct",
-   "b": "BIT Asset Management received FINMA approval for Switzerland\u2019s first spot Bitcoin ETF (BBIT) targeting a November listing for retail investors.",
+   "rel": "indirect",
+   "b": "The Central Bank of Ireland fined Coinbase Ireland $3.6 million over fund safeguarding failures stemming from instruction given during the 2023 Silvergate collapse, pending high court approval.",
    "per": {
-    "BTC": "Gains access to Switzerland's first retail spot Bitcoin ETF vehicle with a November launch."
+    "USDC": "Involves regulatory enforcement on Coinbase operations."
    },
-   "direction": "positive",
+   "direction": "negative",
    "quality": 66,
-   "label": "MODERATE CATALYST",
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 12,
+    "credibility": 19,
     "relevance": 12,
-    "impact": 12,
+    "impact": 5,
     "novelty": 15,
     "timing": 15
    },
@@ -140,22 +71,18 @@
    "c": "medium",
    "sources": [
     {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1jbXpnVnVsM2tSMlI3NktQR1lyRVpYM0UzZExYSEhCVHNseV9GWHIwdDRDb0szYWpETnlqYl9JaUt3OHppeFN5UlNXLV9SM2ZqbVlrcA?oc=5"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/10/22/irish-central-bank-fines-coinbase-ireland-usd3-6-million-over-fund-safeguarding-failures"
     },
     {
-     "name": "Pulse 2.0",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTHRPb3dzb0tTSkFJMHZVZUlpN3RUdUI1aHFMVUk4ZDVpelpJTC10d2hBcjAySTlVUFhXYXJQZ3E2UTAxYjF0TFpIWVFPLUduc05XMWpkSENXWksxWC1JeFVseEMtS3ltNVktd1R2bUNGUnZ4aVc0RTVzMFJYbmNFbWoyOVdkM2ZoZG1zM1owRDlPenhBdGhvU2hMZ1dDSHgtcjY2V1pBZw?oc=5"
-    },
-    {
-     "name": "NewsCord",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWXExTjhVanpxa2Q0Y2k1TVRwbkUzdWp0VGNDSGFFZ3FhX1pGamhCOXpIbjdRQW1ualp1aXBUcWxXMkJoYWpOZkU0a290S0hEMXlTRWNzWWdGeVZINlRzYlZqY3RGLXVhYzVCZzR1QVg0T05DY01kb09XdTdDQ3JPT2JVM0MzY3BFVS1IRGVwZnpjZGZIN1VNZk80ai1vUjZON0xvcE5TMjRpaE9XbzUzZXo2VndFcVJaQUxtSFVTeERsVUZQYkYwTW0yb1pRalNocW5zRmtlUW5yNEtJTVMwWHk1MEY?oc=5"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/ireland-central-bank-coinbase-oversight-safeguard-failure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact day of the November launch"
+   "missing": "Final high court sanction execution date."
   },
   {
-   "t": "Ethereum Glamsterdam Testnet Launch Delayed",
+   "t": "Ethereum Delays Glamsterdam Testnet Launch",
    "type": "mainnet",
    "status": "delayed",
    "event_date": null,
@@ -163,9 +90,9 @@
     "ETH"
    ],
    "rel": "direct",
-   "b": "Ethereum developers canceled the scheduled Hoodi activation of the Glamsterdam testnet after security researchers flagged that new gas rules could let smart contracts permanently record failed operations.",
+   "b": "Ethereum developers canceled the scheduled activation of the Glamsterdam testnet (Hoodi) after security researchers flagged risks that new gas rules could allow smart contracts to permanently record failed operations.",
    "per": {
-    "ETH": "Testnet launch postponed while security risks and gas rule vulnerabilities are addressed."
+    "ETH": "Testnet activation delayed following security concerns regarding gas rule changes."
    },
    "direction": "negative",
    "quality": 62,
@@ -190,7 +117,7 @@
      "url": "https://cointelegraph.com/news/ethereum-delays-glamsterdam-testnet-fork-gas-security-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "New target launch date for the testnet"
+   "missing": "New reschedule date for the Glamsterdam testnet launch."
   }
  ]
 }
