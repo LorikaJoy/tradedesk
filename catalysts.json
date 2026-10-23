@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-22T22:18:04.758749+00:00",
+ "updated": "2026-10-23T00:47:00.231678+00:00",
  "cards": [
   {
-   "t": "Coinbase to Delist FORTH on November 23",
+   "t": "Coinbase to Halt Trading and Delist Ampleforth's FORTH Token",
    "type": "delisting",
    "status": "confirmed_upcoming",
    "event_date": "2026-11-23",
@@ -10,9 +10,9 @@
     "FORTH"
    ],
    "rel": "direct",
-   "b": "Coinbase is suspending trading of Ampleforth's FORTH token on November 23 as the governance token winds down, while user withdrawals remain open.",
+   "b": "Coinbase announced it will suspend trading and delist Ampleforth's governance token FORTH on November 23, 2026, as the token winds down.",
    "per": {
-    "FORTH": "Trading suspension on Coinbase scheduled for November 23, 2026."
+    "FORTH": "Trading will be halted on Coinbase on November 23, while user withdrawals will remain open."
    },
    "direction": "negative",
    "quality": 87,
@@ -37,104 +37,24 @@
      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1zdVZSQVI2bVVGMVZ4TE0wM2c0b29LVUZRMEpMU1lyaXJwalZfZHJpUUYxNkhGcjkzTlpuaExJcnVVNC1KMENyRjRLQ3RsQ1dfaDVxWHZ6emlhS29uYzdWYTlFRncxX29aSFNOS0VxWnExczQyeVFJeW9XWQ?oc=5"
     },
     {
-     "name": "Bitcoin Sistemi",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZMERfMXhpeS1wSzhvVFBwbzg3OW1MZ3huOXhOQUloTzNreXZpZmdIN2NVMXI3bGRoNWpIMHl1TUpvR1o4Z2ZQNFhvVU1ETU1UandRVkIyZ0dDbGxJYVJmamxXY3p1R1RKaVBxRWtRLS1hVmxTcFFiOTc5Vk4?oc=5"
-    },
-    {
      "name": "Hokanews",
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FN1N5MXhRb2FQVkxjWndqa0oxUUFxaWdaUkJTbkpubkwyZjR6by1ZeUNfaFZ6cm5VSkt4NXVYSk5fY1BTNGVhamVxcDRXUk1GSTZPZk5qcElkay1vRXVsWHAyazJESVdYc3ZvOEZ4MzVuaW5QRXc?oc=5"
     }
    ],
-   "missing": "Exact time of day for the suspension."
+   "missing": "Exact time of the suspension and whether other major exchanges will follow."
   },
   {
-   "t": "Solana Activates Alpenglow Mainnet Upgrade",
-   "type": "mainnet",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "SOL"
-   ],
-   "rel": "direct",
-   "b": "Solana's Alpenglow upgrade is live on mainnet, targeting a 99% reduction in finality times to achieve near-immediate settlement.",
-   "per": {
-    "SOL": "Alpenglow consensus upgrade is now live on mainnet."
-   },
-   "direction": "positive",
-   "quality": 77,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/22/solana-completes-alpenglow-upgrade-here-s-what-it-means-for-users"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/solanas-alpenglow-launches-mainnet-99-faster-finality?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Exact activation timestamp."
-  },
-  {
-   "t": "XRP Ledger Upgrade Moved to November",
-   "type": "mainnet",
-   "status": "delayed",
-   "event_date": "2026-11-01",
-   "coins": [
-    "XRP"
-   ],
-   "rel": "direct",
-   "b": "The XRPL cleanup upgrade has been moved to November after validator support briefly dipped below the required threshold before recovering.",
-   "per": {
-    "XRP": "Network upgrade delayed to November following temporary validator support drops."
-   },
-   "direction": "neutral",
-   "quality": 68,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 4
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "AD HOC NEWS",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZzlHQTAyeGVZWHJYZm9ONXI3THZhWGloMm5LMmlWemVNa0ZhNnN1RFNkbXJndTBDZmZQcGtzS3MwbWxvV0w0MDd5MGhkc2wwVUtMYzdndE5iWWNfY3lkR05Eb0ZLUHd6Z3hmdjR0QThRNlZ1a1hNLUtoNnVib2R3OS1SR1ZTZzVIaW1XVWl2RVM0cm9BbDlPVlZRcGNqZHFBb01rYWJZSTlrT2MtMUpZcmpEWVJ5d3l4NlhqNF93?oc=5"
-    },
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/22/xrp-ledger-bug-fix-moved-to-november-after-validator-support-dipped-for-two-hours"
-    }
-   ],
-   "missing": "Exact deployment date in November."
-  },
-  {
-   "t": "Grayscale ZCSH Files 3-for-1 Stock Split",
+   "t": "Grayscale Files for 3-for-1 ZCSH Split Following ZEC Surge",
    "type": "other",
-   "status": "confirmed_upcoming",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Grayscale ZCSH has filed for a 3-for-1 split following significant upward price movement in ZEC.",
+   "b": "Grayscale has filed for a 3-for-1 split of its ZCSH product following a major rally in Zcash (ZEC).",
    "per": {
-    "ZEC": "Grayscale ZCSH files for a 3-for-1 split."
+    "ZEC": "Undergoing a stock split via Grayscale's vehicle following strong historical performance."
    },
    "direction": "positive",
    "quality": 68,
@@ -155,7 +75,53 @@
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUHl6N2xLaGNFZEdBbFRObG1DamFhZWtfUWx0NGpGemV5aDlSUV9jMVRLVXE5LXhKNVhZbm9SQmNhWlBwcVFBdTlQRXM2aTVoS1g4aEZZWmgzNDBCRnU4WVhPNENHZ1kxb0RXQUVJM1NoWGVaQ1RVVEdhREVVM2VscVhTS0s1dTh6X2xpWlpaNA?oc=5"
     }
    ],
-   "missing": "Effective execution date for the split."
+   "missing": "Effective date of the share split."
+  },
+  {
+   "t": "BIT Asset Management Receives FINMA Approval for Switzerland's First Spot Bitcoin ETF",
+   "type": "etf",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "indirect",
+   "b": "BIT Asset Management has secured approval from FINMA to launch Switzerland's first spot Bitcoin ETF, expanding institutional and retail access.",
+   "per": {
+    "BTC": "Gains a regulated retail spot ETF product in the Swiss market."
+   },
+   "direction": "positive",
+   "quality": 66,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "Pulse 2.0",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTHRPb3dzb0tTSkFJMHZVZUlpN3RUdUI1aHFMVUk4ZDVpelpJTC10d2hBcjAySTlVUFhXYXJQZ3E2UTAxYjF0TFpIWVFPLUduc05XMWpkSENXWksxWC1JeFVseEMtS3ltNVktd1R2bUNGUnZ4aVc0RTVzMFJYbmNFbWoyOVdkM2ZoZG1zM1owRDlPenhBdGhvU2hMZ1dDSHgtcjY2V1pBZw?oc=5"
+    },
+    {
+     "name": "FintechNews CH",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV3MzbnZqajB5Sm1YekR5eEY3RGlnUnloUHZnTFhRTGYwODZ5NHVZY0hXcjIzcHJjOXh3bExPQ21CcnlzOHI1aHctaExfQzE3VUNzd0pjVkk2TDB6ZGVVMEZJMFFqcURWRDVzclNydXdGU2RwNmlnYzZERlhFUHNsTFhTOXFQNldpQmhEWXdB?oc=5"
+    },
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPSHF2Mk95UG9lYUdYZ2xTbkdtcWtSYkwwUmZweDFBUUpiU0lQZE94d3lheWVmckllZHBNMjhOMUpCRm1SdmU2dVhJMVRCeG1BOUR1TkNxVkloZ2hsbnVMbDJmbmZZQm9nSUNBTFlpSHNLMVdNQmVlS3JhZEszb0lRYzY4bTVMakZLXzFzcEFmamhCUVZTTE9wYXVSSjlBR210bEJHcUZDX2xkcDMyblFuVHV1SFF5M1pfNkgwSXJCbEdrYTQ1aE9JX0ZFcW1hQ1lNUkx6WkxMOUFOM1hoeFhQXzFLU1FSNzh5RnpwbkNaVGhLZlUzRGVN?oc=5"
+    },
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQaG9SZHJPMHROcndvWGVVMUUxTFd3Yi1SNFlwbGpndkFZLWszd1pVa2FxZmpaY21pTFZlNlFGVGNCMGxnSHk4Qi1vQXEwODUtd1dJcGhjTk96M09CTmVCZU0wdG9ZcW8wendJS2xuZGdqX1JYTldTZHN5cnZCNnFNczNDTl9vUnp6NDFHazdpWUMxbFhySHBEbHlSSHVRVDV5cnBPdUJZNHRTc2M4cHlnUFpLZDBEYzh1aXdoOERFOWtLLW15NnlXUjRFVzd4UHZYck1kS1h4U0VXYk9VeVcw?oc=5"
+    }
+   ],
+   "missing": "The exact launch date for the ETF trading."
   }
  ]
 }
