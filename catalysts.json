@@ -1,26 +1,34 @@
 {
- "updated": "2026-10-24T01:04:32.536099+00:00",
+ "updated": "2026-10-24T05:49:16.311971+00:00",
  "cards": [
   {
-   "t": "Switzerland Approves First Retail Spot Bitcoin ETF for November Launch",
-   "type": "etf",
+   "t": "Binance Alpha Removes Multiple Tokens",
+   "type": "delisting",
    "status": "confirmed_upcoming",
-   "event_date": "2026-11-01",
+   "event_date": "2026-10-23",
    "coins": [
-    "BTC"
+    "PTB",
+    "AA",
+    "OWL",
+    "DORA"
    ],
    "rel": "direct",
-   "b": "FINMA has approved Switzerland's first domestic retail spot Bitcoin ETF, which features asset segregation to reduce counterparty risk and is targeted to list on the SIX Swiss Exchange in November.",
+   "b": "Binance Alpha announced the removal of seven tokens from its featured and alpha lists, including PTB, AA, OWL, DORA, ELIZAOS, MEMES, and \u54ed\u54ed\u9a6c, effective October 23, 2026.",
    "per": {
-    "BTC": "Set to gain access to Switzerland's first domestic retail spot Bitcoin ETF on the SIX exchange in November."
+    "PTB": "Removed from Binance Alpha list.",
+    "AA": "Removed from Binance Alpha list.",
+    "OWL": "Removed from Binance Alpha list.",
+    "DORA": "Removed from Binance Alpha list.",
+    "ELIZAOS": "Removed from Binance Alpha list.",
+    "MEMES": "Removed from Binance Alpha list."
    },
-   "direction": "positive",
-   "quality": 87,
-   "label": "STRONG CATALYST",
+   "direction": "negative",
+   "quality": 92,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 12,
+    "credibility": 25,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
@@ -29,69 +37,53 @@
    "c": "high",
    "sources": [
     {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWWFvVTItQjVvRS1vUnJuVmltaTh3NjN6MXRuUXVLRkd0cTl0eE0yQ19vNVRTUTFDVFlwQXc4LTI4WHozb3R6elZNX2Q1LUNPN0tnZW5XTVB0YllCMmw5S0pNSl9hNnY5NTI5SHdYZFFxOXVoWHR2aTZ3UEJvOGhNU2dmNHFfWmViYVZvY2FvRTEySHM2UC1qVDJDS0tzRWd1N3pxSHotOGQzZTlrYzZiUVV2djZ4WnV6NC1IdUxoUkNPRjhhcjBOTQ?oc=5"
+     "name": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xbkh0aWVISHhSYzgtZlBKNU1rU2YxRm9VTFhYT0Z5QnZfbVRCTHg2NnlURDBtaTRaZWwtWU9pX3FyMVNqV2o4MURxSm5pV1Q3TjVUdXpXWkE?oc=5"
     },
     {
-     "name": "LCX Exchange",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUmotZzlSd0JZRmZ2V0hrbTRxT1FPUzdIaXY4YVhDcnljbm1Vd0lIbFg5djktdkVYZkdKZG1sa0dYM3VsTWk1TkFQbEdkM19IYkhXM1VKN1M0U2p6Sm9LbVkydEVLQkNwR29TTC1aTUJWVHBYOUZFZHo1Q1lMd0VuU1VRS1VXV1NhbEwwTWZpOVVXakp5OGJaM2hiTmxwc0tId0E?oc=5"
-    },
-    {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5eWtwME01LXhRemlodExnNVh0Tm1QdE9sWURaZl9Nb3RoamcwYndFVWNZUHRmbHBUSU95M1FNNGpPRnJERGs0RzdpaG13T2FpbVpJMzlueTFYUQ?oc=5"
-    },
-    {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1jbXpnVnVsM2tSMlI3NktQR1lyRVpYM0UzZExYSEhCVHNseV9GWHIwdDRDb0szYWpETnlqYl9JaUt3OHppeFN5UlNXLV9SM2ZqbVlrcA?oc=5"
+     "name": "Binance",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX05iNVpVUXhpaXd5NXgyMEpZeGpjRWIwYm50eHVrV2xyOUdmRy1RWGhGTmtpYjh4Ry1aNDBheXpZVDFnZjdDQk5UYWlnTlItZVpxZVV3WU9rRUxlbnV3X2NNR0tLRW9BXzBYMnlDMFN4MEtZa2NqRDhaRmVMT1A4Q01uR0pURUpmRzJ3dzVOMk4?oc=5"
     }
    ],
-   "missing": "Exact calendar listing date in November"
+   "missing": "Trading pairs affected and withdrawal deadlines"
   },
   {
-   "t": "Franklin Templeton Wins Nasdaq Approval for Two Bitcoin DRIP ETFs",
-   "type": "etf",
-   "status": "confirmed_upcoming",
+   "t": "Initia Halts Network Following Exploit and Unauthorized Token Minting",
+   "type": "hack",
+   "status": "ongoing",
    "event_date": null,
    "coins": [
-    "BTC"
+    "INIT"
    ],
    "rel": "direct",
-   "b": "Franklin Templeton gained Nasdaq approval to list two Bitcoin DRIP ETFs that blend traditional stock exposure with Bitcoin dividend reinvestment strategies.",
+   "b": "Initia suspended its layer-1 network and rollups after security researchers identified unauthorized token minting and an exploit that drained over $2.6 million, with millions transferred to Ethereum.",
    "per": {
-    "BTC": "Approved for two new Nasdaq-listed strategy ETFs from Franklin Templeton."
+    "INIT": "Network halted and trading impacted following exploit and unauthorized minting."
    },
-   "direction": "positive",
-   "quality": 79,
-   "label": "STRONG CATALYST",
+   "direction": "negative",
+   "quality": 91,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 12,
+    "credibility": 19,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
-    "timing": 15
+    "timing": 12
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQdUhSUWs5Mmwzb0YxX1RobUNwc0QwcHl0LTFvZlZHVFRLN3BKMlJNdUVZYjBYR2ZLb3ZPODU5OUxweFlla2FLTFJMamVoRDBVSjJnbVVHUUw?oc=5"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/initia-halts-blockchain-exploit-drained?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-     "name": "Crypto News",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdTd3NWxLWk54UldKSXFCazV1NG5yOEd3VmI2Q09LZjJKSk9ZLXVUbDdwdkxyVzdneEtOUEtsVnU3THVPaW5hREplbUFHaGdnYUM4VDhhQ195ZXJsd0J3cmZiMkVuZnk4U2gwTzg1Uzk0Zm9LeWNIWGx2SkJHWUlUWVo0ZnR2cnI1UnJsUlZGdHVoek1hb0I3X0Rvdl9VUQ?oc=5"
-    },
-    {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA2XzVWX3ZXUzhhZW1EcXZBQm05bjBrb0ZIeFRraW41cGVLSjZOaXJnZFViQkQ4NWI0M1lTR1R6R1lVamxLX2h0OHpXUlY3QlJmc3JqMQ?oc=5"
-    },
-    {
-     "name": "CoinGape",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR2hkdjB2TzZoWlJxR3pHUEJfdlRFLWRSeHF2MHZTVWwzRjg4b1FYeUNVZWZyR1diSG1iWmNRWVZDUDZBeU5hQk0taWFZZm05VG0tdVhIenBNZHV1Ry1xXzRwclFYN1BDSFQxdnc1eElKd2Y4eE55dGFnZU9TbWpLWkRTak5vVnMzQnZia2NuRzBDbTVTTjRKZFl5REluaXR1M09GWHdTdVk?oc=5"
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/defi/2026-10-23-initia-halts-network-after-security-incident-attacker-reportedly-mints-tokens-427755"
     }
    ],
-   "missing": "Exact trading launch date on Nasdaq"
+   "missing": "Exact recovery timeline and total funds lost"
   },
   {
    "t": "Ethereum Delays Glamsterdam Testnet Fork Over Security Risks",
@@ -102,9 +94,9 @@
     "ETH"
    ],
    "rel": "direct",
-   "b": "Ethereum developers canceled the Hoodi testnet activation for the Glamsterdam upgrade after security researchers identified gas changes that could allow smart contracts to permanently record failed operations.",
+   "b": "Ethereum developers canceled the planned Hoodi testnet activation for the Glamsterdam upgrade after security researchers and ChainSecurity flagged gas changes that could let smart contracts permanently record failed operations.",
    "per": {
-    "ETH": "Glamsterdam testnet activation delayed due to gas rule security concerns."
+    "ETH": "Testnet fork delayed due to smart contract security concerns regarding gas rules."
    },
    "direction": "negative",
    "quality": 77,
@@ -133,45 +125,133 @@
      "url": "https://decrypt.co/381681/ethereum-delays-glamsterdam-testnet-fork-over-gas-security-flaws"
     }
    ],
-   "missing": "New rescheduled date for the testnet fork"
+   "missing": "Rescheduled date for the Hoodi testnet fork"
   },
   {
-   "t": "Bitwise Completes Liquidation of Dogecoin ETF",
-   "type": "etf",
-   "status": "completed",
-   "event_date": "2026-10-22",
+   "t": "Cardano Proposal Requests Treasury Funds to Buy Tokenized Copper",
+   "type": "treasury",
+   "status": "ongoing",
+   "event_date": null,
    "coins": [
-    "DOGE"
+    "ADA"
    ],
    "rel": "direct",
-   "b": "Bitwise completed the shutdown and liquidation of its Dogecoin ETF on October 22, less than a year after its initial launch.",
+   "b": "Toto Finance has asked Cardano holders to vote on a proposal to allocate 22 million ADA from the Cardano treasury to purchase tokenized copper.",
    "per": {
-    "DOGE": "Impacted by the complete liquidation and closure of the Bitwise Dogecoin ETF."
+    "ADA": "Awaiting governance outcome regarding treasury allocation for tokenized copper exposure."
    },
-   "direction": "negative",
-   "quality": 61,
-   "label": "NEGATIVE CATALYST",
+   "direction": "neutral",
+   "quality": 74,
+   "label": "MODERATE CATALYST",
    "parts": {
-    "credibility": 10,
+    "credibility": 17,
     "relevance": 25,
     "impact": 5,
     "novelty": 15,
-    "timing": 6
+    "timing": 12
    },
-   "impact": 6,
-   "s": "fading",
+   "impact": 7,
+   "s": "building",
    "c": "medium",
    "sources": [
     {
-     "name": "Startup Fortune",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdXNjTEhlLWFOWTROSFJTbEpkQ1FjdFJPTjhPNE5idHhzOGpneXQ5WTR2UjUzckpWOFNZU1IxWjk2b2ctbldQNGNQMWZZQzRRb3ZubU0xRVRVdVkwa1J5enBVSXdKc2VvTUY3S2xwWTE0WFI4Zk9FTjgxbzVnU0dzTlVjNE5iNnJfZ0xmckxZZmpUUTlYY3praQ?oc=5"
-    },
-    {
-     "name": "KuCoin",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNnpUQ1A2ZmRkYlJrTndZbFdXUk1hTHFqdmJVMDFoVGlJVV9tLTlxSWhyM3EtS3RCZlNlVENVcTdKMTU4Q3NCWnljWl8yZEcyc0dSLU1ra2FiWlhZMWtCM3o3RkM1cUt5aEZGYXFfdWQtSnpIM2RhZHktSElYanAzR0xpd3ZqT0xXcUJ0M00tTzVsX1NG?oc=5"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/23/cardano-holders-are-being-asked-to-bet-usd5-million-on-copper-hitting-a-new-record"
     }
    ],
-   "missing": "Final liquidation payout details per share"
+   "missing": "Voting end date and governance threshold requirements"
+  },
+  {
+   "t": "Switzerland Approves First Retail Spot Bitcoin ETF for SIX Listing",
+   "type": "etf",
+   "status": "officially_announced",
+   "event_date": "2025-11-01",
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Switzerland's FINMA has approved the country's first domestic retail spot Bitcoin ETF under fund law, with a target launch and listing on the SIX Swiss Exchange in November.",
+   "per": {
+    "BTC": "Benefiting from broader institutional and retail access via Switzerland's first domestic spot Bitcoin ETF."
+   },
+   "direction": "positive",
+   "quality": 66,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWWFvVTItQjVvRS1vUnJuVmltaTh3NjN6MXRuUXVLRkd0cTl0eE0yQ19vNVRTUTFDVFlwQXc4LTI4WHozb3R6elZNX2Q1LUNPN0tnZW5XTVB0YllCMmw5S0pNSl9hNnY5NTI5SHdYZFFxOXVoWHR2aTZ3UEJvOGhNU2dmNHFfWmViYVZvY2FvRTEySHM2UC1qVDJDS0tzRWd1N3pxSHotOGQzZTlrYzZiUVV2djZ4WnV6NC1IdUxoUkNPRjhhcjBOTQ?oc=5"
+    },
+    {
+     "name": "LCX Exchange",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUmotZzlSd0JZRmZ2V0hrbTRxT1FPUzdIaXY4YVhDcnljbm1Vd0lIbFg5djktdkVYZkdKZG1sa0dYM3VsTWk1TkFQbEdkM19IYkhXM1VKN1M0U2p6Sm9LbVkydEVLQkNwR29TTC1aTUJWVHBYOUZFZHo1Q1lMd0VuU1VRS1VXV1NhbEwwTWZpOVVXakp5OGJaM2hiTmxwc0tId0E?oc=5"
+    },
+    {
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5eWtwME01LXhRemlodExnNVh0Tm1QdE9sWURaZl9Nb3RoamcwYndFVWNZUHRmbHBUSU95M1FNNGpPRnJERGs0RzdpaG13T2FpbVpJMzlueTFYUQ?oc=5"
+    },
+    {
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsZWtiZ1Z6WXM2ZmtQa2JBMXZuY0pxbk5PRk1KYkNoZzVGb19TYTVkLTROc3QzVGxHZHA5RmhJNGtwS20tbGE1dzk3ZDdKVS1sVnlKN2xhRE5zbEZVczdTU0tVZ0FTY3ZHSTJUaXFlOU9jd1ZOa0E?oc=5"
+    }
+   ],
+   "missing": "Exact day in November for the SIX listing"
+  },
+  {
+   "t": "Franklin Templeton Wins Nasdaq Approval for Two Bitcoin DRIP ETFs",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Franklin Templeton has gained Nasdaq approval to list two Bitcoin DRIP strategy ETFs that blend stock investments with Bitcoin dividends.",
+   "per": {
+    "BTC": "Expanded exposure expected through new Nasdaq-listed dividend-reinvesting Bitcoin ETFs."
+   },
+   "direction": "positive",
+   "quality": 66,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9pa3N4YW9aWUZLU2Y2TDJQTW03ZG14Wk01TnhDTl9LT3hWUEMtYWtjS1FHbTdkNnVjRTBMU1JyVXVxdHMxVE9QV0I5RTNnd3J5TWhubU4wc0M?oc=5"
+    },
+    {
+     "name": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA2XzVWX3ZXUzhhZW1EcXZBQm05bjBrb0ZIeFRraW41cGVLSjZOaXJnZFViQkQ4NWI0M1lTR1R6R1lVamxLX2h0OHpXUlY3QlJmc3JqMQ?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTno0bU5IS25yZGsyUHNzUnVFcDk2dm9ZSnNrZ3pVRVJzYjRxeW9oLUcwMUxxeXBraFM3UG9FZFdVUDQyc3hPT0dQZ1ZxZ2VoX0c4TkZtX3hDN3ptU0RqZVNzakYyaWhWR1JjNkFTXzFfRjVudnJvTi1OY21CcWE0MVhZQm1tQ0hobjQxQnVTUUJSRkdncUFZ?oc=5"
+    },
+    {
+     "name": "CoinLaw",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE56Q1FmZnlXcGtLYlNENTlScjdJbTVrckFTeHd2ajdQSmN5WEdQY3FVQUpKLXdLRThabHFmNTBVTEtfNHh0OXI1Q0Z0ekQ1MGVxWnVlZjVjX055X0hXS00zbDlLa05YNTA?oc=5"
+    }
+   ],
+   "missing": "Exact trading start date on Nasdaq"
   }
  ]
 }
