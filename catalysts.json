@@ -1,46 +1,8 @@
 {
- "updated": "2026-10-24T10:06:38.877037+00:00",
+ "updated": "2026-10-24T13:59:42.209973+00:00",
  "cards": [
   {
-   "t": "Initia Halts Network After Exploit and Unauthorized Token Minting",
-   "type": "hack",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "INIT"
-   ],
-   "rel": "direct",
-   "b": "Initia halted its layer-1 network and rollups following a security incident involving unauthorized token minting and millions in asset transfers.",
-   "per": {
-    "INIT": "Network operations have been suspended while security researchers and the team investigate the exploit."
-   },
-   "direction": "negative",
-   "quality": 91,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/initia-halts-blockchain-exploit-drained?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-10-23-initia-halts-network-after-security-incident-attacker-reportedly-mints-tokens-427755"
-    }
-   ],
-   "missing": "Total funds permanently lost and exact timeline for network restart."
-  },
-  {
-   "t": "Ethereum Delays Glamsterdam Hoodi Testnet Launch Over Security Flaws",
+   "t": "Ethereum Delays Glamsterdam Hoodi Testnet Launch",
    "type": "mainnet",
    "status": "delayed",
    "event_date": null,
@@ -48,9 +10,9 @@
     "ETH"
    ],
    "rel": "direct",
-   "b": "Ethereum developers canceled the Hoodi testnet activation for the Glamsterdam upgrade after security researchers identified gas rule flaws that could affect smart contracts.",
+   "b": "Ethereum developers canceled the Hoodi testnet activation for the Glamsterdam upgrade after security researchers identified risks where new gas rules could cause smart contracts to permanently record failed operations.",
    "per": {
-    "ETH": "Testnet upgrade timeline is pushed back while gas rules and code safety are reviewed."
+    "ETH": "Testnet launch delayed due to security risks from gas rule changes."
    },
    "direction": "negative",
    "quality": 77,
@@ -79,10 +41,10 @@
      "url": "https://decrypt.co/381681/ethereum-delays-glamsterdam-testnet-fork-over-gas-security-flaws"
     }
    ],
-   "missing": "New reschedule date for the Hoodi testnet fork."
+   "missing": "New target launch date for the Glamsterdam Hoodi testnet."
   },
   {
-   "t": "Switzerland Approves First Retail Spot Bitcoin ETF for November Launch",
+   "t": "Switzerland Approves First Domestic Retail Spot Bitcoin ETF",
    "type": "etf",
    "status": "confirmed_upcoming",
    "event_date": "2026-11-01",
@@ -90,24 +52,28 @@
     "BTC"
    ],
    "rel": "direct",
-   "b": "FINMA has cleared Switzerland's first retail spot Bitcoin ETF by BIT Asset Management, which is scheduled to list on the SIX Swiss Exchange in November.",
+   "b": "FINMA cleared Switzerland's first retail spot Bitcoin ETF, which features asset segregation to reduce counterparty risk and is set to list on the SIX Swiss Exchange in November 2026.",
    "per": {
-    "BTC": "Will have a new regulated retail investment product vehicle available on the Swiss market."
+    "BTC": "First retail spot Bitcoin ETF approved in Switzerland for November listing."
    },
    "direction": "positive",
-   "quality": 75,
-   "label": "STRONG CATALYST",
+   "quality": 74,
+   "label": "MODERATE CATALYST",
    "parts": {
-    "credibility": 21,
+    "credibility": 12,
     "relevance": 12,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 7,
    "s": "building",
-   "c": "high",
+   "c": "medium",
    "sources": [
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWWFvVTItQjVvRS1vUnJuVmltaTh3NjN6MXRuUXVLRkd0cTl0eE0yQ19vNVRTUTFDVFlwQXc4LTI4WHozb3R6elZNX2Q1LUNPN0tnZW5XTVB0YllCMmw5S0pNSl9hNnY5NTI5SHdYZFFxOXVoWHR2aTZ3UEJvOGhNU2dmNHFfWmViYVZvY2FvRTEySHM2UC1qVDJDS0tzRWd1N3pxSHotOGQzZTlrYzZiUVV2djZ4WnV6NC1IdUxoUkNPRjhhcjBOTQ?oc=5"
+    },
     {
      "name": "TOKENPOST",
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5eWtwME01LXhRemlodExnNVh0Tm1QdE9sWURaZl9Nb3RoamcwYndFVWNZUHRmbHBUSU95M1FNNGpPRnJERGs0RzdpaG13T2FpbVpJMzlueTFYUQ?oc=5"
@@ -115,16 +81,12 @@
     {
      "name": "BigGo Finance",
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsZWtiZ1Z6WXM2ZmtQa2JBMXZuY0pxbk5PRk1KYkNoZzVGb19TYTVkLTROc3QzVGxHZHA5RmhJNGtwS20tbGE1dzk3ZDdKVS1sVnlKN2xhRE5zbEZVczdTU0tVZ0FTY3ZHSTJUaXFlOU9jd1ZOa0E?oc=5"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/switzerland-approves-first-spot-bitcoin-etf-for-retail-investors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact launch day in November."
+   "missing": "Exact day of the November listing on SIX."
   },
   {
-   "t": "Cardano Treasury Proposal Requests 22M ADA for Tokenized Copper Bet",
+   "t": "Cardano Treasury Proposal Seeks 22 Million ADA for Copper Investment",
    "type": "treasury",
    "status": "ongoing",
    "event_date": null,
@@ -132,9 +94,9 @@
     "ADA"
    ],
    "rel": "direct",
-   "b": "Toto Finance has asked Cardano holders to allocate 22 million ADA from the network's treasury to purchase tokenized copper.",
+   "b": "Toto Finance has asked Cardano holders to vote on a $5 million proposal requesting 22 million ADA from the Cardano treasury to purchase tokenized copper.",
    "per": {
-    "ADA": "A successful vote would commit a significant portion of treasury funds into a commodity-backed token investment."
+    "ADA": "Community asked to allocate 22M ADA for a tokenized copper bet."
    },
    "direction": "mixed",
    "quality": 74,
@@ -155,45 +117,49 @@
      "url": "https://www.coindesk.com/markets/2026/10/23/cardano-holders-are-being-asked-to-bet-usd5-million-on-copper-hitting-a-new-record"
     }
    ],
-   "missing": "Whether the community vote passes and the final execution timeline."
+   "missing": "Voting deadline and final approval status."
   },
   {
-   "t": "Bitwise Dogecoin ETF Reaches Scheduled Liquidation",
+   "t": "Franklin Templeton Secures Nasdaq Approval for Bitcoin DRIP ETFs",
    "type": "etf",
-   "status": "completed",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "DOGE"
+    "BTC"
    ],
    "rel": "direct",
-   "b": "The Bitwise Dogecoin ETF has reached its scheduled liquidation less than a year after launch, leaving holders facing cash redemptions.",
+   "b": "Franklin Templeton gained SEC and Nasdaq approval to launch two ETFs (tickers FBEQ and FIBT) that blend 95% US stocks with 5% Bitcoin exposure by reinvesting stock dividends into Bitcoin.",
    "per": {
-    "DOGE": "The investment product is winding down, forcing asset liquidations and cash returns to holders."
+    "BTC": "New DRIP strategy ETFs approved to list on Nasdaq."
    },
-   "direction": "negative",
-   "quality": 61,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 66,
+   "label": "MODERATE CATALYST",
    "parts": {
-    "credibility": 10,
-    "relevance": 25,
-    "impact": 5,
+    "credibility": 12,
+    "relevance": 12,
+    "impact": 12,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
-   "impact": 6,
-   "s": "fading",
+   "impact": 7,
+   "s": "building",
    "c": "medium",
    "sources": [
     {
-     "name": "Startup Fortune",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdXNjTEhlLWFOWTROSFJTbEpkQ1FjdFJPTjhPNE5idHhzOGpneXQ5WTR2UjUzckpWOFNZU1IxWjk2b2ctbldQNGNQMWZZQzRRb3ZubU0xRVRVdVkwa1J5enBVSXdKc2VvTUY3S2xwWTE0WFI4Zk9FTjgxbzVnU0dzTlVjNE5iNnJfZ0xmckxZZmpUUTlYY3praQ?oc=5"
+     "name": "KuCoin",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQTc5azI5S2FLbXVQdVVHTXdicDRtMnBDWk9mdTFkUGdDLTcxZXA0Wkc2S0l2YVp4ZGY0YVZjSDQ0MUtTNThWdmVZM3NodEZQS0szQk96VU9SX0FNM3BmcE1ISXE1TWw4X25oVDM5WGJzZy15TW9ZMEdNUFh5LVpkdS1GN0tGTnJJSk9qOGNLY0Q2bHpjVXl5T3BKMA?oc=5"
     },
     {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRzhhRm0xRnBJRHBJdUlWa21pX3NjekNlUGowYjhUYVZ3eWNRQWNnSnJZMFBBRlRPdzZ5S3FJVE5QNE5SZjUySE5jbktnbHhRSmNVSlNFR0d6TDNmV3dzWWhscF80SU5FS2dSeE9OOTJRX3hyUnB6WU1QYTlhVXUzWDcyMV9sM0lKRDczY09oNlN4QmVWU0tDYUdEUkJDa1pBWm5Nd0E4WnNQdFlndnd4YjNXTV85aWlHaDhSOHRLYkkxT2NvU2ZBVlNLYTJPSzhjSDdYR3p1UQ?oc=5"
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5HU0hndUNnZVJUMFRsOUVGb3BBbVQta0dHMkZhMFdGQUlDQWYtako0ZzVaNUtzeW9KNm02RHl3d1hxUUgwZ0MwTGtJT3JfbUFXbDI3cVVfV2hTQXJlMl90elBlSkgxUDhrTk81NENfMFczU1JWUkE?oc=5"
+    },
+    {
+     "name": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9pa3N4YW9aWUZLU2Y2TDJQTW03ZG14Wk01TnhDTl9LT3hWUEMtYWtjS1FHbTdkNnVjRTBMU1JyVXVxdHMxVE9QV0I5RTNnd3J5TWhubU4wc0M?oc=5"
     }
    ],
-   "missing": "Final payout values and exact completion date of distributions."
+   "missing": "Exact trading start date on Nasdaq."
   }
  ]
 }
