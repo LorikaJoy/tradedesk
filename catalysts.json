@@ -1,8 +1,84 @@
 {
- "updated": "2026-10-24T13:59:42.209973+00:00",
+ "updated": "2026-10-24T17:18:07.195947+00:00",
  "cards": [
   {
-   "t": "Ethereum Delays Glamsterdam Hoodi Testnet Launch",
+   "t": "Initia Halts Network Following Exploit",
+   "type": "hack",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "INIT"
+   ],
+   "rel": "direct",
+   "b": "Initia halted its layer-1 blockchain and rollups after security researchers identified unauthorized token minting and a multimillion-dollar exploit.",
+   "per": {
+    "INIT": "Network suspended after an exploit drained over $2.6M and attackers minted tokens."
+   },
+   "direction": "negative",
+   "quality": 91,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/initia-halts-blockchain-exploit-drained?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/defi/2026-10-23-initia-halts-network-after-security-incident-attacker-reportedly-mints-tokens-427755"
+    }
+   ],
+   "missing": "Total funds lost and timeline for network restart."
+  },
+  {
+   "t": "Upbit Lists Bubblemaps (BMT)",
+   "type": "listing",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "BMT"
+   ],
+   "rel": "direct",
+   "b": "Upbit has listed Bubblemaps (BMT) with a Korean won trading pair using the Solana network for transfers.",
+   "per": {
+    "BMT": "Listed on Upbit with a Korean won pair, driving immediate price gains over 50%."
+   },
+   "direction": "positive",
+   "quality": 85,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 10,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ1ZJbUtVNnRCNURtMGVBajUtUDl0MTRLcFZvNll4QWNVaXUtNGs3VV9qdm5Nd1pibC0zeFA4alRQcWI1VTN2a2FlRm5BQmtNLWFJY3JjcFJFVlBESFRTVGQ1eU85UktHZkhwckROendqa2hkamZ2cXpSR1YwblppVE9aR04zR1ZOOWpQaWY1TXdPdVk?oc=5"
+    },
+    {
+     "name": "Coin Gabbar",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPemVWQXliT3JPOU9fbE0wdkZndFU0M2dFaWVUWGVrYUhlNllGQWpGYklXZUU4eDBxbzI3ZDUtOEVaeUlyckZnVjNWOHFOTnVuanlfeExOQnA2MV96cGpITXFERjNDUzVxLTBueGN3a3BwVDFJMVFJUDFpWHNLQVBuYVR5Y0JTRGdVU0dmb0V4aw?oc=5"
+    }
+   ],
+   "missing": "Exact trading start time."
+  },
+  {
+   "t": "Ethereum Hoodi Testnet Fork Delayed Over Gas Security Flaws",
    "type": "mainnet",
    "status": "delayed",
    "event_date": null,
@@ -10,101 +86,53 @@
     "ETH"
    ],
    "rel": "direct",
-   "b": "Ethereum developers canceled the Hoodi testnet activation for the Glamsterdam upgrade after security researchers identified risks where new gas rules could cause smart contracts to permanently record failed operations.",
+   "b": "Ethereum delayed the Glamsterdam testnet fork on the Hoodi testnet after ChainSecurity discovered gas changes that could cause contracts to lock in failures.",
    "per": {
-    "ETH": "Testnet launch delayed due to security risks from gas rule changes."
+    "ETH": "Testnet fork delayed due to security vulnerabilities."
    },
    "direction": "negative",
-   "quality": 77,
+   "quality": 73,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 21,
+    "credibility": 17,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 4
    },
-   "impact": 8,
+   "impact": 7,
    "s": "fading",
-   "c": "high",
+   "c": "medium",
    "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/23/ethereum-delays-glamsterdam-test-after-security-devs-flag-risk-to-existing-contracts"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/ethereum-delays-glamsterdam-testnet-fork-gas-security-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
     {
      "name": "decrypt.co",
      "url": "https://decrypt.co/381681/ethereum-delays-glamsterdam-testnet-fork-over-gas-security-flaws"
     }
    ],
-   "missing": "New target launch date for the Glamsterdam Hoodi testnet."
+   "missing": "New reschedule date for the testnet fork."
   },
   {
-   "t": "Switzerland Approves First Domestic Retail Spot Bitcoin ETF",
-   "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-11-01",
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "FINMA cleared Switzerland's first retail spot Bitcoin ETF, which features asset segregation to reduce counterparty risk and is set to list on the SIX Swiss Exchange in November 2026.",
-   "per": {
-    "BTC": "First retail spot Bitcoin ETF approved in Switzerland for November listing."
-   },
-   "direction": "positive",
-   "quality": 74,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 12,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWWFvVTItQjVvRS1vUnJuVmltaTh3NjN6MXRuUXVLRkd0cTl0eE0yQ19vNVRTUTFDVFlwQXc4LTI4WHozb3R6elZNX2Q1LUNPN0tnZW5XTVB0YllCMmw5S0pNSl9hNnY5NTI5SHdYZFFxOXVoWHR2aTZ3UEJvOGhNU2dmNHFfWmViYVZvY2FvRTEySHM2UC1qVDJDS0tzRWd1N3pxSHotOGQzZTlrYzZiUVV2djZ4WnV6NC1IdUxoUkNPRjhhcjBOTQ?oc=5"
-    },
-    {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5eWtwME01LXhRemlodExnNVh0Tm1QdE9sWURaZl9Nb3RoamcwYndFVWNZUHRmbHBUSU95M1FNNGpPRnJERGs0RzdpaG13T2FpbVpJMzlueTFYUQ?oc=5"
-    },
-    {
-     "name": "BigGo Finance",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsZWtiZ1Z6WXM2ZmtQa2JBMXZuY0pxbk5PRk1KYkNoZzVGb19TYTVkLTROc3QzVGxHZHA5RmhJNGtwS20tbGE1dzk3ZDdKVS1sVnlKN2xhRE5zbEZVczdTU0tVZ0FTY3ZHSTJUaXFlOU9jd1ZOa0E?oc=5"
-    }
-   ],
-   "missing": "Exact day of the November listing on SIX."
-  },
-  {
-   "t": "Cardano Treasury Proposal Seeks 22 Million ADA for Copper Investment",
-   "type": "treasury",
+   "t": "Cysic Bridge Exploited and Hacker Moves Funds to Tornado Cash",
+   "type": "hack",
    "status": "ongoing",
    "event_date": null,
    "coins": [
-    "ADA"
+    "ETH",
+    "BNB"
    ],
    "rel": "direct",
-   "b": "Toto Finance has asked Cardano holders to vote on a $5 million proposal requesting 22 million ADA from the Cardano treasury to purchase tokenized copper.",
+   "b": "An attacker exploited Cysic's bridge to mint 10 million tokens on BNB Smart Chain and moved $744,000 in ETH and BNB into Tornado Cash.",
    "per": {
-    "ADA": "Community asked to allocate 22M ADA for a tokenized copper bet."
+    "ETH": "Stolen funds moved to Tornado Cash.",
+    "BNB": "BNB Smart Chain impacted by unauthorized token minting and hacker fund transfers."
    },
-   "direction": "mixed",
-   "quality": 74,
-   "label": "MODERATE CATALYST",
+   "direction": "negative",
+   "quality": 68,
+   "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 17,
-    "relevance": 25,
-    "impact": 5,
+    "relevance": 12,
+    "impact": 12,
     "novelty": 15,
     "timing": 12
    },
@@ -113,53 +141,11 @@
    "c": "medium",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/23/cardano-holders-are-being-asked-to-bet-usd5-million-on-copper-hitting-a-new-record"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/cysic-exploiter-eth-tornado-cash-white-hat-offer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Voting deadline and final approval status."
-  },
-  {
-   "t": "Franklin Templeton Secures Nasdaq Approval for Bitcoin DRIP ETFs",
-   "type": "etf",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Franklin Templeton gained SEC and Nasdaq approval to launch two ETFs (tickers FBEQ and FIBT) that blend 95% US stocks with 5% Bitcoin exposure by reinvesting stock dividends into Bitcoin.",
-   "per": {
-    "BTC": "New DRIP strategy ETFs approved to list on Nasdaq."
-   },
-   "direction": "positive",
-   "quality": 66,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "KuCoin",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQTc5azI5S2FLbXVQdVVHTXdicDRtMnBDWk9mdTFkUGdDLTcxZXA0Wkc2S0l2YVp4ZGY0YVZjSDQ0MUtTNThWdmVZM3NodEZQS0szQk96VU9SX0FNM3BmcE1ISXE1TWw4X25oVDM5WGJzZy15TW9ZMEdNUFh5LVpkdS1GN0tGTnJJSk9qOGNLY0Q2bHpjVXl5T3BKMA?oc=5"
-    },
-    {
-     "name": "BigGo Finance",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5HU0hndUNnZVJUMFRsOUVGb3BBbVQta0dHMkZhMFdGQUlDQWYtako0ZzVaNUtzeW9KNm02RHl3d1hxUUgwZ0MwTGtJT3JfbUFXbDI3cVVfV2hTQXJlMl90elBlSkgxUDhrTk81NENfMFczU1JWUkE?oc=5"
-    },
-    {
-     "name": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9pa3N4YW9aWUZLU2Y2TDJQTW03ZG14Wk01TnhDTl9LT3hWUEMtYWtjS1FHbTdkNnVjRTBMU1JyVXVxdHMxVE9QV0I5RTNnd3J5TWhubU4wc0M?oc=5"
-    }
-   ],
-   "missing": "Exact trading start date on Nasdaq."
+   "missing": "Full scope of compromised assets."
   }
  ]
 }
