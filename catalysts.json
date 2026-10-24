@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T21:52:45.818327+00:00",
+ "updated": "2026-10-24T23:56:02.150635+00:00",
  "cards": [
   {
    "t": "Upbit Lists Bubblemaps (BMT)",
@@ -10,9 +10,9 @@
     "BMT"
    ],
    "rel": "direct",
-   "b": "Upbit has listed the Bubblemaps (BMT) trading pair with the Korean won, utilizing the Solana network for transfers.",
+   "b": "Upbit has listed Bubblemaps (BMT) with a Korean won trading pair, utilizing the Solana network for transfers.",
    "per": {
-    "BMT": "Listed on Upbit with a Korean won trading pair using the Solana network."
+    "BMT": "Listed on Upbit with a KRW trading pair, leading to significant price gains."
    },
    "direction": "positive",
    "quality": 85,
@@ -37,167 +37,7 @@
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPemVWQXliT3JPOU9fbE0wdkZndFU0M2dFaWVUWGVrYUhlNllGQWpGYklXZUU4eDBxbzI3ZDUtOEVaeUlyckZnVjNWOHFOTnVuanlfeExOQnA2MV96cGpITXFERjNDUzVxLTBueGN3a3BwVDFJMVFJUDFpWHNLQVBuYVR5Y0JTRGdVU0dmb0V4aw?oc=5"
     }
    ],
-   "missing": "Exact listing time and date."
-  },
-  {
-   "t": "Franklin Templeton Adds $150 Million to XRP Ledger",
-   "type": "treasury",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "XRP"
-   ],
-   "rel": "direct",
-   "b": "Franklin Templeton added $150 million in fund shares to the XRP Ledger through subscriptions that nearly quadrupled its tokens on the network.",
-   "per": {
-    "XRP": "XRPL network hosts the newly added $150 million in fund shares."
-   },
-   "direction": "positive",
-   "quality": 77,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "CryptoTicker",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWkd0THhiOHN2N3Q5VnhESkswdmY1SzktSHJucUpjNXZuQXhVZDM5QnItYXdHZW85QVBOYUhqSVlrVlR6M09fRWtFOGt6YlFtUVRQQmdrYTlwWVl6UVNnTHh1emdON3FudE1DX3hVcUd1R2J1bVp3dDR3UjVzbGFiQTRjRTdRZw?oc=5"
-    },
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet"
-    }
-   ],
-   "missing": "Specific details on future deployment plans."
-  },
-  {
-   "t": "Franklin Templeton Registers Bitcoin DRIP ETFs on Nasdaq",
-   "type": "etf",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Franklin Templeton has gained approval to list its Bitcoin Dividend Reinvestment (DRIP) strategy ETFs, tickers FBEQ and FIBT, on Nasdaq.",
-   "per": {
-    "BTC": "Underlying asset for the newly registered dividend reinvestment ETFs on Nasdaq."
-   },
-   "direction": "positive",
-   "quality": 74,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 12,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNd2U1V080NDdJMFJicGh1UkpwVUQ2R21OeE04NlctRlZJek04QTVMeHF2NDEwMHh4bGRTX2kyeG9jWmU4X3dUakhXUU5QTWY3dWVjOGcxZC1tcnZaQzRnUVFIN1k0TlpQMFhtaXdGdi1Uc192MUw1QVhJUWFuVE95MHRuUzlnQjVkUDRSLVEtVzRpY2gwTXZnSWYyVVd4a1dRWXNZci1KMF9UTThKa1RmYXB2SjN4RzlXeEVSZ2Y0UzM4LWVCQ2Vqc0NKS2ZkdGhBVXc?oc=5"
-    },
-    {
-     "name": "The Cryptonomist",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBUdFJJYmZfRFQwdktrU3JuelRvMUFlQ2owa21HU0VDdzFMa2htd3paVnBOeE1DcWRLdkQzdE1qYXVnX3FkWk4zdEd4djRiOVpGR3JiQlVDTFB5eVl5RDFOOGxPWThwUWVoMC1ZMHFwSXdLSTEzWks5S1NKVURBUQ?oc=5"
-    },
-    {
-     "name": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9pa3N4YW9aWUZLU2Y2TDJQTW03ZG14Wk01TnhDTl9LT3hWUEMtYWtjS1FHbTdkNnVjRTBMU1JyVXVxdHMxVE9QV0I5RTNnd3J5TWhubU4wc0M?oc=5"
-    },
-    {
-     "name": "BigGo Finance",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5HU0hndUNnZVJUMFRsOUVGb3BBbVQta0dHMkZhMFdGQUlDQWYtako0ZzVaNUtzeW9KNm02RHl3d1hxUUgwZ0MwTGtJT3JfbUFXbDI3cVVfV2hTQXJlMl90elBlSkgxUDhrTk81NENfMFczU1JWUkE?oc=5"
-    }
-   ],
-   "missing": "Exact trading start date."
-  },
-  {
-   "t": "Ethereum Delays Glamsterdam Testnet Fork",
-   "type": "mainnet",
-   "status": "delayed",
-   "event_date": null,
-   "coins": [
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "Ethereum delayed the Hoodi testnet fork for the Glamsterdam upgrade after ChainSecurity identified gas changes that could cause contracts to lock in failures.",
-   "per": {
-    "ETH": "Testnet fork delayed due to gas security flaws."
-   },
-   "direction": "negative",
-   "quality": 73,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 4
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/381681/ethereum-delays-glamsterdam-testnet-fork-over-gas-security-flaws"
-    }
-   ],
-   "missing": "Rescheduled date for the Hoodi testnet fork."
-  },
-  {
-   "t": "Senate Democrat Probes Tether Over Payments to Former Adviser's Firm",
-   "type": "regulation",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "USDT"
-   ],
-   "rel": "indirect",
-   "b": "Sen. Richard Blumenthal demanded records from Tether regarding a reported deal and payments made to Nxum, a firm co-owned by former White House crypto adviser Bo Hines.",
-   "per": {
-    "USDT": "Scrutiny faces the issuer amid Senate inquiry into payments."
-   },
-   "direction": "negative",
-   "quality": 72,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/us-senator-probe-bo-hines-trump-crypto-adviser-tether-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/381755/senate-democrat-tether-payments-ex-white-house-crypto-adviser"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/regulation/2026-10-23-sen-blumenthal-seeks-answers-tether-payments-firm-founded-ex-white-house-crypto-adviser-427785"
-    }
-   ],
-   "missing": "Tether's official response and document submission timeline."
+   "missing": "Exact listing timestamp."
   }
  ]
 }
