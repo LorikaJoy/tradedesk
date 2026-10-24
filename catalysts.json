@@ -1,54 +1,8 @@
 {
- "updated": "2026-10-23T22:31:37.550611+00:00",
+ "updated": "2026-10-24T01:04:32.536099+00:00",
  "cards": [
   {
-   "t": "Binance Platform Delists Eight Tokens",
-   "type": "delisting",
-   "status": "officially_announced",
-   "event_date": "2026-10-23",
-   "coins": [
-    "PTB",
-    "AA",
-    "OWL",
-    "DORA"
-   ],
-   "rel": "direct",
-   "b": "Binance announced the delisting and removal of eight tokens, including PTB, AA, OWL, DORA, ELIZAOS, and MEMES, from its platform as part of an October shakeup.",
-   "per": {
-    "PTB": "Scheduled for removal by Binance on October 23, 2026.",
-    "AA": "Scheduled for removal by Binance on October 23, 2026.",
-    "OWL": "Scheduled for removal by Binance on October 23, 2026.",
-    "DORA": "Scheduled for removal by Binance on October 23, 2026.",
-    "ELIZAOS": "Scheduled for removal by Binance on October 23, 2026.",
-    "MEMES": "Scheduled for removal by Binance on October 23, 2026."
-   },
-   "direction": "negative",
-   "quality": 100,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 25,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 10,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5jQjFWWENoY0g4U3I2QzJDSWRucVpQTmlCX1hOTXJPTDRfWDlmSnpSUzgxd3FrRFVDeVZELUI5Yy15OUNyaVc5aFZ6Znh5Vnk2UmVlTVNOUQ?oc=5"
-    },
-    {
-     "name": "Binance",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX05iNVpVUXhpaXd5NXgyMEpZeGpjRWIwYm50eHVrV2xyOUdmRy1RWGhGTmtpYjh4Ry1aNDBheXpZVDFnZjdDQk5UYWlnTlItZVpxZVV3WU9rRUxlbnV3X2NNR0tLRW9BXzBYMnlDMFN4MEtZa2NqRDhaRmVMT1A4Q01uR0pURUpmRzJ3dzVOMk4?oc=5"
-    }
-   ],
-   "missing": "Exact trading pairs affected and precise times of delisting."
-  },
-  {
-   "t": "Switzerland Approves First Retail Spot Bitcoin ETF",
+   "t": "Switzerland Approves First Retail Spot Bitcoin ETF for November Launch",
    "type": "etf",
    "status": "confirmed_upcoming",
    "event_date": "2026-11-01",
@@ -56,9 +10,9 @@
     "BTC"
    ],
    "rel": "direct",
-   "b": "FINMA has cleared Switzerland's first domestic retail spot Bitcoin ETF under fund law, with a listing on the SIX Swiss Exchange targeted for November.",
+   "b": "FINMA has approved Switzerland's first domestic retail spot Bitcoin ETF, which features asset segregation to reduce counterparty risk and is targeted to list on the SIX Swiss Exchange in November.",
    "per": {
-    "BTC": "Set to be tracked by Switzerland's first approved domestic retail spot Bitcoin ETF upon its November launch."
+    "BTC": "Set to gain access to Switzerland's first domestic retail spot Bitcoin ETF on the SIX exchange in November."
    },
    "direction": "positive",
    "quality": 87,
@@ -83,14 +37,18 @@
      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUmotZzlSd0JZRmZ2V0hrbTRxT1FPUzdIaXY4YVhDcnljbm1Vd0lIbFg5djktdkVYZkdKZG1sa0dYM3VsTWk1TkFQbEdkM19IYkhXM1VKN1M0U2p6Sm9LbVkydEVLQkNwR29TTC1aTUJWVHBYOUZFZHo1Q1lMd0VuU1VRS1VXV1NhbEwwTWZpOVVXakp5OGJaM2hiTmxwc0tId0E?oc=5"
     },
     {
-     "name": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMlMzZ2FhWVJ5eVhjbVB4bHBYeVNQSWNrOVZ1elpRT1VaZFpjVzg5R292T3hHTWRPc3NMcS1NVEtIdUVjbFE5dDRFU0dHcXhta09URXJ1Nml0cE5ET0l6ZThhcENoWVpLMlBZTmRGMHAtRWJ5bm9CREpldlFJQVhZdGhCR0E4dy1lUHd0Y1ZBNklBaGlOcmIxbFlzQS00R21DN3FzYzhB?oc=5"
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5eWtwME01LXhRemlodExnNVh0Tm1QdE9sWURaZl9Nb3RoamcwYndFVWNZUHRmbHBUSU95M1FNNGpPRnJERGs0RzdpaG13T2FpbVpJMzlueTFYUQ?oc=5"
+    },
+    {
+     "name": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1jbXpnVnVsM2tSMlI3NktQR1lyRVpYM0UzZExYSEhCVHNseV9GWHIwdDRDb0szYWpETnlqYl9JaUt3OHppeFN5UlNXLV9SM2ZqbVlrcA?oc=5"
     }
    ],
-   "missing": "Exact launch date in November and ticker symbol for the ETF."
+   "missing": "Exact calendar listing date in November"
   },
   {
-   "t": "Franklin Templeton Wins Nasdaq Approval for Bitcoin DRIP ETFs",
+   "t": "Franklin Templeton Wins Nasdaq Approval for Two Bitcoin DRIP ETFs",
    "type": "etf",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -98,41 +56,45 @@
     "BTC"
    ],
    "rel": "direct",
-   "b": "Franklin Templeton has gained approval from Nasdaq to list two Bitcoin DRIP strategy ETFs that reinvest stock dividends into Bitcoin exposure.",
+   "b": "Franklin Templeton gained Nasdaq approval to list two Bitcoin DRIP ETFs that blend traditional stock exposure with Bitcoin dividend reinvestment strategies.",
    "per": {
-    "BTC": "Will be tied to the newly approved Nasdaq-bound Franklin Templeton DRIP strategy ETFs."
+    "BTC": "Approved for two new Nasdaq-listed strategy ETFs from Franklin Templeton."
    },
    "direction": "positive",
-   "quality": 87,
+   "quality": 79,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 12,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 9,
+   "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
      "name": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9pa3N4YW9aWUZLU2Y2TDJQTW03ZG14Wk01TnhDTl9LT3hWUEMtYWtjS1FHbTdkNnVjRTBMU1JyVXVxdHMxVE9QV0I5RTNnd3J5TWhubU4wc0M?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQdUhSUWs5Mmwzb0YxX1RobUNwc0QwcHl0LTFvZlZHVFRLN3BKMlJNdUVZYjBYR2ZLb3ZPODU5OUxweFlla2FLTFJMamVoRDBVSjJnbVVHUUw?oc=5"
+    },
+    {
+     "name": "Crypto News",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdTd3NWxLWk54UldKSXFCazV1NG5yOEd3VmI2Q09LZjJKSk9ZLXVUbDdwdkxyVzdneEtOUEtsVnU3THVPaW5hREplbUFHaGdnYUM4VDhhQ195ZXJsd0J3cmZiMkVuZnk4U2gwTzg1Uzk0Zm9LeWNIWGx2SkJHWUlUWVo0ZnR2cnI1UnJsUlZGdHVoek1hb0I3X0Rvdl9VUQ?oc=5"
     },
     {
      "name": "bloomingbit",
      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA2XzVWX3ZXUzhhZW1EcXZBQm05bjBrb0ZIeFRraW41cGVLSjZOaXJnZFViQkQ4NWI0M1lTR1R6R1lVamxLX2h0OHpXUlY3QlJmc3JqMQ?oc=5"
     },
     {
-     "name": "Crypto Economy",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQVowdG4xbFcxMTdaWDZoaTBOWmh2MGJIRlVFSjZIakNKWlNseDN6ZHpudDVJcVVNUmU0cU9fdUNjTlBsLWh3T0wzaXlPbzlyVWEzQnFhNFpLTm1MQ1VwMkpSSUVySUw4WDVSSTlRTXJKekJCdkxHQTRSZmRLcmRjclFLUk1acU05SFN6MTI3YjBmdw?oc=5"
+     "name": "CoinGape",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR2hkdjB2TzZoWlJxR3pHUEJfdlRFLWRSeHF2MHZTVWwzRjg4b1FYeUNVZWZyR1diSG1iWmNRWVZDUDZBeU5hQk0taWFZZm05VG0tdVhIenBNZHV1Ry1xXzRwclFYN1BDSFQxdnc1eElKd2Y4eE55dGFnZU9TbWpLWkRTak5vVnMzQnZia2NuRzBDbTVTTjRKZFl5REluaXR1M09GWHdTdVk?oc=5"
     }
    ],
-   "missing": "Exact trading start date on Nasdaq."
+   "missing": "Exact trading launch date on Nasdaq"
   },
   {
-   "t": "Ethereum Delays Glamsterdam Testnet Fork",
+   "t": "Ethereum Delays Glamsterdam Testnet Fork Over Security Risks",
    "type": "mainnet",
    "status": "delayed",
    "event_date": null,
@@ -140,17 +102,17 @@
     "ETH"
    ],
    "rel": "direct",
-   "b": "Ethereum developers canceled the scheduled Monday Hoodi testnet activation for the Glamsterdam upgrade after security firm ChainSecurity flagged gas changes that could affect existing contracts.",
+   "b": "Ethereum developers canceled the Hoodi testnet activation for the Glamsterdam upgrade after security researchers identified gas changes that could allow smart contracts to permanently record failed operations.",
    "per": {
-    "ETH": "Faces a delay in its testnet upgrade timeline as gas rule security risks are evaluated."
+    "ETH": "Glamsterdam testnet activation delayed due to gas rule security concerns."
    },
    "direction": "negative",
-   "quality": 85,
+   "quality": 77,
    "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 21,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 4
    },
@@ -171,41 +133,45 @@
      "url": "https://decrypt.co/381681/ethereum-delays-glamsterdam-testnet-fork-over-gas-security-flaws"
     }
    ],
-   "missing": "New reschedule date for the Hoodi testnet activation."
+   "missing": "New rescheduled date for the testnet fork"
   },
   {
-   "t": "Zcash Prepares for NU7 Network Upgrade",
-   "type": "mainnet",
-   "status": "confirmed_upcoming",
-   "event_date": null,
+   "t": "Bitwise Completes Liquidation of Dogecoin ETF",
+   "type": "etf",
+   "status": "completed",
+   "event_date": "2026-10-22",
    "coins": [
-    "ZEC"
+    "DOGE"
    ],
    "rel": "direct",
-   "b": "Zcash is approaching its upcoming NU7 network upgrade while maintaining price support levels.",
+   "b": "Bitwise completed the shutdown and liquidation of its Dogecoin ETF on October 22, less than a year after its initial launch.",
    "per": {
-    "ZEC": "Getting ready for the NU7 network upgrade launch."
+    "DOGE": "Impacted by the complete liquidation and closure of the Bitwise Dogecoin ETF."
    },
-   "direction": "positive",
-   "quality": 75,
-   "label": "STRONG CATALYST",
+   "direction": "negative",
+   "quality": 61,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 10,
     "relevance": 25,
-    "impact": 12,
+    "impact": 5,
     "novelty": 15,
-    "timing": 15
+    "timing": 6
    },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
+   "impact": 6,
+   "s": "fading",
+   "c": "medium",
    "sources": [
     {
-     "name": "Yahoo Finance Australia",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWV9CeEJfX3U3RGZNS3hlay1reUhCUlFrbFdoVkhzdUJFQ2pWREpuTy1qNWVIVjNLa3RxREozMEpDaVdDWW1PZGpYbF9BZzhveVRDUDNINl9RMnp6ejZLUUFGUHVlZ1ZDRWZ2UDVDS3RhbjgzcGUyY2J0RTgzUWQ4MjBWdmUxM3JVRlE?oc=5"
+     "name": "Startup Fortune",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdXNjTEhlLWFOWTROSFJTbEpkQ1FjdFJPTjhPNE5idHhzOGpneXQ5WTR2UjUzckpWOFNZU1IxWjk2b2ctbldQNGNQMWZZQzRRb3ZubU0xRVRVdVkwa1J5enBVSXdKc2VvTUY3S2xwWTE0WFI4Zk9FTjgxbzVnU0dzTlVjNE5iNnJfZ0xmckxZZmpUUTlYY3praQ?oc=5"
+    },
+    {
+     "name": "KuCoin",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNnpUQ1A2ZmRkYlJrTndZbFdXUk1hTHFqdmJVMDFoVGlJVV9tLTlxSWhyM3EtS3RCZlNlVENVcTdKMTU4Q3NCWnljWl8yZEcyc0dSLU1ra2FiWlhZMWtCM3o3RkM1cUt5aEZGYXFfdWQtSnpIM2RhZHktSElYanAzR0xpd3ZqT0xXcUJ0M00tTzVsX1NG?oc=5"
     }
    ],
-   "missing": "Exact launch date for the NU7 upgrade."
+   "missing": "Final liquidation payout details per share"
   }
  ]
 }
