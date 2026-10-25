@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-25T08:15:52.566411+00:00",
+ "updated": "2026-10-25T13:16:54.799397+00:00",
  "cards": [
   {
-   "t": "Binance Futures to Launch PREDICTUSDT Pre-Market Perpetual Contract",
+   "t": "Binance Futures Pre-Market Listing",
    "type": "listing",
    "status": "confirmed_upcoming",
    "event_date": "2026-10-25",
@@ -10,17 +10,53 @@
     "PREDICT"
    ],
    "rel": "direct",
-   "b": "Binance Futures announced the upcoming launch of the USD\u24c8-Margined PREDICTUSDT Perpetual Contract with Pre-Market Trading on October 25, 2026.",
+   "b": "Binance Futures will launch USD\u24c8-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading on October 25, 2026.",
    "per": {
-    "PREDICT": "Listing on Binance Futures for pre-market perpetual trading increases accessibility."
+    "PREDICT": "Binance Futures is launching a USD\u24c8-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading on October 25, 2026."
    },
    "direction": "positive",
-   "quality": 92,
+   "quality": 100,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 25,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 10,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Binance",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOd0lua3BCRkc5eEZVc0QyODk4TjBZVURJZ091UUg5WWJCMXl0ZjNDNHhTUWdseFdHS252eko5TGs3MUdzOGlSR211ZGgtV3hQZF9tdExDSDRpQXFjVzBtWTVDR19sVTZmd2x2cm9TSVhxUXhKNU56dWFhMm1QT3NRcUZhdDNjLWJnUGRGMzE0a1Q?oc=5"
+    }
+   ],
+   "missing": "Exact launch hour"
+  },
+  {
+   "t": "SEC Clears Leveraged ETFs",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "BTC",
+    "ETH"
+   ],
+   "rel": "direct",
+   "b": "The SEC has cleared the listing of Volatility Shares' 3x Bitcoin and Ethereum ETFs.",
+   "per": {
+    "BTC": "Volatility Shares' 3x Bitcoin ETF listing cleared by the SEC.",
+    "ETH": "Volatility Shares' 3x Ethereum ETF listing cleared by the SEC."
+   },
+   "direction": "positive",
+   "quality": 87,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 20,
     "novelty": 15,
     "timing": 15
    },
@@ -29,52 +65,60 @@
    "c": "high",
    "sources": [
     {
-     "name": "Binance",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVGdMMEhscnZzWGVoZW9RMmwxV1dfMXgtenZGUFRPVTFsNUhSRGwxN1h4bktVT2hsQ2JrNFJvNEcxSnZrc1FpMktkdm5mb25PWHVPWWh4TnpNWUZuN1ZfQjJIZU01Y2V5djhBRlhCcmdaS1hSV1dTeWEwQm9DS1RoMXNzSzk4ZlU?oc=5"
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdmtKZ0toS19VX09fUURxZTNweGhtUXU3TDJIU1Q1R2VlQUJjQk1pX2xqNGwtZWVuSl9aX1liTzNPcFU3a19BS2Zra1pBdVVvOTI5Skp3bjg3eFhLdnYyRExPSGlFSGxOMjJlMlRIdHVWcWd4N0Y2ekQ5ckYzOXMzRUVHcThPLUM3cVg1UFRGTGpDUE9FWEtDUnVB?oc=5"
+    },
+    {
+     "name": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUnVqNFZtMWdtM21HSVg5VVlNanRuNU45bWJjRXhDaWZCekNRWEtmaFRkNFJqZXRPOHRGZG9vZFBJUWpqa0N4UUxJYnREdTVNXzdGY3hhUzg5RmV1TFBoa0dFMV8wcHNyV3p3YmU2X0VNU0V0TDFTcUJDVldVT0ZReU5lYllPQ1BBVjZ0d1FhQ3JaWXZsRTRF?oc=5"
+    },
+    {
+     "name": "Crypto Briefing",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE52bi1DY2h0d2dObXVjRjVSUzlLa2FCLWJoUVpJSWhCS3ptcTZmMzJkNVhaMGliREFmS0FoVElDQmx1MFhobkxNY2Q4UUM3Tlo5RWFqU2RDdDVrS1Z2bVNYb3RmU0V4OWtqNWZVLXNaU0FRUTNyTDlzbUVvcw?oc=5"
     }
    ],
-   "missing": "Exact launch time on October 25, 2026"
+   "missing": "Trading start date"
   },
   {
-   "t": "Franklin Templeton Adds $150 Million to XRP Ledger",
-   "type": "treasury",
-   "status": "completed",
+   "t": "Winklevoss Zcash ETF Filing",
+   "type": "etf",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "XRP"
+    "ZEC"
    ],
    "rel": "direct",
-   "b": "Franklin Templeton added $150 million in fund shares to the XRP Ledger via subscriptions on Thursday, nearly quadrupling the fund's tokens on the network.",
+   "b": "Winklevoss has filed for a Zcash ETF to list on Nasdaq under the ticker WINK.",
    "per": {
-    "XRP": "Large institutional capital allocation directly onto the XRP Ledger network."
+    "ZEC": "Proposed Nasdaq listing under the ticker WINK filed by Winklevoss."
    },
    "direction": "positive",
    "quality": 77,
-   "label": "COMPLETED CATALYST",
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 10,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
    "impact": 8,
-   "s": "fading",
+   "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "CryptoTicker",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWkd0THhiOHN2N3Q5VnhESkswdmY1SzktSHJucUpjNXZuQXhVZDM5QnItYXdHZW85QVBOYUhqSVlrVlR6M09fRWtFOGt6YlFtUVRQQmdrYTlwWVl6UVNnTHh1emdON3FudE1DX3hVcUd1R2J1bVp3dDR3UjVzbGFiQTRjRTdRZw?oc=5"
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iSk5DWHJVTDgyNXhWSFdqSUY1ZDk5REtQY0N5REl1MjRwaWk2bFpyZm1uY3NWM1Z5RlVVdVNSUTV4VjFWMlpUbUtaUXpIdlBiLTd3QXRhckJwVlBCUk9ZNjJucHBkblBlRDRWT1ZTMHBPa3VVbi1uN2hoS0w?oc=5"
     },
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet"
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9LR2sxdkpMdGFybjZYaVV6YzdnVGYwd2xyYmhKRjJFWEYzWXpTWFBLUWRKQklxaE1GYUpuVVVxYjdxemtreDNIZ3pGaHJ4ZURiRldvY2c4UUJ0dw?oc=5"
     }
    ],
-   "missing": "Exact deployment date beyond Thursday"
+   "missing": "SEC approval timeline"
   },
   {
-   "t": "Upbit Lists Bubblemaps (BMT) with Korean Won Pair",
+   "t": "Upbit Lists Bubblemaps (BMT)",
    "type": "listing",
    "status": "completed",
    "event_date": null,
@@ -82,72 +126,30 @@
     "BMT"
    ],
    "rel": "direct",
-   "b": "Upbit has listed the Bubblemaps (BMT) trading pair with the Korean won, utilizing the Solana network for transfers, which lifted the BMT price over 50%.",
+   "b": "Upbit has listed the Bubblemaps (BMT) trading pair with the Korean won, utilizing the Solana network for transfers.",
    "per": {
-    "BMT": "New fiat trading pair on Upbit driving volume and a significant price increase."
+    "BMT": "Listed on Upbit with a Korean won trading pair, using the Solana network for transfers."
    },
    "direction": "positive",
-   "quality": 76,
+   "quality": 66,
    "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 10,
+    "credibility": 8,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 6
    },
-   "impact": 8,
+   "impact": 7,
    "s": "fading",
-   "c": "high",
+   "c": "medium",
    "sources": [
     {
      "name": "Pluang",
      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ1ZJbUtVNnRCNURtMGVBajUtUDl0MTRLcFZvNll4QWNVaXUtNGs3VV9qdm5Nd1pibC0zeFA4alRQcWI1VTN2a2FlRm5BQmtNLWFJY3JjcFJFVlBESFRTVGQ1eU85UktHZkhwckROendqa2hkamZ2cXpSR1YwblppVE9aR04zR1ZOOWpQaWY1TXdPdVk?oc=5"
-    },
-    {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPemVWQXliT3JPOU9fbE0wdkZndFU0M2dFaWVUWGVrYUhlNllGQWpGYklXZUU4eDBxbzI3ZDUtOEVaeUlyckZnVjNWOHFOTnVuanlfeExOQnA2MV96cGpITXFERjNDUzVxLTBueGN3a3BwVDFJMVFJUDFpWHNLQVBuYVR5Y0JTRGdVU0dmb0V4aw?oc=5"
     }
    ],
    "missing": "Exact listing timestamp"
-  },
-  {
-   "t": "Hyperliquid Expands Buyback Program to $100M",
-   "type": "buyback",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "HYPE"
-   ],
-   "rel": "direct",
-   "b": "Hyperliquid expanded its token and stock buyback program to $100 million as HYPE experienced monthly price declines.",
-   "per": {
-    "HYPE": "Expanded buyback provides ongoing market support during price drops."
-   },
-   "direction": "positive",
-   "quality": 74,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 10,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPa0Z2N1ZMVGEtZmVQUWFxWWZUb0U4aV91VkxZUDhkOGRyNU9DeUZqbG9rOVJrNTNyNnpyZm5zMHFkVDBrems2TWJvLUotNjYyWW9yVnpSUjA3TEczWUpiWG8wZjdROGVtNVN5d3BoSk1STGtkMHVJOVE1N0x5MVlsYTZ5dnR4OFE1UUdpS2l4UzlsYkJ4YkFZbG5zSUZka3lSbjJzN1RtOURuakI4ckwwQzdPT3pRa0xzY0FEdzMwWkVnMzBqNlluNWtGRVVyMm5KR0NMMWhPNlE?oc=5"
-    },
-    {
-     "name": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16QkoxeGdrVGxxU04zRHVhdGNjUWM5VlQzOXdXc2xiN3JvSkZLZ3gxV1lFOUR3VDhwdGxKdjdTRmJsUndrVm9zSUNPSXZnZ1FfUjFEdTExeTRIZw?oc=5"
-    }
-   ],
-   "missing": "Timeline for completing the $100M buyback"
   }
  ]
 }
