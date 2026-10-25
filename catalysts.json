@@ -1,69 +1,103 @@
 {
- "updated": "2026-10-25T02:59:31.644805+00:00",
+ "updated": "2026-10-25T08:15:52.566411+00:00",
  "cards": [
   {
-   "t": "AXIS Lists on Binance Alpha and Upbit",
+   "t": "Binance Futures to Launch PREDICTUSDT Pre-Market Perpetual Contract",
    "type": "listing",
-   "status": "officially_announced",
-   "event_date": null,
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-25",
    "coins": [
-    "AXIS"
+    "PREDICT"
    ],
    "rel": "direct",
-   "b": "AXIS has made its debut on Binance Alpha and Upbit exchanges.",
+   "b": "Binance Futures announced the upcoming launch of the USD\u24c8-Margined PREDICTUSDT Perpetual Contract with Pre-Market Trading on October 25, 2026.",
    "per": {
-    "AXIS": "Newly listed on Binance Alpha and Upbit."
+    "PREDICT": "Listing on Binance Futures for pre-market perpetual trading increases accessibility."
    },
    "direction": "positive",
-   "quality": 77,
+   "quality": 92,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 10,
+    "credibility": 25,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "TechBullion",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPLVRfSjZUUVRVSV9PVkdLdmlKV3VCcXdXZkJGSXp6SVc5Z0sxa2EydXJrNTJhaEx6S05PWEtjZnpiaUc5TFYzQ2lfOXlLODQtVG1GVFhjV180X1ZPclBlOV91UkZrcWxscDVFczZRb0pSTXVCVnZOVWY0bDhMUHFyOGZZeF9OMllfbmN3MEdzOW44cm1OUEtvWExYSnZGdEJxX002STByc3pJamFzTkNzUmRR?oc=5"
-    },
-    {
-     "name": "openPR.com",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPV013TWljOUhRNmE1clhwLTRLV3hFUGVXVWlYcmRBUnVISDBadWNwaHFxTUhQOGF3Y0JkTGt6OF8zSDFYQm5sc1gzWlYyY0ZoSE4xbm8wRUxMSlVrcWp6NjVYc2RITkRZczJGd3QxNDVUT0t6T1QxMWI3MnB4d2I3Q1R5ZlREOUFhTWpXRzh4Zk9mZHp3eGc?oc=5"
+     "name": "Binance",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVGdMMEhscnZzWGVoZW9RMmwxV1dfMXgtenZGUFRPVTFsNUhSRGwxN1h4bktVT2hsQ2JrNFJvNEcxSnZrc1FpMktkdm5mb25PWHVPWWh4TnpNWUZuN1ZfQjJIZU01Y2V5djhBRlhCcmdaS1hSV1dTeWEwQm9DS1RoMXNzSzk4ZlU?oc=5"
     }
    ],
-   "missing": "Exact listing times and initial volume."
+   "missing": "Exact launch time on October 25, 2026"
   },
   {
-   "t": "Bubblemaps (BMT) Listed on Upbit",
+   "t": "Franklin Templeton Adds $150 Million to XRP Ledger",
+   "type": "treasury",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "XRP"
+   ],
+   "rel": "direct",
+   "b": "Franklin Templeton added $150 million in fund shares to the XRP Ledger via subscriptions on Thursday, nearly quadrupling the fund's tokens on the network.",
+   "per": {
+    "XRP": "Large institutional capital allocation directly onto the XRP Ledger network."
+   },
+   "direction": "positive",
+   "quality": 77,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "CryptoTicker",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWkd0THhiOHN2N3Q5VnhESkswdmY1SzktSHJucUpjNXZuQXhVZDM5QnItYXdHZW85QVBOYUhqSVlrVlR6M09fRWtFOGt6YlFtUVRQQmdrYTlwWVl6UVNnTHh1emdON3FudE1DX3hVcUd1R2J1bVp3dDR3UjVzbGFiQTRjRTdRZw?oc=5"
+    },
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet"
+    }
+   ],
+   "missing": "Exact deployment date beyond Thursday"
+  },
+  {
+   "t": "Upbit Lists Bubblemaps (BMT) with Korean Won Pair",
    "type": "listing",
-   "status": "officially_announced",
+   "status": "completed",
    "event_date": null,
    "coins": [
     "BMT"
    ],
    "rel": "direct",
-   "b": "Upbit has listed Bubblemaps (BMT) with a Korean won trading pair utilizing the Solana network.",
+   "b": "Upbit has listed the Bubblemaps (BMT) trading pair with the Korean won, utilizing the Solana network for transfers, which lifted the BMT price over 50%.",
    "per": {
-    "BMT": "Listed on Upbit with a Korean won pair."
+    "BMT": "New fiat trading pair on Upbit driving volume and a significant price increase."
    },
    "direction": "positive",
-   "quality": 77,
-   "label": "STRONG CATALYST",
+   "quality": 76,
+   "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 10,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
-    "timing": 15
+    "timing": 6
    },
    "impact": 8,
-   "s": "building",
+   "s": "fading",
    "c": "high",
    "sources": [
     {
@@ -75,7 +109,7 @@
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPemVWQXliT3JPOU9fbE0wdkZndFU0M2dFaWVUWGVrYUhlNllGQWpGYklXZUU4eDBxbzI3ZDUtOEVaeUlyckZnVjNWOHFOTnVuanlfeExOQnA2MV96cGpITXFERjNDUzVxLTBueGN3a3BwVDFJMVFJUDFpWHNLQVBuYVR5Y0JTRGdVU0dmb0V4aw?oc=5"
     }
    ],
-   "missing": "Specific transfer fee structures."
+   "missing": "Exact listing timestamp"
   },
   {
    "t": "Hyperliquid Expands Buyback Program to $100M",
@@ -83,14 +117,12 @@
    "status": "ongoing",
    "event_date": null,
    "coins": [
-    "HYPE",
-    "PURR"
+    "HYPE"
    ],
    "rel": "direct",
-   "b": "Hyperliquid Strategies has expanded its PURR stock buyback program, with the broader buyback initiative scaling up to $100 million.",
+   "b": "Hyperliquid expanded its token and stock buyback program to $100 million as HYPE experienced monthly price declines.",
    "per": {
-    "HYPE": "Accompanying an expansion of the buyback program to $100M.",
-    "PURR": "Subject to expanded buyback operations."
+    "HYPE": "Expanded buyback provides ongoing market support during price drops."
    },
    "direction": "positive",
    "quality": 74,
@@ -115,7 +147,7 @@
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16QkoxeGdrVGxxU04zRHVhdGNjUWM5VlQzOXdXc2xiN3JvSkZLZ3gxV1lFOUR3VDhwdGxKdjdTRmJsUndrVm9zSUNPSXZnZ1FfUjFEdTExeTRIZw?oc=5"
     }
    ],
-   "missing": "Execution schedule and specific daily purchase volumes."
+   "missing": "Timeline for completing the $100M buyback"
   }
  ]
 }
