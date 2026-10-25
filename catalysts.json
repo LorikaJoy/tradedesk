@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T19:35:15.322242+00:00",
+ "updated": "2026-10-25T22:02:37.390619+00:00",
  "cards": [
   {
    "t": "Binance Futures to Launch PREDICTUSDT Perpetual Contract Pre-Market Trading",
@@ -10,21 +10,21 @@
     "PREDICT"
    ],
    "rel": "direct",
-   "b": "Binance Futures has announced it will launch USD\u24c8-Margined PREDICTUSDT perpetual contract pre-market trading on October 25, 2026.",
+   "b": "Binance Futures announced it will launch the USD\u24c8-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading on October 25, 2026.",
    "per": {
-    "PREDICT": "Pre-market perpetual contract trading is scheduled to launch on Binance Futures on October 25, 2026."
+    "PREDICT": "Pre-market perpetual contract trading is set to launch on Binance Futures."
    },
    "direction": "positive",
-   "quality": 100,
+   "quality": 92,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 25,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 10,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
@@ -33,109 +33,7 @@
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOd0lua3BCRkc5eEZVc0QyODk4TjBZVURJZ091UUg5WWJCMXl0ZjNDNHhTUWdseFdHS252eko5TGs3MUdzOGlSR211ZGgtV3hQZF9tdExDSDRpQXFjVzBtWTVDR19sVTZmd2x2cm9TSVhxUXhKNU56dWFhMm1QT3NRcUZhdDNjLWJnUGRGMzE0a1Q?oc=5"
     }
    ],
-   "missing": "Exact launch time on October 25, initial leverage, and margins."
-  },
-  {
-   "t": "Hyperliquid to Launch 11 USDC Spot Markets for EQX Labs Tokens",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-26",
-   "coins": [
-    "EQX"
-   ],
-   "rel": "direct",
-   "b": "Hyperliquid is set to launch 11 USDC spot markets for EQX Labs tokens on October 26, 2026.",
-   "per": {
-    "EQX": "Eleven USDC spot markets for EQX Labs tokens will open on Hyperliquid on October 26, 2026."
-   },
-   "direction": "positive",
-   "quality": 83,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ0swS1JFeVl0NVB4Vm9CZE5QeUVIUGNwd01XdzFTQ2FMTUgxb0xTM19TbVVsaTlBQjFYSGlsM09FVGdva3FTTDl3b2VUbkJKZUhvV2ZoZmxRTVFoNElVS3ZLSlFyR041TXFuYm1TRS1JamFhY2U0Wm0waEl5QVdhWW52MGxzQ2owSEE?oc=5"
-    }
-   ],
-   "missing": "Specific token tickers for all 11 markets and exact launch time."
-  },
-  {
-   "t": "Cardano Opens Dijkstra Testnet",
-   "type": "mainnet",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "ADA"
-   ],
-   "rel": "direct",
-   "b": "Cardano has opened its Dijkstra testnet, trading around $0.22 according to recent reports.",
-   "per": {
-    "ADA": "The Dijkstra testnet has been officially opened."
-   },
-   "direction": "positive",
-   "quality": 75,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "StreetInsider",
-     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOMEs1SGtoak9sc1psY3pKSE4wUHFKWnZHck02NWwzZFVnek5WSl90d3g0Q0ZSbHpxbVAzRnlsdXFneGppTEl0ODNha01HWk10TklWbDNITGJTZHExaHlMZkdLbkswMGc5ZHpDRXNTdTM1NGFPbzRlZU5YRUduYnlYWHFGNGROQWZLdTNmMWdVbW80c2xfc0kyYzYySVdtVjVJdDBJaGVIdjdNRmJhUkg0bFdhQ3d3RlV4VUJXWWFHdE8tUlZOM19JaldzZGJvM2pfaVR4WjlNYi1sSTQyelZfdVNOUjRORnd2VGc3S3R0Q1ZqZWQwZm5IZENublJjRnVTekE?oc=5"
-    }
-   ],
-   "missing": "Full feature details and mainnet integration roadmap for the Dijkstra testnet."
-  },
-  {
-   "t": "Upland Players Vote to Burn 2.9M SPARKLET",
-   "type": "burn",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "SPARKLET"
-   ],
-   "rel": "direct",
-   "b": "Upland players have voted to burn 2.9 million SPARKLET tokens in the game's second token burn event.",
-   "per": {
-    "SPARKLET": "2.9 million tokens burned following a community player vote."
-   },
-   "direction": "positive",
-   "quality": 66,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "eGamers.io",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRlRGR3pXWjJFQ3JlQkU0Smpuajk3UmRrMEx4ZjlveGIxQzRNM05kVTl2R1c1VW1ZSlhhYmg5WWFpSVdubk1sUnNQZkw5QnhKa2hUU3RZVThTeVVCdzVFU1ZEbHBYRFpGZ2JFNWVubE5PRC1LQWpPOHplZEhmSkIyeVdteGFxNVNmc1BuSFRST0NFcjFHN0N3?oc=5"
-    }
-   ],
-   "missing": "Exact execution timestamp of the burn transaction."
+   "missing": "Exact launch time of day and initial contract parameters."
   },
   {
    "t": "XRP Ledger Upgrade Delayed to November 4",
@@ -146,30 +44,34 @@
     "XRP"
    ],
    "rel": "direct",
-   "b": "The XRP Ledger upgrade has been delayed until November 4, 2026.",
+   "b": "The XRP Ledger network upgrade and fix has been delayed to November 4, 2026.",
    "per": {
-    "XRP": "Ledger network upgrade postponed to a new target date of November 4, 2026."
+    "XRP": "The network upgrade timing has been pushed back to November 4."
    },
-   "direction": "negative",
-   "quality": 64,
-   "label": "NEGATIVE CATALYST",
+   "direction": "mixed",
+   "quality": 66,
+   "label": "MODERATE CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 10,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 4
    },
-   "impact": 6,
+   "impact": 7,
    "s": "fading",
    "c": "medium",
    "sources": [
     {
      "name": "ad-hoc-news.de",
      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNeEpuUjFLRjZqNUtOb3Z2SnRUVEpJUE5OcXZUMm1RYUduLVpweHZxcmZlc1hheGE5X252OERtSFRqRDlqZ0hSc1pIV3FaYm44bHk1dXg0RTF2OFFwVEY4WkZ0SmJJNUxwX09OcmxUSlBwREN5YnF2dktIUzYwcUVBOVlqUVVqdTJMZUZSempDblNCRGM1ektJUUN5OXZKaU1JdTc4ZllHS2w1cWFOMXRhWDVUbTY1ZF9tb3BqbVg3QWtiejYtUDJXTG9aeFo?oc=5"
+    },
+    {
+     "name": "FinanceFeeds",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaE9tRmplbkwydUM3VlJHVjlTeGFseDhtemo0U1RldGVRbVIxMWFraU1sWDk3WE1LSUx4YnREakt6Wk5XQVBXSEl0eEhTLUFGSHNPTEViMS02c2hZVnNEbjZ3UzNaN3ctNGlBV1VLOTMxMTVwV3U4Vm56VFYyWlhyNHJXcmhjMnVuMklVRWhvREV6UTZVWUM4QjU2aDFSMG90ZTlWbjVRajJJM09PUkRnVEljZ0xkVGxYQThBZWlXVEstemltS25EYTFmU3MtMWFlV2Y1MUJGWGhRcXdpSG9hUExMRnU?oc=5"
     }
    ],
-   "missing": "Reasons for the upgrade delay."
+   "missing": "Specific technical details of the fix and validator adoption rate."
   }
  ]
 }
