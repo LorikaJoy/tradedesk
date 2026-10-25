@@ -1,26 +1,64 @@
 {
- "updated": "2026-10-24T23:56:02.150635+00:00",
+ "updated": "2026-10-25T02:59:31.644805+00:00",
  "cards": [
   {
-   "t": "Upbit Lists Bubblemaps (BMT)",
+   "t": "AXIS Lists on Binance Alpha and Upbit",
    "type": "listing",
-   "status": "confirmed_upcoming",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "AXIS"
+   ],
+   "rel": "direct",
+   "b": "AXIS has made its debut on Binance Alpha and Upbit exchanges.",
+   "per": {
+    "AXIS": "Newly listed on Binance Alpha and Upbit."
+   },
+   "direction": "positive",
+   "quality": 77,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 10,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "TechBullion",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPLVRfSjZUUVRVSV9PVkdLdmlKV3VCcXdXZkJGSXp6SVc5Z0sxa2EydXJrNTJhaEx6S05PWEtjZnpiaUc5TFYzQ2lfOXlLODQtVG1GVFhjV180X1ZPclBlOV91UkZrcWxscDVFczZRb0pSTXVCVnZOVWY0bDhMUHFyOGZZeF9OMllfbmN3MEdzOW44cm1OUEtvWExYSnZGdEJxX002STByc3pJamFzTkNzUmRR?oc=5"
+    },
+    {
+     "name": "openPR.com",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPV013TWljOUhRNmE1clhwLTRLV3hFUGVXVWlYcmRBUnVISDBadWNwaHFxTUhQOGF3Y0JkTGt6OF8zSDFYQm5sc1gzWlYyY0ZoSE4xbm8wRUxMSlVrcWp6NjVYc2RITkRZczJGd3QxNDVUT0t6T1QxMWI3MnB4d2I3Q1R5ZlREOUFhTWpXRzh4Zk9mZHp3eGc?oc=5"
+    }
+   ],
+   "missing": "Exact listing times and initial volume."
+  },
+  {
+   "t": "Bubblemaps (BMT) Listed on Upbit",
+   "type": "listing",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
     "BMT"
    ],
    "rel": "direct",
-   "b": "Upbit has listed Bubblemaps (BMT) with a Korean won trading pair, utilizing the Solana network for transfers.",
+   "b": "Upbit has listed Bubblemaps (BMT) with a Korean won trading pair utilizing the Solana network.",
    "per": {
-    "BMT": "Listed on Upbit with a KRW trading pair, leading to significant price gains."
+    "BMT": "Listed on Upbit with a Korean won pair."
    },
    "direction": "positive",
-   "quality": 85,
+   "quality": 77,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 10,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
@@ -37,7 +75,47 @@
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPemVWQXliT3JPOU9fbE0wdkZndFU0M2dFaWVUWGVrYUhlNllGQWpGYklXZUU4eDBxbzI3ZDUtOEVaeUlyckZnVjNWOHFOTnVuanlfeExOQnA2MV96cGpITXFERjNDUzVxLTBueGN3a3BwVDFJMVFJUDFpWHNLQVBuYVR5Y0JTRGdVU0dmb0V4aw?oc=5"
     }
    ],
-   "missing": "Exact listing timestamp."
+   "missing": "Specific transfer fee structures."
+  },
+  {
+   "t": "Hyperliquid Expands Buyback Program to $100M",
+   "type": "buyback",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "HYPE",
+    "PURR"
+   ],
+   "rel": "direct",
+   "b": "Hyperliquid Strategies has expanded its PURR stock buyback program, with the broader buyback initiative scaling up to $100 million.",
+   "per": {
+    "HYPE": "Accompanying an expansion of the buyback program to $100M.",
+    "PURR": "Subject to expanded buyback operations."
+   },
+   "direction": "positive",
+   "quality": 74,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 10,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPa0Z2N1ZMVGEtZmVQUWFxWWZUb0U4aV91VkxZUDhkOGRyNU9DeUZqbG9rOVJrNTNyNnpyZm5zMHFkVDBrems2TWJvLUotNjYyWW9yVnpSUjA3TEczWUpiWG8wZjdROGVtNVN5d3BoSk1STGtkMHVJOVE1N0x5MVlsYTZ5dnR4OFE1UUdpS2l4UzlsYkJ4YkFZbG5zSUZka3lSbjJzN1RtOURuakI4ckwwQzdPT3pRa0xzY0FEdzMwWkVnMzBqNlluNWtGRVVyMm5KR0NMMWhPNlE?oc=5"
+    },
+    {
+     "name": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16QkoxeGdrVGxxU04zRHVhdGNjUWM5VlQzOXdXc2xiN3JvSkZLZ3gxV1lFOUR3VDhwdGxKdjdTRmJsUndrVm9zSUNPSXZnZ1FfUjFEdTExeTRIZw?oc=5"
+    }
+   ],
+   "missing": "Execution schedule and specific daily purchase volumes."
   }
  ]
 }
