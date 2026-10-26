@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-25T22:02:37.390619+00:00",
+ "updated": "2026-10-26T00:19:55.207291+00:00",
  "cards": [
   {
-   "t": "Binance Futures to Launch PREDICTUSDT Perpetual Contract Pre-Market Trading",
+   "t": "Binance Futures Pre-Market Listing for PREDICTUSDT",
    "type": "listing",
    "status": "confirmed_upcoming",
    "event_date": "2026-10-25",
@@ -10,21 +10,21 @@
     "PREDICT"
    ],
    "rel": "direct",
-   "b": "Binance Futures announced it will launch the USD\u24c8-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading on October 25, 2026.",
+   "b": "Binance Futures announced the launch of the USD\u24c8-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading starting on October 25, 2026.",
    "per": {
-    "PREDICT": "Pre-market perpetual contract trading is set to launch on Binance Futures."
+    "PREDICT": "Launching pre-market perpetual contract trading on Binance Futures."
    },
    "direction": "positive",
-   "quality": 92,
+   "quality": 100,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 25,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 9,
+   "impact": 10,
    "s": "building",
    "c": "high",
    "sources": [
@@ -33,20 +33,88 @@
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOd0lua3BCRkc5eEZVc0QyODk4TjBZVURJZ091UUg5WWJCMXl0ZjNDNHhTUWdseFdHS252eko5TGs3MUdzOGlSR211ZGgtV3hQZF9tdExDSDRpQXFjVzBtWTVDR19sVTZmd2x2cm9TSVhxUXhKNU56dWFhMm1QT3NRcUZhdDNjLWJnUGRGMzE0a1Q?oc=5"
     }
    ],
-   "missing": "Exact launch time of day and initial contract parameters."
+   "missing": "Exact listing time of day"
   },
   {
-   "t": "XRP Ledger Upgrade Delayed to November 4",
-   "type": "mainnet",
+   "t": "Canary Capital Files for US Spot PEPE ETF",
+   "type": "etf",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "PEPE"
+   ],
+   "rel": "direct",
+   "b": "Canary Capital has officially filed for a US spot PEPE ETF.",
+   "per": {
+    "PEPE": "Faced with a spot ETF filing submitted by Canary Capital."
+   },
+   "direction": "positive",
+   "quality": 83,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQU3d3Nk1xMzZuQVFsSFBVcHlkWWtGVFJ2RC05b2ZpYUpwbDlERGRCR20wTWZLYlMyUUdxQVlkcldnRzFEZjlzZU1PSXlnS3Izb0hFY1VRU0pfZldyajJtQWhyYzVOSzhBU19hby1xVU8xblI4YjhfUEJzQUlhODhCRzFya3RpSDJUYkMw?oc=5"
+    }
+   ],
+   "missing": "Regulatory approval timeline and SEC review dates"
+  },
+  {
+   "t": "Hyperliquid Spot Markets Launch for EQX Labs Tokens",
+   "type": "listing",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-10-26",
+   "coins": [
+    "EQX"
+   ],
+   "rel": "direct",
+   "b": "Hyperliquid is set to launch 11 USDC spot markets for EQX Labs tokens on October 26, 2026.",
+   "per": {
+    "EQX": "Gaining 11 new USDC spot markets on Hyperliquid."
+   },
+   "direction": "positive",
+   "quality": 75,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ0swS1JFeVl0NVB4Vm9CZE5QeUVIUGNwd01XdzFTQ2FMTUgxb0xTM19TbVVsaTlBQjFYSGlsM09FVGdva3FTTDl3b2VUbkJKZUhvV2ZoZmxRTVFoNElVS3ZLSlFyR041TXFuYm1TRS1JamFhY2U0Wm0waEl5QVdhWW52MGxzQ2owSEE?oc=5"
+    }
+   ],
+   "missing": "Specific details on the 11 token pairs"
+  },
+  {
+   "t": "XRP Ledger Upgrade Delay",
+   "type": "other",
    "status": "delayed",
    "event_date": "2026-11-04",
    "coins": [
     "XRP"
    ],
    "rel": "direct",
-   "b": "The XRP Ledger network upgrade and fix has been delayed to November 4, 2026.",
+   "b": "The XRP Ledger upgrade/fix has been delayed to November 4, 2026.",
    "per": {
-    "XRP": "The network upgrade timing has been pushed back to November 4."
+    "XRP": "Ledger network upgrade postponed to November 4."
    },
    "direction": "mixed",
    "quality": 66,
@@ -71,7 +139,7 @@
      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaE9tRmplbkwydUM3VlJHVjlTeGFseDhtemo0U1RldGVRbVIxMWFraU1sWDk3WE1LSUx4YnREakt6Wk5XQVBXSEl0eEhTLUFGSHNPTEViMS02c2hZVnNEbjZ3UzNaN3ctNGlBV1VLOTMxMTVwV3U4Vm56VFYyWlhyNHJXcmhjMnVuMklVRWhvREV6UTZVWUM4QjU2aDFSMG90ZTlWbjVRajJJM09PUkRnVEljZ0xkVGxYQThBZWlXVEstemltS25EYTFmU3MtMWFlV2Y1MUJGWGhRcXdpSG9hUExMRnU?oc=5"
     }
    ],
-   "missing": "Specific technical details of the fix and validator adoption rate."
+   "missing": "Reason for the specific delay"
   }
  ]
 }
