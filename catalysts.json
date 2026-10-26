@@ -1,52 +1,60 @@
 {
- "updated": "2026-10-26T05:05:54.850272+00:00",
+ "updated": "2026-10-26T11:03:49.528928+00:00",
  "cards": [
   {
-   "t": "Binance Futures Pre-Market Trading for PREDICTUSDT",
+   "t": "Binance Futures Lists Predict.fun Pre-Market Perpetuals",
    "type": "listing",
    "status": "confirmed_upcoming",
-   "event_date": "2026-10-25",
+   "event_date": null,
    "coins": [
     "PREDICT"
    ],
    "rel": "direct",
-   "b": "Binance Futures will launch USD\u24c8-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading on October 25, 2026.",
+   "b": "Binance Futures is launching pre-market perpetual trading for Predict.fun's PREDICT token, opening contracts with up to 5x leverage.",
    "per": {
-    "PREDICT": "Launching USD\u24c8-Margined perpetual contract pre-market trading on Binance Futures."
+    "PREDICT": "Binance Futures opens pre-market perpetuals with up to 5x leverage."
    },
    "direction": "positive",
-   "quality": 100,
+   "quality": 87,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 25,
+    "credibility": 12,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 10,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "Binance",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOd0lua3BCRkc5eEZVc0QyODk4TjBZVURJZ091UUg5WWJCMXl0ZjNDNHhTUWdseFdHS252eko5TGs3MUdzOGlSR211ZGgtV3hQZF9tdExDSDRpQXFjVzBtWTVDR19sVTZmd2x2cm9TSVhxUXhKNU56dWFhMm1QT3NRcUZhdDNjLWJnUGRGMzE0a1Q?oc=5"
+     "name": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6UTdKaU51WVh4MEtEUW1NcEJPNDBCOHdaZ09GdTVPZUQyT1ZDNndtTzdONUNhUHJ4OURna1B5S29YTGxxQVAtWW40MDFFOUFxLTdxcTZNMA?oc=5"
+    },
+    {
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Rc0pMQTdkNVVJdkFwSG9nQzlpQzc1RkxTeVFpYjlqUkMyNk9JRk5uazBsVnJJTE5aNDdNUDQwcFlReUZtZjUyNWo4MERmUGdMblRubnBFMXA0dw?oc=5"
+    },
+    {
+     "name": "The Cryptonomist",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1TQXF2b2w4Rk5JX01ORGJaUDRrSmVhWllLM1FacE4yU082amFwSkhlV2dGeG1nT1M4MVRNMFJmVndlTHQ4eElSNzBQUUNtdkxKSjV5SFJGQ29GMnFmdkx3NnZ3dFpwMjJsN2o3OUpWWGg0MlBWbFRv?oc=5"
     }
    ],
-   "missing": "Exact launch time on October 25, 2026 is not specified."
+   "missing": "Exact launch timestamps and contract specifications."
   },
   {
-   "t": "Hyperliquid to Launch USDC Spot Markets for EQX Labs Tokens",
-   "type": "listing",
+   "t": "Bybit Supports Aerodrome Token Migration",
+   "type": "other",
    "status": "confirmed_upcoming",
-   "event_date": "2026-10-26",
+   "event_date": null,
    "coins": [
-    "EQX"
+    "AERO"
    ],
    "rel": "direct",
-   "b": "Hyperliquid is set to launch 11 USDC spot markets for EQX Labs tokens on October 26.",
+   "b": "Bybit announced it will support the upcoming Aerodrome (AERO) token migration.",
    "per": {
-    "EQX": "Gaining 11 USDC spot markets on Hyperliquid."
+    "AERO": "Bybit support confirmed for upcoming token migration."
    },
    "direction": "positive",
    "quality": 75,
@@ -63,11 +71,79 @@
    "c": "high",
    "sources": [
     {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ0swS1JFeVl0NVB4Vm9CZE5QeUVIUGNwd01XdzFTQ2FMTUgxb0xTM19TbVVsaTlBQjFYSGlsM09FVGdva3FTTDl3b2VUbkJKZUhvV2ZoZmxRTVFoNElVS3ZLSlFyR041TXFuYm1TRS1JamFhY2U0Wm0waEl5QVdhWW52MGxzQ2owSEE?oc=5"
+     "name": "Bybit",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS3NxMjB2NkludHNJLXJITjhhVGUtOXN3MnRKdXhkQjNnWmlkcnRwV2Y0VDYwajJBblhDS3J0VW5YOE1qSEs4b0phNnY3eVNPLWktQ19iUlpDTTk4UE45b1pxMzlmSGpPRHlma1lYdU5HREZZUTBPVHJpaFJ3cWlfcGtkZWhQWmE5WnpHcHdtMkpaS1ZmYTlEZGxKOVpGYzdsVnZhcU95TlN6ejdNdmVDcUY3LXU?oc=5"
     }
    ],
-   "missing": "Specific token tickers included in the 11 EQX Labs markets are not detailed."
+   "missing": "Exact migration schedule and operational details for token holders."
+  },
+  {
+   "t": "Bitcoin Wallet Bug Allowed Fund Theft During Fee Bumps",
+   "type": "hack",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "A vulnerability in Bitcoin wallets allowed rogue servers to replace legitimate transactions with fake ones when users sped up payments, leading to at least one confirmed loss before developers issued a patch.",
+   "per": {
+    "BTC": "Wallet fee-bump bug exploited by rogue servers before being patched."
+   },
+   "direction": "negative",
+   "quality": 75,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/26/bitcoin-wallet-bug-let-rogue-servers-steal-funds-when-users-tried-to-speed-up-payments"
+    }
+   ],
+   "missing": "Total amount of funds stolen across all affected users."
+  },
+  {
+   "t": "Upbit Puts Initia on Warning List",
+   "type": "other",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "INIT"
+   ],
+   "rel": "direct",
+   "b": "Upbit has placed Initia on its warning list and temporarily paused its deposits and withdrawals.",
+   "per": {
+    "INIT": "Placed on Upbit warning list with deposits and withdrawals paused."
+   },
+   "direction": "negative",
+   "quality": 72,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0tSkNaT3BOZlo2VmdHMjUwMWVUQjM1Q29uaUdBZWJRb2RFR3N4WGROTEd1bHRvdkVodzMyQ2hjZ0VlVUdBNTJiU2pkZi1fci0wZl9RdzZmYmdoZw?oc=5"
+    }
+   ],
+   "missing": "Reasons for the warning and duration of the suspension."
   }
  ]
 }
