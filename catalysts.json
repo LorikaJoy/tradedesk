@@ -1,18 +1,18 @@
 {
- "updated": "2026-10-26T11:03:49.528928+00:00",
+ "updated": "2026-10-26T17:21:17.667425+00:00",
  "cards": [
   {
-   "t": "Binance Futures Lists Predict.fun Pre-Market Perpetuals",
-   "type": "listing",
-   "status": "confirmed_upcoming",
+   "t": "Grayscale Files to Convert Bittensor Trust Into TAO ETF",
+   "type": "etf",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "PREDICT"
+    "TAO"
    ],
    "rel": "direct",
-   "b": "Binance Futures is launching pre-market perpetual trading for Predict.fun's PREDICT token, opening contracts with up to 5x leverage.",
+   "b": "Grayscale has filed to convert its Bittensor Trust into a spot TAO ETF to be listed on NYSE Arca.",
    "per": {
-    "PREDICT": "Binance Futures opens pre-market perpetuals with up to 5x leverage."
+    "TAO": "Grayscale filed an application to launch a TAO ETF on NYSE Arca."
    },
    "direction": "positive",
    "quality": 87,
@@ -29,6 +29,52 @@
    "c": "high",
    "sources": [
     {
+     "name": "Coinpedia",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObnZNR2FZQmV1Z3dfWFMxLXF3NXRsMzkzUmF6RjljQXZhSFFZbk1nUjM2a3dhdGpPdHBDMDhra01pamt2bkRJVEQySzhBV3R4cFRUcmxxNWFUaVFfV2JkTG1idGR5M0hQVFV2WEs0UlFJMlJva0pHUHdaYU1Lc05IWExTYnVNbmhjYUlBOUFvTFZXOWs2YlJLQ254TdIBoAFBVV95cUxPQllrNmg1aGJwN3FJTHRmOG5fYUVMTVF1M3RhZ24zaWI2aTdyUE1nN19VblZQMG4zTXdVcFgwN19JSWtqU2x6MU1LQUdBR2Qtd1lxbmlpalVDRjNZTmRUZW5oUXdZaFptbl9rMW1UNGFoMzN2M2Z6S1JWdmZ3V1BpNzZBYVdOUE1qWi12QXZFMk9aQnd1cVRzcXhqNlhRd2NN?oc=5"
+    },
+    {
+     "name": "The Cryptonomist",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBSVFk5b2ZLcG9wdmItSGl3SEZCZUhNUlBUZzhGVklfQ29rQUV0WUtNWENMaVBhV1pOck5rOWJhR1lVOFNIdHJVNjFmdkx0VnROS3ZQbXNJQjRBQjdLU1RvWnlJeWRNNm9kQVNOT1oyWHdEckJXWXZZ?oc=5"
+    },
+    {
+     "name": "KuCoin",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObGdWUjdRRDVjbWxkY3pkMERnSlRZdVNvMnFEN1pHdUw0eDFuZFZYZXA1M3NZVmxFanhVY19nbW41a0g1eVRsbjQ3OE5CNjBWVW5Mbmh2Qk1BcHJrSjlsLXF1Y3FSZEV2cm9EcmplXzBsRml4QUk4RXFndm0xUlNNOE4ySlctUnVUeW1wZg?oc=5"
+    },
+    {
+     "name": "CoinGape",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdUdWVFl4UjNOXzFab1NpV25CY3g0YkVsXzBvQkdmTGlNZ2w0TEhULVZxQ1ZoYlRBOUI0RmVtRG9Ia01WaEJ0YnFoQWkyTTNBTXFRRUE3UkJJcldBV3VoVTlSVUNFdUh4MU9xZDRBQ0RaNE13eFFJaFpJRGw2VU83U2ZrX1MxXzFnZXc1OFdlQnE4TnhqckR6LTlUdU42X216bWFJ?oc=5"
+    }
+   ],
+   "missing": "Regulatory approval timeline and final launch date."
+  },
+  {
+   "t": "Binance Futures Lists Predict.fun PREDICT Pre-Market Perpetuals",
+   "type": "listing",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "PREDICT"
+   ],
+   "rel": "direct",
+   "b": "Binance Futures has opened pre-market perpetual trading for predict.fun's PREDICT token with up to 5x leverage.",
+   "per": {
+    "PREDICT": "Listed for pre-market perpetual trading on Binance Futures with 5x leverage."
+   },
+   "direction": "positive",
+   "quality": 79,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
      "name": "Cryptonews.net",
      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6UTdKaU51WVh4MEtEUW1NcEJPNDBCOHdaZ09GdTVPZUQyT1ZDNndtTzdONUNhUHJ4OURna1B5S29YTGxxQVAtWW40MDFFOUFxLTdxcTZNMA?oc=5"
     },
@@ -41,20 +87,20 @@
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1TQXF2b2w4Rk5JX01ORGJaUDRrSmVhWllLM1FacE4yU082amFwSkhlV2dGeG1nT1M4MVRNMFJmVndlTHQ4eElSNzBQUUNtdkxKSjV5SFJGQ29GMnFmdkx3NnZ3dFpwMjJsN2o3OUpWWGg0MlBWbFRv?oc=5"
     }
    ],
-   "missing": "Exact launch timestamps and contract specifications."
+   "missing": "Exact launch time or contract specifications beyond leverage limits."
   },
   {
-   "t": "Bybit Supports Aerodrome Token Migration",
-   "type": "other",
-   "status": "confirmed_upcoming",
+   "t": "Coinbase Opens Spot Trading for Ritual (RITUAL) Token",
+   "type": "listing",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "AERO"
+    "RITUAL"
    ],
    "rel": "direct",
-   "b": "Bybit announced it will support the upcoming Aerodrome (AERO) token migration.",
+   "b": "Coinbase has opened spot trading for Ritual's RITUAL token.",
    "per": {
-    "AERO": "Bybit support confirmed for upcoming token migration."
+    "RITUAL": "Spot trading enabled on Coinbase."
    },
    "direction": "positive",
    "quality": 75,
@@ -71,79 +117,133 @@
    "c": "high",
    "sources": [
     {
-     "name": "Bybit",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS3NxMjB2NkludHNJLXJITjhhVGUtOXN3MnRKdXhkQjNnWmlkcnRwV2Y0VDYwajJBblhDS3J0VW5YOE1qSEs4b0phNnY3eVNPLWktQ19iUlpDTTk4UE45b1pxMzlmSGpPRHlma1lYdU5HREZZUTBPVHJpaFJ3cWlfcGtkZWhQWmE5WnpHcHdtMkpaS1ZmYTlEZGxKOVpGYzdsVnZhcU95TlN6ejdNdmVDcUY3LXU?oc=5"
+     "name": "Crypto Briefing",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0wbFNsb04tNDRqckVfUGd1RXlmTlp6OWtSUEVBeTFlanNyVFZNN0luNVFWVXljT0tKSnFjbndQUlZFeXA0T3pBcnZKa2VHUTVUbHptc2ZEbnIxcXhVRzV0OVlvT3hKZ1NpWmN5anJSZkxjd2EySGhZRWlR?oc=5"
     }
    ],
-   "missing": "Exact migration schedule and operational details for token holders."
+   "missing": "Launch timing details beyond the announcement."
   },
   {
-   "t": "Bitcoin Wallet Bug Allowed Fund Theft During Fee Bumps",
-   "type": "hack",
-   "status": "completed",
+   "t": "Aviva Investors Launches Tokenized Share Class of Sterling Fund on XRP Ledger",
+   "type": "partnership",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "BTC"
+    "XRP"
    ],
    "rel": "direct",
-   "b": "A vulnerability in Bitcoin wallets allowed rogue servers to replace legitimate transactions with fake ones when users sped up payments, leading to at least one confirmed loss before developers issued a patch.",
+   "b": "Aviva Investors has launched a tokenized share class of its Sterling fund on the XRP Ledger as part of a collaboration to bring tokenized funds to the network.",
    "per": {
-    "BTC": "Wallet fee-bump bug exploited by rogue servers before being patched."
+    "XRP": "Gains integration utility with Aviva Investors' tokenized fund issuance on the XRPL."
    },
-   "direction": "negative",
+   "direction": "positive",
    "quality": 75,
-   "label": "NEGATIVE CATALYST",
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
-    "relevance": 25,
+    "credibility": 21,
+    "relevance": 12,
     "impact": 12,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
    "impact": 8,
-   "s": "fading",
+   "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/26/bitcoin-wallet-bug-let-rogue-servers-steal-funds-when-users-tried-to-speed-up-payments"
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQekFTMlE1QmFscVo4UGlZY3FvaW1OREdBa3QxYXkyT2ZXVUVERXlIUEZmLTE4WWpWVkx3NzF2WUpSand1Ujc0WTZkdnZOUS1KWUNnWWVTWTFlaFdSM19YVzlsNkZJNE9CY2RjS1NrYUVheUpFcllLMVE2dU5lcjRqc0hoV0k0VkNWSW1iSlpyellablZyVi1fXzBSRExKbXRUbVBUVXdSVzBJeDcyVDgzR2pHWGZMSWtITFdWbktCdk05WENVT0VWdWg1c1dpcmVHNWhEdW5JdF9BdDFMM0syNzAwdXIxeGw5N1ZVYTI5TzZPd2xoV1E?oc=5"
+    },
+    {
+     "name": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTnJjSTNHZV9wQkZTd1JoN1ZLbVV3WkdyeWhQUkpDT0VxbXpHckZ5TjdtOE5VU3JSWElqOGFVM0ZLRW10b0lLQXBVRmFvcjZPNl8xOW9ITzZwdEF6ZVBwQUJfTExkQzJScURCODB1ZFc0V25Rc1NHNFVsUkpkRmlFbW9aVzVBRWdNbUFOM0NsdE8wYjZrZFpLa1FwYTZuVGVBSWRCM1YtV1NYVFJFSUp0OG5QSXB3U1h2UUZEdzB1ODlnbnRRM3laVEpwX1h0WGNyWmppdGc2SXI5dw?oc=5"
+    },
+    {
+     "name": "Analytics Insight",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOM1M5SzdOd1Jmc2szeGdmUUl1cjZsZ2lKNjBhVnQzSmE5M3hvX3h2X180VUM1NWRrR0tBRVdURGZqNjF4aTJ4VTNyLTlqeXZMcF9TZzdMNjZLMDREXzdpaHZhMnhMaUpDbEJPNFR1c3RmTVI1Y0VWMGRKZ2dHVXRDa1c3VFNoZ1FRZVRRdXlJWEJkR3pOVlk4S3VyQ0t6YkpaVl9aWlhOZW52eWxLT1h4LU9DRjFYdmFIXzdpWEFsTHJDQ1l5RWlFMzl3NEVQUlhsaHVxV01DZVVsQmdUREpz0gHfAUFVX3lxTE4zUzlLN053UmZzazN4Z2ZRSXVyNmxnaUo2MGFWdDNKYTkzeG9feHZfXzRVQzU1ZGtHS0FFV1REZmo2MXhpMnhVM3ItOWp5dkxwX1NnN0w2NkswNERfN2lodmEyeExpSkNsQk80VHVzdGZNUjVjRVYwZEpnZ0dVdENrVzdUU2hnUVFlVFF1eUlYQmRHek5WWThLdXJDS3piSlpWX1paWE5lbnZ5bEtPWHgtT0NGMVh2YUhfN2lYQWxMckNDWXlFaUUzOXc0RVBSWGxodXFXTUNlVWxCZ1RESnM?oc=5"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/aviva-investors-launches-tokenized-share-class-of-sterling-fund-on-xrp-ledger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Total amount of funds stolen across all affected users."
+   "missing": "Total asset migration timelines and long-term volume targets."
   },
   {
-   "t": "Upbit Puts Initia on Warning List",
+   "t": "Bybit Supports Aerodrome (AERO) Token Migration",
    "type": "other",
-   "status": "ongoing",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "INIT"
+    "AERO"
    ],
    "rel": "direct",
-   "b": "Upbit has placed Initia on its warning list and temporarily paused its deposits and withdrawals.",
+   "b": "Bybit has announced it will support the upcoming token migration for Aerodrome (AERO).",
    "per": {
-    "INIT": "Placed on Upbit warning list with deposits and withdrawals paused."
+    "AERO": "Bybit will handle the token migration process."
    },
-   "direction": "negative",
-   "quality": 72,
-   "label": "NEGATIVE CATALYST",
+   "direction": "neutral",
+   "quality": 68,
+   "label": "MODERATE CATALYST",
    "parts": {
     "credibility": 8,
     "relevance": 25,
-    "impact": 12,
+    "impact": 5,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
    "impact": 7,
    "s": "building",
    "c": "medium",
    "sources": [
     {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0tSkNaT3BOZlo2VmdHMjUwMWVUQjM1Q29uaUdBZWJRb2RFR3N4WGROTEd1bHRvdkVodzMyQ2hjZ0VlVUdBNTJiU2pkZi1fci0wZl9RdzZmYmdoZw?oc=5"
+     "name": "Bybit",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS3NxMjB2NkludHNJLXJITjhhVGUtOXN3MnRKdXhkQjNnWmlkcnRwV2Y0VDYwajJBblhDS3J0VW5YOE1qSEs4b0phNnY3eVNPLWktQ19iUlpDTTk4UE45b1pxMzlmSGpPRHlma1lYdU5HREZZUTBPVHJpaFJ3cWlfcGtkZWhQWmE5WnpHcHdtMkpaS1ZmYTlEZGxKOVpGYzdsVnZhcU95TlN6ejdNdmVDcUY3LXU?oc=5"
     }
    ],
-   "missing": "Reasons for the warning and duration of the suspension."
+   "missing": "Dates and details of the token migration process."
+  },
+  {
+   "t": "Strategy Pauses Bitcoin Buys and Repurchases $205 Million of STRC",
+   "type": "buyback",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Strategy skipped Bitcoin purchases last week and spent $205 million repurchasing its STRC preferred stock, reducing its USD cash balance.",
+   "per": {
+    "BTC": "No new bitcoin purchases were made during the week as capital was directed to buybacks."
+   },
+   "direction": "neutral",
+   "quality": 66,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/strategy-skips-btc-buy-205-million-strc-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/381811/strategy-pauses-bitcoin-buying-spends-205m-buying-back-strc"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-10-26-strategy-pauses-bitcoin-buys-repurchases-205-million-of-strc-preferred-shares-431699"
+    }
+   ],
+   "missing": "Future allocation plans for Bitcoin versus continued stock buybacks."
   }
  ]
 }
