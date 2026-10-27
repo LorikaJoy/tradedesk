@@ -1,18 +1,220 @@
 {
- "updated": "2026-10-27T00:52:08.492136+00:00",
+ "updated": "2026-10-27T05:52:25.960192+00:00",
  "cards": [
   {
-   "t": "Binance Futures Lists Predict.fun Pre-Market Perpetuals",
-   "type": "listing",
+   "t": "Ripple National Trust Bank Approval",
+   "type": "regulation",
    "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "PREDICT"
+    "XRP"
    ],
    "rel": "direct",
-   "b": "Binance Futures is launching pre-market perpetual trading for the PREDICT token.",
+   "b": "The Office of the Comptroller of the Currency has approved the creation of Ripple National Trust Bank (RNTB), allowing Ripple to manage reserves backing its RLUSD stablecoin and provide digital asset custody under federal supervision.",
    "per": {
-    "PREDICT": "Pre-market perpetual contracts are being listed on Binance Futures."
+    "XRP": "Approval of the national trust bank establishes formal federal oversight for Ripple's custody and stablecoin reserve management."
+   },
+   "direction": "positive",
+   "quality": 96,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 10,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/27/ripple-gets-a-final-go-ahead-to-launch-its-own-u-s-national-trust-bank"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/ripple-wins-final-us-approval-for-national-trust-bank?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/regulation/2026-10-26-ripple-gains-final-occ-approval-rlusd-431810"
+    }
+   ],
+   "missing": "Exact launch date for the bank's operations."
+  },
+  {
+   "t": "Bitmine Ether Treasury and Record Share Buybacks",
+   "type": "buyback",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "ETH"
+   ],
+   "rel": "direct",
+   "b": "Tom Lee's Bitmine added 10,452 ETH to hold 4.95% of supply while executing a record share buyback program of 2.04 million shares.",
+   "per": {
+    "ETH": "Continued corporate treasury accumulation reinforces supply absorption."
+   },
+   "direction": "positive",
+   "quality": 85,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/26/tom-lee-s-bitmine-favors-share-buybacks-to-ether-purchases-as-crypto-declines"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/381826/tom-lee-bitmine-keeps-buying-ethereum-share-buybacks"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-10-26-tom-lee-insists-crypto-bull-market-is-underway-as-bitmine-adds-10452-eth-431743"
+    }
+   ],
+   "missing": "Future purchase schedules."
+  },
+  {
+   "t": "Strategy STRC Buyback Pause on Bitcoin Buying",
+   "type": "buyback",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Strategy skipped Bitcoin purchases last week to spend $205 million on STRC preferred stock buybacks, reducing its USD cash balance to $242.4 million.",
+   "per": {
+    "BTC": "Temporary pause in corporate spot purchasing as capital is allocated to preferred share buybacks."
+   },
+   "direction": "neutral",
+   "quality": 85,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/strategy-skips-btc-buy-205-million-strc-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/381811/strategy-pauses-bitcoin-buying-spends-205m-buying-back-strc"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-10-26-strategy-pauses-bitcoin-buys-repurchases-205-million-of-strc-preferred-shares-431699"
+    }
+   ],
+   "missing": "Resumption date for Bitcoin acquisitions."
+  },
+  {
+   "t": "Initia Exploit Incident",
+   "type": "hack",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "INIT"
+   ],
+   "rel": "direct",
+   "b": "Initia was hit by a $2.7 million exploit, prompting major exchanges like Bithumb and Upbit to flag INIT as high-risk.",
+   "per": {
+    "INIT": "Faced security breach impact and heightened exchange risk scrutiny."
+   },
+   "direction": "negative",
+   "quality": 80,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Crypto Economy",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYjNyeGJtNmVmMElzR2o3QjdaM2t2am1EaTlRVml4dlZhS0ZCazBrQWI4LUljS2MydXdxellVZV9qaTRxTVJ0clFoUUg3aEl2ODg1My1sQzVWTmhYQlR6dUFYdUJyOE9oNy1rcy1Zb2dndklxV2gwN0NNdW4yRG93eFpIVE1jZnlTYlh3OS0zQk1FRExHTEdzb1d5ME8xSTQ?oc=5"
+    }
+   ],
+   "missing": "Details on fund recovery or security patch implementation."
+  },
+  {
+   "t": "Aviva Investors Tokenized Sterling Fund on XRP Ledger",
+   "type": "partnership",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "XRP"
+   ],
+   "rel": "direct",
+   "b": "Aviva Investors has launched a tokenized share class of its \u00a329 billion Sterling Liquidity Fund on the XRP Ledger as part of a broader collaboration.",
+   "per": {
+    "XRP": "Expands real-world asset tokenization activity on the ledger through institutional fund deployment."
+   },
+   "direction": "positive",
+   "quality": 79,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQekFTMlE1QmFscVo4UGlZY3FvaW1OREdBa3QxYXkyT2ZXVUVERXlIUEZmLTE4WWpWVkx3NzF2WUpSand1Ujc0WTZkdnZOUS1KWUNnWWVTWTFlaFdSM19YVzlsNkZJNE9CY2RjS1NrYUVheUpFcllLMVE2dU5lcjRqc0hoV0k0VkNWSW1iSlpyellablZyVi1fXzBSRExKbXRUbVBUVXdSVzBJeDcyVDgzR2pHWGZMSWtITFdWbktCdk05WENVT0VWdWg1c1dpcmVHNWhEdW5JdF9BdDFMM0syNzAwdXIxeGw5N1ZVYTI5TzZPd2xoV1E?oc=5"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/aviva-investors-launches-tokenized-share-class-of-sterling-fund-on-xrp-ledger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-10-26-aviva-investors-ripple-tokenized-share-class-sterling-fund-xrp-ledger-431712"
+    }
+   ],
+   "missing": "Full rollout timeline for additional tokenized funds."
+  },
+  {
+   "t": "Grayscale Bittensor ETF Filing on NYSE Arca",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "TAO"
+   ],
+   "rel": "direct",
+   "b": "Grayscale has advanced plans and filed for a Bittensor (TAO) ETF to be listed on NYSE Arca.",
+   "per": {
+    "TAO": "Filing brings potential institutional access via a dedicated exchange-traded fund product."
    },
    "direction": "positive",
    "quality": 77,
@@ -29,69 +231,35 @@
    "c": "high",
    "sources": [
     {
-     "name": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6UTdKaU51WVh4MEtEUW1NcEJPNDBCOHdaZ09GdTVPZUQyT1ZDNndtTzdONUNhUHJ4OURna1B5S29YTGxxQVAtWW40MDFFOUFxLTdxcTZNMA?oc=5"
+     "name": "KuCoin",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObGdWUjdRRDVjbWxkY3pkMERnSlRZdVNvMnFEN1pHdUw0eDFuZFZYZXA1M3NZVmxFanhVY19nbW41a0g1eVRsbjQ3OE5CNjBWVW5Mbmh2Qk1BcHJrSjlsLXF1Y3FSZEV2cm9EcmplXzBsRml4QUk4RXFndm0xUlNNOE4ySlctUnVUeW1wZg?oc=5"
     },
     {
-     "name": "The Cryptonomist",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1TQXF2b2w4Rk5JX01ORGJaUDRrSmVhWllLM1FacE4yU082amFwSkhlV2dGeG1nT1M4MVRNMFJmVndlTHQ4eElSNzBQUUNtdkxKSjV5SFJGQ29GMnFmdkx3NnZ3dFpwMjJsN2o3OUpWWGg0MlBWbFRv?oc=5"
+     "name": "CoinGape",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdUdWVFl4UjNOXzFab1NpV25CY3g0YkVsXzBvQkdmTGlNZ2w0TEhULVZxQ1ZoYlRBOUI0RmVtRG9Ia01WaEJ0YnFoQWkyTTNBTXFRRUE3UkJJcldBV3VoVTlSVUNFdUh4MU9xZDRBQ0RaNE13eFFJaFpJRGw2VU83U2ZrX1MxXzFnZXc1OFdlQnE4TnhqckR6LTlUdU42X216bWFJ?oc=5"
     }
    ],
-   "missing": "Exact launch time or date"
+   "missing": "Regulatory approval and listing dates."
   },
   {
-   "t": "Coinbase Opens Spot Trading for Ritual\u2019s RITUAL Token",
-   "type": "listing",
+   "t": "CoinDCX Security Breach and Loss Absorption",
+   "type": "hack",
    "status": "confirmed_upcoming",
    "event_date": null,
-   "coins": [
-    "RITUAL"
-   ],
-   "rel": "direct",
-   "b": "Coinbase has opened spot trading for Ritual\u2019s RITUAL token.",
-   "per": {
-    "RITUAL": "Spot trading is now open on Coinbase."
-   },
-   "direction": "positive",
-   "quality": 75,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Crypto Briefing",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0wbFNsb04tNDRqckVfUGd1RXlmTlp6OWtSUEVBeTFlanNyVFZNN0luNVFWVXljT0tKSnFjbndQUlZFeXA0T3pBcnZKa2VHUTVUbHptc2ZEbnIxcXhVRzV0OVlvT3hKZ1NpWmN5anJSZkxjd2EySGhZRWlR?oc=5"
-    }
-   ],
-   "missing": "Exact rollout timestamps"
-  },
-  {
-   "t": "Coinbase to Auto-Convert 14 Stablecoins in Europe Under MiCA",
-   "type": "regulation",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-30",
    "coins": [
     "USDT"
    ],
    "rel": "direct",
-   "b": "Coinbase will auto-convert USDT and 13 other stablecoins in Europe on October 30 to comply with MiCA regulations.",
+   "b": "India's CoinDCX confirmed a $16 million loss (15.99 million USDT drained) from retired wallets due to an internal process failure, with the exchange absorbing the financial hit.",
    "per": {
-    "USDT": "Subject to automatic conversion in Europe under MiCA compliance."
+    "USDT": "Involved in the drain from retired wallets, though the exchange is absorbing the loss."
    },
-   "direction": "mixed",
+   "direction": "negative",
    "quality": 75,
-   "label": "STRONG CATALYST",
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 8,
-    "relevance": 25,
+    "credibility": 21,
+    "relevance": 12,
     "impact": 12,
     "novelty": 15,
     "timing": 15
@@ -101,48 +269,22 @@
    "c": "high",
    "sources": [
     {
-     "name": "FinanceFeeds",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSzBwdWpzV3o5SzlGdXh3eHJjTmlRZm81bTl5U1I4azhhWFExQ1pJNUxxUThIQVpjdUFCdnNWYmxnU1VuVDRkY1BNd19iZDNCZlNCa25wLTlOTXNzY3M2c0xHVVlkeklZZUZtMDRvVGdzUTV1a0FwRVpUaXFfNl96bl9ULWxFVzR6T0dHZVZ1UWlwZFZnOEhPaDRxZ0ZtdmpCLXNLc2lEZHFudkxheVpTRk1EWXRLUQ?oc=5"
-    }
-   ],
-   "missing": "Conversion rates and mechanics"
-  },
-  {
-   "t": "Initia Hit by $2.7M Exploit and Flagged by Exchanges",
-   "type": "hack",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "INIT"
-   ],
-   "rel": "direct",
-   "b": "Initia suffered a $2.7 million exploit, prompting Bithumb and Upbit to flag INIT as high-risk.",
-   "per": {
-    "INIT": "Hit by a $2.7M exploit and flagged as high-risk by major exchanges."
-   },
-   "direction": "negative",
-   "quality": 74,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/26/coindcx-absorbs-usd16-million-loss-from-internal-process-failure-tied-to-retired-wallet"
+    },
     {
-     "name": "Crypto Economy",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYjNyeGJtNmVmMElzR2o3QjdaM2t2am1EaTlRVml4dlZhS0ZCazBrQWI4LUljS2MydXdxellVZV9qaTRxTVJ0clFoUUg3aEl2ODg1My1sQzVWTmhYQlR6dUFYdUJyOE9oNy1rcy1Zb2dndklxV2gwN0NNdW4yRG93eFpIVE1jZnlTYlh3OS0zQk1FRExHTEdzb1d5ME8xSTQ?oc=5"
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/381834/india-coindcx-confirms-16-million-loss-ceo-called-false-alarm"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-10-25-coindcx-confirms-16-million-loss-from-retired-wallets-days-after-ceo-called-breach-reports-a-false-alarm-431617"
     }
    ],
-   "missing": "Attacker wallet addresses and remediation steps"
+   "missing": "Complete technical post-mortem of the vulnerability."
   },
   {
-   "t": "Bybit Supports Aerodrome (AERO) Token Migration",
+   "t": "Bybit Token Migration Support for Aerodrome",
    "type": "other",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -150,11 +292,11 @@
     "AERO"
    ],
    "rel": "direct",
-   "b": "Bybit announced it will support the token migration for Aerodrome (AERO).",
+   "b": "Bybit announced it will support the upcoming token migration for Aerodrome (AERO).",
    "per": {
-    "AERO": "Token migration supported by Bybit."
+    "AERO": "Exchange support for the migration ensures smooth transition for holders."
    },
-   "direction": "neutral",
+   "direction": "positive",
    "quality": 68,
    "label": "MODERATE CATALYST",
    "parts": {
@@ -173,133 +315,7 @@
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS3NxMjB2NkludHNJLXJITjhhVGUtOXN3MnRKdXhkQjNnWmlkcnRwV2Y0VDYwajJBblhDS3J0VW5YOE1qSEs4b0phNnY3eVNPLWktQ19iUlpDTTk4UE45b1pxMzlmSGpPRHlma1lYdU5HREZZUTBPVHJpaFJ3cWlfcGtkZWhQWmE5WnpHcHdtMkpaS1ZmYTlEZGxKOVpGYzdsVnZhcU95TlN6ejdNdmVDcUY3LXU?oc=5"
     }
    ],
-   "missing": "Exact snapshot and migration schedule details"
-  },
-  {
-   "t": "CoinDCX Confirms $16 Million Loss from Retired Wallets",
-   "type": "hack",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "USDT"
-   ],
-   "rel": "indirect",
-   "b": "CoinDCX confirmed a $16 million loss involving drained USDT from retired wallets, bringing its total losses to nearly $60 million while stating it will absorb the hit.",
-   "per": {
-    "USDT": "15.99 million USDT was drained from retired exchange wallets."
-   },
-   "direction": "negative",
-   "quality": 66,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/26/coindcx-absorbs-usd16-million-loss-from-internal-process-failure-tied-to-retired-wallet"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/381834/india-coindcx-confirms-16-million-loss-ceo-called-false-alarm"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-10-25-coindcx-confirms-16-million-loss-from-retired-wallets-days-after-ceo-called-breach-reports-a-false-alarm-431617"
-    }
-   ],
-   "missing": "Identity of the attacker and recovery potential"
-  },
-  {
-   "t": "Strategy Pauses Bitcoin Purchases and Repurchases STRC",
-   "type": "buyback",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Strategy made no bitcoin purchases last week, instead spending $205 million to repurchase STRC preferred shares, reducing its USD cash balance to $242.4 million.",
-   "per": {
-    "BTC": "Treasury purchases paused while corporate buybacks take priority."
-   },
-   "direction": "mixed",
-   "quality": 66,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/strategy-skips-btc-buy-205-million-strc-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/381811/strategy-pauses-bitcoin-buying-spends-205m-buying-back-strc"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-10-26-strategy-pauses-bitcoin-buys-repurchases-205-million-of-strc-preferred-shares-431699"
-    }
-   ],
-   "missing": "Future BTC acquisition timelines"
-  },
-  {
-   "t": "Aviva Investors Launches Tokenized Sterling Fund Share Class on XRP Ledger",
-   "type": "mainnet",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "XRP"
-   ],
-   "rel": "direct",
-   "b": "Aviva Investors has launched a tokenized share class of its \u00a329 billion Sterling Liquidity Fund on the XRP Ledger.",
-   "per": {
-    "XRP": "XRPL hosts a tokenized share class from Aviva Investors for its Sterling fund."
-   },
-   "direction": "positive",
-   "quality": 66,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQekFTMlE1QmFscVo4UGlZY3FvaW1OREdBa3QxYXkyT2ZXVUVERXlIUEZmLTE4WWpWVkx3NzF2WUpSand1Ujc0WTZkdnZOUS1KWUNnWWVTWTFlaFdSM19YVzlsNkZJNE9CY2RjS1NrYUVheUpFcllLMVE2dU5lcjRqc0hoV0k0VkNWSW1iSlpyellablZyVi1fXzBSRExKbXRUbVBUVXdSVzBJeDcyVDgzR2pHWGZMSWtITFdWbktCdk05WENVT0VWdWg1c1dpcmVHNWhEdW5JdF9BdDFMM0syNzAwdXIxeGw5N1ZVYTI5TzZPd2xoV1E?oc=5"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/aviva-investors-launches-tokenized-share-class-of-sterling-fund-on-xrp-ledger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-10-26-aviva-investors-ripple-tokenized-share-class-sterling-fund-xrp-ledger-431712"
-    }
-   ],
-   "missing": "Total expected initial asset migration volume on-chain"
+   "missing": "Exact timing of the migration execution."
   }
  ]
 }
