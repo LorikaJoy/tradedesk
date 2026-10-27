@@ -1,160 +1,72 @@
 {
- "updated": "2026-10-27T11:25:20.876582+00:00",
+ "updated": "2026-10-27T21:04:58.118613+00:00",
  "cards": [
   {
-   "t": "Coinbase Lists Ritual Token",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-26",
-   "coins": [
-    "RITUAL"
-   ],
-   "rel": "direct",
-   "b": "Coinbase is launching spot trading for Ritual's RITUAL token on its U.S. service, coinciding with the Ritual mainnet launch.",
-   "per": {
-    "RITUAL": "Spot trading on Coinbase goes live."
-   },
-   "direction": "positive",
-   "quality": 87,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01MU9YOGFKa3hKMnpFY3JmbWVkY2RJUGxYVldnTXNsVmVmc0p0Rk5FcDNCMmNNSm5YVzlJa2pjSHVfSWh6T3pja3RLNF9KUFRSdlZfYnc4R0VsQQ?oc=5"
-    },
-    {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyLVhWQ2N4T3VPRjk2VGxmYVB3YnNYeTZJYUwwcGdmQ1FxQ3dnQ1VBQlZodF85NGMyaG10NmdQRHRqZWY2MUN6Wi1UYW52WlBhLXNuS0xFbEJPQQ?oc=5"
-    },
-    {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ydXZyTktITDUtVGFELVhyZFpxNnROVVZRbXZYTW1HeXZ6dnYzdV9Nb2hxb0Z2VTU4eWJ0cnpjYWVBcGRVUTFnSFktVGxicTFQUE8wTmZnUUw?oc=5"
-    },
-    {
-     "name": "Crypto Briefing",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0wbFNsb04tNDRqckVfUGd1RXlmTlp6OWtSUEVBeTFlanNyVFZNN0luNVFWVXljT0tKSnFjbndQUlZFeXA0T3pBcnZKa2VHUTVUbHptc2ZEbnIxcXhVRzV0OVlvT3hKZ1NpWmN5anJSZkxjd2EySGhZRWlR?oc=5"
-    }
-   ],
-   "missing": "Exact execution time of the spot trading rollout"
-  },
-  {
-   "t": "Ripple Wins Final OCC Approval for National Trust Bank",
+   "t": "Ripple Receives Final OCC Approval for National Trust Bank",
    "type": "regulation",
-   "status": "completed",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
     "XRP"
    ],
    "rel": "direct",
-   "b": "The U.S. Office of the Comptroller of the Currency has given Ripple final approval to launch the Ripple National Trust Bank (RNTB) to manage RLUSD stablecoin reserves and provide custody.",
+   "b": "Ripple secured final approval from the Office of the Comptroller of the Currency (OCC) to launch Ripple National Trust Bank (RNTB), bringing its RLUSD stablecoin under federal oversight.",
    "per": {
-    "XRP": "Approved to launch national trust bank for RLUSD reserves and custody."
+    "XRP": "Gains regulatory clarity as Ripple receives final OCC approval for its national trust bank to manage RLUSD reserves."
    },
    "direction": "positive",
-   "quality": 87,
-   "label": "COMPLETED CATALYST",
+   "quality": 96,
+   "label": "STRONG CATALYST",
    "parts": {
     "credibility": 21,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
-   "impact": 9,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOb09BTXBqYzJfdmRVVFhSMVZvSUN1SjlTaTI5SkFrdkdRU19HWXpybEJLWXdBOFltanRrRGVrUi1tM0RuanBiMWkwNzdqMU5fQXlrSE1NOENlcnNnYUt5TU9sWDBCOVdGOXJWWWFhX2hPZ2RDNUJnbEhzU3FKaVVRUm41SzNGc2FWaU1Kd0dIcEJ3Zw?oc=5"
-    },
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/27/ripple-gets-a-final-go-ahead-to-launch-its-own-u-s-national-trust-bank"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/ripple-wins-final-us-approval-for-national-trust-bank?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/381899/ripple-wins-final-occ-approval-for-trust-bank-behind-2-6b-rlusd-stablecoin"
-    }
-   ],
-   "missing": "The precise operational launch date of the trust bank"
-  },
-  {
-   "t": "Strategy Pauses Bitcoin Buys for STRC Buybacks",
-   "type": "buyback",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Strategy paused its Bitcoin purchases last week, instead spending $205 million to repurchase its STRC preferred shares, reducing its USD cash balance.",
-   "per": {
-    "BTC": "Bitcoin acquisition temporarily paused while capital is deployed toward preferred stock buybacks."
-   },
-   "direction": "neutral",
-   "quality": 85,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 8,
+   "impact": 10,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/strategy-skips-btc-buy-205-million-strc-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "CryptoRank",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ0k0QS05RzVBZFVRZlZweXZFWUJCQTVLX2ptTnQ5bWd3WGtlaHl6YVpBT2x4SUtudWV6Q2VxZGE5NW4yb1hLYUQzYWxhb1dFODFUV2FqQjJvdEFna3h2VTAxVjNSUUowdFJORVRuamdscWh4bXhMaF90enV0WTN0X2k5NVFFQndrejhkRGduTzJaVHpnQVBF?oc=5"
     },
     {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/381811/strategy-pauses-bitcoin-buying-spends-205m-buying-back-strc"
+     "name": "Altcoin Buzz",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAzcXYwRE05UmVaRWlUcU1YNW9FVnFIdGhqSjZVU2x1NEE2QlMwWnNFY2ZSU0ZzY0ZlNVhvaFZVSmdVVHBReTVkN1BVMDUwaDlMamg0d3Q3aS1Ia082dGlLR1dwZUZnNXVlcmI3Z19pZVE5UDVyRHdMUndLOGc?oc=5"
     },
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-10-26-strategy-pauses-bitcoin-buys-repurchases-205-million-of-strc-preferred-shares-431699"
+     "name": "Cryptopolitan",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBkdlFkYXVmbUxSN2xRbWpIUTFGSGpJTjRPRHltcl9BYjQ5MGdDbUpOYjgyakUzOXU1V0pKZDB6NWRqMktPZjBVQ1N6cGd0WUx0T2JVb3FhYkYzNVl2RWw1N1B0MmprZjYxclQ4WUJ1Zzl2N3ZueTFnUDJn?oc=5"
+    },
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/27/ripple-gets-a-final-go-ahead-to-launch-its-own-u-s-national-trust-bank"
     }
    ],
-   "missing": "When Bitcoin acquisition purchases will resume"
+   "missing": "Exact launch date for the national trust bank operations."
   },
   {
-   "t": "Bybit Supports Aerodrome (AERO) Token Migration",
-   "type": "other",
-   "status": "confirmed_upcoming",
+   "t": "Upbit Lists Nillion (NIL)",
+   "type": "listing",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "AERO"
+    "NIL"
    ],
    "rel": "direct",
-   "b": "Bybit announced it will support the upcoming token migration for Aerodrome (AERO).",
+   "b": "Upbit announced the KRW market listing for Nillion (NIL), prompting a price surge for the token.",
    "per": {
-    "AERO": "Bybit handling the upcoming network migration."
+    "NIL": "Listed on Upbit's KRW market, driving a 26% price jump."
    },
-   "direction": "neutral",
-   "quality": 75,
+   "direction": "positive",
+   "quality": 85,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 10,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 15
    },
@@ -163,83 +75,49 @@
    "c": "high",
    "sources": [
     {
-     "name": "Bybit",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOenp3YVExaEZBbXJxRDhHajZNclZickh6VlN5OEN0ZkRqZEJWSHFNWnBYdVJIN014elktb2FlVkxRazVaUVBTUWlVdFFuVjgtb1JwN0tVRnhVQ1BkcjNYX2pkVDhBRWtncXlkWjZZdVlIaWhndGZjU0haTzVXM3FRVGFUeWs4b1hIdm9CRXBhYmNPTk43cnh2TmlLeFhmVE1ESG9Ycmw4a1gtX3ZiaHlzQ3cwMkcyX2lnZmJnVlpjQW9xSnlVU2VqaDh0UlMyM016cGc3cmhCTnA0VFU?oc=5"
+     "name": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ubnViUGJXbDVqMlBRWkpPRFNvRUNfT0Q3c2hqZU5aUVRHYmpaWXM2ZTJKbGlQWENmQ0VmUXVDZEtxS3drazl4WU8zT01jLVJlRUFDWQ?oc=5"
+    },
+    {
+     "name": "Coin Gabbar",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORUxSMHk5bW0xNVhpRUt5Ylpvb01QZ2pGSnc1OExNQXRYNU9JMERpRFRxQ3dXTVRBSW42OFA4ajJXTE01T1pLc2xiZURvVjBkTTRqenU1SnpwUmdaUDZ5LXh0b0lkQjJ0LTJsV2V6eEdSc3VyelJvbmJuRWhlUjFlclFWbmNLM19ldTl5Sw?oc=5"
     }
    ],
-   "missing": "Exact date and time of the token migration"
+   "missing": "Exact listing time and initial trading pairs beyond KRW."
   },
   {
-   "t": "Bitmine Focuses on Share Buybacks Over Ether Purchases",
-   "type": "buyback",
+   "t": "Initia Hit by $2.7M Exploit",
+   "type": "hack",
    "status": "ongoing",
    "event_date": null,
    "coins": [
-    "ETH"
-   ],
-   "rel": "indirect",
-   "b": "Ethereum treasury firm Bitmine repurchased 2.04 million of its own shares for $46 million as part of a major equity buyback, while also adding 10,452 ETH.",
-   "per": {
-    "ETH": "Firm continues adding ETH holdings while heavily pivoting cash into record share buybacks."
-   },
-   "direction": "mixed",
-   "quality": 70,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/10/26/tom-lee-s-bitmine-favors-share-buybacks-to-ether-purchases-as-crypto-declines"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/381826/tom-lee-bitmine-keeps-buying-ethereum-share-buybacks"
-    }
-   ],
-   "missing": "Final total scope of the planned buyback program"
-  },
-  {
-   "t": "Upbit Lists Nillion (NIL)",
-   "type": "listing",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "NIL"
+    "INIT"
    ],
    "rel": "direct",
-   "b": "Nillion (NIL) jumped 26% after Upbit announced a KRW market listing.",
+   "b": "Initia suffered a $2.7 million exploit, causing major exchanges like Bithumb and Upbit to flag INIT as high-risk.",
    "per": {
-    "NIL": "Listed on Upbit's KRW market, driving a 26% price jump."
+    "INIT": "Flagged as high-risk by major exchanges following a $2.7 million exploit."
    },
-   "direction": "positive",
-   "quality": 66,
-   "label": "COMPLETED CATALYST",
+   "direction": "negative",
+   "quality": 80,
+   "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 8,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
-    "timing": 6
+    "timing": 12
    },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
+   "impact": 8,
+   "s": "building",
+   "c": "high",
    "sources": [
     {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ubnViUGJXbDVqMlBRWkpPRFNvRUNfT0Q3c2hqZU5aUVRHYmpaWXM2ZTJKbGlQWENmQ0VmUXVDZEtxS3drazl4WU8zT01jLVJlRUFDWQ?oc=5"
+     "name": "Crypto Economy",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYjNyeGJtNmVmMElzR2o3QjdaM2t2am1EaTlRVml4dlZhS0ZCazBrQWI4LUljS2MydXdxellVZV9qaTRxTVJ0clFoUUg3aEl2ODg1My1sQzVWTmhYQlR6dUFYdUJyOE9oNy1rcy1Zb2dndklxV2gwN0NNdW4yRG93eFpIVE1jZnlTYlh3OS0zQk1FRExHTEdzb1d5ME8xSTQ?oc=5"
     }
    ],
-   "missing": "Exact trading start time"
+   "missing": "Recovery details and full extent of the exploit."
   }
  ]
 }
