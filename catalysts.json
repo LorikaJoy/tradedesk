@@ -1,18 +1,64 @@
 {
- "updated": "2026-10-28T00:30:00.486203+00:00",
+ "updated": "2026-10-28T06:09:47.510536+00:00",
  "cards": [
   {
-   "t": "Upbit Lists Nillion (NIL)",
+   "t": "Ripple Receives Final OCC Approval for National Trust Bank",
+   "type": "regulation",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "XRP"
+   ],
+   "rel": "direct",
+   "b": "The Office of the Comptroller of the Currency (OCC) has granted Ripple final approval to launch Ripple National Trust Bank (RNTB). The federally supervised entity will manage reserves backing the RLUSD stablecoin and offer digital asset custody.",
+   "per": {
+    "XRP": "Gains final regulatory backing as Ripple secures a U.S. national trust bank charter."
+   },
+   "direction": "positive",
+   "quality": 87,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 9,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Cryptonews",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN3pNWkhFVXBJcVBLV1VMVnExSmlkQ01jZVBKUzZMMzg5WlIzZlA0Y1dGWUpnZ3daYnlETkZhT0Y5ZFIzQ0tZWEFseWItZW0xQXpfUkJsTTJZOHhZeGNmQ1EtN2U5bmRpX19pZDllU01PRDU2cXZLeEd4dTdXRENGU2Zjb2tzMTJwQnNFRXRDaXhGQU82?oc=5"
+    },
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/27/ripple-gets-a-final-go-ahead-to-launch-its-own-u-s-national-trust-bank"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/ripple-wins-final-us-approval-for-national-trust-bank?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/381899/ripple-wins-final-occ-approval-for-trust-bank-behind-2-6b-rlusd-stablecoin"
+    }
+   ],
+   "missing": "The exact operational launch date of the trust bank."
+  },
+  {
+   "t": "Upbit Lists Nillion (NIL) with KRW Market",
    "type": "listing",
-   "status": "officially_announced",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
     "NIL"
    ],
    "rel": "direct",
-   "b": "Upbit has announced the listing of Nillion (NIL) for KRW market trading, triggering an immediate price surge.",
+   "b": "Upbit has announced the KRW market listing for Nillion (NIL), prompting a 26% price surge following the launch.",
    "per": {
-    "NIL": "Listed on Upbit's KRW market, driving a 26% price jump."
+    "NIL": "Listed on Upbit's KRW market, driving a 26% price increase."
    },
    "direction": "positive",
    "quality": 85,
@@ -37,91 +83,45 @@
      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORUxSMHk5bW0xNVhpRUt5Ylpvb01QZ2pGSnc1OExNQXRYNU9JMERpRFRxQ3dXTVRBSW42OFA4ajJXTE01T1pLc2xiZURvVjBkTTRqenU1SnpwUmdaUDZ5LXh0b0lkQjJ0LTJsV2V6eEdSc3VyelJvbmJuRWhlUjFlclFWbmNLM19ldTl5Sw?oc=5"
     }
    ],
-   "missing": "Exact trading start time"
+   "missing": "Exact listing time and trading pair specifics."
   },
   {
-   "t": "Ripple Wins Final OCC Approval for National Trust Bank",
-   "type": "regulation",
+   "t": "Binance Delists 22 Tokens While Seeking Brazil License",
+   "type": "delisting",
    "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "XRP"
+    "BNB"
    ],
    "rel": "direct",
-   "b": "The Office of the Comptroller of the Currency has given Ripple final approval to launch Ripple National Trust Bank (RNTB) to manage RLUSD reserves and provide custody.",
+   "b": "Binance is delisting 22 crypto assets for Brazilian users ahead of a regulatory deadline as it applies for a local crypto license with the central bank.",
    "per": {
-    "XRP": "Ripple's federal bank approval expands institutional custody options, though market impact was muted."
+    "BNB": "Binance exchange ecosystem affected by compliance moves in Brazil and asset removals."
    },
-   "direction": "positive",
-   "quality": 83,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/27/ripple-gets-a-final-go-ahead-to-launch-its-own-u-s-national-trust-bank"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/ripple-wins-final-us-approval-for-national-trust-bank?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/381899/ripple-wins-final-occ-approval-for-trust-bank-behind-2-6b-rlusd-stablecoin"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/regulation/2026-10-26-ripple-gains-final-occ-approval-rlusd-431810"
-    }
-   ],
-   "missing": "Exact operational launch date for the national trust bank"
-  },
-  {
-   "t": "Strategy Pauses Bitcoin Purchases to Spend $205M on STRC Buybacks",
-   "type": "buyback",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Strategy skipped Bitcoin purchases last week, instead spending $205 million on STRC preferred stock buybacks and lowering its USD Cash balance.",
-   "per": {
-    "BTC": "Temporary pause in corporate BTC accumulation in favor of stock buybacks."
-   },
-   "direction": "mixed",
-   "quality": 70,
-   "label": "MODERATE CATALYST",
+   "direction": "negative",
+   "quality": 73,
+   "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 19,
     "relevance": 12,
     "impact": 12,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
    "impact": 7,
    "s": "building",
    "c": "medium",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/strategy-skips-btc-buy-205-million-strc-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQazVGUG40ZllyM0NWSVRLUk00ZW5xT1U3dmRRVGw0dk5lTllhSXdVckhkdW1zcTRNNVlQV3RMUDB1Qk45bWpIN3ZmU1lrdkNYTkwybmk4TEpUdFZKY3pvRlY1eExOc0UzRndUVXMzVHRCSmhDYmpqQ1gwdkE1SmdpMWNSNl9hcmNTSkVaRG1FU2kxTXp2VFVESWlxbWdpQQ?oc=5"
     },
     {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/381811/strategy-pauses-bitcoin-buying-spends-205m-buying-back-strc"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/binance-brazil-crypto-license-oct-30-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Duration of the pause on Bitcoin purchases"
+   "missing": "The exact names of the 22 delisted tokens and whether the license will be granted."
   }
  ]
 }
