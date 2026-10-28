@@ -1,44 +1,6 @@
 {
- "updated": "2026-10-28T12:48:56.045987+00:00",
+ "updated": "2026-10-28T18:36:59.889697+00:00",
  "cards": [
-  {
-   "t": "Datavault AI Plunges After Bitcoin Withdrawal Failure",
-   "type": "treasury",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Datavault AI stock dropped 50% after reporting it cannot withdraw bitcoin held on Biconomy, forcing a $92.2 million accounting reduction.",
-   "per": {
-    "BTC": "Inability to withdraw treasury bitcoin led to major corporate accounting write-downs."
-   },
-   "direction": "negative",
-   "quality": 91,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-treasury-datavault-ai-plunges-50-after-firm-says-it-can-t-access-its-btc"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-10-27-datavault-ai-stock-plummets-bitcoin-deal-431962"
-    }
-   ],
-   "missing": "Resolution timeline for recovering the locked bitcoin funds"
-  },
   {
    "t": "Coinbase Lists Ripple's RLUSD Stablecoin",
    "type": "listing",
@@ -49,25 +11,29 @@
     "XRP"
    ],
    "rel": "direct",
-   "b": "Coinbase has announced plans to list Ripple's RLUSD stablecoin with transfers enabled across three networks for retail and institutional users.",
+   "b": "Coinbase has added Ripple's RLUSD stablecoin to its platform, supporting transfers across three networks for retail and institutional users.",
    "per": {
-    "RLUSD": "Expanding accessibility via Coinbase listing.",
-    "XRP": "Gains ecosystem tailwinds from broader adoption of Ripple's stablecoin."
+    "RLUSD": "Expanded platform availability on Coinbase brings wider retail and institutional access.",
+    "XRP": "Benefits from the ecosystem expansion of Ripple's stablecoin initiatives."
    },
    "direction": "positive",
-   "quality": 85,
+   "quality": 87,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 10,
+    "credibility": 12,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
+    {
+     "name": "The American Bazaar",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcWZ5blJlY3gtcTlrVVNVTmlRQkhBa1Rhc0JvOG40eHdnZzc5TmpqWFZYc3lBSk9tTFVzYnBpSndUU0JMSFpCcjU5MjhoZ2RCWTdtelQyR1BybGwzTE4zRDQ3ZkpYbjJXWHJtMHN6NFpxVEl3QUpiMFNfQ2w3bTFWX29nMGEtaE4zTjJTNEtXeWZybnBpWmVZR0Z4WWp4Wk92TF9zcFQxNmNCdw?oc=5"
+    },
     {
      "name": "The Defiant",
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQ19tUVRsSWlKOExoU2JvclNHZVo5Ynk5Sy1sM1NXVnVub0RKakRXeHpGY1ZSanZ6SHlBb0tKTW1CNU5NWDhJT2t4X2dpWFptaE9zZXA5X0FUbGlRb3BiZ3ZpZ3JteWp0RDdycGZSYmVWdm9lNF9GLU5jQjVsOUE1Yk1VNVM2dmE2eEhTSF9MZkl2UlA2WjRDaEh1NGZQVnc?oc=5"
@@ -75,108 +41,70 @@
     {
      "name": "The Crypto Times",
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUktzMjFiVlY3aTltU1kyZElaaURRaUtvR0N2SkdWcU5EcHhud252WVhmQ0NrVTdxVjVpbk9hc0ZWZmNCZE9OY0JlSHBFa3JkTk91MC00eTlBSkw0LTBPdzdPQU9HR0p1Yzctb1RHUnpQRDVjdWR6d2Nma0w0dEFnOWNEUUNPM0NzdGlXb0IxZ2VPZUViTkZ2NVlKQThZQnVuT0tvdU5zaHJSVGhJWWtSU1lmRQ?oc=5"
-    }
-   ],
-   "missing": "Exact launch time or date on Coinbase"
-  },
-  {
-   "t": "Ripple Gains Final OCC Approval for National Trust Bank",
-   "type": "regulation",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "RLUSD",
-    "XRP"
-   ],
-   "rel": "direct",
-   "b": "Ripple has secured final OCC approval to launch a national trust bank to manage reserves for its $2.6 billion RLUSD stablecoin under federal oversight.",
-   "per": {
-    "RLUSD": "Brought under federal regulatory oversight with reserve management.",
-    "XRP": "Reinforced institutional standing and regulatory clarity."
-   },
-   "direction": "positive",
-   "quality": 85,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/381899/ripple-wins-final-occ-approval-for-trust-bank-behind-2-6b-rlusd-stablecoin"
     },
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/regulation/2026-10-26-ripple-gains-final-occ-approval-rlusd-431810"
+     "name": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaUFFcTlxV19IOVRhUXJvR0dpMXZlVERNRXRNM3FQaUNTVC1idktvU01weWZsRzlxT3FRU0VtOUhodlRaQTFtOFhuaUlTaDMzOVRSSm9BUW5tVlhRX1ViVko5WWhYV0g0bUIxVTlZbnNVNDZRRV9JYjBac3Y1Y3lhZFl4R3N2bzVFd1FkOVl4dGk4SUhNQlFzYzZDZDJPRkRHMVM0?oc=5"
     }
    ],
-   "missing": "Operational rollout date of the national trust bank"
+   "missing": "Exact launch time on the platform"
   },
   {
-   "t": "Galaxy Digital Announces $200 Million Share Buyback",
-   "type": "buyback",
+   "t": "Strategy Approves Daily Dividends for Preferred Stocks including STRC",
+   "type": "treasury",
    "status": "officially_announced",
-   "event_date": null,
+   "event_date": "2026-11-01",
    "coins": [
-    "GLXY"
+    "BTC"
    ],
-   "rel": "direct",
-   "b": "Galaxy Digital returned to profitability in the third quarter and authorized a new $200 million share buyback program.",
+   "rel": "indirect",
+   "b": "Following a shareholder vote, Strategy's preferred stocks, including STRC, are moving to daily dividend payments starting in November.",
    "per": {
-    "GLXY": "Company authorized a $200 million buyback following a quarterly profit."
+    "BTC": "Positive sentiment for major corporate Bitcoin treasury management structures."
    },
    "direction": "positive",
-   "quality": 84,
-   "label": "STRONG CATALYST",
+   "quality": 73,
+   "label": "MODERATE CATALYST",
    "parts": {
-    "credibility": 17,
-    "relevance": 25,
+    "credibility": 19,
+    "relevance": 12,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 7,
    "s": "building",
-   "c": "high",
+   "c": "medium",
    "sources": [
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-10-27-galaxy-digital-323-million-quarterly-profit-new-200-million-share-buyback-431860"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/strategy-shareholders-approve-daily-dividends-for-four-preferred-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Timeline and execution schedule for the buyback program"
+   "missing": "Exact date in November for the initial payout"
   },
   {
-   "t": "GraniteShares Delays 3x Crypto ETFs to Nov. 30",
+   "t": "Euronext Halts CoinShares Zcash ETP Debut",
    "type": "etf",
    "status": "delayed",
-   "event_date": "2026-11-30",
+   "event_date": null,
    "coins": [
-    "BTC",
-    "ETH",
-    "XRP",
-    "SOL"
+    "ZEC"
    ],
    "rel": "direct",
-   "b": "GraniteShares has pushed back the effective dates for its 3x leveraged XRP, Bitcoin, Ether, and Solana exchange-traded funds to November 30.",
+   "b": "Euronext suspended the debut of CoinShares' physical Zcash ETP due to operational settlement requirements and CSD support issues.",
    "per": {
-    "BTC": "Leveraged ETF launch delayed to November 30.",
-    "ETH": "Leveraged ETF launch delayed to November 30.",
-    "XRP": "Registration amendment and ETF effective date moved to November 30.",
-    "SOL": "Leveraged ETF launch delayed to November 30."
+    "ZEC": "Short-term setback for new regulated ETP accessibility."
    },
    "direction": "negative",
-   "quality": 68,
+   "quality": 73,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 12,
+    "credibility": 17,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -187,19 +115,57 @@
    "c": "medium",
    "sources": [
     {
-     "name": "BigGo Finance",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5oSngwZ0F6YnY2dnBNOXF6a09DWF9xU29LMkNHb01PRGhxaGgyRzdxQlNfMndvRDZKZmRSSnZ6M0FrTldUc05zaVpjWlo3cnpvdjlhQTZ2LVkxamp4c3RqYktVbm9rWmdnWGpRSWZ6Q3QxWEsyVXc?oc=5"
-    },
-    {
-     "name": "Coinpedia",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUU5Xcjhlb3UyaXo0MnhXZXVUYUxTUU9kQmhzTW0zekR5T1RjekEwRnZNd2IzemhyczJ6VjhVZkczcWlMcktLclF2YWo1OC0zSlZ4OFZ1b2VSVTNaeVFOREs2OHJzZWpJVE5qTzRJSUdkOHVzM1ZJVmQycWt1MEZNbVVQb3RjUnUtSS1TN3lHeWJzSTI0d3c4eHo1NXR6VFExRV9DWjFCZnJUZ9IBrwFBVV95cUxOMndJS1o1WE1MNzduM2tqQldfd2YwaUtuMEh3NmcyQ1AwTzl4Tkl0Z0hLZGdoWWVjdW9TN1pEcWdLZ3BYSXRVY3VZYWphS2xub1NkdldCSUdBaURsZ1ljMDJ6d1FYQURGWkJ1ekQ3X1UtR2tDbUU4VHRieHI3ZmRfWmJHcVh5aDJqT0EtSDFLM19KQlNfN3J3MFNuN2FnLW5oZldIb1RNX2VORll2TGJV?oc=5"
-    },
-    {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaTmFCc29TOVY0LTFPd1ZsV3c2cjNyRExqSktFM2h1RzZ6a2Z0Z2owYzcxa3NRRFFxWmlDX2ZZUHlFaTRYakdoRk16cHlWdDkzazFYM3lWQnpvNjA?oc=5"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/euronext-suspends-coinshares-zcash-etp-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Specific approval status from regulators"
+   "missing": "Resumption or launch date"
+  },
+  {
+   "t": "VanEck Launches Wealth Builder ETF with Bitcoin Allocation",
+   "type": "etf",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "VanEck has launched its multi-asset Wealth Builder ETF featuring a 2% Bitcoin target allocation alongside stocks and bonds.",
+   "per": {
+    "BTC": "Expands traditional market exposure and institutional-grade access to Bitcoin."
+   },
+   "direction": "positive",
+   "quality": 70,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOTFIVUFocHJrLXZCU0Rucms5Ung2dmNveTAya2VsT2staUx0Q0k4UlhfOUhheDl6SFNZOFJXejNtTTlRSVBkUk5yOHhvekNlX3R3T0h0QkJuci1jLWFzblpodHh5QV95NkdteGVqSmJkQy15YzJSZ1N4ei1faGZZSTRHMy1mNXZ6ejhYaXh1dnJsV2E3dGRLby1ZTS1Xd2g5a0hUMzlVb3owbnN1N1JGOWtxWE1oa0Z0OU5r?oc=5"
+    },
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOS3V5Q21HUU1FMHRjWGJ4ZS1UV1ZHQkg5WkxvaEJxY3M5bnVWRkFQRXp6TDJIb1ptMVo2VjJvS1F4RjVrcjlFX0R5eFN0ZVRLV3lfRGtaRkhPS0MyYkttdzI3OTNoUUtMT3ppWGZwbWh3ZWdONUdGYnZ2NHdDZVhrVHV0aDdsbzdOcWk0cVZlcTdvQ0diQXRhLWxnNVpCSXNCcFR0SUlfRWZkdDhpUTdrY0otX2YxckNuaU9mVTVYRzJMTVVpRDVyU05yU1huYlVzU3ZjMHp3?oc=5"
+    },
+    {
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX01ZTXMxa1lSM1J2Zl9kVHRUZEkzX3Y1ZXdVZFNxQ1pBRnJ4ZE5tOERiQjROOEpGd2FGTGZKY3MtQXA2RW1sVTRLNldCX2pXYUtyLVFsSTYxQ0hwQ18zS0VIczE3cF9kdTAyU3VlVTlHX0ozdUgwN05PRU13VlB4aXhCdy02aUdLTmtYcDByM2t6NEQzU2pqa2hUdkhCQ282R2U0bG04N1FUaGpI?oc=5"
+    },
+    {
+     "name": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUWhma0tOeXpobThfSVJTLVc1RERCQ0pLUWhxNDN4RWJNd3VlNkhmbUcwdnRmWWc3NUxWXzZIeUp4VUVZZjNnUmlQcmtTWElrZHhTYnVKSzlxVWR4bHY1dnc5UmhnWjQwTzRTaWJVcUNubUlJOHlWZjluckNmSkczLWhYeE1mN1FaU0NTWkUwdVdEaVRBbjJ5UHVn?oc=5"
+    }
+   ],
+   "missing": "Total initial capital inflows"
   }
  ]
 }
