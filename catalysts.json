@@ -1,20 +1,98 @@
 {
- "updated": "2026-10-28T18:36:59.889697+00:00",
+ "updated": "2026-10-28T22:51:47.946552+00:00",
  "cards": [
   {
-   "t": "Coinbase Lists Ripple's RLUSD Stablecoin",
+   "t": "Datavault AI Reports Inability to Access Held Bitcoin Assets",
+   "type": "treasury",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Bitcoin treasury firm Datavault AI's stock plunged after announcing it cannot withdraw its BTC held on Biconomy since June, forcing an accounting restatement.",
+   "per": {
+    "BTC": "Direct custody failure for a corporate treasury holding."
+   },
+   "direction": "negative",
+   "quality": 91,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-treasury-datavault-ai-plunges-50-after-firm-says-it-can-t-access-its-btc"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/382116/bitcoin-treasury-datavault-ai-stock-crashes-cant-access-btc"
+    }
+   ],
+   "missing": "Resolution timeframe for the locked funds."
+  },
+  {
+   "t": "VanEck Launches Wealth Builder ETF with Bitcoin Exposure",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "VanEck is launching its multi-asset Wealth Builder ETF (WBMO), which includes a targeted 2% Bitcoin allocation via a spot Bitcoin ETP.",
+   "per": {
+    "BTC": "Gains additional institutional exposure through a new multi-asset ETF vehicle."
+   },
+   "direction": "positive",
+   "quality": 88,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOTFIVUFocHJrLXZCU0Rucms5Ung2dmNveTAya2VsT2staUx0Q0k4UlhfOUhheDl6SFNZOFJXejNtTTlRSVBkUk5yOHhvekNlX3R3T0h0QkJuci1jLWFzblpodHh5QV95NkdteGVqSmJkQy15YzJSZ1N4ei1faGZZSTRHMy1mNXZ6ejhYaXh1dnJsV2E3dGRLby1ZTS1Xd2g5a0hUMzlVb3owbnN1N1JGOWtxWE1oa0Z0OU5r?oc=5"
+    },
+    {
+     "name": "Coinfomania",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONTU3UmtUbzJqZ2l3RThvRFo0bV9ZTlJuczlNUzFZVG82TUs4NEhnXzNwSDR5bFhCLThFSFJjcWl2TEp6d3dKcWZmUWZaUkZNNUp0Z1hVVkVUd01CVmFzOE9XSG9aeUhMVkkyV3FjRmJQZjBSRXRwSjVvRG1FaVRpR1BNX1RncFNlOUczY0lwZw?oc=5"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/vaneck-launches-diversified-etf-combining-stocks-bonds-and-bitcoin-exposure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Exact trading start date."
+  },
+  {
+   "t": "Coinbase Lists Ripple\u2019s RLUSD Stablecoin",
    "type": "listing",
    "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "RLUSD",
-    "XRP"
+    "RLUSD"
    ],
    "rel": "direct",
-   "b": "Coinbase has added Ripple's RLUSD stablecoin to its platform, supporting transfers across three networks for retail and institutional users.",
+   "b": "Coinbase is listing Ripple's RLUSD stablecoin with transfers enabled across three networks for retail and institutional users.",
    "per": {
-    "RLUSD": "Expanded platform availability on Coinbase brings wider retail and institutional access.",
-    "XRP": "Benefits from the ecosystem expansion of Ripple's stablecoin initiatives."
+    "RLUSD": "Listing on Coinbase expands market access and liquidity for the stablecoin."
    },
    "direction": "positive",
    "quality": 87,
@@ -41,40 +119,36 @@
     {
      "name": "The Crypto Times",
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUktzMjFiVlY3aTltU1kyZElaaURRaUtvR0N2SkdWcU5EcHhud252WVhmQ0NrVTdxVjVpbk9hc0ZWZmNCZE9OY0JlSHBFa3JkTk91MC00eTlBSkw0LTBPdzdPQU9HR0p1Yzctb1RHUnpQRDVjdWR6d2Nma0w0dEFnOWNEUUNPM0NzdGlXb0IxZ2VPZUViTkZ2NVlKQThZQnVuT0tvdU5zaHJSVGhJWWtSU1lmRQ?oc=5"
-    },
-    {
-     "name": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaUFFcTlxV19IOVRhUXJvR0dpMXZlVERNRXRNM3FQaUNTVC1idktvU01weWZsRzlxT3FRU0VtOUhodlRaQTFtOFhuaUlTaDMzOVRSSm9BUW5tVlhRX1ViVko5WWhYV0g0bUIxVTlZbnNVNDZRRV9JYjBac3Y1Y3lhZFl4R3N2bzVFd1FkOVl4dGk4SUhNQlFzYzZDZDJPRkRHMVM0?oc=5"
     }
    ],
-   "missing": "Exact launch time on the platform"
+   "missing": "Exact launch time or date."
   },
   {
-   "t": "Strategy Approves Daily Dividends for Preferred Stocks including STRC",
-   "type": "treasury",
-   "status": "officially_announced",
+   "t": "Strategy Shareholders Approve Daily Dividends for Preferred Stock",
+   "type": "other",
+   "status": "confirmed_upcoming",
    "event_date": "2026-11-01",
    "coins": [
     "BTC"
    ],
    "rel": "indirect",
-   "b": "Following a shareholder vote, Strategy's preferred stocks, including STRC, are moving to daily dividend payments starting in November.",
+   "b": "Strategy shareholders voted overwhelmingly in favor of moving its preferred stock STRC to daily dividend payments starting in November.",
    "per": {
-    "BTC": "Positive sentiment for major corporate Bitcoin treasury management structures."
+    "BTC": "Reinforces the corporate treasury model holding Bitcoin."
    },
    "direction": "positive",
-   "quality": 73,
-   "label": "MODERATE CATALYST",
+   "quality": 75,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 21,
     "relevance": 12,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 7,
+   "impact": 8,
    "s": "building",
-   "c": "medium",
+   "c": "high",
    "sources": [
     {
      "name": "coindesk.com",
@@ -83,12 +157,16 @@
     {
      "name": "cointelegraph.com",
      "url": "https://cointelegraph.com/news/strategy-shareholders-approve-daily-dividends-for-four-preferred-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/382066/strategy-shareholders-approve-daily-dividends-on-preferred-stock-with-99-3-in-favor"
     }
    ],
-   "missing": "Exact date in November for the initial payout"
+   "missing": "Exact day in November dividends begin."
   },
   {
-   "t": "Euronext Halts CoinShares Zcash ETP Debut",
+   "t": "Euronext Halts CoinShares Zcash ETP Ahead of Debut",
    "type": "etf",
    "status": "delayed",
    "event_date": null,
@@ -96,9 +174,9 @@
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Euronext suspended the debut of CoinShares' physical Zcash ETP due to operational settlement requirements and CSD support issues.",
+   "b": "Euronext suspended the launch of CoinShares' Zcash ETP citing operational settlement and CSD requirements.",
    "per": {
-    "ZEC": "Short-term setback for new regulated ETP accessibility."
+    "ZEC": "Delays scheduled ETP product launch and associated institutional inflows."
    },
    "direction": "negative",
    "quality": 73,
@@ -119,53 +197,7 @@
      "url": "https://cointelegraph.com/news/euronext-suspends-coinshares-zcash-etp-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Resumption or launch date"
-  },
-  {
-   "t": "VanEck Launches Wealth Builder ETF with Bitcoin Allocation",
-   "type": "etf",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "VanEck has launched its multi-asset Wealth Builder ETF featuring a 2% Bitcoin target allocation alongside stocks and bonds.",
-   "per": {
-    "BTC": "Expands traditional market exposure and institutional-grade access to Bitcoin."
-   },
-   "direction": "positive",
-   "quality": 70,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOTFIVUFocHJrLXZCU0Rucms5Ung2dmNveTAya2VsT2staUx0Q0k4UlhfOUhheDl6SFNZOFJXejNtTTlRSVBkUk5yOHhvekNlX3R3T0h0QkJuci1jLWFzblpodHh5QV95NkdteGVqSmJkQy15YzJSZ1N4ei1faGZZSTRHMy1mNXZ6ejhYaXh1dnJsV2E3dGRLby1ZTS1Xd2g5a0hUMzlVb3owbnN1N1JGOWtxWE1oa0Z0OU5r?oc=5"
-    },
-    {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOS3V5Q21HUU1FMHRjWGJ4ZS1UV1ZHQkg5WkxvaEJxY3M5bnVWRkFQRXp6TDJIb1ptMVo2VjJvS1F4RjVrcjlFX0R5eFN0ZVRLV3lfRGtaRkhPS0MyYkttdzI3OTNoUUtMT3ppWGZwbWh3ZWdONUdGYnZ2NHdDZVhrVHV0aDdsbzdOcWk0cVZlcTdvQ0diQXRhLWxnNVpCSXNCcFR0SUlfRWZkdDhpUTdrY0otX2YxckNuaU9mVTVYRzJMTVVpRDVyU05yU1huYlVzU3ZjMHp3?oc=5"
-    },
-    {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX01ZTXMxa1lSM1J2Zl9kVHRUZEkzX3Y1ZXdVZFNxQ1pBRnJ4ZE5tOERiQjROOEpGd2FGTGZKY3MtQXA2RW1sVTRLNldCX2pXYUtyLVFsSTYxQ0hwQ18zS0VIczE3cF9kdTAyU3VlVTlHX0ozdUgwN05PRU13VlB4aXhCdy02aUdLTmtYcDByM2t6NEQzU2pqa2hUdkhCQ282R2U0bG04N1FUaGpI?oc=5"
-    },
-    {
-     "name": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUWhma0tOeXpobThfSVJTLVc1RERCQ0pLUWhxNDN4RWJNd3VlNkhmbUcwdnRmWWc3NUxWXzZIeUp4VUVZZjNnUmlQcmtTWElrZHhTYnVKSzlxVWR4bHY1dnc5UmhnWjQwTzRTaWJVcUNubUlJOHlWZjluckNmSkczLWhYeE1mN1FaU0NTWkUwdVdEaVRBbjJ5UHVn?oc=5"
-    }
-   ],
-   "missing": "Total initial capital inflows"
+   "missing": "New target listing date."
   }
  ]
 }
