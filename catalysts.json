@@ -1,64 +1,58 @@
 {
- "updated": "2026-10-28T06:09:47.510536+00:00",
+ "updated": "2026-10-28T12:48:56.045987+00:00",
  "cards": [
   {
-   "t": "Ripple Receives Final OCC Approval for National Trust Bank",
-   "type": "regulation",
-   "status": "completed",
+   "t": "Datavault AI Plunges After Bitcoin Withdrawal Failure",
+   "type": "treasury",
+   "status": "ongoing",
    "event_date": null,
    "coins": [
-    "XRP"
+    "BTC"
    ],
    "rel": "direct",
-   "b": "The Office of the Comptroller of the Currency (OCC) has granted Ripple final approval to launch Ripple National Trust Bank (RNTB). The federally supervised entity will manage reserves backing the RLUSD stablecoin and offer digital asset custody.",
+   "b": "Datavault AI stock dropped 50% after reporting it cannot withdraw bitcoin held on Biconomy, forcing a $92.2 million accounting reduction.",
    "per": {
-    "XRP": "Gains final regulatory backing as Ripple secures a U.S. national trust bank charter."
+    "BTC": "Inability to withdraw treasury bitcoin led to major corporate accounting write-downs."
    },
-   "direction": "positive",
-   "quality": 87,
-   "label": "COMPLETED CATALYST",
+   "direction": "negative",
+   "quality": 91,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 21,
+    "credibility": 19,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 6
+    "timing": 12
    },
    "impact": 9,
-   "s": "fading",
+   "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "Cryptonews",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN3pNWkhFVXBJcVBLV1VMVnExSmlkQ01jZVBKUzZMMzg5WlIzZlA0Y1dGWUpnZ3daYnlETkZhT0Y5ZFIzQ0tZWEFseWItZW0xQXpfUkJsTTJZOHhZeGNmQ1EtN2U5bmRpX19pZDllU01PRDU2cXZLeEd4dTdXRENGU2Zjb2tzMTJwQnNFRXRDaXhGQU82?oc=5"
-    },
-    {
      "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/27/ripple-gets-a-final-go-ahead-to-launch-its-own-u-s-national-trust-bank"
+     "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-treasury-datavault-ai-plunges-50-after-firm-says-it-can-t-access-its-btc"
     },
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/ripple-wins-final-us-approval-for-national-trust-bank?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/381899/ripple-wins-final-occ-approval-for-trust-bank-behind-2-6b-rlusd-stablecoin"
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-10-27-datavault-ai-stock-plummets-bitcoin-deal-431962"
     }
    ],
-   "missing": "The exact operational launch date of the trust bank."
+   "missing": "Resolution timeline for recovering the locked bitcoin funds"
   },
   {
-   "t": "Upbit Lists Nillion (NIL) with KRW Market",
+   "t": "Coinbase Lists Ripple's RLUSD Stablecoin",
    "type": "listing",
    "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "NIL"
+    "RLUSD",
+    "XRP"
    ],
    "rel": "direct",
-   "b": "Upbit has announced the KRW market listing for Nillion (NIL), prompting a 26% price surge following the launch.",
+   "b": "Coinbase has announced plans to list Ripple's RLUSD stablecoin with transfers enabled across three networks for retail and institutional users.",
    "per": {
-    "NIL": "Listed on Upbit's KRW market, driving a 26% price increase."
+    "RLUSD": "Expanding accessibility via Coinbase listing.",
+    "XRP": "Gains ecosystem tailwinds from broader adoption of Ripple's stablecoin."
    },
    "direction": "positive",
    "quality": 85,
@@ -75,53 +69,137 @@
    "c": "high",
    "sources": [
     {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ubnViUGJXbDVqMlBRWkpPRFNvRUNfT0Q3c2hqZU5aUVRHYmpaWXM2ZTJKbGlQWENmQ0VmUXVDZEtxS3drazl4WU8zT01jLVJlRUFDWQ?oc=5"
+     "name": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQ19tUVRsSWlKOExoU2JvclNHZVo5Ynk5Sy1sM1NXVnVub0RKakRXeHpGY1ZSanZ6SHlBb0tKTW1CNU5NWDhJT2t4X2dpWFptaE9zZXA5X0FUbGlRb3BiZ3ZpZ3JteWp0RDdycGZSYmVWdm9lNF9GLU5jQjVsOUE1Yk1VNVM2dmE2eEhTSF9MZkl2UlA2WjRDaEh1NGZQVnc?oc=5"
     },
     {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORUxSMHk5bW0xNVhpRUt5Ylpvb01QZ2pGSnc1OExNQXRYNU9JMERpRFRxQ3dXTVRBSW42OFA4ajJXTE01T1pLc2xiZURvVjBkTTRqenU1SnpwUmdaUDZ5LXh0b0lkQjJ0LTJsV2V6eEdSc3VyelJvbmJuRWhlUjFlclFWbmNLM19ldTl5Sw?oc=5"
+     "name": "The Crypto Times",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUktzMjFiVlY3aTltU1kyZElaaURRaUtvR0N2SkdWcU5EcHhud252WVhmQ0NrVTdxVjVpbk9hc0ZWZmNCZE9OY0JlSHBFa3JkTk91MC00eTlBSkw0LTBPdzdPQU9HR0p1Yzctb1RHUnpQRDVjdWR6d2Nma0w0dEFnOWNEUUNPM0NzdGlXb0IxZ2VPZUViTkZ2NVlKQThZQnVuT0tvdU5zaHJSVGhJWWtSU1lmRQ?oc=5"
     }
    ],
-   "missing": "Exact listing time and trading pair specifics."
+   "missing": "Exact launch time or date on Coinbase"
   },
   {
-   "t": "Binance Delists 22 Tokens While Seeking Brazil License",
-   "type": "delisting",
-   "status": "confirmed_upcoming",
+   "t": "Ripple Gains Final OCC Approval for National Trust Bank",
+   "type": "regulation",
+   "status": "completed",
    "event_date": null,
    "coins": [
-    "BNB"
+    "RLUSD",
+    "XRP"
    ],
    "rel": "direct",
-   "b": "Binance is delisting 22 crypto assets for Brazilian users ahead of a regulatory deadline as it applies for a local crypto license with the central bank.",
+   "b": "Ripple has secured final OCC approval to launch a national trust bank to manage reserves for its $2.6 billion RLUSD stablecoin under federal oversight.",
    "per": {
-    "BNB": "Binance exchange ecosystem affected by compliance moves in Brazil and asset removals."
+    "RLUSD": "Brought under federal regulatory oversight with reserve management.",
+    "XRP": "Reinforced institutional standing and regulatory clarity."
    },
-   "direction": "negative",
-   "quality": 73,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 85,
+   "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 19,
-    "relevance": 12,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/381899/ripple-wins-final-occ-approval-for-trust-bank-behind-2-6b-rlusd-stablecoin"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/regulation/2026-10-26-ripple-gains-final-occ-approval-rlusd-431810"
+    }
+   ],
+   "missing": "Operational rollout date of the national trust bank"
+  },
+  {
+   "t": "Galaxy Digital Announces $200 Million Share Buyback",
+   "type": "buyback",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "GLXY"
+   ],
+   "rel": "direct",
+   "b": "Galaxy Digital returned to profitability in the third quarter and authorized a new $200 million share buyback program.",
+   "per": {
+    "GLXY": "Company authorized a $200 million buyback following a quarterly profit."
+   },
+   "direction": "positive",
+   "quality": 84,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 7,
+   "impact": 8,
    "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-10-27-galaxy-digital-323-million-quarterly-profit-new-200-million-share-buyback-431860"
+    }
+   ],
+   "missing": "Timeline and execution schedule for the buyback program"
+  },
+  {
+   "t": "GraniteShares Delays 3x Crypto ETFs to Nov. 30",
+   "type": "etf",
+   "status": "delayed",
+   "event_date": "2026-11-30",
+   "coins": [
+    "BTC",
+    "ETH",
+    "XRP",
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "GraniteShares has pushed back the effective dates for its 3x leveraged XRP, Bitcoin, Ether, and Solana exchange-traded funds to November 30.",
+   "per": {
+    "BTC": "Leveraged ETF launch delayed to November 30.",
+    "ETH": "Leveraged ETF launch delayed to November 30.",
+    "XRP": "Registration amendment and ETF effective date moved to November 30.",
+    "SOL": "Leveraged ETF launch delayed to November 30."
+   },
+   "direction": "negative",
+   "quality": 68,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 4
+   },
+   "impact": 7,
+   "s": "fading",
    "c": "medium",
    "sources": [
     {
-     "name": "The Defiant",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQazVGUG40ZllyM0NWSVRLUk00ZW5xT1U3dmRRVGw0dk5lTllhSXdVckhkdW1zcTRNNVlQV3RMUDB1Qk45bWpIN3ZmU1lrdkNYTkwybmk4TEpUdFZKY3pvRlY1eExOc0UzRndUVXMzVHRCSmhDYmpqQ1gwdkE1SmdpMWNSNl9hcmNTSkVaRG1FU2kxTXp2VFVESWlxbWdpQQ?oc=5"
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5oSngwZ0F6YnY2dnBNOXF6a09DWF9xU29LMkNHb01PRGhxaGgyRzdxQlNfMndvRDZKZmRSSnZ6M0FrTldUc05zaVpjWlo3cnpvdjlhQTZ2LVkxamp4c3RqYktVbm9rWmdnWGpRSWZ6Q3QxWEsyVXc?oc=5"
     },
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/binance-brazil-crypto-license-oct-30-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "Coinpedia",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUU5Xcjhlb3UyaXo0MnhXZXVUYUxTUU9kQmhzTW0zekR5T1RjekEwRnZNd2IzemhyczJ6VjhVZkczcWlMcktLclF2YWo1OC0zSlZ4OFZ1b2VSVTNaeVFOREs2OHJzZWpJVE5qTzRJSUdkOHVzM1ZJVmQycWt1MEZNbVVQb3RjUnUtSS1TN3lHeWJzSTI0d3c4eHo1NXR6VFExRV9DWjFCZnJUZ9IBrwFBVV95cUxOMndJS1o1WE1MNzduM2tqQldfd2YwaUtuMEh3NmcyQ1AwTzl4Tkl0Z0hLZGdoWWVjdW9TN1pEcWdLZ3BYSXRVY3VZYWphS2xub1NkdldCSUdBaURsZ1ljMDJ6d1FYQURGWkJ1ekQ3X1UtR2tDbUU4VHRieHI3ZmRfWmJHcVh5aDJqT0EtSDFLM19KQlNfN3J3MFNuN2FnLW5oZldIb1RNX2VORll2TGJV?oc=5"
+    },
+    {
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaTmFCc29TOVY0LTFPd1ZsV3c2cjNyRExqSktFM2h1RzZ6a2Z0Z2owYzcxa3NRRFFxWmlDX2ZZUHlFaTRYakdoRk16cHlWdDkzazFYM3lWQnpvNjA?oc=5"
     }
    ],
-   "missing": "The exact names of the 22 delisted tokens and whether the license will be granted."
+   "missing": "Specific approval status from regulators"
   }
  ]
 }
