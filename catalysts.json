@@ -1,98 +1,20 @@
 {
- "updated": "2026-10-28T22:51:47.946552+00:00",
+ "updated": "2026-10-29T02:02:20.430298+00:00",
  "cards": [
   {
-   "t": "Datavault AI Reports Inability to Access Held Bitcoin Assets",
-   "type": "treasury",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Bitcoin treasury firm Datavault AI's stock plunged after announcing it cannot withdraw its BTC held on Biconomy since June, forcing an accounting restatement.",
-   "per": {
-    "BTC": "Direct custody failure for a corporate treasury holding."
-   },
-   "direction": "negative",
-   "quality": 91,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-treasury-datavault-ai-plunges-50-after-firm-says-it-can-t-access-its-btc"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382116/bitcoin-treasury-datavault-ai-stock-crashes-cant-access-btc"
-    }
-   ],
-   "missing": "Resolution timeframe for the locked funds."
-  },
-  {
-   "t": "VanEck Launches Wealth Builder ETF with Bitcoin Exposure",
-   "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "VanEck is launching its multi-asset Wealth Builder ETF (WBMO), which includes a targeted 2% Bitcoin allocation via a spot Bitcoin ETP.",
-   "per": {
-    "BTC": "Gains additional institutional exposure through a new multi-asset ETF vehicle."
-   },
-   "direction": "positive",
-   "quality": 88,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOTFIVUFocHJrLXZCU0Rucms5Ung2dmNveTAya2VsT2staUx0Q0k4UlhfOUhheDl6SFNZOFJXejNtTTlRSVBkUk5yOHhvekNlX3R3T0h0QkJuci1jLWFzblpodHh5QV95NkdteGVqSmJkQy15YzJSZ1N4ei1faGZZSTRHMy1mNXZ6ejhYaXh1dnJsV2E3dGRLby1ZTS1Xd2g5a0hUMzlVb3owbnN1N1JGOWtxWE1oa0Z0OU5r?oc=5"
-    },
-    {
-     "name": "Coinfomania",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONTU3UmtUbzJqZ2l3RThvRFo0bV9ZTlJuczlNUzFZVG82TUs4NEhnXzNwSDR5bFhCLThFSFJjcWl2TEp6d3dKcWZmUWZaUkZNNUp0Z1hVVkVUd01CVmFzOE9XSG9aeUhMVkkyV3FjRmJQZjBSRXRwSjVvRG1FaVRpR1BNX1RncFNlOUczY0lwZw?oc=5"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/vaneck-launches-diversified-etf-combining-stocks-bonds-and-bitcoin-exposure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Exact trading start date."
-  },
-  {
-   "t": "Coinbase Lists Ripple\u2019s RLUSD Stablecoin",
+   "t": "Coinbase Lists Ripple's RLUSD Stablecoin",
    "type": "listing",
-   "status": "confirmed_upcoming",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "RLUSD"
+    "RLUSD",
+    "XRP"
    ],
    "rel": "direct",
-   "b": "Coinbase is listing Ripple's RLUSD stablecoin with transfers enabled across three networks for retail and institutional users.",
+   "b": "Coinbase has officially listed Ripple's RLUSD stablecoin on its platform, supporting transfers across three networks for retail and institutional users.",
    "per": {
-    "RLUSD": "Listing on Coinbase expands market access and liquidity for the stablecoin."
+    "RLUSD": "Expanded access and liquidity through Coinbase listing.",
+    "XRP": "Positive ecosystem impact via the broader Ripple stablecoin rollout."
    },
    "direction": "positive",
    "quality": 87,
@@ -121,49 +43,41 @@
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUktzMjFiVlY3aTltU1kyZElaaURRaUtvR0N2SkdWcU5EcHhud252WVhmQ0NrVTdxVjVpbk9hc0ZWZmNCZE9OY0JlSHBFa3JkTk91MC00eTlBSkw0LTBPdzdPQU9HR0p1Yzctb1RHUnpQRDVjdWR6d2Nma0w0dEFnOWNEUUNPM0NzdGlXb0IxZ2VPZUViTkZ2NVlKQThZQnVuT0tvdU5zaHJSVGhJWWtSU1lmRQ?oc=5"
     }
    ],
-   "missing": "Exact launch time or date."
+   "missing": "Exact launch time or trading start hour."
   },
   {
-   "t": "Strategy Shareholders Approve Daily Dividends for Preferred Stock",
-   "type": "other",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-11-01",
+   "t": "Datavault AI Suffers 50% Plunge Following Missing Bitcoin Funds",
+   "type": "treasury",
+   "status": "completed",
+   "event_date": null,
    "coins": [
     "BTC"
    ],
-   "rel": "indirect",
-   "b": "Strategy shareholders voted overwhelmingly in favor of moving its preferred stock STRC to daily dividend payments starting in November.",
+   "rel": "direct",
+   "b": "Bitcoin treasury firm Datavault AI saw its stock plunge 50% after stating it cannot access its BTC held on Biconomy, requiring a $92.2 million accounting correction.",
    "per": {
-    "BTC": "Reinforces the corporate treasury model holding Bitcoin."
+    "BTC": "Treasury holdings from Datavault AI affected by access issues."
    },
-   "direction": "positive",
-   "quality": 75,
-   "label": "STRONG CATALYST",
+   "direction": "negative",
+   "quality": 83,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 12,
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 20,
     "novelty": 15,
-    "timing": 15
+    "timing": 6
    },
    "impact": 8,
-   "s": "building",
+   "s": "fading",
    "c": "high",
    "sources": [
     {
      "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/strategy-shareholders-approve-daily-dividends-for-four-preferred-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382066/strategy-shareholders-approve-daily-dividends-on-preferred-stock-with-99-3-in-favor"
+     "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-treasury-datavault-ai-plunges-50-after-firm-says-it-can-t-access-its-btc"
     }
    ],
-   "missing": "Exact day in November dividends begin."
+   "missing": "Whether the funds can be recovered."
   },
   {
    "t": "Euronext Halts CoinShares Zcash ETP Ahead of Debut",
@@ -174,9 +88,9 @@
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Euronext suspended the launch of CoinShares' Zcash ETP citing operational settlement and CSD requirements.",
+   "b": "Euronext suspended CoinShares' new physical Zcash ETP prior to its launch due to operational settlement requirements and CSD support issues.",
    "per": {
-    "ZEC": "Delays scheduled ETP product launch and associated institutional inflows."
+    "ZEC": "Launch of physical ETP product delayed pending settlement support."
    },
    "direction": "negative",
    "quality": 73,
@@ -197,7 +111,79 @@
      "url": "https://cointelegraph.com/news/euronext-suspends-coinshares-zcash-etp-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "New target listing date."
+   "missing": "Resumption or new launch date."
+  },
+  {
+   "t": "Strategy Shareholders Approve Daily Dividends for Preferred Stocks",
+   "type": "other",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-11-01",
+   "coins": [
+    "BTC"
+   ],
+   "rel": "indirect",
+   "b": "Strategy shareholders approved a move to daily dividends for preferred stocks, with STRC starting payouts in November 2026 and three other securities following in January 2027.",
+   "per": {
+    "BTC": "Treasury operational changes for major holder Strategy."
+   },
+   "direction": "positive",
+   "quality": 66,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 12,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/strategy-shareholders-approve-daily-dividends-for-four-preferred-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Exact day in November 2026 for STRC."
+  },
+  {
+   "t": "Blockchain.com Launches TRX Options",
+   "type": "listing",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "TRX"
+   ],
+   "rel": "direct",
+   "b": "Blockchain.com has launched TRX options to expand global access to the TRON ecosystem.",
+   "per": {
+    "TRX": "Expanded derivatives access via Blockchain.com options launch."
+   },
+   "direction": "positive",
+   "quality": 66,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "BeInCrypto",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5YcGhRWXJWRGZpWS15SHE2UVVCZEVNcHQ1VVpvR0wwb0ctd3J2Ml94OE52d3FFOWFuTGdNZXZLc0pXcG4yV1ZsVkRvUVJ3LThHTlhTU0U3cGFpeTRsMTk1ZXluRTVrZGxQNVF0ZUtjejI?oc=5"
+    }
+   ],
+   "missing": "Trading volume metrics."
   }
  ]
 }
