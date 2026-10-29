@@ -1,18 +1,18 @@
 {
- "updated": "2026-10-29T15:23:20.242036+00:00",
+ "updated": "2026-10-29T20:24:48.199240+00:00",
  "cards": [
   {
-   "t": "Hyperliquid perps coming to U.S. via ICE",
-   "type": "other",
-   "status": "confirmed_upcoming",
+   "t": "NYSE Owner ICE Plans U.S. Hyperliquid Perps via Trade[XYZ]",
+   "type": "partnership",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
     "HYPE"
    ],
    "rel": "direct",
-   "b": "The owner of the NYSE (ICE) is investing in Trade[XYZ] to bring regulated Hyperliquid perpetual futures to the U.S. market.",
+   "b": "The NYSE parent company, Intercontinental Exchange (ICE), is partnering with and investing in Trade[XYZ] to bring regulated 24/7 perpetual futures built on Hyperliquid to the United States, pending CFTC approval.",
    "per": {
-    "HYPE": "Future integration into regulated U.S. venue via ICE partnership."
+    "HYPE": "Saw significant price gains following the announcement of ICE and Trade[XYZ] bringing Hyperliquid perps to the U.S."
    },
    "direction": "positive",
    "quality": 94,
@@ -30,42 +30,92 @@
    "sources": [
     {
      "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/29/stanley-druckenmiller-s-first-x-post-backs-hyperliquid-venture-after-usd23-million-indirect-investment"
+    },
+    {
+     "name": "coindesk.com",
      "url": "https://www.coindesk.com/markets/2026/10/29/nyse-owner-takes-steps-to-bring-hyperliquid-perpetual-futures-to-u-s"
     },
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-10-29-ice-tradexyz-hyperliquid-perpetual-futures-us-432132"
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/382149/hyperliquid-hype-jumps-nyse-owner-ice-perpetual-futures-us"
     }
    ],
-   "missing": "Timeline for U.S. launch."
+   "missing": "Exact CFTC approval timeline."
   },
   {
-   "t": "Binance lists Predict.fun (PREDICT)",
+   "t": "Polymarket Pauses Trading Following Security Incident",
+   "type": "hack",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "POL"
+   ],
+   "rel": "direct",
+   "b": "Polymarket suspended trading and restricted relayer actions after a third-party provider breach led to drained user funds and millions stolen, with a suspected attacker wallet holding about $2.65 million in POL.",
+   "per": {
+    "POL": "Implicated as the token held in suspected exploiter wallets following the breach."
+   },
+   "direction": "negative",
+   "quality": 93,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/29/polymarket-suspends-trading-after-third-party-breach-leads-to-user-losses"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/382185/polymarket-pauses-trading-prediction-market-security-incident"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/defi/2026-10-29-polymarket-exploit-2-5-million-cancel-only-mode-432158"
+    }
+   ],
+   "missing": "Total exact financial loss and identity of the compromised third-party provider."
+  },
+  {
+   "t": "Binance Lists Predict.fun (PREDICT)",
    "type": "listing",
-   "status": "officially_announced",
+   "status": "confirmed_upcoming",
    "event_date": "2026-10-30",
    "coins": [
     "PREDICT"
    ],
    "rel": "direct",
-   "b": "Binance has officially announced the listing of the PREDICT token, with a launch scheduled for October 30, 2026.",
+   "b": "Binance has announced plans to list Predict.fun (PREDICT) with a Seed Tag, with the token launch starting on October 30, 2026. The listing includes an airdrop split.",
    "per": {
-    "PREDICT": "Listing on Binance on October 30."
+    "PREDICT": "Scheduled for Binance listing and token launch on October 30, 2026, with a Seed Tag."
    },
    "direction": "positive",
-   "quality": 85,
+   "quality": 87,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 10,
+    "credibility": 12,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
+    {
+     "name": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1QVGpENy04TnJ3SW1yQVVkSlVQRl9wWjdhMnh0Zk1ma0ZrakhHYWZZNWYyQTNxZVpsUEkweGd5aTFxYUUwM2lNaktHLTFBTW9JN21uQWVYOWw?oc=5"
+    },
     {
      "name": "Blockchain News",
      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWDdzUFBuenRveHBPYVZNN2c1dEhZd2FPZGpaT3Fhc3VQcDVuU21hUGRvN3oxQnpMZEt4QTV2V01xTlBhU1FnSlRLTzVtQUEwVC1zM0R2NFMzLUo2ZFZ6b1FpQm5aTmdUa3diSFRlTEgzN2N6ckItQjVGUjdLcFpmOHhB?oc=5"
@@ -75,34 +125,34 @@
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN2loUEdxYW5uazltVnc1SXhxdDljMmk1VlFpVmtaZFk3OThZWXhlUUF5MVloS1VEX3JFOUVwdUZQUUhpLXpZRjM5enlPLVE2SjRCOXdDYWRtN3ctRlRsQUpmNHc0dVJtU0JHOGxlZjF3NEFqcEszWE5Ib25lYVVoRlFObTktOEFKQndkaHlFUQ?oc=5"
     }
    ],
-   "missing": "None"
+   "missing": "Exact listing hour and initial trading pair liquidity details."
   },
   {
-   "t": "Coinbase adds Ripple\u2019s RLUSD stablecoin",
+   "t": "Coinbase Lists Ripple RLUSD Stablecoin",
    "type": "listing",
    "status": "completed",
    "event_date": null,
    "coins": [
-    "RLUSD",
-    "XRP"
+    "XRP",
+    "RLUSD"
    ],
    "rel": "direct",
-   "b": "Coinbase has enabled trading for Ripple's RLUSD stablecoin across its retail, exchange, and Prime platforms.",
+   "b": "Coinbase has officially listed Ripple's RLUSD stablecoin across retail, exchange, and Prime platforms, providing 1:1 USD conversion on the XRP Ledger, Ethereum, and Base.",
    "per": {
-    "RLUSD": "Now live on Coinbase platforms.",
-    "XRP": "Indirectly benefits from the integration of the RLUSD stablecoin."
+    "RLUSD": "Went live on Coinbase with 1:1 USD conversion across multiple networks.",
+    "XRP": "Benefiting from broader integration and ecosystem expansion following RLUSD's Coinbase debut and Moody's A2 rating."
    },
    "direction": "positive",
-   "quality": 79,
+   "quality": 87,
    "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 21,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 6
    },
-   "impact": 8,
+   "impact": 9,
    "s": "fading",
    "c": "high",
    "sources": [
@@ -111,135 +161,41 @@
      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOS3NoV1cxQWtxZGxCck5Oa24zc2hLN2tzWWgxeERxY2lyVFlPcjQwTUJvc3B2eUpMc3pCYVNPdHpkXzBYaWdwWjI0UWtXOWFHdGUyTDdBUVRwTDUtdEVyd3c4NnJwa0U4WW9XTnczc21iaDdSa2dCWjRYX1NFaVZFNFgyLU5nVmpTRVlPdkRXRzhoVTFpNWYyNUZZVW5FekxWcFVZVmNzMmlNeGVGZm5PbU85Q2dkM0JlUjlPV2pFRVpoQjhQbk5TLXdYSnBoZGw5Smlld01BTzVxaWtuc3VRdFktd2N6eWxndUpV?oc=5"
     },
     {
-     "name": "The American Bazaar",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcWZ5blJlY3gtcTlrVVNVTmlRQkhBa1Rhc0JvOG40eHdnZzc5TmpqWFZYc3lBSk9tTFVzYnBpSndUU0JMSFpCcjU5MjhoZ2RCWTdtelQyR1BybGwzTE4zRDQ3ZkpYbjJXWHJtMHN6NFpxVEl3QUpiMFNfQ2w3bTFWX29nMGEtaE4zTjJTNEtXeWZybnBpWmVZR0Z4WWp4Wk92TF9zcFQxNmNCdw?oc=5"
-    },
-    {
-     "name": "Crypto News",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPLXNzdjJQN1NMR3BmRl9lZHZQNEVONC05TlVnbEhmblBTMVhIRnlrcjlVaDAwYmF1WGdMbXFkSGhadGFfSElqcGI0REJvTmVHZzN4QUJWUk51S0RtaVZVbTFoSHBsYXAtTEpwc1ZfOGJmcEhVeDZDSUpfMElHcG1scVR3?oc=5"
-    },
-    {
      "name": "Serrari Group",
      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWEFQUUpJcDlNNFlGaF8wd2t4NXRZWU9YVXExd1NfcWlyZmdfcndLOGxYUEFucldONE9mZkh0Rk41U241Mkp6eVZ1VWZKWE1SU2hWclRSSlI2ci01V0E0NVA3YUV6bEowUmRNMDBBazlHT3NZRklSczZlX29GOVhhTndaNk9taGVi?oc=5"
-    }
-   ],
-   "missing": "None"
-  },
-  {
-   "t": "HTX halted from UK crypto promotions",
-   "type": "regulation",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "HTX"
-   ],
-   "rel": "direct",
-   "b": "HTX has agreed to cease targeting UK consumers following an FCA case, including blocking new registrations and deposits in the region until 2031.",
-   "per": {
-    "HTX": "UK market access restricted by regulatory action."
-   },
-   "direction": "negative",
-   "quality": 79,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/htx-halt-unlawful-uk-crypto-promotions-fca?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382138/justin-suns-htx-agrees-to-leave-uk-in-settlement-with-financial-watchdog"
-    },
-    {
-     "name": "Finance Magnates",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONHFCeVh1VlQ5NW03RldOeTRpYmsyeGhSbWRQYzBNQjhydkM0NERMVWhJczEwNERqYkZlVUlnVXlQMjk4MDNGNWFHanRhbGJwc3B1X1ZWSllqLUVrLXVLS01uYkNMYmZ1UVBZbzlSbEg3VHMzbGQ3MTNKR3RqUEU3c19XVVN0WGZMX1l5eFZpTEtBakVZdzIzUk9zUDFnT0xfNU9LOFhraWV4OERBS2tULTk2Umc1VUpqOWxadG1aanROTnlGdXZaMEhfSFh3Zm12amc?oc=5"
-    },
-    {
-     "name": "Investment Week",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNLTVIZU1VRDVRU3JPRTI4eXpQcHhZRThtUTUyRXBhRG9ScHNsOGZnRW1iLU1EZG9aby1pekNsY3FjaEI1em84SFcwQXJhQ25uUC1BLWlHa3BEV2xVTHY2a2JoemJhS0daS3F2cFNfcmFxZ2R2bHYyaUhsdW9CTWQyRFpkZ2tYS3JMc0V2d2JIR2tPcjdoU0NER2kxVGhibWc?oc=5"
-    }
-   ],
-   "missing": "None"
-  },
-  {
-   "t": "Polygon expands payment stack to Solana",
-   "type": "partnership",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "POL",
-    "SOL"
-   ],
-   "rel": "direct",
-   "b": "Polygon has integrated its payment infrastructure with Solana, allowing businesses to connect bank funding and stablecoins to the network.",
-   "per": {
-    "POL": "Expanded interoperability with Solana.",
-    "SOL": "Integration with Polygon payment infrastructure."
-   },
-   "direction": "positive",
-   "quality": 72,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/polygon-brings-open-money-stack-payments-services-to-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/381850/polygon-stablecoin-payments-open-money-stack-solana"
     },
     {
      "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-10-29-polygon-adds-solana-payment-stack-432115"
+     "url": "https://www.theblock.co/news/business/2026-10-28-coinbase-adds-ripple-rlusd-stablecoin-432009"
     }
    ],
-   "missing": "None"
+   "missing": "Specific trading volume statistics since going live."
   },
   {
-   "t": "Strategy shareholders approve daily dividends for STRC",
-   "type": "other",
-   "status": "completed",
+   "t": "Strategy Approves Daily Dividends on Preferred Stock STRC",
+   "type": "treasury",
+   "status": "confirmed_upcoming",
    "event_date": "2026-11-01",
    "coins": [
-    "STRC"
+    "BTC"
    ],
-   "rel": "direct",
-   "b": "Shareholders overwhelmingly approved daily dividend payments for preferred stocks, with payments for STRC beginning in November 2026.",
+   "rel": "indirect",
+   "b": "Strategy shareholders overwhelmingly approved daily dividends for preferred stock securities, with STRC beginning daily payments starting in November.",
    "per": {
-    "STRC": "Daily dividend payments begin November 2026."
+    "BTC": "Indirectly supported by corporate treasury developments and high stock pricing metrics for Strategy."
    },
    "direction": "positive",
-   "quality": 70,
-   "label": "COMPLETED CATALYST",
+   "quality": 66,
+   "label": "MODERATE CATALYST",
    "parts": {
     "credibility": 19,
-    "relevance": 25,
+    "relevance": 12,
     "impact": 5,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
    "impact": 7,
-   "s": "fading",
+   "s": "building",
    "c": "medium",
    "sources": [
     {
@@ -251,81 +207,7 @@
      "url": "https://decrypt.co/382066/strategy-shareholders-approve-daily-dividends-on-preferred-stock-with-99-3-in-favor"
     }
    ],
-   "missing": "None"
-  },
-  {
-   "t": "Bitwise launches first U.S. NEAR ETF",
-   "type": "etf",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "NEAR"
-   ],
-   "rel": "direct",
-   "b": "Bitwise has launched the first U.S. based ETF tracking the NEAR protocol, expanding crypto investment products.",
-   "per": {
-    "NEAR": "Now featured in a U.S. spot ETF."
-   },
-   "direction": "positive",
-   "quality": 68,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 10,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdkl5dHZWRVo0ZXBoWmdnS3RsT2lBOFFrY3B4UlVFdml2cnJfZWJEVGdPa3J3WWZlS19fMXhuUUlhT3RQcXp3bnQ4cTRmZVdPSERBNDM2ajI2RmtMeWJaeXphMUJObWt3NlZrZjR0bTZtaWxzZlVKTER6cDJjdFE0cWhaZ2V1YlAtalhvNTlHWHVwc3pHc1E?oc=5"
-    },
-    {
-     "name": "Crypto Reporter",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMkJBemxVUnFDSjFLV1NSRVBCdlZYQnFGbmMxdzFnbDdhNWJFY3ZJTTVvSjljM2hQTUVManB1VERrbDVtU1RTU05QT2Rvc1dVSXhtQnRTcE43LVp2dkotOVpRcWxKbklOQkNUejRvS05jUTNOc2lrMzlkQWw2Y2ZWWjNnZXM5dzZqdFhLSExnTmo0NDZmTHRLLXVuSDFmM2tMTmlLOHNSLU9HN29zdjFQengxWm1FbkJsdmJYT3NHNWkxNXF3R2dIa2hB?oc=5"
-    }
-   ],
-   "missing": "None"
-  },
-  {
-   "t": "Curve Finance launches on Stellar",
-   "type": "mainnet",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "CRV",
-    "XLM"
-   ],
-   "rel": "direct",
-   "b": "Curve Finance has officially deployed on the Stellar mainnet, marking its first expansion outside the EVM ecosystem.",
-   "per": {
-    "CRV": "Expansion to Stellar mainnet.",
-    "XLM": "New DeFi utility via Curve integration."
-   },
-   "direction": "positive",
-   "quality": 68,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-10-29-curve-finance-stellar-432121"
-    }
-   ],
-   "missing": "None"
+   "missing": "Exact starting day of November for dividend payouts."
   }
  ]
 }
