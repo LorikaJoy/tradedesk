@@ -1,30 +1,30 @@
 {
- "updated": "2026-10-30T00:02:17.426698+00:00",
+ "updated": "2026-10-30T05:42:52.665275+00:00",
  "cards": [
   {
-   "t": "NYSE Owner ICE Plans Hyperliquid Perpetual Futures in US",
+   "t": "NYSE Parent ICE and Trade[XYZ] Bring Hyperliquid Perpetuals to U.S.",
    "type": "partnership",
-   "status": "officially_announced",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
     "HYPE"
    ],
    "rel": "direct",
-   "b": "Intercontinental Exchange (ICE) signed a deal with Trade[XYZ] and secured backing from billionaire Stanley Druckenmiller to bring regulated perpetual futures built on Hyperliquid to the United States.",
+   "b": "Intercontinental Exchange (ICE), the owner of the NYSE, has signed a deal with and invested in Trade[XYZ] to launch regulated perpetual futures built on Hyperliquid in the United States, pending CFTC approval.",
    "per": {
-    "HYPE": "Jumps 13% and teases all-time highs following the ICE and Trade[XYZ] venue announcement."
+    "HYPE": "HYPE token rallied double-digits following the announcement of the ICE partnership."
    },
    "direction": "positive",
-   "quality": 96,
+   "quality": 94,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 21,
+    "credibility": 19,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 10,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
@@ -37,65 +37,14 @@
      "url": "https://www.coindesk.com/markets/2026/10/29/nyse-owner-takes-steps-to-bring-hyperliquid-perpetual-futures-to-u-s"
     },
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/markets/hype-price-all-time-high-ice-us-hyperliquid-perps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
      "name": "decrypt.co",
      "url": "https://decrypt.co/382149/hyperliquid-hype-jumps-nyse-owner-ice-perpetual-futures-us"
     }
    ],
-   "missing": "Pending CFTC approval and the exact launch date of the US venue."
+   "missing": "Exact launch date pending regulatory approval."
   },
   {
-   "t": "Binance Security Breach and Fund Freezes",
-   "type": "hack",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "BNB",
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Binance suffered a security breach resulting in billions drained, prompting issuers like Tether and Circle to freeze $1.8 billion and Binance to freeze over $2.5 billion of the stolen funds while the hacker attempts to exit via DeFi.",
-   "per": {
-    "BNB": "Fell 7% following reports of the security breach and suspicious wallet transfers."
-   },
-   "direction": "negative",
-   "quality": 93,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets"
-    },
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/markets/binance-hack-rattles-crypto-markets-bnb-bitcoin-slide?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "The exact total stolen and final recovery amount remain unverified."
-  },
-  {
-   "t": "Polymarket Trading Suspension Following Security Incident",
+   "t": "Polymarket Suspends Trading After Security Breach",
    "type": "hack",
    "status": "ongoing",
    "event_date": null,
@@ -103,9 +52,9 @@
     "POL"
    ],
    "rel": "direct",
-   "b": "Polymarket suspended trading and paused relayer actions after a third-party provider security breach led to drained user accounts and funds leaving the platform.",
+   "b": "Polymarket temporarily suspended trading and placed its exchange in cancel-only mode after a third-party service provider suffered a security compromise that drained user funds.",
    "per": {
-    "POL": "Impacted as attacker wallets hold approximately $2.65 million in POL."
+    "POL": "POL token faced exposure as suspected attacker wallets held roughly $2.65 million following the exploit."
    },
    "direction": "negative",
    "quality": 93,
@@ -126,108 +75,61 @@
      "url": "https://www.coindesk.com/markets/2026/10/29/polymarket-suspends-trading-after-third-party-breach-leads-to-user-losses"
     },
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/polymarket-suspends-trading-user-funds-compromised?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
      "name": "decrypt.co",
      "url": "https://decrypt.co/382185/polymarket-pauses-trading-prediction-market-security-incident"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/defi/2026-10-29-polymarket-exploit-2-5-million-cancel-only-mode-432158"
     }
    ],
-   "missing": "The exact identity of the compromised third-party provider and full extent of user losses."
+   "missing": "Full details on the third-party provider and user reimbursement schedule."
   },
   {
-   "t": "Binance Spot Listing for Predict",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-10-30",
+   "t": "Binance Suffers Multi-Billion Dollar Hack",
+   "type": "hack",
+   "status": "ongoing",
+   "event_date": null,
    "coins": [
-    "PREDICT"
+    "BNB",
+    "BTC",
+    "ETH"
    ],
    "rel": "direct",
-   "b": "Binance announced the spot listing of Predict.fun (PREDICT) with a Seed Tag, setting the trading launch and token launch start for October 30, 2026, with three trading pairs.",
+   "b": "Binance suffered a suspected major hack resulting in billions of dollars in outflows across multiple blockchains, triggering a market slide and price drops for Bitcoin and BNB. Tether and Circle froze nearly $1.8 billion in assets linked to the breach, and Binance pledged to cover all user losses.",
    "per": {
-    "PREDICT": "Gains visibility as a new Binance listing with an upcoming airdrop split."
+    "BNB": "BNB dropped over 7% following the news of the exchange hack.",
+    "BTC": "Bitcoin fell back toward the $77,000 level amid market-wide liquidations.",
+    "ETH": "Ether prices slumped alongside broader crypto market declines."
    },
-   "direction": "positive",
-   "quality": 87,
-   "label": "STRONG CATALYST",
+   "direction": "negative",
+   "quality": 91,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 12,
+    "credibility": 19,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 15
+    "timing": 12
    },
    "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1QVGpENy04TnJ3SW1yQVVkSlVQRl9wWjdhMnh0Zk1ma0ZrakhHYWZZNWYyQTNxZVpsUEkweGd5aTFxYUUwM2lNaktHLTFBTW9JN21uQWVYOWw?oc=5"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead"
     },
     {
-     "name": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CU21pVDNRbGZlZDJpNnV5bEdXYXRIazQ4UzNqUWpndGhyY0pkbnZXdjJ0SjFZR0ZyZWFZUWNCZFRTV2NzX1QtVzVEdXB6dHpvR0xrRXZJX3d6Zw?oc=5"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets"
     },
     {
-     "name": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWDdzUFBuenRveHBPYVZNN2c1dEhZd2FPZGpaT3Fhc3VQcDVuU21hUGRvN3oxQnpMZEt4QTV2V01xTlBhU1FnSlRLTzVtQUEwVC1zM0R2NFMzLUo2ZFZ6b1FpQm5aTmdUa3diSFRlTEgzN2N6ckItQjVGUjdLcFpmOHhB?oc=5"
-    },
-    {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN2loUEdxYW5uazltVnc1SXhxdDljMmk1VlFpVmtaZFk3OThZWXhlUUF5MVloS1VEX3JFOUVwdUZQUUhpLXpZRjM5enlPLVE2SjRCOXdDYWRtN3ctRlRsQUpmNHc0dVJtU0JHOGxlZjF3NEFqcEszWE5Ib25lYVVoRlFObTktOEFKQndkaHlFUQ?oc=5"
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto"
     }
    ],
-   "missing": "Specific tokenomics and opening order book details."
-  },
-  {
-   "t": "Coinbase Lists Ripple RLUSD Stablecoin",
-   "type": "listing",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "XRP",
-    "RLUSD"
-   ],
-   "rel": "indirect",
-   "b": "Ripple's USD-backed stablecoin RLUSD is officially live on Coinbase following a Moody's A2 rating, expanding market availability and stability for the ecosystem.",
-   "per": {
-    "XRP": "Gains potential secondary ecosystem support from a stronger, regulated Ripple stablecoin going live on major platforms."
-   },
-   "direction": "positive",
-   "quality": 70,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "Crypto News",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPLXNzdjJQN1NMR3BmRl9lZHZQNEVONC05TlVnbEhmblBTMVhIRnlrcjlVaDAwYmF1WGdMbXFkSGhadGFfSElqcGI0REJvTmVHZzN4QUJWUk51S0RtaVZVbTFoSHBsYXAtTEpwc1ZfOGJmcEhVeDZDSUpfMElHcG1scVR3?oc=5"
-    },
-    {
-     "name": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOS3NoV1cxQWtxZGxCck5Oa24zc2hLN2tzWWgxeERxY2lyVFlPcjQwTUJvc3B2eUpMc3pCYVNPdHpkXzBYaWdwWjI0UWtXOWFHdGUyTDdBUVRwTDUtdEVyd3c4NnJwa0U4WW9XTnczc21iaDdSa2dCWjRYX1NFaVZFNFgyLU5nVmpTRVlPdkRXRzhoVTFpNWYyNUZZVW5FekxWcFVZVmNzMmlNeGVGZm5PbU85Q2dkM0JlUjlPV2pFRVpoQjhQbk5TLXdYSnBoZGw5Smlld01BTzVxaWtuc3VRdFktd2N6eWxndUpV?oc=5"
-    },
-    {
-     "name": "Serrari Group",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWEFQUUpJcDlNNFlGaF8wd2t4NXRZWU9YVXExd1NfcWlyZmdfcndLOGxYUEFucldONE9mZkh0Rk41U241Mkp6eVZ1VWZKWE1SU2hWclRSSlI2ci01V0E0NVA3YUV6bEowUmRNMDBBazlHT3NZRklSczZlX29GOVhhTndaNk9taGVi?oc=5"
-    },
-    {
-     "name": "Serrari Group",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNalhzeEpxcVp0NVBKbFFoYllvRU40dkNMVzlqamJqMEJhWmpwdE1iY2ZYazJCbEQzZENRRzB3VFkzLTVzT1daM3gxaEFIOUVzcGdydFNMNDRtZGtaVnZxUWpFaVBSR1h1eldiLXpPekZRbnRCRGdJZUtSY052YWs5dGFKdlRvY2NZ?oc=5"
-    }
-   ],
-   "missing": "Initial trading volume figures on Coinbase."
+   "missing": "Exact final loss tallies and the full recovery timeline."
   }
  ]
 }
