@@ -1,60 +1,22 @@
 {
- "updated": "2026-10-30T17:11:40.099416+00:00",
+ "updated": "2026-10-30T21:29:38.972375+00:00",
  "cards": [
   {
-   "t": "Hyperliquid Gains Momentum Following US Perps Expansion Plans",
-   "type": "partnership",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "HYPE"
-   ],
-   "rel": "direct",
-   "b": "Hyperliquid's HYPE token rose amid plans for US perpetual futures unveiled in collaboration with Trade[XYZ] and NYSE owner ICE, alongside an indirect investment from Stanley Druckenmiller.",
-   "per": {
-    "HYPE": "Pushed toward all-time highs on the partnership and regulatory expansion news."
-   },
-   "direction": "positive",
-   "quality": 96,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 10,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/10/29/stanley-druckenmiller-s-first-x-post-backs-hyperliquid-venture-after-usd23-million-indirect-investment"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/markets/hype-price-all-time-high-ice-us-hyperliquid-perps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382225/morning-minute-binances-6-4b-hack-overshadows-hyperliquids-biggest-day"
-    }
-   ],
-   "missing": "Exact launch date for the regulated US derivatives offering."
-  },
-  {
-   "t": "Polymarket Suspends Trading Following Security Incident",
+   "t": "Binance Suffers $6.3B Security Breach and Hack",
    "type": "hack",
    "status": "ongoing",
    "event_date": null,
    "coins": [
-    "POL"
+    "BNB",
+    "BTC",
+    "ETH",
+    "XRP"
    ],
    "rel": "direct",
-   "b": "Polymarket paused trading and relayer actions after a third-party provider compromise led to user account drains and stolen funds.",
+   "b": "Binance experienced a major security incident resulting in the loss of approximately $6.3 billion to $6.5 billion. The exchange has suspended withdrawals temporarily while arranging funds to cover losses and cooperating with authorities.",
    "per": {
-    "POL": "Impacted as suspected exploiter wallets hold tokens linked to the platform."
+    "BNB": "Faced downward pressure following the exchange hack and subsequent wider market selloff.",
+    "BTC": "Slid to around $77,000 amid broader market liquidations triggered by the breach."
    },
    "direction": "negative",
    "quality": 93,
@@ -71,139 +33,57 @@
    "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/29/polymarket-suspends-trading-after-third-party-breach-leads-to-user-losses"
+     "name": "Upstox",
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNNlVKT2dYN1M1Y0lXUExCV3RxR3pESHpzV1FZMGYzR2lJS01zeGU0S2IzNHVfdzJLTVd0cVp3bkp4WXIwNGgwYVVXRDBleDV6V2hJUndhRWN0ZnNFUGFtUnZBbnRFMnNac0hHbHNSbHI3OTFTcFpkWmxnbDhRbXhtTWl1T2pkWUtTMlRFUFROdjJHc0p2RDhMVk5lYXRQS2ZZVi1UYnRWM1dScmFySFZaMmJkTzI1ajdCWkloRWNvRi1lbkFlbXdiWS1EQXdVWllZTktwZGd0ZUNnYkhHbjVPZVFYWlN0WldrSmM2cEl3WQ?oc=5"
     },
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/polymarket-suspends-trading-user-funds-compromised?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "Decrypt",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTXBXSHhCQnVuWVY4NnFqdGdzSTVjcV9BZWtkZEZhYXJBSlRKT3FvWGZuSnpPRUstM21FQl80ZTlnLWsxS3RRQ2xmbm12bEw5amFJT2Rkc0JKMXJMX1cxZ21uRU5lRUo1czVaQ2JxYTkwMC02RVNyaHNvVDdqSEtKSlE4N29xYWNPZElWYXdfMA?oc=5"
     },
     {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382185/polymarket-pauses-trading-prediction-market-security-incident"
-    }
-   ],
-   "missing": "Timeline for when trading will safely resume and full remediation steps."
-  },
-  {
-   "t": "Binance Suffers $6.3B Hack and Plans Withdrawal Restart",
-   "type": "hack",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "BNB",
-    "BTC",
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "Binance experienced a $6.3 billion security breach, prompting the exchange to set aside corporate funds to cover losses and target a Sunday withdrawal restart after freezing about $3 billion in assets.",
-   "per": {
-    "BNB": "Faced downward pressure following the security breach."
-   },
-   "direction": "negative",
-   "quality": 89,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/10/30/binance-uncovers-wider-breach-in-usd6-3-billion-exploit-targets-sunday-withdrawal-restart"
+     "name": "CoinCodex",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNjlydmJUZFlicWwtNGxwVWxuS0RkdU5IZ2thaFJrZUgycjcwdVNnSm51TlBUTGNnSkkzRmVSNjJ0THNJcnYzdnlldFFOV1hHLU9ZTFY0djlZZ2IyMXdqdjlQc21tTHZKNkVzeEZBakZxdm44ZzZ5VHNMZGFVb3hyYjJQZTZiX3lOOEd3WDM4MHZtMlJqbGJj?oc=5"
     },
     {
      "name": "coindesk.com",
      "url": "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack"
-    },
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets"
     }
    ],
-   "missing": "Full details of the exact recovery of all funds and finalized proof of reserves report."
+   "missing": "Exact timeline for the full resumption of all withdrawal services and complete recovery details."
   },
   {
-   "t": "Strategy Reports Record Operating Income and High Bitcoin Holdings",
-   "type": "treasury",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Strategy announced $21 billion in quarterly operating income alongside 848,517 BTC in holdings, as CFO Andrew Kang resigned and Michael Saylor touted potential digital credit capacity.",
-   "per": {
-    "BTC": "Backed by continued large-scale corporate treasury alignment."
-   },
-   "direction": "positive",
-   "quality": 70,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/30/strategy-cfo-resigns-as-company-posts-record-quarterly-profit-mstr-stock-falls-6"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/strategy-30-billion-digital-credit-capacity-bitcoin-buys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Specific timing and amounts for upcoming planned BTC acquisitions."
-  },
-  {
-   "t": "Switzerland Set to Launch First Retail Spot Bitcoin ETF in November",
-   "type": "etf",
+   "t": "Upbit Sets Deadline to End Blur Trading Support",
+   "type": "delisting",
    "status": "confirmed_upcoming",
-   "event_date": "2026-11-01",
+   "event_date": "2026-11-30",
    "coins": [
-    "BTC"
+    "BLUR"
    ],
    "rel": "direct",
-   "b": "Switzerland approved its first retail spot Bitcoin ETF for launch on the SIX Exchange in November 2026, targeting limited access for Swiss investors.",
+   "b": "Upbit announced a November 30 deadline to terminate trading support for Blur (BLUR). Holders face potential liquidity impacts once the delisting takes effect.",
    "per": {
-    "BTC": "Benefiting from institutional product availability and regulated regional exposure."
+    "BLUR": "Likely to experience liquidity contraction and negative sentiment leading up to the cessation of trading on Upbit."
    },
-   "direction": "positive",
-   "quality": 64,
-   "label": "MODERATE CATALYST",
+   "direction": "negative",
+   "quality": 75,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 10,
-    "relevance": 12,
+    "credibility": 8,
+    "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 6,
+   "impact": 8,
    "s": "building",
-   "c": "medium",
+   "c": "high",
    "sources": [
     {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa3VSLVowckhrRjNkQmd4a1ZISEVLU0o3c0dMMlRjbHBURmdrcUx6Q2F5MmM5TUhDWDNCRWxMMFBKWUNRY0c3MkVoSUhBc3Znd1B4SFZPZGQ3T0Rsa1dNdEZobzdWbEF2X2U2TFVRSmk4YmFBb1FGMlYtS1FTdll4NA?oc=5"
-    },
-    {
-     "name": "Bitcoin Sistemi",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbHQ4NVhEeGFNMDZRV3A2ZmRDQ25NNm9lTEo1dW1oTXA3Y25qYXRrRnB1c21ibkpNY2JuLUwwN0tfZHd1OTlrNkYteldpZmlRangycVdSaUVyQ1NMYXVRc2FwZndHZGN2Q2xpaGM1dGxQMnl3ckpPY0JadENnNldfZ0VQaHZfRHBaaTgxcTlBc2o0NWU1RnJWeEVuNERVeUtrOUNVQ1FFMHhHNWhocklCYlFmUUNzQk5oWWw3OGlqUmd3QUxYTUxMb1NLSQ?oc=5"
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5uWXN2M1o3eFgwRGoybHJOYXBza0pqWlN6M1JjVEtaXzFRem11MFJKenhUVTVBSVhuMVZZSGlxWThRdWJReVVscVJNUW4zLVV3LTF1cTZxdjM?oc=5"
     }
    ],
-   "missing": "Exact day of November for the exchange debut."
+   "missing": "Specific reasons cited by Upbit for the trading support termination."
   }
  ]
 }
