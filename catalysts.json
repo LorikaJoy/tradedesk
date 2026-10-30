@@ -1,92 +1,50 @@
 {
- "updated": "2026-10-30T05:42:52.665275+00:00",
+ "updated": "2026-10-30T11:39:14.471045+00:00",
  "cards": [
   {
-   "t": "NYSE Parent ICE and Trade[XYZ] Bring Hyperliquid Perpetuals to U.S.",
+   "t": "NYSE Owner ICE and Trade[XYZ] Plan US Hyperliquid Perpetuals",
    "type": "partnership",
-   "status": "confirmed_upcoming",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
     "HYPE"
    ],
    "rel": "direct",
-   "b": "Intercontinental Exchange (ICE), the owner of the NYSE, has signed a deal with and invested in Trade[XYZ] to launch regulated perpetual futures built on Hyperliquid in the United States, pending CFTC approval.",
+   "b": "Intercontinental Exchange (ICE), the owner of the NYSE, has partnered with Trade[XYZ] to bring Hyperliquid perpetual futures to the US market, prompting a surge in HYPE.",
    "per": {
-    "HYPE": "HYPE token rallied double-digits following the announcement of the ICE partnership."
+    "HYPE": "Experienced significant upward momentum and traded near all-time highs on the partnership news."
    },
    "direction": "positive",
-   "quality": 94,
+   "quality": 96,
    "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/10/29/stanley-druckenmiller-s-first-x-post-backs-hyperliquid-venture-after-usd23-million-indirect-investment"
-    },
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/29/nyse-owner-takes-steps-to-bring-hyperliquid-perpetual-futures-to-u-s"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382149/hyperliquid-hype-jumps-nyse-owner-ice-perpetual-futures-us"
-    }
-   ],
-   "missing": "Exact launch date pending regulatory approval."
-  },
-  {
-   "t": "Polymarket Suspends Trading After Security Breach",
-   "type": "hack",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "POL"
-   ],
-   "rel": "direct",
-   "b": "Polymarket temporarily suspended trading and placed its exchange in cancel-only mode after a third-party service provider suffered a security compromise that drained user funds.",
-   "per": {
-    "POL": "POL token faced exposure as suspected attacker wallets held roughly $2.65 million following the exploit."
-   },
-   "direction": "negative",
-   "quality": 93,
-   "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 21,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
-   "impact": 9,
+   "impact": 10,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/29/polymarket-suspends-trading-after-third-party-breach-leads-to-user-losses"
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OZFFvd01oYV8yNVRqRldqODU4ZFM5RmZhWWtKR29raFJnM2JqbzhLRVlWTjdwWjNCTTV1b3lIRzliNGlvQnNUYU43aGgwVzd1ajA3Rnp2M2pJZ1lPMUpJbE1rN1FTTzV5d1cwZDRQQUI?oc=5"
     },
     {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382185/polymarket-pauses-trading-prediction-market-security-incident"
+     "name": "Altcoin Buzz",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTlFzTENKNGNsN2ktSkc0S3M2blRad1FtaV93OWx4UWxNWWJJNnYyc2ZlN3J4ejRXMVBIT2drUGtwTlRKbFBOVXVtbVJSNlc3VHFzWU5yc29ZWXdNZUlQdnF3am5vZFYyNXFDTFpHRmw5RmNFejdYWm9GekVBVVJkUnFUX3p3c0g5MTg4?oc=5"
     },
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-10-29-polymarket-exploit-2-5-million-cancel-only-mode-432158"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/markets/hype-price-all-time-high-ice-us-hyperliquid-perps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Full details on the third-party provider and user reimbursement schedule."
+   "missing": "The exact go-live date for the US perpetual futures offering."
   },
   {
-   "t": "Binance Suffers Multi-Billion Dollar Hack",
+   "t": "Binance Suffers $6.3B Security Breach",
    "type": "hack",
    "status": "ongoing",
    "event_date": null,
@@ -96,11 +54,9 @@
     "ETH"
    ],
    "rel": "direct",
-   "b": "Binance suffered a suspected major hack resulting in billions of dollars in outflows across multiple blockchains, triggering a market slide and price drops for Bitcoin and BNB. Tether and Circle froze nearly $1.8 billion in assets linked to the breach, and Binance pledged to cover all user losses.",
+   "b": "Binance experienced a massive security breach resulting in approximately $6.3 billion in stolen funds, causing widespread market liquidations and a drop in Bitcoin toward $77,000. Binance stated it has set aside funds to cover losses and frozen around $3 billion while investigating the compromise.",
    "per": {
-    "BNB": "BNB dropped over 7% following the news of the exchange hack.",
-    "BTC": "Bitcoin fell back toward the $77,000 level amid market-wide liquidations.",
-    "ETH": "Ether prices slumped alongside broader crypto market declines."
+    "BNB": "Faced downward pressure, falling roughly 8% following the security breach."
    },
    "direction": "negative",
    "quality": 91,
@@ -118,18 +74,98 @@
    "sources": [
     {
      "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead"
+     "url": "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower"
+    },
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech"
     },
     {
      "name": "coindesk.com",
      "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets"
     },
     {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact final loss tallies and the full recovery timeline."
+   "missing": "The exact timeline for full asset recovery and the completion of the internal security investigation."
+  },
+  {
+   "t": "Upbit Terminates Blur Trading Support",
+   "type": "delisting",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-11-30",
+   "coins": [
+    "BLUR"
+   ],
+   "rel": "direct",
+   "b": "Upbit has set a November 30 deadline to officially end trading support for Blur (BLUR).",
+   "per": {
+    "BLUR": "Faces impending loss of liquidity on Upbit following the delisting deadline announcement."
+   },
+   "direction": "negative",
+   "quality": 75,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5uWXN2M1o3eFgwRGoybHJOYXBza0pqWlN6M1JjVEtaXzFRem11MFJKenhUVTVBSVhuMVZZSGlxWThRdWJReVVscVJNUW4zLVV3LTF1cTZxdjM?oc=5"
+    }
+   ],
+   "missing": "Reasons cited by Upbit for the trading support termination."
+  },
+  {
+   "t": "Switzerland Approves First Spot Bitcoin ETF for November Launch",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-11-01",
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Switzerland is set to launch its first retail spot Bitcoin ETF on the SIX Swiss Exchange in November 2026, breaking from traditional European fund limits under a FINMA exemption.",
+   "per": {
+    "BTC": "Gains access to a new regulated retail investment vehicle in the Swiss market."
+   },
+   "direction": "positive",
+   "quality": 75,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "CoinDesk",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRE5PODNoLUZCLWpzeFIxN1A1bXdwQkZ6dVhNU2ZzbzFfVEM2NTJSQ3dpajZxZ0JCX1NWYUZJa21hcE1XY2JPSE5qOF9VUEU1c2JuTi1LWDRGYVBNbGJnYWNLTW8xNEtUX3FKNHF6ak9JOEJmak90TzBhZkxvcjhJNTdVVFBFTFExVFhmUEhVUnpjTWNyLXFxcWZ5aEpzZ2NsajdMUlhuNnpTWmc0UjBoSkIwcU9sR1lMMmFNNGt4OV9qYkJw?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa3VSLVowckhrRjNkQmd4a1ZISEVLU0o3c0dMMlRjbHBURmdrcUx6Q2F5MmM5TUhDWDNCRWxMMFBKWUNRY0c3MkVoSUhBc3Znd1B4SFZPZGQ3T0Rsa1dNdEZobzdWbEF2X2U2TFVRSmk4YmFBb1FGMlYtS1FTdll4NA?oc=5"
+    },
+    {
+     "name": "Bitcoin Sistemi",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbHQ4NVhEeGFNMDZRV3A2ZmRDQ25NNm9lTEo1dW1oTXA3Y25qYXRrRnB1c21ibkpNY2JuLUwwN0tfZHd1OTlrNkYteldpZmlRangycVdSaUVyQ1NMYXVRc2FwZndHZGN2Q2xpaGM1dGxQMnl3ckpPY0JadENnNldfZ0VQaHZfRHBaaTgxcTlBc2o0NWU1RnJWeEVuNERVeUtrOUNVQ1FFMHhHNWhocklCYlFmUUNzQk5oWWw3OGlqUmd3QUxYTUxMb1NLSQ?oc=5"
+    }
+   ],
+   "missing": "Exact launch day in November."
   }
  ]
 }
