@@ -1,8 +1,54 @@
 {
- "updated": "2026-10-30T21:29:38.972375+00:00",
+ "updated": "2026-10-31T00:58:34.388734+00:00",
  "cards": [
   {
-   "t": "Binance Suffers $6.3B Security Breach and Hack",
+   "t": "ICE Builds Perps Venue on Hyperliquid",
+   "type": "partnership",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "HYPE"
+   ],
+   "rel": "direct",
+   "b": "The parent company of the New York Stock Exchange (ICE) is teaming up with Trade[XYZ] to build a perpetual futures venue on Hyperliquid, with U.S. regulatory approval still pending.",
+   "per": {
+    "HYPE": "Saw strong upward price momentum and heavy trader interest following the ICE collaboration announcement."
+   },
+   "direction": "positive",
+   "quality": 96,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 10,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE11d2hQeXJuWHpxTEdMcTZabWRwckV3WlZoVm02cWdORDRfLUdoQ3ppMVZWUmp1aWdRc3RHU1BQQURQSUl6amIzUndOVUxOeVo1N1JnZkZnMzNJRE0?oc=5"
+    },
+    {
+     "name": "Global Crypto Press",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUzdxMTF4dXc5dFF1TGtVSTVpM0NZRUdmd2R5R0R4Y3dQMnVyZENBQXctVXEzRjhNZW1FRWhJd194cjh4aXNlQmV2TXQxbERtaG84UDdVRExmUU8xNUU5UmlTMjl3a1J1WmZTa1JHY0JUelJNM0dCb1pBbXUxbTVqZXFoQVRUcy1VX29N?oc=5"
+    },
+    {
+     "name": "CoinCodex",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVUVrSDZZU3JLRWlPRkFlWk1lb0VvSnk2emY3aUhlVzM0T25McEhBdTNYMzl0U2JFSmFfSDM1X294T2pfY214blVNaG9QNG1faV9OTGJEQW1vTkd2VTRNN1hOUGxuc09xWmZoc1FyS0w5QmZyZklkVEZxd1R4TXh3dk1iR3dnU1lTN0pGZnJuUVFxTzk3MldOX3p1X0w?oc=5"
+    },
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/29/stanley-druckenmiller-s-first-x-post-backs-hyperliquid-venture-after-usd23-million-indirect-investment"
+    }
+   ],
+   "missing": "The precise date for U.S. regulatory approval and official launch of the perps venue."
+  },
+  {
+   "t": "Binance Suffers $6.3B Hack and Restricts Withdrawals",
    "type": "hack",
    "status": "ongoing",
    "event_date": null,
@@ -10,13 +56,15 @@
     "BNB",
     "BTC",
     "ETH",
-    "XRP"
+    "FUN"
    ],
    "rel": "direct",
-   "b": "Binance experienced a major security incident resulting in the loss of approximately $6.3 billion to $6.5 billion. The exchange has suspended withdrawals temporarily while arranging funds to cover losses and cooperating with authorities.",
+   "b": "Binance suffered a historic $6.3 billion security breach, leading to widespread token dumps, market liquidations, and a temporary halt on withdrawals while recovery and fund-freezing efforts are underway.",
    "per": {
-    "BNB": "Faced downward pressure following the exchange hack and subsequent wider market selloff.",
-    "BTC": "Slid to around $77,000 amid broader market liquidations triggered by the breach."
+    "BNB": "Faced downward pressure and a drop following the massive security breach on its native platform.",
+    "BTC": "Fell below $77,000 as the exploit sparked broader crypto market sell-offs and liquidations.",
+    "ETH": "Implicated as the hacker utilized an Ethereum network upgrade feature to help drain funds.",
+    "FUN": "Crashed 90% after the hacker dumped holdings into a thin liquidity market."
    },
    "direction": "negative",
    "quality": 93,
@@ -33,12 +81,12 @@
    "c": "high",
    "sources": [
     {
-     "name": "Upstox",
-     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNNlVKT2dYN1M1Y0lXUExCV3RxR3pESHpzV1FZMGYzR2lJS01zeGU0S2IzNHVfdzJLTVd0cVp3bkp4WXIwNGgwYVVXRDBleDV6V2hJUndhRWN0ZnNFUGFtUnZBbnRFMnNac0hHbHNSbHI3OTFTcFpkWmxnbDhRbXhtTWl1T2pkWUtTMlRFUFROdjJHc0p2RDhMVk5lYXRQS2ZZVi1UYnRWM1dScmFySFZaMmJkTzI1ajdCWkloRWNvRi1lbkFlbXdiWS1EQXdVWllZTktwZGd0ZUNnYkhHbjVPZVFYWlN0WldrSmM2cEl3WQ?oc=5"
+     "name": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZFFBNVpTdTRnYWp6ZUdIMExGNDZMZEIwTHhLRFpqRk5idnRMVUxHNjRnZ1VhT3pEN2pqVzNLQnRvbUdNOXNYamE3MnM0RGlmMzEwRjRaTkFoSWxGOUFjc2w2bXhEZ3NTTjUtYWdraWl6NGN6dmg2eE9HQ3F5YlU5SXVndjY2YzJpOTdsdXpiZ0FhX3hxVFQzSi1QLUV3ZXBEZ2RnbGM5T1gyZlBrN2ctT205RW9sMncyd3BGT21KR2otNzk2VjF4NXAzLXlGWERRRDEycVJTOHlVejRIbFRjc2hMeVBLSWM?oc=5"
     },
     {
-     "name": "Decrypt",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTXBXSHhCQnVuWVY4NnFqdGdzSTVjcV9BZWtkZEZhYXJBSlRKT3FvWGZuSnpPRUstM21FQl80ZTlnLWsxS3RRQ2xmbm12bEw5amFJT2Rkc0JKMXJMX1cxZ21uRU5lRUo1czVaQ2JxYTkwMC02RVNyaHNvVDdqSEtKSlE4N29xYWNPZElWYXdfMA?oc=5"
+     "name": "shattered.io",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYWpxenk5TC12dm0tNDhYMkhqdWVvRkRYOVFBbExpQ0lXd0ZKUzNkNXpBRC0tV2FrNmFabWpWUEpDLVljb2xQZlB0SlZTcVEybW14clh5c214N3FpVXdrS1J2THBfblI2eUlDaklaNGI5U2VQbldSZHNpMlVTWkhKbg?oc=5"
     },
     {
      "name": "CoinCodex",
@@ -49,26 +97,26 @@
      "url": "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack"
     }
    ],
-   "missing": "Exact timeline for the full resumption of all withdrawal services and complete recovery details."
+   "missing": "Exact timeline for full platform restoration and the identity of all compromised wallets beyond preliminary attribution."
   },
   {
-   "t": "Upbit Sets Deadline to End Blur Trading Support",
-   "type": "delisting",
+   "t": "Canary Capital Proposes Staked INJ ETF on Nasdaq",
+   "type": "etf",
    "status": "confirmed_upcoming",
-   "event_date": "2026-11-30",
+   "event_date": null,
    "coins": [
-    "BLUR"
+    "INJ"
    ],
    "rel": "direct",
-   "b": "Upbit announced a November 30 deadline to terminate trading support for Blur (BLUR). Holders face potential liquidity impacts once the delisting takes effect.",
+   "b": "Canary Capital proposed the first U.S. staked Injective (INJ) ETF with a 1.10% fee and a $15M seed from the Injective Foundation, shifting its listing target to Nasdaq as it enters the SEC public comment phase.",
    "per": {
-    "BLUR": "Likely to experience liquidity contraction and negative sentiment leading up to the cessation of trading on Upbit."
+    "INJ": "Positioned for potential institutional inflows contingent on regulatory green light for the staked product."
    },
-   "direction": "negative",
-   "quality": 75,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 79,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 12,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -79,11 +127,69 @@
    "c": "high",
    "sources": [
     {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5uWXN2M1o3eFgwRGoybHJOYXBza0pqWlN6M1JjVEtaXzFRem11MFJKenhUVTVBSVhuMVZZSGlxWThRdWJReVVscVJNUW4zLVV3LTF1cTZxdjM?oc=5"
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcXJRZHFkWFZ3Z1ptQWJ3czE4MU4ycExBem1FMUtGY2dPOF9qanBScG9pQzhZanJHOUFzUnplS1JqR05QYTBXbE9MUlJyUjVGaTh1bnl2V0l2VlAyZkt1Mmt4ZktMVzU0SVdJTVZIMWVIakNwM3hIRDdTR21mSlRjTlViZ21oT3MtMWE3Tmh0aw?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZGdzTmtOb0t1dzRWeGg3UXJ4UjdVRlJHZUREcE1FaDNfVWdVMDdLaEdjdk1CaGFFMWpzQ0g2Z2Y5UVBZUENSMTdObFdXbnJLLUNnVEhjU3JUT0VuTk1ORlhwb3BpbFdfcGlmWEI2azllQUtyQ2NrT18xSWN3NURUdi1QUGI5ZER6T2c?oc=5"
+    },
+    {
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNczBBbEhsT2dsVjQzVXdmZ0JvamJKVjVzSWpqTXJaZXZPZXFvemdyZlJ3RXpkbVIwM2pmRHd6QUlSbzMtUl9ndFpGZ202SjZnTE14QS1zVUx1NkdaUnN1QmtsMzYxWkRvVjNENl8tb1hBejJaaDhiU2p3TFN0TFBudi11dDBmMm11c0RsRUNvZ0VXeVgxWVR4RXJtS2g?oc=5"
+    },
+    {
+     "name": "Crypto Briefing",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5XVFBlRzJFMC1NQlA1UlEtUm1EdW9aemNzVDFBUVdNVWVkcDVoSnlYd1V1Z1N5RFN1amNtNlhfbWZZTnB6aHhvcmNPMDdfM0dXX1dUWTQzTk5yWW84LXVfSk9odHkwQnViVS1GWktQY1Y2Z2Rk?oc=5"
     }
    ],
-   "missing": "Specific reasons cited by Upbit for the trading support termination."
+   "missing": "Exact SEC approval date and final launch schedule."
+  },
+  {
+   "t": "Franklin Templeton Launches Two New BTC ETFs",
+   "type": "etf",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Franklin Templeton has launched new crypto exchange-traded funds, including a Bitcoin DRIP ETF featuring a blend of equities and Bitcoin, to capture further institutional demand.",
+   "per": {
+    "BTC": "Supported by new wrapper products aiming to drive incremental institutional purchasing."
+   },
+   "direction": "positive",
+   "quality": 70,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "Markets Media",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUUx4WXFlRDhlamRSZW5vdG04MVlPakV3VVlCRU1UeU9xR2dPRWpydW1WNVNSU0xhWW56ZkZ0c2xkUlJWY29XdHJKSVYzcFhLa1BGVnU0eXR0OUtCNFkySXFPNHFmUHM3WTZ4LWFvLUdXN1JfWnJrZ3phdUxONE5fWFVpbVYtUmFUbWl6NkdaZG1BY3RDQXc?oc=5"
+    },
+    {
+     "name": "CoinCodex",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNV0RjNzBETnJVNGZRMDkyZ2tvY2xHN09tSXlIVHVvQmYta25TWEVHLUFLWVdxVmpBV2tHeDE1RkR6S0dsYThVVHBZalpBejFWN09FRDR2WUxmWmVrdl9JaTRnY3BYQWJMVXRDUllUWUtyNmE2VnpYbW5ZaUxlUkFHLW1LV0NvZTJzRzVUNWp5dndFWE1oUG1RNHA5YzVTR0poR0g5aWtVRHA?oc=5"
+    },
+    {
+     "name": "Coinfomania",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdU9ZTmYxdV81VDFaTEkzZk5XS2hzWnVxckNGSFZjTEtKc291dlEyRmgwUlEtWTJrbnFLd1VXem1lcnVta0dfcDJqbmhBakJUWUZPYkNBRDBEN05yNWNwSHAyS1FtbUVLSWFlQTB6Vi1wRGN6ZldueGVBWV9oOGFNcjVTZW5Cb3N0eFE?oc=5"
+    },
+    {
+     "name": "Coin Gabbar",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQms4bjMtdGY4S1QtWTNUc1Z2Uk4wZXZralhsVjY0b0JFbldYUTN5d3FuMGdYdndaVzVweHE5MVpOazFFN2xSWEVCRnZ4MXdBLUpKTFRyc1hHYmRFbnNTYXFPQUozVklfanFOaVFQMGFITThNdGZQN0RCb3gtT3dSemF0dm1Ca1ZVV1E?oc=5"
+    }
+   ],
+   "missing": "Initial day-one trading volume and asset inflow figures."
   }
  ]
 }
