@@ -1,18 +1,18 @@
 {
- "updated": "2026-10-31T00:58:34.388734+00:00",
+ "updated": "2026-10-31T06:46:24.064218+00:00",
  "cards": [
   {
-   "t": "ICE Builds Perps Venue on Hyperliquid",
-   "type": "partnership",
+   "t": "Binance Sets Aside $6.34B to Cover Losses",
+   "type": "treasury",
    "status": "officially_announced",
-   "event_date": null,
+   "event_date": "2026-10-30",
    "coins": [
-    "HYPE"
+    "BNB"
    ],
    "rel": "direct",
-   "b": "The parent company of the New York Stock Exchange (ICE) is teaming up with Trade[XYZ] to build a perpetual futures venue on Hyperliquid, with U.S. regulatory approval still pending.",
+   "b": "Binance executives announced that the exchange has set aside $6.34 billion of its own funds to fully cover user losses resulting from the recent security breach, alongside roughly $3 billion frozen by industry partners.",
    "per": {
-    "HYPE": "Saw strong upward price momentum and heavy trader interest following the ICE collaboration announcement."
+    "BNB": "Aimed to stabilize market confidence after initial sharp sell-offs following the hack."
    },
    "direction": "positive",
    "quality": 96,
@@ -29,42 +29,36 @@
    "c": "high",
    "sources": [
     {
-     "name": "BigGo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE11d2hQeXJuWHpxTEdMcTZabWRwckV3WlZoVm02cWdORDRfLUdoQ3ppMVZWUmp1aWdRc3RHU1BQQURQSUl6amIzUndOVUxOeVo1N1JnZkZnMzNJRE0?oc=5"
-    },
-    {
-     "name": "Global Crypto Press",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUzdxMTF4dXc5dFF1TGtVSTVpM0NZRUdmd2R5R0R4Y3dQMnVyZENBQXctVXEzRjhNZW1FRWhJd194cjh4aXNlQmV2TXQxbERtaG84UDdVRExmUU8xNUU5UmlTMjl3a1J1WmZTa1JHY0JUelJNM0dCb1pBbXUxbTVqZXFoQVRUcy1VX29N?oc=5"
-    },
-    {
-     "name": "CoinCodex",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVUVrSDZZU3JLRWlPRkFlWk1lb0VvSnk2emY3aUhlVzM0T25McEhBdTNYMzl0U2JFSmFfSDM1X294T2pfY214blVNaG9QNG1faV9OTGJEQW1vTkd2VTRNN1hOUGxuc09xWmZoc1FyS0w5QmZyZklkVEZxd1R4TXh3dk1iR3dnU1lTN0pGZnJuUVFxTzk3MldOX3p1X0w?oc=5"
-    },
-    {
      "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/10/29/stanley-druckenmiller-s-first-x-post-backs-hyperliquid-venture-after-usd23-million-indirect-investment"
+     "url": "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/binance-5-billion-replacement-crypto-in-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/ecosystems/2026-10-30-binance-says-it-has-6-34-billion-ready-to-cover-hack-losses-432208"
     }
    ],
-   "missing": "The precise date for U.S. regulatory approval and official launch of the perps venue."
+   "missing": "Exact proof-of-reserves publication details confirming the replenishment of shortfalls."
   },
   {
-   "t": "Binance Suffers $6.3B Hack and Restricts Withdrawals",
+   "t": "Binance Suffers Record $6.3B Hack",
    "type": "hack",
    "status": "ongoing",
-   "event_date": null,
+   "event_date": "2026-10-29",
    "coins": [
     "BNB",
     "BTC",
-    "ETH",
-    "FUN"
+    "ETH"
    ],
    "rel": "direct",
-   "b": "Binance suffered a historic $6.3 billion security breach, leading to widespread token dumps, market liquidations, and a temporary halt on withdrawals while recovery and fund-freezing efforts are underway.",
+   "b": "Binance suffered a historic security breach resulting in approximately $6.3 billion in stolen funds across multiple blockchains, causing market-wide liquidations and token price drops.",
    "per": {
-    "BNB": "Faced downward pressure and a drop following the massive security breach on its native platform.",
-    "BTC": "Fell below $77,000 as the exploit sparked broader crypto market sell-offs and liquidations.",
-    "ETH": "Implicated as the hacker utilized an Ethereum network upgrade feature to help drain funds.",
-    "FUN": "Crashed 90% after the hacker dumped holdings into a thin liquidity market."
+    "BNB": "Faced downward pressure, dropping around 7% to 8% following the exchange breach.",
+    "BTC": "Slid below $77,000 as large amounts of stolen bitcoin were moved and traced into separate wallets.",
+    "ETH": "Implicated as attackers utilized EIP-7702 delegation features to drain funds and bypass withdrawal controls."
    },
    "direction": "negative",
    "quality": 93,
@@ -81,26 +75,64 @@
    "c": "high",
    "sources": [
     {
-     "name": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZFFBNVpTdTRnYWp6ZUdIMExGNDZMZEIwTHhLRFpqRk5idnRMVUxHNjRnZ1VhT3pEN2pqVzNLQnRvbUdNOXNYamE3MnM0RGlmMzEwRjRaTkFoSWxGOUFjc2w2bXhEZ3NTTjUtYWdraWl6NGN6dmg2eE9HQ3F5YlU5SXVndjY2YzJpOTdsdXpiZ0FhX3hxVFQzSi1QLUV3ZXBEZ2RnbGM5T1gyZlBrN2ctT205RW9sMncyd3BGT21KR2otNzk2VjF4NXAzLXlGWERRRDEycVJTOHlVejRIbFRjc2hMeVBLSWM?oc=5"
-    },
-    {
-     "name": "shattered.io",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYWpxenk5TC12dm0tNDhYMkhqdWVvRkRYOVFBbExpQ0lXd0ZKUzNkNXpBRC0tV2FrNmFabWpWUEpDLVljb2xQZlB0SlZTcVEybW14clh5c214N3FpVXdrS1J2THBfblI2eUlDaklaNGI5U2VQbldSZHNpMlVTWkhKbg?oc=5"
-    },
-    {
-     "name": "CoinCodex",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNjlydmJUZFlicWwtNGxwVWxuS0RkdU5IZ2thaFJrZUgycjcwdVNnSm51TlBUTGNnSkkzRmVSNjJ0THNJcnYzdnlldFFOV1hHLU9ZTFY0djlZZ2IyMXdqdjlQc21tTHZKNkVzeEZBakZxdm44ZzZ5VHNMZGFVb3hyYjJQZTZiX3lOOEd3WDM4MHZtMlJqbGJj?oc=5"
-    },
-    {
      "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack"
+     "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto"
     }
    ],
-   "missing": "Exact timeline for full platform restoration and the identity of all compromised wallets beyond preliminary attribution."
+   "missing": "Full recovery timeline and complete identification of all compromised internal infrastructure."
   },
   {
-   "t": "Canary Capital Proposes Staked INJ ETF on Nasdaq",
+   "t": "Polymarket Suspends Trading Following Third-Party Breach",
+   "type": "hack",
+   "status": "ongoing",
+   "event_date": "2026-10-30",
+   "coins": [
+    "POL"
+   ],
+   "rel": "direct",
+   "b": "Polymarket temporarily suspended trading and placed its exchange in cancel-only mode after a third-party provider suffered a security incident that led to user account drains.",
+   "per": {
+    "POL": "Impacted by suspicious outflows and attacker wallet balances tied to the breach."
+   },
+   "direction": "negative",
+   "quality": 85,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/29/polymarket-suspends-trading-after-third-party-breach-leads-to-user-losses"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/382185/polymarket-pauses-trading-prediction-market-security-incident"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/defi/2026-10-29-polymarket-exploit-2-5-million-cancel-only-mode-432158"
+    }
+   ],
+   "missing": "Full details on the exact third-party provider compromised and total restitution plans."
+  },
+  {
+   "t": "Canary Capital Proposes Staked INJ ETF with Nasdaq Listing Shift",
    "type": "etf",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -108,15 +140,15 @@
     "INJ"
    ],
    "rel": "direct",
-   "b": "Canary Capital proposed the first U.S. staked Injective (INJ) ETF with a 1.10% fee and a $15M seed from the Injective Foundation, shifting its listing target to Nasdaq as it enters the SEC public comment phase.",
+   "b": "Canary Capital shifted its proposed staked INJ ETF listing to Nasdaq, featuring a 1.10% fee and a $15 million seed from the Injective Foundation while awaiting final trading approval.",
    "per": {
-    "INJ": "Positioned for potential institutional inflows contingent on regulatory green light for the staked product."
+    "INJ": "Stands to benefit from regulated institutional access and staking rewards via the proposed exchange-traded fund."
    },
    "direction": "positive",
-   "quality": 79,
+   "quality": 77,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 12,
+    "credibility": 10,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -135,18 +167,14 @@
      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZGdzTmtOb0t1dzRWeGg3UXJ4UjdVRlJHZUREcE1FaDNfVWdVMDdLaEdjdk1CaGFFMWpzQ0g2Z2Y5UVBZUENSMTdObFdXbnJLLUNnVEhjU3JUT0VuTk1ORlhwb3BpbFdfcGlmWEI2azllQUtyQ2NrT18xSWN3NURUdi1QUGI5ZER6T2c?oc=5"
     },
     {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNczBBbEhsT2dsVjQzVXdmZ0JvamJKVjVzSWpqTXJaZXZPZXFvemdyZlJ3RXpkbVIwM2pmRHd6QUlSbzMtUl9ndFpGZ202SjZnTE14QS1zVUx1NkdaUnN1QmtsMzYxWkRvVjNENl8tb1hBejJaaDhiU2p3TFN0TFBudi11dDBmMm11c0RsRUNvZ0VXeVgxWVR4RXJtS2g?oc=5"
-    },
-    {
      "name": "Crypto Briefing",
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5XVFBlRzJFMC1NQlA1UlEtUm1EdW9aemNzVDFBUVdNVWVkcDVoSnlYd1V1Z1N5RFN1amNtNlhfbWZZTnB6aHhvcmNPMDdfM0dXX1dUWTQzTk5yWW84LXVfSk9odHkwQnViVS1GWktQY1Y2Z2Rk?oc=5"
     }
    ],
-   "missing": "Exact SEC approval date and final launch schedule."
+   "missing": "Exact SEC approval and launch dates."
   },
   {
-   "t": "Franklin Templeton Launches Two New BTC ETFs",
+   "t": "Morgan Stanley Launches Spot Bitcoin ETF",
    "type": "etf",
    "status": "completed",
    "event_date": null,
@@ -154,15 +182,15 @@
     "BTC"
    ],
    "rel": "direct",
-   "b": "Franklin Templeton has launched new crypto exchange-traded funds, including a Bitcoin DRIP ETF featuring a blend of equities and Bitcoin, to capture further institutional demand.",
+   "b": "Morgan Stanley officially launched its spot Bitcoin ETF, which debuted with $30.6 million in early inflows.",
    "per": {
-    "BTC": "Supported by new wrapper products aiming to drive incremental institutional purchasing."
+    "BTC": "Gained supportive institutional demand from the newly debuted product."
    },
    "direction": "positive",
-   "quality": 70,
+   "quality": 66,
    "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 12,
+    "credibility": 8,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -173,23 +201,15 @@
    "c": "medium",
    "sources": [
     {
-     "name": "Markets Media",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUUx4WXFlRDhlamRSZW5vdG04MVlPakV3VVlCRU1UeU9xR2dPRWpydW1WNVNSU0xhWW56ZkZ0c2xkUlJWY29XdHJKSVYzcFhLa1BGVnU0eXR0OUtCNFkySXFPNHFmUHM3WTZ4LWFvLUdXN1JfWnJrZ3phdUxONE5fWFVpbVYtUmFUbWl6NkdaZG1BY3RDQXc?oc=5"
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZWhrcS02N2hwZ3lJVGZfOEV0RlFwRGdUcFBjRlFDT2FVclhKbFdhTExXVlB2Z2trXzZ5YVhZd3psWkMzOE4yYVV3VkxyZzhHUk9nQWRVbkN3RUtiYXpEejYzQ0pBUEhKZGZrTURkTkg4WUNoU3dTVl9mT21wUkdjQW04emMwVWZ2TnVVa2ZzRkZBTlNwZ3huaEwwLVZQTzNYdzJj?oc=5"
     },
     {
-     "name": "CoinCodex",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNV0RjNzBETnJVNGZRMDkyZ2tvY2xHN09tSXlIVHVvQmYta25TWEVHLUFLWVdxVmpBV2tHeDE1RkR6S0dsYThVVHBZalpBejFWN09FRDR2WUxmWmVrdl9JaTRnY3BYQWJMVXRDUllUWUtyNmE2VnpYbW5ZaUxlUkFHLW1LV0NvZTJzRzVUNWp5dndFWE1oUG1RNHA5YzVTR0poR0g5aWtVRHA?oc=5"
-    },
-    {
-     "name": "Coinfomania",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdU9ZTmYxdV81VDFaTEkzZk5XS2hzWnVxckNGSFZjTEtKc291dlEyRmgwUlEtWTJrbnFLd1VXem1lcnVta0dfcDJqbmhBakJUWUZPYkNBRDBEN05yNWNwSHAyS1FtbUVLSWFlQTB6Vi1wRGN6ZldueGVBWV9oOGFNcjVTZW5Cb3N0eFE?oc=5"
-    },
-    {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQms4bjMtdGY4S1QtWTNUc1Z2Uk4wZXZralhsVjY0b0JFbldYUTN5d3FuMGdYdndaVzVweHE5MVpOazFFN2xSWEVCRnZ4MXdBLUpKTFRyc1hHYmRFbnNTYXFPQUozVklfanFOaVFQMGFITThNdGZQN0RCb3gtT3dSemF0dm1Ca1ZVV1E?oc=5"
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSVlaWmctUFo1LWpidFRocDlzcUprdWxnOC1jUGVhUzJQbVcwMWg5WGxTSXBsOU8zTGMwS1M3cVFDYWxXeGtvM0JFMDBuV1hOZm5tN3lxVDN1SS14NWJPWGZVZWktWmtSWl9kMXJ6MzNjeWxBNlNOeklYanRlcHVXSXRMRklzUU05eU9PVElPYXhlNFNxakUtMjc0dHdEMW0w?oc=5"
     }
    ],
-   "missing": "Initial day-one trading volume and asset inflow figures."
+   "missing": "Sustained long-term inflow volumes relative to competitors."
   }
  ]
 }
