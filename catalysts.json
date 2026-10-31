@@ -1,4 +1,133 @@
 {
- "updated": "2026-10-31T13:14:40.359337+00:00",
- "cards": []
+ "updated": "2026-10-31T17:46:39.805599+00:00",
+ "cards": [
+  {
+   "t": "Canary Capital Proposes Staked INJ ETF",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "INJ"
+   ],
+   "rel": "direct",
+   "b": "Canary Capital has proposed the first US staked INJ ETF, shifting its listing to Nasdaq with a $15M seed from the Injective Foundation while awaiting final trading approval.",
+   "per": {
+    "INJ": "Canary Capital proposes the first US staked INJ ETF on Nasdaq with a 1.10% fee and $15M seed."
+   },
+   "direction": "positive",
+   "quality": 85,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 10,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcXJRZHFkWFZ3Z1ptQWJ3czE4MU4ycExBem1FMUtGY2dPOF9qanBScG9pQzhZanJHOUFzUnplS1JqR05QYTBXbE9MUlJyUjVGaTh1bnl2V0l2VlAyZkt1Mmt4ZktMVzU0SVdJTVZIMWVIakNwM3hIRDdTR21mSlRjTlViZ21oT3MtMWE3Tmh0aw?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZGdzTmtOb0t1dzRWeGg3UXJ4UjdVRlJHZUREcE1FaDNfVWdVMDdLaEdjdk1CaGFFMWpzQ0g2Z2Y5UVBZUENSMTdObFdXbnJLLUNnVEhjU3JUT0VuTk1ORlhwb3BpbFdfcGlmWEI2azllQUtyQ2NrT18xSWN3NURUdi1QUGI5ZER6T2c?oc=5"
+    },
+    {
+     "name": "Crypto Briefing",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5XVFBlRzJFMC1NQlA1UlEtUm1EdW9aemNzVDFBUVdNVWVkcDVoSnlYd1V1Z1N5RFN1amNtNlhfbWZZTnB6aHhvcmNPMDdfM0dXX1dUWTQzTk5yWW84LXVfSk9odHkwQnViVS1GWktQY1Y2Z2Rk?oc=5"
+    }
+   ],
+   "missing": "Exact launch and trading start date."
+  },
+  {
+   "t": "Binance Replenishes Stolen Funds Following Record Hack",
+   "type": "treasury",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "BNB",
+    "BTC",
+    "ETH"
+   ],
+   "rel": "direct",
+   "b": "Following a record $6.3B security breach, Binance announced it has replenished 90% of stolen assets using corporate funds, futures reserves, and SAFU to keep user balances intact.",
+   "per": {
+    "BNB": "Binance absorbs hack losses through corporate reserves and aims to resume withdrawals."
+   },
+   "direction": "mixed",
+   "quality": 80,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 12,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "News24",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPblJ6N3hMa0FnbWkzTHFuYnU2djJpaHRHMm1XWmY2anZrVlIyQk4zYjVOYmVOLXVjUmt4SFNIRVlMV2pNdEhjT3hpOTlrSHdxSnphSGEtWXFIM3hKQ0dUSkJ3enA1dkFHU3J5U2QtQ3dhNHZLMFk5RHNRS09jZWJPZ2R2ejQ4U3ZHVVNxdXJYM0JZYjg1UlhqbkJSU0luX05qNldZdGVoWmM?oc=5"
+    },
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/31/binance-says-it-has-replaced-90-of-stolen-crypto-after-massive-usd6-3-billion-breach"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/binance-hack-90-percent-replenished?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Full recovery timeline for remaining less-liquid tokens."
+  },
+  {
+   "t": "Franklin Templeton Launches Dividend-to-Bitcoin ETFs on Nasdaq",
+   "type": "etf",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Franklin Templeton has officially launched two Bitcoin DRIP ETFs on Nasdaq that automatically turn dividends into Bitcoin.",
+   "per": {
+    "BTC": "Franklin Templeton opened two dividend-to-Bitcoin ETFs on Nasdaq."
+   },
+   "direction": "positive",
+   "quality": 70,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "Bitcoin Magazine",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5UanBoeTJHMGc2UkdqSVZ1Vk05T2JfYmJRcDhqeE5EbzUzcFhJVlB0TkVlRVAycE5Jb0llU2dTaFR1QXc1LS1GSmlIYlJrRE1GRE9rc09wX2lYcUtDbi13RVMyczFhcFRwNFcwVHFmRFBQbjh5WGJLS3R5aEN1bWs?oc=5"
+    },
+    {
+     "name": "unchainedcrypto.com",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbXdTT05DdGd2cUs1Sk4zYkhnSXB5alRKQU9zNWRZWjN5Skd5N2V3QUhOMDc3VWVrb0dQRk9SRTI2V296c0FkZVJORjdqenItaTJOWGJsajVxX05nSWZHSEpscTJxLUJvSk9Sc2hHcUhTREZPUzFsZGM0NWhDWWk3V3FpN0x4WFFZS2ZQTzZWa3NPaHBvQl9MQ3lxLUhMNnFCc0h1Y05DbEx0VGcyMENHU3MtWVhfZw?oc=5"
+    },
+    {
+     "name": "Crypto Economy",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTXdISkJ2RVZhLVBpQjZTTFpmb19LZjBtLV80cDlEYzQ5RkdBSWdscWxoeU92STdCNmh1MnZYSHdJZEpZZ3JWMDZ1dVo1SExlTkF6a3dWLXJrZW9QdUtCeFFRS1A4eUdNYk9rVk9tX3lXNVNhbXRJd1hoNXRWYzRLeHRhdFhRZXZZRmx0VTlmTUs?oc=5"
+    }
+   ],
+   "missing": "Long-term sustained trading volume and specific asset inflows."
+  }
+ ]
 }
