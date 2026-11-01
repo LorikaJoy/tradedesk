@@ -1,48 +1,45 @@
 {
- "updated": "2026-11-01T10:57:49.520038+00:00",
+ "updated": "2026-11-01T21:10:02.153557+00:00",
  "cards": [
   {
-   "t": "Binance Resumes Withdrawals Following $6.3B Hack",
+   "t": "Binance Reopens Withdrawals Starting With Bitcoin Following Hack",
    "type": "other",
    "status": "ongoing",
-   "event_date": "2026-11-01",
+   "event_date": null,
    "coins": [
     "BTC",
-    "ETH"
+    "BNB"
    ],
    "rel": "direct",
-   "b": "Binance has begun resuming customer withdrawals in phases, starting with Bitcoin, following the record $6.3 billion security breach. The exchange states it has replenished 90% of the stolen assets using corporate funds, futures reserves, and SAFU.",
+   "b": "Binance has begun phased crypto withdrawals starting with Bitcoin following a record $6.3 billion exploit. The exchange reports replacing 90% of stolen assets and seeing $3.64 billion in net outflows after reopening.",
    "per": {
-    "BTC": "Withdrawing of BTC has resumed in the first phase following the security breach."
+    "BTC": "Bitcoin leads the first phase of reopened withdrawals on Binance.",
+    "BNB": "BNB holds near $700 following the exchange hack and replenishment efforts."
    },
    "direction": "positive",
-   "quality": 97,
+   "quality": 91,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 25,
+    "credibility": 19,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 12
    },
-   "impact": 10,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
-    {
-     "name": "Binance",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcHN3WjR4TDllNGVhekZ1ZzU5c3JrT21XbHJqay0zamlYa2VBTzhaSWcxRU51bDZ2c3VKc2IzaEYtSVlnamhOQXJEVTFNOVNMd0RoLXBBMDg0MkFrdzFPRldaVDVHRFNtQ1FKbzZFc0xNVWh1UVB2WWVwa0pNNTVvMnpRa0VZMWVZNjBTS29wRGg?oc=5"
-    },
     {
      "name": "coindesk.com",
      "url": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack"
     },
     {
-     "name": "Reuters",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ042d3hwbUp6LXNrZ2JEY2RSVEgzX0xJbGZ0QTFsVnM1X0tYUFBONzljRXRIbFJCRlRWeUkyeEJwaElZZnN6Tnluc1h3ZURja0tMTHhjSDkyb2FnUHRPejdmUjZmaU10ZlBuTW82bVZmV0hKNFJMbmZ2VjFyS2h2NUVZRnVtZVdIQVo3VnRPVFhsX1ptRzJQaklyXzZIU0hxN1lyQ3lTNjYtMGZvQ1Q1T0laQzBHU1dHdEk1RXJXMGhRSVJT?oc=5"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/binance-says-phase-one-of-withdrawals-opens-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact timeline for remaining token withdrawal phases"
+   "missing": "Exact timeline for remaining token withdrawal phases."
   },
   {
    "t": "XRP Ledger Upgrade Nears November 4",
@@ -53,9 +50,9 @@
     "XRP"
    ],
    "rel": "direct",
-   "b": "The XRP Ledger upgrade is approaching on November 4, while the XRP price holds near $1.25 alongside recent inflows into XRP ETFs.",
+   "b": "An XRP Ledger upgrade is nearing its scheduled date of November 4 while the XRP price holds near $1.25, accompanied by recent ETF inflows.",
    "per": {
-    "XRP": "Ledger upgrade scheduled for November 4."
+    "XRP": "XRP price holds near $1.25 ahead of the ledger upgrade."
    },
    "direction": "positive",
    "quality": 75,
@@ -76,7 +73,45 @@
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQWFuR1pVa0xrTS1uRXRoSlR6RDZ4QV8wc3Judm9kTU1pZGxZeDNsVWx1cTNWQ2lPdm9SVXBYWXhMYWFRd2pwRXI4YXktandRUl9zZ3pnSVJoZWgxMFNuS184OWREdnRsMkhOejZRNjlQQTF0NDMzV3FtY3lySTVhck1ZRVU5TWhVSE05TXVVRWJOOXlWMEJHTWR5QU5abDhpMkluaG1tRTB6djZfYld3TDIxc1l3TnE5UFJOVDk1ZkhEbS03?oc=5"
     }
    ],
-   "missing": "Specific details on the technical changes included in the XRPL upgrade"
+   "missing": "Specific technical changes and activation block height for the upgrade."
+  },
+  {
+   "t": "US Spot Ethereum ETFs Log Record 23-Day Outflow Streak",
+   "type": "etf",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "ETH"
+   ],
+   "rel": "direct",
+   "b": "US spot Ethereum ETFs have recorded net outflows for 23 straight trading days, marking the longest streak since launch and contributing to price weakness.",
+   "per": {
+    "ETH": "ETH faces downward pressure amid consecutive record ETF outflows."
+   },
+   "direction": "negative",
+   "quality": 74,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 10,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 7,
+    "timing": 12
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE84V0hVb2Fmem9kODFWTzJtcG85TW5XQUhQbmtuRGZ4Q3pIYUJWVm9IV0g5ZFVtVWJaeGtTUG00U25ucEtWTjI3c2QwQWI5cDBJSlllcA?oc=5"
+    },
+    {
+     "name": "Crypto Briefing",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1uY2JoRVlJMFM2ZE9rMUZCT0tNZFBQNjVkT09ia00zRzBmdFBjVFZqNnVISkVXRUVWaEF6Z0w0Wi16Z293SnVjQnpEeXo5SV9xUWRaY3VkRzgzTHl1QjhWOUVGZFY5SkdUbWd6UUlYZzMxeUc0WkZENjN4VQ?oc=5"
+    }
+   ],
+   "missing": "Total cumulative capital outflows over the entire 23-day period."
   }
  ]
 }
