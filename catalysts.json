@@ -1,73 +1,82 @@
 {
- "updated": "2026-11-01T03:49:29.514446+00:00",
+ "updated": "2026-11-01T10:57:49.520038+00:00",
  "cards": [
   {
-   "t": "Chainlink Integrated by Polymarket for Oracles",
-   "type": "partnership",
-   "status": "completed",
-   "event_date": null,
+   "t": "Binance Resumes Withdrawals Following $6.3B Hack",
+   "type": "other",
+   "status": "ongoing",
+   "event_date": "2026-11-01",
    "coins": [
-    "LINK"
+    "BTC",
+    "ETH"
    ],
    "rel": "direct",
-   "b": "Chainlink gained 4.7% following Polymarket's expansion of its oracle integration with Chainlink.",
+   "b": "Binance has begun resuming customer withdrawals in phases, starting with Bitcoin, following the record $6.3 billion security breach. The exchange states it has replenished 90% of the stolen assets using corporate funds, futures reserves, and SAFU.",
    "per": {
-    "LINK": "Gained 4.7% on the Polymarket oracle integration expansion."
+    "BTC": "Withdrawing of BTC has resumed in the first phase following the security breach."
    },
    "direction": "positive",
-   "quality": 66,
-   "label": "COMPLETED CATALYST",
+   "quality": 97,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 25,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
-    "timing": 6
+    "timing": 12
    },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
+   "impact": 10,
+   "s": "building",
+   "c": "high",
    "sources": [
     {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBIQ3NtcjZTV0VSWi1UcUJrYTQ3NndFUEZRaEVUbmUwUzRrMTNKY1Z2c3lEeExUWGxib0pfZEpSdzVLVWdtWVAzREE3MnBzazRWbGNZZHNOWHJfejdCcFpjXzB4VWJuckFsdTZZMkx4WWE?oc=5"
+     "name": "Binance",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcHN3WjR4TDllNGVhekZ1ZzU5c3JrT21XbHJqay0zamlYa2VBTzhaSWcxRU51bDZ2c3VKc2IzaEYtSVlnamhOQXJEVTFNOVNMd0RoLXBBMDg0MkFrdzFPRldaVDVHRFNtQ1FKbzZFc0xNVWh1UVB2WWVwa0pNNTVvMnpRa0VZMWVZNjBTS29wRGg?oc=5"
+    },
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack"
+    },
+    {
+     "name": "Reuters",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ042d3hwbUp6LXNrZ2JEY2RSVEgzX0xJbGZ0QTFsVnM1X0tYUFBONzljRXRIbFJCRlRWeUkyeEJwaElZZnN6Tnluc1h3ZURja0tMTHhjSDkyb2FnUHRPejdmUjZmaU10ZlBuTW82bVZmV0hKNFJMbmZ2VjFyS2h2NUVZRnVtZVdIQVo3VnRPVFhsX1ptRzJQaklyXzZIU0hxN1lyQ3lTNjYtMGZvQ1Q1T0laQzBHU1dHdEk1RXJXMGhRSVJT?oc=5"
     }
    ],
-   "missing": "Full financial or operational scope of the expanded integration."
+   "missing": "Exact timeline for remaining token withdrawal phases"
   },
   {
-   "t": "NEAR Surges on Ondo Partnership",
-   "type": "partnership",
-   "status": "completed",
-   "event_date": null,
+   "t": "XRP Ledger Upgrade Nears November 4",
+   "type": "mainnet",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-11-04",
    "coins": [
-    "NEAR"
+    "XRP"
    ],
    "rel": "direct",
-   "b": "NEAR surged 3.8% amid an Ondo partnership and leverage flush.",
+   "b": "The XRP Ledger upgrade is approaching on November 4, while the XRP price holds near $1.25 alongside recent inflows into XRP ETFs.",
    "per": {
-    "NEAR": "Surged 3.8% following the Ondo partnership announcement."
+    "XRP": "Ledger upgrade scheduled for November 4."
    },
    "direction": "positive",
-   "quality": 66,
-   "label": "COMPLETED CATALYST",
+   "quality": 75,
+   "label": "STRONG CATALYST",
    "parts": {
     "credibility": 8,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
+   "impact": 8,
+   "s": "building",
+   "c": "high",
    "sources": [
     {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzUE04cjRHSG5UVkFQcHRlWHZqaEFSRmR6eG1lOUc5aGVUUXc4TFpJSnhmUlhQTUs2UWRNVkR4QlRTVXVyRnFWUm02MW9Ob21KYjJSOG1YalJibTJHcFRHLWM0UkxXcXl0bms5MjI5aC0?oc=5"
+     "name": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQWFuR1pVa0xrTS1uRXRoSlR6RDZ4QV8wc3Judm9kTU1pZGxZeDNsVWx1cTNWQ2lPdm9SVXBYWXhMYWFRd2pwRXI4YXktandRUl9zZ3pnSVJoZWgxMFNuS184OWREdnRsMkhOejZRNjlQQTF0NDMzV3FtY3lySTVhck1ZRVU5TWhVSE05TXVVRWJOOXlWMEJHTWR5QU5abDhpMkluaG1tRTB6djZfYld3TDIxc1l3TnE5UFJOVDk1ZkhEbS03?oc=5"
     }
    ],
-   "missing": "Specific details on the integration deliverables between NEAR and Ondo."
+   "missing": "Specific details on the technical changes included in the XRPL upgrade"
   }
  ]
 }
