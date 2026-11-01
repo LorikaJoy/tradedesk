@@ -1,4 +1,73 @@
 {
- "updated": "2026-10-31T23:54:07.858460+00:00",
- "cards": []
+ "updated": "2026-11-01T03:49:29.514446+00:00",
+ "cards": [
+  {
+   "t": "Chainlink Integrated by Polymarket for Oracles",
+   "type": "partnership",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "LINK"
+   ],
+   "rel": "direct",
+   "b": "Chainlink gained 4.7% following Polymarket's expansion of its oracle integration with Chainlink.",
+   "per": {
+    "LINK": "Gained 4.7% on the Polymarket oracle integration expansion."
+   },
+   "direction": "positive",
+   "quality": 66,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBIQ3NtcjZTV0VSWi1UcUJrYTQ3NndFUEZRaEVUbmUwUzRrMTNKY1Z2c3lEeExUWGxib0pfZEpSdzVLVWdtWVAzREE3MnBzazRWbGNZZHNOWHJfejdCcFpjXzB4VWJuckFsdTZZMkx4WWE?oc=5"
+    }
+   ],
+   "missing": "Full financial or operational scope of the expanded integration."
+  },
+  {
+   "t": "NEAR Surges on Ondo Partnership",
+   "type": "partnership",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "NEAR"
+   ],
+   "rel": "direct",
+   "b": "NEAR surged 3.8% amid an Ondo partnership and leverage flush.",
+   "per": {
+    "NEAR": "Surged 3.8% following the Ondo partnership announcement."
+   },
+   "direction": "positive",
+   "quality": 66,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzUE04cjRHSG5UVkFQcHRlWHZqaEFSRmR6eG1lOUc5aGVUUXc4TFpJSnhmUlhQTUs2UWRNVkR4QlRTVXVyRnFWUm02MW9Ob21KYjJSOG1YalJibTJHcFRHLWM0UkxXcXl0bms5MjI5aC0?oc=5"
+    }
+   ],
+   "missing": "Specific details on the integration deliverables between NEAR and Ondo."
+  }
+ ]
 }
