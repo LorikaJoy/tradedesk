@@ -1,26 +1,26 @@
 {
- "updated": "2026-11-02T06:50:27.568247+00:00",
+ "updated": "2026-11-02T16:45:18.935888+00:00",
  "cards": [
   {
-   "t": "Binance Resumes Withdrawals After Hack",
-   "type": "other",
+   "t": "Binance Suffers Record $6.3B Hack and Massive Post-Withdrawal Outflows",
+   "type": "hack",
    "status": "ongoing",
    "event_date": null,
    "coins": [
-    "BTC",
-    "BNB"
+    "BNB",
+    "BTC"
    ],
    "rel": "direct",
-   "b": "Binance has started reopening customer withdrawals in phases following a record $6.3 billion exploit, with Bitcoin leading the first phase and net outflows surging.",
+   "b": "Binance experienced a record $6.3 billion hack attributed by the FBI to North Korea, leading to billions in net outflows after withdrawals reopened.",
    "per": {
-    "BTC": "Leading the first phase of restored withdrawals on Binance.",
-    "BNB": "Native token of the exchange managing through the aftermath of the $6.3B exploit."
+    "BNB": "BNB faced severe volatility and massive exchange withdrawals following the security breach.",
+    "BTC": "Bitcoin spot ETFs saw record outflows of $643 million on Friday following the hack announcement."
    },
-   "direction": "positive",
-   "quality": 91,
-   "label": "STRONG CATALYST",
+   "direction": "negative",
+   "quality": 93,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 21,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
@@ -31,22 +31,26 @@
    "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack"
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13eUxGM3BXWWxzMnU3WDdnOEliT3ZheTJlbmMtLTZRR21fdEFNbTVwMi1iSGJ3am1rUjZHQTF3a2cxZGpIaWdIdWkyRjBnOG8zUGFfSGJtTWNRNWc?oc=5"
     },
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/binance-net-outflows-surge-to-58b-as-withdrawals-resume-after-record-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55dFFBV2lOSGF2X1FweVNLeGRzajhSVHNRWjFMc05QVS1oMEVNcy0xb1ZmZnpfTEU2WE1hdHdMcUI3dnNQaHIxajFzNkYyUmR6OXpSUG9kYWNTTVU?oc=5"
     },
     {
      "name": "cointelegraph.com",
      "url": "https://cointelegraph.com/news/binance-says-phase-one-of-withdrawals-opens-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/fbi-blames-north-korea-for-record-63b-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact dates for subsequent phases and total final outflow figures."
+   "missing": "Full recovery timeline for the SAFU fund and complete recovery status of the stolen funds."
   },
   {
-   "t": "BTCPay Server Hot Wallet Security Warning",
+   "t": "BTCPay Server Urges Users to Shut Down Servers Amid Hot Wallet Thefts",
    "type": "hack",
    "status": "ongoing",
    "event_date": null,
@@ -54,21 +58,21 @@
     "BTC"
    ],
    "rel": "direct",
-   "b": "BTCPay Server urged operators of outdated versions to switch off their servers and hot wallets following reports of unauthorized attackers draining funds.",
+   "b": "BTCPay Server advised operators to switch off servers running outdated software versions after reports of unauthorized attackers draining hot wallets.",
    "per": {
-    "BTC": "Impacted by hot wallet thefts on outdated versions of BTCPay Server."
+    "BTC": "Security concerns impact self-hosted merchant payment nodes on older versions."
    },
    "direction": "negative",
-   "quality": 91,
+   "quality": 85,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 21,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 12
    },
-   "impact": 9,
+   "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
@@ -79,79 +83,77 @@
     {
      "name": "cointelegraph.com",
      "url": "https://cointelegraph.com/news/btcpay-server-hot-wallet-thefts-older-versions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/382324/btcpay-tells-merchants-to-switch-off-servers-amid-hot-wallet-attack-reports"
     }
    ],
-   "missing": "Total financial losses and a verified software fix timeline."
+   "missing": "Exact total financial losses incurred across affected merchants."
   },
   {
-   "t": "THORChain Pauses Swaps Due to Exploit Activity",
-   "type": "other",
-   "status": "ongoing",
+   "t": "Strategy Spends $65.5M on Bitcoin and $208.2M on STRC Buybacks",
+   "type": "buyback",
+   "status": "completed",
    "event_date": null,
    "coins": [
-    "RUNE",
     "BTC",
-    "ETH",
-    "SOL"
+    "STRC"
    ],
    "rel": "direct",
-   "b": "THORChain node operators paused swaps involving assets across 10 networks following a block reorg bug while hackers attempted to launder Binance loot through cross-chain bridges.",
+   "b": "Strategy purchased an additional 811 bitcoin for $65.5 million and spent $208.2 million buying back its STRC preferred shares.",
    "per": {
-    "RUNE": "Protocol halted swaps due to a block reorg bug and hack laundering activity.",
-    "BTC": "Swaps involving the asset were paused on THORChain.",
-    "ETH": "Swaps involving the asset were paused on THORChain.",
-    "SOL": "Swaps involving the asset were paused on THORChain.",
-    "TRX": "Swaps involving the asset were paused on THORChain."
+    "BTC": "Continued institutional treasury accumulation by Strategy provides buying support."
    },
-   "direction": "negative",
-   "quality": 91,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 79,
+   "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 21,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
-    "timing": 12
+    "timing": 6
    },
-   "impact": 9,
-   "s": "building",
+   "impact": 8,
+   "s": "fading",
    "c": "high",
    "sources": [
     {
      "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/thorchain-halts-swaps-after-block-reorg-bug-slowing-binance-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "url": "https://cointelegraph.com/news/strategy-repurchases-208m-strc-65m-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/magazine/36b-flees-binance-on-reopen-thorchain-co-founder-opposes-coin-freeze-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/382333/strategy-resumes-bitcoin-buys-with-66m-purchase"
     },
     {
      "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-11-01-north-korean-hackers-launder-242-million-of-binance-loot-via-tron-as-fbi-presses-thorchain-analyst-432257"
+     "url": "https://www.theblock.co/news/business/2026-11-02-we-found-room-for-even-more-orange-michael-saylor-strategy-bitcoin-btc-432275"
     }
    ],
-   "missing": "When swaps will be fully resumed."
+   "missing": "Total updated treasury holdings after the latest purchase."
   },
   {
-   "t": "XRP Ledger Upgrade Nears",
+   "t": "XRP Ledger Prepares Fix to Resolve Stablecoin Token Minting Flaw",
    "type": "mainnet",
    "status": "confirmed_upcoming",
-   "event_date": "2026-11-04",
+   "event_date": null,
    "coins": [
     "XRP"
    ],
    "rel": "direct",
-   "b": "The XRP Ledger network is approaching an upgrade scheduled for November 4 as the token trades near $1.25 support.",
+   "b": "The XRP Ledger is on track to implement a network fix addressing a flaw that could have allowed stablecoin partners to inappropriately print new tokens.",
    "per": {
-    "XRP": "Experiencing network upgrade activity ahead of November 4."
+    "XRP": "XRP itself remains unaffected while validators activate the network patch."
    },
-   "direction": "positive",
-   "quality": 75,
+   "direction": "neutral",
+   "quality": 77,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 17,
     "relevance": 25,
-    "impact": 12,
+    "impact": 5,
     "novelty": 15,
     "timing": 15
    },
@@ -160,11 +162,127 @@
    "c": "high",
    "sources": [
     {
-     "name": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQWFuR1pVa0xrTS1uRXRoSlR6RDZ4QV8wc3Judm9kTU1pZGxZeDNsVWx1cTNWQ2lPdm9SVXBYWXhMYWFRd2pwRXI4YXktandRUl9zZ3pnSVJoZWgxMFNuS184OWREdnRsMkhOejZRNjlQQTF0NDMzV3FtY3lySTVhck1ZRVU5TWhVSE05TXVVRWJOOXlWMEJHTWR5QU5abDhpMkluaG1tRTB6djZfYld3TDIxc1l3TnE5UFJOVDk1ZkhEbS03?oc=5"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/11/02/xrp-ledger-set-to-fix-flaw-that-could-let-stablecoin-partners-print-new-tokens"
     }
    ],
-   "missing": "Specific technical changes included in the upgrade."
+   "missing": "Exact timestamp of validator activation."
+  },
+  {
+   "t": "Strive Expands Bitcoin Treasury With $10 Million Purchase",
+   "type": "treasury",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Strive acquired another 124 BTC for $10 million, inching closer to becoming the second-largest public company holder of bitcoin.",
+   "per": {
+    "BTC": "Treasury accumulation adds consistent corporate buying pressure."
+   },
+   "direction": "positive",
+   "quality": 70,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "MarketForces Africa",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNG1xV29acXFHQy1nQ1hxTE82Njlaakx3TEtpTFd2Z29UakkyUjFRaW92bXpVb3VxRW5fVmMzQ1JmY3VUR2E2aTNBSEpfSEtCUkNtV09qT01IUjhfOVExU09mbnlieDZVRWN4T0xqeml3V21Kem8tUXRYYWRYWG9jMnMtRDNzUE83Qml4eDFSYnNrVEhObzNV?oc=5"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-11-02-strive-inches-closer-second-largest-public-bitcoin-holder-10-million-buy-432312"
+    }
+   ],
+   "missing": "Total aggregate bitcoin holdings held by Strive."
+  },
+  {
+   "t": "Bitmine Adds 8,573 ETH to Holdings Amid Market Resilience",
+   "type": "treasury",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "ETH"
+   ],
+   "rel": "direct",
+   "b": "Bitmine added 8,573 ETH last week, lifting its total holdings to 6.06 million ETH as leadership downplayed the market impact of the Binance hack.",
+   "per": {
+    "ETH": "Substantial institutional accumulation supports Ethereum's supply dynamics."
+   },
+   "direction": "positive",
+   "quality": 70,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/382340/bitmine-buys-more-ethereum-tom-lee-binance-hack-bullish"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307"
+    }
+   ],
+   "missing": "Total fiat value spent on the latest ETH acquisition."
+  },
+  {
+   "t": "THORChain Halts Swaps Following Block Reorg Bug During Hack Fallout",
+   "type": "other",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "BTC",
+    "ETH",
+    "SOL",
+    "TRX"
+   ],
+   "rel": "direct",
+   "b": "THORChain node operators paused swaps involving assets across 10 networks due to a block reorg bug while hackers attempted to move stolen funds.",
+   "per": {
+    "BTC": "Cross-chain liquidity swaps are temporarily disrupted.",
+    "ETH": "Cross-chain liquidity swaps are temporarily disrupted.",
+    "SOL": "Cross-chain liquidity swaps are temporarily disrupted.",
+    "TRX": "Cross-chain liquidity swaps are temporarily disrupted."
+   },
+   "direction": "negative",
+   "quality": 68,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/thorchain-halts-swaps-after-block-reorg-bug-slowing-binance-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "When cross-chain swap functionality will be re-enabled."
   }
  ]
 }
