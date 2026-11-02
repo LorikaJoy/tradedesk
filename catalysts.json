@@ -1,91 +1,170 @@
 {
- "updated": "2026-11-02T00:41:10.878658+00:00",
+ "updated": "2026-11-02T06:50:27.568247+00:00",
  "cards": [
   {
-   "t": "Binance Resumes Withdrawals in Phases Following Hack",
+   "t": "Binance Resumes Withdrawals After Hack",
    "type": "other",
    "status": "ongoing",
-   "event_date": "2026-11-01",
+   "event_date": null,
    "coins": [
-    "BNB",
-    "BTC"
+    "BTC",
+    "BNB"
    ],
    "rel": "direct",
-   "b": "Binance has started reopening customer withdrawals in phases following a record $6.3 billion exploit, with Bitcoin leading the first phase.",
+   "b": "Binance has started reopening customer withdrawals in phases following a record $6.3 billion exploit, with Bitcoin leading the first phase and net outflows surging.",
    "per": {
-    "BNB": "Impacted by exchange hack recovery efforts and phased withdrawal resumption.",
-    "BTC": "Leads the first phase of resumed withdrawals on Binance following the security incident."
+    "BTC": "Leading the first phase of restored withdrawals on Binance.",
+    "BNB": "Native token of the exchange managing through the aftermath of the $6.3B exploit."
    },
-   "direction": "mixed",
-   "quality": 97,
+   "direction": "positive",
+   "quality": 91,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 25,
+    "credibility": 19,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 12
    },
-   "impact": 10,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
-    {
-     "name": "Binance",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcHN3WjR4TDllNGVhekZ1ZzU5c3JrT21XbHJqay0zamlYa2VBTzhaSWcxRU51bDZ2c3VKc2IzaEYtSVlnamhOQXJEVTFNOVNMd0RoLXBBMDg0MkFrdzFPRldaVDVHRFNtQ1FKbzZFc0xNVWh1UVB2WWVwa0pNNTVvMnpRa0VZMWVZNjBTS29wRGg?oc=5"
-    },
     {
      "name": "coindesk.com",
      "url": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack"
     },
     {
      "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/binance-net-outflows-surge-to-58b-as-withdrawals-resume-after-record-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "cointelegraph.com",
      "url": "https://cointelegraph.com/news/binance-says-phase-one-of-withdrawals-opens-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact timeline for all remaining network withdrawals to fully reopen."
+   "missing": "Exact dates for subsequent phases and total final outflow figures."
   },
   {
-   "t": "Moscow Exchange Plans Bitcoin, Ethereum, and USDT Trading",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-12-01",
+   "t": "BTCPay Server Hot Wallet Security Warning",
+   "type": "hack",
+   "status": "ongoing",
+   "event_date": null,
    "coins": [
-    "BTC",
-    "ETH",
-    "USDT"
+    "BTC"
    ],
    "rel": "direct",
-   "b": "The Moscow Exchange plans to launch trading for Bitcoin, Ethereum, and USDT starting December 1 under new Russian crypto rules.",
+   "b": "BTCPay Server urged operators of outdated versions to switch off their servers and hot wallets following reports of unauthorized attackers draining funds.",
    "per": {
-    "BTC": "Scheduled to begin trading on the Moscow Exchange on December 1, 2026.",
-    "ETH": "Scheduled to begin trading on the Moscow Exchange on December 1, 2026.",
-    "USDT": "Scheduled to begin trading on the Moscow Exchange on December 1, 2026."
+    "BTC": "Impacted by hot wallet thefts on outdated versions of BTCPay Server."
+   },
+   "direction": "negative",
+   "quality": 91,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/btcpay-server-hot-wallet-thefts-older-versions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Total financial losses and a verified software fix timeline."
+  },
+  {
+   "t": "THORChain Pauses Swaps Due to Exploit Activity",
+   "type": "other",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "RUNE",
+    "BTC",
+    "ETH",
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "THORChain node operators paused swaps involving assets across 10 networks following a block reorg bug while hackers attempted to launder Binance loot through cross-chain bridges.",
+   "per": {
+    "RUNE": "Protocol halted swaps due to a block reorg bug and hack laundering activity.",
+    "BTC": "Swaps involving the asset were paused on THORChain.",
+    "ETH": "Swaps involving the asset were paused on THORChain.",
+    "SOL": "Swaps involving the asset were paused on THORChain.",
+    "TRX": "Swaps involving the asset were paused on THORChain."
+   },
+   "direction": "negative",
+   "quality": 91,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/thorchain-halts-swaps-after-block-reorg-bug-slowing-binance-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/magazine/36b-flees-binance-on-reopen-thorchain-co-founder-opposes-coin-freeze-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/defi/2026-11-01-north-korean-hackers-launder-242-million-of-binance-loot-via-tron-as-fbi-presses-thorchain-analyst-432257"
+    }
+   ],
+   "missing": "When swaps will be fully resumed."
+  },
+  {
+   "t": "XRP Ledger Upgrade Nears",
+   "type": "mainnet",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-11-04",
+   "coins": [
+    "XRP"
+   ],
+   "rel": "direct",
+   "b": "The XRP Ledger network is approaching an upgrade scheduled for November 4 as the token trades near $1.25 support.",
+   "per": {
+    "XRP": "Experiencing network upgrade activity ahead of November 4."
    },
    "direction": "positive",
-   "quality": 64,
-   "label": "MODERATE CATALYST",
+   "quality": 75,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 10,
-    "relevance": 12,
+    "credibility": 8,
+    "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 6,
+   "impact": 8,
    "s": "building",
-   "c": "medium",
+   "c": "high",
    "sources": [
     {
-     "name": "Crypto News",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMmlJYjZZQkxWUnUyXzdhd2xzWmVwSGY4NGZVYzJCWVl4WlBYSzBZZmZUSEtvVG54Z2pTdEdJczRxQUdoSnBsMHVSekxmMURmblJxV3VfTUloT05RYlN1NDhPVG4zOWRUeU9qcW1jLUpZa2tydDlzZUZzajAzUmxoQQ?oc=5"
-    },
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbWlCNFlmSUxuNG5CZnJZY0llQW1nTC1kRzVTU2lLMVBMTGpBUHJNQkoxVTdFQjBMM0hwVktxSk5qVGhuTjRGbXdNa3E4WVJEQkRrUW5YT0ItcEdUNFc0ZHlTQ2JqSjFiZ2g1dklVX05UeXdQVjNsdUNReW1RclVGV2x4TkpSQzBQak90SHhwQlpLLUd6NDdHUXJXT19vQWZmb3Fpag?oc=5"
+     "name": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQWFuR1pVa0xrTS1uRXRoSlR6RDZ4QV8wc3Judm9kTU1pZGxZeDNsVWx1cTNWQ2lPdm9SVXBYWXhMYWFRd2pwRXI4YXktandRUl9zZ3pnSVJoZWgxMFNuS184OWREdnRsMkhOejZRNjlQQTF0NDMzV3FtY3lySTVhck1ZRVU5TWhVSE05TXVVRWJOOXlWMEJHTWR5QU5abDhpMkluaG1tRTB6djZfYld3TDIxc1l3TnE5UFJOVDk1ZkhEbS03?oc=5"
     }
    ],
-   "missing": "Specific trading pairs and volume caps."
+   "missing": "Specific technical changes included in the upgrade."
   }
  ]
 }
