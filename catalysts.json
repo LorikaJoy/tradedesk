@@ -1,20 +1,22 @@
 {
- "updated": "2026-11-02T16:45:18.935888+00:00",
+ "updated": "2026-11-02T23:42:35.304219+00:00",
  "cards": [
   {
-   "t": "Binance Suffers Record $6.3B Hack and Massive Post-Withdrawal Outflows",
+   "t": "Binance Suffers Record $6.3B Hack and Subsequent Outflows",
    "type": "hack",
    "status": "ongoing",
    "event_date": null,
    "coins": [
     "BNB",
-    "BTC"
+    "BTC",
+    "ETH",
+    "SOL"
    ],
    "rel": "direct",
-   "b": "Binance experienced a record $6.3 billion hack attributed by the FBI to North Korea, leading to billions in net outflows after withdrawals reopened.",
+   "b": "Binance experienced a record $6.3 billion hack, prompting heavy withdrawals totaling $3.64 billion after services resumed alongside reserve proof updates.",
    "per": {
-    "BNB": "BNB faced severe volatility and massive exchange withdrawals following the security breach.",
-    "BTC": "Bitcoin spot ETFs saw record outflows of $643 million on Friday following the hack announcement."
+    "BNB": "Binance Coin processed massive outflows and withdrawals following the security breach.",
+    "BTC": "Bitcoin faced heavy outflows and pressure as Binance withdrawals reopened."
    },
    "direction": "negative",
    "quality": 93,
@@ -31,79 +33,82 @@
    "c": "high",
    "sources": [
     {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13eUxGM3BXWWxzMnU3WDdnOEliT3ZheTJlbmMtLTZRR21fdEFNbTVwMi1iSGJ3am1rUjZHQTF3a2cxZGpIaWdIdWkyRjBnOG8zUGFfSGJtTWNRNWc?oc=5"
+     "name": "TechBullion",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUHgwVHg4Zl84T0p1SGJmNWtoXzJjZ3BEMTByYVVFekJFUHZaNzBvZGVvTlNvMC1EZl9nemkyZGpwOTBKTVB6OFVkSlRyd1FYMFJxdHpERmd4bmxzQWxhNmh5bWI4ekZsaU5FdWZ0MXVIXzluSW55RWcySVRFaHlZRDkwR2drd2Y1ODRmZnhtY0gwYW5adDc3aWEyNW1tbmtQbUxrdkwtWGxkeFpOOHNfYV9nM1QtYUoyLURTVTRoYXROakdDeERFMFhaVHRLYnlWSmppOQ?oc=5"
     },
     {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55dFFBV2lOSGF2X1FweVNLeGRzajhSVHNRWjFMc05QVS1oMEVNcy0xb1ZmZnpfTEU2WE1hdHdMcUI3dnNQaHIxajFzNkYyUmR6OXpSUG9kYWNTTVU?oc=5"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/binance-says-phase-one-of-withdrawals-opens-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-eases-to-usd77-900-as-binance-customers-pull-usd3-6-billion-after-withdrawals-reopen"
     },
     {
      "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/fbi-blames-north-korea-for-record-63b-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "url": "https://cointelegraph.com/news/binance-safu-btc-balance-halves-recovery-unclear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/382316/fbi-blames-north-korea-for-6b-binance-hack-as-exchange-reopens-withdrawals"
     }
    ],
-   "missing": "Full recovery timeline for the SAFU fund and complete recovery status of the stolen funds."
+   "missing": "Total final recovery amount and identity of all affected user funds."
   },
   {
-   "t": "BTCPay Server Urges Users to Shut Down Servers Amid Hot Wallet Thefts",
+   "t": "Mercado Bitcoin Halts Withdrawals Following $40M-$46M Security Breach",
    "type": "hack",
    "status": "ongoing",
    "event_date": null,
    "coins": [
-    "BTC"
+    "USDT"
    ],
    "rel": "direct",
-   "b": "BTCPay Server advised operators to switch off servers running outdated software versions after reports of unauthorized attackers draining hot wallets.",
+   "b": "Brazil's largest crypto exchange, Mercado Bitcoin, halted deposits and withdrawals after a security breach drained approximately $40 to $46 million across multiple chains.",
    "per": {
-    "BTC": "Security concerns impact self-hosted merchant payment nodes on older versions."
+    "USDT": "Tether froze over 4.5 million USDT connected to the Mercado Bitcoin breach."
    },
    "direction": "negative",
-   "quality": 85,
+   "quality": 93,
    "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 21,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 12
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
     {
      "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets"
+     "url": "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains"
     },
     {
      "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/btcpay-server-hot-wallet-thefts-older-versions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "url": "https://cointelegraph.com/news/mercado-bitcoin-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
      "name": "decrypt.co",
-     "url": "https://decrypt.co/382324/btcpay-tells-merchants-to-switch-off-servers-amid-hot-wallet-attack-reports"
+     "url": "https://decrypt.co/382341/mercado-bitcoin-halts-withdrawals-40-million-hack"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/defi/2026-11-02-mercado-bitcoin-hack-46-million-brazil-exchange-432333"
     }
    ],
-   "missing": "Exact total financial losses incurred across affected merchants."
+   "missing": "Exact final loss figures and timeline for full platform restoration."
   },
   {
-   "t": "Strategy Spends $65.5M on Bitcoin and $208.2M on STRC Buybacks",
+   "t": "Strategy Buys More Bitcoin and Executes STRC Buybacks",
    "type": "buyback",
    "status": "completed",
    "event_date": null,
    "coins": [
-    "BTC",
-    "STRC"
+    "BTC"
    ],
    "rel": "direct",
-   "b": "Strategy purchased an additional 811 bitcoin for $65.5 million and spent $208.2 million buying back its STRC preferred shares.",
+   "b": "Strategy allocated capital to buy back $208.2 million of its STRC preferred shares and acquired additional Bitcoin holdings.",
    "per": {
-    "BTC": "Continued institutional treasury accumulation by Strategy provides buying support."
+    "BTC": "Strategy expanded its corporate Bitcoin treasury holdings through further market purchases."
    },
    "direction": "positive",
    "quality": 79,
@@ -132,10 +137,10 @@
      "url": "https://www.theblock.co/news/business/2026-11-02-we-found-room-for-even-more-orange-michael-saylor-strategy-bitcoin-btc-432275"
     }
    ],
-   "missing": "Total updated treasury holdings after the latest purchase."
+   "missing": "Remaining cash reserves allocated for future purchases."
   },
   {
-   "t": "XRP Ledger Prepares Fix to Resolve Stablecoin Token Minting Flaw",
+   "t": "XRP Ledger Prepares Fix for Stablecoin Token Minting Flaw",
    "type": "mainnet",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -143,11 +148,11 @@
     "XRP"
    ],
    "rel": "direct",
-   "b": "The XRP Ledger is on track to implement a network fix addressing a flaw that could have allowed stablecoin partners to inappropriately print new tokens.",
+   "b": "The XRP Ledger is on track to implement a software fix addressing a flaw concerning stablecoin partners minting new tokens.",
    "per": {
-    "XRP": "XRP itself remains unaffected while validators activate the network patch."
+    "XRP": "XRP token itself remains unaffected by the underlying vulnerability being patched."
    },
-   "direction": "neutral",
+   "direction": "positive",
    "quality": 77,
    "label": "STRONG CATALYST",
    "parts": {
@@ -166,123 +171,7 @@
      "url": "https://www.coindesk.com/tech/2026/11/02/xrp-ledger-set-to-fix-flaw-that-could-let-stablecoin-partners-print-new-tokens"
     }
    ],
-   "missing": "Exact timestamp of validator activation."
-  },
-  {
-   "t": "Strive Expands Bitcoin Treasury With $10 Million Purchase",
-   "type": "treasury",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Strive acquired another 124 BTC for $10 million, inching closer to becoming the second-largest public company holder of bitcoin.",
-   "per": {
-    "BTC": "Treasury accumulation adds consistent corporate buying pressure."
-   },
-   "direction": "positive",
-   "quality": 70,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "MarketForces Africa",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNG1xV29acXFHQy1nQ1hxTE82Njlaakx3TEtpTFd2Z29UakkyUjFRaW92bXpVb3VxRW5fVmMzQ1JmY3VUR2E2aTNBSEpfSEtCUkNtV09qT01IUjhfOVExU09mbnlieDZVRWN4T0xqeml3V21Kem8tUXRYYWRYWG9jMnMtRDNzUE83Qml4eDFSYnNrVEhObzNV?oc=5"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-11-02-strive-inches-closer-second-largest-public-bitcoin-holder-10-million-buy-432312"
-    }
-   ],
-   "missing": "Total aggregate bitcoin holdings held by Strive."
-  },
-  {
-   "t": "Bitmine Adds 8,573 ETH to Holdings Amid Market Resilience",
-   "type": "treasury",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "Bitmine added 8,573 ETH last week, lifting its total holdings to 6.06 million ETH as leadership downplayed the market impact of the Binance hack.",
-   "per": {
-    "ETH": "Substantial institutional accumulation supports Ethereum's supply dynamics."
-   },
-   "direction": "positive",
-   "quality": 70,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382340/bitmine-buys-more-ethereum-tom-lee-binance-hack-bullish"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307"
-    }
-   ],
-   "missing": "Total fiat value spent on the latest ETH acquisition."
-  },
-  {
-   "t": "THORChain Halts Swaps Following Block Reorg Bug During Hack Fallout",
-   "type": "other",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "BTC",
-    "ETH",
-    "SOL",
-    "TRX"
-   ],
-   "rel": "direct",
-   "b": "THORChain node operators paused swaps involving assets across 10 networks due to a block reorg bug while hackers attempted to move stolen funds.",
-   "per": {
-    "BTC": "Cross-chain liquidity swaps are temporarily disrupted.",
-    "ETH": "Cross-chain liquidity swaps are temporarily disrupted.",
-    "SOL": "Cross-chain liquidity swaps are temporarily disrupted.",
-    "TRX": "Cross-chain liquidity swaps are temporarily disrupted."
-   },
-   "direction": "negative",
-   "quality": 68,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/thorchain-halts-swaps-after-block-reorg-bug-slowing-binance-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "When cross-chain swap functionality will be re-enabled."
+   "missing": "Exact activation time for the network patch."
   }
  ]
 }
