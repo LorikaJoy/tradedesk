@@ -1,58 +1,8 @@
 {
- "updated": "2026-11-02T23:42:35.304219+00:00",
+ "updated": "2026-11-03T04:02:31.264007+00:00",
  "cards": [
   {
-   "t": "Binance Suffers Record $6.3B Hack and Subsequent Outflows",
-   "type": "hack",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "BNB",
-    "BTC",
-    "ETH",
-    "SOL"
-   ],
-   "rel": "direct",
-   "b": "Binance experienced a record $6.3 billion hack, prompting heavy withdrawals totaling $3.64 billion after services resumed alongside reserve proof updates.",
-   "per": {
-    "BNB": "Binance Coin processed massive outflows and withdrawals following the security breach.",
-    "BTC": "Bitcoin faced heavy outflows and pressure as Binance withdrawals reopened."
-   },
-   "direction": "negative",
-   "quality": 93,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "TechBullion",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUHgwVHg4Zl84T0p1SGJmNWtoXzJjZ3BEMTByYVVFekJFUHZaNzBvZGVvTlNvMC1EZl9nemkyZGpwOTBKTVB6OFVkSlRyd1FYMFJxdHpERmd4bmxzQWxhNmh5bWI4ekZsaU5FdWZ0MXVIXzluSW55RWcySVRFaHlZRDkwR2drd2Y1ODRmZnhtY0gwYW5adDc3aWEyNW1tbmtQbUxrdkwtWGxkeFpOOHNfYV9nM1QtYUoyLURTVTRoYXROakdDeERFMFhaVHRLYnlWSmppOQ?oc=5"
-    },
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-eases-to-usd77-900-as-binance-customers-pull-usd3-6-billion-after-withdrawals-reopen"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/binance-safu-btc-balance-halves-recovery-unclear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382316/fbi-blames-north-korea-for-6b-binance-hack-as-exchange-reopens-withdrawals"
-    }
-   ],
-   "missing": "Total final recovery amount and identity of all affected user funds."
-  },
-  {
-   "t": "Mercado Bitcoin Halts Withdrawals Following $40M-$46M Security Breach",
+   "t": "Tether Freezes 4.5 Million USDT Tied to Mercado Bitcoin Hack",
    "type": "hack",
    "status": "ongoing",
    "event_date": null,
@@ -60,31 +10,27 @@
     "USDT"
    ],
    "rel": "direct",
-   "b": "Brazil's largest crypto exchange, Mercado Bitcoin, halted deposits and withdrawals after a security breach drained approximately $40 to $46 million across multiple chains.",
+   "b": "Following a $40 million to $46 million security breach at Brazilian exchange Mercado Bitcoin that caused a pause in withdrawals, Tether froze over 4.5 million USDT linked to the attack.",
    "per": {
-    "USDT": "Tether froze over 4.5 million USDT connected to the Mercado Bitcoin breach."
+    "USDT": "Tokens connected to the hack were frozen by Tether."
    },
    "direction": "negative",
-   "quality": 93,
+   "quality": 85,
    "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 21,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 12
    },
-   "impact": 9,
+   "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
      "name": "coindesk.com",
      "url": "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/mercado-bitcoin-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
      "name": "decrypt.co",
@@ -95,20 +41,20 @@
      "url": "https://www.theblock.co/news/defi/2026-11-02-mercado-bitcoin-hack-46-million-brazil-exchange-432333"
     }
    ],
-   "missing": "Exact final loss figures and timeline for full platform restoration."
+   "missing": "Total final stolen amount and timeline for resuming withdrawals."
   },
   {
-   "t": "Strategy Buys More Bitcoin and Executes STRC Buybacks",
-   "type": "buyback",
+   "t": "Strategy Buys 811 Bitcoin for $65.5 Million",
+   "type": "treasury",
    "status": "completed",
    "event_date": null,
    "coins": [
     "BTC"
    ],
    "rel": "direct",
-   "b": "Strategy allocated capital to buy back $208.2 million of its STRC preferred shares and acquired additional Bitcoin holdings.",
+   "b": "Strategy purchased an additional 811 Bitcoin for $65.5 million and also spent $208.2 million buying back its STRC preferred shares.",
    "per": {
-    "BTC": "Strategy expanded its corporate Bitcoin treasury holdings through further market purchases."
+    "BTC": "Strategy added 811 BTC to its holdings."
    },
    "direction": "positive",
    "quality": 79,
@@ -137,10 +83,10 @@
      "url": "https://www.theblock.co/news/business/2026-11-02-we-found-room-for-even-more-orange-michael-saylor-strategy-bitcoin-btc-432275"
     }
    ],
-   "missing": "Remaining cash reserves allocated for future purchases."
+   "missing": "Exact date of the purchase within the week."
   },
   {
-   "t": "XRP Ledger Prepares Fix for Stablecoin Token Minting Flaw",
+   "t": "XRP Ledger Plans Fix for Stablecoin Token-Minting Flaw",
    "type": "mainnet",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -148,11 +94,11 @@
     "XRP"
    ],
    "rel": "direct",
-   "b": "The XRP Ledger is on track to implement a software fix addressing a flaw concerning stablecoin partners minting new tokens.",
+   "b": "The XRP Ledger is on track to implement a fix for a flaw that could have allowed stablecoin partners to mint new tokens unauthorized, though XRP itself remains unaffected.",
    "per": {
-    "XRP": "XRP token itself remains unaffected by the underlying vulnerability being patched."
+    "XRP": "Network upgrade scheduled to fix potential minting vulnerability."
    },
-   "direction": "positive",
+   "direction": "mixed",
    "quality": 77,
    "label": "STRONG CATALYST",
    "parts": {
@@ -171,7 +117,83 @@
      "url": "https://www.coindesk.com/tech/2026/11/02/xrp-ledger-set-to-fix-flaw-that-could-let-stablecoin-partners-print-new-tokens"
     }
    ],
-   "missing": "Exact activation time for the network patch."
+   "missing": "Exact activation time."
+  },
+  {
+   "t": "Strive Buys 124 Bitcoin for $10 Million",
+   "type": "treasury",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Bitcoin firm Strive added 124 Bitcoin for approximately $10 million, moving closer to the second-largest public company holder spot.",
+   "per": {
+    "BTC": "Strive increased its corporate treasury holdings."
+   },
+   "direction": "positive",
+   "quality": 70,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/382385/bitcoin-firm-strive-treasury-ranks-another-big-buy"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-11-02-strive-inches-closer-second-largest-public-bitcoin-holder-10-million-buy-432312"
+    }
+   ],
+   "missing": "Exact purchase date."
+  },
+  {
+   "t": "Bitmine Adds 8,573 Ethereum to Holdings",
+   "type": "treasury",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "ETH"
+   ],
+   "rel": "direct",
+   "b": "Bitmine added 8,573 ETH to its reserves last week, lifting its total holdings to 6.06 million ETH as part of its supply accumulation goal.",
+   "per": {
+    "ETH": "Bitmine expanded its Ethereum treasury stash."
+   },
+   "direction": "positive",
+   "quality": 70,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/382340/bitmine-buys-more-ethereum-tom-lee-binance-hack-bullish"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307"
+    }
+   ],
+   "missing": "The exact date of the purchase."
   }
  ]
 }
