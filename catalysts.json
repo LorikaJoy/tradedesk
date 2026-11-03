@@ -1,46 +1,8 @@
 {
- "updated": "2026-11-03T18:56:03.343296+00:00",
+ "updated": "2026-11-03T23:51:15.928123+00:00",
  "cards": [
   {
-   "t": "Binance Resumes Withdrawals After Hack",
-   "type": "other",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "BNB"
-   ],
-   "rel": "direct",
-   "b": "Binance is rolling out additional withdrawal phases and reopening withdrawal routes following security checks after its $6.3 billion hack.",
-   "per": {
-    "BNB": "Gradual restoration of withdrawal services helps stabilize the platform and exchange sentiment."
-   },
-   "direction": "mixed",
-   "quality": 91,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPa2RsbnRNM3VUSy03V2k0OGg4YkxfbzQzR0NZWDRfQ1VpMU1YOHpFRmpBcnY2ajEzWG9Lb2ZPWXpDV1lGNmliU1g3bHVfNmlyN0pBRHRWam1ib29XS0ZhNk5TSnB5X0FRcTVFLVVmNVRWaFI1YmZUVnRDbFplZTB6eDRVY0NOTXpNWEZnQnMwQUFqaHV0R0lCWTVtaDNJM1dJVW9jdlJVaTVldl9uS2laM3N3UVd6ZmJvcDFCTFF6NWdJZWpwRkR0Sw?oc=5"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/binance-begins-second-withdrawal-phase-following-record-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Full schedule for all assets and networks"
-  },
-  {
-   "t": "NEAR Approves Issuance Cut",
+   "t": "NEAR Approves Lower Token Issuance",
    "type": "other",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -48,13 +10,13 @@
     "NEAR"
    ],
    "rel": "direct",
-   "b": "NEAR approved a proposal to cut annual token issuance, preventing 11.8 million NEAR from entering circulation over two years.",
+   "b": "NEAR has approved a proposal to lower its annual token issuance, which will prevent 11.8 million NEAR from entering circulation over two years.",
    "per": {
-    "NEAR": "Lower issuance reduces future token supply, though staking yields may fall."
+    "NEAR": "Lower token issuance passed, reducing future circulating supply."
    },
-   "direction": "positive",
+   "direction": "negative",
    "quality": 86,
-   "label": "STRONG CATALYST",
+   "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 19,
     "relevance": 25,
@@ -75,10 +37,10 @@
      "url": "https://cointelegraph.com/markets/near-sinks-7-proposal-cut-annual-token-issuance-passes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact implementation timeline"
+   "missing": "Exact implementation date."
   },
   {
-   "t": "Moscow Exchange Crypto Trading Launch",
+   "t": "Moscow Exchange Dec. 1 Crypto Trading Launch",
    "type": "listing",
    "status": "confirmed_upcoming",
    "event_date": "2025-12-01",
@@ -88,30 +50,146 @@
     "USDT"
    ],
    "rel": "direct",
-   "b": "Moscow Exchange plans to launch trading for Bitcoin, Ether, and USDT on December 1 under Russia's new law.",
+   "b": "The Moscow Exchange is set to launch Bitcoin, Ether, and USDT trading on December 1 under Russia's new law with annual purchase limits for non-qualified investors.",
    "per": {
-    "BTC": "New regulated fiat-to-crypto access point in Russia opens up potential liquidity."
+    "BTC": "Will be listed on the Moscow Exchange starting December 1.",
+    "ETH": "Will be listed on the Moscow Exchange starting December 1.",
+    "USDT": "Will be listed on the Moscow Exchange starting December 1."
    },
    "direction": "positive",
-   "quality": 71,
-   "label": "MODERATE CATALYST",
+   "quality": 86,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
-    "relevance": 12,
+    "credibility": 19,
+    "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Altcoin Buzz",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYTVhSkhIZGkyYjBIYlRha2JQbUFJbWk3aVhlVFBhTU12S2ZaRk5BN3VfLUxZYzRBakE4SllNaGtsNGgxTVdGb2s4UVpWN2ZJemhxNlpmNVBhNkVYUnduRElOMndySkNKT3psbTNQQ1NHdWhVQkxCNDRnNzNSSGRCZ0I0UDdOcWd3QmZCYkcySnNqVjB2?oc=5"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/moscow-exchange-bitcoin-ether-usdt-trading-december?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Specific trading pairs and liquidity details."
+  },
+  {
+   "t": "Winklevoss Files for Spot Zcash ETF",
+   "type": "etf",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "ZEC"
+   ],
+   "rel": "direct",
+   "b": "Winklevoss has filed for a spot Zcash ETF featuring a $100 million indication of interest.",
+   "per": {
+    "ZEC": "File submitted for a spot ETF with a $100M indication of interest."
+   },
+   "direction": "positive",
+   "quality": 75,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX3VkMHNVOEhTYW9tMGU4MEI2Q25oSXhFQ08wTnh3eGxRV3JfcHRTLVNwalZwX2x1YVVMZ2hCZ1d4TW0zRzJZVGp6azZFeWNacUVwdEFmNFo0cEpfNTMxTk9WV01aWENfbC1YSDVmbEFhckFic05TODd6dElRZ1JjeDE2WQ?oc=5"
+    }
+   ],
+   "missing": "SEC review timeline and approval odds."
+  },
+  {
+   "t": "Binance Resumes Withdrawals After Hack",
+   "type": "other",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "BNB"
+   ],
+   "rel": "direct",
+   "b": "Binance has begun opening additional withdrawal routes and phased withdrawal revivals following its security checks and historic hack recovery.",
+   "per": {
+    "BNB": "Exchange withdrawal operations progressing through phased updates."
+   },
+   "direction": "mixed",
+   "quality": 72,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 12,
+    "impact": 20,
+    "novelty": 7,
+    "timing": 12
    },
    "impact": 7,
    "s": "building",
    "c": "medium",
    "sources": [
     {
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzd1p4ZWxKYlA2bWdDMkpxOGExX3JlcG01N1RGYTBVVkJMaWQ1aDI0NEZsamdMMEwwZlJxSGpyWHBoUEZUbTR6SXNrUEVBVHhoQTV5a0pCQnh3cWc?oc=5"
+    },
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPa2RsbnRNM3VUSy03V2k0OGg4YkxfbzQzR0NZWDRfQ1VpMU1YOHpFRmpBcnY2ajEzWG9Lb2ZPWXpDV1lGNmliU1g3bHVfNmlyN0pBRHRWam1ib29XS0ZhNk5TSnB5X0FRcTVFLVVmNVRWaFI1YmZUVnRDbFplZTB6eDRVY0NOTXpNWEZnQnMwQUFqaHV0R0lCWTVtaDNJM1dJVW9jdlJVaTVldl9uS2laM3N3UVd6ZmJvcDFCTFF6NWdJZWpwRkR0Sw?oc=5"
+    },
+    {
      "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/moscow-exchange-bitcoin-ether-usdt-trading-december?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "url": "https://cointelegraph.com/news/binance-begins-second-withdrawal-phase-following-record-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Specific trading pairs and volume caps for non-qualified investors"
+   "missing": "Full timeline for all tokens to be completely restocked and fully withdrawable."
+  },
+  {
+   "t": "New Jersey Drops Coinbase Staking Order",
+   "type": "regulation",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "COIN"
+   ],
+   "rel": "direct",
+   "b": "New Jersey lifted its staking ban and dropped a $5 million penalty against Coinbase, clearing the way for users in the state to restore staking access.",
+   "per": {
+    "COIN": "Staking ban lifted in New Jersey, clearing regulatory hurdles."
+   },
+   "direction": "positive",
+   "quality": 62,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 6,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/new-jersey-coinbase-staking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Exact date staking is re-enabled for users."
   }
  ]
 }
