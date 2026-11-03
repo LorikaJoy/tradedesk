@@ -1,66 +1,58 @@
 {
- "updated": "2026-11-03T04:02:31.264007+00:00",
+ "updated": "2026-11-03T11:53:59.956786+00:00",
  "cards": [
   {
-   "t": "Tether Freezes 4.5 Million USDT Tied to Mercado Bitcoin Hack",
-   "type": "hack",
-   "status": "ongoing",
+   "t": "NEAR Governance Approves Issuance Cut",
+   "type": "other",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "USDT"
+    "NEAR"
    ],
    "rel": "direct",
-   "b": "Following a $40 million to $46 million security breach at Brazilian exchange Mercado Bitcoin that caused a pause in withdrawals, Tether froze over 4.5 million USDT linked to the attack.",
+   "b": "NEAR's House of Stake passed proposal HSP-029 to reduce the network's maximum annual token issuance rate from 2.5% to 1.6% over a 24-month period.",
    "per": {
-    "USDT": "Tokens connected to the hack were frozen by Tether."
+    "NEAR": "Annual token issuance ceiling is set to be lowered to 1.6% over 24 months."
    },
-   "direction": "negative",
-   "quality": 85,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 84,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 21,
+    "credibility": 17,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
    "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382341/mercado-bitcoin-halts-withdrawals-40-million-hack"
-    },
-    {
      "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-11-02-mercado-bitcoin-hack-46-million-brazil-exchange-432333"
+     "url": "https://www.theblock.co/news/defi/2026-11-03-near-governance-approves-proposal-to-cut-token-issuance-432378"
     }
    ],
-   "missing": "Total final stolen amount and timeline for resuming withdrawals."
+   "missing": "Exact start date of the issuance reduction rollout."
   },
   {
-   "t": "Strategy Buys 811 Bitcoin for $65.5 Million",
-   "type": "treasury",
+   "t": "New Jersey Lifts Coinbase Staking Ban and Drops Penalty",
+   "type": "regulation",
    "status": "completed",
    "event_date": null,
    "coins": [
-    "BTC"
+    "COIN"
    ],
    "rel": "direct",
-   "b": "Strategy purchased an additional 811 Bitcoin for $65.5 million and also spent $208.2 million buying back its STRC preferred shares.",
+   "b": "New Jersey lifted its staking ban and dropped a $5 million penalty against Coinbase, allowing the restoration of staking access for users in the state.",
    "per": {
-    "BTC": "Strategy added 811 BTC to its holdings."
+    "COIN": "Staking ban lifted and $5 million penalty dropped in New Jersey."
    },
    "direction": "positive",
-   "quality": 79,
+   "quality": 75,
    "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 21,
+    "credibility": 17,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -72,128 +64,10 @@
    "sources": [
     {
      "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/strategy-repurchases-208m-strc-65m-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382333/strategy-resumes-bitcoin-buys-with-66m-purchase"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-11-02-we-found-room-for-even-more-orange-michael-saylor-strategy-bitcoin-btc-432275"
+     "url": "https://cointelegraph.com/news/new-jersey-coinbase-staking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact date of the purchase within the week."
-  },
-  {
-   "t": "XRP Ledger Plans Fix for Stablecoin Token-Minting Flaw",
-   "type": "mainnet",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "XRP"
-   ],
-   "rel": "direct",
-   "b": "The XRP Ledger is on track to implement a fix for a flaw that could have allowed stablecoin partners to mint new tokens unauthorized, though XRP itself remains unaffected.",
-   "per": {
-    "XRP": "Network upgrade scheduled to fix potential minting vulnerability."
-   },
-   "direction": "mixed",
-   "quality": 77,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/11/02/xrp-ledger-set-to-fix-flaw-that-could-let-stablecoin-partners-print-new-tokens"
-    }
-   ],
-   "missing": "Exact activation time."
-  },
-  {
-   "t": "Strive Buys 124 Bitcoin for $10 Million",
-   "type": "treasury",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Bitcoin firm Strive added 124 Bitcoin for approximately $10 million, moving closer to the second-largest public company holder spot.",
-   "per": {
-    "BTC": "Strive increased its corporate treasury holdings."
-   },
-   "direction": "positive",
-   "quality": 70,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382385/bitcoin-firm-strive-treasury-ranks-another-big-buy"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-11-02-strive-inches-closer-second-largest-public-bitcoin-holder-10-million-buy-432312"
-    }
-   ],
-   "missing": "Exact purchase date."
-  },
-  {
-   "t": "Bitmine Adds 8,573 Ethereum to Holdings",
-   "type": "treasury",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "Bitmine added 8,573 ETH to its reserves last week, lifting its total holdings to 6.06 million ETH as part of its supply accumulation goal.",
-   "per": {
-    "ETH": "Bitmine expanded its Ethereum treasury stash."
-   },
-   "direction": "positive",
-   "quality": 70,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382340/bitmine-buys-more-ethereum-tom-lee-binance-hack-bullish"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307"
-    }
-   ],
-   "missing": "The exact date of the purchase."
+   "missing": "The exact timeline for full operational resumption in the state."
   }
  ]
 }
