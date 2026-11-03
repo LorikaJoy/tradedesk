@@ -1,8 +1,46 @@
 {
- "updated": "2026-11-03T11:53:59.956786+00:00",
+ "updated": "2026-11-03T18:56:03.343296+00:00",
  "cards": [
   {
-   "t": "NEAR Governance Approves Issuance Cut",
+   "t": "Binance Resumes Withdrawals After Hack",
+   "type": "other",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "BNB"
+   ],
+   "rel": "direct",
+   "b": "Binance is rolling out additional withdrawal phases and reopening withdrawal routes following security checks after its $6.3 billion hack.",
+   "per": {
+    "BNB": "Gradual restoration of withdrawal services helps stabilize the platform and exchange sentiment."
+   },
+   "direction": "mixed",
+   "quality": 91,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPa2RsbnRNM3VUSy03V2k0OGg4YkxfbzQzR0NZWDRfQ1VpMU1YOHpFRmpBcnY2ajEzWG9Lb2ZPWXpDV1lGNmliU1g3bHVfNmlyN0pBRHRWam1ib29XS0ZhNk5TSnB5X0FRcTVFLVVmNVRWaFI1YmZUVnRDbFplZTB6eDRVY0NOTXpNWEZnQnMwQUFqaHV0R0lCWTVtaDNJM1dJVW9jdlJVaTVldl9uS2laM3N3UVd6ZmJvcDFCTFF6NWdJZWpwRkR0Sw?oc=5"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/binance-begins-second-withdrawal-phase-following-record-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Full schedule for all assets and networks"
+  },
+  {
+   "t": "NEAR Approves Issuance Cut",
    "type": "other",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -10,64 +48,70 @@
     "NEAR"
    ],
    "rel": "direct",
-   "b": "NEAR's House of Stake passed proposal HSP-029 to reduce the network's maximum annual token issuance rate from 2.5% to 1.6% over a 24-month period.",
+   "b": "NEAR approved a proposal to cut annual token issuance, preventing 11.8 million NEAR from entering circulation over two years.",
    "per": {
-    "NEAR": "Annual token issuance ceiling is set to be lowered to 1.6% over 24 months."
+    "NEAR": "Lower issuance reduces future token supply, though staking yields may fall."
    },
    "direction": "positive",
-   "quality": 84,
+   "quality": 86,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 19,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-11-03-near-governance-approves-proposal-to-cut-token-issuance-432378"
+     "name": "Koin B\u00fclteni",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOanBMVGhDQlhDcEpTRVF1V28yT3NHZ2tDTEdaVjZTTGlQZ043V1IyYUsxVFVuUjNWdHIxMkNKakF4aVRZRjF6eHpBMzZwTjcza29nWFp5VnlNRzlGNHZnNzhRbXFka0J0MWw0d3N1X0U5QUV3cjhMMjBBNElxb3MyYkJmWGVnazhCY0dTMTFxOVFJcVdacmRmUE5zc0dIM1ZCVkp2Tw?oc=5"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/markets/near-sinks-7-proposal-cut-annual-token-issuance-passes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact start date of the issuance reduction rollout."
+   "missing": "Exact implementation timeline"
   },
   {
-   "t": "New Jersey Lifts Coinbase Staking Ban and Drops Penalty",
-   "type": "regulation",
-   "status": "completed",
-   "event_date": null,
+   "t": "Moscow Exchange Crypto Trading Launch",
+   "type": "listing",
+   "status": "confirmed_upcoming",
+   "event_date": "2025-12-01",
    "coins": [
-    "COIN"
+    "BTC",
+    "ETH",
+    "USDT"
    ],
    "rel": "direct",
-   "b": "New Jersey lifted its staking ban and dropped a $5 million penalty against Coinbase, allowing the restoration of staking access for users in the state.",
+   "b": "Moscow Exchange plans to launch trading for Bitcoin, Ether, and USDT on December 1 under Russia's new law.",
    "per": {
-    "COIN": "Staking ban lifted and $5 million penalty dropped in New Jersey."
+    "BTC": "New regulated fiat-to-crypto access point in Russia opens up potential liquidity."
    },
    "direction": "positive",
-   "quality": 75,
-   "label": "COMPLETED CATALYST",
+   "quality": 71,
+   "label": "MODERATE CATALYST",
    "parts": {
     "credibility": 17,
-    "relevance": 25,
+    "relevance": 12,
     "impact": 12,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
    "sources": [
     {
      "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/new-jersey-coinbase-staking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "url": "https://cointelegraph.com/news/moscow-exchange-bitcoin-ether-usdt-trading-december?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "The exact timeline for full operational resumption in the state."
+   "missing": "Specific trading pairs and volume caps for non-qualified investors"
   }
  ]
 }
