@@ -1,6 +1,40 @@
 {
- "updated": "2026-11-03T23:51:15.928123+00:00",
+ "updated": "2026-11-04T04:26:45.702153+00:00",
  "cards": [
+  {
+   "t": "THORChain Restarts Most Swaps After Halt",
+   "type": "mainnet",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "RUNE"
+   ],
+   "rel": "direct",
+   "b": "THORChain restored trading on Bitcoin, Ethereum, and several other networks following a refund bug, while three chains remain paused.",
+   "per": {
+    "RUNE": "Resuming swaps for major networks removes a key operational bottleneck."
+   },
+   "direction": "positive",
+   "quality": 89,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/markets/rune-rallies-15-as-thorchain-restarts-most-swaps-after-outage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Timeline for restarting the remaining three paused chains"
+  },
   {
    "t": "NEAR Approves Lower Token Issuance",
    "type": "other",
@@ -10,9 +44,9 @@
     "NEAR"
    ],
    "rel": "direct",
-   "b": "NEAR has approved a proposal to lower its annual token issuance, which will prevent 11.8 million NEAR from entering circulation over two years.",
+   "b": "NEAR approved a proposal to cut annual token issuance, preventing 11.8 million NEAR from entering circulation over two years.",
    "per": {
-    "NEAR": "Lower token issuance passed, reducing future circulating supply."
+    "NEAR": "Lower token issuance passed, which may reduce future inflation but could impact staking yields."
    },
    "direction": "negative",
    "quality": 86,
@@ -37,49 +71,7 @@
      "url": "https://cointelegraph.com/markets/near-sinks-7-proposal-cut-annual-token-issuance-passes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact implementation date."
-  },
-  {
-   "t": "Moscow Exchange Dec. 1 Crypto Trading Launch",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": "2025-12-01",
-   "coins": [
-    "BTC",
-    "ETH",
-    "USDT"
-   ],
-   "rel": "direct",
-   "b": "The Moscow Exchange is set to launch Bitcoin, Ether, and USDT trading on December 1 under Russia's new law with annual purchase limits for non-qualified investors.",
-   "per": {
-    "BTC": "Will be listed on the Moscow Exchange starting December 1.",
-    "ETH": "Will be listed on the Moscow Exchange starting December 1.",
-    "USDT": "Will be listed on the Moscow Exchange starting December 1."
-   },
-   "direction": "positive",
-   "quality": 86,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Altcoin Buzz",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYTVhSkhIZGkyYjBIYlRha2JQbUFJbWk3aVhlVFBhTU12S2ZaRk5BN3VfLUxZYzRBakE4SllNaGtsNGgxTVdGb2s4UVpWN2ZJemhxNlpmNVBhNkVYUnduRElOMndySkNKT3psbTNQQ1NHdWhVQkxCNDRnNzNSSGRCZ0I0UDdOcWd3QmZCYkcySnNqVjB2?oc=5"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/moscow-exchange-bitcoin-ether-usdt-trading-december?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Specific trading pairs and liquidity details."
+   "missing": "Exact implementation date"
   },
   {
    "t": "Winklevoss Files for Spot Zcash ETF",
@@ -90,17 +82,17 @@
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Winklevoss has filed for a spot Zcash ETF featuring a $100 million indication of interest.",
+   "b": "Winklevoss filed for a spot Zcash ETF with a $100 million indication of interest.",
    "per": {
-    "ZEC": "File submitted for a spot ETF with a $100M indication of interest."
+    "ZEC": "Filing for a spot ETF with institutional interest could increase adoption and demand."
    },
    "direction": "positive",
-   "quality": 75,
+   "quality": 83,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 8,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 15
    },
@@ -113,20 +105,22 @@
      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX3VkMHNVOEhTYW9tMGU4MEI2Q25oSXhFQ08wTnh3eGxRV3JfcHRTLVNwalZwX2x1YVVMZ2hCZ1d4TW0zRzJZVGp6azZFeWNacUVwdEFmNFo0cEpfNTMxTk9WV01aWENfbC1YSDVmbEFhckFic05TODd6dElRZ1JjeDE2WQ?oc=5"
     }
    ],
-   "missing": "SEC review timeline and approval odds."
+   "missing": "Approval timeline from regulators"
   },
   {
-   "t": "Binance Resumes Withdrawals After Hack",
+   "t": "Binance Resumes Withdrawals Following Security Checks",
    "type": "other",
    "status": "ongoing",
-   "event_date": null,
+   "event_date": "2025-11-03",
    "coins": [
-    "BNB"
+    "BNB",
+    "ADA"
    ],
    "rel": "direct",
-   "b": "Binance has begun opening additional withdrawal routes and phased withdrawal revivals following its security checks and historic hack recovery.",
+   "b": "Binance began phased multi-network withdrawal restorations following security checks after its October incident.",
    "per": {
-    "BNB": "Exchange withdrawal operations progressing through phased updates."
+    "BNB": "Platform recovery and withdrawal restoration help stabilize exchange operations.",
+    "ADA": "Cardano withdrawals resumed via BEP20 network in phase 2."
    },
    "direction": "mixed",
    "quality": 72,
@@ -143,8 +137,8 @@
    "c": "medium",
    "sources": [
     {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzd1p4ZWxKYlA2bWdDMkpxOGExX3JlcG01N1RGYTBVVkJMaWQ1aDI0NEZsamdMMEwwZlJxSGpyWHBoUEZUbTR6SXNrUEVBVHhoQTV5a0pCQnh3cWc?oc=5"
+     "name": "CryptoTicker.io",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5SZ1QwSVIxcWFWZ2VGZGlvazVBZ3lYLVhhTkJ1akRTZk1UbTR5S1UyQkE5S0hZMTFrcXozSG1QY1ZpcVlYZlpUM1U4LWpBN3J3TnU3SFBSQjB0MHZ4X0FuZnczcjUyMlc3RlJYUGxHaHg5RU1Wczk4?oc=5"
     },
     {
      "name": "TradingView",
@@ -155,41 +149,45 @@
      "url": "https://cointelegraph.com/news/binance-begins-second-withdrawal-phase-following-record-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Full timeline for all tokens to be completely restocked and fully withdrawable."
+   "missing": "Full timeline for 100% asset replacement and complete withdrawal availability across all minor tokens"
   },
   {
-   "t": "New Jersey Drops Coinbase Staking Order",
-   "type": "regulation",
-   "status": "completed",
-   "event_date": null,
+   "t": "Moscow Exchange to Launch Crypto Trading",
+   "type": "listing",
+   "status": "confirmed_upcoming",
+   "event_date": "2025-12-01",
    "coins": [
-    "COIN"
+    "BTC",
+    "ETH",
+    "USDT"
    ],
    "rel": "direct",
-   "b": "New Jersey lifted its staking ban and dropped a $5 million penalty against Coinbase, clearing the way for users in the state to restore staking access.",
+   "b": "Moscow Exchange plans to launch Bitcoin, Ether, and USDT trading on December 1 under Russia's new law.",
    "per": {
-    "COIN": "Staking ban lifted in New Jersey, clearing regulatory hurdles."
+    "BTC": "New regulated exchange listings in Russia open additional institutional and retail channels.",
+    "ETH": "New regulated exchange listings in Russia open additional institutional and retail channels.",
+    "USDT": "New regulated exchange listings in Russia open additional institutional and retail channels."
    },
    "direction": "positive",
-   "quality": 62,
-   "label": "COMPLETED CATALYST",
+   "quality": 71,
+   "label": "MODERATE CATALYST",
    "parts": {
     "credibility": 17,
     "relevance": 12,
     "impact": 12,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
-   "impact": 6,
-   "s": "fading",
+   "impact": 7,
+   "s": "building",
    "c": "medium",
    "sources": [
     {
      "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/new-jersey-coinbase-staking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "url": "https://cointelegraph.com/news/moscow-exchange-bitcoin-ether-usdt-trading-december?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact date staking is re-enabled for users."
+   "missing": "Specific trading pairs and volume limits details for all categories"
   }
  ]
 }
