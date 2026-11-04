@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T04:26:45.702153+00:00",
+ "updated": "2026-11-04T12:23:31.625423+00:00",
  "cards": [
   {
    "t": "THORChain Restarts Most Swaps After Halt",
@@ -10,89 +10,55 @@
     "RUNE"
    ],
    "rel": "direct",
-   "b": "THORChain restored trading on Bitcoin, Ethereum, and several other networks following a refund bug, while three chains remain paused.",
+   "b": "THORChain has successfully restored trading on Bitcoin, Ethereum, and several other networks following a refund bug, leading to a 15% rally in RUNE. Meanwhile, hackers from the Binance exploit continued routing stolen funds through the protocol.",
    "per": {
-    "RUNE": "Resuming swaps for major networks removes a key operational bottleneck."
+    "RUNE": "Rallied 15% as THORChain restarted most swaps after a temporary halt."
    },
    "direction": "positive",
-   "quality": 89,
+   "quality": 81,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 17,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 12
    },
-   "impact": 9,
+   "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/binance-hackers-move-81-stolen-solana-route-thorchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
     {
      "name": "cointelegraph.com",
      "url": "https://cointelegraph.com/markets/rune-rallies-15-as-thorchain-restarts-most-swaps-after-outage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Timeline for restarting the remaining three paused chains"
+   "missing": "Which specific three chains remain paused."
   },
   {
-   "t": "NEAR Approves Lower Token Issuance",
-   "type": "other",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "NEAR"
-   ],
-   "rel": "direct",
-   "b": "NEAR approved a proposal to cut annual token issuance, preventing 11.8 million NEAR from entering circulation over two years.",
-   "per": {
-    "NEAR": "Lower token issuance passed, which may reduce future inflation but could impact staking yields."
-   },
-   "direction": "negative",
-   "quality": 86,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Koin B\u00fclteni",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOanBMVGhDQlhDcEpTRVF1V28yT3NHZ2tDTEdaVjZTTGlQZ043V1IyYUsxVFVuUjNWdHIxMkNKakF4aVRZRjF6eHpBMzZwTjcza29nWFp5VnlNRzlGNHZnNzhRbXFka0J0MWw0d3N1X0U5QUV3cjhMMjBBNElxb3MyYkJmWGVnazhCY0dTMTFxOVFJcVdacmRmUE5zc0dIM1ZCVkp2Tw?oc=5"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/markets/near-sinks-7-proposal-cut-annual-token-issuance-passes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Exact implementation date"
-  },
-  {
-   "t": "Winklevoss Files for Spot Zcash ETF",
-   "type": "etf",
+   "t": "Coinbase Adds CARDS to Listing Roadmap",
+   "type": "listing",
    "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "ZEC"
+    "CARDS"
    ],
    "rel": "direct",
-   "b": "Winklevoss filed for a spot Zcash ETF with a $100 million indication of interest.",
+   "b": "Coinbase has added Collector Crypt's CARDS token to its official listing roadmap, sending the token up roughly 4% following the announcement.",
    "per": {
-    "ZEC": "Filing for a spot ETF with institutional interest could increase adoption and demand."
+    "CARDS": "Added to the Coinbase listing roadmap, prompting a 4% price gain."
    },
    "direction": "positive",
-   "quality": 83,
+   "quality": 79,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 12,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
@@ -101,93 +67,63 @@
    "c": "high",
    "sources": [
     {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX3VkMHNVOEhTYW9tMGU4MEI2Q25oSXhFQ08wTnh3eGxRV3JfcHRTLVNwalZwX2x1YVVMZ2hCZ1d4TW0zRzJZVGp6azZFeWNacUVwdEFmNFo0cEpfNTMxTk9WV01aWENfbC1YSDVmbEFhckFic05TODd6dElRZ1JjeDE2WQ?oc=5"
-    }
-   ],
-   "missing": "Approval timeline from regulators"
-  },
-  {
-   "t": "Binance Resumes Withdrawals Following Security Checks",
-   "type": "other",
-   "status": "ongoing",
-   "event_date": "2025-11-03",
-   "coins": [
-    "BNB",
-    "ADA"
-   ],
-   "rel": "direct",
-   "b": "Binance began phased multi-network withdrawal restorations following security checks after its October incident.",
-   "per": {
-    "BNB": "Platform recovery and withdrawal restoration help stabilize exchange operations.",
-    "ADA": "Cardano withdrawals resumed via BEP20 network in phase 2."
-   },
-   "direction": "mixed",
-   "quality": 72,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 20,
-    "novelty": 7,
-    "timing": 12
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "CryptoTicker.io",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5SZ1QwSVIxcWFWZ2VGZGlvazVBZ3lYLVhhTkJ1akRTZk1UbTR5S1UyQkE5S0hZMTFrcXozSG1QY1ZpcVlYZlpUM1U4LWpBN3J3TnU3SFBSQjB0MHZ4X0FuZnczcjUyMlc3RlJYUGxHaHg5RU1Wczk4?oc=5"
+     "name": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yWmpSX0pzajRFWHZraTVyMWNlS1hjS0NqSkNxNDRkMUlUYTRoZGdDaU5PQmZuLTNxZ1dNeERkV3VYMm11Z1I2ZXhQYWpSVEpiYWpZN0x6X1laUQ?oc=5"
     },
     {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPa2RsbnRNM3VUSy03V2k0OGg4YkxfbzQzR0NZWDRfQ1VpMU1YOHpFRmpBcnY2ajEzWG9Lb2ZPWXpDV1lGNmliU1g3bHVfNmlyN0pBRHRWam1ib29XS0ZhNk5TSnB5X0FRcTVFLVVmNVRWaFI1YmZUVnRDbFplZTB6eDRVY0NOTXpNWEZnQnMwQUFqaHV0R0lCWTVtaDNJM1dJVW9jdlJVaTVldl9uS2laM3N3UVd6ZmJvcDFCTFF6NWdJZWpwRkR0Sw?oc=5"
+     "name": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xQXdWR1hMM2ZqZFl0d2EweGs1SFRLWV9WOXRSa0laTHd5Mm9TS3gzUWZ2RFFPMnp6bGl5RG51ZGh2Yms3VTVOUi1LdkdReWQ5SVZMM0o2RWQ?oc=5"
     },
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/binance-begins-second-withdrawal-phase-following-record-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "Hokanews",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EQzRnUXBrbzUwRk9PcFozMGE5RVNNOXZfNVFnR0dwWE1tM3I5M3FNZEdyaURvMm5iSURsRG8zYnRoWFJBR20wdGREYVFPWGJHVS1WS20zb2RQR240dkVmT1AxWldCb1lyTXhrWDl5VUdhRmdXLVRtWHoybWo2bjQ?oc=5"
     }
    ],
-   "missing": "Full timeline for 100% asset replacement and complete withdrawal availability across all minor tokens"
+   "missing": "The exact date when trading for CARDS will officially commence on Coinbase."
   },
   {
-   "t": "Moscow Exchange to Launch Crypto Trading",
-   "type": "listing",
+   "t": "Moscow Exchange to Launch Pilot Crypto Trading",
+   "type": "regulation",
    "status": "confirmed_upcoming",
-   "event_date": "2025-12-01",
+   "event_date": "2026-12-01",
    "coins": [
     "BTC",
-    "ETH",
     "USDT"
    ],
    "rel": "direct",
-   "b": "Moscow Exchange plans to launch Bitcoin, Ether, and USDT trading on December 1 under Russia's new law.",
+   "b": "The U.S.-sanctioned Moscow Exchange is set to launch a pilot program for trading Bitcoin, Ether, and USDT on December 1, aiming to capture crypto trading volume generated by Russian citizens abroad.",
    "per": {
-    "BTC": "New regulated exchange listings in Russia open additional institutional and retail channels.",
-    "ETH": "New regulated exchange listings in Russia open additional institutional and retail channels.",
-    "USDT": "New regulated exchange listings in Russia open additional institutional and retail channels."
+    "BTC": "Listed in an upcoming exchange pilot launching December 1.",
+    "USDT": "Will be part of the Moscow Exchange crypto trading pilot on December 1."
    },
    "direction": "positive",
-   "quality": 71,
-   "label": "MODERATE CATALYST",
+   "quality": 75,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 21,
     "relevance": 12,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 7,
+   "impact": 8,
    "s": "building",
-   "c": "medium",
+   "c": "high",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/moscow-exchange-bitcoin-ether-usdt-trading-december?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "Bitcoin Foundation",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZHQ3RnZaWm5VUFhuMmRnS25ENnpXZVNuMmoxMjRTQ2pLMzlPdENPYWI3NC1HLWE2Q0luSnF4OWNZOWEzVjMzQkVrYnlNZmI1cWktSkJadTlpUzhxNm1iVDdJV25Oam5vbmVEXzMyOXpwbHJESXJRWnlFS0cxdHhyUUlIcFBiUlZhclpFVmZiZ3VYbUp5WWprbUdEMmxvdTMzMXAxQ2dESERhRVZGNHF1RHpYQU42cTQxaFE?oc=5"
+    },
+    {
+     "name": "NewsCord",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRzV1WjFMdEVYc3hxcVE2VUlJNHNMN0s3Wi1XeDdUenpxeFRMdWVjaTBvUnhTc2p6XzdaSDVvRTNnUFRCWHd1Vm5lRjN1aktIZERPUTM0Wjhrc3NYSmZFSFQ5X1NtLXJhYVQ5SWJRLWx3X3FtMGk5NGE4cU9EYTQ5bXJKRThGR2pZcHc0UmVLT3lqTkJRdXVickhPVFloeTAwTHRWZHk5RGtlT2FjX0hJb0o0WDlvWkNuX1RkT0xOZ2hzNnJySVc2NnBWNHdTc2U2QnRqYzlQRUJhTGll?oc=5"
+    },
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/04/u-s-sanctioned-moscow-exchange-to-list-bitcoin-and-tether-s-usdt-in-december"
     }
    ],
-   "missing": "Specific trading pairs and volume limits details for all categories"
+   "missing": "Exact trading pairs and structural framework beyond the pilot launch."
   }
  ]
 }
