@@ -1,33 +1,40 @@
 {
- "updated": "2026-11-04T12:23:31.625423+00:00",
+ "updated": "2026-11-04T19:57:01.602272+00:00",
  "cards": [
   {
-   "t": "THORChain Restarts Most Swaps After Halt",
+   "t": "THORChain resumes swaps following hack fund laundering",
    "type": "mainnet",
    "status": "ongoing",
    "event_date": null,
    "coins": [
-    "RUNE"
+    "RUNE",
+    "BTC",
+    "ETH",
+    "SOL"
    ],
    "rel": "direct",
-   "b": "THORChain has successfully restored trading on Bitcoin, Ethereum, and several other networks following a refund bug, leading to a 15% rally in RUNE. Meanwhile, hackers from the Binance exploit continued routing stolen funds through the protocol.",
+   "b": "THORChain has restored trading on Bitcoin, Ethereum, and several other networks following a refund bug, while stolen funds from the Binance hack continue to be routed through it.",
    "per": {
-    "RUNE": "Rallied 15% as THORChain restarted most swaps after a temporary halt."
+    "RUNE": "Rallied as THORChain restarted most swaps after a halt."
    },
-   "direction": "positive",
-   "quality": 81,
+   "direction": "mixed",
+   "quality": 91,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 19,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 12
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/04/thorchain-s-rune-jumps-10-as-north-korean-hackers-resume-laundering-binance-loot"
+    },
     {
      "name": "cointelegraph.com",
      "url": "https://cointelegraph.com/news/binance-hackers-move-81-stolen-solana-route-thorchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -37,32 +44,74 @@
      "url": "https://cointelegraph.com/markets/rune-rallies-15-as-thorchain-restarts-most-swaps-after-outage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Which specific three chains remain paused."
+   "missing": "Timeline for fully restoring the remaining paused chains."
   },
   {
-   "t": "Coinbase Adds CARDS to Listing Roadmap",
-   "type": "listing",
+   "t": "Canton Coin viewed as digital commodity by SEC staff",
+   "type": "regulation",
    "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "CARDS"
+    "CC"
    ],
    "rel": "direct",
-   "b": "Coinbase has added Collector Crypt's CARDS token to its official listing roadmap, sending the token up roughly 4% following the announcement.",
+   "b": "SEC staff issued a no-action letter stating they view Canton Coin as a digital commodity and will not recommend enforcement over its programmatic issuance.",
    "per": {
-    "CARDS": "Added to the Coinbase listing roadmap, prompting a 4% price gain."
+    "CC": "Received an SEC staff no-action letter classifying it as a digital commodity."
    },
    "direction": "positive",
-   "quality": 79,
+   "quality": 88,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 12,
+    "credibility": 21,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/markets/cantons-cc-rises-sec-no-action-letter-digital-commodity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/382554/canton-coin-sec-no-action-wall-street-tokenization"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/regulation/2026-11-03-sec-no-action-letter-canton-coin-digital-commodity-432492"
+    }
+   ],
+   "missing": "Binding legal status beyond SEC staff no-action view."
+  },
+  {
+   "t": "Coinbase adds CARDS to listing roadmap",
+   "type": "listing",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "CARDS"
+   ],
+   "rel": "direct",
+   "b": "Collector Crypt's CARDS token has been added to the Coinbase listing roadmap, prompting a price increase.",
+   "per": {
+    "CARDS": "Added to the Coinbase listing roadmap."
+   },
+   "direction": "positive",
+   "quality": 87,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
@@ -71,7 +120,7 @@
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yWmpSX0pzajRFWHZraTVyMWNlS1hjS0NqSkNxNDRkMUlUYTRoZGdDaU5PQmZuLTNxZ1dNeERkV3VYMm11Z1I2ZXhQYWpSVEpiYWpZN0x6X1laUQ?oc=5"
     },
     {
-     "name": "www.tokenpost.com",
+     "name": "TOKENPOST",
      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xQXdWR1hMM2ZqZFl0d2EweGs1SFRLWV9WOXRSa0laTHd5Mm9TS3gzUWZ2RFFPMnp6bGl5RG51ZGh2Yms3VTVOUi1LdkdReWQ5SVZMM0o2RWQ?oc=5"
     },
     {
@@ -79,51 +128,120 @@
      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EQzRnUXBrbzUwRk9PcFozMGE5RVNNOXZfNVFnR0dwWE1tM3I5M3FNZEdyaURvMm5iSURsRG8zYnRoWFJBR20wdGREYVFPWGJHVS1WS20zb2RQR240dkVmT1AxWldCb1lyTXhrWDl5VUdhRmdXLVRtWHoybWo2bjQ?oc=5"
     }
    ],
-   "missing": "The exact date when trading for CARDS will officially commence on Coinbase."
+   "missing": "Exact listing date."
   },
   {
-   "t": "Moscow Exchange to Launch Pilot Crypto Trading",
-   "type": "regulation",
+   "t": "NEAR governance approves token issuance cut",
+   "type": "burn",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "NEAR"
+   ],
+   "rel": "direct",
+   "b": "NEAR's House of Stake passed a proposal to lower the network's maximum annual issuance rate from 2.5% to 1.6% over 24 months, preventing millions of NEAR from entering circulation.",
+   "per": {
+    "NEAR": "Governance approved a reduction in the annual issuance ceiling."
+   },
+   "direction": "positive",
+   "quality": 86,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/markets/near-sinks-7-proposal-cut-annual-token-issuance-passes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/defi/2026-11-03-near-governance-approves-proposal-to-cut-token-issuance-432378"
+    }
+   ],
+   "missing": "Exact schedule of the phased issuance reduction."
+  },
+  {
+   "t": "Moscow Exchange to launch Bitcoin and USDT trading in December",
+   "type": "listing",
    "status": "confirmed_upcoming",
    "event_date": "2026-12-01",
    "coins": [
     "BTC",
-    "USDT"
+    "USDT",
+    "ETH"
    ],
    "rel": "direct",
-   "b": "The U.S.-sanctioned Moscow Exchange is set to launch a pilot program for trading Bitcoin, Ether, and USDT on December 1, aiming to capture crypto trading volume generated by Russian citizens abroad.",
+   "b": "Russia's main bourse, the Moscow Exchange, plans to launch Bitcoin, Ether, and USDT trading on December 1 under a new law with annual purchase limits.",
    "per": {
-    "BTC": "Listed in an upcoming exchange pilot launching December 1.",
-    "USDT": "Will be part of the Moscow Exchange crypto trading pilot on December 1."
+    "BTC": "Scheduled for trading launch on the Moscow Exchange.",
+    "USDT": "Scheduled for trading launch on the Moscow Exchange."
    },
    "direction": "positive",
-   "quality": 75,
-   "label": "STRONG CATALYST",
+   "quality": 73,
+   "label": "MODERATE CATALYST",
    "parts": {
-    "credibility": 21,
+    "credibility": 19,
     "relevance": 12,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 7,
    "s": "building",
-   "c": "high",
+   "c": "medium",
    "sources": [
-    {
-     "name": "Bitcoin Foundation",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZHQ3RnZaWm5VUFhuMmRnS25ENnpXZVNuMmoxMjRTQ2pLMzlPdENPYWI3NC1HLWE2Q0luSnF4OWNZOWEzVjMzQkVrYnlNZmI1cWktSkJadTlpUzhxNm1iVDdJV25Oam5vbmVEXzMyOXpwbHJESXJRWnlFS0cxdHhyUUlIcFBiUlZhclpFVmZiZ3VYbUp5WWprbUdEMmxvdTMzMXAxQ2dESERhRVZGNHF1RHpYQU42cTQxaFE?oc=5"
-    },
-    {
-     "name": "NewsCord",
-     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRzV1WjFMdEVYc3hxcVE2VUlJNHNMN0s3Wi1XeDdUenpxeFRMdWVjaTBvUnhTc2p6XzdaSDVvRTNnUFRCWHd1Vm5lRjN1aktIZERPUTM0Wjhrc3NYSmZFSFQ5X1NtLXJhYVQ5SWJRLWx3X3FtMGk5NGE4cU9EYTQ5bXJKRThGR2pZcHc0UmVLT3lqTkJRdXVickhPVFloeTAwTHRWZHk5RGtlT2FjX0hJb0o0WDlvWkNuX1RkT0xOZ2hzNnJySVc2NnBWNHdTc2U2QnRqYzlQRUJhTGll?oc=5"
-    },
     {
      "name": "coindesk.com",
      "url": "https://www.coindesk.com/markets/2026/11/04/u-s-sanctioned-moscow-exchange-to-list-bitcoin-and-tether-s-usdt-in-december"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/moscow-exchange-bitcoin-ether-usdt-trading-december?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact trading pairs and structural framework beyond the pilot launch."
+   "missing": "Specific details on volume limits and implementation mechanics."
+  },
+  {
+   "t": "Binance misses monthly Luna Classic burn",
+   "type": "burn",
+   "status": "delayed",
+   "event_date": null,
+   "coins": [
+    "LUNC"
+   ],
+   "rel": "direct",
+   "b": "Binance has missed its monthly Luna Classic burn for the first time since 2023 as the exchange recovers from a major security breach.",
+   "per": {
+    "LUNC": "Did not receive its expected monthly burn from Binance."
+   },
+   "direction": "negative",
+   "quality": 66,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 4
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/382401/binance-misses-monthly-luna-classic-burn-for-first-time-since-2023"
+    }
+   ],
+   "missing": "When Binance will resume the LUNC token burns."
   }
  ]
 }
