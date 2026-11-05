@@ -1,136 +1,88 @@
 {
- "updated": "2026-11-05T07:26:19.250925+00:00",
+ "updated": "2026-11-05T15:41:36.727958+00:00",
  "cards": [
   {
-   "t": "THORChain Restarts Swaps as RUNE Rallies",
-   "type": "mainnet",
-   "status": "ongoing",
-   "event_date": null,
+   "t": "Nasdaq Approves Staked Injective ETF",
+   "type": "etf",
+   "status": "officially_announced",
+   "event_date": "2026-11-04",
    "coins": [
-    "RUNE",
-    "BTC",
-    "ETH"
+    "INJ"
    ],
    "rel": "direct",
-   "b": "THORChain has successfully restored trading on Bitcoin, Ethereum, and several other networks following a temporary refund bug halt, though three chains remain paused.",
+   "b": "Nasdaq has approved Canary Capital's Staked Injective (INJ) ETF, causing a price rally in INJ.",
    "per": {
-    "RUNE": "Rallied significantly as protocol trading and multi-chain swaps resumed."
+    "INJ": "Rallied over 10% following the approval of a staked ETF on Nasdaq."
    },
    "direction": "positive",
-   "quality": 91,
+   "quality": 96,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 21,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
-   "impact": 9,
+   "impact": 10,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/11/04/thorchain-s-rune-jumps-10-as-north-korean-hackers-resume-laundering-binance-loot"
+     "name": "CoinDesk",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYWNYQUFpdFRkekNzZ2w4a0VmX3doemxYNVVRLXZDMG1HVUpNTGJ5WWlJZ3FGR3JzekpyWTdTS2VRYUJFc0lBUTdneGhybk9qQXBXaE1IM3FnTW92eTJYR19Qa3JQbE5uTGxaZGR6NjJXNk9yQWFCQjFlUU5fczBPcHlCNktfakRLWEQ5UHdEYnRhM0J5S3RJYlFrbjhQUWprel9qdnhqMHh0WVhvTS1ZU2VGd1V3WTRnSmI2Y1hXNzZoME51YzRjNWU1N0ZfVHJoaEZnQUhR?oc=5"
     },
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/markets/rune-rallies-15-as-thorchain-restarts-most-swaps-after-outage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "The Cryptonomist",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5YS3ZJaWNIWWJSQ0g3Z2hmajZ5Q0lVaE41Y1lVdF93UVA2T1JWelpiTmZlaGFIYVJIajkybFMybTNRd1dQMFoxbHljV3R3RTVsaUNVOHVmMl81S1BONVU1NUdDMjM3OFdwWllUY0d3NkVvcjA?oc=5"
     },
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/binance-hackers-move-81-stolen-solana-route-thorchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "Altcoin Buzz",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSHFIUVpSTzluQWZkNkpiTHY3d2FqYlRrd1l6SV9MM216WVZ2XzNwUzhUUDh6TUxaMlkxM0lGbi1pd0JfeDVnNXlWbzlkMHVnNGowOWZrVS1EZzhmWThHUnRoN19pQ0VMV1VrUk1wOTNKMVNBV3NaejV6QXRrRVhuMnNKSkNnb2M?oc=5"
+    },
+    {
+     "name": "FXStreet",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWGl4TjZtUUt1R3pjQkM1SDhMYUticHRYdXRZRFgtZUJzc092VW9fVHZESG53V0lQY0EzekdVVlB5ZFd4UlJBVEx3aVdjWm1DR2tMVUNiWFdPbDdLdzdFYlYtVUVmVXUzVFYycE1zRTl0ZFNpUzNqX2RiZG5icFltX3pYdEU2bFV2WjR1WmxMZFY1N3FWWlZfVWt4LVZCclBNYndDWkNKMnNVSzQ4WlBGWlFSckN1dC1WZk9pYXlQZzhFNnFCazFSQkxGRXRobFdGYXc?oc=5"
     }
    ],
-   "missing": "Exact timeline for resuming the remaining three paused chains."
+   "missing": "None"
   },
   {
-   "t": "SEC Division Views Canton Coin as Digital Commodity via No-Action Letter",
-   "type": "regulation",
-   "status": "officially_announced",
+   "t": "Polygon Hard Fork Proposed",
+   "type": "other",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "CC"
+    "POL"
    ],
    "rel": "direct",
-   "b": "SEC staff issued a no-action letter viewing Canton Coin as a digital commodity for programmatic issuance earned by running infrastructure and applications.",
+   "b": "Binance and Polymarket have proposed a hard fork for Polygon to recover $6.8 million in stolen crypto assets.",
    "per": {
-    "CC": "Receives regulatory clarity as SEC staff will not recommend enforcement regarding its programmatic issuance."
+    "POL": "Protocol governance action required to recover stolen funds."
    },
    "direction": "positive",
-   "quality": 88,
+   "quality": 84,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 21,
+    "credibility": 17,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 9,
+   "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
      "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/markets/cantons-cc-rises-sec-no-action-letter-digital-commodity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382554/canton-coin-sec-no-action-wall-street-tokenization"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/regulation/2026-11-03-sec-no-action-letter-canton-coin-digital-commodity-432492"
+     "url": "https://cointelegraph.com/news/polygon-hard-fork-binance-polymarket-6-8m-hack-recovery?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Whether the no-action letter will face broader Commission-level review or formal rulemaking."
+   "missing": "None"
   },
   {
-   "t": "Collector Crypt's CARDS Added to Coinbase Roadmap",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "CARDS"
-   ],
-   "rel": "direct",
-   "b": "Coinbase has added Collector Crypt's CARDS token to its listing roadmap, driving positive price action.",
-   "per": {
-    "CARDS": "Added to Coinbase listing roadmap, boosting token price and market interest."
-   },
-   "direction": "positive",
-   "quality": 87,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "TechBullion",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPV3NZQ1RLQVJpTnBDbTQyV0ljbVByM1VZeUdwQWd0YTNfOVlQb1pKWHY5RkxHYU5TVW1OUzlWc3YwY0dlLXM0eEVvWjRmSHJweHQtQWJQbUV2VXJNNm9JcXdfRHBKa2diRGVwYndYdGYzRXl4WXRtTHhXTVBmMG83VXpGcmNOQ1RDVnNuYk9nVzNTalMwRTNWcEpHTEhVSzRYUlNydDRYazY5SjVtOUpwRFRDdlNiTmRyWWVKYg?oc=5"
-    },
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR04wS19XU1hCWXhxeGNZTnRzUlY1Z2hvemlFZGdnUTUyUVU2Rm0yZlhDRDRYTUxsa3pUWDZ5Nm1lRW80bVZkeWkwaERtLTlvSmRfb0ZabzlJb2ZvU1hSa25ta0YxR2U2Y2hqTWFwcWdua2dlTEhmcUZqTjlxeHNfYm5VSTFWSHpNS0hCZUw5cG1Qc2ZK?oc=5"
-    },
-    {
-     "name": "Hokanews",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EQzRnUXBrbzUwRk9PcFozMGE5RVNNOXZfNVFnR0dwWE1tM3I5M3FNZEdyaURvMm5iSURsRG8zYnRoWFJBR20wdGREYVFPWGJHVS1WS20zb2RQR240dkVmT1AxWldCb1lyTXhrWDl5VUdhRmdXLVRtWHoybWo2bjQ?oc=5"
-    }
-   ],
-   "missing": "Exact trading start date on Coinbase."
-  },
-  {
-   "t": "Zcash Privacy Pool Sprout Freezes Remainder Funds",
+   "t": "Zcash Sprout Pool Freezing",
    "type": "other",
    "status": "ongoing",
    "event_date": null,
@@ -138,9 +90,9 @@
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Zcash is moving to freeze approximately 12,200 remaining ZEC in its oldest privacy pool, Sprout, while the grants committee withdrew a separate plan to redirect 98,000 ZEC to mining rewards.",
+   "b": "Zcash is in the process of freezing its oldest privacy pool, Sprout, which still holds approximately 12,200 ZEC.",
    "per": {
-    "ZEC": "Sprout privacy pool assets are being frozen as outflow velocity slows and governance proposals are adjusted."
+    "ZEC": "Users are withdrawing remaining funds as the pool nears closure."
    },
    "direction": "neutral",
    "quality": 81,
@@ -162,37 +114,123 @@
     },
     {
      "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/11/04/zcash-grants-committee-drops-plan-to-redirect-98-000-zec-to-future-mining-rewards"
+     "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-as-zcash-jumps-12-in-post-election-crypto-rebound"
     }
    ],
-   "missing": "Final execution date for the complete Sprout pool freeze."
+   "missing": "None"
   },
   {
-   "t": "Bybit Lists KOR Protocol Token with Reward Pool",
+   "t": "Upbit Lists Collector Crypt (CARDS)",
    "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": null,
+   "status": "completed",
+   "event_date": "2026-11-04",
+   "coins": [
+    "CARDS"
+   ],
+   "rel": "direct",
+   "b": "Upbit listed the Collector Crypt (CARDS) token, leading to an 18-30% price increase.",
+   "per": {
+    "CARDS": "Token price rose significantly following the Upbit exchange listing."
+   },
+   "direction": "positive",
+   "quality": 70,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "Altcoin Buzz",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Lc1p6N0l5Y29PTzYtMWhJcUowaEN5ZUEtbVViTEVhVHdvVFNwLVBDWjhYNjR2dVNQdXFidnJVa2lPa3VkYWNNYXhYeDdLZ3dSbmRYREVVc1hCbERESDlJTXRVaGk4Qm9jeXNnTUF2VHNoV3EzMkc5SE9MTmJtMUE?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR04wS19XU1hCWXhxeGNZTnRzUlY1Z2hvemlFZGdnUTUyUVU2Rm0yZlhDRDRYTUxsa3pUWDZ5Nm1lRW80bVZkeWkwaERtLTlvSmRfb0ZabzlJb2ZvU1hSa25ta0YxR2U2Y2hqTWFwcWdua2dlTEhmcUZqTjlxeHNfYm5VSTFWSHpNS0hCZUw5cG1Qc2ZK?oc=5"
+    },
+    {
+     "name": "Coin Gabbar",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaS1XR2phamVsUmQ2MnB4UFF5VkVPU25TNTNsV2kyMDB3dHB6b2dRVU9FTDZ3dnN3VHlwcTBwWFBWX1ZqUUM2MlhaaFBzN250Qi1TTzd5T3dtTGc4MjJMR1d6c2pqT05uV2ZOSlNETUpENlI2QjdDOHNvYVRPOFNMVW1XZG1nUQ?oc=5"
+    },
+    {
+     "name": "Coin Gabbar",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVE9wMmxUdEtIZUluRm9lU2NuTDRheDl1cGV1M3VGNUpGbFNjRXFzSnhuN0FSRGtuSFd1YVdYVXcyY1ZmdVFLalBEdzhEdWxvckZlMF9aRDJJM0ZWUGVBMkRwZEtDUFE4RzV5bEFSMUNabmdMSjJUZ25jbDFzSFBNV2h3NWZVcW82LUE?oc=5"
+    }
+   ],
+   "missing": "None"
+  },
+  {
+   "t": "Samsung Wallet Adds USDC on Solana",
+   "type": "other",
+   "status": "completed",
+   "event_date": "2026-11-04",
+   "coins": [
+    "USDC",
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "Samsung Wallet integrated support for USDC on Solana for U.S. users.",
+   "per": {
+    "USDC": "Increased accessibility for U.S. Galaxy users.",
+    "SOL": "Integration increases utility for the Solana ecosystem."
+   },
+   "direction": "positive",
+   "quality": 70,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/382586/stablecoins-samsung-wallet-adds-usdc-solana"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-11-05-samsung-wallet-launches-usdc-accounts-solana-us-galaxy-users-434523"
+    }
+   ],
+   "missing": "None"
+  },
+  {
+   "t": "Bybit Lists KOR Protocol Token",
+   "type": "listing",
+   "status": "completed",
+   "event_date": "2026-11-04",
    "coins": [
     "KOR"
    ],
    "rel": "direct",
-   "b": "Bybit is listing the KOR Protocol token accompanied by a 40 million KOR reward pool, alongside live airdrop claims.",
+   "b": "Bybit has listed the KOR Protocol token, accompanied by a 40 million KOR reward pool.",
    "per": {
-    "KOR": "Listing on Bybit with a 40 million KOR reward pool and active airdrop claims."
+    "KOR": "New listing on Bybit with an associated reward pool."
    },
    "direction": "positive",
-   "quality": 77,
-   "label": "STRONG CATALYST",
+   "quality": 68,
+   "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 10,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 15
+    "timing": 6
    },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
    "sources": [
     {
      "name": "www.tokenpost.com",
@@ -203,81 +241,41 @@
      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTHh3ZWNBTlBvRExhSFRUblFwd2xWMDV3ejVka0ZQTG1KSDRfeGFvQVhkdE5FN3VtYjBuZzlTZDN1NjViaTF3bWp1Vl9MSXd1RkdHb1FrVzZ1S3N3RVlGY3M3VC1mQ3oybE50dGxidVYteTRPZ0FiLWhfR0RRMTlnYm9BcGF2TExjaHNaSmxkYmo2QQ?oc=5"
     }
    ],
-   "missing": "Exact listing date and time."
+   "missing": "None"
   },
   {
-   "t": "Moscow Exchange to List Bitcoin and USDT in December",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-12-01",
-   "coins": [
-    "BTC",
-    "USDT"
-   ],
-   "rel": "direct",
-   "b": "Russia\u2019s U.S.-sanctioned Moscow Exchange announced plans to list bitcoin and Tether's USDT in December to capture overseas crypto trading volume.",
-   "per": {
-    "BTC": "Gains a regulated listing venue on the Moscow Exchange.",
-    "USDT": "Set for official listing on Russia's primary bourse in December."
-   },
-   "direction": "positive",
-   "quality": 71,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/11/04/u-s-sanctioned-moscow-exchange-to-list-bitcoin-and-tether-s-usdt-in-december"
-    }
-   ],
-   "missing": "Exact launch date in December and trading pair specifications."
-  },
-  {
-   "t": "Schroders Launches Tokenized Emerging Markets Debt Fund on Solana",
-   "type": "mainnet",
+   "t": "XRP Ledger Bug Fix",
+   "type": "other",
    "status": "completed",
-   "event_date": null,
+   "event_date": "2026-11-04",
    "coins": [
-    "SOL"
+    "XRP"
    ],
    "rel": "direct",
-   "b": "Global asset manager Schroders has brought its actively managed emerging markets bond strategy onchain through tokenization specialist Centrifuge, utilizing the Solana blockchain.",
+   "b": "A bug on the XRP Ledger that could have allowed for the creation of new tokens was fixed.",
    "per": {
-    "SOL": "Expands its ecosystem with a tokenized bond fund managed by a $1T+ asset manager via Centrifuge."
+    "XRP": "Security patch applied to the underlying ledger."
    },
    "direction": "positive",
-   "quality": 64,
+   "quality": 68,
    "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 19,
-    "relevance": 12,
-    "impact": 12,
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 5,
     "novelty": 15,
     "timing": 6
    },
-   "impact": 6,
+   "impact": 7,
    "s": "fading",
    "c": "medium",
    "sources": [
     {
      "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/11/04/global-asset-manager-schroders-brings-emerging-market-bond-fund-to-solana"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-11-04-schroders-centrifuge-tokenized-emerging-markets-debt-fund-solana-432878"
+     "url": "https://www.coindesk.com/markets/2026/11/05/xrp-ledger-closes-bug-that-let-approved-token-burners-create-new-tokens"
     }
    ],
-   "missing": "Total asset migration volume and initial yield targets."
+   "missing": "None"
   }
  ]
 }
