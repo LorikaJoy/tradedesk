@@ -1,31 +1,31 @@
 {
- "updated": "2026-11-06T01:47:57.064447+00:00",
+ "updated": "2026-11-06T08:51:01.918394+00:00",
  "cards": [
   {
    "t": "Canary Staked INJ ETF Debuts on Nasdaq",
    "type": "etf",
-   "status": "confirmed_upcoming",
+   "status": "completed",
    "event_date": null,
    "coins": [
     "INJ"
    ],
    "rel": "direct",
-   "b": "Canary Capital's Staked Injective ETF is launching and debuting on Nasdaq, providing investors with exposure to INJ along with staking rewards reflected in the net asset value.",
+   "b": "Canary Capital's Staked Injective ETF has officially launched and begun trading on Nasdaq, providing investors with exposure to the INJ token alongside staking rewards.",
    "per": {
-    "INJ": "Staked ETF debut on Nasdaq provides institutional exposure and staking integration."
+    "INJ": "The ETF launch drove positive price action, with Injective rallying over 10%."
    },
    "direction": "positive",
-   "quality": 96,
-   "label": "STRONG CATALYST",
+   "quality": 87,
+   "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 21,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 15
+    "timing": 6
    },
-   "impact": 10,
-   "s": "building",
+   "impact": 9,
+   "s": "fading",
    "c": "high",
    "sources": [
     {
@@ -33,196 +33,82 @@
      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQmwzWGtzUVVZN0ZZcDRFTllWdnl0RmQwTWxpWEhHNzV0ZmF3LVJkbmxydEdOTlE5ZmxvWEJGSmlqSVg3MmM1cTZJSWxJM3hqWXM0ODRsRmd2WWdPbFpOMTliN2dXMEtyQ1p5bmotM25kV2FIOHhMNlNlazIzdC01MVFsQ3ZBeDJ0U1Zmdy16d0FwTU93dWR0bnc1WU1PM0QzMVM3dlJKbmwxUW9CY1d3OW1uQ3YwTzZFdFNvUlUyMjU5NV8xMG5iQmZld1NoVFlN?oc=5"
     },
     {
-     "name": "Altcoin Buzz",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSHFIUVpSTzluQWZkNkpiTHY3d2FqYlRrd1l6SV9MM216WVZ2XzNwUzhUUDh6TUxaMlkxM0lGbi1pd0JfeDVnNXlWbzlkMHVnNGowOWZrVS1EZzhmWThHUnRoN19pQ0VMV1VrUk1wOTNKMVNBV3NaejV6QXRrRVhuMnNKSkNnb2M?oc=5"
-    },
-    {
-     "name": "CryptoRank",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdnNWZkZGeFlhQktJVXhVZW56c0Q0OXJjNWNrbXJxNlo2ZkpwdERYY2xWYUhZRE5CbzUwTTFpZnJWLS1obEpIaXd5OTlJVTNuUVRXRDg0dXk4Qk9vb1d0VGNXcW5JOUFPc2lWU19DRzVaOXFaeThzd0VDQzh0Yjc0TExhUzN1MzlqekFhR3Exd0o1ZkdPcEpWRmE3SzhwUQ?oc=5"
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BNVhaNmdnT0ZHbkNES05YRkhnWWlhSHZxb0JXMTZES2NMam8yNWFjY0k3RXdRTWFzb3NiX01kdDRjaDhvTkZ0azNHQmpyZmI2WnhoczVIMDE4a0NONmRUaHJRZ212Nk00TklkdzkxZnA?oc=5"
     },
     {
      "name": "theblock.co",
      "url": "https://www.theblock.co/news/markets/2026-11-05-canary-staked-inj-etf-launches-nasdaq-injc-435115"
     }
    ],
-   "missing": "Exact launch hour and initial trading volume."
+   "missing": "Exact opening trading volume figures."
   },
   {
-   "t": "Binance and Polymarket Propose Polygon Hard Fork to Recover Stolen Funds",
-   "type": "other",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "POL"
-   ],
-   "rel": "direct",
-   "b": "Binance and Polymarket are seeking a Polygon hard fork to recover $6.8 million in stolen crypto after block producers froze the stolen assets.",
-   "per": {
-    "POL": "Proposed network hard fork to facilitate recovery of stolen funds."
-   },
-   "direction": "mixed",
-   "quality": 92,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/polygon-hard-fork-binance-polymarket-6-8m-hack-recovery?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Exact deployment block or date for the hard fork."
-  },
-  {
-   "t": "Zcash Sprout Privacy Pool Withdrawals Ending",
-   "type": "other",
-   "status": "ongoing",
+   "t": "Zcash Activates NU7 Upgrade on Mainnet",
+   "type": "mainnet",
+   "status": "completed",
    "event_date": null,
    "coins": [
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Zcash is moving forward with an upgrade that will freeze remaining funds in its oldest privacy pool, Sprout, potentially locking thousands of coins whose owners have not withdrawn them yet.",
+   "b": "Zcash's major NU7 network upgrade is now live on mainnet, reducing target block times to 25 seconds and activating the Network Sustainability Mechanism to remove 60% of transaction fees from circulation.",
    "per": {
-    "ZEC": "Oldest privacy pool will stop accepting withdrawals, threatening to lock remaining ZEC."
+    "ZEC": "Faster transaction times and fee removal went live with the upgrade."
    },
-   "direction": "negative",
-   "quality": 91,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 77,
+   "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 19,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
-    "timing": 12
+    "timing": 6
    },
-   "impact": 9,
-   "s": "building",
+   "impact": 8,
+   "s": "fading",
    "c": "high",
    "sources": [
     {
      "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/11/05/zcash-is-about-to-freeze-usd16-million-in-its-oldest-privacy-pool"
+     "url": "https://www.coindesk.com/tech/2026/11/06/zcash-s-landmark-nu7-upgrade-goes-live-speeding-up-private-payments"
     },
     {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382663/zcash-upgrade-could-lock-16-million-crypto"
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/defi/2026-11-06-zcashs-nu7-goes-live-435807"
     }
    ],
-   "missing": "Exact date and block height when withdrawals completely cease."
+   "missing": "Long-term impact on transaction volume and network adoption."
   },
   {
-   "t": "Bybit Lists KOR Protocol Token",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "KOR"
-   ],
-   "rel": "direct",
-   "b": "Bybit is listing the KOR Protocol Token accompanied by a 40 million KOR reward pool.",
-   "per": {
-    "KOR": "Listing on Bybit with an accompanying reward pool."
-   },
-   "direction": "positive",
-   "quality": 75,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0tUHJ4dnBzTV8ydmZYNGZpUk42TGJrT2Z3VE9rdmFJeC1Uc3VrX0pTcnhfOEdQYlhsLWtaeElad29qaHQ4X1ZTT05tUjVnS1JtTGhfSDhTRE4?oc=5"
-    }
-   ],
-   "missing": "Exact listing time and trading pair details."
-  },
-  {
-   "t": "Upbit Lists Collector Crypt (CARDS)",
-   "type": "listing",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "CARDS"
-   ],
-   "rel": "direct",
-   "b": "Collector Crypt (CARDS) has been listed on Upbit to trade in Korea, prompting a double-digit price rise following the listing integration.",
-   "per": {
-    "CARDS": "Upbit exchange listing drives trading availability in Korea."
-   },
-   "direction": "positive",
-   "quality": 70,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "Altcoin Buzz",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Lc1p6N0l5Y29PTzYtMWhJcUowaEN5ZUEtbVViTEVhVHdvVFNwLVBDWjhYNjR2dVNQdXFidnJVa2lPa3VkYWNNYXhYeDdLZ3dSbmRYREVVc1hCbERESDlJTXRVaGk4Qm9jeXNnTUF2VHNoV3EzMkc5SE9MTmJtMUE?oc=5"
-    },
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR04wS19XU1hCWXhxeGNZTnRzUlY1Z2hvemlFZGdnUTUyUVU2Rm0yZlhDRDRYTUxsa3pUWDZ5Nm1lRW80bVZkeWkwaERtLTlvSmRfb0ZabzlJb2ZvU1hSa25ta0YxR2U2Y2hqTWFwcWdua2dlTEhmcUZqTjlxeHNfYm5VSTFWSHpNS0hCZUw5cG1Qc2ZK?oc=5"
-    },
-    {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaS1XR2phamVsUmQ2MnB4UFF5VkVPU25TNTNsV2kyMDB3dHB6b2dRVU9FTDZ3dnN3VHlwcTBwWFBWX1ZqUUM2MlhaaFBzN250Qi1TTzd5T3dtTGc4MjJMR1d6c2pqT05uV2ZOSlNETUpENlI2QjdDOHNvYVRPOFNMVW1XZG1nUQ?oc=5"
-    }
-   ],
-   "missing": "Specific trading start hour."
-  },
-  {
-   "t": "Samsung Wallet Adds USDC on Solana Support",
+   "t": "Samsung Wallet Integrates USDC on Solana",
    "type": "partnership",
    "status": "completed",
    "event_date": null,
    "coins": [
-    "USDC",
-    "SOL"
+    "SOL",
+    "USDC"
    ],
    "rel": "direct",
-   "b": "Samsung Wallet has launched USDC accounts on Solana for eligible U.S. Galaxy users, allowing them to buy, hold, send, and receive USDC directly without managing private keys.",
+   "b": "Samsung Wallet has officially launched its Stablecoin Account, enabling eligible U.S. Galaxy device users to buy, hold, send, and receive USDC on Solana directly.",
    "per": {
-    "USDC": "Integrated directly into Samsung Wallet for U.S. Galaxy users.",
-    "SOL": "Underlying network integration for Samsung Wallet stablecoin accounts."
+    "SOL": "Expands native mobile onboarding utility within Samsung devices.",
+    "USDC": "Direct integration expands retail accessibility."
    },
    "direction": "positive",
-   "quality": 64,
+   "quality": 77,
    "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 19,
-    "relevance": 12,
+    "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 6
    },
-   "impact": 6,
+   "impact": 8,
    "s": "fading",
-   "c": "medium",
+   "c": "high",
    "sources": [
     {
      "name": "decrypt.co",
@@ -233,7 +119,83 @@
      "url": "https://www.theblock.co/news/business/2026-11-05-samsung-wallet-launches-usdc-accounts-solana-us-galaxy-users-434523"
     }
    ],
-   "missing": "Rollout timeline for international users."
+   "missing": "Rollout timeline for regions outside the U.S."
+  },
+  {
+   "t": "Payward Fund and Clients Purchase AAVE Token Stake",
+   "type": "treasury",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "AAVE"
+   ],
+   "rel": "direct",
+   "b": "Kraken parent company Payward-affiliated investment funds and clients purchased AAVE tokens on the secondary market as part of a DeFi investment expansion.",
+   "per": {
+    "AAVE": "Secondary market accumulation by institutional entity Payward."
+   },
+   "direction": "positive",
+   "quality": 77,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/05/kraken-parent-payward-and-its-clients-buy-aave-tokens-in-defi-investment-push"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-11-05-payward-affiliated-fund-clients-buy-aave-token-stake-secondary-market-aave-says-434798"
+    }
+   ],
+   "missing": "Exact amount of tokens purchased and financial figures."
+  },
+  {
+   "t": "Upbit Lists Collector Crypt",
+   "type": "listing",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "CARDS"
+   ],
+   "rel": "direct",
+   "b": "Collector Crypt (CARDS) has officially launched trading on South Korean exchange Upbit.",
+   "per": {
+    "CARDS": "The listing triggered an immediate 18% price increase for Collector Crypt."
+   },
+   "direction": "positive",
+   "quality": 61,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 10,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 6,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "Altcoin Buzz",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Lc1p6N0l5Y29PTzYtMWhJcUowaEN5ZUEtbVViTEVhVHdvVFNwLVBDWjhYNjR2dVNQdXFidnJVa2lPa3VkYWNNYXhYeDdLZ3dSbmRYREVVc1hCbERESDlJTXRVaGk4Qm9jeXNnTUF2VHNoV3EzMkc5SE9MTmJtMUE?oc=5"
+    },
+    {
+     "name": "Coin Gabbar",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaS1XR2phamVsUmQ2MnB4UFF5VkVPU25TNTNsV2kyMDB3dHB6b2dRVU9FTDZ3dnN3VHlwcTBwWFBWX1ZqUUM2MlhaaFBzN250Qi1TTzd5T3dtTGc4MjJMR1d6c2pqT05uV2ZOSlNETUpENlI2QjdDOHNvYVRPOFNMVW1XZG1nUQ?oc=5"
+    }
+   ],
+   "missing": "Full details of trading pairs."
   }
  ]
 }
