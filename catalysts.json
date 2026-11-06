@@ -1,50 +1,92 @@
 {
- "updated": "2026-11-06T08:51:01.918394+00:00",
+ "updated": "2026-11-06T16:32:24.781830+00:00",
  "cards": [
   {
-   "t": "Canary Staked INJ ETF Debuts on Nasdaq",
+   "t": "Canary Capital Launches First U.S. Spot Staked INJ ETF on Nasdaq",
    "type": "etf",
-   "status": "completed",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
     "INJ"
    ],
    "rel": "direct",
-   "b": "Canary Capital's Staked Injective ETF has officially launched and begun trading on Nasdaq, providing investors with exposure to the INJ token alongside staking rewards.",
+   "b": "Canary Capital is launching the first U.S. spot staked Injective ETF (ticker: INJC) on Nasdaq, providing investors with token exposure plus staking rewards.",
    "per": {
-    "INJ": "The ETF launch drove positive price action, with Injective rallying over 10%."
+    "INJ": "The new Nasdaq-listed ETF offers direct exposure and staking rewards, which may drive institutional demand."
    },
    "direction": "positive",
    "quality": 87,
-   "label": "COMPLETED CATALYST",
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 21,
+    "credibility": 12,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
    "impact": 9,
-   "s": "fading",
+   "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQmwzWGtzUVVZN0ZZcDRFTllWdnl0RmQwTWxpWEhHNzV0ZmF3LVJkbmxydEdOTlE5ZmxvWEJGSmlqSVg3MmM1cTZJSWxJM3hqWXM0ODRsRmd2WWdPbFpOMTliN2dXMEtyQ1p5bmotM25kV2FIOHhMNlNlazIzdC01MVFsQ3ZBeDJ0U1Zmdy16d0FwTU93dWR0bnc1WU1PM0QzMVM3dlJKbmwxUW9CY1d3OW1uQ3YwTzZFdFNvUlUyMjU5NV8xMG5iQmZld1NoVFlN?oc=5"
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZDFGZ1p1anlQd1doNjQ0ckFJWVBjMElzdVRFM2VlTUN4Y25QNU5HY2lKTFlGRWVTUXJJdTNSUlJxNEtOQXpxaWZkeFZIUmx5WEV2U255UWJIR3I3OWE0OERTTkstejFBaWtXNDVkVDhhamctRHRnZnlXUVkxZF9pdzY0NU9FN3pvdlVHQkxEV1RoZGtJajhxRDYxUEwyOHVKeW82b09Sc1FlREh4OThyc1JGckpkZFg0bDBnWTlhbkxEYTZIbm9kMUJPcw?oc=5"
     },
     {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BNVhaNmdnT0ZHbkNES05YRkhnWWlhSHZxb0JXMTZES2NMam8yNWFjY0k3RXdRTWFzb3NiX01kdDRjaDhvTkZ0azNHQmpyZmI2WnhoczVIMDE4a0NONmRUaHJRZ212Nk00TklkdzkxZnA?oc=5"
+     "name": "Altcoin Buzz",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NRTBDY3lHNzd3NTd0V2g1c3dFRHp4c2JSLU10aFdBNkFOaUt6X1JhR2poOGc5eDQwOG5YY2oxMzlKWWhGbnVOZkFrNEFEcWx5RE1WZHR5dnhQUmxHVHpWSWFuOFhBZ3QwVWkwX1ZzLW5IWDJrY1lIaw?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLWwwZ0ctVk5RSUFDaVR3QzUzbDJRLWpWQWNRenpmXzI0cFVXakR6QzJrdkZHRTVxTDA0RnZjUXRGaFJrdXJsSFFONi0xeVhoQWN2NWJ0MFRXRHNIbkNQemI5XzRldlJVbXJwSkdLNTJBYV9WM0o3RzVKQXlmRUFfQkFhdmpxZkN4WmdQWlpR?oc=5"
+    }
+   ],
+   "missing": "Exact trading start time."
+  },
+  {
+   "t": "Hyperliquid Treasury Seeks U.S. CFTC FCM Registration",
+   "type": "regulation",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "HYPE"
+   ],
+   "rel": "direct",
+   "b": "Hyperliquid Strategies has filed with the CFTC to become a registered Futures Commission Merchant (FCM) to offer US-regulated futures trading and perpetual products for domestic clients.",
+   "per": {
+    "HYPE": "Regulatory approval as a compliant U.S. futures platform could open institutional participation."
+   },
+   "direction": "positive",
+   "quality": 85,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "CoinGape",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObnNNRERxd1R2VFJfZTBRdzdSMmdhOGxINFcwZFNEVzQ2M2h2SHFBM0l5TFU5UFR1bW9OQkJGSy1iMkVJRUVUNEg1TEY0WWhGZkotNURwWXRadm1FTF9kQlBYSm5KWkZSQVh2amhXSVNPWFM5T1piUDV4MVl2cjhCekNvcGU4dFQyVUZCMHlXdGJtZHNTUXdnUmxvLUtnS3BvRy12c3BOR0QwaXRyR0VZaF80aDNmQQ?oc=5"
+    },
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/11/05/hyperliquid-treasury-firm-seeking-u-s-regulatory-nod-as-a-domestic-futures-platform"
     },
     {
      "name": "theblock.co",
-     "url": "https://www.theblock.co/news/markets/2026-11-05-canary-staked-inj-etf-launches-nasdaq-injc-435115"
+     "url": "https://www.theblock.co/news/markets/2026-11-05-hyperliquid-strategies-files-become-cftc-registered-fcm-posts-13-3-million-quaterly-revenue-435455"
     }
    ],
-   "missing": "Exact opening trading volume figures."
+   "missing": "Expected approval timeline from regulatory bodies."
   },
   {
-   "t": "Zcash Activates NU7 Upgrade on Mainnet",
+   "t": "Zcash Activates NU7 Mainnet Upgrade",
    "type": "mainnet",
    "status": "completed",
    "event_date": null,
@@ -52,9 +94,9 @@
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Zcash's major NU7 network upgrade is now live on mainnet, reducing target block times to 25 seconds and activating the Network Sustainability Mechanism to remove 60% of transaction fees from circulation.",
+   "b": "Zcash has successfully launched its NU7 upgrade on mainnet, reducing target block times to 25 seconds and activating the Network Sustainability Mechanism to remove 60% of transaction fees from circulation.",
    "per": {
-    "ZEC": "Faster transaction times and fee removal went live with the upgrade."
+    "ZEC": "Block times are now threefold faster, and 60% of block transaction fees are recycled to fund future block rewards."
    },
    "direction": "positive",
    "quality": 77,
@@ -79,123 +121,7 @@
      "url": "https://www.theblock.co/news/defi/2026-11-06-zcashs-nu7-goes-live-435807"
     }
    ],
-   "missing": "Long-term impact on transaction volume and network adoption."
-  },
-  {
-   "t": "Samsung Wallet Integrates USDC on Solana",
-   "type": "partnership",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "SOL",
-    "USDC"
-   ],
-   "rel": "direct",
-   "b": "Samsung Wallet has officially launched its Stablecoin Account, enabling eligible U.S. Galaxy device users to buy, hold, send, and receive USDC on Solana directly.",
-   "per": {
-    "SOL": "Expands native mobile onboarding utility within Samsung devices.",
-    "USDC": "Direct integration expands retail accessibility."
-   },
-   "direction": "positive",
-   "quality": 77,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382586/stablecoins-samsung-wallet-adds-usdc-solana"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-11-05-samsung-wallet-launches-usdc-accounts-solana-us-galaxy-users-434523"
-    }
-   ],
-   "missing": "Rollout timeline for regions outside the U.S."
-  },
-  {
-   "t": "Payward Fund and Clients Purchase AAVE Token Stake",
-   "type": "treasury",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "AAVE"
-   ],
-   "rel": "direct",
-   "b": "Kraken parent company Payward-affiliated investment funds and clients purchased AAVE tokens on the secondary market as part of a DeFi investment expansion.",
-   "per": {
-    "AAVE": "Secondary market accumulation by institutional entity Payward."
-   },
-   "direction": "positive",
-   "quality": 77,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/11/05/kraken-parent-payward-and-its-clients-buy-aave-tokens-in-defi-investment-push"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-11-05-payward-affiliated-fund-clients-buy-aave-token-stake-secondary-market-aave-says-434798"
-    }
-   ],
-   "missing": "Exact amount of tokens purchased and financial figures."
-  },
-  {
-   "t": "Upbit Lists Collector Crypt",
-   "type": "listing",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "CARDS"
-   ],
-   "rel": "direct",
-   "b": "Collector Crypt (CARDS) has officially launched trading on South Korean exchange Upbit.",
-   "per": {
-    "CARDS": "The listing triggered an immediate 18% price increase for Collector Crypt."
-   },
-   "direction": "positive",
-   "quality": 61,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 10,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 6,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "Altcoin Buzz",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Lc1p6N0l5Y29PTzYtMWhJcUowaEN5ZUEtbVViTEVhVHdvVFNwLVBDWjhYNjR2dVNQdXFidnJVa2lPa3VkYWNNYXhYeDdLZ3dSbmRYREVVc1hCbERESDlJTXRVaGk4Qm9jeXNnTUF2VHNoV3EzMkc5SE9MTmJtMUE?oc=5"
-    },
-    {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaS1XR2phamVsUmQ2MnB4UFF5VkVPU25TNTNsV2kyMDB3dHB6b2dRVU9FTDZ3dnN3VHlwcTBwWFBWX1ZqUUM2MlhaaFBzN250Qi1TTzd5T3dtTGc4MjJMR1d6c2pqT05uV2ZOSlNETUpENlI2QjdDOHNvYVRPOFNMVW1XZG1nUQ?oc=5"
-    }
-   ],
-   "missing": "Full details of trading pairs."
+   "missing": "Long-term impact on legacy funds rendered unspendable."
   }
  ]
 }
