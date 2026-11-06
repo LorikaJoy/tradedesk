@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-06T16:32:24.781830+00:00",
+ "updated": "2026-11-06T21:45:51.726359+00:00",
  "cards": [
   {
-   "t": "Canary Capital Launches First U.S. Spot Staked INJ ETF on Nasdaq",
+   "t": "Canary Capital Launches Staked INJ ETF on Nasdaq",
    "type": "etf",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -10,9 +10,9 @@
     "INJ"
    ],
    "rel": "direct",
-   "b": "Canary Capital is launching the first U.S. spot staked Injective ETF (ticker: INJC) on Nasdaq, providing investors with token exposure plus staking rewards.",
+   "b": "Canary Capital has launched the first U.S. spot staked Injective ETF (INJC) on Nasdaq, providing direct crypto exposure bundled with staking rewards.",
    "per": {
-    "INJ": "The new Nasdaq-listed ETF offers direct exposure and staking rewards, which may drive institutional demand."
+    "INJ": "The launch of the Nasdaq-listed staked ETF could drive institutional demand and ease access to staking yields."
    },
    "direction": "positive",
    "quality": 87,
@@ -29,64 +29,22 @@
    "c": "high",
    "sources": [
     {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZDFGZ1p1anlQd1doNjQ0ckFJWVBjMElzdVRFM2VlTUN4Y25QNU5HY2lKTFlGRWVTUXJJdTNSUlJxNEtOQXpxaWZkeFZIUmx5WEV2U255UWJIR3I3OWE0OERTTkstejFBaWtXNDVkVDhhamctRHRnZnlXUVkxZF9pdzY0NU9FN3pvdlVHQkxEV1RoZGtJajhxRDYxUEwyOHVKeW82b09Sc1FlREh4OThyc1JGckpkZFg0bDBnWTlhbkxEYTZIbm9kMUJPcw?oc=5"
-    },
-    {
      "name": "Altcoin Buzz",
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NRTBDY3lHNzd3NTd0V2g1c3dFRHp4c2JSLU10aFdBNkFOaUt6X1JhR2poOGc5eDQwOG5YY2oxMzlKWWhGbnVOZkFrNEFEcWx5RE1WZHR5dnhQUmxHVHpWSWFuOFhBZ3QwVWkwX1ZzLW5IWDJrY1lIaw?oc=5"
+    },
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZDFGZ1p1anlQd1doNjQ0ckFJWVBjMElzdVRFM2VlTUN4Y25QNU5HY2lKTFlGRWVTUXJJdTNSUlJxNEtOQXpxaWZkeFZIUmx5WEV2U255UWJIR3I3OWE0OERTTkstejFBaWtXNDVkVDhhamctRHRnZnlXUVkxZF9pdzY0NU9FN3pvdlVHQkxEV1RoZGtJajhxRDYxUEwyOHVKeW82b09Sc1FlREh4OThyc1JGckpkZFg0bDBnWTlhbkxEYTZIbm9kMUJPcw?oc=5"
     },
     {
      "name": "Pluang",
      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLWwwZ0ctVk5RSUFDaVR3QzUzbDJRLWpWQWNRenpmXzI0cFVXakR6QzJrdkZHRTVxTDA0RnZjUXRGaFJrdXJsSFFONi0xeVhoQWN2NWJ0MFRXRHNIbkNQemI5XzRldlJVbXJwSkdLNTJBYV9WM0o3RzVKQXlmRUFfQkFhdmpxZkN4WmdQWlpR?oc=5"
     }
    ],
-   "missing": "Exact trading start time."
+   "missing": "Exact trading start hour and total initial assets under management."
   },
   {
-   "t": "Hyperliquid Treasury Seeks U.S. CFTC FCM Registration",
-   "type": "regulation",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "HYPE"
-   ],
-   "rel": "direct",
-   "b": "Hyperliquid Strategies has filed with the CFTC to become a registered Futures Commission Merchant (FCM) to offer US-regulated futures trading and perpetual products for domestic clients.",
-   "per": {
-    "HYPE": "Regulatory approval as a compliant U.S. futures platform could open institutional participation."
-   },
-   "direction": "positive",
-   "quality": 85,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "CoinGape",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObnNNRERxd1R2VFJfZTBRdzdSMmdhOGxINFcwZFNEVzQ2M2h2SHFBM0l5TFU5UFR1bW9OQkJGSy1iMkVJRUVUNEg1TEY0WWhGZkotNURwWXRadm1FTF9kQlBYSm5KWkZSQVh2amhXSVNPWFM5T1piUDV4MVl2cjhCekNvcGU4dFQyVUZCMHlXdGJtZHNTUXdnUmxvLUtnS3BvRy12c3BOR0QwaXRyR0VZaF80aDNmQQ?oc=5"
-    },
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/policy/2026/11/05/hyperliquid-treasury-firm-seeking-u-s-regulatory-nod-as-a-domestic-futures-platform"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/markets/2026-11-05-hyperliquid-strategies-files-become-cftc-registered-fcm-posts-13-3-million-quaterly-revenue-435455"
-    }
-   ],
-   "missing": "Expected approval timeline from regulatory bodies."
-  },
-  {
-   "t": "Zcash Activates NU7 Mainnet Upgrade",
+   "t": "Zcash NU7 Upgrade Goes Live",
    "type": "mainnet",
    "status": "completed",
    "event_date": null,
@@ -94,15 +52,15 @@
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Zcash has successfully launched its NU7 upgrade on mainnet, reducing target block times to 25 seconds and activating the Network Sustainability Mechanism to remove 60% of transaction fees from circulation.",
+   "b": "Zcash's landmark NU7 upgrade has gone live, lowering target block times to 25 seconds and introducing the Network Sustainability Mechanism to recycle fees, though it left millions in legacy Sprout pool funds unspendable.",
    "per": {
-    "ZEC": "Block times are now threefold faster, and 60% of block transaction fees are recycled to fund future block rewards."
+    "ZEC": "Block times are faster and fees are repurposed, but legacy funds face stranded asset concerns."
    },
-   "direction": "positive",
-   "quality": 77,
+   "direction": "mixed",
+   "quality": 79,
    "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 21,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -117,11 +75,15 @@
      "url": "https://www.coindesk.com/tech/2026/11/06/zcash-s-landmark-nu7-upgrade-goes-live-speeding-up-private-payments"
     },
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-11-06-zcashs-nu7-goes-live-435807"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/zcash-nu7-upgrade-15m-sprout-funds-unspendable?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/382692/zcashs-nu7-upgrade-goes-live-recycling-60-of-fees-to-fund-future-block-rewards"
     }
    ],
-   "missing": "Long-term impact on legacy funds rendered unspendable."
+   "missing": "Long-term developer fund allocation details and recovery options for stranded Sprout funds."
   }
  ]
 }
