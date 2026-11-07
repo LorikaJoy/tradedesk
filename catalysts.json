@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-07T19:02:36.965161+00:00",
+ "updated": "2026-11-07T22:42:54.816537+00:00",
  "cards": [
   {
-   "t": "Russia Finalizes Crypto Trading Rules for Retail",
+   "t": "Russia Retail Crypto Trading Rollout",
    "type": "regulation",
    "status": "confirmed_upcoming",
    "event_date": "2026-11-17",
@@ -12,11 +12,11 @@
     "USDT"
    ],
    "rel": "direct",
-   "b": "Russia has finalized its retail crypto trading rules ahead of a November 17 rollout, allowing retail investors to trade Bitcoin, Ethereum, and USDT via regulated intermediaries.",
+   "b": "Russia has finalized its crypto trading rules ahead of a November 17 rollout, allowing retail investors to trade BTC, ETH, and USDT through regulated intermediaries.",
    "per": {
-    "BTC": "Retail access via regulated intermediaries rolls out on November 17.",
-    "ETH": "Retail access via regulated intermediaries rolls out on November 17.",
-    "USDT": "Retail access via regulated intermediaries rolls out on November 17."
+    "BTC": "Set to gain regulated retail access in Russia starting November 17.",
+    "ETH": "Set to gain regulated retail access in Russia starting November 17.",
+    "USDT": "Set to gain regulated retail access in Russia starting November 17."
    },
    "direction": "positive",
    "quality": 94,
@@ -41,53 +41,41 @@
      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOamY2U3FBY1JmazVjczJ0NHBnbzdaVFpOb2ptNjJPQ01XLUdJMDVvZTB5VXNqZTdEZ0lycER1S0F4R2I3ZUtJY2ozd3c3QXBtMkZidE5BWkRKSUNxM25FRGJabFJqX3oxWUZseGJwN0wzTEEwVW5JeTNZanVSVHZ5MHFnVHNmelBZamZnaUduSmYwWEc4?oc=5"
     }
    ],
-   "missing": "Full list of approved regulated intermediaries beyond the Moscow Exchange's planned December crypto trading launch"
+   "missing": "Specific intermediaries approved at launch."
   },
   {
-   "t": "Zcash Activates NU7 Upgrade",
+   "t": "Zcash NU7 Upgrade",
    "type": "mainnet",
-   "status": "completed",
-   "event_date": "2026-11-06",
+   "status": "confirmed_upcoming",
+   "event_date": null,
    "coins": [
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Zcash successfully launched its NU7 network upgrade on mainnet, reducing block times threefold and activating the Network Sustainability Mechanism which recycles 60% of fees, though it stranded about 12,224 ZEC in the legacy Sprout pool.",
+   "b": "Zcash surged 3% following news of the NU7 upgrade amid a flat broader crypto market.",
    "per": {
-    "ZEC": "NU7 upgrade went live, cutting block time threefold and stranding legacy Sprout funds while recycling fees."
+    "ZEC": "Surged 3% on the NU7 upgrade announcement."
    },
-   "direction": "mixed",
-   "quality": 79,
-   "label": "COMPLETED CATALYST",
+   "direction": "positive",
+   "quality": 75,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 21,
+    "credibility": 8,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
    "impact": 8,
-   "s": "fading",
+   "s": "building",
    "c": "high",
    "sources": [
     {
      "name": "CoinMarketCap",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02WFNCZ0FOUWJRRU95eFRubi1OQmxLV2V4clJWdzVJRzdGZFVZUU9DV3dyczRJai1qQUx0aWFVRHp3YTBpaXhxeUZ5QnY5cm8zQ3E3WlpsdnRiYzg4allxTF93eEVWaFV4YkVYY0RHeEY?oc=5"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/zcash-nu7-upgrade-15m-sprout-funds-unspendable?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382692/zcashs-nu7-upgrade-goes-live-recycling-60-of-fees-to-fund-future-block-rewards"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-11-06-zcashs-nu7-goes-live-435807"
     }
    ],
-   "missing": "Whether access to the stranded Sprout pool funds will be permanently lost or restored in a future upgrade"
+   "missing": "Exact activation date for the NU7 upgrade."
   }
  ]
 }
