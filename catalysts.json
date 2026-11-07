@@ -1,6 +1,48 @@
 {
- "updated": "2026-11-06T21:45:51.726359+00:00",
+ "updated": "2026-11-07T01:30:35.063416+00:00",
  "cards": [
+  {
+   "t": "Hyperliquid Strategies Files for CFTC-Registered FCM Status",
+   "type": "regulation",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "HYPE"
+   ],
+   "rel": "direct",
+   "b": "Hyperliquid's treasury firm, Hyperliquid Strategies, has filed to register as a U.S. futures commission merchant (FCM) with the CFTC to bring perpetual futures compliant with U.S. clients.",
+   "per": {
+    "HYPE": "Treasury firm seeking domestic regulatory compliance to offer U.S. clients access to perps."
+   },
+   "direction": "positive",
+   "quality": 96,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 10,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/11/05/hyperliquid-treasury-firm-seeking-u-s-regulatory-nod-as-a-domestic-futures-platform"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/nasdaq-hyperliquid-strategies-futures-broker-license-onchain-perps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/markets/2026-11-05-hyperliquid-strategies-files-become-cftc-registered-fcm-posts-13-3-million-quaterly-revenue-435455"
+    }
+   ],
+   "missing": "Exact regulatory approval timeline"
+  },
   {
    "t": "Canary Capital Launches Staked INJ ETF on Nasdaq",
    "type": "etf",
@@ -10,9 +52,9 @@
     "INJ"
    ],
    "rel": "direct",
-   "b": "Canary Capital has launched the first U.S. spot staked Injective ETF (INJC) on Nasdaq, providing direct crypto exposure bundled with staking rewards.",
+   "b": "Canary Capital has launched the first U.S. spot staked Injective ETF under the ticker INJC on Nasdaq, providing direct exposure alongside staking rewards. The product has also appeared on Bloomberg terminals.",
    "per": {
-    "INJ": "The launch of the Nasdaq-listed staked ETF could drive institutional demand and ease access to staking yields."
+    "INJ": "Launching of the first spot staked INJ ETF (INJC) on Nasdaq provides institutional exposure and native staking rewards."
    },
    "direction": "positive",
    "quality": 87,
@@ -33,18 +75,22 @@
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NRTBDY3lHNzd3NTd0V2g1c3dFRHp4c2JSLU10aFdBNkFOaUt6X1JhR2poOGc5eDQwOG5YY2oxMzlKWWhGbnVOZkFrNEFEcWx5RE1WZHR5dnhQUmxHVHpWSWFuOFhBZ3QwVWkwX1ZzLW5IWDJrY1lIaw?oc=5"
     },
     {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLWwwZ0ctVk5RSUFDaVR3QzUzbDJRLWpWQWNRenpmXzI0cFVXakR6QzJrdkZHRTVxTDA0RnZjUXRGaFJrdXJsSFFONi0xeVhoQWN2NWJ0MFRXRHNIbkNQemI5XzRldlJVbXJwSkdLNTJBYV9WM0o3RzVKQXlmRUFfQkFhdmpxZkN4WmdQWlpR?oc=5"
+    },
+    {
      "name": "TradingView",
      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZDFGZ1p1anlQd1doNjQ0ckFJWVBjMElzdVRFM2VlTUN4Y25QNU5HY2lKTFlGRWVTUXJJdTNSUlJxNEtOQXpxaWZkeFZIUmx5WEV2U255UWJIR3I3OWE0OERTTkstejFBaWtXNDVkVDhhamctRHRnZnlXUVkxZF9pdzY0NU9FN3pvdlVHQkxEV1RoZGtJajhxRDYxUEwyOHVKeW82b09Sc1FlREh4OThyc1JGckpkZFg0bDBnWTlhbkxEYTZIbm9kMUJPcw?oc=5"
     },
     {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLWwwZ0ctVk5RSUFDaVR3QzUzbDJRLWpWQWNRenpmXzI0cFVXakR6QzJrdkZHRTVxTDA0RnZjUXRGaFJrdXJsSFFONi0xeVhoQWN2NWJ0MFRXRHNIbkNQemI5XzRldlJVbXJwSkdLNTJBYV9WM0o3RzVKQXlmRUFfQkFhdmpxZkN4WmdQWlpR?oc=5"
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcG9pNUE1Rk92MEVTM190QU5fTHNoQlpOOUlQLV9SYnVMZXF5OGotTEFBWXdlZGVHOXdBWmU0ZHdLTXluTTk1X1FyZDRpQTZnZndmY0NsNW5vN2Z0SFdWck55QllqNUZWcmtOMHNhZ2QyUGdrckV2REhfdEk5VEFxblRtZVN0S1p3UFNpUVVkem1HZFota1paZ1VGeVdKcVpjaU5xbF9TWEhWal8zNU51YkFhRUxnYWd3Nmx0RQ?oc=5"
     }
    ],
-   "missing": "Exact trading start hour and total initial assets under management."
+   "missing": "Exact trading start hour"
   },
   {
-   "t": "Zcash NU7 Upgrade Goes Live",
+   "t": "Zcash Activates Landmark NU7 Upgrade",
    "type": "mainnet",
    "status": "completed",
    "event_date": null,
@@ -52,21 +98,21 @@
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Zcash's landmark NU7 upgrade has gone live, lowering target block times to 25 seconds and introducing the Network Sustainability Mechanism to recycle fees, though it left millions in legacy Sprout pool funds unspendable.",
+   "b": "Zcash's NU7 upgrade has officially gone live on mainnet, cutting target block times to 25 seconds and activating the Network Sustainability Mechanism which recycles 60% of transaction fees. However, the upgrade has left thousands of legacy Sprout pool funds unspendable.",
    "per": {
-    "ZEC": "Block times are faster and fees are repurposed, but legacy funds face stranded asset concerns."
+    "ZEC": "NU7 mainnet upgrade speeds up private payments and introduces fee recycling, but strands legacy Sprout funds."
    },
    "direction": "mixed",
-   "quality": 79,
+   "quality": 87,
    "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 21,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 6
    },
-   "impact": 8,
+   "impact": 9,
    "s": "fading",
    "c": "high",
    "sources": [
@@ -81,9 +127,47 @@
     {
      "name": "decrypt.co",
      "url": "https://decrypt.co/382692/zcashs-nu7-upgrade-goes-live-recycling-60-of-fees-to-fund-future-block-rewards"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/defi/2026-11-06-zcashs-nu7-goes-live-435807"
     }
    ],
-   "missing": "Long-term developer fund allocation details and recovery options for stranded Sprout funds."
+   "missing": "Long-term resolution for stranded Sprout pool funds"
+  },
+  {
+   "t": "Aave Labs Acquires Avon Team for Fixed-Rate Lending Push",
+   "type": "partnership",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "AAVE"
+   ],
+   "rel": "direct",
+   "b": "Aave Labs has acquired the team and technology of onchain fixed-rate and floating-rate lending protocol Avon to expand its lending infrastructure.",
+   "per": {
+    "AAVE": "Acquisition of Avon team aims to scale fixed and floating-rate lending features."
+   },
+   "direction": "positive",
+   "quality": 75,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-11-06-aave-labs-buys-avon-team-in-fixed-rate-lending-push-435901"
+    }
+   ],
+   "missing": "Integration timeline for Avon technology into Aave markets"
   }
  ]
 }
