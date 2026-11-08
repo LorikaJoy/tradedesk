@@ -1,30 +1,30 @@
 {
- "updated": "2026-11-07T22:42:54.816537+00:00",
+ "updated": "2026-11-08T01:51:13.596907+00:00",
  "cards": [
   {
-   "t": "Russia Retail Crypto Trading Rollout",
+   "t": "Russia Finalizes Crypto Trading Rules for Retail Investors",
    "type": "regulation",
    "status": "confirmed_upcoming",
-   "event_date": "2026-11-17",
+   "event_date": "2025-11-17",
    "coins": [
     "BTC",
     "ETH",
     "USDT"
    ],
    "rel": "direct",
-   "b": "Russia has finalized its crypto trading rules ahead of a November 17 rollout, allowing retail investors to trade BTC, ETH, and USDT through regulated intermediaries.",
+   "b": "Russia has finalized crypto trading rules allowing retail investors to trade BTC, ETH, and USDT through regulated intermediaries starting November 17, with Moscow Exchange planning a December rollout.",
    "per": {
-    "BTC": "Set to gain regulated retail access in Russia starting November 17.",
-    "ETH": "Set to gain regulated retail access in Russia starting November 17.",
-    "USDT": "Set to gain regulated retail access in Russia starting November 17."
+    "BTC": "Set to gain regulated retail trading access in Russia on November 17.",
+    "ETH": "Set to gain regulated retail trading access in Russia on November 17.",
+    "USDT": "Set to gain regulated retail trading access in Russia on November 17."
    },
    "direction": "positive",
-   "quality": 94,
+   "quality": 88,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 21,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
@@ -39,28 +39,32 @@
     {
      "name": "CryptoTicker.io",
      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOamY2U3FBY1JmazVjczJ0NHBnbzdaVFpOb2ptNjJPQ01XLUdJMDVvZTB5VXNqZTdEZ0lycER1S0F4R2I3ZUtJY2ozd3c3QXBtMkZidE5BWkRKSUNxM25FRGJabFJqX3oxWUZseGJwN0wzTEEwVW5JeTNZanVSVHZ5MHFnVHNmelBZamZnaUduSmYwWEc4?oc=5"
+    },
+    {
+     "name": "Menafn",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMDJSTmJjcDdWeVN6TVF4MGd2RDNfQ3cwLU9ZeEdZT2c0TjFKblBMWXNWd0hBVi03VG9uUXFLY0pRMEp0WXRfdTZGTExGOUhmNHBYaXE2Mlh2cXBzajhwRE12dU5vdGRBUUE1MGRyS1ByQWNtdFdkcWNxRDcxMXlpejZXdmQtbXBDeVdxUm53?oc=5"
     }
    ],
-   "missing": "Specific intermediaries approved at launch."
+   "missing": "List of specific authorized intermediaries and brokers participating at launch."
   },
   {
-   "t": "Zcash NU7 Upgrade",
-   "type": "mainnet",
-   "status": "confirmed_upcoming",
+   "t": "Nasdaq Lists Canary's Staked INJ ETF",
+   "type": "etf",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "ZEC"
+    "INJ"
    ],
    "rel": "direct",
-   "b": "Zcash surged 3% following news of the NU7 upgrade amid a flat broader crypto market.",
+   "b": "Nasdaq has listed Canary's Staked INJ ETF, providing another route to altcoin exposure for investors.",
    "per": {
-    "ZEC": "Surged 3% on the NU7 upgrade announcement."
+    "INJ": "Listed on Nasdaq via Canary's Staked INJ ETF, expanding institutional and retail access."
    },
    "direction": "positive",
-   "quality": 75,
+   "quality": 77,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 10,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -71,11 +75,49 @@
    "c": "high",
    "sources": [
     {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWWtpNjBkWHhoRjJvM2Zkb3YyVENWSndBYVZTWjdUMVFUREhsbGg0NS1QekNSNWtxQTdlY1FfeGVnV0FFNFJXRXgtOUFFQldpLVFBRm9qNjlGM0hobldWU3VMY29fekFTbm5IRmlXcTI3eUdpcTNtb1hCa2JSZ3NPRTl2Vm1zdWdiekx5UmliNUoxcGk4aTVTcHJuTm9RRk5FS1VCWkxzNkpIb29lcDBGTmNTT0gyUURBMENlUWcxQkJnWS01b1cwb19HLXZtYVVC?oc=5"
+    },
+    {
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IWE9FVzRxZWtWVDBiNGp4allpTnV4T3dOdWdlSzJvdTA5ZFdweTdJUVIyb1U3Tk80NG8tV1VuNkFNcEZiVElsYW16S3BqRWh2dnN0NzlJYS1EZEhDaTVfRGJtelVwSWhNaWxXSHVWcEY?oc=5"
+    }
+   ],
+   "missing": "Exact launch date and initial trading volume figures."
+  },
+  {
+   "t": "Zcash Surges on NU7 Upgrade",
+   "type": "mainnet",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "ZEC"
+   ],
+   "rel": "direct",
+   "b": "Zcash surged 3% amid the flat crypto market driven by the ongoing NU7 upgrade.",
+   "per": {
+    "ZEC": "Benefiting from price momentum tied to the NU7 upgrade."
+   },
+   "direction": "positive",
+   "quality": 72,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
      "name": "CoinMarketCap",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02WFNCZ0FOUWJRRU95eFRubi1OQmxLV2V4clJWdzVJRzdGZFVZUU9DV3dyczRJai1qQUx0aWFVRHp3YTBpaXhxeUZ5QnY5cm8zQ3E3WlpsdnRiYzg4allxTF93eEVWaFV4YkVYY0RHeEY?oc=5"
     }
    ],
-   "missing": "Exact activation date for the NU7 upgrade."
+   "missing": "Exact activation block height and full feature list of the NU7 upgrade."
   }
  ]
 }
