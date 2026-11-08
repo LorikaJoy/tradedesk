@@ -1,31 +1,65 @@
 {
- "updated": "2026-11-08T08:27:51.358768+00:00",
+ "updated": "2026-11-08T15:29:23.641830+00:00",
  "cards": [
   {
-   "t": "Nasdaq Lists Canary\u2019s Staked INJ ETF",
-   "type": "etf",
+   "t": "Gnosis Pay Breach Exposes User Data and Linked Wallets",
+   "type": "hack",
    "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "GBONDS"
+   ],
+   "rel": "direct",
+   "b": "A security breach on Gnosis Pay exposed card numbers, home addresses, and linked crypto wallets, raising user scam risks.",
+   "per": {
+    "GBONDS": "Data exposure links home addresses and card details directly to crypto wallets."
+   },
+   "direction": "negative",
+   "quality": 92,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/07/gnosis-pay-breach-exposes-card-numbers-home-addresses-and-linked-crypto-wallets"
+    }
+   ],
+   "missing": "Total number of users compromised and exact remediation steps."
+  },
+  {
+   "t": "Canary's Staked INJ ETF Lists on Nasdaq",
+   "type": "etf",
+   "status": "completed",
    "event_date": null,
    "coins": [
     "INJ"
    ],
    "rel": "direct",
-   "b": "Nasdaq has listed Canary\u2019s Staked INJ ETF, opening another regulated route for traditional market exposure to Injective.",
+   "b": "Nasdaq has officially listed Canary's Staked Injective (INJ) ETF, providing an additional regulated route for altcoin exposure.",
    "per": {
-    "INJ": "New institutional access via the ETF launch supports positive price momentum and market visibility."
+    "INJ": "Nasdaq fund debut adds a regulated institutional vehicle for exposure."
    },
    "direction": "positive",
-   "quality": 77,
-   "label": "STRONG CATALYST",
+   "quality": 76,
+   "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 10,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
-    "timing": 15
+    "timing": 6
    },
    "impact": 8,
-   "s": "building",
+   "s": "fading",
    "c": "high",
    "sources": [
     {
@@ -33,59 +67,15 @@
      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWWtpNjBkWHhoRjJvM2Zkb3YyVENWSndBYVZTWjdUMVFUREhsbGg0NS1QekNSNWtxQTdlY1FfeGVnV0FFNFJXRXgtOUFFQldpLVFBRm9qNjlGM0hobldWU3VMY29fekFTbm5IRmlXcTI3eUdpcTNtb1hCa2JSZ3NPRTl2Vm1zdWdiekx5UmliNUoxcGk4aTVTcHJuTm9RRk5FS1VCWkxzNkpIb29lcDBGTmNTT0gyUURBMENlUWcxQkJnWS01b1cwb19HLXZtYVVC?oc=5"
     },
     {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IWE9FVzRxZWtWVDBiNGp4allpTnV4T3dOdWdlSzJvdTA5ZFdweTdJUVIyb1U3Tk80NG8tV1VuNkFNcEZiVElsYW16S3BqRWh2dnN0NzlJYS1EZEhDaTVfRGJtelVwSWhNaWxXSHVWcEY?oc=5"
+     "name": "StreetInsider",
+     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPUTJQajRxbGRXNEpZU3Vydzc3SFdnaWx3cWVjR1o2dmpadmd6X01ob252VF9BTEFCNVVNNkpmYXR6bzl2Qlp2NU5DRU5lZWFHUm5BX3liUnJWVzJySHloSDJqN1ZIeDh6UUwzV0RLY1NESU1Td3JtWU83SVJfNzhKYzhmR1I2UURyc2tiNUE0UnFvWlFPOThtRlhPREtsT3AwNWY1Q2EyVFZZT3A1NTgxT25jYzR3ekY5cEVTVGR5NHAxeEMzLUgtMU1LV19MY0s4a0czZE82NlVGQUU5X1R5MWJCOU5qOEdLUWNGWWNNNmUzbW1mSjFqcGxxWFZUZjM3?oc=5"
+    },
+    {
+     "name": "StreetInsider",
+     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOb2RYRDNhMkZPbFYyakQ4Yk41ZTN2NkFnS0lwUlBfYUdSQVg1RzdPMG5XQ3hRT2J6Q2J0LWQwNXI2ZEVydXFfdW5GTWtpYVBRRzNucV9uOE9iRFpEQzFjbzVSUWZjRmtpNmZMQkJlLTNsajEwQkR3NU5odGtadGlvQjY4LWlUeEUzU3JDTkw0a3FJa3dvVEhocnlIRXRLb0RoMXpuOWQ2SUNJNG1EbUI5UmJLRUg0aEk2b2lPbFBQd1JvWEdzbVRVWmRqSldPcVRuRkl1elFPVnVYR0tHRW8xX09pOVF4dndnVzRDQ1ladHdKZw?oc=5"
     }
    ],
-   "missing": "Initial trading volume figures and assets under management for the new ETF."
-  },
-  {
-   "t": "Binance to Close France and Select EU Accounts by Year-End",
-   "type": "regulation",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-12-31",
-   "coins": [
-    "BNB",
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Binance has notified users in countries including France, Spain, and Poland that accounts will close by December 31, 2026, alongside monthly fees kicking in. The closures follow MiCA authorization challenges.",
-   "per": {
-    "BNB": "Binance platform restrictions and account closures in major European regions could create persistent selling pressure.",
-    "BTC": "Broader market sentiment is pressured as regional exchange closures add regulatory headwinds."
-   },
-   "direction": "negative",
-   "quality": 75,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end"
-    },
-    {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9pRGtFUjYxZk5rYXpLQ3pwVUMwZFhCYzFfVEJKSmpLRWFQYVBqcUV3aEE1TTljM3A2dmxNZ0pFcjZjMVVIZ3V3OVlnOFZVSy1yTWJfTA?oc=5"
-    },
-    {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85UkNoaHVsMmNCTWJZZjlFNHJwUGlKLU5lVVFZV3pHMWhhWTVrYnhYY1Y1S0M1RlQ4Z3pzLVdpakdZU1owTXVDdXc1YUtURjR2Y0U1Zg?oc=5"
-    },
-    {
-     "name": "TronWeekly",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVXdjSllrVGwxUzdKWkJDNEhWcGk3dkdMNk9MTUFPT2JWeHJqYkZZcGlHV3ZpSGJ6S0NQR0h5U3hQVEpVYjN4TU5CcDA2Uk43Y2tfMnJSYXlsSGhYaG8tM0FuczRZd01lM0Npa1lRSGs5ZWY0VF9JemtWb2FtOGZLZw?oc=5"
-    }
-   ],
-   "missing": "Exact list of all impacted user counts and total funds affected."
+   "missing": "Initial trading volume figures for the first day."
   }
  ]
 }
