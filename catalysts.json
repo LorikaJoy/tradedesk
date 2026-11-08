@@ -1,26 +1,26 @@
 {
- "updated": "2026-11-08T15:29:23.641830+00:00",
+ "updated": "2026-11-08T19:55:17.354342+00:00",
  "cards": [
   {
-   "t": "Gnosis Pay Breach Exposes User Data and Linked Wallets",
-   "type": "hack",
+   "t": "Binance European Accounts Closure",
+   "type": "regulation",
    "status": "confirmed_upcoming",
-   "event_date": null,
+   "event_date": "2024-12-31",
    "coins": [
-    "GBONDS"
+    "BNB"
    ],
    "rel": "direct",
-   "b": "A security breach on Gnosis Pay exposed card numbers, home addresses, and linked crypto wallets, raising user scam risks.",
+   "b": "Binance users in Spain, France, and Poland have been notified to close accounts or withdraw crypto before monthly fees start on Nov. 29, with accounts scheduled to close completely by Dec. 31.",
    "per": {
-    "GBONDS": "Data exposure links home addresses and card details directly to crypto wallets."
+    "BNB": "Regulatory and user friction in Europe could negatively impact platform usage."
    },
    "direction": "negative",
-   "quality": 92,
+   "quality": 86,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 19,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
@@ -30,29 +30,33 @@
    "sources": [
     {
      "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/11/07/gnosis-pay-breach-exposes-card-numbers-home-addresses-and-linked-crypto-wallets"
+     "url": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Total number of users compromised and exact remediation steps."
+   "missing": "The exact total number of affected users across all European jurisdictions is not specified."
   },
   {
-   "t": "Canary's Staked INJ ETF Lists on Nasdaq",
-   "type": "etf",
+   "t": "Gnosis Pay Data Breach",
+   "type": "hack",
    "status": "completed",
    "event_date": null,
    "coins": [
-    "INJ"
+    "GNO"
    ],
    "rel": "direct",
-   "b": "Nasdaq has officially listed Canary's Staked Injective (INJ) ETF, providing an additional regulated route for altcoin exposure.",
+   "b": "A Gnosis Pay breach exposed user card numbers, home addresses, and linked crypto wallets, raising the risk of targeted scams.",
    "per": {
-    "INJ": "Nasdaq fund debut adds a regulated institutional vehicle for exposure."
+    "GNO": "Security breach may diminish user trust and impact token sentiment."
    },
-   "direction": "positive",
-   "quality": 76,
-   "label": "COMPLETED CATALYST",
+   "direction": "negative",
+   "quality": 83,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 10,
+    "credibility": 17,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
@@ -63,19 +67,11 @@
    "c": "high",
    "sources": [
     {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWWtpNjBkWHhoRjJvM2Zkb3YyVENWSndBYVZTWjdUMVFUREhsbGg0NS1QekNSNWtxQTdlY1FfeGVnV0FFNFJXRXgtOUFFQldpLVFBRm9qNjlGM0hobldWU3VMY29fekFTbm5IRmlXcTI3eUdpcTNtb1hCa2JSZ3NPRTl2Vm1zdWdiekx5UmliNUoxcGk4aTVTcHJuTm9RRk5FS1VCWkxzNkpIb29lcDBGTmNTT0gyUURBMENlUWcxQkJnWS01b1cwb19HLXZtYVVC?oc=5"
-    },
-    {
-     "name": "StreetInsider",
-     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPUTJQajRxbGRXNEpZU3Vydzc3SFdnaWx3cWVjR1o2dmpadmd6X01ob252VF9BTEFCNVVNNkpmYXR6bzl2Qlp2NU5DRU5lZWFHUm5BX3liUnJWVzJySHloSDJqN1ZIeDh6UUwzV0RLY1NESU1Td3JtWU83SVJfNzhKYzhmR1I2UURyc2tiNUE0UnFvWlFPOThtRlhPREtsT3AwNWY1Q2EyVFZZT3A1NTgxT25jYzR3ekY5cEVTVGR5NHAxeEMzLUgtMU1LV19MY0s4a0czZE82NlVGQUU5X1R5MWJCOU5qOEdLUWNGWWNNNmUzbW1mSjFqcGxxWFZUZjM3?oc=5"
-    },
-    {
-     "name": "StreetInsider",
-     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOb2RYRDNhMkZPbFYyakQ4Yk41ZTN2NkFnS0lwUlBfYUdSQVg1RzdPMG5XQ3hRT2J6Q2J0LWQwNXI2ZEVydXFfdW5GTWtpYVBRRzNucV9uOE9iRFpEQzFjbzVSUWZjRmtpNmZMQkJlLTNsajEwQkR3NU5odGtadGlvQjY4LWlUeEUzU3JDTkw0a3FJa3dvVEhocnlIRXRLb0RoMXpuOWQ2SUNJNG1EbUI5UmJLRUg0aEk2b2lPbFBQd1JvWEdzbVRVWmRqSldPcVRuRkl1elFPVnVYR0tHRW8xX09pOVF4dndnVzRDQ1ladHdKZw?oc=5"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/07/gnosis-pay-breach-exposes-card-numbers-home-addresses-and-linked-crypto-wallets"
     }
    ],
-   "missing": "Initial trading volume figures for the first day."
+   "missing": "The exact number of affected accounts and total financial losses are not yet detailed."
   }
  ]
 }
