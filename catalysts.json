@@ -1,102 +1,54 @@
 {
- "updated": "2026-11-08T23:22:31.924495+00:00",
+ "updated": "2026-11-09T02:51:17.316576+00:00",
  "cards": [
   {
-   "t": "Nasdaq Lists Canary's Staked INJ ETF",
-   "type": "etf",
-   "status": "officially_announced",
+   "t": "Sei Network Token Unlock",
+   "type": "unlock",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "INJ"
+    "SEI"
    ],
    "rel": "direct",
-   "b": "Nasdaq has listed Canary's Staked INJ ETF, providing another route to altcoin exposure.",
+   "b": "Sei is facing an upcoming token unlock event, contributing to cautious market outlook for the asset.",
    "per": {
-    "INJ": "Listed on Nasdaq via Canary's Staked INJ ETF."
+    "SEI": "Expected sell pressure following the release of tokens into circulation."
    },
-   "direction": "positive",
-   "quality": 85,
-   "label": "STRONG CATALYST",
+   "direction": "negative",
+   "quality": 92,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 10,
+    "credibility": 25,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWWtpNjBkWHhoRjJvM2Zkb3YyVENWSndBYVZTWjdUMVFUREhsbGg0NS1QekNSNWtxQTdlY1FfeGVnV0FFNFJXRXgtOUFFQldpLVFBRm9qNjlGM0hobldWU3VMY29fekFTbm5IRmlXcTI3eUdpcTNtb1hCa2JSZ3NPRTl2Vm1zdWdiekx5UmliNUoxcGk4aTVTcHJuTm9RRk5FS1VCWkxzNkpIb29lcDBGTmNTT0gyUURBMENlUWcxQkJnWS01b1cwb19HLXZtYVVC?oc=5"
-    },
-    {
-     "name": "StreetInsider",
-     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOb2RYRDNhMkZPbFYyakQ4Yk41ZTN2NkFnS0lwUlBfYUdSQVg1RzdPMG5XQ3hRT2J6Q2J0LWQwNXI2ZEVydXFfdW5GTWtpYVBRRzNucV9uOE9iRFpEQzFjbzVSUWZjRmtpNmZMQkJlLTNsajEwQkR3NU5odGtadGlvQjY4LWlUeEUzU3JDTkw0a3FJa3dvVEhocnlIRXRLb0RoMXpuOWQ2SUNJNG1EbUI5UmJLRUg0aEk2b2lPbFBQd1JvWEdzbVRVWmRqSldPcVRuRkl1elFPVnVYR0tHRW8xX09pOVF4dndnVzRDQ1ladHdKZw?oc=5"
+     "name": "Binance",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GSFA4ZmpPNjEyZ1Q1M193eGxtZGZ5MExNZTB5SUZyeHRCMGRuSFdiZlNjc05fcmwwdWVuRjNTY3lnbkpUaDEzbHFBRXc4TEZMM1FPb3I2YWpCcmJ4YWprX296eXR2Xzh0?oc=5"
     }
    ],
-   "missing": "Exact trading start date."
+   "missing": "The exact date of the unlock and the total number of tokens to be released."
   },
   {
-   "t": "Binance Reopens HYPE Withdrawals",
-   "type": "other",
-   "status": "completed",
-   "event_date": null,
+   "t": "Russia Retail Crypto Access",
+   "type": "regulation",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-11-17",
    "coins": [
-    "HYPE"
+    "BTC",
+    "ETH"
    ],
    "rel": "direct",
-   "b": "Binance has officially reopened HYPE withdrawals following an audit after a hack.",
+   "b": "Russia\u2019s Central Bank is set to open Bitcoin and Ethereum trading to non-qualified retail investors starting November 17.",
    "per": {
-    "HYPE": "Withdrawals are restored on Binance after being paused."
-   },
-   "direction": "positive",
-   "quality": 78,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPcmdJYmFUVDU1LWNiekt5VjFiOWdLYlNMMkxORTE2eDF1QkFmQXQ5cVZMcXVqUGxQZFlBcjFvenhCc3NQYmllQ0lLaUFmZjdiMEM3WVdseFE4VHQ1SXQ3LWFZVnBFTUE2WTNHNTAxMTlzQnBNY0JQVE44NWVjQUt1bVUtOTJtNVFJQTlmSlJLbzkyRjg4dUFIMjl5MXFXcnFuT3NCQlE2QVNObmtjVkE4MXEyZlpLdFMzSUk5YmlPMXBZQkp1UjJWZlJpT09vZVdFY0dJQmotVC1xR2I0VWRPbVFQYjVkdw?oc=5"
-    },
-    {
-     "name": "U.Today",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRG9jLVU2aVlZX3dzWVZSc1l6STZpdXNRZVJQNlVSdkU0VkotRVpRcGRFWHl4RmFjVU4zQjdEbGstUmVRV1dqVWQwOW1yb0FmQ04wdy1OUURDNk5XUmpsem5lTlNDS2VJeTgzT0dtQ3hMam5QVTFzODBIWlRQWTNqUUdKUjZ3WUxIOVlZVXladTN6bTgtNkHSAZsBQVVfeXFMTTQyUGFQUDhNQ21Id1ktOTdKd3FHXzZPUGlmLVptX2IzOGVjbE1UZ2YzWFQ3OERHZTQ1MG42ZDZFaHZub0NoTzBQNlVsRXVoazVmYjcwRXpkLTRiWnd1dnJVVTdKZkRycXQtTmVrVHVqTy1HeHY1UUVKWUNVME5YQU1OMDIxUnZuSFFHenhwS2k3U0sxcHVrSUc5OEk?oc=5"
-    },
-    {
-     "name": "Crypto News",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9weG1HU25IUGJpcHEwR0I4RDZYNE13T3BhOEEzbXhrd3ViV0lCNWs5MXJGd0ltcEVmOGdfOG5JS1ZzYWQ5S1RLZVU2VVcxRTBlYTV6SHE5Ums5cVpzMEU1eGZnU09MWTVVRVNYNHpFOWZoeXJPUm4xTg?oc=5"
-    },
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcWsxR3JUeWJ0b2s3UEFGMmdXT2hld2w3dFpFOGZjaFlRcVpXLXdKNHhNQTNBSFlVU2JCeC1xc3dEWGlCQXpuY2Y5R2FkaDM1bFlTT1lZMzRrRXB5UFZvUDBCaUJ6RGhUUlRmcUNHcnVBWWNmOXNsVjlMNGpuU2JLdllCV3BLNGREOUJaU1QtNDd0OXh1N3lPVTB3?oc=5"
-    }
-   ],
-   "missing": "Exact date when withdrawals were initially halted."
-  },
-  {
-   "t": "Ripple Taps Stripe-Owned Privy for Embedded XRPL Wallets",
-   "type": "partnership",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "XRP"
-   ],
-   "rel": "direct",
-   "b": "Ripple has partnered with Stripe-owned Privy to integrate embedded XRPL wallets.",
-   "per": {
-    "XRP": "XRPL integrates embedded wallets via Privy partnership."
+    "BTC": "Potential for increased retail buy volume in Russia.",
+    "ETH": "Potential for increased retail buy volume in Russia."
    },
    "direction": "positive",
    "quality": 75,
@@ -113,80 +65,6 @@
    "c": "high",
    "sources": [
     {
-     "name": "BigGo Finance",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBOYzI4Uk9rRFNzaTJrNmVvcFRmeUNPd1NQdlhvWXM5dTZGVHNDdDVsYjI0YnExd2F4TzNacU9rakJEUkpadjFtTlFKMlpqd0pDZ1BfWVZFam5rMzJxa0E5bTBuYlhUcllYeWRkVWViZjk1WWxKTnc?oc=5"
-    }
-   ],
-   "missing": "Launch timeline for the embedded wallets."
-  },
-  {
-   "t": "Hyperliquid Launches Elysium Layer 2 Network",
-   "type": "mainnet",
-   "status": "completed",
-   "event_date": "2026-11-09",
-   "coins": [
-    "HYPE"
-   ],
-   "rel": "direct",
-   "b": "Hyperliquid launched its Elysium Layer 2 network on November 9, utilizing HYPE as the native gas token.",
-   "per": {
-    "HYPE": "Serves as the native gas token for the newly launched Elysium Layer 2 network."
-   },
-   "direction": "positive",
-   "quality": 74,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbnFnTWRzNTNVOFZRcVBNV1pSLVpyc1BkYjIwUGFFeXVoMVpEckRnTk03T1dKTmNGRUdLZ0RqZ29vSVF2eU04WERrdDZNWDdGek5OYURtNDQzbzhtQ25PY2l6dHVzdXFBR3FQejNSNXljc0ZjLVdCcVctd1NFeTRqSVZWWEdrT2hCeEk4QUhjYUJFZw?oc=5"
-    }
-   ],
-   "missing": "Initial adoption and transaction volume metrics."
-  },
-  {
-   "t": "Russia Opens Retail Crypto Trading Under New Rules",
-   "type": "regulation",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-11-17",
-   "coins": [
-    "BTC",
-    "ETH"
-   ],
-   "rel": "indirect",
-   "b": "Russia's central bank is opening retail crypto access for nonqualified investors starting November 17, subject to caps.",
-   "per": {
-    "BTC": "Retail investor access opens in Russia under new rules.",
-    "ETH": "Retail investor access opens in Russia under new rules."
-   },
-   "direction": "positive",
-   "quality": 64,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 10,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 6,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOR3UzczQ0eF94MjVhaEs1ZFRueGxGdUV0VHRLV1dDSnpuV21NTG9kbjE1bTVYV0JBMUJkUlpuTTVJLVFrb01oYVFVbFg5NUt0TWpJbVJ6V0s4UHBqUG9qRXRTNEFTbmpOMnAxYnFhTTMwY0tZTFUyeW1LU3RVcVZVQjY2aDhDNWFvRWlmXzBpN2NhS2tSQlpiUzdzMTZ1b2x1TVFJb3dIVjB0UjJqbW5RS1ZFU01jS3hSc1dPbWtjWEpYejZLRVdpcjNEbnhqOGRyaWRxd3ZhNlJtM1F3VzhkTEtkODdKQjZBaXBKN0pUVndtMVNSbm1KbHZGUnBiWDhQamF1Yk5kTnhmZw?oc=5"
-    },
-    {
      "name": "TOKENPOST",
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mUy11akJzMFBpU24tM2NRWnMyWWFSYktwTmdEdmdiSWh1bEU2SUdQZFAyOGZsTXM2ekdfOVlLQ3dQQkJPbkdqOHpXemVLUFcybk5xQ2dxSjhpMms?oc=5"
     },
@@ -195,7 +73,53 @@
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kS3V2cFZVSmtnb05vX3kxcXRwclVjS09iM2tGeG9iQUM3YUZwb1lDMjVTelkzZW1qbUFkekRRdFRGc0QxSVJoRVNBeUZYVGZTR3kzUDZJTmVpWms?oc=5"
     }
    ],
-   "missing": "Complete operational framework details."
+   "missing": "The exact liquidity impact of the 300,000-ruble cap is unknown."
+  },
+  {
+   "t": "Binance EU Account Closures",
+   "type": "other",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-12-31",
+   "coins": [
+    "BNB"
+   ],
+   "rel": "indirect",
+   "b": "Binance is closing user accounts in Spain, France, and Poland by December 31, with monthly maintenance fees starting November 29.",
+   "per": {
+    "BNB": "Negative sentiment impact due to restricted access for European users."
+   },
+   "direction": "negative",
+   "quality": 75,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "Crypto News",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tX2lRREFkeGY3eFFvcE9QSGJPNXJKV1U1ZWoxUHRmZkxISWZXQUNMbjc2clJRRks4dlZiMWdybnk4Y25Ga2tIRW1oYW1OOE1QclRKeDZDUXZUckVERnlRcklIMlAzenR3dW9CdkVPODZ1MlI1TEN2Tg?oc=5"
+    },
+    {
+     "name": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9pRGtFUjYxZk5rYXpLQ3pwVUMwZFhCYzFfVEJKSmpLRWFQYVBqcUV3aEE1TTljM3A2dmxNZ0pFcjZjMVVIZ3V3OVlnOFZVSy1yTWJfTA?oc=5"
+    }
+   ],
+   "missing": "The total volume of assets currently held in these specific regions."
   }
  ]
 }
