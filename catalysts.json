@@ -1,125 +1,149 @@
 {
- "updated": "2026-11-09T02:51:17.316576+00:00",
+ "updated": "2026-11-09T10:46:38.320611+00:00",
  "cards": [
   {
-   "t": "Sei Network Token Unlock",
-   "type": "unlock",
+   "t": "Canary Staked INJ ETF Begins Trading",
+   "type": "etf",
    "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "SEI"
+    "INJ"
    ],
    "rel": "direct",
-   "b": "Sei is facing an upcoming token unlock event, contributing to cautious market outlook for the asset.",
+   "b": "Canary's staked INJ ETF has begun trading alongside the Injective CEO ringing the Nasdaq bell.",
    "per": {
-    "SEI": "Expected sell pressure following the release of tokens into circulation."
+    "INJ": "Canary's staked INJ ETF begins trading on Nasdaq."
    },
-   "direction": "negative",
-   "quality": 92,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 83,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 25,
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Crypto News",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE92S1pYcnE1a1hQdnZPdWphUU9iV09mNUUtaktWcUFrX3NDM2lWeG0tQVZpVDQwWU1Zcl9nUFVRRE1GcHRTNFBadjVqanF0bktNY2JkS3ZIc1JsZHprRGxLM3ZaSExJLXY3NW1jU0RnNmdsZXdWdmtN?oc=5"
+    }
+   ],
+   "missing": "Initial trading volume figures."
+  },
+  {
+   "t": "Coinbase Adds Collector Crypt Spot Trading",
+   "type": "listing",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "CARD"
+   ],
+   "rel": "direct",
+   "b": "Coinbase is adding spot trading for Collector Crypt under the ticker CARD.",
+   "per": {
+    "CARD": "Coinbase adds spot trading under the CARD ticker."
+   },
+   "direction": "positive",
+   "quality": 77,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 10,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 9,
+   "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "Binance",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GSFA4ZmpPNjEyZ1Q1M193eGxtZGZ5MExNZTB5SUZyeHRCMGRuSFdiZlNjc05fcmwwdWVuRjNTY3lnbkpUaDEzbHFBRXc4TEZMM1FPb3I2YWpCcmJ4YWprX296eXR2Xzh0?oc=5"
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TbGJUR3p3Ymp4dURzMXZPaEJocHNhSGEwcUNyOWpRVFpJNmVCalA2aGdTMnRvNTJuVkFKYnNadEFnQk51X2tSSUsxSDNqbjZlTHREYzZ3SUZkQQ?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSUtybTBYd2FocEdyczhOYXB4bGFoanduOXQ0bkNram5yNWZIY1ZiSUx0T2ljWDlJczlzYzZsRXBWbmxwNGJmMlpzUWxQSTdLMWl1ZHdnOHYzaDRueFF1ZVplak0yZkhNcTBDLWRTVE1RN0g4RjJuUWRkTjNyN3JYUGJESUZ4R1luYXRTc2htZHphRndrWkRtUFZUSjBVT1A4SHR2Mw?oc=5"
     }
    ],
-   "missing": "The exact date of the unlock and the total number of tokens to be released."
+   "missing": "Exact trading start time."
   },
   {
-   "t": "Russia Retail Crypto Access",
-   "type": "regulation",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-11-17",
+   "t": "Binance Reopens HYPE Withdrawals",
+   "type": "other",
+   "status": "completed",
+   "event_date": null,
    "coins": [
-    "BTC",
-    "ETH"
+    "HYPE"
    ],
    "rel": "direct",
-   "b": "Russia\u2019s Central Bank is set to open Bitcoin and Ethereum trading to non-qualified retail investors starting November 17.",
+   "b": "Binance has reopened HYPE withdrawals following a hack.",
    "per": {
-    "BTC": "Potential for increased retail buy volume in Russia.",
-    "ETH": "Potential for increased retail buy volume in Russia."
+    "HYPE": "Withdrawals reopened on Binance following a hack."
    },
    "direction": "positive",
-   "quality": 75,
-   "label": "STRONG CATALYST",
+   "quality": 76,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 10,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPcmdJYmFUVDU1LWNiekt5VjFiOWdLYlNMMkxORTE2eDF1QkFmQXQ5cVZMcXVqUGxQZFlBcjFvenhCc3NQYmllQ0lLaUFmZjdiMEM3WVdseFE4VHQ1SXQ3LWFZVnBFTUE2WTNHNTAxMTlzQnBNY0JQVE44NWVjQUt1bVUtOTJtNVFJQTlmSlJLbzkyRjg4dUFIMjl5MXFXcnFuT3NCQlE2QVNObmtjVkE4MXEyZlpLdFMzSUk5YmlPMXBZQkp1UjJWZlJpT09vZVdFY0dJQmotVC1xR2I0VWRPbVFQYjVkdw?oc=5"
+    },
+    {
+     "name": "U.Today",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRG9jLVU2aVlZX3dzWVZSc1l6STZpdXNRZVJQNlVSdkU0VkotRVpRcGRFWHl4RmFjVU4zQjdEbGstUmVRV1dqVWQwOW1yb0FmQ04wdy1OUURDNk5XUmpsem5lTlNDS2VJeTgzT0dtQ3hMam5QVTFzODBIWlRQWTNqUUdKUjZ3WUxIOVlZVXladTN6bTgtNkHSAZsBQVVfeXFMTTQyUGFQUDhNQ21Id1ktOTdKd3FHXzZPUGlmLVptX2IzOGVjbE1UZ2YzWFQ3OERHZTQ1MG42ZDZFaHZub0NoTzBQNlVsRXVoazVmYjcwRXpkLTRiWnd1dnJVVTdKZkRycXQtTmVrVHVqTy1HeHY1UUVKWUNVME5YQU1OMDIxUnZuSFFHenhwS2k3U0sxcHVrSUc5OEk?oc=5"
+    }
+   ],
+   "missing": "Future withdrawal restrictions or security updates."
+  },
+  {
+   "t": "Starknet Unlocks 127 Million STRK",
+   "type": "unlock",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "STRK"
+   ],
+   "rel": "direct",
+   "b": "Starknet has unlocked 127 million STRK tokens into circulation.",
+   "per": {
+    "STRK": "127 million tokens unlocked."
+   },
+   "direction": "negative",
+   "quality": 66,
+   "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 8,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 15
+    "timing": 6
    },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
    "sources": [
     {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mUy11akJzMFBpU24tM2NRWnMyWWFSYktwTmdEdmdiSWh1bEU2SUdQZFAyOGZsTXM2ekdfOVlLQ3dQQkJPbkdqOHpXemVLUFcybk5xQ2dxSjhpMms?oc=5"
-    },
-    {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kS3V2cFZVSmtnb05vX3kxcXRwclVjS09iM2tGeG9iQUM3YUZwb1lDMjVTelkzZW1qbUFkekRRdFRGc0QxSVJoRVNBeUZYVGZTR3kzUDZJTmVpWms?oc=5"
+     "name": "Altcoin Buzz",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNjRaTXp3S2diSXVZaGZzTk5abmtZRDhqVnhFMEowUEpDN1BPbVNtNjlOakk5ak5vUy0xS0dIQ24tMVdodndib0xTRno2azMxOFROMnhxdjE3ZG5Dc2tTbmI4a2lzdmp3VV9GN0dlcXc5VUIyVWZveE9FdlVrdGU4VmstbmhBbHJneURB?oc=5"
     }
    ],
-   "missing": "The exact liquidity impact of the 300,000-ruble cap is unknown."
-  },
-  {
-   "t": "Binance EU Account Closures",
-   "type": "other",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-12-31",
-   "coins": [
-    "BNB"
-   ],
-   "rel": "indirect",
-   "b": "Binance is closing user accounts in Spain, France, and Poland by December 31, with monthly maintenance fees starting November 29.",
-   "per": {
-    "BNB": "Negative sentiment impact due to restricted access for European users."
-   },
-   "direction": "negative",
-   "quality": 75,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "Crypto News",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tX2lRREFkeGY3eFFvcE9QSGJPNXJKV1U1ZWoxUHRmZkxISWZXQUNMbjc2clJRRks4dlZiMWdybnk4Y25Ga2tIRW1oYW1OOE1QclRKeDZDUXZUckVERnlRcklIMlAzenR3dW9CdkVPODZ1MlI1TEN2Tg?oc=5"
-    },
-    {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9pRGtFUjYxZk5rYXpLQ3pwVUMwZFhCYzFfVEJKSmpLRWFQYVBqcUV3aEE1TTljM3A2dmxNZ0pFcjZjMVVIZ3V3OVlnOFZVSy1yTWJfTA?oc=5"
-    }
-   ],
-   "missing": "The total volume of assets currently held in these specific regions."
+   "missing": "Token distribution schedule details."
   }
  ]
 }
