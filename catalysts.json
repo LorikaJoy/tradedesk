@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-10T03:36:33.040651+00:00",
+ "updated": "2026-11-10T11:47:03.741842+00:00",
  "cards": [
   {
-   "t": "NYSE Selects Avalanche for Tokenized Stock Settlement",
+   "t": "NYSE Selects Avalanche to Settle Tokenized Stocks",
    "type": "partnership",
-   "status": "confirmed_upcoming",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
     "AVAX"
    ],
    "rel": "direct",
-   "b": "An NYSE-affiliated exchange and clearing firm has selected Avalanche to serve as the core ledger technology for its planned 24/7 tokenized stock and security trading platform.",
+   "b": "The New York Stock Exchange has picked Avalanche to serve as the core settlement ledger for its planned blockchain-based stock trading platform.",
    "per": {
-    "AVAX": "AVAX rose following the announcement that Avalanche will power the NYSE-affiliated platform's settlement ledger."
+    "AVAX": "Chosen as core settlement ledger for NYSE's tokenized stock market."
    },
    "direction": "positive",
    "quality": 96,
@@ -29,10 +29,6 @@
    "c": "high",
    "sources": [
     {
-     "name": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPZTdvV2QyVDFqLXJyQ1MwYmM5dHVnMW5YLW9xZ3RUTGN3bGZFWjAxcHQ3dGYxZ09LbklVSDRGQzRsNjVFM3BjeUxCWS1YNTAxTGltRkh3bEY2SXhCR1lORUJnR2Flb054dGZiRWVYQ29jeVB3Wms3UHpkMzBJTG5lQlNJSEJZZFRJQnFubnhxc3RzSGhyZ0FsVUtKQzl1NkEwVF9NcWw0NzdOMm81c0w4MlZZS2lhdUVZOTk3c2FMTHJ0N1Y0LVZfWl9HRjRlNzVOX1hHSlZMWndQTzhZWlMwTFFzelF2U3JFNjVTVmtUZEkwYWdiNURJ?oc=5"
-    },
-    {
      "name": "coindesk.com",
      "url": "https://www.coindesk.com/business/2026/11/09/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-street-s-blockchain-race"
     },
@@ -43,12 +39,16 @@
     {
      "name": "decrypt.co",
      "url": "https://decrypt.co/382833/nyse-avalanche-settle-tokenized-stock-platform"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-11-09-nyse-settle-tokenized-stocks-avalanche-planned-24-7-market-436208"
     }
    ],
-   "missing": "Exact launch date for the tokenized stock platform."
+   "missing": "Launch date for the platform"
   },
   {
-   "t": "Formation Securities Files to Launch Solana Tokenized Stock Venue",
+   "t": "Formation Securities Plans Solana Tokenized Stock Venue",
    "type": "mainnet",
    "status": "confirmed_upcoming",
    "event_date": "2027-01-01",
@@ -56,9 +56,9 @@
     "SOL"
    ],
    "rel": "direct",
-   "b": "Formation Securities has notified the SEC to operate a tokenized stock trading venue on Solana under an exemption, planning an early 2027 launch to offer tokenized shares of Galaxy Digital, Exodus, and Forward Industries.",
+   "b": "Formation Securities plans to launch a Solana-based tokenized stock trading venue under an SEC exemption in early 2027, initially listing Galaxy, Exodus, and Forward Industries shares.",
    "per": {
-    "SOL": "Solana will host the first SEC-framework tokenized stock venue."
+    "SOL": "Underlying network for a new SEC-exempt tokenized stock trading venue launching in early 2027."
    },
    "direction": "positive",
    "quality": 88,
@@ -85,16 +85,58 @@
     {
      "name": "decrypt.co",
      "url": "https://decrypt.co/382859/solana-tokenized-stock-venue-formation-sec"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-11-09-formation-tokenized-securities-solana-436060"
     }
    ],
-   "missing": "Exact month or day of the early 2027 launch."
+   "missing": "Exact launch date in early 2027"
   },
   {
-   "t": "Strategy Buys Additional 1,036 Bitcoin",
+   "t": "Upbit Lists Hyperliquid (HYPE) with Korean Won Trading",
+   "type": "listing",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-11-10",
+   "coins": [
+    "HYPE"
+   ],
+   "rel": "direct",
+   "b": "Upbit has listed Hyperliquid's HYPE token for trading with direct Korean Won, BTC, and USDT pairs on November 10, 2026, alongside Bithumb.",
+   "per": {
+    "HYPE": "Upbit lists HYPE for trading in KRW, BTC, and USDT pairs."
+   },
+   "direction": "positive",
+   "quality": 87,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMVVYaVZrZk5DLTZ5S1Z5Nk1xQjB5cnpSbTgzZ3pFWWVkNzZPRUstU2Zfb1RjZXVzQTRjZEZrUjhMX1p6cVRQblh4QlctTU9pU0w0eml0bGdYZkJ4TlByVEs1M0piS2RxQ19BY1BBMGxGRVpaRzVGU3VMWWJhTDlmLUxiTm1fbGlJV2NPQXRTTlRJT2RFWmE5N0s1b0xScDlmVHg2ZFhaWVBoeDd6Nm8weXRzZ2ZKdVF2LVpHQXpycW9JTHVrN1I4?oc=5"
+    },
+    {
+     "name": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaDN3LXVRb0RVTmxGOGdhblM5cGxkZzVBWFdGU01KZjA3T3VrWGFBUmd0UDNFNkZrUld6dEljcm8wc2wzRFpxZHpoNkw2WWY0S3A3TFFaSFlFYW1GOGQ4T3BDZnFTcHJUeW9MWHVjaXhiNlp5WlFkU2dhY2NHeDV1X0dNdktSSEVa?oc=5"
+    },
+    {
+     "name": "Altcoin Buzz",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBMU2lQYXJMR0lHWmlsVWpwdTdxR0ZpYy15T0puZlRMQmQ1NGhDRkwwRVlQM25OU3Atc2p3WmNXTUpmazBPYVl5THU4alJwOXVoTUtwOW9Sa3JUOFQ4VEJBb0doN2JGMC1RVVZFVEk0LVRMbDBZUkdZ?oc=5"
+    },
+    {
+     "name": "Crypto Briefing",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1EMm13R2dzNTI5a3pneXhJYnUwTWp5NElRZWZaQzhKQWJUNFBldGxXQ294YUl2dHlrSy0wZktEMlhoQ3RFZVJ4NEVZYjlIcDFDZ1BvNmVtN2ZDeEh3Nmd6RFZlS2ZiSlE4OEYyclJ3QQ?oc=5"
+    }
+   ],
+   "missing": "Initial trading volume and exact launch hour"
+  },
+  {
+   "t": "MARA Sells 13,597 BTC to Clear Loans and Fund AI",
    "type": "treasury",
    "status": "completed",
    "event_date": null,
@@ -102,9 +144,47 @@
     "BTC"
    ],
    "rel": "direct",
-   "b": "Michael Saylor's Strategy purchased another 1,036 Bitcoin for $82 million, bringing total holdings above 850,000 BTC.",
+   "b": "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion over six weeks to pay off all its bitcoin-backed loans and pivot funds toward AI datacenters.",
    "per": {
-    "BTC": "Treasury accumulation continues despite broader market drawdowns."
+    "BTC": "MARA liquidated 13,597 BTC to eliminate debt and fund AI operations."
+   },
+   "direction": "mixed",
+   "quality": 85,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/10/bitcoin-miner-mara-sold-13-597-btc-for-usd1-1-billion-in-six-weeks-plans-to-sell-more"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-11-09-mara-q3-earnings-net-profit-bitcoin-sale-ai-pivot-436950"
+    }
+   ],
+   "missing": "Future selling schedule for remaining reserves"
+  },
+  {
+   "t": "Strategy Buys Another 1,036 Bitcoin",
+   "type": "treasury",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Strategy purchased an additional 1,036 Bitcoin for $82 million, bringing its total holdings to over 850,000 BTC.",
+   "per": {
+    "BTC": "Treasury holdings increased past 850,000 BTC."
    },
    "direction": "positive",
    "quality": 79,
@@ -125,10 +205,6 @@
      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYjdsVXhEam5McEh4S0Y4ZDZoejFDOEduaUZkb0U0UXRDQ01rOU40NlQwNEU0dzhuZzl0aXhwQVdpQUJTY3hlTzFLY2w0Nlp1dFZYQnVjUXJoOFF2VUU0NmJXSlpsY254N2J1Unh5aVlKdnBMVkN2bWo0NkprUHNVQnZTUXdtLUdqeE9WY0dQZzZ5aTEteVdoV0FEYnpENG44ZXBwXzVxVVVGYXM?oc=5"
     },
     {
-     "name": "BeInCrypto",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xRE9hTFJ0a3RYcl9FQ1ZXTkJZQmtOSTBFMnFrajNzVXlUa3pvVXV1dDI2aGoteXpVVmd1N2hGWFFPTk5NV0dwc3V3WGdNbks0VXpUYVlRVkI4aWRTalZCUXpnM1M3TVN0TWRPaEFFamVwZ0RaTFE?oc=5"
-    },
-    {
      "name": "cointelegraph.com",
      "url": "https://cointelegraph.com/news/strategy-buy-1036-bitcoin-holdings-850364-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
@@ -137,7 +213,7 @@
      "url": "https://decrypt.co/382820/strategy-buys-82m-in-bitcoin-buys-back-188m-of-strc"
     }
    ],
-   "missing": "The exact settlement timestamps of the purchases."
+   "missing": "Average purchase price per coin"
   }
  ]
 }
