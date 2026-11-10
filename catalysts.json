@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T21:15:04.764756+00:00",
+ "updated": "2026-11-10T03:36:33.040651+00:00",
  "cards": [
   {
    "t": "NYSE Selects Avalanche for Tokenized Stock Settlement",
@@ -10,9 +10,9 @@
     "AVAX"
    ],
    "rel": "direct",
-   "b": "An NYSE-affiliated exchange has selected Avalanche as the core settlement ledger and technology for its planned 24/7 tokenized stock trading and clearing platform.",
+   "b": "An NYSE-affiliated exchange and clearing firm has selected Avalanche to serve as the core ledger technology for its planned 24/7 tokenized stock and security trading platform.",
    "per": {
-    "AVAX": "Acts as the core ledger and settlement layer for the planned NYSE-affiliated tokenized stock venue."
+    "AVAX": "AVAX rose following the announcement that Avalanche will power the NYSE-affiliated platform's settlement ledger."
    },
    "direction": "positive",
    "quality": 96,
@@ -45,20 +45,20 @@
      "url": "https://decrypt.co/382833/nyse-avalanche-settle-tokenized-stock-platform"
     }
    ],
-   "missing": "Exact launch date of the platform."
+   "missing": "Exact launch date for the tokenized stock platform."
   },
   {
-   "t": "Formation Notifies SEC for Solana Tokenized Stock Venue Launch",
-   "type": "regulation",
+   "t": "Formation Securities Files to Launch Solana Tokenized Stock Venue",
+   "type": "mainnet",
    "status": "confirmed_upcoming",
    "event_date": "2027-01-01",
    "coins": [
     "SOL"
    ],
    "rel": "direct",
-   "b": "Formation Securities has notified the SEC of its plans to launch a 24-hour tokenized stock trading venue on Solana under an SEC innovation exemption, aiming for an early 2027 rollout featuring shares like Galaxy Digital, Exodus, and Forward Industries.",
+   "b": "Formation Securities has notified the SEC to operate a tokenized stock trading venue on Solana under an exemption, planning an early 2027 launch to offer tokenized shares of Galaxy Digital, Exodus, and Forward Industries.",
    "per": {
-    "SOL": "Will host the new tokenized stock trading venue under an SEC exemption."
+    "SOL": "Solana will host the first SEC-framework tokenized stock venue."
    },
    "direction": "positive",
    "quality": 88,
@@ -75,10 +75,6 @@
    "c": "high",
    "sources": [
     {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uaGRUN25hOUg5VjljOXVDYUNBUTVRcWRaTnNkYlhfbU1qQVdxT3V5RFdLemJkMVFZZmlROUJzOHh3N2w2VDE4bnJkTzEwb3E2enVjTQ?oc=5"
-    },
-    {
      "name": "coindesk.com",
      "url": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy"
     },
@@ -89,58 +85,16 @@
     {
      "name": "decrypt.co",
      "url": "https://decrypt.co/382859/solana-tokenized-stock-venue-formation-sec"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/defi/2026-11-09-formation-tokenized-securities-solana-436060"
     }
    ],
-   "missing": "Exact month and day of the early 2027 launch."
+   "missing": "Exact month or day of the early 2027 launch."
   },
   {
-   "t": "Coinbase Receives Final OCC National Trust Bank Charter",
-   "type": "regulation",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "USDC"
-   ],
-   "rel": "direct",
-   "b": "The Office of the Comptroller of the Currency (OCC) has elevated Coinbase's trust status from conditional to a full national trust bank charter, paving the way for the exchange to expand its institutional custody business and broader stablecoin initiatives.",
-   "per": {
-    "USDC": "Will benefit from expanded institutional custody and stablecoin business under Coinbase's federal bank charter."
-   },
-   "direction": "positive",
-   "quality": 83,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "CoinCodex",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYVkyd2g2TUhmR2M0UzYtNERKRlZYTERKenRWNkc2U1l2VExWdnV2OHA1VXBEdWpnTDdXN2FXWk9LUWY5OTNxcWU1dEhDcjdIWnFhNzhTUzJnRUhkTElVZjd5ZUNJb1BHaWtQbnEzbFNNSU9xTnItT1F5dkNoUHJGcVBZYW1qcUg2anFXQVYyNmdsYm9rRHJtVHZEOXVOOEVXUDJvYkNlTk1rUlJSNVlXNkcyLXc?oc=5"
-    },
-    {
-     "name": "Cryptonews",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBqMVJ0QmJWOGFqdWZvOVJMcUt6YlB2N0xUMWlrNkpjVFRPRlhyaWJnakhva29ZMTlvU0kwT2RLYWlHVGVKVWRHbk11VEdmT3dINjRuY250d3hZMDNRZ0toUmhQbFYzZDNydURzQnQ5bw?oc=5"
-    },
-    {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1sZnFsdXhSMThIMXZYdmdMTWJHNUV0ekd2R3FOenJ0cTZDS2lFbVdVVnVod1pxOGllczcxeEZEamdyUlF5UERWQXhJa0NtaV91X2x3bw?oc=5"
-    },
-    {
-     "name": "FXDailyReport.Com",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbldlWnZTQ0R1ODhwZGVHZXZpYlU5R0Z1TTRHLUlyU21neUZTNUpIRERsOHhWbU1fcXMzanhXNGY3YUd6RFkzZHhLZGZSMnIzeHdTa2pXV2JTdEZtN2xCRGVfdmZKUVVJWDcxRl9EVjJnRjFYSjhfeE4tUW53N0tmS3hxLXhUOUNoNmN3OGpmYlI4ck9aVFE?oc=5"
-    }
-   ],
-   "missing": "Exact effective date of the charter rollout."
-  },
-  {
-   "t": "MicroStrategy Buys Additional Bitcoin",
+   "t": "Strategy Buys Additional 1,036 Bitcoin",
    "type": "treasury",
    "status": "completed",
    "event_date": null,
@@ -148,9 +102,9 @@
     "BTC"
    ],
    "rel": "direct",
-   "b": "MicroStrategy (Strategy) purchased another 1,036 Bitcoin for approximately $82 million, bringing its total treasury holdings above 850,000 BTC.",
+   "b": "Michael Saylor's Strategy purchased another 1,036 Bitcoin for $82 million, bringing total holdings above 850,000 BTC.",
    "per": {
-    "BTC": "Absorbed into MicroStrategy's growing corporate treasury holdings."
+    "BTC": "Treasury accumulation continues despite broader market drawdowns."
    },
    "direction": "positive",
    "quality": 79,
@@ -167,12 +121,12 @@
    "c": "high",
    "sources": [
     {
-     "name": "BeInCrypto",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xRE9hTFJ0a3RYcl9FQ1ZXTkJZQmtOSTBFMnFrajNzVXlUa3pvVXV1dDI2aGoteXpVVmd1N2hGWFFPTk5NV0dwc3V3WGdNbks0VXpUYVlRVkI4aWRTalZCUXpnM1M3TVN0TWRPaEFFamVwZ0RaTFE?oc=5"
-    },
-    {
      "name": "The Block",
      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYjdsVXhEam5McEh4S0Y4ZDZoejFDOEduaUZkb0U0UXRDQ01rOU40NlQwNEU0dzhuZzl0aXhwQVdpQUJTY3hlTzFLY2w0Nlp1dFZYQnVjUXJoOFF2VUU0NmJXSlpsY254N2J1Unh5aVlKdnBMVkN2bWo0NkprUHNVQnZTUXdtLUdqeE9WY0dQZzZ5aTEteVdoV0FEYnpENG44ZXBwXzVxVVVGYXM?oc=5"
+    },
+    {
+     "name": "BeInCrypto",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xRE9hTFJ0a3RYcl9FQ1ZXTkJZQmtOSTBFMnFrajNzVXlUa3pvVXV1dDI2aGoteXpVVmd1N2hGWFFPTk5NV0dwc3V3WGdNbks0VXpUYVlRVkI4aWRTalZCUXpnM1M3TVN0TWRPaEFFamVwZ0RaTFE?oc=5"
     },
     {
      "name": "cointelegraph.com",
@@ -183,85 +137,7 @@
      "url": "https://decrypt.co/382820/strategy-buys-82m-in-bitcoin-buys-back-188m-of-strc"
     }
    ],
-   "missing": "Exact purchase dates within the week."
-  },
-  {
-   "t": "Zcash Developers Propose Additional Block Time Reduction",
-   "type": "mainnet",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "ZEC"
-   ],
-   "rel": "direct",
-   "b": "Following a recent major speed upgrade, Zcash developers have proposed another block time reduction to 20 seconds to improve point-of-sale payments, exchange deposits, and cross-chain swaps.",
-   "per": {
-    "ZEC": "Network speed and transaction confirmation times will improve if the proposal is implemented."
-   },
-   "direction": "positive",
-   "quality": 79,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/11/09/zcash-developers-want-20-second-blocks-just-days-after-major-speed-upgrade"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/zcash-developers-propose-20-second-blocks-nu7-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Exact implementation timeline for the block time cut."
-  },
-  {
-   "t": "PNC Bank and Coinbase Expand USDC Payment Pilot",
-   "type": "partnership",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "USDC",
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "PNC Bank and Coinbase are expanding their partnership through a new corporate payment pilot that allows eligible institutional clients to accept USDC on Ethereum, which is automatically converted to US dollars upon deposit.",
-   "per": {
-    "USDC": "Gains corporate adoption through PNC Bank's institutional payment pilot.",
-    "ETH": "Acts as the underlying network for the USDC deposit conversion pilot."
-   },
-   "direction": "positive",
-   "quality": 70,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/pnc-bank-launches-usdc-payment-pilot-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-11-09-coinbase-pnc-bank-expand-partnership-with-usdc-payments-corporate-clients-436466"
-    }
-   ],
-   "missing": "Timeline for rolling out the pilot to all corporate clients."
+   "missing": "The exact settlement timestamps of the purchases."
   }
  ]
 }
