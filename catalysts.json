@@ -1,24 +1,26 @@
 {
- "updated": "2026-11-11T00:02:18.173680+00:00",
+ "updated": "2026-11-11T06:09:29.744030+00:00",
  "cards": [
   {
-   "t": "NYSE Selects Avalanche for Tokenized Stock Settlement",
-   "type": "mainnet",
-   "status": "officially_announced",
-   "event_date": null,
+   "t": "Binance Futures Launches HYPE and TRX Perpetual Contracts",
+   "type": "listing",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-11-11",
    "coins": [
-    "AVAX"
+    "HYPE",
+    "TRX"
    ],
    "rel": "direct",
-   "b": "The New York Stock Exchange (NYSE) has selected Avalanche as the core ledger technology to support settlement for its planned tokenized stock trading platform. The move is part of a broader institutional push toward onchain market infrastructure.",
+   "b": "Binance Futures is launching USD\u24c8-margined HYPEUSDC and TRXUSDC perpetual contracts on November 11, 2026.",
    "per": {
-    "AVAX": "AVAX price rose up to 10% following the official announcement of the partnership."
+    "HYPE": "USD\u24c8-margined perpetual contract launching on Binance Futures.",
+    "TRX": "USD\u24c8-margined perpetual contract launching on Binance Futures."
    },
    "direction": "positive",
-   "quality": 96,
+   "quality": 100,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 21,
+    "credibility": 25,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
@@ -29,48 +31,82 @@
    "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/11/09/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-street-s-blockchain-race"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/interview/ava-labs-nyse-general-purpose-chains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/avalanche-avax-crypto-nyse-tokenization-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382833/nyse-avalanche-settle-tokenized-stock-platform"
+     "name": "Binance",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYkRSWmVFMmY2aHFxVTFmdC13TkUwdkk5dW8zN1B0SkNsZ0FEZWZ2ZnJwcEhkVTFIc2sxY0NrTEVNbWd4X1R6Y0dNbVpaVFpkUEo3Y0xIbTNCWmk5VEpaRU5oRnFIbE1JUGt5UVUycFVsQnUzNzlvUnRtZmkyWm5wOEpqRXNBQnM?oc=5"
     }
    ],
-   "missing": "Launch date of the actual tokenized stock platform."
+   "missing": "Exact launch times on November 11."
   },
   {
-   "t": "Securitize Acquires River One for Asset-Backed Lending",
-   "type": "other",
+   "t": "Upbit and Bithumb List HYPE",
+   "type": "listing",
    "status": "confirmed_upcoming",
+   "event_date": "2026-11-10",
+   "coins": [
+    "HYPE"
+   ],
+   "rel": "direct",
+   "b": "Upbit and Bithumb are listing Hyperliquid's HYPE token with South Korean Won (KRW), Bitcoin, and USDT trading pairs on November 10, 2026.",
+   "per": {
+    "HYPE": "Upbit and Bithumb listings bring direct Korean Won trading pairs on November 10."
+   },
+   "direction": "positive",
+   "quality": 87,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQlluVVlHQzZRMDhVeWpGNHJ6OXlJTVhBRFlmTG44S2tYVkpBUzBYcGhtcTR1SUhpSUpDREJiRTViYjNqX2l5VXRxRHVfdXVDTmFRT2RrSXB2UXFXZzdSazJ6bWIweEFRRnZOb1ZSR0lJUWdBY1dhQjFIQ2doVk43RFh1TG40MGNGU1A1ZF9NQmVFWEhkWnBISmh6a1kyRHU3YU1oUTZWMlptQk00bG5RTnlFd3U1NVpqYnlnZ2NwTGtaVDBTcGxpSUtjd1YwTlk?oc=5"
+    },
+    {
+     "name": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaDN3LXVRb0RVTmxGOGdhblM5cGxkZzVBWFdGU01KZjA3T3VrWGFBUmd0UDNFNkZrUld6dEljcm8wc2wzRFpxZHpoNkw2WWY0S3A3TFFaSFlFYW1GOGQ4T3BDZnFTcHJUeW9MWHVjaXhiNlp5WlFkU2dhY2NHeDV1X0dNdktSSEVa?oc=5"
+    },
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMVVYaVZrZk5DLTZ5S1Z5Nk1xQjB5cnpSbTgzZ3pFWWVkNzZPRUstU2Zfb1RjZXVzQTRjZEZrUjhMX1p6cVRQblh4QlctTU9pU0w0eml0bGdYZkJ4TlByVEs1M0piS2RxQ19BY1BBMGxGRVpaRzVGU3VMWWJhTDlmLUxiTm1fbGlJV2NPQXRTTlRJT2RFWmE5N0s1b0xScDlmVHg2ZFhaWVBoeDd6Nm8weXRzZ2ZKdVF2LVpHQXpycW9JTHVrN1I4?oc=5"
+    },
+    {
+     "name": "Altcoin Buzz",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBMU2lQYXJMR0lHWmlsVWpwdTdxR0ZpYy15T0puZlRMQmQ1NGhDRkwwRVlQM25OU3Atc2p3WmNXTUpmazBPYVl5THU4alJwOXVoTUtwOW9Sa3JUOFQ4VEJBb0doN2JGMC1RVVZFVEk0LVRMbDBZUkdZ?oc=5"
+    }
+   ],
+   "missing": "Exact trading start times beyond the date."
+  },
+  {
+   "t": "Securitize Agrees to Acquire River One",
+   "type": "partnership",
+   "status": "officially_announced",
    "event_date": "2026-12-31",
    "coins": [
     "SECZ"
    ],
    "rel": "direct",
-   "b": "Securitize agreed to acquire River One to bring stablecoin funding to its asset-backed lending platform, with the deal expected to close in Q4 2026.",
+   "b": "Securitize has agreed to acquire River One to expand into asset-backed lending and bring stablecoin funding, with the transaction expected to close in the fourth quarter of 2026.",
    "per": {
-    "SECZ": "Shares rose 10% post-hours following the acquisition and stock buyback announcement."
+    "SECZ": "Securitize shares jumped 10% after hours following the announcement and a $50 million stock buyback."
    },
    "direction": "positive",
-   "quality": 79,
+   "quality": 86,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 19,
     "relevance": 25,
-    "impact": 5,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
@@ -83,73 +119,61 @@
      "url": "https://cointelegraph.com/news/securitize-river-one-asset-backed-lending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Final closing date within Q4."
+   "missing": "Exact financial terms of the acquisition outside of the Q4 close timeline."
   },
   {
-   "t": "Hyperliquid (HYPE) Listed on Upbit and Bithumb",
-   "type": "listing",
-   "status": "completed",
-   "event_date": "2026-11-10",
+   "t": "Visa Adds Monad for Stablecoin Settlements",
+   "type": "partnership",
+   "status": "officially_announced",
+   "event_date": null,
    "coins": [
-    "HYPE"
+    "MON"
    ],
    "rel": "direct",
-   "b": "Upbit and Bithumb have listed HYPE with Korean Won (KRW), BTC, and USDT trading pairs. The listing aims to expand Hyperliquid's presence in the South Korean market.",
+   "b": "Visa has added Monad as a stablecoin settlement option for participating issuers and acquirers, according to the Monad Foundation.",
    "per": {
-    "HYPE": "Trading is now live on major South Korean exchanges following the November 10 launch."
+    "MON": "Integrated into Visa's stablecoin settlement network options."
    },
    "direction": "positive",
-   "quality": 78,
-   "label": "COMPLETED CATALYST",
+   "quality": 84,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 12,
+    "credibility": 17,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
    "impact": 8,
-   "s": "fading",
+   "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQlluVVlHQzZRMDhVeWpGNHJ6OXlJTVhBRFlmTG44S2tYVkpBUzBYcGhtcTR1SUhpSUpDREJiRTViYjNqX2l5VXRxRHVfdXVDTmFRT2RrSXB2UXFXZzdSazJ6bWIweEFRRnZOb1ZSR0lJUWdBY1dhQjFIQ2doVk43RFh1TG40MGNGU1A1ZF9NQmVFWEhkWnBISmh6a1kyRHU3YU1oUTZWMlptQk00bG5RTnlFd3U1NVpqYnlnZ2NwTGtaVDBTcGxpSUtjd1YwTlk?oc=5"
-    },
-    {
-     "name": "The Defiant",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaDN3LXVRb0RVTmxGOGdhblM5cGxkZzVBWFdGU01KZjA3T3VrWGFBUmd0UDNFNkZrUld6dEljcm8wc2wzRFpxZHpoNkw2WWY0S3A3TFFaSFlFYW1GOGQ4T3BDZnFTcHJUeW9MWHVjaXhiNlp5WlFkU2dhY2NHeDV1X0dNdktSSEVa?oc=5"
-    },
-    {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9heWtWdXg0Tmxqdk9PLXZwaTNQUVBkZkR5aFVmTS12QUdNMzRrdmhpeDB4dE40MUh2cGJRM1ZKdzk4RXFYeHdveGVJMkJOQl9vWjE3M0dQVXJKbEdWOXV0N2FWTFdHekxiS05XUXRCUFNlbkFtVV9PMmh5cGppQmM?oc=5"
-    },
-    {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMVVYaVZrZk5DLTZ5S1Z5Nk1xQjB5cnpSbTgzZ3pFWWVkNzZPRUstU2Zfb1RjZXVzQTRjZEZrUjhMX1p6cVRQblh4QlctTU9pU0w0eml0bGdYZkJ4TlByVEs1M0piS2RxQ19BY1BBMGxGRVpaRzVGU3VMWWJhTDlmLUxiTm1fbGlJV2NPQXRTTlRJT2RFWmE5N0s1b0xScDlmVHg2ZFhaWVBoeDd6Nm8weXRzZ2ZKdVF2LVpHQXpycW9JTHVrN1I4?oc=5"
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/ecosystems/2026-11-10-visa-monad-stablecoin-settlement-network-437201"
     }
    ],
-   "missing": "Specific details on long-term liquidity depth."
+   "missing": "Rollout schedule for participating financial institutions."
   },
   {
-   "t": "Formation Securities Plans Solana Tokenized Stock Venue",
-   "type": "other",
-   "status": "confirmed_upcoming",
-   "event_date": "2027-01-01",
+   "t": "Forward Industries Grows SOL Treasury to 8.7 Million",
+   "type": "treasury",
+   "status": "officially_announced",
+   "event_date": null,
    "coins": [
     "SOL"
    ],
-   "rel": "indirect",
-   "b": "Formation Securities is preparing to launch a venue for trading tokenized shares of Galaxy Digital, Exodus, and Forward Industries on the Solana blockchain in early 2027, operating under an SEC innovation exemption.",
+   "rel": "direct",
+   "b": "Forward Industries has grown its SOL treasury holdings to 8.7 million tokens, adding a $50 million credit line and housing-linked investment to support further accumulation.",
    "per": {
-    "SOL": "The platform is expected to drive further institutional adoption of the Solana ecosystem."
+    "SOL": "Treasury holdings expanded by Forward Industries to 8.7 million tokens."
    },
    "direction": "positive",
-   "quality": 75,
+   "quality": 84,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 21,
-    "relevance": 12,
+    "credibility": 17,
+    "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
@@ -159,61 +183,11 @@
    "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/formation-securities-solana-stock-trading-venue-sec-exemption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382859/solana-tokenized-stock-venue-formation-sec"
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/markets/2026-11-10-forward-industries-grows-sol-treasury-8-7-million-token-hits-three-month-low-437330"
     }
    ],
-   "missing": "Exact launch date in 2027."
-  },
-  {
-   "t": "Global Banks Launch Project Faro Stablecoin Venture",
-   "type": "funding",
-   "status": "confirmed_upcoming",
-   "event_date": "2027-01-01",
-   "coins": [
-    "USDC"
-   ],
-   "rel": "indirect",
-   "b": "A consortium of banks including Goldman Sachs, Citigroup, and BBVA has committed $270 million to Project Faro, a venture developing a US dollar-denominated stablecoin targeting a launch in H1 2027.",
-   "per": {
-    "USDC": "The project intends to compete directly with existing stablecoin giants like Tether and Circle."
-   },
-   "direction": "mixed",
-   "quality": 66,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 3,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/11/10/goldman-sachs-citi-among-banks-said-to-commit-usd270-million-to-stablecoin-venture"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/banks-270m-project-faro-stablecoin-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/382953/goldman-citi-global-banks-270-million-challenge-crypto-stablecoin-giants"
-    }
-   ],
-   "missing": "Specific technological infrastructure details."
+   "missing": "Purchase prices and exact timeline of the latest token acquisitions."
   }
  ]
 }
