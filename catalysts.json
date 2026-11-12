@@ -1,28 +1,28 @@
 {
- "updated": "2026-11-12T10:01:42.695332+00:00",
+ "updated": "2026-11-12T18:16:31.252002+00:00",
  "cards": [
   {
-   "t": "Zcash Community Grants Treasury Vote",
-   "type": "unlock",
-   "status": "confirmed_upcoming",
+   "t": "Zcash Grants Treasury Vote",
+   "type": "treasury",
+   "status": "ongoing",
    "event_date": null,
    "coins": [
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Zcash holders are scheduled to vote on a proposal to pull 50,000 ZEC, valued at $50 million, from the grants treasury. The move would remove over half of the treasury's holdings from circulation.",
+   "b": "Zcash holders are set to vote on a proposal to withdraw 50,000 ZEC ($50 million) from the community grants treasury to reallocate funds for legal-defense and development.",
    "per": {
-    "ZEC": "The vote to remove 50,000 ZEC from the grants treasury could impact circulating supply and future block reward distributions."
+    "ZEC": "Governance vote pending to withdraw 50,000 ZEC from treasury."
    },
-   "direction": "negative",
-   "quality": 92,
-   "label": "NEGATIVE CATALYST",
+   "direction": "mixed",
+   "quality": 89,
+   "label": "STRONG CATALYST",
    "parts": {
     "credibility": 17,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 15
+    "timing": 12
    },
    "impact": 9,
    "s": "building",
@@ -33,30 +33,28 @@
      "url": "https://www.coindesk.com/tech/2026/11/12/zcash-holders-to-vote-on-pulling-50-000-zec-from-grants-treasury"
     }
    ],
-   "missing": "Voting start and end dates, and the outcome of the ballot."
+   "missing": "The exact date the voting period begins."
   },
   {
-   "t": "OKXICE Tokenized Stock Venue Launch",
-   "type": "mainnet",
+   "t": "Coinbase Listing of PEARL",
+   "type": "listing",
    "status": "confirmed_upcoming",
-   "event_date": "2026-11-23",
+   "event_date": null,
    "coins": [
-    "COIN",
-    "CRCL"
+    "PEARL"
    ],
    "rel": "direct",
-   "b": "OKXICE is set to launch its tokenized securities venue on November 23 under an SEC innovation exemption. The platform features assets led by crypto companies like Coinbase and Circle.",
+   "b": "Coinbase has scheduled the spot and perpetual futures debut for Pearl (PEARL), with listing details currently being finalized.",
    "per": {
-    "COIN": "Coinbase is featured among the lead assets for the upcoming OKXICE tokenized stock platform launch.",
-    "CRCL": "Circle is included as a primary asset participant for the OKXICE tokenized venue opening."
+    "PEARL": "Upcoming Coinbase listing confirmed."
    },
    "direction": "positive",
-   "quality": 75,
+   "quality": 85,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 12,
+    "credibility": 10,
+    "relevance": 25,
+    "impact": 20,
     "novelty": 15,
     "timing": 15
    },
@@ -65,26 +63,52 @@
    "c": "high",
    "sources": [
     {
-     "name": "CoinDesk",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMFE4U1JBLXdPUzJXTUdiMktHMlZDZzBOQ3VVTFYzLXNGY0luNUdUbmZTZnhHM1lOQy1iTzlURjYxYlAzVDF0QnkxN0ZnanF0cF96cVZla05rMW0wNFluX0xvNVAyd3pfM1I5U1BrUkxrU0VsdWdraW1MTXQ0WVVqMTZfcHhSby1JUmRPbFFTZEJ0SXFNLVFJXzdJY3ZYTFVDVkNJZGpxSW5NamNzQ0IzSUFUV0Jod3NIZWJTWlB0NUdqVHc?oc=5"
+     "name": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4d1NMX2FINVNrcmVFY18ta2N0Z0xaRTRWOHh1WDMtcUtxZER1R2tHaWhOZDNJZ3hwY0FQS1d3VjhHemFra3JhYmpUSW4yWGpPN2tuVG1TVDh4dw?oc=5"
     },
     {
-     "name": "BigGo Finance",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44WTkxV0VsS2U2OFdDeFh2dnFmaGY5Ni0yWGdGTGNMa0JBMFNXbjFBNDRFZVlTUk9LSmZRcjI3d1lvTVpabXprUHBpX0lIRzM5SndEdFR6Zjc0OG1KdDlYWFBMQmxEcHRsSnBTVm0xZ3drZERrYUE?oc=5"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/383040/okx-ice-tokenized-stock-venue-sets-launch-crypto-companies-big-tech-opts-out"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/regulation/2026-11-11-okxice-sets-nov-23-launch-for-tokenized-securities-venue-under-sec-innovation-exemption-437342"
+     "name": "Coin Gabbar",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeW1pUFdKb1A2cVN3YlVVU3B4S1pZblBtNm9DVmdaX2dlLTdRNFBOWFRaVXRpT0E0UUk2Y1gxQ2V2N3NTNkp4WUx3STRXT0FYWmtpekRxQXAzMW5RUXFxNHZJLVFOaUpWaGZuTUhiV2llckFoRldFNWFPTlRwdEVyY0hQWHE2UzFKSmVaQjVFeXUwd3JT?oc=5"
     }
    ],
-   "missing": "Exact hour of the platform launch and initial trading volumes."
+   "missing": "Specific date and time for the listing."
   },
   {
-   "t": "XRPL Lending Protocol Support Growth",
+   "t": "Canaan $20M Repurchase Program",
+   "type": "buyback",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "CAN"
+   ],
+   "rel": "direct",
+   "b": "Canaan has launched a $20 million repurchase program for stock buybacks, funded as mining-rig revenue declines.",
+   "per": {
+    "CAN": "Active $20M stock buyback program."
+   },
+   "direction": "positive",
+   "quality": 81,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/12/canaan-may-sell-more-bitcoin-for-stock-buybacks-as-mining-rig-revenue-falls-96"
+    }
+   ],
+   "missing": "None"
+  },
+  {
+   "t": "XRP Ledger Lending Feature Launch Countdown",
    "type": "mainnet",
    "status": "ongoing",
    "event_date": null,
@@ -92,19 +116,57 @@
     "XRP"
    ],
    "rel": "direct",
-   "b": "Ripple's bank-lending system is moving closer to launch on the XRP Ledger as validator support climbs. Lending support among the ledger's validators increased from 19 to 22.",
+   "b": "Validator support for XRP Ledger lending has reached 22 out of 35; seven more votes are required to finalize the launch.",
    "per": {
-    "XRP": "Growing validator support for the bank-lending system brings the feature closer to deployment on the XRP Ledger."
+    "XRP": "Lending feature awaits 7 more validator votes."
    },
    "direction": "positive",
-   "quality": 74,
+   "quality": 75,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 7,
+    "timing": 12
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Brave New Coin",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTjVVeGNDbDl4anJaZlktSEVXTE1pUVZubWRKYThRZl9NTFVQYjE2enhmeHl2ZGJ1MmtYOUc4VnJZeDZpTDRUbUxqblJaNHdPQk5IZFktYkliUjRHZG41bm1OZVhZcncyV25ZTGRVS2RvQUsycFB1djk1Wl9FNGMtTA?oc=5"
+    },
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/11/12/ripple-s-bank-lending-system-moves-closer-to-launch-on-the-xrp-ledger"
+    }
+   ],
+   "missing": "The timeline for reaching the remaining validator votes."
+  },
+  {
+   "t": "OKXICE Tokenized Stock Venue Launch",
+   "type": "mainnet",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-11-23",
+   "coins": [
+    "STRAT"
+   ],
+   "rel": "indirect",
+   "b": "The OKXICE venue is scheduled to launch on November 23, offering tokenized trading for over 70 assets, including Strategy (STRAT) shares.",
+   "per": {
+    "STRAT": "Tokenized shares to begin trading on OKXICE platform."
+   },
+   "direction": "positive",
+   "quality": 73,
    "label": "MODERATE CATALYST",
    "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 5,
+    "credibility": 19,
+    "relevance": 12,
+    "impact": 12,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
    "impact": 7,
    "s": "building",
@@ -112,61 +174,31 @@
    "sources": [
     {
      "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/11/12/ripple-s-bank-lending-system-moves-closer-to-launch-on-the-xrp-ledger"
-    }
-   ],
-   "missing": "The exact mainnet launch date for the lending protocol."
-  },
-  {
-   "t": "Hedera Council Expansion with Apex Group",
-   "type": "partnership",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "HBAR"
-   ],
-   "rel": "direct",
-   "b": "Apex Group, which oversees $3.5 trillion in assets, has joined the Hedera Council. The firm will explore Hedera for tokenization, compliance, and settlement solutions.",
-   "per": {
-    "HBAR": "Apex Group joining the governing council expands enterprise exploration of the Hedera network for tokenization."
-   },
-   "direction": "positive",
-   "quality": 68,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
+     "url": "https://www.coindesk.com/business/2026/11/10/okxice-to-debut-tokenized-stock-trading-with-strategy-coinbase-circle-this-month"
+    },
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/deals/2026-11-11-apex-group-joins-hedera-council-tokenization-437917"
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/383040/okx-ice-tokenized-stock-venue-sets-launch-crypto-companies-big-tech-opts-out"
     }
    ],
-   "missing": "Timeline for specific tokenization and settlement product rollouts."
+   "missing": "Specific trading hours."
   },
   {
-   "t": "ZIG Finance Tokenized SME Credit Vault on BNB Chain",
-   "type": "funding",
+   "t": "Suiet Wallet Shutdown",
+   "type": "other",
    "status": "confirmed_upcoming",
-   "event_date": null,
+   "event_date": "2026-11-14",
    "coins": [
-    "BNB"
+    "SUI"
    ],
    "rel": "direct",
-   "b": "Nomura's Laser Digital is advising ZIG Finance on launching a tokenized Saudi SME private credit vault targeting a $100 million raise on BNB Chain.",
+   "b": "The self-custodial Suiet wallet for the Sui ecosystem is shutting down, with API services ending on November 14.",
    "per": {
-    "BNB": "The $100 million tokenized credit vault targets deployment on the BNB Chain ecosystem."
+    "SUI": "Wallet provider Suiet is ceasing operations."
    },
-   "direction": "positive",
+   "direction": "negative",
    "quality": 64,
-   "label": "MODERATE CATALYST",
+   "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 17,
     "relevance": 12,
@@ -179,11 +211,11 @@
    "c": "medium",
    "sources": [
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/markets/2026-11-11-nomuras-laser-digital-helps-launch-saudi-sme-credit-vault-targeting-100-million-on-bnb-chain-437824"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/suiet-wallet-shut-down-latest-exit-sui-ecosystem?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Launch date for the credit vault."
+   "missing": "None"
   }
  ]
 }
