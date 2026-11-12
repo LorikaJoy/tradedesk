@@ -1,28 +1,26 @@
 {
- "updated": "2026-11-12T02:24:34.976226+00:00",
+ "updated": "2026-11-12T10:01:42.695332+00:00",
  "cards": [
   {
-   "t": "Binance Futures Launches HYPE and TRX Perpetual Contracts",
-   "type": "listing",
+   "t": "Zcash Community Grants Treasury Vote",
+   "type": "unlock",
    "status": "confirmed_upcoming",
-   "event_date": "2026-11-16",
+   "event_date": null,
    "coins": [
-    "HYPE",
-    "TRX"
+    "ZEC"
    ],
    "rel": "direct",
-   "b": "Binance Futures announced the launch of USD\u24c8-Margined HYPEUSDC and TRXUSDC perpetual contracts on November 16, 2026.",
+   "b": "Zcash holders are scheduled to vote on a proposal to pull 50,000 ZEC, valued at $50 million, from the grants treasury. The move would remove over half of the treasury's holdings from circulation.",
    "per": {
-    "HYPE": "Getting a new USD-margined perpetual contract.",
-    "TRX": "Getting a new USD-margined perpetual contract."
+    "ZEC": "The vote to remove 50,000 ZEC from the grants treasury could impact circulating supply and future block reward distributions."
    },
-   "direction": "positive",
+   "direction": "negative",
    "quality": 92,
-   "label": "STRONG CATALYST",
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 25,
+    "credibility": 17,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 15
    },
@@ -31,31 +29,33 @@
    "c": "high",
    "sources": [
     {
-     "name": "Binance",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdmNyYUthTXFxZ0NIaXgxWTFkZ0tXbUdRaFBWaUlhRTR4R2FIQzJMZEJGZjhPVFl2R2JJd01oZlZXRVFacjRBR3ktLVI1UER1Yllpc3FZUXo1VUZhR3hkWHUtMWJ1aEQ0RVVaR3RDejRzWEFZTzRwU2tuQ09rVW5IaHFzeE5SclJKNmtYVFJpd3g?oc=5"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/11/12/zcash-holders-to-vote-on-pulling-50-000-zec-from-grants-treasury"
     }
    ],
-   "missing": "Contract leverage limits and exact deployment time."
+   "missing": "Voting start and end dates, and the outcome of the ballot."
   },
   {
-   "t": "Upbit Adds HYPE Trading Markets",
-   "type": "listing",
+   "t": "OKXICE Tokenized Stock Venue Launch",
+   "type": "mainnet",
    "status": "confirmed_upcoming",
-   "event_date": null,
+   "event_date": "2026-11-23",
    "coins": [
-    "HYPE"
+    "COIN",
+    "CRCL"
    ],
    "rel": "direct",
-   "b": "Upbit plans to support HYPE trading across Won, Bitcoin, and USDT markets.",
+   "b": "OKXICE is set to launch its tokenized securities venue on November 23 under an SEC innovation exemption. The platform features assets led by crypto companies like Coinbase and Circle.",
    "per": {
-    "HYPE": "Upbit is launching trading pairs for the token."
+    "COIN": "Coinbase is featured among the lead assets for the upcoming OKXICE tokenized stock platform launch.",
+    "CRCL": "Circle is included as a primary asset participant for the OKXICE tokenized venue opening."
    },
    "direction": "positive",
    "quality": 75,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 8,
-    "relevance": 25,
+    "credibility": 21,
+    "relevance": 12,
     "impact": 12,
     "novelty": 15,
     "timing": 15
@@ -65,34 +65,44 @@
    "c": "high",
    "sources": [
     {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBNEdpcHAzbUhfRFJYTkpwb2dEbHhUbmRuanphR2VGdzRxay1zbTVYVjA3VEo5dlBsMzJrR20xSmxncmlDeThKVmgxbDFHUUFNOUZ6WjBTVU4?oc=5"
+     "name": "CoinDesk",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMFE4U1JBLXdPUzJXTUdiMktHMlZDZzBOQ3VVTFYzLXNGY0luNUdUbmZTZnhHM1lOQy1iTzlURjYxYlAzVDF0QnkxN0ZnanF0cF96cVZla05rMW0wNFluX0xvNVAyd3pfM1I5U1BrUkxrU0VsdWdraW1MTXQ0WVVqMTZfcHhSby1JUmRPbFFTZEJ0SXFNLVFJXzdJY3ZYTFVDVkNJZGpxSW5NamNzQ0IzSUFUV0Jod3NIZWJTWlB0NUdqVHc?oc=5"
+    },
+    {
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44WTkxV0VsS2U2OFdDeFh2dnFmaGY5Ni0yWGdGTGNMa0JBMFNXbjFBNDRFZVlTUk9LSmZRcjI3d1lvTVpabXprUHBpX0lIRzM5SndEdFR6Zjc0OG1KdDlYWFBMQmxEcHRsSnBTVm0xZ3drZERrYUE?oc=5"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/383040/okx-ice-tokenized-stock-venue-sets-launch-crypto-companies-big-tech-opts-out"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/regulation/2026-11-11-okxice-sets-nov-23-launch-for-tokenized-securities-venue-under-sec-innovation-exemption-437342"
     }
    ],
-   "missing": "Exact launch time and date."
+   "missing": "Exact hour of the platform launch and initial trading volumes."
   },
   {
-   "t": "Deutsche Bank Launches Institutional Digital Asset Custody",
+   "t": "XRPL Lending Protocol Support Growth",
    "type": "mainnet",
    "status": "ongoing",
    "event_date": null,
    "coins": [
-    "BTC",
-    "ETH"
+    "XRP"
    ],
    "rel": "direct",
-   "b": "Deutsche Bank has gone live with its digital asset custody service for institutional clients in Europe, allowing them to store and transfer Bitcoin, Ethereum, and select stablecoins.",
+   "b": "Ripple's bank-lending system is moving closer to launch on the XRP Ledger as validator support climbs. Lending support among the ledger's validators increased from 19 to 22.",
    "per": {
-    "BTC": "Now supported for institutional custody by Deutsche Bank.",
-    "ETH": "Now supported for institutional custody by Deutsche Bank."
+    "XRP": "Growing validator support for the bank-lending system brings the feature closer to deployment on the XRP Ledger."
    },
    "direction": "positive",
-   "quality": 72,
+   "quality": 74,
    "label": "MODERATE CATALYST",
    "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 12,
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 5,
     "novelty": 15,
     "timing": 12
    },
@@ -101,23 +111,79 @@
    "c": "medium",
    "sources": [
     {
-     "name": "Bitcoin News",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSEZMMXJlRlBiSk5wMTVuMzROUW8wWWFxdjF6eTNKSDZBRWhsbWJaa1p1c2sxcnNLVHRaeG5OVmN3TUREWldFYkFYLTlhcTI0WXhCcGpYSVQ5a0JNSnVsZ3QyU0tPeFY1a0FsTmNTS0g0b0dMNmpDSTBxWFIwRTRxaTBCN0hQS2RiczhYeFdlVnJraUQ1dVAwMF9QQzhkTDVmYkZPaWpR?oc=5"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/deutsche-bank-debuts-digital-asset-custody-services-eu?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/383067/deutsche-bank-goes-live-with-crypto-custody-after-a-five-year-buildup"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-11-11-deutsche-bank-goes-live-with-digital-asset-custody-service-signs-asset-management-deal-437851"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/11/12/ripple-s-bank-lending-system-moves-closer-to-launch-on-the-xrp-ledger"
     }
    ],
-   "missing": "Fee schedules and expansion plans outside of Europe."
+   "missing": "The exact mainnet launch date for the lending protocol."
+  },
+  {
+   "t": "Hedera Council Expansion with Apex Group",
+   "type": "partnership",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "HBAR"
+   ],
+   "rel": "direct",
+   "b": "Apex Group, which oversees $3.5 trillion in assets, has joined the Hedera Council. The firm will explore Hedera for tokenization, compliance, and settlement solutions.",
+   "per": {
+    "HBAR": "Apex Group joining the governing council expands enterprise exploration of the Hedera network for tokenization."
+   },
+   "direction": "positive",
+   "quality": 68,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/deals/2026-11-11-apex-group-joins-hedera-council-tokenization-437917"
+    }
+   ],
+   "missing": "Timeline for specific tokenization and settlement product rollouts."
+  },
+  {
+   "t": "ZIG Finance Tokenized SME Credit Vault on BNB Chain",
+   "type": "funding",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "BNB"
+   ],
+   "rel": "direct",
+   "b": "Nomura's Laser Digital is advising ZIG Finance on launching a tokenized Saudi SME private credit vault targeting a $100 million raise on BNB Chain.",
+   "per": {
+    "BNB": "The $100 million tokenized credit vault targets deployment on the BNB Chain ecosystem."
+   },
+   "direction": "positive",
+   "quality": 64,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 12,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 6,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/markets/2026-11-11-nomuras-laser-digital-helps-launch-saudi-sme-credit-vault-targeting-100-million-on-bnb-chain-437824"
+    }
+   ],
+   "missing": "Launch date for the credit vault."
   }
  ]
 }
