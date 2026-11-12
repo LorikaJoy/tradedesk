@@ -1,30 +1,30 @@
 {
- "updated": "2026-11-12T18:16:31.252002+00:00",
+ "updated": "2026-11-12T23:44:06.064112+00:00",
  "cards": [
   {
-   "t": "Zcash Grants Treasury Vote",
-   "type": "treasury",
-   "status": "ongoing",
+   "t": "Zcash Community Grants Treasury Withdrawal Vote",
+   "type": "other",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
     "ZEC"
    ],
    "rel": "direct",
-   "b": "Zcash holders are set to vote on a proposal to withdraw 50,000 ZEC ($50 million) from the community grants treasury to reallocate funds for legal-defense and development.",
+   "b": "Zcash holders are set to vote on a proposal to pull 50,000 ZEC, worth $50 million, from community grants to redirect future block rewards.",
    "per": {
-    "ZEC": "Governance vote pending to withdraw 50,000 ZEC from treasury."
+    "ZEC": "Removing over half of the treasury's ZEC holdings from circulation alters distribution mechanics."
    },
    "direction": "mixed",
-   "quality": 89,
+   "quality": 84,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 17,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
-   "impact": 9,
+   "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
@@ -33,10 +33,94 @@
      "url": "https://www.coindesk.com/tech/2026/11/12/zcash-holders-to-vote-on-pulling-50-000-zec-from-grants-treasury"
     }
    ],
-   "missing": "The exact date the voting period begins."
+   "missing": "Voting start and end dates."
   },
   {
-   "t": "Coinbase Listing of PEARL",
+   "t": "DTCC Solana Tokenization Roadmap",
+   "type": "mainnet",
+   "status": "officially_announced",
+   "event_date": "2027-01-01",
+   "coins": [
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "The Depository Trust & Clearing Corporation (DTCC) plans to add Solana to its Wall Street tokenization plans targeting a rollout starting in 2027.",
+   "per": {
+    "SOL": "Integration into DTCC's settlement network expands institutional asset tokenization on Solana."
+   },
+   "direction": "positive",
+   "quality": 83,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 12,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/383132/dtcc-to-bring-tokenized-stocks-and-treasuries-to-solana-in-2027"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-11-12-dtcc-plans-bring-tokenized-securities-solana-second-half-of-2027-438559"
+    }
+   ],
+   "missing": "Specific month or quarter within 2027."
+  },
+  {
+   "t": "MSCI Index Removal of Strategy",
+   "type": "regulation",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-11-30",
+   "coins": [
+    "BTC"
+   ],
+   "rel": "indirect",
+   "b": "MSCI confirmed the removal of Strategy from its equity indexes, taking effect after the close on November 30, which could impact its ability to acquire Bitcoin.",
+   "per": {
+    "BTC": "Potential reduction in aggressive corporate accumulation capacity."
+   },
+   "direction": "negative",
+   "quality": 83,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 12,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/12/msci-is-dropping-strategy-from-its-index-and-the-exclusion-could-hit-its-bitcoin-buying-machine"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/msci-confirms-strategys-removal-from-indexes-end-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/383204/why-msci-removing-bitcoin-treasury-strategy-stock-indexes"
+    }
+   ],
+   "missing": "Exact market impact magnitude on daily trading."
+  },
+  {
+   "t": "Coinbase Spot and Perpetual Futures Listing for Pearl",
    "type": "listing",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -44,17 +128,17 @@
     "PEARL"
    ],
    "rel": "direct",
-   "b": "Coinbase has scheduled the spot and perpetual futures debut for Pearl (PEARL), with listing details currently being finalized.",
+   "b": "Coinbase is scheduling spot and perpetual futures debuts for Pearl, including a PEARL-USD spot market in supported regions.",
    "per": {
-    "PEARL": "Upcoming Coinbase listing confirmed."
+    "PEARL": "Listing on Coinbase brings increased accessibility and liquidity."
    },
    "direction": "positive",
-   "quality": 85,
+   "quality": 79,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 10,
+    "credibility": 12,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
@@ -67,155 +151,117 @@
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4d1NMX2FINVNrcmVFY18ta2N0Z0xaRTRWOHh1WDMtcUtxZER1R2tHaWhOZDNJZ3hwY0FQS1d3VjhHemFra3JhYmpUSW4yWGpPN2tuVG1TVDh4dw?oc=5"
     },
     {
+     "name": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZQzFPWmVFUnB6WEhjVDBHSmdfMnBrazAweThMYi1SY0hRclhiaURnQU05aTZKbHk5YlRXTWpISy0tV180N3IxdjVPazhkVTJZcWpBanowVFM?oc=5"
+    },
+    {
      "name": "Coin Gabbar",
      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeW1pUFdKb1A2cVN3YlVVU3B4S1pZblBtNm9DVmdaX2dlLTdRNFBOWFRaVXRpT0E0UUk2Y1gxQ2V2N3NTNkp4WUx3STRXT0FYWmtpekRxQXAzMW5RUXFxNHZJLVFOaUpWaGZuTUhiV2llckFoRldFNWFPTlRwdEVyY0hQWHE2UzFKSmVaQjVFeXUwd3JT?oc=5"
     }
    ],
-   "missing": "Specific date and time for the listing."
+   "missing": "Exact launch date and time."
   },
   {
-   "t": "Canaan $20M Repurchase Program",
-   "type": "buyback",
-   "status": "ongoing",
+   "t": "Upbit Listing for CARDS",
+   "type": "listing",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "CAN"
+    "CARDS"
    ],
    "rel": "direct",
-   "b": "Canaan has launched a $20 million repurchase program for stock buybacks, funded as mining-rig revenue declines.",
+   "b": "CARDS has landed on Upbit for trading.",
    "per": {
-    "CAN": "Active $20M stock buyback program."
-   },
-   "direction": "positive",
-   "quality": 81,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/11/12/canaan-may-sell-more-bitcoin-for-stock-buybacks-as-mining-rig-revenue-falls-96"
-    }
-   ],
-   "missing": "None"
-  },
-  {
-   "t": "XRP Ledger Lending Feature Launch Countdown",
-   "type": "mainnet",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "XRP"
-   ],
-   "rel": "direct",
-   "b": "Validator support for XRP Ledger lending has reached 22 out of 35; seven more votes are required to finalize the launch.",
-   "per": {
-    "XRP": "Lending feature awaits 7 more validator votes."
+    "CARDS": "Exchange listing on Upbit expands market reach."
    },
    "direction": "positive",
    "quality": 75,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 8,
     "relevance": 25,
     "impact": 12,
-    "novelty": 7,
-    "timing": 12
+    "novelty": 15,
+    "timing": 15
    },
    "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "Brave New Coin",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTjVVeGNDbDl4anJaZlktSEVXTE1pUVZubWRKYThRZl9NTFVQYjE2enhmeHl2ZGJ1MmtYOUc4VnJZeDZpTDRUbUxqblJaNHdPQk5IZFktYkliUjRHZG41bm1OZVhZcncyV25ZTGRVS2RvQUsycFB1djk1Wl9FNGMtTA?oc=5"
-    },
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/11/12/ripple-s-bank-lending-system-moves-closer-to-launch-on-the-xrp-ledger"
+     "name": "TechBullion",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYTVzTXg0LWNaQ3pxQ3d1d0Q0UGtVTE9SUW4zTFptd3VxZ0lYWG40a1BHSDZMMzZjaE54NDQydTdldklXNU9YTGZkM2NlSGFadDRIN1lEM09sNzlySDNkeExYRGI4bnkxUWllS3NkdzJfV012THY1WG5ZMTNxMl8tNkVGckJFOXd4b1Z4d2F5TG1fc0FaUzg5QUlOXzFfN1hvMDlhTUY2eEltUDc0cS02aXlXU0NfWTFQMUpoQg?oc=5"
     }
    ],
-   "missing": "The timeline for reaching the remaining validator votes."
+   "missing": "Exact trading start time."
   },
   {
-   "t": "OKXICE Tokenized Stock Venue Launch",
-   "type": "mainnet",
+   "t": "Binance Wallet PREDICT TGE Restart",
+   "type": "listing",
    "status": "confirmed_upcoming",
-   "event_date": "2026-11-23",
+   "event_date": "2026-11-18",
    "coins": [
-    "STRAT"
+    "PREDICT"
    ],
-   "rel": "indirect",
-   "b": "The OKXICE venue is scheduled to launch on November 23, offering tokenized trading for over 70 assets, including Strategy (STRAT) shares.",
+   "rel": "direct",
+   "b": "Binance Wallet has set the Token Generation Event (TGE) restart for PREDICT on November 18 at 4 a.m. ET.",
    "per": {
-    "STRAT": "Tokenized shares to begin trading on OKXICE platform."
+    "PREDICT": "TGE restart initiates public token availability and distribution."
    },
    "direction": "positive",
-   "quality": 73,
-   "label": "MODERATE CATALYST",
+   "quality": 75,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 19,
-    "relevance": 12,
+    "credibility": 8,
+    "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 7,
+   "impact": 8,
    "s": "building",
-   "c": "medium",
+   "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/11/10/okxice-to-debut-tokenized-stock-trading-with-strategy-coinbase-circle-this-month"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/383040/okx-ice-tokenized-stock-venue-sets-launch-crypto-companies-big-tech-opts-out"
+     "name": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DR29hRHVfcmRLVWl0N1dQV1JyallSdXJqZXN1bl9TdkM1bzFMUmVRbllYaWxPOE9EUlIzWTdhYTNVekctY0h5SmVfSE5IX2E3SXFpU0pJOEI?oc=5"
     }
    ],
-   "missing": "Specific trading hours."
+   "missing": "Tokenomics and initial circulating supply details."
   },
   {
-   "t": "Suiet Wallet Shutdown",
-   "type": "other",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-11-14",
+   "t": "Zilliqa Token Migration / Delisting Support",
+   "type": "delisting",
+   "status": "ongoing",
+   "event_date": null,
    "coins": [
-    "SUI"
+    "ZIL"
    ],
    "rel": "direct",
-   "b": "The self-custodial Suiet wallet for the Sui ecosystem is shutting down, with API services ending on November 14.",
+   "b": "Zilliqa (ZIL) token holders are instructed on how to withdraw tokens through ZILEVM following delistings.",
    "per": {
-    "SUI": "Wallet provider Suiet is ceasing operations."
+    "ZIL": "Navigating withdrawal procedures and migration paths amid exchange changes."
    },
    "direction": "negative",
-   "quality": 64,
+   "quality": 65,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 17,
-    "relevance": 12,
+    "credibility": 8,
+    "relevance": 25,
     "impact": 5,
     "novelty": 15,
-    "timing": 15
+    "timing": 12
    },
    "impact": 6,
    "s": "building",
    "c": "medium",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/suiet-wallet-shut-down-latest-exit-sui-ecosystem?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "Coin Gabbar",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRTVKdGxzdmpWYjF4MDhhWWN2R2lZOGpucjdmRkJ2Z183MHNoR1NPakwyVU5vcW9wcmF6Rjk0cF94eFZRTUVJb3pnWlVEbHJvZUpWSlBjUzNhTGZ2NlExbnJ2N1RBc0c5WWZGTmlkUGhMT2dEN1pseDBTNDN3UnJ6TjM2amNwdw?oc=5"
     }
    ],
-   "missing": "None"
+   "missing": "Specific exchanges enforcing the delisting."
   }
  ]
 }
