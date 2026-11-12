@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-11T21:28:49.098097+00:00",
+ "updated": "2026-11-12T02:24:34.976226+00:00",
  "cards": [
   {
-   "t": "Binance Futures to Launch HYPE and TRX Perpetual Contracts",
+   "t": "Binance Futures Launches HYPE and TRX Perpetual Contracts",
    "type": "listing",
    "status": "confirmed_upcoming",
    "event_date": "2026-11-16",
@@ -11,22 +11,22 @@
     "TRX"
    ],
    "rel": "direct",
-   "b": "Binance Futures announced the upcoming launch of USD\u24c8-margined HYPEUSDC and TRXUSDC perpetual contracts on November 16, 2026.",
+   "b": "Binance Futures announced the launch of USD\u24c8-Margined HYPEUSDC and TRXUSDC perpetual contracts on November 16, 2026.",
    "per": {
-    "HYPE": "Perpetual contracts launch on Binance Futures on November 16, 2026.",
-    "TRX": "Perpetual contracts launch on Binance Futures on November 16, 2026."
+    "HYPE": "Getting a new USD-margined perpetual contract.",
+    "TRX": "Getting a new USD-margined perpetual contract."
    },
    "direction": "positive",
-   "quality": 100,
+   "quality": 92,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 25,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 10,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
@@ -35,62 +35,20 @@
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdmNyYUthTXFxZ0NIaXgxWTFkZ0tXbUdRaFBWaUlhRTR4R2FIQzJMZEJGZjhPVFl2R2JJd01oZlZXRVFacjRBR3ktLVI1UER1Yllpc3FZUXo1VUZhR3hkWHUtMWJ1aEQ0RVVaR3RDejRzWEFZTzRwU2tuQ09rVW5IaHFzeE5SclJKNmtYVFJpd3g?oc=5"
     }
    ],
-   "missing": "Exact contract launch times and initial leverage caps."
+   "missing": "Contract leverage limits and exact deployment time."
   },
   {
-   "t": "Upbit Lists Hyperliquid's HYPE",
+   "t": "Upbit Adds HYPE Trading Markets",
    "type": "listing",
-   "status": "completed",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
     "HYPE"
    ],
    "rel": "direct",
-   "b": "Upbit has listed Hyperliquid's HYPE token with Korean Won, Bitcoin, and USDT trading pairs.",
+   "b": "Upbit plans to support HYPE trading across Won, Bitcoin, and USDT markets.",
    "per": {
-    "HYPE": "Now trading on Upbit against KRW, BTC, and USDT pairs."
-   },
-   "direction": "positive",
-   "quality": 78,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9heWtWdXg0Tmxqdk9PLXZwaTNQUVBkZkR5aFVmTS12QUdNMzRrdmhpeDB4dE40MUh2cGJRM1ZKdzk4RXFYeHdveGVJMkJOQl9vWjE3M0dQVXJKbEdWOXV0N2FWTFdHekxiS05XUXRCUFNlbkFtVV9PMmh5cGppQmM?oc=5"
-    },
-    {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBNEdpcHAzbUhfRFJYTkpwb2dEbHhUbmRuanphR2VGdzRxay1zbTVYVjA3VEo5dlBsMzJrR20xSmxncmlDeThKVmgxbDFHUUFNOUZ6WjBTVU4?oc=5"
-    },
-    {
-     "name": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeGE4Ti11cGhGMmczX2tGU3ZxOGxuMGdDaHhXQUNOU3otV0F4Vm5UeUY4X0xHLVhZSkxJcDZhVkZ3NmJIZk1DR3ExS3lZcUxKN2pzLTlTZHhBWFktRjRsV3FzM0NsajhqSFNVQXdWbzNoRHh6LWUyV0wtQkJ4Y0UzbHhKT29JaFZmalc0WktQeGs0aFhlQUpaU2xUeHlDWHlhSG1oMzltdngyc1EyVE9IQzdaSVdBX2U4aGYzdDc4am1nNlNTVzI1aVY3M2RwNWl4T21fbw?oc=5"
-    }
-   ],
-   "missing": "Exact trading start hour."
-  },
-  {
-   "t": "Israel Discount Bank Opens In-App Bitcoin Trading",
-   "type": "other",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-11-26",
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Israel Discount Bank is set to open in-app Bitcoin trading for its customers on November 26, 2026.",
-   "per": {
-    "BTC": "In-app trading launches on Israel Discount Bank on November 26."
+    "HYPE": "Upbit is launching trading pairs for the token."
    },
    "direction": "positive",
    "quality": 75,
@@ -107,11 +65,59 @@
    "c": "high",
    "sources": [
     {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMEhaTk8yUTZzSVphM016UW1NaDRDUkxYb0E3aGd0Y2kyaXVCZV9VOWxhUElhN2V0cDdkWU1QYUtFSjRkTTJQaGdEVGFOZmlfSGtDV2pESXdpWWVaTGhkTlk5MWJkQTlVUkNRZGNPZW4ydGFYQ0xTQndNeFFoM1lXWk1kQlZrODFLbVRaZ1NGYVk1d2VVQW1MZk9sUm91NU9wTndLZEcyZ3VUdzQ5TGdUWHExYkwtUEFDdnRtdWFWRWhibEdVa3ljRA?oc=5"
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBNEdpcHAzbUhfRFJYTkpwb2dEbHhUbmRuanphR2VGdzRxay1zbTVYVjA3VEo5dlBsMzJrR20xSmxncmlDeThKVmgxbDFHUUFNOUZ6WjBTVU4?oc=5"
     }
    ],
-   "missing": "Fee structures and customer eligibility criteria."
+   "missing": "Exact launch time and date."
+  },
+  {
+   "t": "Deutsche Bank Launches Institutional Digital Asset Custody",
+   "type": "mainnet",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "BTC",
+    "ETH"
+   ],
+   "rel": "direct",
+   "b": "Deutsche Bank has gone live with its digital asset custody service for institutional clients in Europe, allowing them to store and transfer Bitcoin, Ethereum, and select stablecoins.",
+   "per": {
+    "BTC": "Now supported for institutional custody by Deutsche Bank.",
+    "ETH": "Now supported for institutional custody by Deutsche Bank."
+   },
+   "direction": "positive",
+   "quality": 72,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "Bitcoin News",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSEZMMXJlRlBiSk5wMTVuMzROUW8wWWFxdjF6eTNKSDZBRWhsbWJaa1p1c2sxcnNLVHRaeG5OVmN3TUREWldFYkFYLTlhcTI0WXhCcGpYSVQ5a0JNSnVsZ3QyU0tPeFY1a0FsTmNTS0g0b0dMNmpDSTBxWFIwRTRxaTBCN0hQS2RiczhYeFdlVnJraUQ1dVAwMF9QQzhkTDVmYkZPaWpR?oc=5"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/deutsche-bank-debuts-digital-asset-custody-services-eu?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/383067/deutsche-bank-goes-live-with-crypto-custody-after-a-five-year-buildup"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-11-11-deutsche-bank-goes-live-with-digital-asset-custody-service-signs-asset-management-deal-437851"
+    }
+   ],
+   "missing": "Fee schedules and expansion plans outside of Europe."
   }
  ]
 }
