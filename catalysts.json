@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-13T03:37:26.923102+00:00",
+ "updated": "2026-11-13T11:33:51.776178+00:00",
  "cards": [
   {
-   "t": "Coinbase Lists Pearl (PEARL)",
+   "t": "Upbit Adds SANC Trading Pairs",
    "type": "listing",
-   "status": "confirmed_upcoming",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "PEARL"
+    "SANC"
    ],
    "rel": "direct",
-   "b": "Coinbase is scheduling a spot and perpetual futures debut for Pearl (PEARL), planning a PEARL-USD spot market in supported regions.",
+   "b": "Upbit announced the addition of SANC trading pairs against the Korean Won, Bitcoin, and USDT.",
    "per": {
-    "PEARL": "Spot and perpetual futures listing on Coinbase increases accessibility and market depth."
+    "SANC": "Upbit is opening trading for SANC across three distinct currency pairs."
    },
    "direction": "positive",
    "quality": 87,
@@ -29,48 +29,6 @@
    "c": "high",
    "sources": [
     {
-     "name": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4d1NMX2FINVNrcmVFY18ta2N0Z0xaRTRWOHh1WDMtcUtxZER1R2tHaWhOZDNJZ3hwY0FQS1d3VjhHemFra3JhYmpUSW4yWGpPN2tuVG1TVDh4dw?oc=5"
-    },
-    {
-     "name": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZQzFPWmVFUnB6WEhjVDBHSmdfMnBrazAweThMYi1SY0hRclhiaURnQU05aTZKbHk5YlRXTWpISy0tV180N3IxdjVPazhkVTJZcWpBanowVFM?oc=5"
-    },
-    {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeW1pUFdKb1A2cVN3YlVVU3B4S1pZblBtNm9DVmdaX2dlLTdRNFBOWFRaVXRpT0E0UUk2Y1gxQ2V2N3NTNkp4WUx3STRXT0FYWmtpekRxQXAzMW5RUXFxNHZJLVFOaUpWaGZuTUhiV2llckFoRldFNWFPTlRwdEVyY0hQWHE2UzFKSmVaQjVFeXUwd3JT?oc=5"
-    }
-   ],
-   "missing": "Exact listing date and hour."
-  },
-  {
-   "t": "Upbit Lists Sanctum (SANC)",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "SANC"
-   ],
-   "rel": "direct",
-   "b": "Upbit is listing the SANC token, adding trading pairs against South Korean Won (KRW), Bitcoin (BTC), and USDT.",
-   "per": {
-    "SANC": "Upbit listing with KRW, BTC, and USDT pairs provides major new fiat and crypto liquidity."
-   },
-   "direction": "positive",
-   "quality": 85,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 10,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
      "name": "Pluang",
      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMTlUQ0xPMmlmU0duM3FxeVBoaUd1dEZBazNiTG9BZUJiQU1IN3lrc19Ob0w3T1dUTVVpaHZIUHF4YUhuaVkwcC1mS0FBU3A0U3hNQThjSEk4Q1owQXNYVE1VdWhBNGdFbG9fdUNobTJ1SGtUT01zTHVPYnlVSHBOM0tmb1lmUGJHcUtJQg?oc=5"
     },
@@ -79,34 +37,69 @@
      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU0ZxYjlROXF6SndfNEVxX2xqSUdyc3k3T1lLZVZteFVZak81TnA5OVhxSmx1TEo4LU1ON2lhWTl4ZjBvRzNDRFZpUV85NTNmTTBfZ011ZWZIcHNpMy1BWE95SkNDNmF3WUNEazdSVnh4ZDZVdmNoRS1pd1ZvUmI3RWt1cGN2bnY1ZEdNSTRvYVYtX05VRy1JVWwzdDQxdw?oc=5"
     },
     {
-     "name": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA3b2RqMERKMlBtZUtXRC1BZG5HODRRZDRIX0JXaTBnbHpGQXZvRHZqaG15Ql9mbl9ZdFhXVlNuZWxjcjhzVnFBUHlLVUoxaDNlQTl3RmJ6NTc?oc=5"
+     "name": "Bitcoin Sistemi",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeWYtdDRsU1lJWWhlUzd2aGlCVl9vNXdJZk94RzU2NS1UaVFoTzVrSXpfSjFaVFVSUlZLdzBwTEFCbTN4WTdnS1VFU1VtQmVPQzRFX2dpZ3NHUkVyQVlLejhXRnRzOUc1RjhldEhUNlRYa1NSY3ZBbkJpTGt5UmpnUEoxNVBYMFQtU0VZWVFrZ19TYXN6X3pzVjRFaDhnNXpSTk9kZlFkQi0?oc=5"
     },
     {
-     "name": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1LOXN1Q2MzSjRwVnpfZV9NWWxJSWhXYUNCM0dBSVdNN0pleUpFeklsZTNROHVXRmpFajR6MXlqMFVRT3ZlN2lGSkZndGFxcUhOMkRQM3phamZjZw?oc=5"
+     "name": "Coin Gabbar",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMVVVWUVNUnNRUXN3eU5PWEJWQ3hXSno1RjgxZUxuWHZrc1JGbnFvMGlZNFNVMzVWRzVsd3hfS3lPbjVyS1ByX054NklqbURqTktFX3UzbjZQLVpmNzIwa0FIRUxuRGI2M0JWSXJLczhkWGdyT0tpazgyNFlPUTVyRHpWcm8xMjNDZXhGYXNR?oc=5"
     }
    ],
-   "missing": "Exact launch time and date."
+   "missing": "The exact time of trading commencement."
   },
   {
-   "t": "Zcash Grant Treasury Vote to Remove 50,000 ZEC",
-   "type": "treasury",
-   "status": "confirmed_upcoming",
+   "t": "Ethena/Securitize BUIDL Facility",
+   "type": "partnership",
+   "status": "ongoing",
    "event_date": null,
    "coins": [
-    "ZEC"
+    "USDC",
+    "BUIDL"
    ],
    "rel": "direct",
-   "b": "Zcash holders are set to vote on a proposal to pull 50,000 ZEC (worth $50 million) from the Zcash Community Grants treasury to redirect future block rewards and create a new development and legal-defense fund.",
+   "b": "Securitize and Ethena Labs have launched a $100M liquidity facility for BUIDL holders to swap into stablecoins like USDC 24/7.",
    "per": {
-    "ZEC": "Removing 50,000 ZEC from circulation alters circulating supply dynamics and treasury management."
+    "BUIDL": "New 24/7 liquidity facility enabling swaps to USDC."
    },
-   "direction": "mixed",
-   "quality": 84,
+   "direction": "positive",
+   "quality": 81,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 17,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/ecosystems/2026-11-12-securitize-ethena-buidl-liquidity-facility-live-usdc-438442"
+    }
+   ],
+   "missing": "None"
+  },
+  {
+   "t": "Binance Wallet PREDICT TGE",
+   "type": "mainnet",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-11-18",
+   "coins": [
+    "PREDICT"
+   ],
+   "rel": "direct",
+   "b": "Binance Wallet has scheduled the Token Generation Event (TGE) restart for PREDICT on November 18 at 4 a.m. ET.",
+   "per": {
+    "PREDICT": "TGE restart is set for November 18."
+   },
+   "direction": "positive",
+   "quality": 75,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 8,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -117,32 +110,32 @@
    "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/11/12/zcash-holders-to-vote-on-pulling-50-000-zec-from-grants-treasury"
+     "name": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DR29hRHVfcmRLVWl0N1dQV1JyallSdXJqZXN1bl9TdkM1bzFMUmVRbllYaWxPOE9EUlIzWTdhYTNVekctY0h5SmVfSE5IX2E3SXFpU0pJOEI?oc=5"
     }
    ],
-   "missing": "Voting start and end dates."
+   "missing": "None"
   },
   {
-   "t": "MSCI Removes Strategy from Equity Indexes",
-   "type": "other",
+   "t": "Coinbase Plans PEARL Spot Market",
+   "type": "listing",
    "status": "confirmed_upcoming",
-   "event_date": "2026-11-30",
+   "event_date": null,
    "coins": [
-    "BTC"
+    "PEARL"
    ],
-   "rel": "indirect",
-   "b": "MSCI confirmed the removal of Strategy from its equity indexes, with the exclusion taking effect after the November 30 close, which analysts warn could hamper the company's ability to finance further Bitcoin purchases.",
+   "rel": "direct",
+   "b": "Coinbase has announced plans to launch a PEARL-USD spot market in supported regions.",
    "per": {
-    "BTC": "Potential slowdown in Strategy's corporate Bitcoin accumulation due to index exclusion."
+    "PEARL": "Upcoming spot market listing on Coinbase."
    },
-   "direction": "negative",
-   "quality": 83,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 75,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 20,
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
@@ -151,59 +144,79 @@
    "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/11/12/msci-is-dropping-strategy-from-its-index-and-the-exclusion-could-hit-its-bitcoin-buying-machine"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/markets/strategy-shares-fall-5-msci-index-removal-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/msci-confirms-strategys-removal-from-indexes-end-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/383204/why-msci-removing-bitcoin-treasury-strategy-stock-indexes"
+     "name": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZQzFPWmVFUnB6WEhjVDBHSmdfMnBrazAweThMYi1SY0hRclhiaURnQU05aTZKbHk5YlRXTWpISy0tV180N3IxdjVPazhkVTJZcWpBanowVFM?oc=5"
     }
    ],
-   "missing": "Long-term impact on the company's equity capital-raising capabilities."
+   "missing": "The specific launch date."
   },
   {
-   "t": "OKX-ICE Tokenized Stock Venue Launch",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-11-23",
+   "t": "SoFiUSD Live on Polygon",
+   "type": "mainnet",
+   "status": "completed",
+   "event_date": null,
    "coins": [
-    "COIN",
-    "HOOD"
+    "SOFIUSD"
    ],
    "rel": "direct",
-   "b": "OKX-ICE tokenized stock venue is scheduled to open on November 23 with over 70 assets, focusing on crypto companies like Coinbase, Circle, Robinhood, and Strategy.",
+   "b": "SoFiUSD, a bank-issued stablecoin, has expanded its presence to the Polygon network.",
    "per": {
-    "COIN": "Inclusion as a tokenized asset on the new OKX-ICE venue.",
-    "HOOD": "Inclusion as a tokenized asset on the new OKX-ICE venue."
+    "SOFIUSD": "Now live on the Polygon Open Money Stack."
    },
    "direction": "positive",
-   "quality": 71,
-   "label": "MODERATE CATALYST",
+   "quality": 68,
+   "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 17,
-    "relevance": 12,
-    "impact": 12,
+    "relevance": 25,
+    "impact": 5,
     "novelty": 15,
-    "timing": 15
+    "timing": 6
    },
    "impact": 7,
-   "s": "building",
+   "s": "fading",
    "c": "medium",
    "sources": [
     {
      "name": "decrypt.co",
-     "url": "https://decrypt.co/383040/okx-ice-tokenized-stock-venue-sets-launch-crypto-companies-big-tech-opts-out"
+     "url": "https://decrypt.co/383096/sofi-brings-bank-issued-stablecoin-polygon-payments-stack"
     }
    ],
-   "missing": "Trading volume expectations and specific regional availability."
+   "missing": "None"
+  },
+  {
+   "t": "Canaan Buyback Program",
+   "type": "buyback",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "indirect",
+   "b": "Canaan has launched a $20 million share repurchase program and may sell Bitcoin to fund it.",
+   "per": {
+    "BTC": "Potential selling pressure from corporate treasury rebalancing."
+   },
+   "direction": "positive",
+   "quality": 61,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 12,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 6,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/12/canaan-may-sell-more-bitcoin-for-stock-buybacks-as-mining-rig-revenue-falls-96"
+    }
+   ],
+   "missing": "Specific amount of BTC to be liquidated."
   }
  ]
 }
