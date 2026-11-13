@@ -1,18 +1,60 @@
 {
- "updated": "2026-11-13T11:33:51.776178+00:00",
+ "updated": "2026-11-13T18:46:16.406541+00:00",
  "cards": [
   {
-   "t": "Upbit Adds SANC Trading Pairs",
+   "t": "DTCC Plans Solana Integration for Tokenized Assets in 2027",
+   "type": "mainnet",
+   "status": "confirmed_upcoming",
+   "event_date": "2027-01-01",
+   "coins": [
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "The Depository Trust & Clearing Corporation (DTCC) plans to expand its Wall Street tokenization roadmap to bring tokenized stocks, ETFs, and U.S. Treasuries to the Solana blockchain by 2027.",
+   "per": {
+    "SOL": "Integration into DTCC's traditional finance settlement network expands institutional utility and scale."
+   },
+   "direction": "positive",
+   "quality": 96,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 10,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/dtcc-plans-solana-expansion-wallet-rules-limit-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/383132/dtcc-to-bring-tokenized-stocks-and-treasuries-to-solana-in-2027"
+    }
+   ],
+   "missing": "Interim rollout milestones before the 2027 launch."
+  },
+  {
+   "t": "Upbit and Bithumb List SANC Token",
    "type": "listing",
-   "status": "officially_announced",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
     "SANC"
    ],
    "rel": "direct",
-   "b": "Upbit announced the addition of SANC trading pairs against the Korean Won, Bitcoin, and USDT.",
+   "b": "Upbit has announced plans to list the SANC token, opening trading pairs against the South Korean Won, Bitcoin, and USDT, with Bithumb also scheduling a new listing.",
    "per": {
-    "SANC": "Upbit is opening trading for SANC across three distinct currency pairs."
+    "SANC": "Upbit and Bithumb listings with multiple major trading pairs are driving heightened market activity and price appreciation."
    },
    "direction": "positive",
    "quality": 87,
@@ -41,59 +83,106 @@
      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeWYtdDRsU1lJWWhlUzd2aGlCVl9vNXdJZk94RzU2NS1UaVFoTzVrSXpfSjFaVFVSUlZLdzBwTEFCbTN4WTdnS1VFU1VtQmVPQzRFX2dpZ3NHUkVyQVlLejhXRnRzOUc1RjhldEhUNlRYa1NSY3ZBbkJpTGt5UmpnUEoxNVBYMFQtU0VZWVFrZ19TYXN6X3pzVjRFaDhnNXpSTk9kZlFkQi0?oc=5"
     },
     {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMVVVWUVNUnNRUXN3eU5PWEJWQ3hXSno1RjgxZUxuWHZrc1JGbnFvMGlZNFNVMzVWRzVsd3hfS3lPbjVyS1ByX054NklqbURqTktFX3UzbjZQLVpmNzIwa0FIRUxuRGI2M0JWSXJLczhkWGdyT0tpazgyNFlPUTVyRHpWcm8xMjNDZXhGYXNR?oc=5"
+     "name": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA3b2RqMERKMlBtZUtXRC1BZG5HODRRZDRIX0JXaTBnbHpGQXZvRHZqaG15Ql9mbl9ZdFhXVlNuZWxjcjhzVnFBUHlLVUoxaDNlQTl3RmJ6NTc?oc=5"
     }
    ],
-   "missing": "The exact time of trading commencement."
+   "missing": "Exact launch timestamps for the trading pairs opening."
   },
   {
-   "t": "Ethena/Securitize BUIDL Facility",
-   "type": "partnership",
-   "status": "ongoing",
+   "t": "Winklevoss Files for Spot Zcash ETF",
+   "type": "etf",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "USDC",
-    "BUIDL"
+    "ZEC"
    ],
    "rel": "direct",
-   "b": "Securitize and Ethena Labs have launched a $100M liquidity facility for BUIDL holders to swap into stablecoins like USDC 24/7.",
+   "b": "Winklevoss has filed for a spot Zcash ETF featuring a $100 million indication of interest.",
    "per": {
-    "BUIDL": "New 24/7 liquidity facility enabling swaps to USDC."
+    "ZEC": "Filing for a spot ETF with strong initial financial backing provides a major catalyst for token demand."
    },
    "direction": "positive",
-   "quality": 81,
+   "quality": 83,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 8,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
    "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/ecosystems/2026-11-12-securitize-ethena-buidl-liquidity-facility-live-usdc-438442"
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX3VkMHNVOEhTYW9tMGU4MEI2Q25oSXhFQ08wTnh3eGxRV3JfcHRTLVNwalZwX2x1YVVMZ2hCZ1d4TW0zRzJZVGp6azZFeWNacUVwdEFmNFo0cEpfNTMxTk9WV01aWENfbC1YSDVmbEFhckFic05TODd6dElRZ1JjeDE2WQ?oc=5"
     }
    ],
-   "missing": "None"
+   "missing": "Regulatory review timelines and approval status."
   },
   {
-   "t": "Binance Wallet PREDICT TGE",
-   "type": "mainnet",
+   "t": "Strategy and Metaplanet Face MSCI Index Removal",
+   "type": "other",
    "status": "confirmed_upcoming",
-   "event_date": "2026-11-18",
+   "event_date": "2026-11-30",
    "coins": [
-    "PREDICT"
+    "BTC"
+   ],
+   "rel": "indirect",
+   "b": "MSCI confirmed that Strategy and Metaplanet will be removed from its stock indexes on November 30, triggering stock drops and adding pressure to Bitcoin holdings.",
+   "per": {
+    "BTC": "Index removal for major corporate holders could affect treasury strategies and market sentiment."
+   },
+   "direction": "negative",
+   "quality": 83,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 12,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/markets/strategy-shares-fall-5-msci-index-removal-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/383204/why-msci-removing-bitcoin-treasury-strategy-stock-indexes"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/newsletters/the-daily/2026-11-12-bitcoin-12-week-low-strategy-metaplanet-msci-more-crypto-news-439049"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/markets/2026-11-12-bitcoin-12-week-low-jensen-huang-exit-nvidia-438992"
+    }
+   ],
+   "missing": "Long-term impact on corporate Bitcoin accumulation plans."
+  },
+  {
+   "t": "Bybit Lists OROCHI and IDOL Perpetual Contracts",
+   "type": "listing",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "OROCHI",
+    "IDOL"
    ],
    "rel": "direct",
-   "b": "Binance Wallet has scheduled the Token Generation Event (TGE) restart for PREDICT on November 18 at 4 a.m. ET.",
+   "b": "Bybit is expanding its derivatives offerings by listing perpetual contracts for Orochi Network (OROCHI) and MEET48 (IDOL).",
    "per": {
-    "PREDICT": "TGE restart is set for November 18."
+    "OROCHI": "Perpetual contract listing on Bybit expands market access and leverage options.",
+    "IDOL": "Perpetual contract listing on Bybit increases liquidity and trading accessibility."
    },
    "direction": "positive",
    "quality": 75,
@@ -110,14 +199,14 @@
    "c": "high",
    "sources": [
     {
-     "name": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DR29hRHVfcmRLVWl0N1dQV1JyallSdXJqZXN1bl9TdkM1bzFMUmVRbllYaWxPOE9EUlIzWTdhYTNVekctY0h5SmVfSE5IX2E3SXFpU0pJOEI?oc=5"
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5Y1NVRVBMdDB4TUtueVQwc2dBZjNaRlJHY0txb1I1UWMyQWlIVHRrMnA2X21tckk2OG9DR3BnbGxHb1NLLVlkUTNQaThIYWR2eENCZjNQb2V2dw?oc=5"
     }
    ],
-   "missing": "None"
+   "missing": "The exact date and time for when trading goes live."
   },
   {
-   "t": "Coinbase Plans PEARL Spot Market",
+   "t": "Coinbase Plans PEARL-USD Spot Market",
    "type": "listing",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -127,7 +216,7 @@
    "rel": "direct",
    "b": "Coinbase has announced plans to launch a PEARL-USD spot market in supported regions.",
    "per": {
-    "PEARL": "Upcoming spot market listing on Coinbase."
+    "PEARL": "A spot listing on Coinbase opens access to broader retail and institutional liquidity."
    },
    "direction": "positive",
    "quality": 75,
@@ -148,28 +237,28 @@
      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZQzFPWmVFUnB6WEhjVDBHSmdfMnBrazAweThMYi1SY0hRclhiaURnQU05aTZKbHk5YlRXTWpISy0tV180N3IxdjVPazhkVTJZcWpBanowVFM?oc=5"
     }
    ],
-   "missing": "The specific launch date."
+   "missing": "Launch date and exact rollout times."
   },
   {
-   "t": "SoFiUSD Live on Polygon",
-   "type": "mainnet",
+   "t": "DOJ Seizes $1.2B from Binance Hack and Dismantles FaceStealer Scam",
+   "type": "regulation",
    "status": "completed",
    "event_date": null,
    "coins": [
-    "SOFIUSD"
+    "BNB"
    ],
-   "rel": "direct",
-   "b": "SoFiUSD, a bank-issued stablecoin, has expanded its presence to the Polygon network.",
+   "rel": "indirect",
+   "b": "The U.S. Department of Justice received court approval to seize $1.2 billion in stolen crypto from the historic Binance hack and shut down the FaceStealer deepfake scam infrastructure.",
    "per": {
-    "SOFIUSD": "Now live on the Polygon Open Money Stack."
+    "BNB": "Regulatory crackdowns on legacy exploits highlight ongoing security sweeps across major ecosystems."
    },
-   "direction": "positive",
-   "quality": 68,
+   "direction": "mixed",
+   "quality": 74,
    "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 5,
+    "credibility": 21,
+    "relevance": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 6
    },
@@ -178,45 +267,53 @@
    "c": "medium",
    "sources": [
     {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/383096/sofi-brings-bank-issued-stablecoin-polygon-payments-stack"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/11/12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/doj-12b-north-korean-crypto-seizure-400m-facestealer-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-11-12-doj-seize-1-2-billion-binance-hack-north-korea-facestealer-439065"
     }
    ],
-   "missing": "None"
+   "missing": "Timeline for asset distribution back to affected parties."
   },
   {
-   "t": "Canaan Buyback Program",
-   "type": "buyback",
+   "t": "BTCS Sells Ether to Maintain Aave Loan Health",
+   "type": "treasury",
    "status": "ongoing",
    "event_date": null,
    "coins": [
-    "BTC"
+    "ETH"
    ],
-   "rel": "indirect",
-   "b": "Canaan has launched a $20 million share repurchase program and may sell Bitcoin to fund it.",
+   "rel": "direct",
+   "b": "Nasdaq-listed Ethereum treasury firm BTCS has sold ether at a loss to protect a $64 million Aave loan from liquidation risks as prices slide.",
    "per": {
-    "BTC": "Potential selling pressure from corporate treasury rebalancing."
+    "ETH": "Distressed treasury liquidations increase selling pressure on the asset."
    },
-   "direction": "positive",
-   "quality": 61,
-   "label": "MODERATE CATALYST",
+   "direction": "negative",
+   "quality": 68,
+   "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 17,
     "relevance": 12,
-    "impact": 5,
+    "impact": 12,
     "novelty": 15,
     "timing": 12
    },
-   "impact": 6,
+   "impact": 7,
    "s": "building",
    "c": "medium",
    "sources": [
     {
      "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/11/12/canaan-may-sell-more-bitcoin-for-stock-buybacks-as-mining-rig-revenue-falls-96"
+     "url": "https://www.coindesk.com/markets/2026/11/13/ethereum-treasury-firm-btcs-sold-ether-at-a-loss-to-keep-usd64-million-aave-loan-healthy"
     }
    ],
-   "missing": "Specific amount of BTC to be liquidated."
+   "missing": "Exact amount of ETH sold and current precise health factor of the remaining loan."
   }
  ]
 }
