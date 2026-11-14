@@ -1,43 +1,4 @@
 {
- "updated": "2026-11-14T18:51:49.608991+00:00",
- "cards": [
-  {
-   "t": "Paraguay Power Utility to End Special Contracts for Bitcoin Miners",
-   "type": "regulation",
-   "status": "confirmed_upcoming",
-   "event_date": "2027-12-31",
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Paraguay's state power utility has deemed December 31, 2027, a final expiration date for special power contracts covering 943.8 MW used by bitcoin miners, as AI data centers push them out. Contracts selling power at $44 per megawatt-hour to roughly 4% of global bitcoin miners will not be renewed.",
-   "per": {
-    "BTC": "Miners utilizing power in Paraguay face contract terminations by late 2027."
-   },
-   "direction": "negative",
-   "quality": 81,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 12,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out"
-    },
-    {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMHhodXdYWHlDM0VSa1pmWnlUMFFoM0RYMC03LUlZUFRLdXhTeXJndFBWZ0RaMnExM1JjUTkwMjZ0OHo1YVFWYXpFUmFpVjF4MjQxMTU0RFlCZTlSR1E3N1hIdF9ELW9FSWFMWnZ6eDlHOVo2ejNDZGFTM2hFbnNYdjF3VFVEdE14c1pBWFQ4bWdabWYtd21DSGpQem13Ti1FUi1neU55alg1ZDc5Rm95SmNjcjJQM0VLZDNiR1dKaDRuT3Vhemh2YzNoRmhzeE0takp5eU1rWTgzUQ?oc=5"
-    }
-   ],
-   "missing": "Alternative energy sources miners might secure."
-  }
- ]
+ "updated": "2026-11-14T22:50:30.194588+00:00",
+ "cards": []
 }
