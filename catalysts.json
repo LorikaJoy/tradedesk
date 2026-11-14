@@ -1,26 +1,26 @@
 {
- "updated": "2026-11-14T13:42:45.650094+00:00",
+ "updated": "2026-11-14T18:51:49.608991+00:00",
  "cards": [
   {
-   "t": "Franklin Templeton and Rakuten Disclose Significant XRP Holdings and ETF Investments",
-   "type": "etf",
-   "status": "officially_announced",
-   "event_date": null,
+   "t": "Paraguay Power Utility to End Special Contracts for Bitcoin Miners",
+   "type": "regulation",
+   "status": "confirmed_upcoming",
+   "event_date": "2027-12-31",
    "coins": [
-    "XRP"
+    "BTC"
    ],
    "rel": "direct",
-   "b": "Franklin Templeton revealed 293 million XRP holdings worth $440M in an SEC filing, while Japanese giant Rakuten disclosed a $6.42 million investment in U.S. crypto ETFs including a spot XRP fund.",
+   "b": "Paraguay's state power utility has deemed December 31, 2027, a final expiration date for special power contracts covering 943.8 MW used by bitcoin miners, as AI data centers push them out. Contracts selling power at $44 per megawatt-hour to roughly 4% of global bitcoin miners will not be renewed.",
    "per": {
-    "XRP": "Institutional interest highlighted by major filings from Franklin Templeton and Rakuten."
+    "BTC": "Miners utilizing power in Paraguay face contract terminations by late 2027."
    },
-   "direction": "positive",
-   "quality": 79,
-   "label": "STRONG CATALYST",
+   "direction": "negative",
+   "quality": 81,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 12,
-    "relevance": 25,
-    "impact": 12,
+    "credibility": 19,
+    "relevance": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 15
    },
@@ -29,57 +29,15 @@
    "c": "high",
    "sources": [
     {
-     "name": "Coinpaper",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ3U4WkpZRzdLYzZkaHBvSFhVeXVTdmpTMG9vZUdYZVBickpXRUdRZnZvS0JIYjd0VENQZ3YyRGVZTmFaN1NQVTVFeXp6VGxzdmZYcU9RZnN0TlhPUXV1TWstU0FjeHR0TnhGdVBwV1VWeV9vMTRaczBheG03U1NmX2pnd0k1Mk5kRmtnR0FaWTVBdE9GWmNHeUxKTW9VYmtkTVN1VEZMU2RVSG1zR0E?oc=5"
-    },
-    {
-     "name": "BigGo Finance",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9PNGdwVHVNODRvdXpyR1VHaWh5V01yakVxdXBQbFFnNGFZWkFDV28zS2pSSDUxa2RwX0RYT0RPdnpZVW83Q0ZWYkFUU0tFQ0VtUjRKT0hfYmQxNC1GWkJ2MDdIMHd2Q0JpTHhYSUFZd2pkdy1nQVE?oc=5"
-    },
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYzcxdXZxb1dGVWlpU1BXVXNBR2hhUlNwV296dm5CZ1gwdTlLeHk5WFdwWmZYU2dhUXNnNWdHdWh3U2h4blZrTGl0QlBtMUxBTzBLdWwzZ3F2Yk9KZXRUZG1NQ0hUdnFmY2tCLWdUY0U2NU16ZklBZEVrN3JmSWF5Z29MRQ?oc=5"
-    },
-    {
-     "name": "U.Today",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAyTThBZVUxaHppUEMyM1AxcFVLd25oUlVqQzg2Z0JqY1JOSXg4b3NrMWhHamt4cTdGZ1pkeHFWTFVzSDNpbWZRdnpfdHl6eXM5UHhJSGRYZ0V1VzR3MHYzTEYyd0txWW9fNmttT0FsSDRERGx2bzJkYXpUcDFVMmfSAYQBQVVfeXFMT3NGRWcxUTV5a3poT0phRkZfMXVIZmRqd3NvOXNjMlpUSUlWY0VsbEIwV25Id2phX2JIend5eEh2ZEYwYU5YS2NLekpMb0tCYWd3SU50U2c4dXQwdmJmVVVUN3FEaVppN3laV2ZHU05yOEFEajdsWDRzbXl4SlhWTHN3elpF?oc=5"
-    }
-   ],
-   "missing": "Exact purchase dates and future allocation plans."
-  },
-  {
-   "t": "BTCS Sells Ether at a Loss to Maintain Health of Aave Loan",
-   "type": "treasury",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "Nasdaq-listed Ethereum treasury firm BTCS sold ether at a loss to keep its $64 million Aave loan healthy, as 46,676 ETH remain pledged as collateral.",
-   "per": {
-    "ETH": "Sell-off pressure driven by treasury management to avoid liquidation risks."
-   },
-   "direction": "negative",
-   "quality": 75,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
      "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/11/13/ethereum-treasury-firm-btcs-sold-ether-at-a-loss-to-keep-usd64-million-aave-loan-healthy"
+     "url": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out"
+    },
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMHhodXdYWHlDM0VSa1pmWnlUMFFoM0RYMC03LUlZUFRLdXhTeXJndFBWZ0RaMnExM1JjUTkwMjZ0OHo1YVFWYXpFUmFpVjF4MjQxMTU0RFlCZTlSR1E3N1hIdF9ELW9FSWFMWnZ6eDlHOVo2ejNDZGFTM2hFbnNYdjF3VFVEdE14c1pBWFQ4bWdabWYtd21DSGpQem13Ti1FUi1neU55alg1ZDc5Rm95SmNjcjJQM0VLZDNiR1dKaDRuT3Vhemh2YzNoRmhzeE0takp5eU1rWTgzUQ?oc=5"
     }
    ],
-   "missing": "Exact amount of ETH sold and remaining liquidation price triggers."
+   "missing": "Alternative energy sources miners might secure."
   }
  ]
 }
