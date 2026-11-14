@@ -1,41 +1,35 @@
 {
- "updated": "2026-11-14T00:06:02.798146+00:00",
+ "updated": "2026-11-14T06:15:59.501257+00:00",
  "cards": [
   {
-   "t": "Upbit Lists Sanctum (SANC) Token",
+   "t": "Upbit and Bithumb List SANC and DNA",
    "type": "listing",
    "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "SANC"
+    "SANC",
+    "DNA"
    ],
    "rel": "direct",
-   "b": "Upbit has announced plans to list the Sanctum (SANC) token, adding trading pairs against the South Korean Won, Bitcoin, and USDT.",
+   "b": "Upbit and Bithumb have announced new listings for SANC and DNA, with processing opening up soon.",
    "per": {
-    "SANC": "Upbit is launching KRW, BTC, and USDT trading pairs for SANC."
+    "SANC": "Upbit and Bithumb are opening listings and processing for SANC.",
+    "DNA": "Upbit and Bithumb are opening listings and processing for DNA."
    },
    "direction": "positive",
-   "quality": 87,
+   "quality": 85,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 12,
+    "credibility": 10,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 9,
+   "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMTlUQ0xPMmlmU0duM3FxeVBoaUd1dEZBazNiTG9BZUJiQU1IN3lrc19Ob0w3T1dUTVVpaHZIUHF4YUhuaVkwcC1mS0FBU3A0U3hNQThjSEk4Q1owQXNYVE1VdWhBNGdFbG9fdUNobTJ1SGtUT01zTHVPYnlVSHBOM0tmb1lmUGJHcUtJQg?oc=5"
-    },
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU0ZxYjlROXF6SndfNEVxX2xqSUdyc3k3T1lLZVZteFVZak81TnA5OVhxSmx1TEo4LU1ON2lhWTl4ZjBvRzNDRFZpUV85NTNmTTBfZ011ZWZIcHNpMy1BWE95SkNDNmF3WUNEazdSVnh4ZDZVdmNoRS1pd1ZvUmI3RWt1cGN2bnY1ZEdNSTRvYVYtX05VRy1JVWwzdDQxdw?oc=5"
-    },
     {
      "name": "Bitcoin Sistemi",
      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeWYtdDRsU1lJWWhlUzd2aGlCVl9vNXdJZk94RzU2NS1UaVFoTzVrSXpfSjFaVFVSUlZLdzBwTEFCbTN4WTdnS1VFU1VtQmVPQzRFX2dpZ3NHUkVyQVlLejhXRnRzOUc1RjhldEhUNlRYa1NSY3ZBbkJpTGt5UmpnUEoxNVBYMFQtU0VZWVFrZ19TYXN6X3pzVjRFaDhnNXpSTk9kZlFkQi0?oc=5"
@@ -45,88 +39,10 @@
      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMVVVWUVNUnNRUXN3eU5PWEJWQ3hXSno1RjgxZUxuWHZrc1JGbnFvMGlZNFNVMzVWRzVsd3hfS3lPbjVyS1ByX054NklqbURqTktFX3UzbjZQLVpmNzIwa0FIRUxuRGI2M0JWSXJLczhkWGdyT0tpazgyNFlPUTVyRHpWcm8xMjNDZXhGYXNR?oc=5"
     }
    ],
-   "missing": "Exact launch time or date."
+   "missing": "Exact launch time and trading pairs"
   },
   {
-   "t": "DTCC Plans Solana Integration for 2027",
-   "type": "mainnet",
-   "status": "officially_announced",
-   "event_date": "2027-01-01",
-   "coins": [
-    "SOL"
-   ],
-   "rel": "direct",
-   "b": "The Depository Trust & Clearing Corporation (DTCC) plans to add Solana to its Wall Street tokenization platform targeting a 2027 rollout.",
-   "per": {
-    "SOL": "DTCC plans to bring tokenized stocks, ETFs, and U.S. Treasuries to Solana by 2027."
-   },
-   "direction": "positive",
-   "quality": 83,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/dtcc-plans-solana-expansion-wallet-rules-limit-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/383132/dtcc-to-bring-tokenized-stocks-and-treasuries-to-solana-in-2027"
-    }
-   ],
-   "missing": "Exact rollout date in 2027 and regulatory approvals."
-  },
-  {
-   "t": "Bybit Lists Orochi Network (OROCHI) and MEET48 (IDOL) Perpetual Contracts",
-   "type": "listing",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "OROCHI",
-    "IDOL"
-   ],
-   "rel": "direct",
-   "b": "Bybit has listed perpetual contracts for Orochi Network (OROCHI) and MEET48 (IDOL).",
-   "per": {
-    "OROCHI": "Perpetual contracts are now listed on Bybit.",
-    "IDOL": "Perpetual contracts are now listed on Bybit."
-   },
-   "direction": "positive",
-   "quality": 75,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "TOKENPOST",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5Y1NVRVBMdDB4TUtueVQwc2dBZjNaRlJHY0txb1I1UWMyQWlIVHRrMnA2X21tckk2OG9DR3BnbGxHb1NLLVlkUTNQaThIYWR2eENCZjNQb2V2dw?oc=5"
-    }
-   ],
-   "missing": "Exact trading start time."
-  },
-  {
-   "t": "Strategy and Metaplanet Set for MSCI Index Removal",
+   "t": "MSCI Index Removal for Strategy and Metaplanet",
    "type": "other",
    "status": "confirmed_upcoming",
    "event_date": "2026-11-30",
@@ -134,9 +50,9 @@
     "BTC"
    ],
    "rel": "indirect",
-   "b": "Strategy and Metaplanet are scheduled to be removed from MSCI indexes on November 30, which has impacted their stock prices and broader crypto sentiment.",
+   "b": "MSCI is removing Strategy and Metaplanet from its stock indexes effective November 30.",
    "per": {
-    "BTC": "Index removal of major corporate holders may affect corporate treasury dynamics."
+    "BTC": "Strategy and Metaplanet face index removal, which could impact corporate bitcoin treasury operations."
    },
    "direction": "negative",
    "quality": 73,
@@ -161,7 +77,7 @@
      "url": "https://www.theblock.co/newsletters/the-daily/2026-11-12-bitcoin-12-week-low-strategy-metaplanet-msci-more-crypto-news-439049"
     }
    ],
-   "missing": "Long-term effect on their ability to raise capital and acquire Bitcoin."
+   "missing": "Specific market reaction scope"
   }
  ]
 }
