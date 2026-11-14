@@ -1,28 +1,26 @@
 {
- "updated": "2026-11-14T06:15:59.501257+00:00",
+ "updated": "2026-11-14T13:42:45.650094+00:00",
  "cards": [
   {
-   "t": "Upbit and Bithumb List SANC and DNA",
-   "type": "listing",
-   "status": "confirmed_upcoming",
+   "t": "Franklin Templeton and Rakuten Disclose Significant XRP Holdings and ETF Investments",
+   "type": "etf",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "SANC",
-    "DNA"
+    "XRP"
    ],
    "rel": "direct",
-   "b": "Upbit and Bithumb have announced new listings for SANC and DNA, with processing opening up soon.",
+   "b": "Franklin Templeton revealed 293 million XRP holdings worth $440M in an SEC filing, while Japanese giant Rakuten disclosed a $6.42 million investment in U.S. crypto ETFs including a spot XRP fund.",
    "per": {
-    "SANC": "Upbit and Bithumb are opening listings and processing for SANC.",
-    "DNA": "Upbit and Bithumb are opening listings and processing for DNA."
+    "XRP": "Institutional interest highlighted by major filings from Franklin Templeton and Rakuten."
    },
    "direction": "positive",
-   "quality": 85,
+   "quality": 79,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 10,
+    "credibility": 12,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
@@ -31,53 +29,57 @@
    "c": "high",
    "sources": [
     {
-     "name": "Bitcoin Sistemi",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeWYtdDRsU1lJWWhlUzd2aGlCVl9vNXdJZk94RzU2NS1UaVFoTzVrSXpfSjFaVFVSUlZLdzBwTEFCbTN4WTdnS1VFU1VtQmVPQzRFX2dpZ3NHUkVyQVlLejhXRnRzOUc1RjhldEhUNlRYa1NSY3ZBbkJpTGt5UmpnUEoxNVBYMFQtU0VZWVFrZ19TYXN6X3pzVjRFaDhnNXpSTk9kZlFkQi0?oc=5"
+     "name": "Coinpaper",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ3U4WkpZRzdLYzZkaHBvSFhVeXVTdmpTMG9vZUdYZVBickpXRUdRZnZvS0JIYjd0VENQZ3YyRGVZTmFaN1NQVTVFeXp6VGxzdmZYcU9RZnN0TlhPUXV1TWstU0FjeHR0TnhGdVBwV1VWeV9vMTRaczBheG03U1NmX2pnd0k1Mk5kRmtnR0FaWTVBdE9GWmNHeUxKTW9VYmtkTVN1VEZMU2RVSG1zR0E?oc=5"
     },
     {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMVVVWUVNUnNRUXN3eU5PWEJWQ3hXSno1RjgxZUxuWHZrc1JGbnFvMGlZNFNVMzVWRzVsd3hfS3lPbjVyS1ByX054NklqbURqTktFX3UzbjZQLVpmNzIwa0FIRUxuRGI2M0JWSXJLczhkWGdyT0tpazgyNFlPUTVyRHpWcm8xMjNDZXhGYXNR?oc=5"
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9PNGdwVHVNODRvdXpyR1VHaWh5V01yakVxdXBQbFFnNGFZWkFDV28zS2pSSDUxa2RwX0RYT0RPdnpZVW83Q0ZWYkFUU0tFQ0VtUjRKT0hfYmQxNC1GWkJ2MDdIMHd2Q0JpTHhYSUFZd2pkdy1nQVE?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYzcxdXZxb1dGVWlpU1BXVXNBR2hhUlNwV296dm5CZ1gwdTlLeHk5WFdwWmZYU2dhUXNnNWdHdWh3U2h4blZrTGl0QlBtMUxBTzBLdWwzZ3F2Yk9KZXRUZG1NQ0hUdnFmY2tCLWdUY0U2NU16ZklBZEVrN3JmSWF5Z29MRQ?oc=5"
+    },
+    {
+     "name": "U.Today",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAyTThBZVUxaHppUEMyM1AxcFVLd25oUlVqQzg2Z0JqY1JOSXg4b3NrMWhHamt4cTdGZ1pkeHFWTFVzSDNpbWZRdnpfdHl6eXM5UHhJSGRYZ0V1VzR3MHYzTEYyd0txWW9fNmttT0FsSDRERGx2bzJkYXpUcDFVMmfSAYQBQVVfeXFMT3NGRWcxUTV5a3poT0phRkZfMXVIZmRqd3NvOXNjMlpUSUlWY0VsbEIwV25Id2phX2JIend5eEh2ZEYwYU5YS2NLekpMb0tCYWd3SU50U2c4dXQwdmJmVVVUN3FEaVppN3laV2ZHU05yOEFEajdsWDRzbXl4SlhWTHN3elpF?oc=5"
     }
    ],
-   "missing": "Exact launch time and trading pairs"
+   "missing": "Exact purchase dates and future allocation plans."
   },
   {
-   "t": "MSCI Index Removal for Strategy and Metaplanet",
-   "type": "other",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-11-30",
+   "t": "BTCS Sells Ether at a Loss to Maintain Health of Aave Loan",
+   "type": "treasury",
+   "status": "completed",
+   "event_date": null,
    "coins": [
-    "BTC"
+    "ETH"
    ],
-   "rel": "indirect",
-   "b": "MSCI is removing Strategy and Metaplanet from its stock indexes effective November 30.",
+   "rel": "direct",
+   "b": "Nasdaq-listed Ethereum treasury firm BTCS sold ether at a loss to keep its $64 million Aave loan healthy, as 46,676 ETH remain pledged as collateral.",
    "per": {
-    "BTC": "Strategy and Metaplanet face index removal, which could impact corporate bitcoin treasury operations."
+    "ETH": "Sell-off pressure driven by treasury management to avoid liquidation risks."
    },
    "direction": "negative",
-   "quality": 73,
+   "quality": 75,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 19,
-    "relevance": 12,
+    "credibility": 17,
+    "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 15
+    "timing": 6
    },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/markets/strategy-shares-fall-5-msci-index-removal-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/newsletters/the-daily/2026-11-12-bitcoin-12-week-low-strategy-metaplanet-msci-more-crypto-news-439049"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/13/ethereum-treasury-firm-btcs-sold-ether-at-a-loss-to-keep-usd64-million-aave-loan-healthy"
     }
    ],
-   "missing": "Specific market reaction scope"
+   "missing": "Exact amount of ETH sold and remaining liquidation price triggers."
   }
  ]
 }
