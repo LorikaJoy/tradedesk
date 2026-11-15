@@ -1,18 +1,20 @@
 {
- "updated": "2026-11-15T16:36:24.863819+00:00",
+ "updated": "2026-11-15T21:17:20.691989+00:00",
  "cards": [
   {
-   "t": "Kava Lend Hack",
+   "t": "Kava Lend Hacked for $3.8 Million",
    "type": "hack",
    "status": "completed",
    "event_date": null,
    "coins": [
-    "KAVA"
+    "KAVA",
+    "BNB",
+    "USDT"
    ],
    "rel": "direct",
-   "b": "Kava Lend suffered a hack resulting in a loss of roughly $3.8 million, sending the KAVA token down nearly 40%.",
+   "b": "Kava Lend suffered a hack resulting in a loss of roughly $3.8 million, with 49.2 million KAVA bridged and sold.",
    "per": {
-    "KAVA": "Dropped nearly 40% after about 49.2 million KAVA was bridged to BNB Chain via LayerZero and sold."
+    "KAVA": "Dropped nearly 40% following the exploit."
    },
    "direction": "negative",
    "quality": 83,
@@ -33,7 +35,39 @@
      "url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350"
     }
    ],
-   "missing": "Exact vulnerability vector and recovery plans."
+   "missing": "Vulnerability exploit vector and recovery plans"
+  },
+  {
+   "t": "stUSDT Protocol Winds Down",
+   "type": "other",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "USDT"
+   ],
+   "rel": "direct",
+   "b": "The RWA protocol stUSDT is winding down three years after reaching its $2.3 billion TVL peak, though holders were assured underlying assets remain fully backed.",
+   "per": {},
+   "direction": "negative",
+   "quality": 71,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/rwa-protocol-stusdt-winds-down-three-years-after-23b-tvl-peak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Reason for shutting down the protocol"
   }
  ]
 }
