@@ -1,4 +1,39 @@
 {
- "updated": "2026-11-14T22:50:30.194588+00:00",
- "cards": []
+ "updated": "2026-11-15T02:19:31.662927+00:00",
+ "cards": [
+  {
+   "t": "Kava Lend Loses $3.8 Million in Hack",
+   "type": "hack",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "KAVA"
+   ],
+   "rel": "direct",
+   "b": "Kava Lend suffered a hack resulting in the loss of approximately $3.8 million, causing the KAVA token price to drop nearly 40%.",
+   "per": {
+    "KAVA": "Faced severe downward pressure following a $3.8 million exploit on Kava Lend."
+   },
+   "direction": "negative",
+   "quality": 92,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350"
+    }
+   ],
+   "missing": "Exact date of the exploit and recovery plans."
+  }
+ ]
 }
