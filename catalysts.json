@@ -1,31 +1,31 @@
 {
- "updated": "2026-11-15T02:19:31.662927+00:00",
+ "updated": "2026-11-15T09:42:18.752351+00:00",
  "cards": [
   {
-   "t": "Kava Lend Loses $3.8 Million in Hack",
+   "t": "Kava Lend Security Breach",
    "type": "hack",
-   "status": "confirmed_upcoming",
+   "status": "completed",
    "event_date": null,
    "coins": [
     "KAVA"
    ],
    "rel": "direct",
-   "b": "Kava Lend suffered a hack resulting in the loss of approximately $3.8 million, causing the KAVA token price to drop nearly 40%.",
+   "b": "Kava Lend suffered a hack resulting in approximately $3.8 million in losses, with 49.2 million KAVA tokens bridged and sold.",
    "per": {
-    "KAVA": "Faced severe downward pressure following a $3.8 million exploit on Kava Lend."
+    "KAVA": "The exploit caused a significant price decline, dropping nearly 40% immediately following the news."
    },
    "direction": "negative",
-   "quality": 92,
+   "quality": 83,
    "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 17,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 15
+    "timing": 6
    },
-   "impact": 9,
-   "s": "building",
+   "impact": 8,
+   "s": "fading",
    "c": "high",
    "sources": [
     {
@@ -33,7 +33,159 @@
      "url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350"
     }
    ],
-   "missing": "Exact date of the exploit and recovery plans."
+   "missing": "Information on fund recovery or mitigation plans for affected users."
+  },
+  {
+   "t": "stUSDT Protocol Wind Down",
+   "type": "other",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "STUSDT"
+   ],
+   "rel": "direct",
+   "b": "The RWA protocol stUSDT is winding down operations three years after reaching a peak of $2.3 billion in total value locked.",
+   "per": {
+    "stUSDT": "The protocol assures that underlying assets remain fully backed during the wind-down process."
+   },
+   "direction": "negative",
+   "quality": 81,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/rwa-protocol-stusdt-winds-down-three-years-after-23b-tvl-peak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "The specific reason for the decision to wind down."
+  },
+  {
+   "t": "MegaETH Staff Restructuring",
+   "type": "other",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "MEGAETH"
+   ],
+   "rel": "direct",
+   "b": "MegaETH is cutting 20% of its staff to refocus on AI-related business, following a significant drop in its ecosystem's total value locked (TVL).",
+   "per": {
+    "MEGAETH": "Staff cuts and pivot to AI come alongside a sharp decline in TVL from $245 million to $8.8 million."
+   },
+   "direction": "negative",
+   "quality": 77,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/megaeth-parent-cuts-20-percent-staff-ai-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Detailed impact on current blockchain development roadmap."
+  },
+  {
+   "t": "Shiba Inu Event Contract Filing",
+   "type": "other",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "SHIB"
+   ],
+   "rel": "direct",
+   "b": "Nadex has self-certified Shiba Inu strike contracts with the CFTC, allowing for regulated price trading of SHIB derivatives.",
+   "per": {
+    "SHIB": "Introduction of regulated event contracts may increase accessibility and trading volume."
+   },
+   "direction": "positive",
+   "quality": 70,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 10,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "Coinpaper",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWG1FbWtLVkQwLTdYcUk0aFlFRUQ1dGM4QkctYml4a2FlOFo1R0tHMEhRa0oyZkNZUU54TjRQaHlQWlFCZ1lSS0RRVUdHS1haZ1FoU2lOcjlVbHg4YVd1bGF5MjcyZV9CaHNxOVN1SDRjYU1Sd1VHcXlWSW1uV3k1aElCbkZKdGc0YnRwTUxBb1BmQ05pd2ZJVGNjM29mWjFEOGhEU09LN0NfUExDZ1NLcnp6VQ?oc=5"
+    },
+    {
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA1ZEVuUlBHbUhZR2oxeTJib0tlZVJEeFdVelRpM1E1MktJQlNWNjVsNHhHU0xKWVJ4U3k4cWhiYzlqTlEwRHp2MmFMdTNpS1hvZlNybGxVeU1vZC16YTNlVW5teXVkckxOUThPWkhGTGhaakFvVkE?oc=5"
+    }
+   ],
+   "missing": "Exact launch date for the availability of these contracts to users."
+  },
+  {
+   "t": "Hyperliquid Token Burn Program",
+   "type": "burn",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "HYPE"
+   ],
+   "rel": "direct",
+   "b": "Hyperliquid continues its token burn program, having cumulatively burned 50.59 million HYPE tokens to date, with a recent burn of $3.17 million worth of tokens.",
+   "per": {
+    "HYPE": "Cumulative burns of 50.59M tokens continue to support the supply reduction mechanism."
+   },
+   "direction": "positive",
+   "quality": 68,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 7,
+    "timing": 12
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVWNCdER2eS0yeHdDWXo2LThVSGh6YVZfM0FBM25vVWRoMDk3YTExbUlmd0V0aTltWjdJZG5PQlp3cEtVUmJUcXNwVFlfVUcyclRMV0MzX1FVZlBrX200blVXZ2hvSk4yNnpXUFNWeHU3NnZCbEtTSlhHbThQWnpMbFNhME5iR0Zk?oc=5"
+    },
+    {
+     "name": "TOKENPOST",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZZlFGWnR3NnJSQWpld05WX2l4S1Fyc3Fsam5OUlRUdkFwV3ZaRXpkRjN2STkzVVBobmxIakV1QnhwZmZZOFlZeUZyMlBHdTBUaU1LWDJBNVYydw?oc=5"
+    },
+    {
+     "name": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZmtxNl9McXI1NjVOLW5DZWZiRVhCbUdpWmNTdUlGX08yVUVKb1pOOUM3VlpDS3pPUi03TWVLMEQ1RktVRUVDa1ljRC1FM3JxM2hHOWJ2REFMTUpseDVKUTFtN2FNNGJ3VVBGTXNkSXBZM2pkYXc4ODl1N2R4U0Q3dg?oc=5"
+    }
+   ],
+   "missing": "Specific upcoming burn schedule or future targets."
   }
  ]
 }
