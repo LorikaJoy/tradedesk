@@ -1,33 +1,31 @@
 {
- "updated": "2026-11-15T21:17:20.691989+00:00",
+ "updated": "2026-11-16T01:14:40.545273+00:00",
  "cards": [
   {
-   "t": "Kava Lend Hacked for $3.8 Million",
+   "t": "Kava Lend Protocol Hack",
    "type": "hack",
-   "status": "completed",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "KAVA",
-    "BNB",
-    "USDT"
+    "KAVA"
    ],
    "rel": "direct",
-   "b": "Kava Lend suffered a hack resulting in a loss of roughly $3.8 million, with 49.2 million KAVA bridged and sold.",
+   "b": "Kava Lend suffered a hack resulting in a loss of roughly $3.8 million, causing the KAVA token to drop nearly 40%. Approximately 49.2 million KAVA was bridged to BNB Chain via LayerZero and sold for about $2.1 million in BNB and USDT.",
    "per": {
-    "KAVA": "Dropped nearly 40% following the exploit."
+    "KAVA": "Dropped nearly 40% following a $3.8 million exploit and subsequent token sell-off."
    },
    "direction": "negative",
-   "quality": 83,
+   "quality": 92,
    "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 17,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
-   "impact": 8,
-   "s": "fading",
+   "impact": 9,
+   "s": "building",
    "c": "high",
    "sources": [
     {
@@ -35,39 +33,7 @@
      "url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350"
     }
    ],
-   "missing": "Vulnerability exploit vector and recovery plans"
-  },
-  {
-   "t": "stUSDT Protocol Winds Down",
-   "type": "other",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "USDT"
-   ],
-   "rel": "direct",
-   "b": "The RWA protocol stUSDT is winding down three years after reaching its $2.3 billion TVL peak, though holders were assured underlying assets remain fully backed.",
-   "per": {},
-   "direction": "negative",
-   "quality": 71,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/rwa-protocol-stusdt-winds-down-three-years-after-23b-tvl-peak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Reason for shutting down the protocol"
+   "missing": "Recovery details, exact vulnerability vector, and remediation timeline."
   }
  ]
 }
