@@ -1,60 +1,26 @@
 {
- "updated": "2026-11-16T08:01:30.467718+00:00",
+ "updated": "2026-11-16T18:29:22.733003+00:00",
  "cards": [
   {
-   "t": "Kava Lend Loses $3.8 Million in Exploit",
-   "type": "hack",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "KAVA"
-   ],
-   "rel": "direct",
-   "b": "Kava Lend suffered a hack resulting in a loss of roughly $3.8 million, sending the KAVA token down nearly 40%.",
-   "per": {
-    "KAVA": "Fell nearly 40% following a $3.8 million exploit where funds were bridged and sold."
-   },
-   "direction": "negative",
-   "quality": 92,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350"
-    }
-   ],
-   "missing": "Recovery plans and security patch details."
-  },
-  {
-   "t": "Coinbase Suspends NEON and SYND Trading",
+   "t": "Coinbase Delisting of NEON and SYND",
    "type": "delisting",
    "status": "confirmed_upcoming",
-   "event_date": "2026-11-16",
+   "event_date": "2024-11-16",
    "coins": [
     "NEON",
     "SYND"
    ],
    "rel": "direct",
-   "b": "Coinbase announced it will suspend trading for NEON and SYND tokens on November 16.",
+   "b": "Coinbase has announced the suspension of trading for Neon EVM (NEON) and Synapse (SYND) effective November 16.",
    "per": {
-    "NEON": "Trading suspension scheduled for November 16 on Coinbase.",
-    "SYND": "Trading suspension scheduled for November 16 on Coinbase."
+    "NEON": "Trading to be suspended on November 16.",
+    "SYND": "Trading to be suspended on November 16."
    },
    "direction": "negative",
-   "quality": 83,
+   "quality": 85,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 10,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
@@ -67,85 +33,47 @@
     {
      "name": "Altcoin Buzz",
      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRllqWnlYc0VjXzZ4MHk4NE9qRHJLemV3UV9Ma3pxalNic3FyXzlUSDRWLXlMX2hEV25BLWVSYTVLR3FsUVJtQjlOelh2dHpvLTJkWTFxc2gzTU9QZ3UteGNySV9tdXdIV2ZHSHUxcGRyeXJIejFUY1hkMmdteVlYNld6M3hRdWp5?oc=5"
-    }
-   ],
-   "missing": "Exact time of suspension and whether withdrawals will also be halted immediately."
-  },
-  {
-   "t": "Cardano Treasury Proposal to Buy Warehouse Copper Defeated",
-   "type": "treasury",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "ADA"
-   ],
-   "rel": "direct",
-   "b": "A $5 million ADA treasury proposal to buy warehouse copper expired after failing to secure constitutional committee votes.",
-   "per": {
-    "ADA": "The $5 million treasury request expired with no constitutional committee members voting yes."
-   },
-   "direction": "negative",
-   "quality": 68,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
+    },
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/11/16/cardano-holders-vote-down-usd5-million-bid-to-buy-warehouse-copper"
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeEdTckw2Nnhmamx1bmFMWkY4NzJCM2ZMbnY4cXdodHVRQlk0SHQwa1oyTXdfRmFVUklBRWNPQWZEb2o0aExpNmZEeUJQODFveUp5eEpjYlFaYlJxaU5KOGM3UER0WmtQajVLWGVPRWdycW1uYmUwOXA4RnJBNGxMTmxtR0RuNl95d1ZlbjVR?oc=5"
     }
    ],
-   "missing": "Future treasury deployment plans."
+   "missing": "None"
   },
   {
-   "t": "Luxor Suffers AI-Enabled Hashrate Hijack Attack",
-   "type": "hack",
-   "status": "completed",
-   "event_date": null,
+   "t": "Clearpool CPOOL-to-CLEAR Wallet Swap",
+   "type": "other",
+   "status": "confirmed_upcoming",
+   "event_date": "2024-11-16",
    "coins": [
-    "BTC"
+    "CPOOL"
    ],
    "rel": "direct",
-   "b": "Luxor experienced an AI-enabled attack over the weekend that redirected client hashrate and BTC rewards to an attacker. The vulnerability was patched within two hours, and affected customers will be reimbursed.",
+   "b": "Clearpool has scheduled the opening of the CPOOL-to-CLEAR wallet swap for November 16.",
    "per": {
-    "BTC": "Miner rewards were temporarily redirected in an attack affecting a dozen customers."
+    "CPOOL": "Wallet swap to CLEAR opens on November 16."
    },
-   "direction": "negative",
-   "quality": 66,
-   "label": "NEGATIVE CATALYST",
+   "direction": "mixed",
+   "quality": 75,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 21,
-    "relevance": 12,
+    "credibility": 8,
+    "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
+   "impact": 8,
+   "s": "building",
+   "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/11/16/bitcoin-miners-were-hijacked-and-their-btc-rewards-redirected-to-an-attacker"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/luxor-ceo-warns-of-ai-dark-forest-after-bitcoin-miner-hijack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-11-15-luxor-attack-client-hashrate-440810"
+     "name": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YcVA3U3ZCUjFhaFhxeDBqT2xtRzc1Qk5uMmNrYzlBRlg1ZnVaaDN6MFQ2T3BGR0FpM0h2MUN6RE1DLVdSVVBJNC1IZ2RPY1liQ0RJOHZBdHVJcFk?oc=5"
     }
    ],
-   "missing": "Total amount of Bitcoin redirected before the patch."
+   "missing": "Full details on the conversion ratio or specific mechanics."
   }
  ]
 }
