@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-16T01:14:40.545273+00:00",
+ "updated": "2026-11-16T08:01:30.467718+00:00",
  "cards": [
   {
-   "t": "Kava Lend Protocol Hack",
+   "t": "Kava Lend Loses $3.8 Million in Exploit",
    "type": "hack",
    "status": "confirmed_upcoming",
    "event_date": null,
@@ -10,9 +10,9 @@
     "KAVA"
    ],
    "rel": "direct",
-   "b": "Kava Lend suffered a hack resulting in a loss of roughly $3.8 million, causing the KAVA token to drop nearly 40%. Approximately 49.2 million KAVA was bridged to BNB Chain via LayerZero and sold for about $2.1 million in BNB and USDT.",
+   "b": "Kava Lend suffered a hack resulting in a loss of roughly $3.8 million, sending the KAVA token down nearly 40%.",
    "per": {
-    "KAVA": "Dropped nearly 40% following a $3.8 million exploit and subsequent token sell-off."
+    "KAVA": "Fell nearly 40% following a $3.8 million exploit where funds were bridged and sold."
    },
    "direction": "negative",
    "quality": 92,
@@ -33,7 +33,119 @@
      "url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350"
     }
    ],
-   "missing": "Recovery details, exact vulnerability vector, and remediation timeline."
+   "missing": "Recovery plans and security patch details."
+  },
+  {
+   "t": "Coinbase Suspends NEON and SYND Trading",
+   "type": "delisting",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-11-16",
+   "coins": [
+    "NEON",
+    "SYND"
+   ],
+   "rel": "direct",
+   "b": "Coinbase announced it will suspend trading for NEON and SYND tokens on November 16.",
+   "per": {
+    "NEON": "Trading suspension scheduled for November 16 on Coinbase.",
+    "SYND": "Trading suspension scheduled for November 16 on Coinbase."
+   },
+   "direction": "negative",
+   "quality": 83,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Altcoin Buzz",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRllqWnlYc0VjXzZ4MHk4NE9qRHJLemV3UV9Ma3pxalNic3FyXzlUSDRWLXlMX2hEV25BLWVSYTVLR3FsUVJtQjlOelh2dHpvLTJkWTFxc2gzTU9QZ3UteGNySV9tdXdIV2ZHSHUxcGRyeXJIejFUY1hkMmdteVlYNld6M3hRdWp5?oc=5"
+    }
+   ],
+   "missing": "Exact time of suspension and whether withdrawals will also be halted immediately."
+  },
+  {
+   "t": "Cardano Treasury Proposal to Buy Warehouse Copper Defeated",
+   "type": "treasury",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "ADA"
+   ],
+   "rel": "direct",
+   "b": "A $5 million ADA treasury proposal to buy warehouse copper expired after failing to secure constitutional committee votes.",
+   "per": {
+    "ADA": "The $5 million treasury request expired with no constitutional committee members voting yes."
+   },
+   "direction": "negative",
+   "quality": 68,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/16/cardano-holders-vote-down-usd5-million-bid-to-buy-warehouse-copper"
+    }
+   ],
+   "missing": "Future treasury deployment plans."
+  },
+  {
+   "t": "Luxor Suffers AI-Enabled Hashrate Hijack Attack",
+   "type": "hack",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Luxor experienced an AI-enabled attack over the weekend that redirected client hashrate and BTC rewards to an attacker. The vulnerability was patched within two hours, and affected customers will be reimbursed.",
+   "per": {
+    "BTC": "Miner rewards were temporarily redirected in an attack affecting a dozen customers."
+   },
+   "direction": "negative",
+   "quality": 66,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/11/16/bitcoin-miners-were-hijacked-and-their-btc-rewards-redirected-to-an-attacker"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/luxor-ceo-warns-of-ai-dark-forest-after-bitcoin-miner-hijack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-11-15-luxor-attack-client-hashrate-440810"
+    }
+   ],
+   "missing": "Total amount of Bitcoin redirected before the patch."
   }
  ]
 }
