@@ -1,24 +1,59 @@
 {
- "updated": "2026-11-17T01:58:38.413991+00:00",
+ "updated": "2026-11-17T10:22:17.513453+00:00",
  "cards": [
   {
-   "t": "Strategy Buys 485 Bitcoin and Repurchases STRC Shares",
-   "type": "buyback",
+   "t": "Zelle Solana Integration for ZelleUSD",
+   "type": "partnership",
    "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "BTC"
+    "SOL"
    ],
    "rel": "direct",
-   "b": "Strategy purchased 485 Bitcoin for $33.4 million and spent $228.1 million repurchasing STRC preferred shares, funded primarily through common stock sales.",
+   "b": "Zelle is planning to utilize the Solana blockchain for its ZelleUSD stablecoin and international payment operations.",
    "per": {
-    "BTC": "Strategy added 485 BTC to its treasury, bringing total holdings to 850,849 BTC."
+    "SOL": "Chosen as the underlying infrastructure for ZelleUSD stablecoin."
    },
    "direction": "positive",
-   "quality": 84,
+   "quality": 92,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 17,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/zelle-solana-zelleusd-stablecoin-international-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Official timeline for full implementation."
+  },
+  {
+   "t": "Clearpool CPOOL-to-CLEAR Wallet Swap",
+   "type": "other",
+   "status": "confirmed_upcoming",
+   "event_date": "2024-11-16",
+   "coins": [
+    "CPOOL",
+    "CLEAR"
+   ],
+   "rel": "direct",
+   "b": "Clearpool is initiating a wallet swap process for the migration from CPOOL tokens to CLEAR tokens starting November 16.",
+   "per": {
+    "CPOOL": "Transitioning to CLEAR token via wallet swap."
+   },
+   "direction": "mixed",
+   "quality": 75,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 8,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -29,30 +64,64 @@
    "c": "high",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/strategy-buy-485-bitcoin-228-million-strc-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YcVA3U3ZCUjFhaFhxeDBqT2xtRzc1Qk5uMmNrYzlBRlg1ZnVaaDN6MFQ2T3BGR0FpM0h2MUN6RE1DLVdSVVBJNC1IZ2RPY1liQ0RJOHZBdHVJcFk?oc=5"
     }
    ],
-   "missing": "Exact execution dates of the purchases."
+   "missing": "Specific details on exchange support or centralized platform procedures."
   },
   {
-   "t": "Solana Removes 'Beta' Label and Adopts Protocol Version 1.0",
-   "type": "mainnet",
+   "t": "OKX JCT Perpetual Futures Launch",
+   "type": "listing",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "JCT"
+   ],
+   "rel": "direct",
+   "b": "OKX has officially launched perpetual futures trading for the JCT token.",
+   "per": {
+    "JCT": "Now available for perpetual futures trading on OKX."
+   },
+   "direction": "positive",
+   "quality": 68,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "Coinfomania",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNk5QemtEcWt5d19CbFNWdU5nb0JZOFN6dFRVVVlHS1BYUGhPVkdxUEczZjZFdkRuRzBmY004anl5RGhDTU9aUzlHSFNrLXBrSU9LZWlTeGt6alRNZEZkNHIzLWhYeVV6eEdxZ1VvSlREbmN5V2FmalNiYWJYdDA5UQ?oc=5"
+    }
+   ],
+   "missing": "None"
+  },
+  {
+   "t": "Cardano Treasury Request Vote",
+   "type": "treasury",
    "status": "completed",
    "event_date": null,
    "coins": [
-    "SOL"
+    "ADA"
    ],
    "rel": "direct",
-   "b": "The Solana Foundation officially retired the 'mainnet beta' label after six years, introducing Solana 1.0 as a shared protocol version.",
+   "b": "Cardano holders and the constitutional committee voted down a proposal to spend 22 million ADA from the treasury for a warehouse copper project.",
    "per": {
-    "SOL": "Solana transitioned to version 1.0, establishing a shared version number for tracking network rules."
+    "ADA": "Treasury funding request rejected."
    },
-   "direction": "positive",
-   "quality": 72,
-   "label": "COMPLETED CATALYST",
+   "direction": "negative",
+   "quality": 68,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 21,
+    "credibility": 17,
     "relevance": 25,
     "impact": 5,
     "novelty": 15,
@@ -64,18 +133,10 @@
    "sources": [
     {
      "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/11/16/solana-drops-beta-label-after-more-than-six-years"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/383322/solana-drops-mainnet-beta-after-six-years"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/ecosystems/2026-11-16-solana-drops-mainnet-beta-label-and-adopts-protocol-version-1-0-440885"
+     "url": "https://www.coindesk.com/markets/2026/11/16/cardano-holders-vote-down-usd5-million-bid-to-buy-warehouse-copper"
     }
    ],
-   "missing": "Any immediate technical changes to wallets or app layers."
+   "missing": "None"
   }
  ]
 }
