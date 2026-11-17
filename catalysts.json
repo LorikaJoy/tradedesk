@@ -1,61 +1,30 @@
 {
- "updated": "2026-11-17T10:22:17.513453+00:00",
+ "updated": "2026-11-17T19:15:57.422821+00:00",
  "cards": [
   {
-   "t": "Zelle Solana Integration for ZelleUSD",
-   "type": "partnership",
+   "t": "Coinbase Expands Crypto Loans to New York",
+   "type": "other",
    "status": "officially_announced",
    "event_date": null,
    "coins": [
+    "BTC",
+    "ETH",
     "SOL"
    ],
    "rel": "direct",
-   "b": "Zelle is planning to utilize the Solana blockchain for its ZelleUSD stablecoin and international payment operations.",
+   "b": "Coinbase has expanded its onchain crypto loan product to residents of New York, allowing users to use BTC, ETH, and SOL as collateral.",
    "per": {
-    "SOL": "Chosen as the underlying infrastructure for ZelleUSD stablecoin."
+    "BTC": "Expanded collateral availability for NY users.",
+    "ETH": "Expanded collateral availability for NY users.",
+    "SOL": "Expanded collateral availability for NY users."
    },
    "direction": "positive",
-   "quality": 92,
+   "quality": 77,
    "label": "STRONG CATALYST",
    "parts": {
     "credibility": 17,
     "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/zelle-solana-zelleusd-stablecoin-international-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Official timeline for full implementation."
-  },
-  {
-   "t": "Clearpool CPOOL-to-CLEAR Wallet Swap",
-   "type": "other",
-   "status": "confirmed_upcoming",
-   "event_date": "2024-11-16",
-   "coins": [
-    "CPOOL",
-    "CLEAR"
-   ],
-   "rel": "direct",
-   "b": "Clearpool is initiating a wallet swap process for the migration from CPOOL tokens to CLEAR tokens starting November 16.",
-   "per": {
-    "CPOOL": "Transitioning to CLEAR token via wallet swap."
-   },
-   "direction": "mixed",
-   "quality": 75,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
+    "impact": 5,
     "novelty": 15,
     "timing": 15
    },
@@ -64,31 +33,183 @@
    "c": "high",
    "sources": [
     {
-     "name": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YcVA3U3ZCUjFhaFhxeDBqT2xtRzc1Qk5uMmNrYzlBRlg1ZnVaaDN6MFQ2T3BGR0FpM0h2MUN6RE1DLVdSVVBJNC1IZ2RPY1liQ0RJOHZBdHVJcFk?oc=5"
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-11-17-coinbase-borrow-new-york-morpho-442842"
     }
    ],
-   "missing": "Specific details on exchange support or centralized platform procedures."
+   "missing": "None"
   },
   {
-   "t": "OKX JCT Perpetual Futures Launch",
-   "type": "listing",
+   "t": "Solana Mainnet Beta 1.0 Launch",
+   "type": "mainnet",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "Solana has transitioned from 'Mainnet Beta' to version 1.0, establishing a formal standard for network rules.",
+   "per": {
+    "SOL": "Transition to 1.0 provides a common tracking framework for network rules."
+   },
+   "direction": "positive",
+   "quality": 75,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/383322/solana-drops-mainnet-beta-after-six-years"
+    }
+   ],
+   "missing": "Specific date of the transition completion."
+  },
+  {
+   "t": "Binance Hacker Moves $63M in ETH",
+   "type": "hack",
+   "status": "ongoing",
+   "event_date": "2026-11-17",
+   "coins": [
+    "ETH"
+   ],
+   "rel": "direct",
+   "b": "Hackers linked to a previous Binance exploit have moved 34,279 ETH to new wallets after weeks of inactivity.",
+   "per": {
+    "ETH": "Potential sell pressure if stolen funds are liquidated."
+   },
+   "direction": "negative",
+   "quality": 75,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 7,
+    "timing": 12
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks"
+    }
+   ],
+   "missing": "The ultimate destination of the transferred funds."
+  },
+  {
+   "t": "CFTC Approves Blockchain-Based Derivatives Clearing",
+   "type": "regulation",
    "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "JCT"
+    "BTC"
    ],
-   "rel": "direct",
-   "b": "OKX has officially launched perpetual futures trading for the JCT token.",
+   "rel": "indirect",
+   "b": "The CFTC has greenlit blockchain-based derivatives clearing operations, beginning with platforms like Backpack and tZERO, allowing institutional margin via custodied assets.",
    "per": {
-    "JCT": "Now available for perpetual futures trading on OKX."
+    "BTC": "Institutional adoption potential increases via CFTC-regulated margin usage."
    },
    "direction": "positive",
-   "quality": 68,
+   "quality": 73,
    "label": "MODERATE CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 19,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/383418/morning-minute-the-cftc-officially-greenlights-perps-in-the-us-starting-with-backpack"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/regulation/2026-11-16-cftc-blockchain-derivatives-exchange-approval-backpack-tzero-441591"
+    }
+   ],
+   "missing": "None"
+  },
+  {
+   "t": "Lighter Exchange Exploit Recovery",
+   "type": "hack",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "USDC"
+   ],
+   "rel": "direct",
+   "b": "Following a $10.4 million exploit caused by a leaked API key, Lighter has recovered and returned $5 million in USDC to the affected user.",
+   "per": {
+    "USDC": "Recovery of partial funds mitigates total loss impact."
+   },
+   "direction": "mixed",
+   "quality": 70,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 21,
     "relevance": 25,
+    "impact": 5,
+    "novelty": 7,
+    "timing": 12
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/defi/2026-11-17-lighter-reopens-withdrawals-after-traders-api-key-leak-returns-about-5-million-in-usdc-442113"
+    }
+   ],
+   "missing": "Recovery status of the remaining $5.4 million."
+  },
+  {
+   "t": "Trezor Customer Data Breach",
+   "type": "other",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "indirect",
+   "b": "Trezor confirmed a data breach at a shipping partner, exposing the personal details of 27,000 customers.",
+   "per": {
+    "BTC": "Reputational impact for the hardware wallet ecosystem."
+   },
+   "direction": "negative",
+   "quality": 66,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 12,
     "impact": 5,
     "novelty": 15,
     "timing": 15
@@ -98,45 +219,15 @@
    "c": "medium",
    "sources": [
     {
-     "name": "Coinfomania",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNk5QemtEcWt5d19CbFNWdU5nb0JZOFN6dFRVVVlHS1BYUGhPVkdxUEczZjZFdkRuRzBmY004anl5RGhDTU9aUzlHSFNrLXBrSU9LZWlTeGt6alRNZEZkNHIzLWhYeVV6eEdxZ1VvSlREbmN5V2FmalNiYWJYdDA5UQ?oc=5"
-    }
-   ],
-   "missing": "None"
-  },
-  {
-   "t": "Cardano Treasury Request Vote",
-   "type": "treasury",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "ADA"
-   ],
-   "rel": "direct",
-   "b": "Cardano holders and the constitutional committee voted down a proposal to spend 22 million ADA from the treasury for a warehouse copper project.",
-   "per": {
-    "ADA": "Treasury funding request rejected."
-   },
-   "direction": "negative",
-   "quality": 68,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/trezor-customer-data-exposed-in-3rd-partner-breach-this-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/11/16/cardano-holders-vote-down-usd5-million-bid-to-buy-warehouse-copper"
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-11-16-trezor-hit-another-shipping-partner-data-leak-affecting-27000-skladon-orders-441524"
     }
    ],
-   "missing": "None"
+   "missing": "Extent of assets potentially targeted via phishing."
   }
  ]
 }
