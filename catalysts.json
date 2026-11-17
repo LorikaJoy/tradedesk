@@ -1,64 +1,24 @@
 {
- "updated": "2026-11-16T18:29:22.733003+00:00",
+ "updated": "2026-11-17T01:58:38.413991+00:00",
  "cards": [
   {
-   "t": "Coinbase Delisting of NEON and SYND",
-   "type": "delisting",
-   "status": "confirmed_upcoming",
-   "event_date": "2024-11-16",
+   "t": "Strategy Buys 485 Bitcoin and Repurchases STRC Shares",
+   "type": "buyback",
+   "status": "officially_announced",
+   "event_date": null,
    "coins": [
-    "NEON",
-    "SYND"
+    "BTC"
    ],
    "rel": "direct",
-   "b": "Coinbase has announced the suspension of trading for Neon EVM (NEON) and Synapse (SYND) effective November 16.",
+   "b": "Strategy purchased 485 Bitcoin for $33.4 million and spent $228.1 million repurchasing STRC preferred shares, funded primarily through common stock sales.",
    "per": {
-    "NEON": "Trading to be suspended on November 16.",
-    "SYND": "Trading to be suspended on November 16."
+    "BTC": "Strategy added 485 BTC to its treasury, bringing total holdings to 850,849 BTC."
    },
-   "direction": "negative",
-   "quality": 85,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 10,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Altcoin Buzz",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRllqWnlYc0VjXzZ4MHk4NE9qRHJLemV3UV9Ma3pxalNic3FyXzlUSDRWLXlMX2hEV25BLWVSYTVLR3FsUVJtQjlOelh2dHpvLTJkWTFxc2gzTU9QZ3UteGNySV9tdXdIV2ZHSHUxcGRyeXJIejFUY1hkMmdteVlYNld6M3hRdWp5?oc=5"
-    },
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeEdTckw2Nnhmamx1bmFMWkY4NzJCM2ZMbnY4cXdodHVRQlk0SHQwa1oyTXdfRmFVUklBRWNPQWZEb2o0aExpNmZEeUJQODFveUp5eEpjYlFaYlJxaU5KOGM3UER0WmtQajVLWGVPRWdycW1uYmUwOXA4RnJBNGxMTmxtR0RuNl95d1ZlbjVR?oc=5"
-    }
-   ],
-   "missing": "None"
-  },
-  {
-   "t": "Clearpool CPOOL-to-CLEAR Wallet Swap",
-   "type": "other",
-   "status": "confirmed_upcoming",
-   "event_date": "2024-11-16",
-   "coins": [
-    "CPOOL"
-   ],
-   "rel": "direct",
-   "b": "Clearpool has scheduled the opening of the CPOOL-to-CLEAR wallet swap for November 16.",
-   "per": {
-    "CPOOL": "Wallet swap to CLEAR opens on November 16."
-   },
-   "direction": "mixed",
-   "quality": 75,
+   "direction": "positive",
+   "quality": 84,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 17,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -69,11 +29,53 @@
    "c": "high",
    "sources": [
     {
-     "name": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YcVA3U3ZCUjFhaFhxeDBqT2xtRzc1Qk5uMmNrYzlBRlg1ZnVaaDN6MFQ2T3BGR0FpM0h2MUN6RE1DLVdSVVBJNC1IZ2RPY1liQ0RJOHZBdHVJcFk?oc=5"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/strategy-buy-485-bitcoin-228-million-strc-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Full details on the conversion ratio or specific mechanics."
+   "missing": "Exact execution dates of the purchases."
+  },
+  {
+   "t": "Solana Removes 'Beta' Label and Adopts Protocol Version 1.0",
+   "type": "mainnet",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "The Solana Foundation officially retired the 'mainnet beta' label after six years, introducing Solana 1.0 as a shared protocol version.",
+   "per": {
+    "SOL": "Solana transitioned to version 1.0, establishing a shared version number for tracking network rules."
+   },
+   "direction": "positive",
+   "quality": 72,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/11/16/solana-drops-beta-label-after-more-than-six-years"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/383322/solana-drops-mainnet-beta-after-six-years"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/ecosystems/2026-11-16-solana-drops-mainnet-beta-label-and-adopts-protocol-version-1-0-440885"
+    }
+   ],
+   "missing": "Any immediate technical changes to wallets or app layers."
   }
  ]
 }
