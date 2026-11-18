@@ -1,4 +1,171 @@
 {
- "updated": "2026-11-18T09:12:23.019546+00:00",
- "cards": []
+ "updated": "2026-11-18T18:03:58.724117+00:00",
+ "cards": [
+  {
+   "t": "Binance Wallet Anthropic IPO Token Sale",
+   "type": "listing",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "ANT"
+   ],
+   "rel": "direct",
+   "b": "Binance Wallet has opened an eight-hour token sale capped at $500 million in USDC tied to the Anthropic IPO.",
+   "per": {
+    "ANT": "Token sale is live on Binance Wallet ahead of listing."
+   },
+   "direction": "positive",
+   "quality": 100,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 25,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 10,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXN1g5c0h4ZmlmQmMyaVprbnlLd25VYXQ2M3dTRkRLYzE2Q1c4YnF4b0hVRGJ1dXNnM1pScG5WSnJXZTVvaHlCdzFrR3kxcnVndy14VFJGSnNJOWZOVm1mTWdNbG5KS0ZmWDQyTEhxYVRjNERZNGc?oc=5"
+    },
+    {
+     "name": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPM2dNazFfUUJTQzBLS0NsWUpRWFU5THdJOWtRdmx1UEtyRVdKOWZBd05aOW9wbjFWVjEtV1lLM0lSR3YzaFBXVTJJUVV4VlJMWTBQX0VVTnBPVTV0MXdSZmNjS1ktYjVIX1ZJdHlhYlhUYjJBczRILXRxTTNMZmh4eDFjVEswTEdNOU9Xd05yOXNrd3JTZERHSGxuY1M4UmxzczFwbmVyYkVKZG8?oc=5"
+    },
+    {
+     "name": "Binance",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcnZmWGFTT0czQ0dlWkl2V0p5N1hic0I1OUZ4RmFWZTRsMFlMWFVpSlU2NWNiUUVPOEZTSzNXTzRKaERSLVc1VXRuX0dpYUY5Q2JfVlVucllURVM0RVhwaENucTdmY1RlU0JoUy0td2lVTWJUN0NIWWJaUjNoRDdQa1dETDlWTU4xYzhLaTIyYTg?oc=5"
+    },
+    {
+     "name": "Blockonomi",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQVQ2c01vVFlvdmlqVEF5dVVDUlR2SktKMDBDOWlCX1NXU1hzSXJIcGtWYV9laUpHdnFtNV8zSS1Wbl9VZ2xmeXRZQV9sRk00dTVJeWFialBpc0VoaVVaLW4xaTJhdjZyUFdVdEVuVWhKWTVKcFVOVzNyVHRzWHBqS2JaOTVRaHprQ2tRTGFhSkxKZ3B6bWVmZVFONVpEVWVEWUU5SGtPUQ?oc=5"
+    }
+   ],
+   "missing": "Exact start and end times beyond the eight-hour window"
+  },
+  {
+   "t": "Bitwise Zcash ETF Texas Stock Exchange Filing",
+   "type": "etf",
+   "status": "officially_announced",
+   "event_date": null,
+   "coins": [
+    "ZEC"
+   ],
+   "rel": "direct",
+   "b": "Bitwise has filed for a Zcash ETF with a proposed listing on the Texas Stock Exchange.",
+   "per": {
+    "ZEC": "ETF filing seeks a Texas Stock Exchange listing."
+   },
+   "direction": "positive",
+   "quality": 79,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMTlPUVF1d2pIWlJUOUxHdFIyNVFiWUJxY2NQcXBKV3oxMnpZWHV6WGhlOVNKLWRuaVlGemY1aVBqTUgtNm5SVjluY3dGcjI1Q0hjYnFIb1l6RUtpaHVzTU1KSWtfVzJKU3BHSDdJWmp1LWhLSGxFdHZVRkJwM0RGRWtxR1FvZ2kyOW51WEhjTE92b0VBdTY0X250UGJiUlk1eV9fbXNCTmpHMlJsNU5oNzc1SzR3STJMeERMTQ?oc=5"
+    },
+    {
+     "name": "The Cryptonomist",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xMUhFYVlEX3VvZmEzV0tUVjY2TVRqaW1YcnhjVDBRVkZfTXRzck42d1M0RXViUlg4MUZ1d2pYcmNheTc4NjNpUHlRSnVRVno4Z1RFTi13c01TbWM3cnFrVjBxb09HTVU?oc=5"
+    },
+    {
+     "name": "Crypto Economy",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9FaUlILVZSSlZ5MTNEUVB4UHhCdUhqdldKemt1UlBRLXFKNURRRzdFcDU2MHB0c3hrZ2lsUGFmYjlrc3NEYXJDUUlaZE9KNy1rbnN4V1J0cU1saE52Tjl2cDl2RHcwVEljRVhSRTJoVUZ6XzNKU0hKcFRVckc?oc=5"
+    }
+   ],
+   "missing": "SEC approval timeline"
+  },
+  {
+   "t": "CoinShares Treasury ETH Sale and SOL Buybacks",
+   "type": "buyback",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "ETH",
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "CoinShares sold all its treasury ETH and halved its SOL holdings in October to raise $19.3 million for buybacks.",
+   "per": {
+    "ETH": "All treasury ETH was sold.",
+    "SOL": "Holdings were halved for buyback funding."
+   },
+   "direction": "mixed",
+   "quality": 68,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/coinshares-sells-eth-treasury-holdings-halves-sol-share-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "Execution dates for the buyback purchases"
+  },
+  {
+   "t": "Coinbase Expands Onchain Loans to New York via Morpho",
+   "type": "partnership",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "BTC",
+    "ETH",
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "Coinbase has expanded its onchain crypto loan product to New York residents utilizing Morpho, supporting BTC, ETH, and SOL as collateral.",
+   "per": {
+    "BTC": "Supported as collateral for New York onchain loans.",
+    "ETH": "Supported as collateral for New York onchain loans.",
+    "SOL": "Supported as collateral for New York onchain loans."
+   },
+   "direction": "positive",
+   "quality": 62,
+   "label": "COMPLETED CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 6,
+   "s": "fading",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/newsletters/the-daily/2026-11-18-ark-invest-crypto-stocks-nvidia-coinbase-loans-new-york-crypto-news-442902"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-11-17-coinbase-borrow-new-york-morpho-442842"
+    }
+   ],
+   "missing": "Borrowing limits and interest rates"
+  }
+ ]
 }
