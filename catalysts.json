@@ -1,24 +1,58 @@
 {
- "updated": "2026-11-17T19:15:57.422821+00:00",
+ "updated": "2026-11-18T01:44:36.467443+00:00",
  "cards": [
   {
-   "t": "Coinbase Expands Crypto Loans to New York",
-   "type": "other",
-   "status": "officially_announced",
+   "t": "Ethereum Glamsterdam Upgrade Risks Breaking Apps",
+   "type": "mainnet",
+   "status": "rumored",
    "event_date": null,
    "coins": [
-    "BTC",
-    "ETH",
-    "SOL"
+    "ETH"
    ],
    "rel": "direct",
-   "b": "Coinbase has expanded its onchain crypto loan product to residents of New York, allowing users to use BTC, ETH, and SOL as collateral.",
+   "b": "Ethereum core developers are weighing scaling changes in the upcoming Glamsterdam upgrade that could break up to 15,000 automated apps and contracts by altering underlying assumptions.",
    "per": {
-    "BTC": "Expanded collateral availability for NY users.",
-    "ETH": "Expanded collateral availability for NY users.",
-    "SOL": "Expanded collateral availability for NY users."
+    "ETH": "Potential compatibility issues and smart contract breaks create risks for dependent decentralized apps."
    },
-   "direction": "positive",
+   "direction": "negative",
+   "quality": 82,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 3
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/11/17/ethereum-s-glamsterdam-upgrade-risks-breaking-up-to-15-000-contracts"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/383462/ethereum-devs-scaling-upgrade-could-break-15000-apps"
+    }
+   ],
+   "missing": "Definitive developer consensus or implementation date."
+  },
+  {
+   "t": "Cardano Foundation Treasury Proposal",
+   "type": "treasury",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "ADA"
+   ],
+   "rel": "direct",
+   "b": "The Cardano Foundation is seeking 25 million ADA from its treasury to fund 12 global events, utilizing a pricing calculation 33% above current market rates.",
+   "per": {
+    "ADA": "Treasury outflow request of 25 million ADA could add selling pressure or fund ecosystem events."
+   },
+   "direction": "mixed",
    "quality": 77,
    "label": "STRONG CATALYST",
    "parts": {
@@ -33,14 +67,14 @@
    "c": "high",
    "sources": [
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-11-17-coinbase-borrow-new-york-morpho-442842"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/11/17/cardano-foundation-seeks-usd5-million-from-treasury-using-ada-price-33-above-market"
     }
    ],
-   "missing": "None"
+   "missing": "Whether community voting has concluded or approved the request."
   },
   {
-   "t": "Solana Mainnet Beta 1.0 Launch",
+   "t": "Solana Exits Mainnet Beta",
    "type": "mainnet",
    "status": "completed",
    "event_date": null,
@@ -48,9 +82,9 @@
     "SOL"
    ],
    "rel": "direct",
-   "b": "Solana has transitioned from 'Mainnet Beta' to version 1.0, establishing a formal standard for network rules.",
+   "b": "Solana has officially dropped the 'Mainnet Beta' designation after six years, moving to version 1.0 to establish a common way to track network rules for developers and users.",
    "per": {
-    "SOL": "Transition to 1.0 provides a common tracking framework for network rules."
+    "SOL": "Transitioning to 1.0 brings a definitive network designation that can impact developer and user confidence."
    },
    "direction": "positive",
    "quality": 75,
@@ -71,163 +105,45 @@
      "url": "https://decrypt.co/383322/solana-drops-mainnet-beta-after-six-years"
     }
    ],
-   "missing": "Specific date of the transition completion."
+   "missing": "Exact activation block or deployment timestamp beyond the announcement."
   },
   {
-   "t": "Binance Hacker Moves $63M in ETH",
-   "type": "hack",
-   "status": "ongoing",
-   "event_date": "2026-11-17",
-   "coins": [
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "Hackers linked to a previous Binance exploit have moved 34,279 ETH to new wallets after weeks of inactivity.",
-   "per": {
-    "ETH": "Potential sell pressure if stolen funds are liquidated."
-   },
-   "direction": "negative",
-   "quality": 75,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 7,
-    "timing": 12
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks"
-    }
-   ],
-   "missing": "The ultimate destination of the transferred funds."
-  },
-  {
-   "t": "CFTC Approves Blockchain-Based Derivatives Clearing",
-   "type": "regulation",
-   "status": "officially_announced",
+   "t": "Coinbase Expands Onchain Loans to New York",
+   "type": "other",
+   "status": "completed",
    "event_date": null,
    "coins": [
-    "BTC"
+    "BTC",
+    "ETH",
+    "SOL"
    ],
-   "rel": "indirect",
-   "b": "The CFTC has greenlit blockchain-based derivatives clearing operations, beginning with platforms like Backpack and tZERO, allowing institutional margin via custodied assets.",
+   "rel": "direct",
+   "b": "Coinbase has expanded its onchain crypto loan product via Morpho to New York residents, supporting BTC, ETH, and SOL as collateral.",
    "per": {
-    "BTC": "Institutional adoption potential increases via CFTC-regulated margin usage."
+    "BTC": "Expanded borrowing access in NY using BTC collateral.",
+    "ETH": "Expanded borrowing access in NY using ETH collateral.",
+    "SOL": "Expanded borrowing access in NY using SOL collateral."
    },
    "direction": "positive",
-   "quality": 73,
-   "label": "MODERATE CATALYST",
+   "quality": 68,
+   "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 19,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/383418/morning-minute-the-cftc-officially-greenlights-perps-in-the-us-starting-with-backpack"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/regulation/2026-11-16-cftc-blockchain-derivatives-exchange-approval-backpack-tzero-441591"
-    }
-   ],
-   "missing": "None"
-  },
-  {
-   "t": "Lighter Exchange Exploit Recovery",
-   "type": "hack",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "USDC"
-   ],
-   "rel": "direct",
-   "b": "Following a $10.4 million exploit caused by a leaked API key, Lighter has recovered and returned $5 million in USDC to the affected user.",
-   "per": {
-    "USDC": "Recovery of partial funds mitigates total loss impact."
-   },
-   "direction": "mixed",
-   "quality": 70,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 21,
+    "credibility": 17,
     "relevance": 25,
     "impact": 5,
-    "novelty": 7,
-    "timing": 12
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-11-17-lighter-reopens-withdrawals-after-traders-api-key-leak-returns-about-5-million-in-usdc-442113"
-    }
-   ],
-   "missing": "Recovery status of the remaining $5.4 million."
-  },
-  {
-   "t": "Trezor Customer Data Breach",
-   "type": "other",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "indirect",
-   "b": "Trezor confirmed a data breach at a shipping partner, exposing the personal details of 27,000 customers.",
-   "per": {
-    "BTC": "Reputational impact for the hardware wallet ecosystem."
-   },
-   "direction": "negative",
-   "quality": 66,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 12,
-    "impact": 5,
     "novelty": 15,
-    "timing": 15
+    "timing": 6
    },
    "impact": 7,
-   "s": "building",
+   "s": "fading",
    "c": "medium",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/trezor-customer-data-exposed-in-3rd-partner-breach-this-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
      "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-11-16-trezor-hit-another-shipping-partner-data-leak-affecting-27000-skladon-orders-441524"
+     "url": "https://www.theblock.co/news/business/2026-11-17-coinbase-borrow-new-york-morpho-442842"
     }
    ],
-   "missing": "Extent of assets potentially targeted via phishing."
+   "missing": "Maximum loan limits or exact regional rollout terms."
   }
  ]
 }
