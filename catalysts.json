@@ -1,178 +1,122 @@
 {
- "updated": "2026-11-19T00:19:47.273756+00:00",
+ "updated": "2026-11-19T07:43:35.174802+00:00",
  "cards": [
   {
-   "t": "Centrifuge Trading Suspension",
-   "type": "delisting",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-12-18",
+   "t": "Bitwise Files for Spot Zcash ETF",
+   "type": "etf",
+   "status": "officially_announced",
+   "event_date": null,
    "coins": [
-    "CFG"
+    "ZEC"
    ],
    "rel": "direct",
-   "b": "Coinbase has scheduled the suspension of Centrifuge (CFG) trading across its platforms for December 18.",
+   "b": "Bitwise has officially filed for a spot Zcash ETF, proposing a listing on the Texas Stock Exchange.",
    "per": {
-    "CFG": "Trading to be halted on Coinbase on Dec 18."
+    "ZEC": "File submitted for spot ETF listing on the proposed Texas Stock Exchange."
    },
-   "direction": "negative",
-   "quality": 85,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 87,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 10,
+    "credibility": 12,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 15
    },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWE9UWklNei1teWpzeWJ2TlUwNk00TnNMSTZsNERIOEFjNlVWY19KQlBMRjYzOVpnZ3NhZmV3YkVHazNkWDNNMkMyRkFHYUpyQmtMdUg4SE9EU05mMWFfS3h0aUI4OV92bThNQjc0aVJha3FhQTVRbWVmLWQtVEpvOHN4SXpLS2RSdndHcU81dVlQaFExVmc?oc=5"
+    },
+    {
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5OHhxOTg4Wk5NTU4yc3ZoYkI1R2FGeWdBaE9zV1Z4NFU3RkhNWjlmMVZ1ZzgydUFNaXNUcXpuZXpDeTZYUnY3NVhQT24zbzRNdHJqYndnX1hLUEZhYVBNRkNpdzNQcExPakVqNE8wQ3V5cnA4THc?oc=5"
+    },
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMTlPUVF1d2pIWlJUOUxHdFIyNVFiWUJxY2NQcXBKV3oxMnpZWHV6WGhlOVNKLWRuaVlGemY1aVBqTUgtNm5SVjluY3dGcjI1Q0hjYnFIb1l6RUtpaHVzTU1KSWtfVzJKU3BHSDdJWmp1LWhLSGxFdHZVRkJwM0RGRWtxR1FvZ2kyOW51WEhjTE92b0VBdTY0X250UGJiUlk1eV9fbXNCTmpHMlJsNU5oNzc1SzR3STJMeERMTQ?oc=5"
+    },
+    {
+     "name": "Crypto Economy",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9FaUlILVZSSlZ5MTNEUVB4UHhCdUhqdldKemt1UlBRLXFKNURRRzdFcDU2MHB0c3hrZ2lsUGFmYjlrc3NEYXJDUUlaZE9KNy1rbnN4V1J0cU1saE52Tjl2cDl2RHcwVEljRVhSRTJoVUZ6XzNKU0hKcFRVckc?oc=5"
+    }
+   ],
+   "missing": "Approval timeline and SEC review dates."
+  },
+  {
+   "t": "Coinbase to Delist Centrifuge (CFG)",
+   "type": "delisting",
+   "status": "confirmed_upcoming",
+   "event_date": "2025-12-18",
+   "coins": [
+    "CFG"
+   ],
+   "rel": "direct",
+   "b": "Coinbase has announced it will halt Centrifuge (CFG) trading across its platforms, setting the suspension date for December 18.",
+   "per": {
+    "CFG": "Trading to be suspended on Coinbase starting December 18."
+   },
+   "direction": "negative",
+   "quality": 79,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
    "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhNnZ3LTZSelhBZHdacE1pbDNlQmJSbFpvVGx5RzlJTTYwOWZRYy1PdTBEWjRuVC1pWHJERHIyakotUXFLLTJYd2ZCLTZYY1BXYkRaMS0zc0E?oc=5"
+     "name": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8tRzFma1RpdkRyZFgxM3NENGM3Zzl4OG5FbUdzYVkyb2hpM3p6VTl5NU1nQjB4TllUX2ZmZnhBMG1mZVRCOEw4LUprbkRWeTZULXpuXzEyRQ?oc=5"
     },
     {
      "name": "Coin Edition",
      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ1cxcmFXSDBPT0FpR1V4T21TZy1wM0lwUzZhYkNqNm1lMGNNcURFWEkteDZfOUFDcnk0SVpuTVdlbUJmYi1Va2o1eHN0NldvUFZPTG9MLXh1SmFuZTBSeDBIQVdBMk9XQ1JXRDhLenYyWC1RdC1ObVhnYlFSbUkxTkczS3hrcXhURzRMTHAycVd3dHhaQlhvY1RzRmQ?oc=5"
-    }
-   ],
-   "missing": "Specific reason for the delisting beyond the announcement."
-  },
-  {
-   "t": "Ondo Anthropic Stock Tokenization",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "ANTON"
-   ],
-   "rel": "direct",
-   "b": "Ondo Finance plans to launch ANTon, a token that tracks Anthropic shares, on the day of the company's IPO.",
-   "per": {
-    "ANTon": "Tokenized equity to launch on IPO day."
-   },
-   "direction": "positive",
-   "quality": 84,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/markets/2026-11-18-ondo-to-launch-tokenized-anthropic-stock-on-ipo-day-443482"
-    }
-   ],
-   "missing": "The specific date of the Anthropic IPO."
-  },
-  {
-   "t": "Bullish Buyback Authorization",
-   "type": "buyback",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "BULL"
-   ],
-   "rel": "direct",
-   "b": "The crypto exchange Bullish has authorized a buyback program following a 35% rise in Q3 adjusted profit.",
-   "per": {
-    "BULL": "Buyback program authorized."
-   },
-   "direction": "positive",
-   "quality": 81,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-11-18-bullishs-q3-adjusted-profit-rises-35-digital-asset-sales-fall-23-443456"
-    }
-   ],
-   "missing": "Total size of the buyback program in dollars."
-  },
-  {
-   "t": "Backpack US Derivatives Launch",
-   "type": "mainnet",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "SOL"
-   ],
-   "rel": "indirect",
-   "b": "Backpack has received CFTC and NFA approval to operate as a designated contract market and clearing organization for US derivatives trading.",
-   "per": {
-    "SOL": "Backpack platform expansion supports the ecosystem."
-   },
-   "direction": "positive",
-   "quality": 73,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/383418/morning-minute-the-cftc-officially-greenlights-perps-in-the-us-starting-with-backpack"
     },
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-11-18-backpack-completes-regulatory-framework-us-entry-442980"
+     "name": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhNnZ3LTZSelhBZHdacE1pbDNlQmJSbFpvVGx5RzlJTTYwOWZRYy1PdTBEWjRuVC1pWHJERHIyakotUXFLLTJYd2ZCLTZYY1BXYkRaMS0zc0E?oc=5"
     }
    ],
-   "missing": "Exact launch date for US derivative contracts."
+   "missing": "Exact time of the suspension and whether self-custody withdrawals will be affected immediately."
   },
   {
-   "t": "CoinShares Treasury ETH Sale and Buybacks",
+   "t": "CoinShares Sells Treasury ETH and SOL for Buybacks",
    "type": "buyback",
-   "status": "ongoing",
+   "status": "completed",
    "event_date": null,
    "coins": [
     "ETH",
     "SOL"
    ],
    "rel": "direct",
-   "b": "CoinShares sold its entire treasury ETH holdings and halved its SOL holdings to raise $19.3 million for buybacks.",
+   "b": "CoinShares sold all of its treasury Ethereum and halved its Solana holdings in October to raise $19.3 million for share buybacks.",
    "per": {
-    "ETH": "All treasury holdings sold for buyback funding.",
-    "SOL": "Holdings halved."
+    "ETH": "All treasury ETH sold by CoinShares to fund buybacks.",
+    "SOL": "Half of CoinShares' SOL holdings sold for buybacks."
    },
    "direction": "mixed",
-   "quality": 70,
-   "label": "MODERATE CATALYST",
+   "quality": 77,
+   "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 19,
-    "relevance": 12,
+    "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 12
+    "timing": 6
    },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
    "sources": [
     {
      "name": "cointelegraph.com",
@@ -183,45 +127,7 @@
      "url": "https://decrypt.co/383570/why-coinshares-just-sold-all-ethereum-half-solana"
     }
    ],
-   "missing": "The timeline for the share buyback execution."
-  },
-  {
-   "t": "Binance Spot Trading Pair Removals",
-   "type": "delisting",
-   "status": "completed",
-   "event_date": "2026-11-20",
-   "coins": [
-    "TRY"
-   ],
-   "rel": "direct",
-   "b": "Binance removed five spot trading pairs, including four Turkish Lira pairs, following a post-hack review.",
-   "per": {
-    "TRY": "Four pairs involving this currency were removed."
-   },
-   "direction": "negative",
-   "quality": 68,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 10,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "BigGo Finance",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EVFBuM01JdUxsc0VFVEd6eU12NGw2ZGZnQ0xhYzVMN0FTS3cyeC1wcWpvbjJVQjdrc3M2d0NsMXJzeXBlc0NXSExnM2dGazFFMWc1NklTSzV6NUlqVGNMQ1oyLTJETzZXRG9nOEdpOWVjc29VeUE?oc=5"
-    },
-    {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdGY3NS1OTm0yZmtQeGlZMExqTG1MTVNud0J4YVJ5dk5PZnh4VlNVWTZGYWNVeGJWYUw1QnAyM2lzV011a052dWl2QzVkeE1GUmJuRDJGT1lQOW0wMDlJdlJqVlozYVBMb19BUFo3ZkppNHh2eXhJelBtLVRIUGxnS0x4aVFNTVhs?oc=5"
-    }
-   ],
-   "missing": "Specific names of all five removed pairs."
+   "missing": "Details on when the actual buyback execution in the open market will complete."
   }
  ]
 }
