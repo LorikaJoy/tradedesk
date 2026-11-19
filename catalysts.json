@@ -1,102 +1,58 @@
 {
- "updated": "2026-11-19T16:48:58.664950+00:00",
+ "updated": "2026-11-19T23:22:14.316760+00:00",
  "cards": [
   {
-   "t": "Bitwise files for spot Zcash ETF",
-   "type": "etf",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "ZEC"
-   ],
-   "rel": "direct",
-   "b": "Bitwise has filed for a spot Zcash ETF to be listed on the Texas Stock Exchange, with Coinbase Custody safeguarding the holdings.",
-   "per": {
-    "ZEC": "Underlying asset for the proposed Bitwise ETF."
-   },
-   "direction": "positive",
-   "quality": 88,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWE9UWklNei1teWpzeWJ2TlUwNk00TnNMSTZsNERIOEFjNlVWY19KQlBMRjYzOVpnZ3NhZmV3YkVHazNkWDNNMkMyRkFHYUpyQmtMdUg4SE9EU05mMWFfS3h0aUI4OV92bThNQjc0aVJha3FhQTVRbWVmLWQtVEpvOHN4SXpLS2RSdndHcU81dVlQaFExVmc?oc=5"
-    },
-    {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbnpEOF96RTVVUHBKYU5Md0RuMFJqWDNfelRvcXFTTmtMby0ybHVfWWtDc3RFTlM1dlQ2d1BNVnItQ3pJbDJTd244a1UtaERDOUxzbUJMOHFVR1BhTlVDdjYxWXJ6UkhMZjlsekNVMnhKcGpaQ2c1Q1Y5QUZHLXBvX01FSHVqUl8tUC1rWkdOZ2Zudms?oc=5"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/bitwise-zcash-etf-texas-stock-exchange-listing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Regulatory approval status."
-  },
-  {
-   "t": "Ondo to launch tokenized Anthropic stock",
-   "type": "other",
+   "t": "Binance Adds Anthropic (ANTB) bStocks Trading Pairs",
+   "type": "listing",
    "status": "confirmed_upcoming",
-   "event_date": null,
+   "event_date": "2026-11-19",
    "coins": [
-    "ANT"
+    "ANTB"
    ],
    "rel": "direct",
-   "b": "Ondo Finance plans to launch an ANTon token that will track Anthropic shares starting on the company's IPO day.",
+   "b": "Binance Exchange adds Anthropic (ANTB) bStocks trading pairs on Binance Spot and Convert starting November 19, 2026.",
    "per": {
-    "ANT": "Tokenized stock tracking Anthropic shares."
+    "ANTB": "Trading pairs added on Binance Spot/Convert on November 19, 2026."
    },
    "direction": "positive",
-   "quality": 84,
+   "quality": 100,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 25,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 10,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/markets/2026-11-18-ondo-to-launch-tokenized-anthropic-stock-on-ipo-day-443482"
+     "name": "Binance",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOd2tZajFkWDcwX29fekVJYUxtZTdEclFGUGluOUQxRFA0SWpwVndGYXptQ1NmWlZiWjFGQXJBanVmNlduWWdlTmdnMmludEx3VkszX2Z1ZkxsNEVkVEJKNDQybFJFUzg5N0F2dVBIQzgxdVk1RmRnYTlZMXlnOElEc1RpRW92UlU?oc=5"
     }
    ],
-   "missing": "The specific IPO launch date."
+   "missing": "Exact trading start hour is not specified."
   },
   {
-   "t": "CoinShares executes ETH sale and SOL buyback",
-   "type": "buyback",
+   "t": "Hashi Goes Live on Sui Mainnet",
+   "type": "mainnet",
    "status": "completed",
    "event_date": null,
    "coins": [
-    "ETH",
-    "SOL"
+    "SUI"
    ],
    "rel": "direct",
-   "b": "CoinShares sold its treasury ETH holdings and halved its SOL holdings to raise $19.3 million for corporate share buybacks.",
+   "b": "Bitcoin finance protocol Hashi has gone live on the Sui mainnet, processing bitcoin deposits for loans and vaults.",
    "per": {
-    "ETH": "Sold for liquidity.",
-    "SOL": "Partial holdings sold."
+    "SUI": "Now hosts Hashi processing bitcoin deposits for Fluid loans and HoneyB vaults."
    },
-   "direction": "mixed",
-   "quality": 77,
+   "direction": "positive",
+   "quality": 75,
    "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 17,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -107,70 +63,32 @@
    "c": "high",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/coinshares-sells-eth-treasury-holdings-halves-sol-share-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/383570/why-coinshares-just-sold-all-ethereum-half-solana"
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608"
     }
    ],
-   "missing": "The specific date the sell-off was finalized."
+   "missing": "Exact deployment time and total initial TVL are not mentioned."
   },
   {
-   "t": "Coinbase halts Centrifuge (CFG) trading",
-   "type": "delisting",
-   "status": "officially_announced",
+   "t": "Sei Network Integrates With Binance Pay",
+   "type": "partnership",
+   "status": "completed",
    "event_date": null,
    "coins": [
-    "CFG"
+    "SEI"
    ],
    "rel": "direct",
-   "b": "Coinbase has announced it will halt trading for Centrifuge (CFG).",
+   "b": "Sei Network has integrated with Binance Pay, enabling SEI payments directly within the Binance App.",
    "per": {
-    "CFG": "Trading to be halted on Coinbase."
+    "SEI": "Now enabled for payments inside the Binance App via Binance Pay."
    },
-   "direction": "negative",
-   "quality": 75,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 66,
+   "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 8,
     "relevance": 25,
     "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Coin Edition",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ1cxcmFXSDBPT0FpR1V4T21TZy1wM0lwUzZhYkNqNm1lMGNNcURFWEkteDZfOUFDcnk0SVpuTVdlbUJmYi1Va2o1eHN0NldvUFZPTG9MLXh1SmFuZTBSeDBIQVdBMk9XQ1JXRDhLenYyWC1RdC1ObVhnYlFSbUkxTkczS3hrcXhURzRMTHAycVd3dHhaQlhvY1RzRmQ?oc=5"
-    }
-   ],
-   "missing": "The specific date for the trading halt."
-  },
-  {
-   "t": "Hashi protocol launches on Sui mainnet",
-   "type": "mainnet",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "SUI"
-   ],
-   "rel": "direct",
-   "b": "The bitcoin finance protocol Hashi has gone live on the Sui mainnet to process bitcoin deposits.",
-   "per": {
-    "SUI": "Network hosting the new Hashi protocol."
-   },
-   "direction": "positive",
-   "quality": 68,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 5,
     "novelty": 15,
     "timing": 6
    },
@@ -179,11 +97,11 @@
    "c": "medium",
    "sources": [
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608"
+     "name": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1DTUU3Wk5wenFVNVZqa1VtV05aQzNETEI3UC1XSUNkQ3Uxa1JIcjRCTFNZS2tEdERhOTg4ektZU1dLMnljWHBPY2RpZDljYzhBVFV1OEpiWQ?oc=5"
     }
    ],
-   "missing": "Usage volume expectations."
+   "missing": "Exact launch timestamp within the day is not provided."
   }
  ]
 }
