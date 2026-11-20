@@ -1,166 +1,154 @@
 {
- "updated": "2026-11-20T04:10:00.983263+00:00",
+ "updated": "2026-11-20T12:50:23.963572+00:00",
  "cards": [
   {
-   "t": "Bullish authorizes share buyback",
-   "type": "buyback",
-   "status": "officially_announced",
-   "event_date": null,
+   "t": "Ethereum Glamsterdam Upgrade Pushed to 2027",
+   "type": "mainnet",
+   "status": "confirmed_upcoming",
+   "event_date": "2027-01-01",
    "coins": [
-    "BULL"
+    "ETH"
    ],
    "rel": "direct",
-   "b": "The crypto exchange Bullish reported a 35% increase in Q3 adjusted profit and authorized a share buyback program.",
+   "b": "Ethereum developers have postponed the Glamsterdam upgrade from December to January 2027 at the earliest to allow apps time to fix affected smart contracts and address gas pricing compatibility concerns.",
    "per": {
-    "BULL": "The buyback authorization follows strong quarterly earnings."
+    "ETH": "Upgrade postponed to January 2027 over smart contract compatibility concerns."
    },
-   "direction": "positive",
-   "quality": 84,
+   "direction": "mixed",
+   "quality": 94,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 19,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-11-18-bullishs-q3-adjusted-profit-rises-35-digital-asset-sales-fall-23-443456"
-    }
-   ],
-   "missing": "None"
-  },
-  {
-   "t": "MARA pricing $185M debt offering",
-   "type": "funding",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "MARA"
-   ],
-   "rel": "direct",
-   "b": "MARA is pricing a $185 million debt offering to fund AI infrastructure expansion following a $1.1 billion bitcoin sale.",
-   "per": {
-    "MARA": "Increased debt load to finance AI pivot continues a pattern of share-dilutive financing."
-   },
-   "direction": "negative",
-   "quality": 84,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/11/20/ethereum-s-next-big-upgrade-is-pushed-into-2027-by-apps-it-would-break"
+    },
     {
      "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/markets/mara-long-ridge-debt-offering-bitcoin-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "url": "https://cointelegraph.com/news/ethereum-glamsterdam-could-slip-to-may-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "None"
+   "missing": "Exact launch day in January 2027."
   },
   {
-   "t": "Ondo launches tokenized Anthropic (ANT) stock",
-   "type": "listing",
-   "status": "ongoing",
-   "event_date": null,
+   "t": "VanEck Ends Gemini Custody Agreements for Bitcoin, Ether, and SOL ETFs",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": "2027-02-01",
    "coins": [
-    "ONDO"
+    "BTC",
+    "ETH",
+    "SOL"
    ],
    "rel": "direct",
-   "b": "Ondo Finance is launching the ANTon token, designed to track Anthropic's shares following its Nasdaq IPO.",
+   "b": "VanEck is terminating its Gemini custody and clearing agreements for its Bitcoin, Ethereum, and Solana ETFs, transitioning completely to Coinbase Custody by February 2027.",
    "per": {
-    "ONDO": "The introduction of tokenized stock offerings expands Ondo's RWA product suite."
+    "BTC": "VanEck Bitcoin ETF ending Gemini custody agreement in February 2027.",
+    "ETH": "VanEck Ethereum ETF ending Gemini custody agreement.",
+    "SOL": "VanEck Solana ETF ending Gemini custody agreement."
+   },
+   "direction": "neutral",
+   "quality": 88,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUTZMcTZndkZ5ck9rWlNUVjJHOXo0UEh2b3llZEF6WmRpNFFoQUNJNDVUd0U2clU0Y3ZBRFlRZzRhR0psY2xacU1oNkljVGl2dGo2b05JNWNmWVV0cUdxaG56bUg3c2VoTXNiRXl5RUpOdjh2QU5EQUFNQVFuRDRLYTRpMXV1T0RzcHNVQlJ5UmgwejlRZlZ5eVYxLVJfeE1BNVVNNjYzaHUzV181V05FaXYyLXdhajNv?oc=5"
+    },
+    {
+     "name": "Crypto News",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9BVU53cDBWekYtY3FHNEV2aGN4N3VkTUxkdDdHeG5kd0dmZWtZZWRrdkxUV0NJVl8zWFU2bDBEWmIyY2tRNGRVbHJ1amMwVWFBdmY0LUJnTmtvMHJxUjBobi16aC1pVUdiQnZSSW41QnNQdGFINWFOTjlPTEI?oc=5"
+    },
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWVNsN0daTVhKWVZoVWU2RUROMXRhSFkyaE9PSk4zT3ZWblBkbEk3dkh1OE90bHlTXzNRWHZpOXJ2QzRxVjEzTHQyb1J5cEdmRjJhOEdwZzhCeXhtTmFIYU9HdmE1V1ZFdlQtVVhiaUtsekhwSmRpVmFtOW9LVXhtb1A2SWl1V0RFWHNXdGtjWTdkcVpLVHVTa1lMRUlEamhteXZoaC1QcDR2bmdZY3VyV01hNU9HdURabWRXaE90LTlpNFlSbm5YUmYxaEo5aHB3bm16STdUNHVURTg?oc=5"
+    },
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWVdrSTdjcV9DWmtGdWozVTVLUTZsQmVmWmZXNk9iVjduOXlnZlZMMXZXWTZsaHpsZ2dtcmFkTV96QnNVclV2aU9XQS11d2FMMUZnRXJMUmROcDFUV29sdm1ReVYwTjlxNU1QRkR4WUx4SkdlQmpZbTBXeDNRTWh6UERUdTN5a2F4eUx0VjBlNjZ0TkgwbkZEekloTUlSNDFXeVpQRzBOa0xoXzFjYVl1bGVfWHRRU1VmZnZoUFFSWDRfWFpBbUE?oc=5"
+    }
+   ],
+   "missing": "Exact transition day in February 2027."
+  },
+  {
+   "t": "1inch Integrates Hyperliquid Perpetual Futures",
+   "type": "partnership",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "HYPE"
+   ],
+   "rel": "direct",
+   "b": "1inch has integrated Hyperliquid\u2019s perpetual futures contracts into its dApp and wallet platform, allowing users to fund positions directly with tokens routed to USDC on Hyperliquid.",
+   "per": {
+    "HYPE": "Perpetual futures integrated into 1inch dApp and wallet platform."
    },
    "direction": "positive",
-   "quality": 81,
-   "label": "STRONG CATALYST",
+   "quality": 75,
+   "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 17,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 12
+    "timing": 6
    },
    "impact": 8,
-   "s": "building",
+   "s": "fading",
    "c": "high",
-   "sources": [
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/markets/2026-11-18-ondo-to-launch-tokenized-anthropic-stock-on-ipo-day-443482"
-    }
-   ],
-   "missing": "None"
-  },
-  {
-   "t": "1inch integrates Hyperliquid perpetual futures",
-   "type": "partnership",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "1INCH"
-   ],
-   "rel": "direct",
-   "b": "1inch has integrated Hyperliquid\u2019s perpetual futures, allowing users to fund positions using tokens held within the 1inch dApp.",
-   "per": {
-    "1INCH": "The integration expands available trading functionality on the 1inch platform."
-   },
-   "direction": "positive",
-   "quality": 74,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
    "sources": [
     {
      "name": "theblock.co",
      "url": "https://www.theblock.co/news/web3/2026-11-19-1inch-integrates-hyperliquid-perpetual-futures-443574"
     }
    ],
-   "missing": "None"
+   "missing": "Volume targets or fee sharing structure."
   },
   {
-   "t": "Hashi protocol live on Sui mainnet",
+   "t": "Hashi Protocol Goes Live on Sui Mainnet",
    "type": "mainnet",
    "status": "completed",
    "event_date": null,
    "coins": [
-    "SUI"
+    "SUI",
+    "BTC"
    ],
    "rel": "direct",
-   "b": "Bitcoin finance protocol Hashi has officially launched on the Sui mainnet, enabling bitcoin deposits for use in lending and vault products.",
+   "b": "Bitcoin finance protocol Hashi has officially launched on the Sui mainnet, beginning to process bitcoin deposits with hBTC utilized for Fluid loans and HoneyB vaults.",
    "per": {
-    "SUI": "The protocol launch expands the DeFi ecosystem on the Sui network."
+    "SUI": "Bitcoin finance protocol Hashi goes live on Sui mainnet.",
+    "BTC": "Bitcoin finance protocol Hashi goes live on Sui mainnet using hBTC."
    },
    "direction": "positive",
-   "quality": 68,
+   "quality": 62,
    "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 17,
-    "relevance": 25,
-    "impact": 5,
+    "relevance": 12,
+    "impact": 12,
     "novelty": 15,
     "timing": 6
    },
-   "impact": 7,
+   "impact": 6,
    "s": "fading",
    "c": "medium",
    "sources": [
@@ -169,7 +157,7 @@
      "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608"
     }
    ],
-   "missing": "None"
+   "missing": "Total value locked or initial adoption metrics."
   }
  ]
 }
