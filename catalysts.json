@@ -1,106 +1,52 @@
 {
- "updated": "2026-11-20T12:50:23.963572+00:00",
+ "updated": "2026-11-20T20:53:06.592775+00:00",
  "cards": [
   {
-   "t": "Ethereum Glamsterdam Upgrade Pushed to 2027",
-   "type": "mainnet",
+   "t": "Bybit Lists Clearpool CLEAR/USDT Spot Trading",
+   "type": "listing",
    "status": "confirmed_upcoming",
-   "event_date": "2027-01-01",
+   "event_date": null,
    "coins": [
-    "ETH"
+    "CLEAR"
    ],
    "rel": "direct",
-   "b": "Ethereum developers have postponed the Glamsterdam upgrade from December to January 2027 at the earliest to allow apps time to fix affected smart contracts and address gas pricing compatibility concerns.",
+   "b": "Bybit has opened CLEAR/USDT spot trading following a Clearpool contract update.",
    "per": {
-    "ETH": "Upgrade postponed to January 2027 over smart contract compatibility concerns."
+    "CLEAR": "Spot trading opened on Bybit following a contract update."
    },
-   "direction": "mixed",
-   "quality": 94,
+   "direction": "positive",
+   "quality": 75,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/11/20/ethereum-s-next-big-upgrade-is-pushed-into-2027-by-apps-it-would-break"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/ethereum-glamsterdam-could-slip-to-may-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Exact launch day in January 2027."
-  },
-  {
-   "t": "VanEck Ends Gemini Custody Agreements for Bitcoin, Ether, and SOL ETFs",
-   "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": "2027-02-01",
-   "coins": [
-    "BTC",
-    "ETH",
-    "SOL"
-   ],
-   "rel": "direct",
-   "b": "VanEck is terminating its Gemini custody and clearing agreements for its Bitcoin, Ethereum, and Solana ETFs, transitioning completely to Coinbase Custody by February 2027.",
-   "per": {
-    "BTC": "VanEck Bitcoin ETF ending Gemini custody agreement in February 2027.",
-    "ETH": "VanEck Ethereum ETF ending Gemini custody agreement.",
-    "SOL": "VanEck Solana ETF ending Gemini custody agreement."
-   },
-   "direction": "neutral",
-   "quality": 88,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 21,
+    "credibility": 8,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 9,
+   "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUTZMcTZndkZ5ck9rWlNUVjJHOXo0UEh2b3llZEF6WmRpNFFoQUNJNDVUd0U2clU0Y3ZBRFlRZzRhR0psY2xacU1oNkljVGl2dGo2b05JNWNmWVV0cUdxaG56bUg3c2VoTXNiRXl5RUpOdjh2QU5EQUFNQVFuRDRLYTRpMXV1T0RzcHNVQlJ5UmgwejlRZlZ5eVYxLVJfeE1BNVVNNjYzaHUzV181V05FaXYyLXdhajNv?oc=5"
-    },
-    {
-     "name": "Crypto News",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9BVU53cDBWekYtY3FHNEV2aGN4N3VkTUxkdDdHeG5kd0dmZWtZZWRrdkxUV0NJVl8zWFU2bDBEWmIyY2tRNGRVbHJ1amMwVWFBdmY0LUJnTmtvMHJxUjBobi16aC1pVUdiQnZSSW41QnNQdGFINWFOTjlPTEI?oc=5"
-    },
-    {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWVNsN0daTVhKWVZoVWU2RUROMXRhSFkyaE9PSk4zT3ZWblBkbEk3dkh1OE90bHlTXzNRWHZpOXJ2QzRxVjEzTHQyb1J5cEdmRjJhOEdwZzhCeXhtTmFIYU9HdmE1V1ZFdlQtVVhiaUtsekhwSmRpVmFtOW9LVXhtb1A2SWl1V0RFWHNXdGtjWTdkcVpLVHVTa1lMRUlEamhteXZoaC1QcDR2bmdZY3VyV01hNU9HdURabWRXaE90LTlpNFlSbm5YUmYxaEo5aHB3bm16STdUNHVURTg?oc=5"
-    },
-    {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWVdrSTdjcV9DWmtGdWozVTVLUTZsQmVmWmZXNk9iVjduOXlnZlZMMXZXWTZsaHpsZ2dtcmFkTV96QnNVclV2aU9XQS11d2FMMUZnRXJMUmROcDFUV29sdm1ReVYwTjlxNU1QRkR4WUx4SkdlQmpZbTBXeDNRTWh6UERUdTN5a2F4eUx0VjBlNjZ0TkgwbkZEekloTUlSNDFXeVpQRzBOa0xoXzFjYVl1bGVfWHRRU1VmZnZoUFFSWDRfWFpBbUE?oc=5"
+     "name": "Crypto Briefing",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VcG1yeGdCUXliYW9RYnl5cWlMdU16aHJOTVRtUS1sUUJOMlNyX3Z6ZlU0M2trMW9EY3RzdWJYaTBwUDhqQkVSbU1Xb2ROVnZ6OFdxWVZrV2M2VTdtQ3Z5UlJrZ0FyeDJCc29PNlJUV1o?oc=5"
     }
    ],
-   "missing": "Exact transition day in February 2027."
+   "missing": "Exact launch timestamps."
   },
   {
-   "t": "1inch Integrates Hyperliquid Perpetual Futures",
-   "type": "partnership",
+   "t": "Hashi Bitcoin Finance Protocol Goes Live on Sui Mainnet",
+   "type": "mainnet",
    "status": "completed",
    "event_date": null,
    "coins": [
-    "HYPE"
+    "BTC"
    ],
    "rel": "direct",
-   "b": "1inch has integrated Hyperliquid\u2019s perpetual futures contracts into its dApp and wallet platform, allowing users to fund positions directly with tokens routed to USDC on Hyperliquid.",
+   "b": "Hashi has gone live on the Sui mainnet to process bitcoin deposits, utilizing hBTC for Fluid loans and HoneyB vaults on Upshift.",
    "per": {
-    "HYPE": "Perpetual futures integrated into 1inch dApp and wallet platform."
+    "BTC": "Hashi protocol went live on Sui mainnet to process bitcoin deposits."
    },
    "direction": "positive",
    "quality": 75,
@@ -118,46 +64,108 @@
    "sources": [
     {
      "name": "theblock.co",
-     "url": "https://www.theblock.co/news/web3/2026-11-19-1inch-integrates-hyperliquid-perpetual-futures-443574"
+     "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608"
     }
    ],
-   "missing": "Volume targets or fee sharing structure."
+   "missing": "Total value locked at launch."
   },
   {
-   "t": "Hashi Protocol Goes Live on Sui Mainnet",
-   "type": "mainnet",
-   "status": "completed",
-   "event_date": null,
+   "t": "VanEck Terminates Gemini Custody Agreements for Bitcoin, Ethereum, and Solana ETFs",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": "2027-02-01",
    "coins": [
-    "SUI",
-    "BTC"
+    "BTC",
+    "ETH",
+    "SOL"
    ],
    "rel": "direct",
-   "b": "Bitcoin finance protocol Hashi has officially launched on the Sui mainnet, beginning to process bitcoin deposits with hBTC utilized for Fluid loans and HoneyB vaults.",
+   "b": "VanEck is ending Gemini custody and clearing agreements for its Bitcoin, Ethereum, and Solana ETFs in February 2027, maintaining Coinbase as custodian.",
    "per": {
-    "SUI": "Bitcoin finance protocol Hashi goes live on Sui mainnet.",
-    "BTC": "Bitcoin finance protocol Hashi goes live on Sui mainnet using hBTC."
+    "BTC": "VanEck's Bitcoin ETF will end Gemini custody agreements.",
+    "ETH": "VanEck's Ethereum ETF will end Gemini custody agreements.",
+    "SOL": "VanEck's Solana ETF will end Gemini custody agreements and the Solana staking role with Gemini."
    },
-   "direction": "positive",
-   "quality": 62,
-   "label": "COMPLETED CATALYST",
+   "direction": "mixed",
+   "quality": 68,
+   "label": "MODERATE CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 21,
     "relevance": 12,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBoVkVYbDNxWkhkR292dUdIRWpVcG5yc3JEWUdlVWt6QUVCS0lRSlJyX3h2b3NUSFFveTVBMTNlX21DbV9zNWVuSFNHcWU2Q3BjWGhpbFFJQzBsaVJJUTFnQXZITFJ1VFFsZlFiQXVObnNJU2RTSXc?oc=5"
+    },
+    {
+     "name": "Crypto News",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9BVU53cDBWekYtY3FHNEV2aGN4N3VkTUxkdDdHeG5kd0dmZWtZZWRrdkxUV0NJVl8zWFU2bDBEWmIyY2tRNGRVbHJ1amMwVWFBdmY0LUJnTmtvMHJxUjBobi16aC1pVUdiQnZSSW41QnNQdGFINWFOTjlPTEI?oc=5"
+    },
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWVNsN0daTVhKWVZoVWU2RUROMXRhSFkyaE9PSk4zT3ZWblBkbEk3dkh1OE90bHlTXzNRWHZpOXJ2QzRxVjEzTHQyb1J5cEdmRjJhOEdwZzhCeXhtTmFIYU9HdmE1V1ZFdlQtVVhiaUtsekhwSmRpVmFtOW9LVXhtb1A2SWl1V0RFWHNXdGtjWTdkcVpLVHVTa1lMRUlEamhteXZoaC1QcDR2bmdZY3VyV01hNU9HdURabWRXaE90LTlpNFlSbm5YUmYxaEo5aHB3bm16STdUNHVURTg?oc=5"
+    },
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWVdrSTdjcV9DWmtGdWozVTVLUTZsQmVmWmZXNk9iVjduOXlnZlZMMXZXWTZsaHpsZ2dtcmFkTV96QnNVclV2aU9XQS11d2FMMUZnRXJMUmROcDFUV29sdm1ReVYwTjlxNU1QRkR4WUx4SkdlQmpZbTBXeDNRTWh6UERUdTN5a2F4eUx0VjBlNjZ0TkgwbkZEekloTUlSNDFXeVpQRzBOa0xoXzFjYVl1bGVfWHRRU1VmZnZoUFFSWDRfWFpBbUE?oc=5"
+    }
+   ],
+   "missing": "The exact day in February 2027."
+  },
+  {
+   "t": "Roundhill Withdraws Plans for XRP and Solana ETFs",
+   "type": "etf",
+   "status": "cancelled",
+   "event_date": null,
+   "coins": [
+    "XRP",
+    "SOL"
+   ],
+   "rel": "direct",
+   "b": "Roundhill has abandoned its XRP and Solana income ETF plans following 13 months of SEC delays, weak interest, and market downturns.",
+   "per": {
+    "XRP": "Roundhill abandoned its XRP income ETF after 13 months of delays.",
+    "SOL": "Roundhill dropped plans for its Solana income ETF amid weak interest."
+   },
+   "direction": "negative",
+   "quality": 64,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 6
+    "timing": 0
    },
    "impact": 6,
    "s": "fading",
    "c": "medium",
    "sources": [
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608"
+     "name": "Coinpaper",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV2NfaGx2RDJjcWU2aXEtLVI4NkNwU3NkSFVRa2VXb2pOQVVlSFRVd0UtZlN4YThTcEJ5NnJ6RXRGRjFvcmY0SjVoUDJlTDljVHo2azV6aThOc1VmdkNhTUhVWXc5bTZPelgtV1FvNEMzSVNxdTlIMmRiTFhyTmRWNkFxYXlUNkZJLVJDNmJBRGJDVXdVZE5fQ2twWm50TVEyTlBMYnl0SHk?oc=5"
+    },
+    {
+     "name": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSTdQMVEtVFZkYTU2cF9GZWR6YUxWUVB3aU1jcTV3cVBSVkxSc0RXYlRaMVFBM2owR2wwVFltZWFCQ0JmOFpYNGxydU9HcTNBM3ZGRXNvUUF4TGRRakZlRmhWMVJhT3lld2VNMGxJSUtUeUxpWWJRaDE1cEVaMzRLV1ZkNHBZOGQwT2swZjlPaGVSbVhNT19NRjR6RFhOUERJcWlqYjJuNXBTZjFSWF9saGdBSXV3YlVZSEo1M2tR?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcFJPMkhyMmU4Zl9uaUpfVmZOSHNTN2l1cDJ6STI3SDg4YmFqMW9ZY1IxWlV3dFA5YzhLWHljOG45MlFTaXEta19oZ1JyTjM5SFgtUGEySVBSOWlOcVFhYnNGWkVRUWtOTUdVcjk2R2dnUVZXTU90cHV5bVlrM3hHZkdxU2dvZzdfMThWUmtNeEVHOS1xSFE?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS0FwSmtOQ2lNdzdsVmhYamsydDlWTmNLVE5VLWhHcTVWdVRkTG5kX2h3a1RPTjVReklnQUdDOTRsaGhLU05BUGhzYVVRRHdlYTlqbzlXY3RWQzA2Qmh2NzdCdlE2Snk4dGtDNHJNNHBUZHZmaE5LdVQxVDV5QWkyYXVPanB6QmREVzJXZFBXekoyMEg1a0tWQW1WTlN6VTNyVVFGdG4wN1BvUkZhYWc?oc=5"
     }
    ],
-   "missing": "Total value locked or initial adoption metrics."
+   "missing": "Specific cancellation filing dates."
   }
  ]
 }
