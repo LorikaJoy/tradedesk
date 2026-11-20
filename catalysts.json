@@ -1,42 +1,144 @@
 {
- "updated": "2026-11-19T23:22:14.316760+00:00",
+ "updated": "2026-11-20T04:10:00.983263+00:00",
  "cards": [
   {
-   "t": "Binance Adds Anthropic (ANTB) bStocks Trading Pairs",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-11-19",
+   "t": "Bullish authorizes share buyback",
+   "type": "buyback",
+   "status": "officially_announced",
+   "event_date": null,
    "coins": [
-    "ANTB"
+    "BULL"
    ],
    "rel": "direct",
-   "b": "Binance Exchange adds Anthropic (ANTB) bStocks trading pairs on Binance Spot and Convert starting November 19, 2026.",
+   "b": "The crypto exchange Bullish reported a 35% increase in Q3 adjusted profit and authorized a share buyback program.",
    "per": {
-    "ANTB": "Trading pairs added on Binance Spot/Convert on November 19, 2026."
+    "BULL": "The buyback authorization follows strong quarterly earnings."
    },
    "direction": "positive",
-   "quality": 100,
+   "quality": 84,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 25,
+    "credibility": 17,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 10,
+   "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "Binance",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOd2tZajFkWDcwX29fekVJYUxtZTdEclFGUGluOUQxRFA0SWpwVndGYXptQ1NmWlZiWjFGQXJBanVmNlduWWdlTmdnMmludEx3VkszX2Z1ZkxsNEVkVEJKNDQybFJFUzg5N0F2dVBIQzgxdVk1RmRnYTlZMXlnOElEc1RpRW92UlU?oc=5"
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/business/2026-11-18-bullishs-q3-adjusted-profit-rises-35-digital-asset-sales-fall-23-443456"
     }
    ],
-   "missing": "Exact trading start hour is not specified."
+   "missing": "None"
   },
   {
-   "t": "Hashi Goes Live on Sui Mainnet",
+   "t": "MARA pricing $185M debt offering",
+   "type": "funding",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "MARA"
+   ],
+   "rel": "direct",
+   "b": "MARA is pricing a $185 million debt offering to fund AI infrastructure expansion following a $1.1 billion bitcoin sale.",
+   "per": {
+    "MARA": "Increased debt load to finance AI pivot continues a pattern of share-dilutive financing."
+   },
+   "direction": "negative",
+   "quality": 84,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/markets/mara-long-ridge-debt-offering-bitcoin-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+   ],
+   "missing": "None"
+  },
+  {
+   "t": "Ondo launches tokenized Anthropic (ANT) stock",
+   "type": "listing",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "ONDO"
+   ],
+   "rel": "direct",
+   "b": "Ondo Finance is launching the ANTon token, designed to track Anthropic's shares following its Nasdaq IPO.",
+   "per": {
+    "ONDO": "The introduction of tokenized stock offerings expands Ondo's RWA product suite."
+   },
+   "direction": "positive",
+   "quality": 81,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/markets/2026-11-18-ondo-to-launch-tokenized-anthropic-stock-on-ipo-day-443482"
+    }
+   ],
+   "missing": "None"
+  },
+  {
+   "t": "1inch integrates Hyperliquid perpetual futures",
+   "type": "partnership",
+   "status": "ongoing",
+   "event_date": null,
+   "coins": [
+    "1INCH"
+   ],
+   "rel": "direct",
+   "b": "1inch has integrated Hyperliquid\u2019s perpetual futures, allowing users to fund positions using tokens held within the 1inch dApp.",
+   "per": {
+    "1INCH": "The integration expands available trading functionality on the 1inch platform."
+   },
+   "direction": "positive",
+   "quality": 74,
+   "label": "MODERATE CATALYST",
+   "parts": {
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 5,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
+   "sources": [
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/web3/2026-11-19-1inch-integrates-hyperliquid-perpetual-futures-443574"
+    }
+   ],
+   "missing": "None"
+  },
+  {
+   "t": "Hashi protocol live on Sui mainnet",
    "type": "mainnet",
    "status": "completed",
    "event_date": null,
@@ -44,51 +146,17 @@
     "SUI"
    ],
    "rel": "direct",
-   "b": "Bitcoin finance protocol Hashi has gone live on the Sui mainnet, processing bitcoin deposits for loans and vaults.",
+   "b": "Bitcoin finance protocol Hashi has officially launched on the Sui mainnet, enabling bitcoin deposits for use in lending and vault products.",
    "per": {
-    "SUI": "Now hosts Hashi processing bitcoin deposits for Fluid loans and HoneyB vaults."
+    "SUI": "The protocol launch expands the DeFi ecosystem on the Sui network."
    },
    "direction": "positive",
-   "quality": 75,
+   "quality": 68,
    "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 17,
     "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608"
-    }
-   ],
-   "missing": "Exact deployment time and total initial TVL are not mentioned."
-  },
-  {
-   "t": "Sei Network Integrates With Binance Pay",
-   "type": "partnership",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "SEI"
-   ],
-   "rel": "direct",
-   "b": "Sei Network has integrated with Binance Pay, enabling SEI payments directly within the Binance App.",
-   "per": {
-    "SEI": "Now enabled for payments inside the Binance App via Binance Pay."
-   },
-   "direction": "positive",
-   "quality": 66,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
+    "impact": 5,
     "novelty": 15,
     "timing": 6
    },
@@ -97,11 +165,11 @@
    "c": "medium",
    "sources": [
     {
-     "name": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1DTUU3Wk5wenFVNVZqa1VtV05aQzNETEI3UC1XSUNkQ3Uxa1JIcjRCTFNZS2tEdERhOTg4ektZU1dLMnljWHBPY2RpZDljYzhBVFV1OEpiWQ?oc=5"
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608"
     }
    ],
-   "missing": "Exact launch timestamp within the day is not provided."
+   "missing": "None"
   }
  ]
 }
