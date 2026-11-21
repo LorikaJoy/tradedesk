@@ -1,161 +1,232 @@
 {
- "updated": "2026-11-21T09:04:12.127632+00:00",
+ "updated": "2026-11-21T16:45:49.654292+00:00",
  "cards": [
   {
-   "t": "VanEck Changes ETF Custodian from Gemini to Coinbase",
-   "type": "etf",
+   "t": "Wagyu XMR1 wrapped Monero hack",
+   "type": "hack",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "XMR1"
+   ],
+   "rel": "direct",
+   "b": "The Wagyu XMR1 wrapped Monero token crashed 99% after an attacker exploited a security breach in the deployer account to sell $13.5 million worth of tokens.",
+   "per": {
+    "XMR1": "Price collapsed 99% after the exploit."
+   },
+   "direction": "negative",
+   "quality": 87,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 9,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/20/wrapped-monero-token-plunges-99-as-issuer-linked-wallet-sells-usd13-5-million"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/wrapped-monero-token-crashes-998-amid-suspected-135m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/383732/wrapped-monero-token-collapses-99-after-13-million-hack-blamed-on-web-host"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/defi/2026-11-20-wagyus-xmr1-wrapped-monero-plunges-99-after-13-million-hack-founder-promises-refunds-444747"
+    }
+   ],
+   "missing": "Specific timeline for promised refunds to affected users."
+  },
+  {
+   "t": "Chainflip FLIP vault drain",
+   "type": "hack",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "FLIP"
+   ],
+   "rel": "direct",
+   "b": "Chainflip suffered a $4.86 million vault drain due to a suspected compromise of keys used by validators to approve payouts.",
+   "per": {
+    "FLIP": "Token price dropped 34% following the exploit."
+   },
+   "direction": "negative",
+   "quality": 85,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804"
+    }
+   ],
+   "missing": "Full details on the recovery or potential impact on future operations."
+  },
+  {
+   "t": "Senate passes Death Bets Act",
+   "type": "regulation",
    "status": "confirmed_upcoming",
-   "event_date": "2026-02-16",
+   "event_date": null,
+   "coins": [
+    "UMA",
+    "PYTH"
+   ],
+   "rel": "indirect",
+   "b": "The U.S. Senate passed legislation banning prediction market contracts tied to war, assassination, and death, which now heads to the House.",
+   "per": {
+    "UMA": "Potentially impacted by restrictions on prediction market event contracts.",
+    "PYTH": "Potentially impacted by restrictions on prediction market event contracts."
+   },
+   "direction": "negative",
+   "quality": 75,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/11/20/u-s-senated-passes-bill-to-ban-prediction-market-best-on-war-and-death"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/us-senate-advances-prediction-market-restrictions-with-death-bets-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/383700/senate-passes-bill-banning-prediction-market-bets-on-war-terrorism-and-death"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/regulation/2026-11-20-senate-death-bets-act-444200"
+    }
+   ],
+   "missing": "Final vote schedule in the House."
+  },
+  {
+   "t": "Hong Kong crypto licensing bill",
+   "type": "regulation",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-12-02",
+   "coins": [
+    "HKD",
+    "BTC",
+    "ETH"
+   ],
+   "rel": "indirect",
+   "b": "Hong Kong has published a bill to bring crypto brokers, advisers, asset managers, and custodians under a formal licensing framework, with the first reading set for December 2.",
+   "per": {
+    "BTC": "Regulatory framework expansion in Hong Kong.",
+    "ETH": "Regulatory framework expansion in Hong Kong."
+   },
+   "direction": "mixed",
+   "quality": 75,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/11/20/hong-kong-moves-to-extend-crypto-licensing-rules-to-brokers-advisers-and-custodians"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/hong-kong-crypto-custody-advisory-licensing-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "MLQ.ai",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ1gxZWZGRElCVTdjcm5xOGQ1UEtUQ1BmZEhJdDh6WXl4ZDdma3NPZEF6SU5Qc252bU5IbkVjd2xHMWoyb0JnbmdsU000MFdKbG5UdTZKZkdhM1BJWDB1Sk5nU3IzaEhIR2ZBVDhMV0ZqSlRxakNyQmxkRi1xUE1RRl9ST0pCQ1FRMFVZbVdaS2tEbHlJeGlBTkdpSQ?oc=5"
+    },
+    {
+     "name": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5WeHNwVE9XakVyRGFGcno0YU1LeU12eXJreVZVY2Y5WlJKYzZEMFZycE9RX0dxckZtVmN6Z19uaXlnZTFCZEJmLVFSWDI1TmFfdmNDZQ?oc=5"
+    }
+   ],
+   "missing": "Implementation timeline for existing firms to comply."
+  },
+  {
+   "t": "VanEck drops Gemini as ETF custodian",
+   "type": "other",
+   "status": "confirmed_upcoming",
+   "event_date": "2027-02-01",
    "coins": [
     "BTC",
     "ETH",
     "SOL"
    ],
-   "rel": "direct",
-   "b": "VanEck is ending its Gemini custody agreements for its Bitcoin, Ethereum, and Solana ETFs, keeping Coinbase Custody for the funds effective February 16.",
+   "rel": "indirect",
+   "b": "VanEck will end its Gemini custody agreements for its Bitcoin, Ethereum, and Solana ETFs in February 2027, continuing to use Coinbase as a custodian.",
    "per": {
-    "BTC": "VanEck drops Gemini as custodian, keeping Coinbase.",
-    "ETH": "VanEck drops Gemini as custodian, keeping Coinbase.",
-    "SOL": "VanEck drops Gemini as custodian, keeping Coinbase."
-   },
-   "direction": "neutral",
-   "quality": 81,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUTZMcTZndkZ5ck9rWlNUVjJHOXo0UEh2b3llZEF6WmRpNFFoQUNJNDVUd0U2clU0Y3ZBRFlRZzRhR0psY2xacU1oNkljVGl2dGo2b05JNWNmWVV0cUdxaG56bUg3c2VoTXNiRXl5RUpOdjh2QU5EQUFNQVFuRDRLYTRpMXV1T0RzcHNVQlJ5UmgwejlRZlZ5eVYxLVJfeE1BNVVNNjYzaHUzV181V05FaXYyLXdhajNv?oc=5"
-    },
-    {
-     "name": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORE0xNDJ6RGFhWU5FQW94cU5QUTFrazgzeWFBTlNsNkNvdG5WRW1UNjNlcXF6RWJia2VLZS1KM3BjZVBDTTB4RHdMUjhWbkxpbUxvQVNoM0VPZFpobTBadVJJTXNQaE1FaXVNUGUzc0NCWUJrZmZfcmQxTzBaQm9QTXZZYjhPRWxCM0V0MDAzd3FicTRENER4cFpSTQ?oc=5"
-    },
-    {
-     "name": "Coinpaper",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOelBKUW5yYzVIaGhjSkIxc0N0V01kamFXLUZ6dm4yUjhNQm94U0tRbC10bTJsYndqbUdQNVRpbVZVQ3pudGhYOTNxYkY0dXQtSEd3bmthMHBnejlwRVpUZDFidENiaS1PX0VUemlzcnZBOGk2Z0JhN0toYkk5eUMtcTZHVkFieGEzeC1lRGVJakwteHJLOVV0M3VfYmRKSXBxcFJjVHBzazVJdw?oc=5"
-    },
-    {
-     "name": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWllmbVVQX2VmWTkwRGhtNmJURnhQZWIzdVZ6WFBKR2NubGFpV3RlUVZNeTBqYXZWMnI3TmNYY2FqY1lwSGtQWUIza1BjSk0tbHFLU2NtQTJKbkMxdmk0QzRGNGc4ajRWNmlid0VuZ3lLMWZaZGJSb2hlS2Faa01jRmJxT0dXRzVvTFk0T0VzZmg1emRHS3JtTTNaNTY1TkJyRjNF?oc=5"
-    }
-   ],
-   "missing": "Operational details on asset transfer timelines."
-  },
-  {
-   "t": "Clearpool Contract Update and Bybit Spot Trading",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "CLEAR"
-   ],
-   "rel": "direct",
-   "b": "Bybit is opening CLEAR/USDT spot trading following a Clearpool contract update.",
-   "per": {
-    "CLEAR": "Bybit opens CLEAR/USDT spot trading following a Clearpool contract update."
-   },
-   "direction": "positive",
-   "quality": 75,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Crypto Briefing",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VcG1yeGdCUXliYW9RYnl5cWlMdU16aHJOTVRtUS1sUUJOMlNyX3Z6ZlU0M2trMW9EY3RzdWJYaTBwUDhqQkVSbU1Xb2ROVnZ6OFdxWVZrV2M2VTdtQ3Z5UlJrZ0FyeDJCc29PNlJUV1o?oc=5"
-    }
-   ],
-   "missing": "Exact launch timestamps."
-  },
-  {
-   "t": "Ethereum Glamsterdam Upgrade Delayed to 2027",
-   "type": "mainnet",
-   "status": "delayed",
-   "event_date": null,
-   "coins": [
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "Ethereum's Glamsterdam upgrade has been pushed from December to January 2027 at the earliest to allow apps time to fix affected smart contracts.",
-   "per": {
-    "ETH": "Glamsterdam upgrade delayed to January 2027."
+    "BTC": "Custodian change for VanEck ETF.",
+    "ETH": "Custodian change for VanEck ETF.",
+    "SOL": "Custodian change for VanEck ETF."
    },
    "direction": "mixed",
-   "quality": 73,
+   "quality": 68,
    "label": "MODERATE CATALYST",
    "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 4
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/11/20/ethereum-s-next-big-upgrade-is-pushed-into-2027-by-apps-it-would-break"
-    }
-   ],
-   "missing": "Exact mainnet activation block or date in January 2027."
-  },
-  {
-   "t": "Roundhill Abandons XRP Income Fund",
-   "type": "etf",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "XRP"
-   ],
-   "rel": "direct",
-   "b": "Roundhill abandoned its XRP Income Fund following 13 months of SEC delays.",
-   "per": {
-    "XRP": "Roundhill abandoned its XRP Income Fund after 13 months of SEC delays."
-   },
-   "direction": "negative",
-   "quality": 61,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 10,
-    "relevance": 25,
+    "credibility": 21,
+    "relevance": 12,
     "impact": 5,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
-   "impact": 6,
-   "s": "fading",
+   "impact": 7,
+   "s": "building",
    "c": "medium",
    "sources": [
     {
-     "name": "Coinpaper",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV2NfaGx2RDJjcWU2aXEtLVI4NkNwU3NkSFVRa2VXb2pOQVVlSFRVd0UtZlN4YThTcEJ5NnJ6RXRGRjFvcmY0SjVoUDJlTDljVHo2azV6aThOc1VmdkNhTUhVWXc5bTZPelgtV1FvNEMzSVNxdTlIMmRiTFhyTmRWNkFxYXlUNkZJLVJDNmJBRGJDVXdVZE5fQ2twWm50TVEyTlBMYnl0SHk?oc=5"
+     "name": "CryptoRank",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLW9sWFhKdzlfWlYxcDI5S1dGeU9lMTF2Skk1bXI0UmNhNU10TGhBbkxtOHVWNEZmUGpTcUQ0WDNFVVhTWVVLX1plNnlBTm50VU9qak1BRWZySWsxOTJvNDFlWVN5WnFqb2ZLdDB4bi1EazdFNzV2X0JBb1lJYTJ2Y1FDQnBIR0JXZENVVzY5RERkNzg4elB1aEZnMTV6YnVxcUZrSHNndFpEaFJ5aWZaV3ZMLUgzZXc?oc=5"
     },
     {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcFJPMkhyMmU4Zl9uaUpfVmZOSHNTN2l1cDJ6STI3SDg4YmFqMW9ZY1IxWlV3dFA5YzhLWHljOG45MlFTaXEta19oZ1JyTjM5SFgtUGEySVBSOWlOcVFhYnNGWkVRUWtOTUdVcjk2R2dnUVZXTU90cHV5bVlrM3hHZkdxU2dvZzdfMThWUmtNeEVHOS1xSFE?oc=5"
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSFUzMXM0WFBvaDhaQ0hIaW9BWlJpTDQ1TmJ5WDgxMWVkMkFfNVRCenQ1ZWJMVFZYaXNRRUs1NElxYmMwbS1Wd2NOUE9YSUNibkIycVRoY2drQVh5Tk5kTU96RGUzSDhCS05wcjNpQU1aUlJ0YXc4d0FSNXhpWnYzamdiRDdTSnBxd2FWVmozV0ozNGE4b1Y5WHVtWjU4eF9tLVE?oc=5"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/vaneck-gemini-etf-custody-end-keep-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Future plans for the fund ticker."
+   "missing": "Impact on liquidity or storage fees for the ETFs."
   }
  ]
 }
