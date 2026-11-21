@@ -1,226 +1,146 @@
 {
- "updated": "2026-11-21T01:55:18.028909+00:00",
+ "updated": "2026-11-21T09:04:12.127632+00:00",
  "cards": [
   {
-   "t": "VanEck Drops Gemini as Custodian for Crypto ETFs",
+   "t": "VanEck Changes ETF Custodian from Gemini to Coinbase",
    "type": "etf",
    "status": "confirmed_upcoming",
-   "event_date": "2027-02-16",
+   "event_date": "2026-02-16",
    "coins": [
     "BTC",
     "ETH",
     "SOL"
    ],
    "rel": "direct",
-   "b": "VanEck is terminating its Gemini custody agreements for its Bitcoin, Ethereum, and Solana ETFs, shifting entirely to Coinbase Custody by February 16, 2027.",
+   "b": "VanEck is ending its Gemini custody agreements for its Bitcoin, Ethereum, and Solana ETFs, keeping Coinbase Custody for the funds effective February 16.",
    "per": {
-    "BTC": "Gemini custody agreement ends Feb 16, moving to Coinbase.",
-    "ETH": "Gemini custody agreement ends Feb 16, moving to Coinbase.",
-    "SOL": "Gemini custody agreement ends Feb 16, moving to Coinbase."
+    "BTC": "VanEck drops Gemini as custodian, keeping Coinbase.",
+    "ETH": "VanEck drops Gemini as custodian, keeping Coinbase.",
+    "SOL": "VanEck drops Gemini as custodian, keeping Coinbase."
    },
-   "direction": "negative",
-   "quality": 88,
-   "label": "NEGATIVE CATALYST",
+   "direction": "neutral",
+   "quality": 81,
+   "label": "STRONG CATALYST",
    "parts": {
     "credibility": 21,
     "relevance": 25,
-    "impact": 12,
+    "impact": 5,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "BigGo Finance",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBoVkVYbDNxWkhkR292dUdIRWpVcG5yc3JEWUdlVWt6QUVCS0lRSlJyX3h2b3NUSFFveTVBMTNlX21DbV9zNWVuSFNHcWU2Q3BjWGhpbFFJQzBsaVJJUTFnQXZITFJ1VFFsZlFiQXVObnNJU2RTSXc?oc=5"
-    },
-    {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1qTU41NmN4RTBLLVI2MUlDaU5Nd1VHaWlYWWd6U01rNGx6eDk1TkdZUV9xZFRWeGZGd0hETmc4Q2FGS2pabHNtbmNsNUVtSmRPRlZLUw?oc=5"
-    },
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/11/20/vaneck-drops-gemini-as-custodian-of-its-bitcoin-ether-and-sol-etfs"
-    }
-   ],
-   "missing": "Intraday transition time on February 16."
-  },
-  {
-   "t": "Wagyu's XMR1 Token Crashes 99% After $13.5M Exploit",
-   "type": "hack",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "XMR"
-   ],
-   "rel": "indirect",
-   "b": "Wagyu's wrapped Monero token (XMR1) plunged over 99% after an attacker stole and sold 5.2 million tokens for $13.5 million via a web host security breach.",
-   "per": {
-    "XMR": "Wrapped token XMR1 impacted by exploit, though distinct from native Monero and Hyperliquid futures."
-   },
-   "direction": "negative",
-   "quality": 80,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 12
-   },
    "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/11/20/wrapped-monero-token-plunges-99-as-issuer-linked-wallet-sells-usd13-5-million"
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUTZMcTZndkZ5ck9rWlNUVjJHOXo0UEh2b3llZEF6WmRpNFFoQUNJNDVUd0U2clU0Y3ZBRFlRZzRhR0psY2xacU1oNkljVGl2dGo2b05JNWNmWVV0cUdxaG56bUg3c2VoTXNiRXl5RUpOdjh2QU5EQUFNQVFuRDRLYTRpMXV1T0RzcHNVQlJ5UmgwejlRZlZ5eVYxLVJfeE1BNVVNNjYzaHUzV181V05FaXYyLXdhajNv?oc=5"
     },
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/wrapped-monero-token-crashes-998-amid-suspected-135m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORE0xNDJ6RGFhWU5FQW94cU5QUTFrazgzeWFBTlNsNkNvdG5WRW1UNjNlcXF6RWJia2VLZS1KM3BjZVBDTTB4RHdMUjhWbkxpbUxvQVNoM0VPZFpobTBadVJJTXNQaE1FaXVNUGUzc0NCWUJrZmZfcmQxTzBaQm9QTXZZYjhPRWxCM0V0MDAzd3FicTRENER4cFpSTQ?oc=5"
     },
     {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/383732/wrapped-monero-token-collapses-99-after-13-million-hack-blamed-on-web-host"
+     "name": "Coinpaper",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOelBKUW5yYzVIaGhjSkIxc0N0V01kamFXLUZ6dm4yUjhNQm94U0tRbC10bTJsYndqbUdQNVRpbVZVQ3pudGhYOTNxYkY0dXQtSEd3bmthMHBnejlwRVpUZDFidENiaS1PX0VUemlzcnZBOGk2Z0JhN0toYkk5eUMtcTZHVkFieGEzeC1lRGVJakwteHJLOVV0M3VfYmRKSXBxcFJjVHBzazVJdw?oc=5"
     },
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-11-20-wagyus-xmr1-wrapped-monero-plunges-99-after-13-million-hack-founder-promises-refunds-444747"
+     "name": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWllmbVVQX2VmWTkwRGhtNmJURnhQZWIzdVZ6WFBKR2NubGFpV3RlUVZNeTBqYXZWMnI3TmNYY2FqY1lwSGtQWUIza1BjSk0tbHFLU2NtQTJKbkMxdmk0QzRGNGc4ajRWNmlid0VuZ3lLMWZaZGJSb2hlS2Faa01jRmJxT0dXRzVvTFk0T0VzZmg1emRHS3JtTTNaNTY1TkJyRjNF?oc=5"
     }
    ],
-   "missing": "Full recovery of funds and hacker identification."
+   "missing": "Operational details on asset transfer timelines."
   },
   {
-   "t": "Hashi Protocol Goes Live on Sui Mainnet",
-   "type": "mainnet",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "SUI",
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Bitcoin finance protocol Hashi has gone live on the Sui mainnet, enabling bitcoin deposits to process hBTC for fluid loans and vaults.",
-   "per": {
-    "SUI": "Mainnet integration live for Hashi protocol.",
-    "BTC": "Bridged as hBTC for vault and loan operations on Sui."
-   },
-   "direction": "positive",
-   "quality": 75,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608"
-    }
-   ],
-   "missing": "Total value locked at launch."
-  },
-  {
-   "t": "Bybit Opens CLEAR/USDT Spot Trading",
+   "t": "Clearpool Contract Update and Bybit Spot Trading",
    "type": "listing",
-   "status": "completed",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
     "CLEAR"
    ],
    "rel": "direct",
-   "b": "Bybit has opened CLEAR/USDT spot trading following a Clearpool contract update.",
+   "b": "Bybit is opening CLEAR/USDT spot trading following a Clearpool contract update.",
    "per": {
-    "CLEAR": "Spot trading is now open on Bybit following a contract update."
+    "CLEAR": "Bybit opens CLEAR/USDT spot trading following a Clearpool contract update."
    },
    "direction": "positive",
-   "quality": 66,
-   "label": "COMPLETED CATALYST",
+   "quality": 75,
+   "label": "STRONG CATALYST",
    "parts": {
     "credibility": 8,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
+   "impact": 8,
+   "s": "building",
+   "c": "high",
    "sources": [
     {
      "name": "Crypto Briefing",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VcG1yeGdCUXliYW9RYnl5cWlMdU16aHJOTVRtUS1sUUJOMlNyX3Z6ZlU0M2trMW9EY3RzdWJYaTBwUDhqQkVSbU1Xb2ROVnZ6OFdxWVZrV2M2VTdtQ3Z5UlJrZ0FyeDJCc29PNlJUV1o?oc=5"
     }
    ],
-   "missing": "Exact hour of launch."
+   "missing": "Exact launch timestamps."
   },
   {
-   "t": "Upbit Launches EIGEN Listing",
-   "type": "listing",
-   "status": "completed",
+   "t": "Ethereum Glamsterdam Upgrade Delayed to 2027",
+   "type": "mainnet",
+   "status": "delayed",
    "event_date": null,
    "coins": [
-    "EIGEN"
+    "ETH"
    ],
    "rel": "direct",
-   "b": "Upbit has gone live with an EIGEN listing, which coincided with a 7.65% price fall in 24 hours.",
+   "b": "Ethereum's Glamsterdam upgrade has been pushed from December to January 2027 at the earliest to allow apps time to fix affected smart contracts.",
    "per": {
-    "EIGEN": "Listing is live on Upbit."
+    "ETH": "Glamsterdam upgrade delayed to January 2027."
    },
-   "direction": "positive",
-   "quality": 66,
-   "label": "COMPLETED CATALYST",
+   "direction": "mixed",
+   "quality": 73,
+   "label": "MODERATE CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 17,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 6
+    "timing": 4
    },
    "impact": 7,
    "s": "fading",
    "c": "medium",
    "sources": [
     {
-     "name": "Coin Gabbar",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZkJNTTFpTS0taVZsRG5ZODRReVZGQ3U3Vm16ZnlpcjlkdU4tR043ZEpSd0xwTWcyZG9YRWRESEFpZlJPUkJXMTVXb0t5ckpwTDFYNW5aakpwNDE2WTdLcFhsLUcxZnA2R1FnaXk1OTk5NHBqdHkzRWVlN25pb294WnIydjNwamttSURhaw?oc=5"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/11/20/ethereum-s-next-big-upgrade-is-pushed-into-2027-by-apps-it-would-break"
     }
    ],
-   "missing": "Exact listing timestamp."
+   "missing": "Exact mainnet activation block or date in January 2027."
   },
   {
-   "t": "Roundhill Abandons XRP and Solana Income ETFs",
+   "t": "Roundhill Abandons XRP Income Fund",
    "type": "etf",
-   "status": "cancelled",
+   "status": "completed",
    "event_date": null,
    "coins": [
-    "XRP",
-    "SOL"
+    "XRP"
    ],
    "rel": "direct",
-   "b": "Roundhill has abandoned its planned XRP and Solana income ETFs following SEC delays and weak market interest.",
+   "b": "Roundhill abandoned its XRP Income Fund following 13 months of SEC delays.",
    "per": {
-    "XRP": "XRP Income Fund plans cancelled after 13 months of delays.",
-    "SOL": "Solana income ETF plans dropped amid weak demand."
+    "XRP": "Roundhill abandoned its XRP Income Fund after 13 months of SEC delays."
    },
    "direction": "negative",
-   "quality": 62,
+   "quality": 61,
    "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 10,
     "relevance": 25,
-    "impact": 12,
+    "impact": 5,
     "novelty": 15,
-    "timing": 0
+    "timing": 6
    },
    "impact": 6,
    "s": "fading",
@@ -233,13 +153,9 @@
     {
      "name": "Pluang",
      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcFJPMkhyMmU4Zl9uaUpfVmZOSHNTN2l1cDJ6STI3SDg4YmFqMW9ZY1IxWlV3dFA5YzhLWHljOG45MlFTaXEta19oZ1JyTjM5SFgtUGEySVBSOWlOcVFhYnNGWkVRUWtOTUdVcjk2R2dnUVZXTU90cHV5bVlrM3hHZkdxU2dvZzdfMThWUmtNeEVHOS1xSFE?oc=5"
-    },
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS0FwSmtOQ2lNdzdsVmhYamsydDlWTmNLVE5VLWhHcTVWdVRkTG5kX2h3a1RPTjVReklnQUdDOTRsaGhLU05BUGhzYVVRRHdlYTlqbzlXY3RWQzA2Qmh2NzdCdlE2Snk4dGtDNHJNNHBUZHZmaE5LdVQxVDV5QWkyYXVPanB6QmREVzJXZFBXekoyMEg1a0tWQW1WTlN6VTNyVVFGdG4wN1BvUkZhYWc?oc=5"
     }
    ],
-   "missing": "Exact cancellation filing details."
+   "missing": "Future plans for the fund ticker."
   }
  ]
 }
