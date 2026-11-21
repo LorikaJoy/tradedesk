@@ -1,37 +1,33 @@
 {
- "updated": "2026-11-21T16:45:49.654292+00:00",
+ "updated": "2026-11-21T21:58:49.902610+00:00",
  "cards": [
   {
-   "t": "Wagyu XMR1 wrapped Monero hack",
+   "t": "Wrapped Monero XMR1 hack",
    "type": "hack",
-   "status": "completed",
+   "status": "ongoing",
    "event_date": null,
    "coins": [
     "XMR1"
    ],
    "rel": "direct",
-   "b": "The Wagyu XMR1 wrapped Monero token crashed 99% after an attacker exploited a security breach in the deployer account to sell $13.5 million worth of tokens.",
+   "b": "Wagyu's XMR1 token dropped 99% after an attacker exploited the deployer account to sell $13 million worth of tokens. The founder has promised refunds to affected users.",
    "per": {
-    "XMR1": "Price collapsed 99% after the exploit."
+    "XMR1": "Price collapsed 99.8% due to the $13.5M exploit."
    },
    "direction": "negative",
-   "quality": 87,
+   "quality": 93,
    "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 21,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 6
+    "timing": 12
    },
    "impact": 9,
-   "s": "fading",
+   "s": "building",
    "c": "high",
    "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/11/20/wrapped-monero-token-plunges-99-as-issuer-linked-wallet-sells-usd13-5-million"
-    },
     {
      "name": "cointelegraph.com",
      "url": "https://cointelegraph.com/news/wrapped-monero-token-crashes-998-amid-suspected-135m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -45,33 +41,33 @@
      "url": "https://www.theblock.co/news/defi/2026-11-20-wagyus-xmr1-wrapped-monero-plunges-99-after-13-million-hack-founder-promises-refunds-444747"
     }
    ],
-   "missing": "Specific timeline for promised refunds to affected users."
+   "missing": "Mechanics of the refund process."
   },
   {
    "t": "Chainflip FLIP vault drain",
    "type": "hack",
-   "status": "completed",
+   "status": "ongoing",
    "event_date": null,
    "coins": [
     "FLIP"
    ],
    "rel": "direct",
-   "b": "Chainflip suffered a $4.86 million vault drain due to a suspected compromise of keys used by validators to approve payouts.",
+   "b": "Chainflip's vault was drained of $4.86 million due to a suspected compromise of key validators. The FLIP token price fell 34% following the incident.",
    "per": {
-    "FLIP": "Token price dropped 34% following the exploit."
+    "FLIP": "Price plummeted 34% following the vault hack."
    },
    "direction": "negative",
-   "quality": 85,
+   "quality": 91,
    "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 19,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 6
+    "timing": 12
    },
-   "impact": 8,
-   "s": "fading",
+   "impact": 9,
+   "s": "building",
    "c": "high",
    "sources": [
     {
@@ -83,107 +79,10 @@
      "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804"
     }
    ],
-   "missing": "Full details on the recovery or potential impact on future operations."
+   "missing": "Full recovery timeline or specific validator identities."
   },
   {
-   "t": "Senate passes Death Bets Act",
-   "type": "regulation",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "UMA",
-    "PYTH"
-   ],
-   "rel": "indirect",
-   "b": "The U.S. Senate passed legislation banning prediction market contracts tied to war, assassination, and death, which now heads to the House.",
-   "per": {
-    "UMA": "Potentially impacted by restrictions on prediction market event contracts.",
-    "PYTH": "Potentially impacted by restrictions on prediction market event contracts."
-   },
-   "direction": "negative",
-   "quality": 75,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/policy/2026/11/20/u-s-senated-passes-bill-to-ban-prediction-market-best-on-war-and-death"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/us-senate-advances-prediction-market-restrictions-with-death-bets-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/383700/senate-passes-bill-banning-prediction-market-bets-on-war-terrorism-and-death"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/regulation/2026-11-20-senate-death-bets-act-444200"
-    }
-   ],
-   "missing": "Final vote schedule in the House."
-  },
-  {
-   "t": "Hong Kong crypto licensing bill",
-   "type": "regulation",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-12-02",
-   "coins": [
-    "HKD",
-    "BTC",
-    "ETH"
-   ],
-   "rel": "indirect",
-   "b": "Hong Kong has published a bill to bring crypto brokers, advisers, asset managers, and custodians under a formal licensing framework, with the first reading set for December 2.",
-   "per": {
-    "BTC": "Regulatory framework expansion in Hong Kong.",
-    "ETH": "Regulatory framework expansion in Hong Kong."
-   },
-   "direction": "mixed",
-   "quality": 75,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/policy/2026/11/20/hong-kong-moves-to-extend-crypto-licensing-rules-to-brokers-advisers-and-custodians"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/hong-kong-crypto-custody-advisory-licensing-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "MLQ.ai",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ1gxZWZGRElCVTdjcm5xOGQ1UEtUQ1BmZEhJdDh6WXl4ZDdma3NPZEF6SU5Qc252bU5IbkVjd2xHMWoyb0JnbmdsU000MFdKbG5UdTZKZkdhM1BJWDB1Sk5nU3IzaEhIR2ZBVDhMV0ZqSlRxakNyQmxkRi1xUE1RRl9ST0pCQ1FRMFVZbVdaS2tEbHlJeGlBTkdpSQ?oc=5"
-    },
-    {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5WeHNwVE9XakVyRGFGcno0YU1LeU12eXJreVZVY2Y5WlJKYzZEMFZycE9RX0dxckZtVmN6Z19uaXlnZTFCZEJmLVFSWDI1TmFfdmNDZQ?oc=5"
-    }
-   ],
-   "missing": "Implementation timeline for existing firms to comply."
-  },
-  {
-   "t": "VanEck drops Gemini as ETF custodian",
+   "t": "VanEck drops Gemini as custodian",
    "type": "other",
    "status": "confirmed_upcoming",
    "event_date": "2027-02-01",
@@ -192,26 +91,26 @@
     "ETH",
     "SOL"
    ],
-   "rel": "indirect",
-   "b": "VanEck will end its Gemini custody agreements for its Bitcoin, Ethereum, and Solana ETFs in February 2027, continuing to use Coinbase as a custodian.",
+   "rel": "direct",
+   "b": "VanEck plans to end its custody agreements with Gemini for its Bitcoin, Ethereum, and Solana ETFs in February 2027, retaining Coinbase as the primary custodian.",
    "per": {
-    "BTC": "Custodian change for VanEck ETF.",
-    "ETH": "Custodian change for VanEck ETF.",
-    "SOL": "Custodian change for VanEck ETF."
+    "BTC": "Custody provider change upcoming.",
+    "ETH": "Custody provider change upcoming.",
+    "SOL": "Custody provider change upcoming."
    },
    "direction": "mixed",
-   "quality": 68,
-   "label": "MODERATE CATALYST",
+   "quality": 81,
+   "label": "STRONG CATALYST",
    "parts": {
     "credibility": 21,
-    "relevance": 12,
+    "relevance": 25,
     "impact": 5,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 7,
+   "impact": 8,
    "s": "building",
-   "c": "medium",
+   "c": "high",
    "sources": [
     {
      "name": "CryptoRank",
@@ -226,7 +125,53 @@
      "url": "https://cointelegraph.com/news/vaneck-gemini-etf-custody-end-keep-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Impact on liquidity or storage fees for the ETFs."
+   "missing": "Operational impact on ETF liquidity."
+  },
+  {
+   "t": "Bitcoin ETF record outflows",
+   "type": "other",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "Bitcoin ETFs experienced significant outflows, with BlackRock's IBIT seeing a record $541 million single-day outflow. November total outflows for Bitcoin funds have approached $3.5 billion.",
+   "per": {
+    "BTC": "Price remains under pressure as ETF liquidity pulls back."
+   },
+   "direction": "negative",
+   "quality": 79,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 7,
+    "timing": 6
+   },
+   "impact": 8,
+   "s": "fading",
+   "c": "high",
+   "sources": [
+    {
+     "name": "KuCoin",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9KVEphZ3RYMUtiX3c1RWExMl9uR2hwNHlhTlNVOUdnbHpmNTJFRmNzSlVKZVVVcmMwa0RIUzg4Znl4XzVEWUd5TmVkYjQzV0hoSjBhbXlEVkphM0Jld2NyNzFuZTlHMmd4dGZpbkQySWdOQQ?oc=5"
+    },
+    {
+     "name": "The Coin Republic",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOenZWaTBxdWFEcG5pYjluWmxZWVpROWZzNlpBalVEMUk3MVp2NVl3bW9UazdBMDlNTEMyVjNwUDdJYWxOX0NfRFU3N3VsYXVPRVl5Y0w5WDBEQkZ5OWxNWUZzUFh1RGR4UUhrMllXNVhXNHg2VnFQYng4WkN6UzczdnBpVkJtdk1SVE5CaWRGQWg2eFJRWER1Mm5HVm42ZjhQbENSWFZoOTBKaWvSAbABQVVfeXFMTkpibHQ1TlVKaEJKc21LNG5YbzRUQ0x0dUR3aEQ4WTBvSW5EY2Rhb0V3ZWV5OVMzR3BKYnloTnBOTjZzR0hfdEp0NVNTV3lKWmxfeE9XQ3JHRDBJTHNwQktueEJLUl9yMmNFaTB6VG1wbkRsbU1JV2JQQkhUdEZ2Z0RaSDdTLUNTaVM5VVJBS3RHNVdCeUQzS1QxOGJPVEJmV0xWQ04tTWdacU5XR18yc3E?oc=5"
+    },
+    {
+     "name": "CryptoTicker.io",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNXlJNmFQUUgySGVNdFJZWTFCcEF3WFVKTDdhTU1lVVlISDJhRjBsb0lZWm9FR1Y1NGxCOEpuSGxxQnJKWUlmNWdxbUpEVEVJZEFZUmZlZllnSlZVWWJZaHZPZDVVODd2cnVURmZVRmFGUWNuY1B2RmlnYTFvV0pMSnV3WQ?oc=5"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/markets/2026-11-20-us-spot-bitcoin-etfs-see-582-million-in-daily-net-outflows-as-november-total-nears-3-5-billion-444217"
+    }
+   ],
+   "missing": "Long-term institutional sentiment shift."
   }
  ]
 }
