@@ -1,30 +1,30 @@
 {
- "updated": "2026-11-22T09:27:47.078852+00:00",
+ "updated": "2026-11-22T17:17:35.749433+00:00",
  "cards": [
   {
-   "t": "Chainflip Confirms $12M Hack and Offers 10% Bounty",
+   "t": "Chainflip Vault Drained in $4.86M-$12M Exploit",
    "type": "hack",
-   "status": "ongoing",
-   "event_date": "2026-11-23",
+   "status": "confirmed_upcoming",
+   "event_date": null,
    "coins": [
     "FLIP"
    ],
    "rel": "direct",
-   "b": "Chainflip confirmed a $12 million hack resulting from a key compromise. The protocol offered the attacker a 10% bounty for the return of remaining funds by November 23.",
+   "b": "Cross-chain protocol Chainflip suffered a vault drain of $4.86 million to $12 million due to a suspected key compromise allowing a valid signature withdrawal. The team offered the attacker a 10% bounty to return the remaining funds.",
    "per": {
-    "FLIP": "The token price dropped 34% following the vault drain."
+    "FLIP": "Fell 30% to 34% following the vault drain incident."
    },
    "direction": "negative",
-   "quality": 93,
+   "quality": 96,
    "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 21,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
-   "impact": 9,
+   "impact": 10,
    "s": "building",
    "c": "high",
    "sources": [
@@ -41,10 +41,10 @@
      "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804"
     }
    ],
-   "missing": "Whether the bounty was accepted and the total amount successfully recovered."
+   "missing": "Exact final stolen amount if different from initial estimates and whether the hacker accepted the bounty."
   },
   {
-   "t": "Cyber Investigating Suspected Bridge Exploit",
+   "t": "Cyber Protocol Suspends Transfers After Bridge Exploit",
    "type": "hack",
    "status": "ongoing",
    "event_date": null,
@@ -52,9 +52,9 @@
     "CYBER"
    ],
    "rel": "direct",
-   "b": "Cyber reported an unexpected minting of tokens on Solana and a bridge exploit, leading major exchanges like Upbit and Bithumb to freeze transfers.",
+   "b": "South Korean exchanges including Upbit, Bithumb, and others halted CYBER deposits and withdrawals following an unexpected minting of CYBER tokens on Solana and tokens moving out of its Ethereum bridge lockbox.",
    "per": {
-    "CYBER": "Exchanges have suspended deposits and withdrawals due to the security incident."
+    "CYBER": "Transfers halted across multiple South Korean exchanges amid bridge exploit investigations."
    },
    "direction": "negative",
    "quality": 91,
@@ -79,54 +79,56 @@
      "url": "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810"
     }
    ],
-   "missing": "Total funds lost and duration of transfer suspensions."
+   "missing": "Total funds lost in the exploit and timeline for resuming bridge operations."
   },
   {
-   "t": "Grayscale Files for Spot Hedera (HBAR) ETF",
-   "type": "etf",
-   "status": "officially_announced",
+   "t": "Hashi Goes Live on Sui Mainnet to Enable Bitcoin Lending Collateral",
+   "type": "mainnet",
+   "status": "completed",
    "event_date": null,
    "coins": [
-    "HBAR"
+    "SUI",
+    "BTC"
    ],
    "rel": "direct",
-   "b": "Grayscale has submitted a formal application for a spot Hedera ETF to the SEC.",
+   "b": "Hashi has officially launched on the Sui mainnet, introducing functionality to turn Bitcoin into lending collateral.",
    "per": {
-    "HBAR": "Grayscale has filed for a spot ETF for the token."
+    "SUI": "Benefiting from new mainnet utility integration.",
+    "BTC": "Gains cross-chain lending collateral capabilities."
    },
    "direction": "positive",
-   "quality": 83,
-   "label": "STRONG CATALYST",
+   "quality": 66,
+   "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 8,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
-    "timing": 15
+    "timing": 6
    },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
+   "impact": 7,
+   "s": "fading",
+   "c": "medium",
    "sources": [
     {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUUZhMGRIZUdZNHpGejh2MktLOWdfaS0yVVJOSTBWeldwekt1b1p2OEdfYkxWM1hsQ2dSOEhkZHhaeDNHd3pxNjIzeFJUbkZTYmRhMjBGaXdsWDhqOGNXZFdfcndrdzI1bG5GaG5ZU1g2T0gtZzdEckk3VzF5UDA2cEhvUkxwcTVHeS1QZkUtYTBtaXdsUHphSnVTNHdBemR2dGtEVGdlNjdMelNIMHJDblc1NTFEc1l6REVQbUl4TGVhR0ZzaGc4?oc=5"
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQS0FjT3FtMFU1enhkY1J2NHVrWWhiTnZyUDItc09oNjZyeVNnek1SanVzeFFyUTNGck04TnRTbTRXckRtelFTNmhTMmhlajdYRTd1TF9BdFNPOGZwNHc0WmJZUWtfWHpqSjJzeEN3NHpnOGJIYm1tZ2p6eXlqeUJOQkdqLURIRklYdFN3el9LU0RyWXp6ZGZWdC0wdVF6eUwwOHpOSjNGaV81c0VBOEJMXzdMNTR3SDYwRnFVWHpwYnpFOHdrVFZlSDA4MkVXelpy?oc=5"
     }
    ],
-   "missing": "Approval timeline and SEC response status."
+   "missing": "Total value locked (TVL) metrics following launch."
   },
   {
-   "t": "Russia Legalizes Bitcoin Trading",
+   "t": "Moscow Exchange Prepares December Launch for Crypto Trading",
    "type": "regulation",
    "status": "confirmed_upcoming",
-   "event_date": "2026-12-01",
+   "event_date": "2025-12-01",
    "coins": [
     "BTC"
    ],
    "rel": "indirect",
-   "b": "Russia has authorized Bitcoin trading, with the Moscow Exchange preparing to launch services in December.",
+   "b": "Russia has allowed Bitcoin trading as the sanctioned Moscow Exchange prepares a December 1 launch for regulated crypto trading operations.",
    "per": {
-    "BTC": "Legalized trading framework set for launch in December."
+    "BTC": "Impacted by broader regional regulatory openings and market structures."
    },
    "direction": "positive",
    "quality": 64,
@@ -151,7 +153,7 @@
      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWnpFQ0otZE0xeW1SWjUzZ2dDSVpITVF6Y3JSUGVvYVg2Z2xMOHR2S0hIa1lrVjEyaEhHcVRhNUhLMTBfWWNkTjdzRldTQXhoQjVkdmlfOF9GVmV5ZFhPSnh5elBuN2IwaGJNcXVtajU2T1VRVEJHWGtnZ0s5WWhIb1Axckp0OGZReWZMcXdzY1JlU20xR2Vj?oc=5"
     }
    ],
-   "missing": "Which specific exchanges will be the first to receive operational approval."
+   "missing": "Specific participating exchanges receiving immediate green lights."
   }
  ]
 }
