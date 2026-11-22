@@ -1,30 +1,30 @@
 {
- "updated": "2026-11-21T21:58:49.902610+00:00",
+ "updated": "2026-11-22T01:58:01.779439+00:00",
  "cards": [
   {
-   "t": "Wrapped Monero XMR1 hack",
+   "t": "Wrapped Monero Exploit",
    "type": "hack",
-   "status": "ongoing",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "XMR1"
+    "XMR"
    ],
    "rel": "direct",
-   "b": "Wagyu's XMR1 token dropped 99% after an attacker exploited the deployer account to sell $13 million worth of tokens. The founder has promised refunds to affected users.",
+   "b": "Wrapped Monero tokens (XMR1) collapsed over 99% following a $13 million to $13.5 million exploit where an attacker moved millions of tokens from a deployer account.",
    "per": {
-    "XMR1": "Price collapsed 99.8% due to the $13.5M exploit."
+    "XMR": "Wrapped version XMR1 crashed by 99% after an exploit drained millions from the deployer account."
    },
    "direction": "negative",
-   "quality": 93,
+   "quality": 96,
    "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 21,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
-   "impact": 9,
+   "impact": 10,
    "s": "building",
    "c": "high",
    "sources": [
@@ -41,30 +41,30 @@
      "url": "https://www.theblock.co/news/defi/2026-11-20-wagyus-xmr1-wrapped-monero-plunges-99-after-13-million-hack-founder-promises-refunds-444747"
     }
    ],
-   "missing": "Mechanics of the refund process."
+   "missing": "Timeline and mechanism for the promised user refunds."
   },
   {
-   "t": "Chainflip FLIP vault drain",
+   "t": "Chainflip FLIP Vault Drain",
    "type": "hack",
-   "status": "ongoing",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
     "FLIP"
    ],
    "rel": "direct",
-   "b": "Chainflip's vault was drained of $4.86 million due to a suspected compromise of key validators. The FLIP token price fell 34% following the incident.",
+   "b": "Cross-chain protocol Chainflip's FLIP token dropped over 30% after an attacker drained $4.86 million from its vault via a suspected validator key compromise.",
    "per": {
-    "FLIP": "Price plummeted 34% following the vault hack."
+    "FLIP": "Fell 30% to 34% following the vault drain and suspected private key compromise."
    },
    "direction": "negative",
-   "quality": 91,
+   "quality": 94,
    "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 19,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
    "impact": 9,
    "s": "building",
@@ -79,32 +79,62 @@
      "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804"
     }
    ],
-   "missing": "Full recovery timeline or specific validator identities."
+   "missing": "Exact recovery plans or whether validator keys have been fully secured."
   },
   {
-   "t": "VanEck drops Gemini as custodian",
-   "type": "other",
+   "t": "Cyber Bridge Security Incident",
+   "type": "hack",
    "status": "confirmed_upcoming",
-   "event_date": "2027-02-01",
+   "event_date": null,
    "coins": [
-    "BTC",
-    "ETH",
-    "SOL"
+    "CYBER"
    ],
    "rel": "direct",
-   "b": "VanEck plans to end its custody agreements with Gemini for its Bitcoin, Ethereum, and Solana ETFs in February 2027, retaining Coinbase as the primary custodian.",
+   "b": "Cyber is investigating a suspected $1 million bridge exploit, prompting major South Korean exchanges like Upbit and Bithumb to suspend deposits and withdrawals.",
    "per": {
-    "BTC": "Custody provider change upcoming.",
-    "ETH": "Custody provider change upcoming.",
-    "SOL": "Custody provider change upcoming."
+    "CYBER": "Deposits and withdrawals were frozen across major exchanges following a suspected bridge exploit."
    },
-   "direction": "mixed",
-   "quality": 81,
-   "label": "STRONG CATALYST",
+   "direction": "negative",
+   "quality": 92,
+   "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 21,
+    "credibility": 17,
     "relevance": 25,
-    "impact": 5,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810"
+    }
+   ],
+   "missing": "Full audit of the exploited bridge contract and exact funds lost."
+  },
+  {
+   "t": "Hyperliquid Regulatory Scrutiny",
+   "type": "regulation",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "HYPE"
+   ],
+   "rel": "direct",
+   "b": "The CFTC stated that Hyperliquid must register or partner to legally enter the US market, adding pressure alongside exchange tag changes.",
+   "per": {
+    "HYPE": "Fell 10% amid regulatory pressure from CFTC requirements and exchange tagging updates."
+   },
+   "direction": "negative",
+   "quality": 77,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 10,
+    "relevance": 25,
+    "impact": 12,
     "novelty": 15,
     "timing": 15
    },
@@ -114,64 +144,48 @@
    "sources": [
     {
      "name": "CryptoRank",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLW9sWFhKdzlfWlYxcDI5S1dGeU9lMTF2Skk1bXI0UmNhNU10TGhBbkxtOHVWNEZmUGpTcUQ0WDNFVVhTWVVLX1plNnlBTm50VU9qak1BRWZySWsxOTJvNDFlWVN5WnFqb2ZLdDB4bi1EazdFNzV2X0JBb1lJYTJ2Y1FDQnBIR0JXZENVVzY5RERkNzg4elB1aEZnMTV6YnVxcUZrSHNndFpEaFJ5aWZaV3ZMLUgzZXc?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE93SEZVaDZzaGtXZmw2UUFpNFhpV2gycjhFOUtpelZ0a3VKcFU2SWZRcFJBc1BYT2txTjdBTGx2WVl2SThxUjBhVnIyN0NMaTFETk9IMFJzM3RmbGIxMGd5SGxTUG1NUWpYRTdfV3IwNGxXWGtTUnEzbkpBM0hSQQ?oc=5"
     },
     {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSFUzMXM0WFBvaDhaQ0hIaW9BWlJpTDQ1TmJ5WDgxMWVkMkFfNVRCenQ1ZWJMVFZYaXNRRUs1NElxYmMwbS1Wd2NOUE9YSUNibkIycVRoY2drQVh5Tk5kTU96RGUzSDhCS05wcjNpQU1aUlJ0YXc4d0FSNXhpWnYzamdiRDdTSnBxd2FWVmozV0ozNGE4b1Y5WHVtWjU4eF9tLVE?oc=5"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/vaneck-gemini-etf-custody-end-keep-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "Altcoin Buzz",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQVp1VnhVbW82eTdfb2hzSS1icXlfbmpmWDd1RlNrVXFTaVNsM3haQldLZzhhY1YzZzJqSlVaaWlRRUFwb0ZFV0t6TVJKQ0txSkZFT1ZScUROendRdDkzcW16ajFwRnZSU0YzdGhtZDlkdm1UVGJjTlVJbVUxMlBFTjRlbw?oc=5"
     }
    ],
-   "missing": "Operational impact on ETF liquidity."
+   "missing": "Specific compliance timeline or partnership details from Hyperliquid."
   },
   {
-   "t": "Bitcoin ETF record outflows",
-   "type": "other",
-   "status": "completed",
+   "t": "BTCS Aave Loan Liquidation Warning",
+   "type": "treasury",
+   "status": "ongoing",
    "event_date": null,
    "coins": [
-    "BTC"
+    "ETH"
    ],
    "rel": "direct",
-   "b": "Bitcoin ETFs experienced significant outflows, with BlackRock's IBIT seeing a record $541 million single-day outflow. November total outflows for Bitcoin funds have approached $3.5 billion.",
+   "b": "Ether treasury firm BTCS warned the SEC that its $54 million Aave loan is under pressure of liquidation as falling ETH prices reduce collateral value.",
    "per": {
-    "BTC": "Price remains under pressure as ETF liquidity pulls back."
+    "ETH": "Subject to downward pressure as leveraged treasury collateral faces liquidation risks."
    },
    "direction": "negative",
-   "quality": 79,
+   "quality": 68,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 7,
-    "timing": 6
+    "credibility": 17,
+    "relevance": 12,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 12
    },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
+   "impact": 7,
+   "s": "building",
+   "c": "medium",
    "sources": [
     {
-     "name": "KuCoin",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9KVEphZ3RYMUtiX3c1RWExMl9uR2hwNHlhTlNVOUdnbHpmNTJFRmNzSlVKZVVVcmMwa0RIUzg4Znl4XzVEWUd5TmVkYjQzV0hoSjBhbXlEVkphM0Jld2NyNzFuZTlHMmd4dGZpbkQySWdOQQ?oc=5"
-    },
-    {
-     "name": "The Coin Republic",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOenZWaTBxdWFEcG5pYjluWmxZWVpROWZzNlpBalVEMUk3MVp2NVl3bW9UazdBMDlNTEMyVjNwUDdJYWxOX0NfRFU3N3VsYXVPRVl5Y0w5WDBEQkZ5OWxNWUZzUFh1RGR4UUhrMllXNVhXNHg2VnFQYng4WkN6UzczdnBpVkJtdk1SVE5CaWRGQWg2eFJRWER1Mm5HVm42ZjhQbENSWFZoOTBKaWvSAbABQVVfeXFMTkpibHQ1TlVKaEJKc21LNG5YbzRUQ0x0dUR3aEQ4WTBvSW5EY2Rhb0V3ZWV5OVMzR3BKYnloTnBOTjZzR0hfdEp0NVNTV3lKWmxfeE9XQ3JHRDBJTHNwQktueEJLUl9yMmNFaTB6VG1wbkRsbU1JV2JQQkhUdEZ2Z0RaSDdTLUNTaVM5VVJBS3RHNVdCeUQzS1QxOGJPVEJmV0xWQ04tTWdacU5XR18yc3E?oc=5"
-    },
-    {
-     "name": "CryptoTicker.io",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNXlJNmFQUUgySGVNdFJZWTFCcEF3WFVKTDdhTU1lVVlISDJhRjBsb0lZWm9FR1Y1NGxCOEpuSGxxQnJKWUlmNWdxbUpEVEVJZEFZUmZlZllnSlZVWWJZaHZPZDVVODd2cnVURmZVRmFGUWNuY1B2RmlnYTFvV0pMSnV3WQ?oc=5"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/markets/2026-11-20-us-spot-bitcoin-etfs-see-582-million-in-daily-net-outflows-as-november-total-nears-3-5-billion-444217"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated"
     }
    ],
-   "missing": "Long-term institutional sentiment shift."
+   "missing": "Whether BTCS will successfully deleverage further or face forced liquidation."
   }
  ]
 }
