@@ -1,70 +1,28 @@
 {
- "updated": "2026-11-22T01:58:01.779439+00:00",
+ "updated": "2026-11-22T09:27:47.078852+00:00",
  "cards": [
   {
-   "t": "Wrapped Monero Exploit",
+   "t": "Chainflip Confirms $12M Hack and Offers 10% Bounty",
    "type": "hack",
-   "status": "confirmed_upcoming",
-   "event_date": null,
+   "status": "ongoing",
+   "event_date": "2026-11-23",
    "coins": [
-    "XMR"
+    "FLIP"
    ],
    "rel": "direct",
-   "b": "Wrapped Monero tokens (XMR1) collapsed over 99% following a $13 million to $13.5 million exploit where an attacker moved millions of tokens from a deployer account.",
+   "b": "Chainflip confirmed a $12 million hack resulting from a key compromise. The protocol offered the attacker a 10% bounty for the return of remaining funds by November 23.",
    "per": {
-    "XMR": "Wrapped version XMR1 crashed by 99% after an exploit drained millions from the deployer account."
+    "FLIP": "The token price dropped 34% following the vault drain."
    },
    "direction": "negative",
-   "quality": 96,
+   "quality": 93,
    "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 21,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 15
-   },
-   "impact": 10,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/wrapped-monero-token-crashes-998-amid-suspected-135m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/383732/wrapped-monero-token-collapses-99-after-13-million-hack-blamed-on-web-host"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-11-20-wagyus-xmr1-wrapped-monero-plunges-99-after-13-million-hack-founder-promises-refunds-444747"
-    }
-   ],
-   "missing": "Timeline and mechanism for the promised user refunds."
-  },
-  {
-   "t": "Chainflip FLIP Vault Drain",
-   "type": "hack",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "FLIP"
-   ],
-   "rel": "direct",
-   "b": "Cross-chain protocol Chainflip's FLIP token dropped over 30% after an attacker drained $4.86 million from its vault via a suspected validator key compromise.",
-   "per": {
-    "FLIP": "Fell 30% to 34% following the vault drain and suspected private key compromise."
-   },
-   "direction": "negative",
-   "quality": 94,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
+    "timing": 12
    },
    "impact": 9,
    "s": "building",
@@ -75,66 +33,74 @@
      "url": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain"
     },
     {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
      "name": "theblock.co",
      "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804"
     }
    ],
-   "missing": "Exact recovery plans or whether validator keys have been fully secured."
+   "missing": "Whether the bounty was accepted and the total amount successfully recovered."
   },
   {
-   "t": "Cyber Bridge Security Incident",
+   "t": "Cyber Investigating Suspected Bridge Exploit",
    "type": "hack",
-   "status": "confirmed_upcoming",
+   "status": "ongoing",
    "event_date": null,
    "coins": [
     "CYBER"
    ],
    "rel": "direct",
-   "b": "Cyber is investigating a suspected $1 million bridge exploit, prompting major South Korean exchanges like Upbit and Bithumb to suspend deposits and withdrawals.",
+   "b": "Cyber reported an unexpected minting of tokens on Solana and a bridge exploit, leading major exchanges like Upbit and Bithumb to freeze transfers.",
    "per": {
-    "CYBER": "Deposits and withdrawals were frozen across major exchanges following a suspected bridge exploit."
+    "CYBER": "Exchanges have suspended deposits and withdrawals due to the security incident."
    },
    "direction": "negative",
-   "quality": 92,
+   "quality": 91,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 19,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
-    "timing": 15
+    "timing": 12
    },
    "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
     {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/upbit-bithumb-suspend-cyber-transfers-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
      "name": "theblock.co",
      "url": "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810"
     }
    ],
-   "missing": "Full audit of the exploited bridge contract and exact funds lost."
+   "missing": "Total funds lost and duration of transfer suspensions."
   },
   {
-   "t": "Hyperliquid Regulatory Scrutiny",
-   "type": "regulation",
-   "status": "confirmed_upcoming",
+   "t": "Grayscale Files for Spot Hedera (HBAR) ETF",
+   "type": "etf",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "HYPE"
+    "HBAR"
    ],
    "rel": "direct",
-   "b": "The CFTC stated that Hyperliquid must register or partner to legally enter the US market, adding pressure alongside exchange tag changes.",
+   "b": "Grayscale has submitted a formal application for a spot Hedera ETF to the SEC.",
    "per": {
-    "HYPE": "Fell 10% amid regulatory pressure from CFTC requirements and exchange tagging updates."
+    "HBAR": "Grayscale has filed for a spot ETF for the token."
    },
-   "direction": "negative",
-   "quality": 77,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 83,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 10,
+    "credibility": 8,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 15
    },
@@ -143,49 +109,49 @@
    "c": "high",
    "sources": [
     {
-     "name": "CryptoRank",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE93SEZVaDZzaGtXZmw2UUFpNFhpV2gycjhFOUtpelZ0a3VKcFU2SWZRcFJBc1BYT2txTjdBTGx2WVl2SThxUjBhVnIyN0NMaTFETk9IMFJzM3RmbGIxMGd5SGxTUG1NUWpYRTdfV3IwNGxXWGtTUnEzbkpBM0hSQQ?oc=5"
-    },
-    {
-     "name": "Altcoin Buzz",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQVp1VnhVbW82eTdfb2hzSS1icXlfbmpmWDd1RlNrVXFTaVNsM3haQldLZzhhY1YzZzJqSlVaaWlRRUFwb0ZFV0t6TVJKQ0txSkZFT1ZScUROendRdDkzcW16ajFwRnZSU0YzdGhtZDlkdm1UVGJjTlVJbVUxMlBFTjRlbw?oc=5"
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUUZhMGRIZUdZNHpGejh2MktLOWdfaS0yVVJOSTBWeldwekt1b1p2OEdfYkxWM1hsQ2dSOEhkZHhaeDNHd3pxNjIzeFJUbkZTYmRhMjBGaXdsWDhqOGNXZFdfcndrdzI1bG5GaG5ZU1g2T0gtZzdEckk3VzF5UDA2cEhvUkxwcTVHeS1QZkUtYTBtaXdsUHphSnVTNHdBemR2dGtEVGdlNjdMelNIMHJDblc1NTFEc1l6REVQbUl4TGVhR0ZzaGc4?oc=5"
     }
    ],
-   "missing": "Specific compliance timeline or partnership details from Hyperliquid."
+   "missing": "Approval timeline and SEC response status."
   },
   {
-   "t": "BTCS Aave Loan Liquidation Warning",
-   "type": "treasury",
-   "status": "ongoing",
-   "event_date": null,
+   "t": "Russia Legalizes Bitcoin Trading",
+   "type": "regulation",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-12-01",
    "coins": [
-    "ETH"
+    "BTC"
    ],
-   "rel": "direct",
-   "b": "Ether treasury firm BTCS warned the SEC that its $54 million Aave loan is under pressure of liquidation as falling ETH prices reduce collateral value.",
+   "rel": "indirect",
+   "b": "Russia has authorized Bitcoin trading, with the Moscow Exchange preparing to launch services in December.",
    "per": {
-    "ETH": "Subject to downward pressure as leveraged treasury collateral faces liquidation risks."
+    "BTC": "Legalized trading framework set for launch in December."
    },
-   "direction": "negative",
-   "quality": 68,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 64,
+   "label": "MODERATE CATALYST",
    "parts": {
-    "credibility": 17,
+    "credibility": 10,
     "relevance": 12,
     "impact": 12,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
-   "impact": 7,
+   "impact": 6,
    "s": "building",
    "c": "medium",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated"
+     "name": "CryptoSlate",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1vVm9TUl92R1owRWJQRUFZSGdySEpnSmhueG1seTduN1c3eGVFa2ZNR0VIQVdldlkyUHRXQU5kNUItMmhQYklPbmRYOFIydU01RF93VlowQnlRZERPVTA5UWdlU0F6YlpwakhuTnIySmJmd1planVSeA?oc=5"
+    },
+    {
+     "name": "CryptoRank",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWnpFQ0otZE0xeW1SWjUzZ2dDSVpITVF6Y3JSUGVvYVg2Z2xMOHR2S0hIa1lrVjEyaEhHcVRhNUhLMTBfWWNkTjdzRldTQXhoQjVkdmlfOF9GVmV5ZFhPSnh5elBuN2IwaGJNcXVtajU2T1VRVEJHWGtnZ0s5WWhIb1Axckp0OGZReWZMcXdzY1JlU20xR2Vj?oc=5"
     }
    ],
-   "missing": "Whether BTCS will successfully deleverage further or face forced liquidation."
+   "missing": "Which specific exchanges will be the first to receive operational approval."
   }
  ]
 }
