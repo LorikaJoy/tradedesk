@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-22T22:39:25.403537+00:00",
+ "updated": "2026-11-23T03:07:30.281252+00:00",
  "cards": [
   {
-   "t": "Chainflip $12M Vault Hack and Exploit",
+   "t": "Chainflip Loses $12 Million in Vault Exploit",
    "type": "hack",
    "status": "confirmed_upcoming",
    "event_date": "2026-11-23",
@@ -12,28 +12,24 @@
     "ETH"
    ],
    "rel": "direct",
-   "b": "Cross-chain protocol Chainflip suffered a vault drain of approximately $12 million due to a suspected validator key compromise. The protocol offered the attacker a 10% bounty to return 90% of the stolen funds by November 23.",
+   "b": "Cross-chain protocol Chainflip suffered a vault exploit resulting in the theft of $12 million in assets, including BTC, ETH, and stablecoins. The project offered the attacker a 10% bounty to return 90% of the funds by November 23.",
    "per": {
-    "FLIP": "Faced significant price drops of 30% to 34% following the exploit."
+    "FLIP": "Fell sharply by up to 34% following the vault drain and suspected key compromise."
    },
    "direction": "negative",
-   "quality": 96,
+   "quality": 94,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 21,
+    "credibility": 19,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 10,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain"
-    },
     {
      "name": "cointelegraph.com",
      "url": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -47,10 +43,10 @@
      "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804"
     }
    ],
-   "missing": "Whether the hacker will return the funds and the exact remediation steps for the vaults."
+   "missing": "Whether the hacker accepts the bounty and returns the funds."
   },
   {
-   "t": "Cyber Bridge Exploit and Exchange Suspensions",
+   "t": "Cyber Investigates Bridge Exploit After South Korean Exchanges Freeze Transfers",
    "type": "hack",
    "status": "ongoing",
    "event_date": null,
@@ -58,15 +54,15 @@
     "CYBER"
    ],
    "rel": "direct",
-   "b": "Cyber reported unexpected minting of CYBER tokens on Solana and tokens moving out of its Ethereum bridge lockbox, prompting major South Korean exchanges including Upbit, Bithumb, and others to freeze CYBER deposits and withdrawals.",
+   "b": "South Korean exchanges Upbit, Bithumb, and others suspended CYBER deposits and withdrawals following unexpected token minting on Solana and suspicious movements from the Ethereum bridge lockbox.",
    "per": {
-    "CYBER": "Suspended on multiple exchanges amid investigations into the bridge exploit."
+    "CYBER": "Transfers halted on major South Korean exchanges amid the ongoing security investigation."
    },
    "direction": "negative",
-   "quality": 93,
+   "quality": 91,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 21,
+    "credibility": 19,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
@@ -83,101 +79,48 @@
     {
      "name": "theblock.co",
      "url": "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810"
-    },
-    {
-     "name": "NewsCord",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNTVBpQlF0dURMS2p1d0t4eUsyNFg1aS1GQURPUG40TFpmVFk3OGFXVEpTcW5UUTRUZHNQSHJRYk9pS1FSOUY5eVVXeDZyWkF1MTFBS1JwdDlzMHE0T3lqd2NmZE0zX1VWYkxGVU9HVExMSnpPcDhRR1g3LU13aWR3U296Y3hlbFhPMEItMVBLS3ViVFpaMk9ENzBzak9pSU9YclVib1VOSXA4YzI4cDBkMHVBaVJ1TTNDbklMUUwzMUhPckdiaHBkM09LUmxhLUx3amZuOFJxamNYRHdGb1pGYlNUZzRaR1JzTWc?oc=5"
-    },
-    {
-     "name": "CryptoRank",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTEo0WS1uSjJzTXplTXZzVGg4NWpNVG1wRXl1OWo2V1lmY2Y2Y1pRc0F6eG5DSU5RS3pEemczT01GLTVIX0VLZXZQVjlrNlE0ZTF3ek9XYjVNR1VTTmJlcnI0MzlGSGFYdFFnUURYcllacFpPaFItYU9YVDR1OVlqMEFtdw?oc=5"
     }
    ],
-   "missing": "The full financial extent of the exploit and when exchange transfers will resume."
+   "missing": "Total exact amount stolen and vulnerability specifics."
   },
   {
-   "t": "TRUMP Memecoin Plummets Around Gala Dinner Event",
-   "type": "other",
-   "status": "ongoing",
+   "t": "Hashi Launches on Sui Mainnet to Turn Bitcoin into Lending Collateral",
+   "type": "mainnet",
+   "status": "completed",
    "event_date": null,
    "coins": [
-    "TRUMP"
+    "BTC",
+    "SUI"
    ],
    "rel": "direct",
-   "b": "As the second memecoin holder dinner took place featuring guest speakers, the TRUMP token price hit record lows, falling 9% with volume dropping 35% as the event effect faded.",
+   "b": "Hashi has officially gone live on the Sui mainnet, enabling native Bitcoin to be utilized as lending collateral on the network.",
    "per": {
-    "TRUMP": "Experienced heavy downward price pressure and low attendance threshold enthusiasm despite the gala."
+    "BTC": "Gains a new utility layer allowing holders to use it as lending collateral on Sui."
    },
-   "direction": "negative",
-   "quality": 85,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 68,
+   "label": "COMPLETED CATALYST",
    "parts": {
-    "credibility": 21,
+    "credibility": 10,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 12
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/ecosystems/2026-11-22-trump-to-host-second-memecoin-dinner-tonight-with-trump-down-99-from-peak-444828"
-    },
-    {
-     "name": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0TUZNTnp6MnBteEFpalp2SUV1ODg5YU5WYm5MNWtDaEVtYU9wMmFWT0hLcDlXQmZmVXRBckQxYjh5VVJiZ2drLXdxSE1Ma0ZHZ0RYcHZxVWZfcEk?oc=5"
-    },
-    {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5DdlF2Snl3NElsTXloT0lyMFdRZEo2RDd6ZEExYU1ycEVfd2l4bzA4Z01ZU2pjWTZRTlFQRUlzSGZTVzZRb0FQSnBLQmUzVVhnaWwyMA?oc=5"
-    },
-    {
-     "name": "The Crypto Times",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdEsxcU5Seng4NG9FSzJoclB0N3hVRzAyMS1TM2ItWGZ4X0xLaC1nR1FkbHJnLTlBMEdXb3k2clBzLW5WUGNFMnk2Rm5mNHBmZlZGeXEzQVRQVjFmX0Z4SDlZWnZUQ3UyZURRT3BjMVBHZjM3bHZ0ekR5MHhiTmRhWVNlYjRLSGN1cllJcGtYVmFmTnd1bDR1OVIwQl91Y25HamFQWg?oc=5"
-    }
-   ],
-   "missing": "Long-term utility or upcoming roadmap items for the token."
-  },
-  {
-   "t": "BTCS Aave Loan Liquidation Warning",
-   "type": "treasury",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "AAVE"
-   ],
-   "rel": "direct",
-   "b": "Ether treasury firm BTCS warned the SEC that its $54 million Aave loan could face liquidation as falling ether prices put pressure on its collateral, despite cutting debt by $10 million in ten days.",
-   "per": {
-    "AAVE": "Subject to potential large-scale collateral liquidation if ETH prices continue to drop."
-   },
-   "direction": "negative",
-   "quality": 70,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 12
+    "timing": 6
    },
    "impact": 7,
-   "s": "building",
+   "s": "fading",
    "c": "medium",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated"
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQS0FjT3FtMFU1enhkY1J2NHVrWWhiTnZyUDItc09oNjZyeVNnek1SanVzeFFyUTNGck04TnRTbTRXckRtelFTNmhTMmhlajdYRTd1TF9BdFNPOGZwNHc0WmJZUWtfWHpqSjJzeEN3NHpnOGJIYm1tZ2p6eXlqeUJOQkdqLURIRklYdFN3el9LU0RyWXp6ZGZWdC0wdVF6eUwwOHpOSjNGaV81c0VBOEJMXzdMNTR3SDYwRnFVWHpwYnpFOHdrVFZlSDA4MkVXelpy?oc=5"
     },
     {
-     "name": "CryptoRank",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE80QkZOQ1EtNE1oVUY4bUxQVm1JSmFzTzRxNGc3dUhwNm5sNm15LU1uczVWenBJWFpFdlRpQjBmbVMycE5fOEZUQ25OWjBDdkZRMHRuam5uTlNGa1dOVVhoVWt4b0xrMmMzU3AyT2tfSzVNZGs4ejhnLQ?oc=5"
+     "name": "CryptoSlate",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb01iQ1pGQ0dWaU9hZUlTc1pKVndKNG1VbFF6dUlZcWJQQW9TZ2s3WkpLRlJBTnY0NmgzV19fOEJyNTRmZ1NfdHZ1Qzk0S2xocUJfWjE0QjkyQU5uVlUtN2lHQWJKaFpoSDh4Tm9UWkVXTHJ6a2gtZHd0MHQ1SlBkcUJUOHJiMVJXY3dsdFBOcV9TcTg0cjd2clRuMVFLTmtGNmF2Sl84RVZoanc?oc=5"
     }
    ],
-   "missing": "Whether BTCS will manage to post additional collateral or repay the remaining debt to avoid liquidation."
+   "missing": "Total value locked and adoption metrics following launch."
   }
  ]
 }
