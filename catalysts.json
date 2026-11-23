@@ -1,62 +1,20 @@
 {
- "updated": "2026-11-23T03:07:30.281252+00:00",
+ "updated": "2026-11-23T12:28:12.697813+00:00",
  "cards": [
   {
-   "t": "Chainflip Loses $12 Million in Vault Exploit",
-   "type": "hack",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-11-23",
-   "coins": [
-    "FLIP",
-    "BTC",
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "Cross-chain protocol Chainflip suffered a vault exploit resulting in the theft of $12 million in assets, including BTC, ETH, and stablecoins. The project offered the attacker a 10% bounty to return 90% of the funds by November 23.",
-   "per": {
-    "FLIP": "Fell sharply by up to 34% following the vault drain and suspected key compromise."
-   },
-   "direction": "negative",
-   "quality": 94,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804"
-    }
-   ],
-   "missing": "Whether the hacker accepts the bounty and returns the funds."
-  },
-  {
-   "t": "Cyber Investigates Bridge Exploit After South Korean Exchanges Freeze Transfers",
+   "t": "South Korean Exchanges Halt CYBER Transfers Amid Solana Bridge Exploit",
    "type": "hack",
    "status": "ongoing",
    "event_date": null,
    "coins": [
-    "CYBER"
+    "CYBER",
+    "ACE"
    ],
    "rel": "direct",
-   "b": "South Korean exchanges Upbit, Bithumb, and others suspended CYBER deposits and withdrawals following unexpected token minting on Solana and suspicious movements from the Ethereum bridge lockbox.",
+   "b": "South Korean exchanges halted CYBER transfers after unexpected minting of tokens on Solana and subsequent movement out of its Ethereum bridge lockbox, alongside a $3.7 million exploit draining Fusionist's ACE bridge reserves.",
    "per": {
-    "CYBER": "Transfers halted on major South Korean exchanges amid the ongoing security investigation."
+    "CYBER": "Transfers halted on South Korean exchanges due to unexpected token minting and bridge exploit fears.",
+    "ACE": "Bridge reserves drained in a $3.7 million exploit."
    },
    "direction": "negative",
    "quality": 91,
@@ -78,49 +36,48 @@
     },
     {
      "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810"
+     "url": "https://www.theblock.co/news/defi/2026-11-22-a-2-million-exploit-leads-to-a-3-7-million-free-for-all-as-traders-empty-fusionists-ace-bridge-444838"
     }
    ],
-   "missing": "Total exact amount stolen and vulnerability specifics."
+   "missing": "Total financial loss for CYBER and perpetrator identity."
   },
   {
-   "t": "Hashi Launches on Sui Mainnet to Turn Bitcoin into Lending Collateral",
-   "type": "mainnet",
-   "status": "completed",
+   "t": "Upbit, Bithumb, and Coinone Add CYBER to Delisting Watchlist",
+   "type": "delisting",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "BTC",
-    "SUI"
+    "CYBER"
    ],
    "rel": "direct",
-   "b": "Hashi has officially gone live on the Sui mainnet, enabling native Bitcoin to be utilized as lending collateral on the network.",
+   "b": "South Korean exchanges Upbit, Bithumb, and Coinone have added the CYBER token to their delisting watchlist following bridge exploit fears.",
    "per": {
-    "BTC": "Gains a new utility layer allowing holders to use it as lending collateral on Sui."
+    "CYBER": "Added to exchange delisting watchlists due to bridge exploit concerns."
    },
-   "direction": "positive",
-   "quality": 68,
-   "label": "COMPLETED CATALYST",
+   "direction": "negative",
+   "quality": 85,
+   "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 10,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
+   "impact": 8,
+   "s": "building",
+   "c": "high",
    "sources": [
     {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQS0FjT3FtMFU1enhkY1J2NHVrWWhiTnZyUDItc09oNjZyeVNnek1SanVzeFFyUTNGck04TnRTbTRXckRtelFTNmhTMmhlajdYRTd1TF9BdFNPOGZwNHc0WmJZUWtfWHpqSjJzeEN3NHpnOGJIYm1tZ2p6eXlqeUJOQkdqLURIRklYdFN3el9LU0RyWXp6ZGZWdC0wdVF6eUwwOHpOSjNGaV81c0VBOEJMXzdMNTR3SDYwRnFVWHpwYnpFOHdrVFZlSDA4MkVXelpy?oc=5"
+     "name": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBXOXRrTHBNWUVKYV9vSTBqTHF0aDVTMjFhczhyXzNuMi1HQ2s0VkdNUVdWV2t4NGFmdnpmeXRtUllJTkoySTNjaUEzdTZ6Y3dsWWpScFJRYw?oc=5"
     },
     {
-     "name": "CryptoSlate",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb01iQ1pGQ0dWaU9hZUlTc1pKVndKNG1VbFF6dUlZcWJQQW9TZ2s3WkpLRlJBTnY0NmgzV19fOEJyNTRmZ1NfdHZ1Qzk0S2xocUJfWjE0QjkyQU5uVlUtN2lHQWJKaFpoSDh4Tm9UWkVXTHJ6a2gtZHd0MHQ1SlBkcUJUOHJiMVJXY3dsdFBOcV9TcTg0cjd2clRuMVFLTmtGNmF2Sl84RVZoanc?oc=5"
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kbWZWN0pwekFCNk4xTXlxV1ZzdkEzRlRNUTU4OEViN1JMakRsMzFaUDc4Q1FPSTEwTzFmMlBUbFhvOWxCMFhOZVBiLTY2c2d5RWVrUVdNR2xlSmdGQU8yUXdlSm0tM2gwX2RfNjlobEEyNld4LXc?oc=5"
     }
    ],
-   "missing": "Total value locked and adoption metrics following launch."
+   "missing": "Exact delisting date."
   }
  ]
 }
