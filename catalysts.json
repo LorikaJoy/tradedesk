@@ -1,70 +1,72 @@
 {
- "updated": "2026-11-23T12:28:12.697813+00:00",
+ "updated": "2026-11-24T00:11:40.553693+00:00",
  "cards": [
   {
-   "t": "South Korean Exchanges Halt CYBER Transfers Amid Solana Bridge Exploit",
-   "type": "hack",
-   "status": "ongoing",
+   "t": "Strategy Buys Additional Bitcoin and Expands Buyback Limit",
+   "type": "buyback",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "CYBER",
-    "ACE"
+    "BTC"
    ],
    "rel": "direct",
-   "b": "South Korean exchanges halted CYBER transfers after unexpected minting of tokens on Solana and subsequent movement out of its Ethereum bridge lockbox, alongside a $3.7 million exploit draining Fusionist's ACE bridge reserves.",
+   "b": "MicroStrategy purchased another 457 BTC for $30 million and raised its preferred stock buyback limit to $4 billion while allocating funds from dollar reserves.",
    "per": {
-    "CYBER": "Transfers halted on South Korean exchanges due to unexpected token minting and bridge exploit fears.",
-    "ACE": "Bridge reserves drained in a $3.7 million exploit."
+    "BTC": "Corporate treasury acquisition of 457 BTC."
    },
-   "direction": "negative",
-   "quality": 91,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 88,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 19,
+    "credibility": 21,
     "relevance": 25,
-    "impact": 20,
+    "impact": 12,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
    "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/upbit-bithumb-suspend-cyber-transfers-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "The Block",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUXNsY3k2T2NIM0xGX25VdG9VQldDWjBrQXdnWG1KUEF2SU5yTXNDNTFyb1hacVNwM2tDQmpjeWFTbzh2ajJBT2pwRS1UNDZtcWwycW5xS2NkVXFqczU4c2dFWUV5NE5YMUtWQlhrNTNCcFg4VElSRXZxb0ZkYjYyZXV6UWJkYUJEbS10Yld3cTN0TWl1OTJyNzM1V2FaMXM?oc=5"
     },
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-11-22-a-2-million-exploit-leads-to-a-3-7-million-free-for-all-as-traders-empty-fusionists-ace-bridge-444838"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/strategy-buy-457-bitcoin-btc-treasury-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/383779/strategy-buys-30m-in-bitcoin-moves-1b-from-usd-reserve-to-cash-pot"
     }
    ],
-   "missing": "Total financial loss for CYBER and perpetrator identity."
+   "missing": "Timeline for executing the expanded buyback program."
   },
   {
-   "t": "Upbit, Bithumb, and Coinone Add CYBER to Delisting Watchlist",
+   "t": "Upbit, Bithumb and Coinone Add CYBER to Delist Watchlist",
    "type": "delisting",
-   "status": "officially_announced",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
     "CYBER"
    ],
    "rel": "direct",
-   "b": "South Korean exchanges Upbit, Bithumb, and Coinone have added the CYBER token to their delisting watchlist following bridge exploit fears.",
+   "b": "South Korean exchanges Upbit, Bithumb, and Coinone have placed the CYBER token on their delisting watchlists following bridge exploit concerns.",
    "per": {
-    "CYBER": "Added to exchange delisting watchlists due to bridge exploit concerns."
+    "CYBER": "Added to South Korean exchange delisting watchlists amid security concerns."
    },
    "direction": "negative",
-   "quality": 85,
+   "quality": 87,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 10,
+    "credibility": 12,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 8,
+   "impact": 9,
    "s": "building",
    "c": "high",
    "sources": [
@@ -75,9 +77,55 @@
     {
      "name": "BigGo Finance",
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kbWZWN0pwekFCNk4xTXlxV1ZzdkEzRlRNUTU4OEViN1JMakRsMzFaUDc4Q1FPSTEwTzFmMlBUbFhvOWxCMFhOZVBiLTY2c2d5RWVrUVdNR2xlSmdGQU8yUXdlSm0tM2gwX2RfNjlobEEyNld4LXc?oc=5"
+    },
+    {
+     "name": "Hokanews",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOWNfMjc4ZVhGVzhKc21iWjZ0SVZUM3hNWi1Sc2xDOHZjNlo0aFhvMEpzRDR3WlFIWjlBcTd1UVkyMkhOZlFoT1dYRHZicEM0TTdKZl9FZm44WENpZzhCVG9aQzh0NG9DZ2lRcnU2M3NWYWExekFUM0lpcXRSQnJ2RQ?oc=5"
     }
    ],
-   "missing": "Exact delisting date."
+   "missing": "Exact delisting date if not remediated."
+  },
+  {
+   "t": "Grayscale Launches 2x Leveraged Zcash ETF",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "ZEC"
+   ],
+   "rel": "direct",
+   "b": "Grayscale has introduced a new 2x leveraged Zcash exchange-traded fund under the ticker ZECX following strong recent gains for ZEC.",
+   "per": {
+    "ZEC": "New 2x leveraged ETF product introduction by Grayscale."
+   },
+   "direction": "positive",
+   "quality": 79,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQjlPWVF0U1lKVXJGeG1RZGp2UHRpc2VpQ0ZNNFNqZXhhMHNNQXRFOUhqNTFKSkhSRnU3Wk1mWXdUd2JaV0w3VVZFSk1Dc1EzNlp6bC0wU3dTWDJ1V0NVVVBUbWl1MzZLTjhwTVBENFVNMTl0WUY4bDRrYnpfUGhqVDQ4aWF3dDAtZVFPR0MzRDl5eVp5aDZaZmlIUDVNWVB4REhYalpjZ0UxMzNwWlpSOHQ0YnY4VnlIa29ZOTNkWQ?oc=5"
+    },
+    {
+     "name": "Crypto Economy",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdFgxbW1kSmVMcC1lX0I1YzMtcW1PcVd0Q3k0RklIeEVQSEZZVDdxNnJFd1dSNjA4RnlNa0VyLUprNmJ2RDEzTGwwalpGSjRTY2EzY2czcVFRSXRlUjI0ekNuMndKUGRCWEt1S1otbHRMY2VYOGJVZVpaeWVLc0RQZA?oc=5"
+    },
+    {
+     "name": "Blockonomi",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORm5hcFJtc2RjelMzS1JuR2ZYZTVFQy1MRnprX1ZlZDU1TnBFSVM5Z3BlYU00RWRxS1ZMTkNtOEY0TW9uUktEWmFJNlZTR2xIX3BmSURPZjFWQ0FERHpxRUJ4ZlV3NlZjOUxERTNBUjFMOS16aHZFeHB1UXhVU090YTRLM3UtNThCR3dOaXJB?oc=5"
+    }
+   ],
+   "missing": "Trading volume and exact day of public market availability."
   }
  ]
 }
