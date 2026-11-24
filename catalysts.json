@@ -1,110 +1,24 @@
 {
- "updated": "2026-11-24T09:52:33.363985+00:00",
+ "updated": "2026-11-24T20:27:40.453860+00:00",
  "cards": [
   {
-   "t": "Strategy Buys Additional 457 BTC",
-   "type": "treasury",
-   "status": "confirmed_upcoming",
-   "event_date": null,
-   "coins": [
-    "BTC"
-   ],
-   "rel": "direct",
-   "b": "Strategy purchased another 457 Bitcoin for $30 million while raising its preferred stock buyback limit and moving funds from its dollar reserve.",
-   "per": {
-    "BTC": "Strategy acquired 457 more BTC during a broader market downturn."
-   },
-   "direction": "positive",
-   "quality": 86,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/strategy-buy-457-bitcoin-btc-treasury-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/newsletters/the-daily/2026-11-24-doj-binance-hack-strategy-bitcoin-more-crypto-news-445430"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-11-23-the-dots-arent-done-michael-saylor-bitcoin-444907"
-    }
-   ],
-   "missing": "Exact settlement date of the purchase"
-  },
-  {
-   "t": "CFTC Staff Issues Advisory Allowing Bitcoin and Ether in Operating Reserves",
-   "type": "regulation",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "BTC",
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "CFTC staff issued guidance stating that regulated derivatives firms can count Bitcoin, Ether, and payment stablecoins toward their operating reserves.",
-   "per": {
-    "BTC": "Can be utilized by regulated derivatives firms toward operating reserves under the new CFTC advisory.",
-    "ETH": "Eligible for counting toward operating reserves for regulated derivatives firms."
-   },
-   "direction": "positive",
-   "quality": 83,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/cftc-staff-say-exchanges-can-count-bitcoin-toward-operating-reserves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/regulation/2026-11-23-cftc-staff-bitcoin-ether-count-toward-derivatives-firms-operating-expenses-445435"
-    },
-    {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSlkxZGRfMWpNc3VWamlUc3JoYkc4MkhWeFVfb0g5eWU4R0pYYWxVR0NfSEpUYVhkSkZVV0RMWlBvYWU0M0Z2OWNSc0ZKR0tNQndpcEpoczR3ZE9xV0taM0xHcG9NTFVpaTdZdmloWEc5MjFPbW1yejlxNGVyNENVLXZVMnhfRmRtNlhLRUtWa3lYQUJ3WmpfNnJDblFmR1AxZE9NZGU0bFZOS1lfdUk3bVhNeElNNEJPaGUwMVZjeS1FMlB5SDkxVHNJWEV4ajZkblVwa2p1UWJxLUNTNzRxd3k1Z3Y4ZlBtZUE?oc=5"
-    }
-   ],
-   "missing": "Timeline for full implementation across all jurisdictions"
-  },
-  {
-   "t": "Upbit, Bithumb, and Coinone Place CYBER on Delisting Watchlist",
+   "t": "Upbit Suspends 0G Deposits and Flags for Potential Delisting",
    "type": "delisting",
    "status": "ongoing",
    "event_date": null,
    "coins": [
-    "CYBER"
+    "0G"
    ],
    "rel": "direct",
-   "b": "Major South Korean exchanges Upbit, Bithumb, and Coinone have placed the CYBER token on their delisting watchlists citing security concerns.",
+   "b": "South Korea's Upbit and Bithumb have suspended deposits for 0G citing token supply and disclosure concerns, initiating a delisting review.",
    "per": {
-    "CYBER": "Placed on exchange delisting watchlists across multiple South Korean platforms."
+    "0G": "Deposits are currently halted and the token is under a delisting review."
    },
    "direction": "negative",
-   "quality": 80,
+   "quality": 84,
    "label": "NEGATIVE CATALYST",
    "parts": {
-    "credibility": 8,
+    "credibility": 12,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
@@ -115,34 +29,47 @@
    "c": "high",
    "sources": [
     {
-     "name": "Hokanews",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOWNfMjc4ZVhGVzhKc21iWjZ0SVZUM3hNWi1Sc2xDOHZjNlo0aFhvMEpzRDR3WlFIWjlBcTd1UVkyMkhOZlFoT1dYRHZicEM0TTdKZl9FZm44WENpZzhCVG9aQzh0NG9DZ2lRcnU2M3NWYWExekFUM0lpcXRSQnJ2RQ?oc=5"
+     "name": "Crypto News",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE01UXdUMF8zQzgtYjNWSXlYOVR6bXFBZmVnSTMycThCeFRCOUYxNXlzUVFFbWU4VlZ5TFZNcU5vanMxa0R4YTFaYlNYTkJOTHlkT2FfeXZ0dk5TZTVDdTVZbDk5cmQ2ZGVMbWdfT3FOa2V0WVZMOWVBTA?oc=5"
+    },
+    {
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5qcnpKcHNBNDZOcEU2TVRPa2JBcTNuMDhxXzN0WDhRbXhKU2htb2xfbEFQRmpEcTNmSEN2dkxiR1cxODFEbnBrWGhhSDRNQWFiR3hCVjBiNHBhTS1lQ19mR1BiUHFBRXdmazdzUjNlc0MzQWZmS0E?oc=5"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZkc3SmJTM0N3T2V5MzlyelpHOHMtem9UUEUyRUNaQ2RYV1FlRTVwc1lRTkwtZG1UaVBmSW1XT3FBdjhvbmR3Wl9ta3JGMDllSld3LU5RR0VNM2syeDRLazNleElvVEdSMXZCWW5PUzFmV3ktSG04QzZhc3duWG5LR0htX3NscFJFdlYxMER0NjM3X21GQUI0TXdFNHdpdmpTdWk0RGtPbDNubGh0Mnc?oc=5"
+    },
+    {
+     "name": "Analytics Insight",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbktoYlZLb2lXamMwRU1pZXpiTXZhbEhnNS1lTjA5TEdUTktKa2k3ZHhiUGw4MXV1TFpKTG5FNHhmR21TWjRreVRnNVN4QzBWMVhiLTc5X1JDekJqd0ZUalhQSGdhaXFLTFdIdnY3NnNkcTltRGdteUFCbnIyQjYzSDRReVR0ME11ZVlteDBGV3JpNFhaUjl4TEFhQS1LVnRCbndHRGI2MmNQOW9qUUtqNEpHRlM2UXpobFHSAccBQVVfeXFMTl84enZUVk9fZDM1Yzc0dWc0cldic2J5SnpJeXB4T0VpTmhPdjZjQ3hUeUhuOW9GOTFvSEdyTUt2dVozVmwxenVDUExDZE1lTVBLLW1abWdDaEpkV1g1T19WMjE1emoyYUxNWTJ5aDEweldSaFRMaU5CVjVITkZ2TmwwdFI0NEZYUlpJVHZWMW5ZblN4VC1JZDZsTGF0TGJEVzB3ZWFKTllVY2ZsUTl2LUpJU0ZWTjViRHpFb1JTU1d4UHQ5VmtqUQ?oc=5"
     }
    ],
-   "missing": "Whether security issues will be resolved before formal delisting"
+   "missing": "The specific timeline for the delisting decision."
   },
   {
-   "t": "DOJ and US Authorities Seek $1.17 Billion in USDC Tied to Binance Hack",
-   "type": "hack",
-   "status": "ongoing",
+   "t": "Sky Protocol Proposes $50M SKY Buyback",
+   "type": "buyback",
+   "status": "confirmed_upcoming",
    "event_date": null,
    "coins": [
-    "USDC"
+    "SKY",
+    "STUSDS"
    ],
    "rel": "direct",
-   "b": "The U.S. Justice Department is seeking to recover approximately $1.17 billion in USDC associated with the recent Binance hack, with Circle agreeing to mint replacement tokens.",
+   "b": "The Sky lender has proposed a buyback program of up to $50 million in SKY tokens to provide liquidity for stUSDS withdrawals.",
    "per": {
-    "USDC": "Authorities are targeting stolen funds while replacement tokens are prepared."
+    "SKY": "Buyback program pending approval to support protocol withdrawals."
    },
-   "direction": "negative",
-   "quality": 80,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 84,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 20,
+    "credibility": 17,
+    "relevance": 25,
+    "impact": 12,
     "novelty": 15,
-    "timing": 12
+    "timing": 15
    },
    "impact": 8,
    "s": "building",
@@ -150,90 +77,10 @@
    "sources": [
     {
      "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/us-seeks-11b-crypto-stolen-north-korea-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398"
-    },
-    {
-     "name": "BitKE",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOGhWWE9MTzR5NWhfMHZ4MGhjSTA5cFNPSGJjQm1aZmwtaHBCNnhxYTRfUzlsSjRNVG5sZDdfMUVhaF9VMHR5bWx2bXEzYlBrTU9BdnAtQzFyTkctbzkwbTZUSlltYi0xQ3dfRkdQRy1MWmpzcFhGdEFTMjA5SjJHNHpodWRUb3AzekxnZg?oc=5"
+     "url": "https://cointelegraph.com/news/sky-community-proposes-50m-buybacks-stusds-liquidity-crisis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Timeline for asset recovery execution"
-  },
-  {
-   "t": "Grayscale Launches 2x Leveraged Zcash ETF",
-   "type": "etf",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "ZEC"
-   ],
-   "rel": "direct",
-   "b": "Grayscale has introduced a new 2x leveraged Zcash ETF (ZECX), which experienced a 13% opening day tumble following its debut.",
-   "per": {
-    "ZEC": "New 2x leveraged Zcash ETF launched, experiencing a 13% opening day drop."
-   },
-   "direction": "mixed",
-   "quality": 77,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 19,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 8,
-   "s": "fading",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Crypto Economy",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdFgxbW1kSmVMcC1lX0I1YzMtcW1PcVd0Q3k0RklIeEVQSEZZVDdxNnJFd1dSNjA4RnlNa0VyLUprNmJ2RDEzTGwwalpGSjRTY2EzY2czcVFRSXRlUjI0ekNuMndKUGRCWEt1S1otbHRMY2VYOGJVZVpaeWVLc0RQZA?oc=5"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-11-23-grayscale-launches-2x-zcash-etf-three-months-spot-fund-debut-445407"
-    }
-   ],
-   "missing": "Long-term trading volume and asset inflows"
-  },
-  {
-   "t": "Ondo Finance Launches USDY Bridge",
-   "type": "mainnet",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "ONDO"
-   ],
-   "rel": "direct",
-   "b": "Ondo Finance launched its USDY bridge, contributing to a 3.04% surge in the ONDO token price.",
-   "per": {
-    "ONDO": "Token surged 3.04% following the launch of the USDY bridge."
-   },
-   "direction": "positive",
-   "quality": 66,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tbWxMWURDQlNUbjBNZzNVdE9weENKS2ttamNNN0l4UTV4VVE2aXNxZzJqUFRkbTBWNUFuNG9aVnh2SVNibkw1a3RCRVVRMXZQdXJGM1h2dXduVGRwUnJ4TWRVdXFpX0M0QXpOUWtZYUo?oc=5"
-    }
-   ],
-   "missing": "Cross-chain volume metrics"
+   "missing": "Approval status of the buyback proposal."
   }
  ]
 }
