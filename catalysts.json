@@ -1,252 +1,135 @@
 {
- "updated": "2026-11-25T03:39:43.661015+00:00",
+ "updated": "2026-11-25T22:46:12.645448+00:00",
  "cards": [
   {
-   "t": "Upbit Suspends Zero Gravity (0G) Deposits and Warns of Delisting",
-   "type": "delisting",
+   "t": "Fidelity Files S-1 for Spot Chainlink ETF",
+   "type": "etf",
    "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "0G"
+    "LINK"
    ],
    "rel": "direct",
-   "b": "South Korea's Upbit has suspended deposits for Zero Gravity (0G) over token supply and disclosure concerns, flagging it as a caution asset and warning of a possible delisting.",
+   "b": "Fidelity has officially filed an S-1 registration statement with the U.S. SEC for a spot Chainlink ETF with a planned listing on Nasdaq.",
    "per": {
-    "0G": "Deposits suspended and potential delisting warned by Upbit over supply and disclosure concerns."
+    "LINK": "Fidelity filed an S-1 for a spot Chainlink ETF on Nasdaq."
    },
-   "direction": "negative",
-   "quality": 87,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 96,
+   "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 12,
+    "credibility": 21,
     "relevance": 25,
     "impact": 20,
     "novelty": 15,
     "timing": 15
    },
-   "impact": 9,
+   "impact": 10,
    "s": "building",
    "c": "high",
    "sources": [
     {
      "name": "Crypto News",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE01UXdUMF8zQzgtYjNWSXlYOVR6bXFBZmVnSTMycThCeFRCOUYxNXlzUVFFbWU4VlZ5TFZNcU5vanMxa0R4YTFaYlNYTkJOTHlkT2FfeXZ0dk5TZTVDdTVZbDk5cmQ2ZGVMbWdfT3FOa2V0WVZMOWVBTA?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZWnBfaHRvMnA4RnZoNE9abUZmazgzZDg4LUdYRmtqSDc2U2N0bzZOcUx6cE82NVlVN1JEOWJoZ0IwN0V6ckxXMEIzOUt6Rjk1LVdKOUJua1dvdkZKYlBtQ0RwTnQxbHgxNlNueDJB?oc=5"
     },
     {
-     "name": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5fYWFUVzMxYjVKTXJwNnRwQzFuTmkwbjlaTDI3NlF6TS12VTlfeXNyWFhzS1NkNzJ2MlhlUFpBTE9JOVRVSUtNUlVqVXluLWt3ajdRSDhFZw?oc=5"
+     "name": "The Block",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQW13TS03NWRDWS1LUDU2dWlFMmNmR3F3cW9xMVNkZFhLNUhYQ2o2WmVMVjZNZVZISXVyNk9xQV9oTHVpa3Y0cWtrek9SOEhkVk1GcUtRdzdzQ3VkeGNfcExROFNHMWlvV0pRY3kxc1piNGMwNUM4RG8tRFlrUlBtR2NjOVMxeXlXMlplbGU2VTlNdmJSanlTdA?oc=5"
     },
     {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZkc3SmJTM0N3T2V5MzlyelpHOHMtem9UUEUyRUNaQ2RYV1FlRTVwc1lRTkwtZG1UaVBmSW1XT3FBdjhvbmR3Wl9ta3JGMDllSld3LU5RR0VNM2syeDRLazNleElvVEdSMXZCWW5PUzFmV3ktSG04QzZhc3duWG5LR0htX3NscFJFdlYxMER0NjM3X21GQUI0TXdFNHdpdmpTdWk0RGtPbDNubGh0Mnc?oc=5"
+     "name": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZzhWbXVGc2tWamVmRzZBVi1mYTAtbVNtb3VuVWRFUjcwNmJIS3lTS0lINThBbnFYNGVXMGtreHo5M2RKekhWOWdJR1NqaHJkd2ZKamlhMmk0dmR0anhFdmF5ZnI4aUlQV0t0cmdHYTRpa29NLWtjYzZpTDlUZThFN0x2c3FTc0VDMTY5cGZIUlFyejVmZUNBdnZpa204NE0?oc=5"
     },
     {
-     "name": "Cryptopolitan",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE83NzVOUkVyNEh2ZG4xcnozUzk5eTh0LVF2UDB2ZWdwYzFjcEZaVVpOUGpLTDNEenJPN0dwYm5IZF9UeFVuTEs5aE9oT2daRVNBWW9RM2ZzMk92bldOWEFrampqT1dtLVRLcHBmYWFDYXJxUE9PUkE?oc=5"
+     "name": "MLQ.ai",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbDZseE00engwaW9VNWg3eXE5YW8xTm9iRUtUQ0oxY1RDMUNLejRLVVZNeWU4MTJOZTMyQWFZVGc0OTN5MllPV281cTdMa2VOQXVCM2xmYUdMeTJwZHpVZmlNYWRRQ0d3Sm5wN1BSTTA2eG1mMzlza3pSeDdCYVdiZlln?oc=5"
     }
    ],
-   "missing": "Exact delisting date or final decision details."
+   "missing": "Approval timeline and SEC review dates"
   },
   {
-   "t": "Sky Lender Proposes Buyback of up to $50M",
-   "type": "buyback",
-   "status": "confirmed_upcoming",
+   "t": "Braiins Warns of Hashrate Hijacking Attacks on Bitcoin Miners",
+   "type": "hack",
+   "status": "ongoing",
    "event_date": null,
    "coins": [
-    "SKY",
-    "STUSDS"
+    "BTC"
    ],
    "rel": "direct",
-   "b": "A Sky lender has proposed a buyback of up to $50 million where borrowers would sell SKY to the protocol to pay down loans and fund stUSDS withdrawals.",
+   "b": "Mining pool operator Braiins issued a security warning that attackers are exploiting unencrypted Stratum V1 connections to hijack computing power across more than 1,000 mining sites.",
    "per": {
-    "SKY": "Proposed buyback of up to $50M to fund stUSDS withdrawals and pay down loans."
+    "BTC": "Miners face hashrate hijacking attacks routing rewards away from pools."
    },
-   "direction": "positive",
-   "quality": 84,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/sky-community-proposes-50m-buybacks-stusds-liquidity-crisis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
-   "missing": "Vote outcome or implementation timeline."
-  },
-  {
-   "t": "CFTC Staff Allows Exchanges to Count Crypto Toward Operating Reserves",
-   "type": "regulation",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "BTC",
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "CFTC staff issued new guidance allowing swap venues and clearinghouses to count Bitcoin, Ether, and payment stablecoins toward their 12-month operating-cost reserves.",
-   "per": {
-    "BTC": "Eligible to be counted toward exchange operating reserves under new CFTC staff guidance.",
-    "ETH": "Eligible to be counted toward exchange operating reserves under new CFTC staff guidance."
-   },
-   "direction": "positive",
-   "quality": 75,
-   "label": "STRONG CATALYST",
+   "direction": "negative",
+   "quality": 80,
+   "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 21,
     "relevance": 12,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
-    "timing": 15
+    "timing": 12
    },
    "impact": 8,
    "s": "building",
    "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/policy/2026/11/23/u-s-cftc-sets-policies-on-event-contract-data-using-crypto-to-check-financial-boxes"
-    },
-    {
      "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/cftc-staff-say-exchanges-can-count-bitcoin-toward-operating-reserves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "url": "https://cointelegraph.com/news/braiins-warns-bitcoin-mining-attacks-affecting-1000-sites?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
      "name": "decrypt.co",
-     "url": "https://decrypt.co/383906/cftc-new-crypto-reserves-guidance-actually-allows-what-it-doesnt"
+     "url": "https://decrypt.co/383999/another-bitcoin-mining-firm-hashrate-hijacking-attacks"
     },
     {
-     "name": "Investment Executive",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQV1ltWW1TVnZDU205Q3dvblVuVzVwRVhBcFF2LU9wTVdnRFFMVlVZUmEtd2N4ZXNHbVk3Y1YxYTFqVzdRNFFYcXhNZkNpNGJldXNRczhDbGkxTFR4bHFqOWs4bTdqVDgyZjZua084RmVldVpnSWZPUmVVekpOLS1JM2FwYXZhdFdVUU1IQktmNlRKUWF2N1lRbkp4Qm9sZVRmX2RYdXNR?oc=5"
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/ecosystems/2026-11-25-bitcoin-miners-hit-hashrate-hijacking-attack-exploiting-unencrypted-connections-446723"
     }
    ],
-   "missing": "Specific haircut percentages applied to each asset type."
+   "missing": "Total financial losses incurred across affected mining sites"
   },
   {
-   "t": "Grayscale Launches First 2x Leveraged Zcash ETF",
+   "t": "Franklin Templeton Adds Hyperliquid's HYPE to Crypto Index ETF",
    "type": "etf",
-   "status": "completed",
-   "event_date": null,
+   "status": "confirmed_upcoming",
+   "event_date": "2026-12-01",
    "coins": [
-    "ZEC"
+    "HYPE"
    ],
    "rel": "direct",
-   "b": "Grayscale has launched its first 2x leveraged Zcash ETF, which attracted $4.6 million in initial inflows while its shares fell on debut.",
+   "b": "Franklin Templeton's crypto index ETF is expanding its basket to eight tokens by adding Hyperliquid's HYPE.",
    "per": {
-    "ZEC": "New 2x leveraged ETF launched by Grayscale, drawing initial inflows and market volatility."
+    "HYPE": "Joining Franklin Templeton's Crypto Index ETF on Dec. 1."
    },
-   "direction": "mixed",
-   "quality": 70,
-   "label": "COMPLETED CATALYST",
+   "direction": "positive",
+   "quality": 79,
+   "label": "STRONG CATALYST",
    "parts": {
     "credibility": 12,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 6
+    "timing": 15
    },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
+   "impact": 8,
+   "s": "building",
+   "c": "high",
    "sources": [
     {
-     "name": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9jM3ptZzBKb2xuVkM3UGNtUExDYmRDY3MyZmJsaDJ2dm5HYWRZZTktR1htcDlWOVphLXVzM3Q1NkJZZkRNOFlYMFN0SFNjMmRsa0NNUQ?oc=5"
+     "name": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX3hZMGdHekJKdnlXbmlaNXhRTHFEdUZrVTNkbXhNUUNOdjRvQXJjLUxmbXRaSTYtakd5ZEI3YXpnc0I1NEhjODhkRnFJNWVjdXgwR0F5NnFRSTZKY3d3ck9WbGhmbnBfaTJVcHNrV25VOGM0Q3d4bnhaTGxtYk5mRjYxLWpNbC1SZTJ1Rl9tYWJDVTBwU01laWU5R1RxRHVMUUVHUnlhdlhsdw?oc=5"
     },
     {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVWxEbWVYM2RxaFk2aEgyVHo0bWFsWnA2VGp6WlBhZDlJSklVTUxEZGwtcHBzQzY5M2pZR0VfUGNfWWpsMkJCUWlOYXFHaXdqNmE1d1VxYXJLU1YxQkJYSVRrRjV2MF9DZGsxM0cyYU5fLVZqcVM3aE44Z3k3a3FteFdROHBHa2lIMlMtSV9PQUo5OEhsLURsNkhFaERrUzNMbjYwT2k1aDVXUQ?oc=5"
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBmcjl2d2pDRTJOS2EzM2piZ2xRZTI5ZWtDeWZoZTBuREhZUmZPVEhGNjhMWXQxRHRyQkk2Y1J3TGRkLUJNbldtb21Dd09kNzlaTVlqNlNGaS10cGh2cXVqX1B5VVBmOVJ6NG54OVVXRmJwTW5lanc?oc=5"
     },
     {
-     "name": "Crypto Economy",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1QR1AxUVNSc2p3a25GQjZMRTFNZWZ0WDdjZGZ5cmhQWXRkdDQtMHc0allqai1OVjNVdnZzdEU5NWMwWGVMVGJmYm1NNHpacDQtbEhUeGR1NVJObWFVM1JMbEd3YjE2d3ZaS0ZQbG9jRGlISDE2eXk1cg?oc=5"
+     "name": "Altcoin Buzz",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZWxEanNRdkt5Y0lGM21vT01iWVNCa1JMbHgzQnktd0hKWV9hSDZpYUZOZ1hBMFZIbVpKQ3NoT24zNHlxbF9oNDBkdk1pZHM0Z1d3OE04ZVNXRmZ0TnYzcm04Y1NFbkVDeTVpVjIwaTg5VVMzQTZRUVJ6QWlCUG9rR1N3WDNjdXNucnlxQ1NGcnBkQnIzVWhINzB1S1FheHJpNkdvVm1mMnJhUWVub2hBSU9tME5GQQ?oc=5"
     }
    ],
-   "missing": "Long-term trading volume and sustained liquidity figures."
-  },
-  {
-   "t": "BTCS Sells More Than Half Its Ether to Repay Aave Debt",
-   "type": "treasury",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "Treasury firm BTCS sold over half of its Ether holdings, offloading 27,300 ETH to repay $43.8 million in Aave debt and reduce leverage risks.",
-   "per": {
-    "ETH": "Subject to large treasury sell-off by BTCS to clear Aave debt."
-   },
-   "direction": "negative",
-   "quality": 66,
-   "label": "NEGATIVE CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/business/2026/11/24/btcs-sells-more-than-half-its-ether-to-repay-usd43-8-million-in-aave-debt"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/btcs-offloads-44m-eth-reduce-defi-debt-market-downturn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/business/2026-11-24-ethereum-treasury-firm-btcs-sells-43-8-million-eth-cut-aave-debt-ceo-says-we-do-not-take-this-lightly-445562"
-    }
-   ],
-   "missing": "Whether further treasury sales are planned."
-  },
-  {
-   "t": "Canary Staked TRX ETF Goes Live on Cboe",
-   "type": "etf",
-   "status": "completed",
-   "event_date": null,
-   "coins": [
-    "TRX"
-   ],
-   "rel": "direct",
-   "b": "The Canary Staked TRX ETF has officially gone live on Cboe, raising expectations of a potential TRX price breakout.",
-   "per": {
-    "TRX": "Canary Staked TRX ETF launched on Cboe."
-   },
-   "direction": "positive",
-   "quality": 66,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 8,
-    "relevance": 25,
-    "impact": 12,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "TronWeekly",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1laEFNT2dxQVB3ZjJWZnBvM25pX2owRVJhLVVielpDUUk4eHlBMG9XYVpITkZtbnlfLXhmUkpKaDBlWG9Tdm1mMHkxeU5SV2VuTDZvYUxlVFBKODlQaWwtbnBrTjRLWV9RMUxSS1p2andrSE9BY2pxZUxTZEw?oc=5"
-    }
-   ],
-   "missing": "Initial trading volumes and daily net inflows."
+   "missing": "Exact weighting of HYPE within the index fund"
   }
  ]
 }
