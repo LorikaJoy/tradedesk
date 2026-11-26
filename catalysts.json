@@ -1,54 +1,8 @@
 {
- "updated": "2026-11-26T14:28:22.055134+00:00",
+ "updated": "2026-11-26T23:11:52.811972+00:00",
  "cards": [
   {
-   "t": "Fidelity Files for Spot Chainlink ETF",
-   "type": "etf",
-   "status": "officially_announced",
-   "event_date": null,
-   "coins": [
-    "LINK"
-   ],
-   "rel": "direct",
-   "b": "Fidelity has filed an S-1 registration statement with the SEC to launch a spot Chainlink ETF, which would be listed on Nasdaq under the ticker FLNK. The filing proposes a LINK fund that currently excludes staking.",
-   "per": {
-    "LINK": "Fidelity's filing marks a potential institutional milestone for Chainlink exposure."
-   },
-   "direction": "positive",
-   "quality": 96,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 10,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "BeInCrypto",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5iUWlXMEF0Z3JVTHJoQzVWdVJLcVU2X1FadThJbzAxaWY2QkE0Nkd4LW5vSkotVUF4VjJhUEQ0TjM2YjNKb01rcnBaWFdGcWhGQ0VRRG5yTXRYSFRNWjVEaGd2WFQzV0tyY0hqWWtUZw?oc=5"
-    },
-    {
-     "name": "Coinpedia",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUm4tSVlsRGVMV2otaUF5enJNd3lCaktqUXN3Q0pvaUFnZGxOZ0JhWlpORUlueUcyWXBaQV9NYm8zOTVyTE9jRXBoRXV2WS1Oa2hDejRuVlJhUDFrU1MwQ1RTMUlRek9DREgtd0lGUGVLc0loYnpSOHpuVmFOV2ZPVF9wbjhCX0JDRmRqR1I5VGZCeWloUmpB0gGcAUFVX3lxTE9Fd2NEMjFNWUQwYURhQlpGU1d1Y2FDRWtHYk90Zzd1YW5FaDg2ZmN4bjd4MnAwSTVoRFZGRHdMU1M4MmtvMmdCLVlvWFo2XzlaQklDa2UxSHl6a3Z2Sjh1WFFTRWdfMDZ6Tmx5VkpEVmhKUkxENFpBRDVmTnpMRHBSOVE4Y1hzQUNjVXVBLTMwd2lseDRycFBKaGowTQ?oc=5"
-    },
-    {
-     "name": "Crypto News",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZWnBfaHRvMnA4RnZoNE9abUZmazgzZDg4LUdYRmtqSDc2U2N0bzZOcUx6cE82NVlVN1JEOWJoZ0IwN0V6ckxXMEIzOUt6Rjk1LVdKOUJua1dvdkZKYlBtQ0RwTnQxbHgxNlNueDJB?oc=5"
-    },
-    {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcWU5NGlQdTQxQi1UYkh6Skl3eEdxajNwc2V0UnBJYUpOUkxLZ3RzLURXTVBUeV8wVjZVU05wOXoxaTFDaGtjSFlyNkZ1WUtOYmJvQkEyRXgxZ3FoanBNbUZmS0tvNTJNamxsQmhaSU5qZ2hCWTlURmZaMF9ScXFXRjNDNUV4ejg2TFpGNHl6aWFndHhqM1U4MlE4SzZmNG5FYWdtel9TdHVxUHFjdHllVmtRdHdqWUNC?oc=5"
-    }
-   ],
-   "missing": "SEC approval timeline and final regulatory verdict."
-  },
-  {
-   "t": "HYPE Token to Join Franklin Templeton Crypto Index ETF",
+   "t": "Hyperliquid HYPE Joins Franklin Templeton Crypto Index ETF",
    "type": "etf",
    "status": "confirmed_upcoming",
    "event_date": "2026-12-01",
@@ -56,17 +10,17 @@
     "HYPE"
    ],
    "rel": "direct",
-   "b": "Franklin Templeton\u2019s Crypto Index ETF (EZPZ) will add Hyperliquid\u2019s HYPE token to its basket of assets starting December 1, 2026.",
+   "b": "Franklin Templeton's Crypto Index ETF (EZPZ) is adding Hyperliquid's HYPE token to its index effective December 1, following an index reshuffle disclosed in an SEC prospectus supplement.",
    "per": {
-    "HYPE": "Inclusion in the Franklin Templeton index expands the token's institutional investment footprint."
+    "HYPE": "Inclusion in Franklin Templeton's EZPZ crypto ETF on Dec 1 brings institutional index exposure."
    },
    "direction": "positive",
-   "quality": 88,
+   "quality": 94,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 21,
+    "credibility": 19,
     "relevance": 25,
-    "impact": 12,
+    "impact": 20,
     "novelty": 15,
     "timing": 15
    },
@@ -75,99 +29,99 @@
    "c": "high",
    "sources": [
     {
-     "name": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX3hZMGdHekJKdnlXbmlaNXhRTHFEdUZrVTNkbXhNUUNOdjRvQXJjLUxmbXRaSTYtakd5ZEI3YXpnc0I1NEhjODhkRnFJNWVjdXgwR0F5NnFRSTZKY3d3ck9WbGhmbnBfaTJVcHNrV25VOGM0Q3d4bnhaTGxtYk5mRjYxLWpNbC1SZTJ1Rl9tYWJDVTBwU01laWU5R1RxRHVMUUVHUnlhdlhsdw?oc=5"
-    },
-    {
-     "name": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ1o0cWlJWTVUSmxuNUY2WWlaYXZiSUdWS21WNVN1NVhWSDNEQUxDRnMzMThiY0JEVEFEODVlU29VVFNCM0xCRFYxMy1paFRKd0t2MjZvWVhMc3NJZW9uSzFIaEV4Zy1xSy1obW5rdHR5OXhhQlhZR0ZtUE50UklscEU5LVFPQXdHRi1tejRwLVNYcWNZX0YzaUwwOHZCQ3V1Q3FydA?oc=5"
-    },
-    {
-     "name": "Altcoin Buzz",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZWxEanNRdkt5Y0lGM21vT01iWVNCa1JMbHgzQnktd0hKWV9hSDZpYUZOZ1hBMFZIbVpKQ3NoT24zNHlxbF9oNDBkdk1pZHM0Z1d3OE04ZVNXRmZ0TnYzcm04Y1NFbkVDeTVpVjIwaTg5VVMzQTZRUVJ6QWlCUG9rR1N3WDNjdXNucnlxQ1NGcnBkQnIzVWhINzB1S1FheHJpNkdvVm1mMnJhUWVub2hBSU9tME5GQQ?oc=5"
+     "name": "unchainedcrypto.com",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWGhHWnN3TXRlSWM5MXRURHBfUWI4VWhOZFBWemJEYWdBR3BtUjFnc1lPZzFIcC1zN1Vtc1dTNGwwbHBvZGg3cTJBTTlING9WdC03SlZ3T3dyYVNpd1M1YmR0b1g2OG5mSElwWWJCa0NRd1g5NGZZMnVQQ2hpdkdyaEhWOEEyZkRtSWg0dW9Nb1BNQjBEMjlXekpteDdyWGJVRDhNLXJ2LXM?oc=5"
     },
     {
      "name": "theblock.co",
      "url": "https://www.theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686"
     }
    ],
-   "missing": "The exact weight of HYPE within the index."
+   "missing": "Exact trading volumes expected from the addition."
   },
   {
-   "t": "Zcash Developers Urge Migration from Sapling Pool",
-   "type": "other",
-   "status": "ongoing",
+   "t": "Fidelity Files for Spot Chainlink ETF with SEC",
+   "type": "etf",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
-    "ZEC"
+    "LINK"
    ],
    "rel": "direct",
-   "b": "Zcash developers are urging users to migrate $300 million from the older 'Sapling' shielded transaction pool, citing potential vulnerabilities to AI-assisted cryptographic breakthroughs.",
+   "b": "Fidelity has officially filed paperwork with the SEC for a spot Chainlink ETF, proposing a Nasdaq listing under the ticker FLNK.",
    "per": {
-    "ZEC": "Migration pressure and potential security concerns may impact liquidity."
+    "LINK": "Fidelity's spot ETF filing expands potential institutional investment channels for Chainlink."
    },
-   "direction": "negative",
-   "quality": 85,
-   "label": "NEGATIVE CATALYST",
+   "direction": "positive",
+   "quality": 87,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Coinpedia",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXdjRDIxTVlEMGFEYUJaRlNXdWNhQ0VrR2JPdGc3dWFuRWg4NmZjeG43eDJwMEk1aERWRkR3TFNTODJrbzJnQi1Zb1haNl85WkJJQ2tlMUh5emt2dko4dVhRU0VnXzA2ek5seVZKRFZoSlJMRDRaQUQ1Zk56TERwUjlROGNYc0FDY1V1QS0zMHdpbHg0cnBQSmhqME3SAZwBQVVfeXFMT0V3Y0QyMU1ZRDBhRGFCWkZTV3VjYUNFa0diT3RnN3VhbkVoODZmY3huN3gycDBJNWhEVkZEd0xTUzgya28yZ0ItWW9YWjZfOVpCSUNrZTFIeXprdnZKOHVYUVNFZ18wNnpObHlWSkRWaEpSTEQ0WkFENWZOekxEcFI5UThjWHNBQ2NVdUEtMzB3aWx4NHJwUEpoajBN?oc=5"
+    },
+    {
+     "name": "Kriptofoni",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1HYWQxWE9aTzIzVE9adVpvclBIX1J4c01TYnE0RDBsZk85Mld4SHR4OEZ1RFNVdS1kYTVYcWktTFZSU1ZFb1YxRnlnUF9ETDIyOHpNdUE0RFZJVlpjTlVrRHg2NUMtTkx1bTJuRXBPNkt5czUtU1VqWkpB?oc=5"
+    },
+    {
+     "name": "TronWeekly",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBHcEZqeXhwUDR2MUViZldMSVZaTm9jMHhBQkZRSUFibll6aHNtenlaWjB0NXU4TzVaRlJvZ09zblpvTG9ZTzVBX3AzT2NjSVRuSU5iQ3NiTTV4SVUyNF9kZDdzczIxWWZyLWJQTktGNXY2QThBRXVaeUln?oc=5"
+    }
+   ],
+   "missing": "SEC approval timeline and final launch date."
+  },
+  {
+   "t": "Switzerland Debuts First Spot Bitcoin ETF on SIX Exchange",
+   "type": "etf",
+   "status": "completed",
+   "event_date": null,
+   "coins": [
+    "BTC"
+   ],
+   "rel": "direct",
+   "b": "BIT Asset Management has launched Switzerland's first spot Bitcoin ETF (BBIT) on the SIX Swiss Exchange, starting with 350 BTC in initial assets and a 0.19% expense ratio.",
+   "per": {
+    "BTC": "European institutional accessibility increases with the debut of Switzerland's first spot Bitcoin ETF."
+   },
+   "direction": "positive",
+   "quality": 79,
+   "label": "COMPLETED CATALYST",
    "parts": {
     "credibility": 21,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 12
+    "timing": 6
    },
    "impact": 8,
-   "s": "building",
+   "s": "fading",
    "c": "high",
    "sources": [
     {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/11/26/zcash-developers-want-users-to-move-usd300-million-out-of-an-older-privacy-system"
+     "name": "MLQ.ai",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcktZS2lvMGk4Q1FoRDg4RWgxR1FDN3B6UVkxSUYtMFhNSTMzUVF3dC1MOUhOTkRQbmZma1JkS0I1THNnM0J6d29CLVRHODFkc0c0dWQ5RUxLUUNXa0JRSTdTTDdNRmh6dnA1MTgxUFhpWGJiVmtjMERXR0dCdW9Yem5TVjVoNHo2U2ZKMlBjWXk?oc=5"
     },
     {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/zcash-users-migrate-zec-supply-sapling-pool-retirement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "name": "BitKE",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BVVBlNmg4NFJwUFJ0VEx6RlhaSXdjZlNkSGZET2FxcU9ENzNnNGF5YlF1dVlNOERJWkp1Rjg4THJuOTdRLWpPOVhkcW9mcUpjTEMyblJLTFhxUVNDdkNRR2d1bw?oc=5"
     },
     {
      "name": "theblock.co",
-     "url": "https://www.theblock.co/news/ecosystems/2026-11-26-the-time-to-prepare-for-a-cryptographic-breakthrough-is-before-it-happens-zcash-team-urges-faster-deprecation-of-legacy-shielded-pool-447000"
+     "url": "https://www.theblock.co/news/markets/2026-11-26-swiss-bitcoin-etf-bbit-begins-trading-europes-only-446724"
     }
    ],
-   "missing": "A specific deadline for the deprecation of the Sapling pool."
-  },
-  {
-   "t": "Aave Labs Launches Savings App",
-   "type": "mainnet",
-   "status": "ongoing",
-   "event_date": null,
-   "coins": [
-    "AAVE"
-   ],
-   "rel": "direct",
-   "b": "Aave Labs has launched a savings app that supports U.S., UK, and EEA bank transfers alongside stablecoin deposits across eight networks, reaching over $63 million in balances.",
-   "per": {
-    "AAVE": "Direct product utility expansion for the Aave ecosystem."
-   },
-   "direction": "positive",
-   "quality": 74,
-   "label": "MODERATE CATALYST",
-   "parts": {
-    "credibility": 17,
-    "relevance": 25,
-    "impact": 5,
-    "novelty": 15,
-    "timing": 12
-   },
-   "impact": 7,
-   "s": "building",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/defi/2026-11-25-aave-labs-publicly-launches-savings-app-as-balances-top-63-million-446674"
-    }
-   ],
-   "missing": "Adoption metrics growth rate."
+   "missing": "Long-term capital inflows beyond the initial 350 BTC."
   }
  ]
 }
