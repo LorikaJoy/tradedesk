@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-26T23:11:52.811972+00:00",
+ "updated": "2026-11-27T05:02:27.339912+00:00",
  "cards": [
   {
-   "t": "Hyperliquid HYPE Joins Franklin Templeton Crypto Index ETF",
-   "type": "etf",
+   "t": "Ethereum Glamsterdam Upgrade Scheduled for December",
+   "type": "mainnet",
    "status": "confirmed_upcoming",
-   "event_date": "2026-12-01",
+   "event_date": null,
    "coins": [
-    "HYPE"
+    "ETH"
    ],
    "rel": "direct",
-   "b": "Franklin Templeton's Crypto Index ETF (EZPZ) is adding Hyperliquid's HYPE token to its index effective December 1, following an index reshuffle disclosed in an SEC prospectus supplement.",
+   "b": "Ethereum developers have cleared the Glamsterdam upgrade for testing in mid-December after seven weeks of delays.",
    "per": {
-    "HYPE": "Inclusion in Franklin Templeton's EZPZ crypto ETF on Dec 1 brings institutional index exposure."
+    "ETH": "The Glamsterdam testnet rollout is scheduled for mid-December."
    },
    "direction": "positive",
    "quality": 94,
@@ -29,18 +29,18 @@
    "c": "high",
    "sources": [
     {
-     "name": "unchainedcrypto.com",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWGhHWnN3TXRlSWM5MXRURHBfUWI4VWhOZFBWemJEYWdBR3BtUjFnc1lPZzFIcC1zN1Vtc1dTNGwwbHBvZGg3cTJBTTlING9WdC03SlZ3T3dyYVNpd1M1YmR0b1g2OG5mSElwWWJCa0NRd1g5NGZZMnVQQ2hpdkdyaEhWOEEyZkRtSWg0dW9Nb1BNQjBEMjlXekpteDdyWGJVRDhNLXJ2LXM?oc=5"
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/11/27/ethereum-s-much-awaited-glamsterdam-upgrade-cleared-for-december-test-here-s-what-to-know"
     },
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686"
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/ethereum-devs-set-glamsterdams-hoodi-rollout-for-mid-december-after-delays?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
-   "missing": "Exact trading volumes expected from the addition."
+   "missing": "Exact calendar date for the December testnet rollout."
   },
   {
-   "t": "Fidelity Files for Spot Chainlink ETF with SEC",
+   "t": "Fidelity Files for Spot Chainlink ETF",
    "type": "etf",
    "status": "officially_announced",
    "event_date": null,
@@ -48,9 +48,9 @@
     "LINK"
    ],
    "rel": "direct",
-   "b": "Fidelity has officially filed paperwork with the SEC for a spot Chainlink ETF, proposing a Nasdaq listing under the ticker FLNK.",
+   "b": "Fidelity has officially filed with the SEC to launch a spot Chainlink ETF on Nasdaq with the proposed ticker FLNK.",
    "per": {
-    "LINK": "Fidelity's spot ETF filing expands potential institutional investment channels for Chainlink."
+    "LINK": "Fidelity submitted an application for a spot Chainlink ETF on Nasdaq."
    },
    "direction": "positive",
    "quality": 87,
@@ -67,6 +67,10 @@
    "c": "high",
    "sources": [
     {
+     "name": "BeInCrypto",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5iUWlXMEF0Z3JVTHJoQzVWdVJLcVU2X1FadThJbzAxaWY2QkE0Nkd4LW5vSkotVUF4VjJhUEQ0TjM2YjNKb01rcnBaWFdGcWhGQ0VRRG5yTXRYSFRNWjVEaGd2WFQzV0tyY0hqWWtUZw?oc=5"
+    },
+    {
      "name": "Coinpedia",
      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXdjRDIxTVlEMGFEYUJaRlNXdWNhQ0VrR2JPdGc3dWFuRWg4NmZjeG43eDJwMEk1aERWRkR3TFNTODJrbzJnQi1Zb1haNl85WkJJQ2tlMUh5emt2dko4dVhRU0VnXzA2ek5seVZKRFZoSlJMRDRaQUQ1Zk56TERwUjlROGNYc0FDY1V1QS0zMHdpbHg0cnBQSmhqME3SAZwBQVVfeXFMT0V3Y0QyMU1ZRDBhRGFCWkZTV3VjYUNFa0diT3RnN3VhbkVoODZmY3huN3gycDBJNWhEVkZEd0xTUzgya28yZ0ItWW9YWjZfOVpCSUNrZTFIeXprdnZKOHVYUVNFZ18wNnpObHlWSkRWaEpSTEQ0WkFENWZOekxEcFI5UThjWHNBQ2NVdUEtMzB3aWx4NHJwUEpoajBN?oc=5"
     },
@@ -75,53 +79,173 @@
      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1HYWQxWE9aTzIzVE9adVpvclBIX1J4c01TYnE0RDBsZk85Mld4SHR4OEZ1RFNVdS1kYTVYcWktTFZSU1ZFb1YxRnlnUF9ETDIyOHpNdUE0RFZJVlpjTlVrRHg2NUMtTkx1bTJuRXBPNkt5czUtU1VqWkpB?oc=5"
     },
     {
-     "name": "TronWeekly",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBHcEZqeXhwUDR2MUViZldMSVZaTm9jMHhBQkZRSUFibll6aHNtenlaWjB0NXU4TzVaRlJvZ09zblpvTG9ZTzVBX3AzT2NjSVRuSU5iQ3NiTTV4SVUyNF9kZDdzczIxWWZyLWJQTktGNXY2QThBRXVaeUln?oc=5"
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUmdVUVNpM0VmeWQ5ZXFrMGxybnU1cHBJb1lOUzJmRy1OVm13d2xQQkZzbE56Tk5LTTJVUWZYQzNVOWxsVXEzbVduQnZtNUFBN3FEZ1hoR3ZtanBZTGFsN1Q1WERWdmg1ZDNya1A1Y0dDR2k5UjlVN256cDRpZ0k0aVlRRkRCa2tNd1ljeTlkbU45MTNpSEY4?oc=5"
     }
    ],
-   "missing": "SEC approval timeline and final launch date."
+   "missing": "SEC approval status and official trading commencement date."
   },
   {
-   "t": "Switzerland Debuts First Spot Bitcoin ETF on SIX Exchange",
+   "t": "Switzerland Debuts First Spot Bitcoin ETF",
    "type": "etf",
-   "status": "completed",
+   "status": "ongoing",
    "event_date": null,
    "coins": [
     "BTC"
    ],
    "rel": "direct",
-   "b": "BIT Asset Management has launched Switzerland's first spot Bitcoin ETF (BBIT) on the SIX Swiss Exchange, starting with 350 BTC in initial assets and a 0.19% expense ratio.",
+   "b": "BIT Asset Management has launched Switzerland's first spot Bitcoin ETF (BBIT) on the SIX Swiss Exchange with 350 BTC in initial assets.",
    "per": {
-    "BTC": "European institutional accessibility increases with the debut of Switzerland's first spot Bitcoin ETF."
+    "BTC": "Switzerland's first spot Bitcoin ETF began trading on SIX with 350 BTC."
    },
    "direction": "positive",
-   "quality": 79,
-   "label": "COMPLETED CATALYST",
+   "quality": 85,
+   "label": "STRONG CATALYST",
    "parts": {
     "credibility": 21,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 6
+    "timing": 12
    },
    "impact": 8,
-   "s": "fading",
+   "s": "building",
    "c": "high",
    "sources": [
-    {
-     "name": "MLQ.ai",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcktZS2lvMGk4Q1FoRDg4RWgxR1FDN3B6UVkxSUYtMFhNSTMzUVF3dC1MOUhOTkRQbmZma1JkS0I1THNnM0J6d29CLVRHODFkc0c0dWQ5RUxLUUNXa0JRSTdTTDdNRmh6dnA1MTgxUFhpWGJiVmtjMERXR0dCdW9Yem5TVjVoNHo2U2ZKMlBjWXk?oc=5"
-    },
     {
      "name": "BitKE",
      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BVVBlNmg4NFJwUFJ0VEx6RlhaSXdjZlNkSGZET2FxcU9ENzNnNGF5YlF1dVlNOERJWkp1Rjg4THJuOTdRLWpPOVhkcW9mcUpjTEMyblJLTFhxUVNDdkNRR2d1bw?oc=5"
     },
     {
-     "name": "theblock.co",
-     "url": "https://www.theblock.co/news/markets/2026-11-26-swiss-bitcoin-etf-bbit-begins-trading-europes-only-446724"
+     "name": "MLQ.ai",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcktZS2lvMGk4Q1FoRDg4RWgxR1FDN3B6UVkxSUYtMFhNSTMzUVF3dC1MOUhOTkRQbmZma1JkS0I1THNnM0J6d29CLVRHODFkc0c0dWQ5RUxLUUNXa0JRSTdTTDdNRmh6dnA1MTgxUFhpWGJiVmtjMERXR0dCdW9Yem5TVjVoNHo2U2ZKMlBjWXk?oc=5"
+    },
+    {
+     "name": "Crypto News",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5XbHdHWHl5aTItRmNEc0tKaFRsRkNRUjAxdXoyVm9IZ2RKbGFGWXVGcFpLNUJETjNTRWJuWUtKSklGWnZ4NGhxeTdYcVlDdk91TGR2YWhuVTVUZnlaX3NfRHptS093VU5Xa3MyeUtHS1g1UUd3VU1qbGhBYw?oc=5"
+    },
+    {
+     "name": "The Crypto Times",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZXUxWlNVeGlHcWZIeEJpVmdMS0liOU9qanVtTEh2WXpDUWZDcmlzUG5obVAyN1ZDVHBwcE9LbnNoNlRYdlNWRjRoWXIxcThEbFZwWlNObmdVY0pYMzVVaDZ1UjlhSVA2SVdaVnd1S1Y3NHVXdmZFM2ZWb1p2TzNjRm0xWlA0WElCT1ZVMmhLLVo5TjM5MXFUbG1CRW5sSFJUUkJFMXBn?oc=5"
     }
    ],
-   "missing": "Long-term capital inflows beyond the initial 350 BTC."
+   "missing": "Long-term asset growth metrics beyond the initial launch."
+  },
+  {
+   "t": "Upbit Lists KGEN and FLR Tokens",
+   "type": "listing",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "KGEN",
+    "FLR"
+   ],
+   "rel": "direct",
+   "b": "Upbit has announced plans to list KGEN and FLR tokens on its BTC and USDT markets.",
+   "per": {
+    "KGEN": "Upbit is listing the token on its BTC and USDT markets.",
+    "FLR": "Upbit is listing the token on its BTC and USDT markets."
+   },
+   "direction": "positive",
+   "quality": 79,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 12,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSTBaQXZocE5OY1dVSldDQWhvZi1EcnYxRXFKR256bGpBQWQwMHo4dkUtWnVwWl9uLXVrWTl1NnducXM2SHMta2xPSkJXUU5VX0hMNmtDSGRPdEtLNlR0ellrNzMxb2VkWmlyRTI5T1NLYjNJNktiS2RrN3k1MWdkNGozME9QUQ?oc=5"
+    },
+    {
+     "name": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE91ZE1taU9fSmhXSnFnMkVLR3N4a1BFTkxCQXJyU1RBWW5mM0p4TFpkUHpBc0RfV2s4SnItN29pNDlDWDBJUnZvckR2M2p1aUxCYkJ0UWpoRlY?oc=5"
+    },
+    {
+     "name": "Wisevoter",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPV1JwUTBmOFdXNXlZRDVSdzZCb1prR3F6YWppR0N0OVhxTy03Q2tkVTJ0eGZ5R2F6ajdEaFh2Z1VjS2dtbG1FVVljdmd4Z09lazNWaUVmUk5xcW1mekpad0NwYVFZWFlkd2hGNVRpWUtWMWp2dnNNdFJ0NTB6MERzbExB?oc=5"
+    }
+   ],
+   "missing": "The exact launch time and date."
+  },
+  {
+   "t": "Upbit Adds Korean Won Trading Pair for HAEDAL",
+   "type": "listing",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "HAEDAL"
+   ],
+   "rel": "direct",
+   "b": "Upbit announced plans to add a Korean won trading pair for the HAEDAL token.",
+   "per": {
+    "HAEDAL": "Upbit is adding a Korean won trading pair."
+   },
+   "direction": "positive",
+   "quality": 77,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 10,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUnU4eGRZdGhyZUV5MGdNU3ZrTVMwLXhTMUp4Nm9FVTFON0hIYXkwZ01ibzhucjlvelcyRER3S3UzanBSZGpWOHlJbEwyUW9tZGR4OE9XTG9jVUl6QVNwbzFKMVlNR2hNRGViWGRaM2pQUUp4YjJXc09vRHFCRGVCSl93YzFOeTBMQ202eVpsMEwzeWUxNWpSUFlrRnNwY2tVNUFzSTZXM0RaYVFKVDNVSA?oc=5"
+    },
+    {
+     "name": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xcUNGSWtuNXE0eW11RUNETWJkSWgxQzhfMFRVWDhqazNzNldMazVVa2VCN0FnY0lSenJnUzFRRV9RU2MyTXZBemdZeVhCZ25NY3FkenU3RnM?oc=5"
+    }
+   ],
+   "missing": "The exact activation date."
+  },
+  {
+   "t": "HYPE Added to Franklin's EZPZ Crypto ETF",
+   "type": "etf",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-12-01",
+   "coins": [
+    "HYPE"
+   ],
+   "rel": "direct",
+   "b": "An index reshuffle is set to include Hyperliquid\u2019s HYPE in Franklin\u2019s EZPZ Crypto ETF starting December 1.",
+   "per": {
+    "HYPE": "Token is being added to Franklin's EZPZ Crypto ETF following an index reshuffle."
+   },
+   "direction": "positive",
+   "quality": 75,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 8,
+    "relevance": 25,
+    "impact": 12,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 8,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "unchainedcrypto.com",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWGhHWnN3TXRlSWM5MXRURHBfUWI4VWhOZFBWemJEYWdBR3BtUjFnc1lPZzFIcC1zN1Vtc1dTNGwwbHBvZGg3cTJBTTlING9WdC03SlZ3T3dyYVNpd1M1YmR0b1g2OG5mSElwWWJCa0NRd1g5NGZZMnVQQ2hpdkdyaEhWOEEyZkRtSWg0dW9Nb1BNQjBEMjlXekpteDdyWGJVRDhNLXJ2LXM?oc=5"
+    }
+   ],
+   "missing": "Immediate post-inclusion trading reactions."
   }
  ]
 }
