@@ -1,18 +1,106 @@
 {
- "updated": "2026-11-27T15:01:16.527258+00:00",
+ "updated": "2026-11-27T23:26:02.061083+00:00",
  "cards": [
   {
-   "t": "Upbit Adds HAEDAL Token to Korean Won Market",
-   "type": "listing",
-   "status": "officially_announced",
+   "t": "Ethereum Glamsterdam Upgrade Scheduled for Hoodi Testnet",
+   "type": "mainnet",
+   "status": "confirmed_upcoming",
+   "event_date": "2026-12-15",
+   "coins": [
+    "ETH"
+   ],
+   "rel": "direct",
+   "b": "Ethereum core developers have scheduled the Glamsterdam upgrade for the Hoodi testnet on December 15, 2026. The fork will proceed with contested gas storage changes after prior delays.",
+   "per": {
+    "ETH": "Testnet implementation of the Glamsterdam upgrade progresses Ethereum's technical roadmap."
+   },
+   "direction": "neutral",
+   "quality": 96,
+   "label": "STRONG CATALYST",
+   "parts": {
+    "credibility": 21,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 15
+   },
+   "impact": 10,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/11/27/ethereum-s-much-awaited-glamsterdam-upgrade-cleared-for-december-test-here-s-what-to-know"
+    },
+    {
+     "name": "cointelegraph.com",
+     "url": "https://cointelegraph.com/news/ethereum-devs-set-glamsterdams-hoodi-rollout-for-mid-december-after-delays?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "name": "decrypt.co",
+     "url": "https://decrypt.co/384104/ethereum-sets-december-15-date-for-delayed-glamsterdam-testnet-upgrade"
+    },
+    {
+     "name": "theblock.co",
+     "url": "https://www.theblock.co/news/ecosystems/2026-11-27-ethereum-devs-schedule-glamsterdam-upgrade-hoodi-447051"
+    }
+   ],
+   "missing": "Mainnet rollout date for the Glamsterdam upgrade"
+  },
+  {
+   "t": "Monero Hit by Back-to-Back Exchange Delistings",
+   "type": "delisting",
+   "status": "ongoing",
    "event_date": null,
    "coins": [
+    "XMR"
+   ],
+   "rel": "direct",
+   "b": "Monero experienced its biggest single-day drop in over five months, tumbling over 11% following back-to-back exchange delistings, including moves by KuCoin.",
+   "per": {
+    "XMR": "Exchange drop actions and delistings triggered a sharp double-digit price crash."
+   },
+   "direction": "negative",
+   "quality": 91,
+   "label": "NEGATIVE CATALYST",
+   "parts": {
+    "credibility": 19,
+    "relevance": 25,
+    "impact": 20,
+    "novelty": 15,
+    "timing": 12
+   },
+   "impact": 9,
+   "s": "building",
+   "c": "high",
+   "sources": [
+    {
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNckV0N3dJMFJMS2lral80SkxMYVp1aDlwWTZtNlVMZjREUUtiUzBVQ1k4MDdURE8yM0VrS1k3VEFGZDFuOFIzeUxCYXRaUm1RUWlyT3ltT3BldE9uc2hXWU9LN3pnOTE4Z0IwY2RLTmJ1YmM4Vnp1WTBkd1pEUkhUTlI0MWROVl80ZG1qR2JHUVNybG9MSGgyT0E2Y0wtSU5hRHkwdF9uWE5SSEhoVUZMMVUxRW03cjc5dldJUTRaX0hhZnNuTWwwajBMOG0?oc=5"
+    },
+    {
+     "name": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/27/monero-suffers-biggest-single-day-slide-in-over-5-months-here-s-why"
+    }
+   ],
+   "missing": "Full list of all exchanges planning to drop Monero"
+  },
+  {
+   "t": "Upbit Lists KGEN, FLR, and HAEDAL",
+   "type": "listing",
+   "status": "confirmed_upcoming",
+   "event_date": null,
+   "coins": [
+    "KGEN",
+    "FLR",
     "HAEDAL"
    ],
    "rel": "direct",
-   "b": "Upbit has announced the addition of the HAEDAL token to its Korean Won (KRW) trading market.",
+   "b": "Upbit is adding KGEN, FLR, and HAEDAL to its trading markets, providing KRW, BTC, and USDT trading pairs. However, the KGEN launch is reportedly delayed.",
    "per": {
-    "HAEDAL": "Listed for KRW trading on Upbit."
+    "KGEN": "Upbit listed KGEN on BTC and USDT markets, but the launch is delayed.",
+    "FLR": "Upbit listed FLR on BTC and USDT markets.",
+    "HAEDAL": "Upbit added HAEDAL to its KRW trading market."
    },
    "direction": "positive",
    "quality": 87,
@@ -34,79 +122,31 @@
     },
     {
      "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUnU4eGRZdGhyZUV5MGdNU3ZrTVMwLXhTMUp4Nm9FVTFON0hIYXkwZ01ibzhucjlvelcyRER3S3UzanBSZGpWOHlJbEwyUW9tZGR4OE9XTG9jVUl6QVNwbzFKMVlNR2hNRGViWGRaM2pQUUp4YjJXc09vRHFCRGVCSl93YzFOeTBMQ202eVpsMEwzeWUxNWpSUFlrRnNwY2tVNUFzSTZXM0RaYVFKVDNVSA?oc=5"
-    },
-    {
-     "name": "NameCoinNews",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51UC1KZlk0LU9IaTRLZzU2T3Y1TmI3VDlWeVphRHo5cGZCZS1mVkQ4cDVxbmFMQWRQMnJiNFI0N0xOcG5lUVNYRFBGTjJMUUtYTEc0cmU4WUU1TTdrUk9zbmpEU2JwM2tLZGpkVHdwcm9DYnJKdVFMRXltUQ?oc=5"
-    },
-    {
-     "name": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xcUNGSWtuNXE0eW11RUNETWJkSWgxQzhfMFRVWDhqazNzNldMazVVa2VCN0FnY0lSenJnUzFRRV9RU2MyTXZBemdZeVhCZ25NY3FkenU3RnM?oc=5"
-    }
-   ],
-   "missing": "Exact launch time or date"
-  },
-  {
-   "t": "Upbit Adds KGEN and FLR to BTC and USDT Markets",
-   "type": "listing",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-11-27",
-   "coins": [
-    "KGEN",
-    "FLR"
-   ],
-   "rel": "direct",
-   "b": "Upbit is listing KGEN and FLR tokens on its BTC and USDT spot trading markets, with FLR trading opening on November 27, 2026, though KGEN launch timing faced a delay.",
-   "per": {
-    "FLR": "Spot trading against BTC and USDT opened on Nov 27, 2026.",
-    "KGEN": "Listing announced with subsequent delay noted for launch."
-   },
-   "direction": "positive",
-   "quality": 87,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 12,
-    "relevance": 25,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 9,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "Pluang",
      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSTBaQXZocE5OY1dVSldDQWhvZi1EcnYxRXFKR256bGpBQWQwMHo4dkUtWnVwWl9uLXVrWTl1NnducXM2SHMta2xPSkJXUU5VX0hMNmtDSGRPdEtLNlR0ellrNzMxb2VkWmlyRTI5T1NLYjNJNktiS2RrN3k1MWdkNGozME9QUQ?oc=5"
-    },
-    {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYWEycDhqcnd2ZEVNLVUxWU94ci1ZMTlzdFlsU1RvSG1zbHJtcVJkck84X1NtRUVVWWtqalhNLUJET3FMOWtBSFppZy1BN3NOZ09HQllYbW85akxYUUtDUmRYZmRNV2Q5OGtfekdHR3RGTEJoakM1XzZTSTNmV1hSYTVSdS1tUG5rclVGeG4wU0hpY1phSGt6eC1iNlVEQ2xweWlrM21zRGp5cV9CU18tWVdFR1FNaVBkVVpyanVMMjJUSzRVZWF6UFlXbw?oc=5"
-    },
-    {
-     "name": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE91ZE1taU9fSmhXSnFnMkVLR3N4a1BFTkxCQXJyU1RBWW5mM0p4TFpkUHpBc0RfV2s4SnItN29pNDlDWDBJUnZvckR2M2p1aUxCYkJ0UWpoRlY?oc=5"
     },
     {
      "name": "Wisevoter",
      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPV1JwUTBmOFdXNXlZRDVSdzZCb1prR3F6YWppR0N0OVhxTy03Q2tkVTJ0eGZ5R2F6ajdEaFh2Z1VjS2dtbG1FVVljdmd4Z09lazNWaUVmUk5xcW1mekpad0NwYVFZWFlkd2hGNVRpWUtWMWp2dnNNdFJ0NTB6MERzbExB?oc=5"
+    },
+    {
+     "name": "Altcoin Buzz",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQ0h2MVZnWktUNWdNeHNRYXNVN0V2cm9CZ0JCZV9LNGNlR2ZLajlVWElCSHBxZjBIM19XTzhzckVlRk9kZGxEM05tYmhUdHFxT2ZvRzdfU3JuQ0JjLUlvZ3U3SkgxOEtzYUlOS0Q5WllYdGsyRlJCSE5hTDZYODdmbUJkSkt1dw?oc=5"
     }
    ],
-   "missing": "Exact rescheduled launch time for KGEN"
+   "missing": "Exact launch timestamps and the specific reason for KGEN's delay"
   },
   {
    "t": "Fidelity Files for Spot Chainlink ETF",
    "type": "etf",
-   "status": "confirmed_upcoming",
+   "status": "officially_announced",
    "event_date": null,
    "coins": [
     "LINK"
    ],
    "rel": "direct",
-   "b": "Fidelity has officially filed an application for a spot Chainlink ETF on Nasdaq, expanding institutional access to LINK.",
+   "b": "Fidelity has officially filed for a spot Chainlink ETF on Nasdaq, driving a 7% surge in LINK's price and sparking increased market interest.",
    "per": {
-    "LINK": "Fidelity filed for a spot ETF tracking the token."
+    "LINK": "Fidelity's spot ETF filing expands institutional accessibility for Chainlink."
    },
    "direction": "positive",
    "quality": 87,
@@ -123,68 +163,26 @@
    "c": "high",
    "sources": [
     {
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SMkVyWkJndjFDOUZfODBrRnR0NzY0NTNYYmd4UEl2UGtoZ2FOZ3RNSTctMlctMWh5U0ZBQXJ6SU40WjlzM3ViNG5sWnV3X3hHRnhZVlk3YjRXYURTaGlYdThVTzVyX0VJWjFQZlB1WW4?oc=5"
+    },
+    {
      "name": "BeInCrypto",
      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5iUWlXMEF0Z3JVTHJoQzVWdVJLcVU2X1FadThJbzAxaWY2QkE0Nkd4LW5vSkotVUF4VjJhUEQ0TjM2YjNKb01rcnBaWFdGcWhGQ0VRRG5yTXRYSFRNWjVEaGd2WFQzV0tyY0hqWWtUZw?oc=5"
     },
     {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUmdVUVNpM0VmeWQ5ZXFrMGxybnU1cHBJb1lOUzJmRy1OVm13d2xQQkZzbE56Tk5LTTJVUWZYQzNVOWxsVXEzbVduQnZtNUFBN3FEZ1hoR3ZtanBZTGFsN1Q1WERWdmg1ZDNya1A1Y0dDR2k5UjlVN256cDRpZ0k0aVlRRkRCa2tNd1ljeTlkbU45MTNpSEY4?oc=5"
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX3ktNG10cXdTR004V2x5QkpNZTBIbEVrdmU1UlE2VTdhdmJTbnFHMng2WjV6b3VramZSeXc4Rjl1Rl9keWJ0OVM2TERnOUtzbTM2SmJNMVNvblNLT1VSd1Vreml3aGJMRjNQTHBKazg3ZUVWaGtaZ0RrclNBdzJZVmFiUVVWajZ4bURQYnM1Z01zWXoybTd0cmpDbmd1VVpXd2tJcUdtbTRfTEdYZ3kzcHlLMl9sLVJCbFB0YjJ4WG93djB3MHNTdQ?oc=5"
     },
     {
-     "name": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNHlwTGJROGFxLWxjSllqclJaUy1OVWRQRDlWa3IyNjlvcFVXSUtYLUdNSjVsWm1JM3doTEdTbVIwcFB3WUVOOHA1c1hnLV9zLXZMd2ZCT2ZFXzdTc08tdHNPVUw4TVdsbHdsb1dnYklvSFFUTENSdFJNWDZaclBFdEVaeEdCS2pna1Qtb3NveFNrTzlyTENvcWhmaFlqMHc?oc=5"
-    },
-    {
-     "name": "Bitcoin News",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNHFZWUZ0YUM1cDhlSTl5X0lYM2FwNTJ4Qk4yS2ZmMzM3TVlwSU9iZjVuT2Q0dS1fcDJhdGFxajNrUmFFNWNKUlJ6UF80b0JqY1RZcVZsNUw3VUhRUERhY3lkVkRMQ0RKRnQ1X3hXVEd3SnEzVi14NV9CM0h0RzdRc0h2RngyS2p3OVBqcXVOeWJmcnN3?oc=5"
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwMzNQVlJsT1JaS0lLekdYRUhxbDVybkNMR2FpR3VpN2NKQmN2V3RYeWVNeDhsRm52U2JQZTQzMnhVVnFNZEJOV3hBX3B0MmpJeXFXSXl3ck4zTjVaM1dpaERmQnI1c3dXR21sSjdCVjdwRkswQUlhbnlUSy0zS1U?oc=5"
     }
    ],
-   "missing": "SEC approval and effective dates"
+   "missing": "SEC review timeline and approval decision date"
   },
   {
-   "t": "Ethereum Developers Schedule Glamsterdam Testnet Upgrade",
-   "type": "mainnet",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-12-15",
-   "coins": [
-    "ETH"
-   ],
-   "rel": "direct",
-   "b": "Ethereum core developers have cleared the Glamsterdam upgrade and set its testnet rollout date for December 15, retaining planned storage and gas changes.",
-   "per": {
-    "ETH": "Upcoming Glamsterdam testnet upgrade scheduled for December 15."
-   },
-   "direction": "positive",
-   "quality": 83,
-   "label": "STRONG CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 15
-   },
-   "impact": 8,
-   "s": "building",
-   "c": "high",
-   "sources": [
-    {
-     "name": "coindesk.com",
-     "url": "https://www.coindesk.com/tech/2026/11/27/ethereum-s-much-awaited-glamsterdam-upgrade-cleared-for-december-test-here-s-what-to-know"
-    },
-    {
-     "name": "cointelegraph.com",
-     "url": "https://cointelegraph.com/news/ethereum-devs-set-glamsterdams-hoodi-rollout-for-mid-december-after-delays?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/384104/ethereum-sets-december-15-date-for-delayed-glamsterdam-testnet-upgrade"
-    }
-   ],
-   "missing": "Mainnet deployment timeline"
-  },
-  {
-   "t": "Franklin Templeton ETF Filing Includes HYPE",
+   "t": "Franklin Crypto Index ETF Adds HYPE",
    "type": "etf",
    "status": "confirmed_upcoming",
    "event_date": "2026-12-01",
@@ -192,15 +190,15 @@
     "HYPE"
    ],
    "rel": "direct",
-   "b": "Hyperliquid (HYPE) has been named as a new index constituent in Franklin's EZPZ ETF, with an effective date set for December 1, 2026.",
+   "b": "Franklin Templeton is adding Hyperliquid's HYPE token as a new constituent to its crypto index ETF around December 1, 2026.",
    "per": {
-    "HYPE": "Enters Franklin's EZPZ ETF on December 1."
+    "HYPE": "Inclusion in the Franklin Crypto Index ETF increases exposure and demand for HYPE."
    },
    "direction": "positive",
-   "quality": 77,
+   "quality": 79,
    "label": "STRONG CATALYST",
    "parts": {
-    "credibility": 10,
+    "credibility": 12,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
@@ -211,110 +209,72 @@
    "c": "high",
    "sources": [
     {
-     "name": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZ0JwQ2RkMEhSWWtranNrTkF1S0U0cFZMMk5ubEtUUjRBLXhFaS1Kc01CWEhwc3VBcWVCQlV0V2lHel9YVk9iWGJ0NFl0eTVaMGxMeExHNHpJMG55UlhVUjJKSWJPelJSMzRaRUxmT3gzRWsyTkR4YUtEU0NoZ2QzLUpIc09LdEgzay04VXBoT1FTMDlCOUJia1ZoWEQ0bElvTG0xTGl5MGpNaEw5bXBIS2Z6eWdNbHVZVEdyTW9lTkxVQzlDUmRDTmVtSllpVEg4?oc=5"
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcnY1a1Axby1GWGRnVlI0UFdRM2J2bGdybHk5U3BBa3JYV0FycGNGTEloWnhUTUNTY05peWlOaVA0OThiZWVscHFWTzhvZFlGQXQyb0ZNTTUwOUFoQXptbmpxbU9jdHllcG1nazFHMkdZVUV0TjhZNEFrYlNfWmlhYUMxRTAyVGpEX1Y2cU9vQ1VGaWNBNnROWTMwTnh4cUwzNHhva0FzMEhnd2xOMlNtS2JqUVR2Y2tQMWpNbDNwcw?oc=5"
     },
     {
-     "name": "Altcoin Buzz",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWm8yZHV0eThyd1lLOTFQMmdwN0tiWE5LdFg1QVBGWVhkb3U5VXRCMW9tUjZwRFJHUFFTSXVKR3U2S1ZxN05od3d6UmNaSVJMcmVBWEhpVFhhOW5ienFScGZpdkZEXzUzV3ROdm9yZFMwcTBaWmlSMjJCNXM1bnFoeTN5LUtoOVg5UnFjQWxn?oc=5"
+     "name": "Coinpaper",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObGpYUHltaXBMTzJkOFdXWUllM2xCSVJrWmdaU1g4SmRKTEJObkxmbllYUW9qZU5sQ1NiQWJqLWRsbUVPOGZORjRPUU5ORTlLSDZfZHlacmlraUJDSUVGSTdXWlNJQ1JKU2owbFlVOF8wY0M2S1hrRmotQmpScnB5U0dybHVPNUd5QXE3TkYzdmtuaWhIaFJtV25TaUJpMUVQazYxNWJaYw?oc=5"
+    },
+    {
+     "name": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ3JadV9feDVFQnBJOU1vWDEtV21jQzRTWk9HSi1mUTRMaDhPdTAxQV9UUFIyY1dCdllvLThCNldnbzBHS0ZZejU4ck9Gd1JTNGM5cXBMVi0xOHliMFkyLVU3SE5mTGQyLW5rc0V2WWQtT0h0STFWaFlVV3Z6YzhicnVnNA?oc=5"
+    },
+    {
+     "name": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZ0JwQ2RkMEhSWWtranNrTkF1S0U0cFZMMk5ubEtUUjRBLXhFaS1Kc01CWEhwc3VBcWVCQlV0V2lHel9YVk9iWGJ0NFl0eTVaMGxMeExHNHpJMG55UlhVUjJKSWJPelJSMzRaRUxmT3gzRWsyTkR4YUtEU0NoZ2QzLUpIc09LdEgzay04VXBoT1FTMDlCOUJia1ZoWEQ0bElvTG0xTGl5MGpNaEw5bXBIS2Z6eWdNbHVZVEdyTW9lTkxVQzlDUmRDTmVtSllpVEg4?oc=5"
     }
    ],
-   "missing": "Final index weighting details"
+   "missing": "Exact weighting percentage of HYPE in the index"
   },
   {
    "t": "Upbit and Bithumb Place CVC and REI on Delisting Watchlist",
    "type": "delisting",
-   "status": "officially_announced",
+   "status": "ongoing",
    "event_date": null,
    "coins": [
     "CVC",
     "REI"
    ],
    "rel": "direct",
-   "b": "South Korean exchanges Upbit and Bithumb have added CVC and REI tokens to their delisting watchlist.",
+   "b": "South Korean exchanges Upbit and Bithumb have added CVC and REI tokens to their delisting watchlists, signaling potential trading removal.",
    "per": {
-    "CVC": "Placed on delisting watchlist by Upbit and Bithumb.",
-    "REI": "Placed on delisting watchlist by Upbit and Bithumb."
+    "CVC": "Placed on exchange delisting watchlist, creating downward price pressure.",
+    "REI": "Placed on exchange delisting watchlist, creating downward price pressure."
    },
    "direction": "negative",
-   "quality": 75,
+   "quality": 72,
    "label": "NEGATIVE CATALYST",
    "parts": {
     "credibility": 8,
     "relevance": 25,
     "impact": 12,
     "novelty": 15,
-    "timing": 15
+    "timing": 12
    },
-   "impact": 8,
+   "impact": 7,
    "s": "building",
-   "c": "high",
+   "c": "medium",
    "sources": [
     {
      "name": "Cryptonews.net",
      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5EaHpRZFgwVlJnamlabVNuVkR2TVZ6SDlENDFpR2lISWVFTU1sUFI1aW5lLVZkMDEzNm9hc2x3VlppX0NFRWpFVFNmdEMtbEpDMFBUTkRfZw?oc=5"
     }
    ],
-   "missing": "Final decision date for delisting"
+   "missing": "Final decision date on whether the tokens will be fully delisted"
   },
   {
-   "t": "Switzerland Launches First Spot Bitcoin ETF (BBIT)",
+   "t": "Malaysia's First Shariah-Compliant Spot Bitcoin ETF Launch",
    "type": "etf",
-   "status": "completed",
-   "event_date": null,
+   "status": "confirmed_upcoming",
+   "event_date": "2026-12-02",
    "coins": [
     "BTC"
    ],
-   "rel": "direct",
-   "b": "BIT Asset Management has launched Switzerland's first spot Bitcoin ETF (BBIT) on the SIX Swiss Exchange, backed by 350 BTC in cold storage.",
+   "rel": "indirect",
+   "b": "Malaysia's first Shariah-compliant spot Bitcoin ETF is scheduled to debut on Bursa Malaysia with an offering of up to $1 billion. Trading is set to begin on December 2, 2026.",
    "per": {
-    "BTC": "Backed by physical Bitcoin holdings in cold storage via the new Swiss ETF."
-   },
-   "direction": "positive",
-   "quality": 74,
-   "label": "COMPLETED CATALYST",
-   "parts": {
-    "credibility": 21,
-    "relevance": 12,
-    "impact": 20,
-    "novelty": 15,
-    "timing": 6
-   },
-   "impact": 7,
-   "s": "fading",
-   "c": "medium",
-   "sources": [
-    {
-     "name": "Incrypted",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPLUp3OW9kMkYwSndKak5ZcWd0a04zUlpRLVoxdU54NnpoYUZua2xrSWJjZkRZTS0wZzYwN2lzUGxjcnA1QjRmOWpUdkVVeDV1aW83ZC1DNmJHMEdvQ3hiZmlEZG0xSVV2UUlxOTFnT1RSaUY3djhqOEoxN1l4RkV3LXkyYw?oc=5"
-    },
-    {
-     "name": "The Armchair Trader",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcy1Rb3JQX0ZwdXBxdWI2MkZoSG9FRTlxNHEwdHB0OVJDME1rRzZlWVBQVWtOdk9pU2VqeFc3eVdPTEt0S1BuUTlHbTNpU3dvRG5sVE1yZFQ5ZzZuT1dMaFJCaXRVdkRoMTBPVFNoQktLaWMzZTRwbUZxNGdRR21yUTBPTTBOcFRpcWdtTlNQajRzSDFXMVBWZnYyazBwU1JNS3c?oc=5"
-    },
-    {
-     "name": "The Manila Times",
-     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOWTlDM2p6UGtkRGNnU0FWcU1sM1dHeUtaRWF0XzhzS21HWTdTRVNsWmJDdGlTS2NKOVdSQWRadlBDc0FXdzhHR1NHTXNWWk9ieC1tUVE4OEpoRHZ1MzU3Qm5UMzRua2RJSmhIeDh3ZDRmaTBuSUFPVEVGNFlXMUo2V1BLNmhpOHE2bUQybm5qT0ZCNlJUQ3JEOERRX1RLLVE1S0lKbkFTTmVpRkJVNnBERThibjdOMTdsMFQ0NF9zMFEyQ25LMjdEc2IzUm95Y0xKVWpjV0lacUNWcldMVDhpOTBDQkdkTkVEdDk4TnhOb1dUSnVpUkJnVDRfONIB-wFBVV95cUxOWTlDM2p6UGtkRGNnU0FWcU1sM1dHeUtaRWF0XzhzS21HWTdTRVNsWmJDdGlTS2NKOVdSQWRadlBDc0FXdzhHR1NHTXNWWk9ieC1tUVE4OEpoRHZ1MzU3Qm5UMzRua2RJSmhIeDh3ZDRmaTBuSUFPVEVGNFlXMUo2V1BLNmhpOHE2bUQybm5qT0ZCNlJUQ3JEOERRX1RLLVE1S0lKbkFTTmVpRkJVNnBERThibjdOMTdsMFQ0NF9zMFEyQ25LMjdEc2IzUm95Y0xKVWpjV0lacUNWcldMVDhpOTBDQkdkTkVEdDk4TnhOb1dUSnVpUkJnVDRfOA?oc=5"
-    },
-    {
-     "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS0Rqc29HbjE3dVRkemEzUjJzX2pkSmpTNkJJX1lkNkQxU25sVVFXR1lHM2F3ejNrX0xJYzV3Zk9LZklvMW9YT3FNM0hNdFpFeGNlaUNLanRMS2VLQmtOUFhZanc0NWNvVVpwU1JwT2RvTk5aNURZM0dRU19sa0FiQkFDbHhfMDJpdVB6aUVWcGM?oc=5"
-    }
-   ],
-   "missing": "Initial trading volume figures beyond the first hour"
-  },
-  {
-   "t": "GraniteShares Sets Effective Date for 3x Long and Short XRP ETFs",
-   "type": "etf",
-   "status": "confirmed_upcoming",
-   "event_date": "2026-11-30",
-   "coins": [
-    "XRP"
-   ],
-   "rel": "direct",
-   "b": "GraniteShares has scheduled November 30 as the effective date for its registration amendments for 3x Long and Short XRP ETFs following SEC filings.",
-   "per": {
-    "XRP": "3x leveraged long and short ETFs set for November 30 effective date."
+    "BTC": "Malaysia's first spot Bitcoin ETF launch expands regional institutional access."
    },
    "direction": "positive",
    "quality": 66,
@@ -331,23 +291,23 @@
    "c": "medium",
    "sources": [
     {
-     "name": "Kriptofoni",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11S1JBTUtLMmhERWUyZ1p2d3AtWl94V2pHLU9kbWdjbDd6dVNMUnlrM3BuVDFvV1h2WWJkajVKOG1rOWV0aXpaNjNfY1dWSUVlSG5ScFRMMjNyV0g4VHlMbk4tc3FvSkNUcjlsRkhLVDE0bm1B?oc=5"
+     "name": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE56bnp0QjZ3b29EQ1VpWDVCZzNHOGx6RFpzQkhFX2NrWko1NVhHMFdJSkZBTnk5SFFMSHMzOFgyeTlDRW1xaUxJb1BESmlmLTN6WVRmRA?oc=5"
     },
     {
-     "name": "KuCoin",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTTRtaVdlVE5HeUJqUmJjV2hqUEpmMWtKa3dFdTFFY09kNFU4NDBtaTZKYXZnUmpheWlWcVRmSkx5QXF2OTZGMFYtcXdLdDFJWVhWeVNUaVVTdHJBRG1ITXEtamtfcWpmZlVKT1dkOEc5XzMzdlJodExrcnk1OEZKT1JfNG0xRWd6eVd0V1htOU1SUWZIU0hxUXF2Z0VYOURNbmd2NG1XcXo?oc=5"
+     "name": "Crypto News",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91em1GZ2d0bWM4SkdOa3U1Ui00LXlUQVRKQWhSSEdpMy0zV2k2WUFCZmdqNjZSeEFsSDlzWGJZLWh5R0RsMERTSkFMWXRGcm55RGtCMFNPb1c3ZnpkX19qQ0Y2MUxLbFNGYWY4NGZB?oc=5"
     },
     {
-     "name": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOV1VjNW9IaW1mb2xHVkNTcVh2eHpqZDNXdTZyVVk5b0FIZHZ1T0NfQVFNWkMxTjZ2Y2tMRjdqdHpGdklQdWFSMGpJUHBvT0MxYks1T3lPdjEzRmgyelNKLW5zSnI2RklyY0VHUFEtY1JwVUdFNTBtSE1MS2JWLXVVcFNlRXczdTZXcUY5RlFfdThHVkl5V2o0NmxHNnpBWXZWSEkwOVNYLW9Yamh3WW1iblBOWmhXSU1KaHZSdmJvY2RDWU9D?oc=5"
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FVjZESE5aS2h0SUl6TUh5Wm94OU5qRmdyeWFzNThSSXNycnI0WTI5bzdUSFNhUkxXQnd2Vk1pbmdPUk9wMVVnOFplV3d3akl3YTVJbWpBRmlpSmlJMUtwMDVHQXNtTWV6Y2hjSWt2Zy04UnRyRHc?oc=5"
     },
     {
      "name": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWVhxVW80ajhMVy1qQVNCWUJRVW5JYVRYZkpWa19fM2RZWlBpRy1XZXQzRjNCcTdnUGdhcmZkcnp6b0JxNHdHYXAzNzdFdlMtbWlDS1VKZ3Z2RHhQd0dDYkxWR19adjRIR1RYYTFYblBZYi1GYVhQa3M4MFBjT0dTLUJMc3VaQQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVUhjR0c2c3Nvd21tcjRMZE4ycFp0cVJMVzRJNE91SUdSUFVhM1VyM284dDZFU0hoWHRoNGppYlhQOWs4WWQyRUo4YXRVTWZaU3F5Y1dOREpWN0RvN1dmcG1MUEx0LS15a2hraTJXQk5aWVRJaHBkazFzZDliZjRiZHlLN0VCOHBOZXFHei13?oc=5"
     }
    ],
-   "missing": "Initial market trading volumes upon launch"
+   "missing": "Total initial subscription figures at launch"
   }
  ]
 }
